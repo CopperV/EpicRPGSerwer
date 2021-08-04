@@ -1,0 +1,26 @@
+id: "p_quest_24"                                
+name: "&ePiracka glupota"
+zleceniodawca: "&4&lDeath"
+lore:                                               
+  - "&aNa poludniu na morzu wylonil sie po dlugim czasie"
+  - "&alatajacy Holender,"
+  - "&aa wraz z nim przekleta zaloga, ktora w swej glupocie"
+  - "&aposiadla przeklety skarb, ktory rowniez ich przeklnal."
+  - "&aUdalo sie im dzieki temu jakos uniknac osadu Smierci,"
+  - "&alecz Ty to naprawisz."
+  - "&aUdasz sie na latajacego Holendra i wybijesz tych piratow."
+prize:                                    
+  - "xp: 30000"
+  - "money: 450"
+require:                                            
+  - "level: 44"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "p_quest_24_1_1"
+        type: "zabij"
+        targetName: "&3Przeklety Pirat"
+        message: "Pokonaj 15 przekletych piratow z latajacego Holendra: %stan%"
+        ilosc: 15

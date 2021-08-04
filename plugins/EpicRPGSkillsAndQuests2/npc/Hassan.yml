@@ -1,0 +1,36 @@
+name: "&eHassan"
+title: "&eHassan - quester"
+size: 18
+slots:
+  1:
+    item: "4_quest_5"
+  2:
+    item: "4_quest_9"
+  3:
+    item: "4_quest_12"
+  4:
+    item: "4_quest_17"
+  5:
+    item: "4_quest_23"
+  8:
+    item: "Zrecznosc1"
+    max: 110
+    wymagania:
+      - "quest: 4_quest_9"
+  9:
+    item: "Zrecznosc5"
+    max: 110
+    wymagania:
+      - "quest: 4_quest_9"
+  17:
+    item: "Zdolnosci1"
+    max: 220
+    wymagania:
+      - "quest: strzelec_quest_7"
+      - "klasa: &2Mysliwy"
+  18:
+    item: "Zdolnosci5"
+    max: 220
+    wymagania:
+      - "quest: strzelec_quest_7"
+      - "klasa: &2Mysliwy"

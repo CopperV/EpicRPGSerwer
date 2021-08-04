@@ -1,0 +1,49 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+
+TiamantSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &9&oMoj Pan bedzie zadowolony z Twej smierci. Przygotuj sie na smierc"} @PlayersInRadius{r=25}
+
+TiamantSkill1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=100} @self
+  - message{m="<mob.name><&co> &9&oGIN!"} @PlayersInRadius{r=25}
+  - delay 40
+  - sound{s=entity.endermen.teleport;v=10} @Origin
+  - orbital{onTick=TiamantOstrze-Tick;onHit=TiamantOstrze-Hit;points=11;interval=1;duration=40;charges=30;r=6;hr=1;rx=0;ry=0;oy=1} @self
+  - orbital{onTick=TiamantOstrze-Tick;onHit=TiamantOstrze-Hit;points=11;interval=1;duration=40;charges=30;r=5;hr=1;rx=0;ry=0;oy=1} @self
+  - orbital{onTick=TiamantOstrze-Tick;onHit=TiamantOstrze-Hit;points=11;interval=1;duration=40;charges=30;r=4;hr=1;rx=0;ry=0;oy=1} @self
+  - orbital{onTick=TiamantOstrze-Tick;onHit=TiamantOstrze-Hit;points=11;interval=1;duration=40;charges=30;r=3;hr=1;rx=0;ry=0;oy=1} @self
+  - orbital{onTick=TiamantOstrze-Tick;onHit=TiamantOstrze-Hit;points=11;interval=1;duration=40;charges=30;r=2;hr=1;rx=0;ry=0;oy=1} @self
+  - orbital{onTick=TiamantOstrze-Tick;onHit=TiamantOstrze-Hit;points=11;interval=1;duration=40;charges=30;r=1;hr=1;rx=0;ry=0;oy=1} @self
+
+TiamantOstrze-Tick:
+  Skills:
+  - effect:particles{p=cloud;amount=4;speed=0.05;hS=0.1;vS=0.1} @origin
+TiamantOstrze-Hit:
+  Skills:
+  - damage{amount=240} @PlayersNearOrigin{r=1.5}
+  - sound{s=entity.player.attack.strong;v=4;p=2} @Origin
+  - throw{velocity=5;velocityY=2} @PlayersNearOrigin{r=1.5}
+
+TiamantSkill2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=60} @self
+  - message{m="<mob.name><&co> &9&oDzielnie stawiasz opor. Niestety, jest on daremny."} @PlayersInRadius{r=25}
+  - summon{type=TiamantSummon;amount=3;radius=4;os=true} @self
+
+TiamantSkill3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=100} @self
+  - message{m="<mob.name><&co> &9&oPrzede mna nie uciekniesz!"} @PlayersInRadius{r=25}
+  - stun{d=40} @self
+  - delay 40
+  - potion{type=SPEED;duration=160;level=3} @self

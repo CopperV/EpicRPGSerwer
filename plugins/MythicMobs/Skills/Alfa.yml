@@ -1,0 +1,28 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+AlfaSummon:
+  Cooldown: 1
+  Skills:
+  - gcd{ticks=65}
+  - message{m="<mob.name><&co> &7Aaauuuuuuuuu!"} @PlayersInRadius{r=20}
+  - delay 5
+  - summon{mob=WilkSummon;amount=1;noise=3} @Self
+  - summon{mob=WilkSummon;amount=1;noise=3} @Self
+  Conditions:
+  - offgcd
+MobRemove:
+  Conditions:
+  - playerwithin{d=55} false
+#  Cooldown: 1
+  Skills:
+  - remove @self
+AlfaTp:
+  Cooldown: 2
+  Skills:
+  - gcd{ticks=80}
+  - message{m="<mob.name><&co> &7Wrrrr!"} @PlayersInRadius{r=10}
+  - delay 20
+  - leap{velocity=50} @target
+  Conditions:
+  - offgcd

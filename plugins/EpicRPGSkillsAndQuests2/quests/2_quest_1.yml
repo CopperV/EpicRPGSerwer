@@ -1,0 +1,35 @@
+id: "2_quest_1"                                
+name: "&bPrawdziwe szkolenie"                          
+zleceniodawca: "&b&lCorristo"                       
+lore:                                               
+  - "&aPora wziac sie za Ciebie na powaznie."
+  - "&aWysylam Ciebie na szkolenie do &1Saturasa&a."
+  - "&aZnajdziesz go w obozie ekspedycyjnym na poludniu."
+  - "&aRuszaj, szkoda, zebys tracil czas."
+prize:                                    
+  - "xp: 210"
+require:                                            
+  - "level: 10"
+stopnie:
+  1:
+    talking: false                    
+    targets:
+      1:
+        id: "2_quest_1_1_1"
+        type: "znajdz"
+        targetName: "exp10"
+        message: "Odnajdz oboz ekspedycyjny Saturasa na pustyni na poludniu (-2;555): %stan%"
+      2:
+        id: "2_quest_1_1_2"                     
+        type: "zagadaj"       
+        targetName: "&1Saturas"                      
+        message: "Zamelduj sie u &1Saturasa: %stan%"
+        dialog:
+          - "&1Saturas&7: &aPatrzcie, patrzcie. Kogo my tu mamy..."
+          - "&1Saturas&7: &aNowy rekrut przyszedl."
+          - "&1Saturas&7: &aSluchaj, slyszalem, cos ty za jeden"
+          - "&1Saturas&7: &ai jak podchodziles do treningow w drodze tutaj,"
+          - "&1Saturas&7: &ana statku."
+          - "&1Saturas&7: &aNiewiele wychodzi calo z szkolen u mnie."
+          - "&1Saturas&7: &aA juz na pewno nie lenie i nieroby."
+          - "&1Saturas&7: &aPrzygotuj sie - czeka na ciebie ciezka praca."

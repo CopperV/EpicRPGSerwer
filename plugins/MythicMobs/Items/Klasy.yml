@@ -1,0 +1,280 @@
+Straz_Miejska1:
+  Id: 299
+  Display: '&bZbroja straznika'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &721'
+  - '&4- &8Sila: &7+6'
+  - '&4- &8Wytrzymalosc: &7+6'
+  - '&4- &8Walka: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &cWojownik'
+  Options:
+    Unbreakable: true
+    Color: RED
+  Attributes:
+    chest:
+      Health: 4
+      KnockbackResistance: 3%
+Straz_Miejska2:
+  Id: 300
+  Display: '&bPancerz straznika'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &717'
+  - '&4- &8Sila: &7+4'
+  - '&4- &8Wytrzymalosc: &7+4'
+  - '&4- &8Walka: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &cWojownik'
+  Options:
+    Unbreakable: true
+    Color: GRAY
+  Attributes:
+    legs:
+      Health: 4
+      KnockbackResistance: 2%
+Straz_Miejska3:
+  Id: 301
+  Display: '&bButy straznika'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &712'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Walka: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &cWojownik'
+  Options:
+    Unbreakable: true
+    Color: RED
+  Attributes:
+    feet:
+      Health: 2
+      MovementSpeed: 0.02
+Straz_Miejska4:
+  Id: 267
+  Display: '&bMiecz straznika'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &729'
+  - '&4- &8Sila: &7+4'
+  - '&4- &8Wytrzymalosc: &7+4'
+  - '&4- &8Walka: &7+3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &cWojownik'
+  Options:
+    Unbreakable: true
+##################################################
+Strzelec1:
+  Id: 299
+  Display: '&aPancerz mysliwego'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &714'
+  - '&4- &8Zrecznosc: &7+8'
+  - '&4- &8Zdolnosci mysliwskie: &7+8'
+  - '&4- &8Walka: &7+3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &2Mysliwy'
+  Options:
+    Unbreakable: true
+    Color: LIME
+  Attributes:
+    chest:
+      Health: 3
+      MovementSpeed: 0.05
+Strzelec2:
+  Id: 300
+  Display: '&aMysliwskie spodnie'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &713'
+  - '&4- &8Zrecznosc: &7+6'
+  - '&4- &8Zdolnosci mysliwskie: &7+6'
+  - '&4- &8Walka: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &2Mysliwy'
+  Options:
+    Unbreakable: true
+    Color: GREEN
+  Attributes:
+    legs:
+      Health: 2
+      MovementSpeed: 0.05
+Strzelec3:
+  Id: 301
+  Display: '&aButy mysliwego'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &79'
+  - '&4- &8Zrecznosc: &7+4'
+  - '&4- &8Zdolnosci mysliwskie: &7+4'
+  - '&4- &8Walka: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &2Mysliwy'
+  Options:
+    Unbreakable: true
+    Color: GREEN
+  Attributes:
+    feet:
+      Health: 2
+      MovementSpeed: 0.07
+Strzelec4:
+  Id: 261
+  Display: '&2Luk mysliwski'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &731'
+  - '&4- &8Zrecznosc: &7+4'
+  - '&4- &8Zdolnosci mysliwskie: &7+4'
+  - '&4- &8Walka: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &2Mysliwy'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.03
+#############################################
+Mag1:
+  Id: 299
+  Display: '&cSzata maga'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &710'
+  - '&4- &8Mana: &7+15'
+  - '&4- &8Inteligencja: &7+5'
+  - '&4- &8Walka: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  Options:
+    Unbreakable: true
+    Health: 8
+    Color: MAGENTA
+  Attributes:
+    chest:
+      Health: 8
+Mag2:
+  Id: 300
+  Display: '&cToga maga'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &79'
+  - '&4- &8Mana: &7+10'
+  - '&4- &8Inteligencja: &7+4'
+  - '&4- &8Walka: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  Options:
+    Unbreakable: true
+    Color: MAGENTA
+  Attributes:
+    legs:
+      Health: 8
+Mag3:
+  Id: 301
+  Display: '&cButy maga'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &78'
+  - '&4- &8Mana: &7+5'
+  - '&4- &8Inteligencja: &7+3'
+  - '&4- &8Walka: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  Options:
+    Unbreakable: true
+    Color: MAGENTA
+  Attributes:
+    feet:
+      Health: 4
+      MovementSpeed: 0.06
+Mag4:
+  Id: 290
+  Display: '&cKostur maga'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &725'
+  - '&4- &8Mana: &7+10'
+  - '&4- &8Inteligencja: &7+6'
+  - '&4- &8Walka: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.02

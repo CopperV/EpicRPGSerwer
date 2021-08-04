@@ -1,0 +1,47 @@
+id: "klasa_quest_paladyn"
+name: "&bJa - paladyn"
+zleceniodawca: "&4&lDargoth"
+lore:
+  - "&aWitaj, jestem dowodca paladynow."
+  - "&aJezeli chcesz do nas dolaczyc,"
+  - "&ato musisz udowodnic, ze na to zaslugujesz,"
+  - "&aze potrafisz walczyc."
+  - "&aPokaz, ze nie zrazaja Ciebie przeciwnicy."
+  - "&aPozbadz sie ich."
+prize:
+  - "xp: 500"
+  - "klasa: &cWojownik"
+  - "cmd: mm i give %player% Straz_Miejska1"
+  - "cmd: mm i give %player% Straz_Miejska2"
+  - "cmd: mm i give %player% Straz_Miejska3"
+  - "cmd: mm i give %player% Straz_Miejska4"
+  - "cmd: rta add %player% 12"
+#nauka - paladyni
+require:
+  - "level: 5"
+  - "klasa: &aobywatel"
+startLevel: 1
+lastLevel: 1
+stopnie:
+  1:
+    talking: true
+    message: "&4&lDargoth&7: &aA wiec to jest twoja wola. Coz, od teraz jestes paladynem. Jest to twoja ostateczna decyzja, nie ma juz odwrotu. Jako paladyni skupiamy sie na doskonaleniu swojej sily, wytrzymalosci jak i walki."
+    targets:
+      1:
+        id: "klasa_quest_paladyn_1_1"
+        type: "zabij"
+        targetName: "&cRabus"
+        ilosc: 20
+        message: "Zabij 20 Rabusiow: %stan%"
+      2:
+        id: "klasa_quest_paladyn_1_2"
+        type: "zabij"
+        targetName: "&cKieszonkowiec"
+        ilosc: 13
+        message: "Zabij 13 Kieszonkowcow: %stan%"
+      3:
+        id: "klasa_quest_paladyn_1_3"
+        type: "zabij"
+        targetName: "&4Bandyta"
+        ilosc: 7
+        message: "Zabij 7 Bandytow: %stan%"

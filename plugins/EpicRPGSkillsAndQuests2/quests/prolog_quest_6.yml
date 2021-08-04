@@ -1,0 +1,24 @@
+id: "prolog_quest_6"                                
+name: "&eAtaki goblinow"                          
+zleceniodawca: "&e&lUthar"                       
+lore:                                               
+  - "&aA wiec sie nie boisz..."
+  - "&aSluchaj, od poludnia caly czas"
+  - "&anapadaja na nas gobliny i rabuja co sie da."
+  - "&aTrzeba polozyc temu kres"
+  - "&ai wlasnie tu do akcji wkraczasz Ty."
+prize:                                    
+  - "xp: 500"
+require:                                            
+  - "level: 3"
+  - "quest: prolog_quest_5"
+stopnie:                                            
+  1:
+    talking: true                    
+    targets:
+      1:
+        id: "prolog_quest_6_1_1"                     
+        type: "zabij"       
+        targetName: "&aMlody Goblin"                      
+        message: "Zabij 15 mlodych goblinow: %stan%"                    
+        ilosc: 15

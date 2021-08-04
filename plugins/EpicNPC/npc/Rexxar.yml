@@ -1,0 +1,17 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&aRexxar"
+  - "&7[&e&oKARCZMARZ&7]"
+skinid: 1063509852
+location:
+  world: "F_RPG"
+  x: -30.5
+  y: 43.5
+  z: 46.3
+  yaw: -180
+  pitch: 30
+lookat: true
+commands:
+  - "cc open titles %player%"

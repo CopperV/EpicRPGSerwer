@@ -1,0 +1,44 @@
+name: "&r&lBialy Enderman"
+title: "&r&lBialy Enderman - quester"
+size: 18
+slots:
+  1:
+    item: "mag_quest_13"
+  2:
+    item: "mag_quest_14"
+  3:
+    item: "mag_quest_15"
+  4:
+    item: "mag_quest_16"
+  8:
+    item: "Mana1"
+    max: 580
+    wymagania:
+      - "quest: mag_quest_15"
+      - "klasa: &5Mag"
+  9:
+    item: "Mana5"
+    max: 580
+    wymagania:
+      - "quest: mag_quest_15"
+      - "klasa: &5Mag"
+  17:
+    item: "Inteligencja1"
+    max: 310
+    wymagania:
+      - "quest: mag_quest_15"
+      - "klasa: &5Mag"
+  18:
+    item: "Inteligencja5"
+    max: 310
+    wymagania:
+      - "quest: mag_quest_15"
+      - "klasa: &5Mag"
+#  8:
+#    item: "skill_arrows"
+#    wymagania:
+#      - "quest: 4_quest_1"
+#  9:
+#    item: "skill_manareg"
+#    wymagania:
+#      - "quest: 3_quest_1"

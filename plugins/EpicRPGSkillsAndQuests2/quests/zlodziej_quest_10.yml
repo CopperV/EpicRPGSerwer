@@ -1,0 +1,27 @@
+id: "zlodziej_quest_10"                                
+name: "&6&oZadne zloto nie smierdzi"                          
+zleceniodawca: "&8&lValeera"                       
+lore:                                               
+  - "&aAssasyni na pustyni sie podzelili."
+  - "&aWlasciwie to czesc po prostu zdradzila."
+  - "&aW konsekwencji zlote monety, ktorymi sie poslugiwali"
+  - "&azostalo zdelegalizowane."
+  - "&aNaszym zadaniem bedzie je umiejetnie"
+  - "&awprowadzic znow w obrot."
+  - "&aZeby moc to zrobic, potrzeba miec samemu pewien zapas."
+prize:                                    
+  - "xp: 9000"
+  - "money: 1000"
+require:                                            
+  - "level: 33"
+  - "quest: zlodziej_quest_8"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "zlodziej_quest_10_1_1"
+        type: "przynies"
+        targetName: "&cNielegalne zloto"
+        message: "Przynies 20 sztuk nielegalnego zlota: %stan%"
+        ilosc: 20

@@ -1,0 +1,453 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+Nefarian1Summon1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=65}
+  - message{m="<mob.name><&co> &7Ja tu rzadze!"} @PlayersInRadius{r=50}
+  - delay 5
+  - summon{mob=Aniol1;amount=4;noise=5} @Self
+  - summon{mob=Aniol2;amount=2;noise=5} @Self
+Nefarian1Summon2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=65}
+  - message{m="<mob.name><&co> &7Ja tu rzadze!"} @PlayersInRadius{r=50}
+  - delay 5
+  - summon{mob=Aniol3;amount=2;noise=5} @Self
+  - summon{mob=Aniol4;amount=1;noise=5} @Self
+Nefarian1Summon3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=65}
+  - message{m="<mob.name><&co> &7Ja tu rzadze!"} @PlayersInRadius{r=50}
+  - delay 5
+  - summon{mob=Aniol5;amount=1;noise=5} @Self
+  - summon{mob=Aniol6;amount=1;noise=5} @Self
+Nefarian1Attack1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=90}
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - sound{s=entity.cat.hiss;v=5} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.3} @self
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.3} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.6} @self
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.3} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.6} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.9} @self
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.3} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.6} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.9} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=1.3} @self
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.3} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.6} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.9} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=1.3} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=1.6} @self
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.3} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.6} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.9} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=1.3} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=1.6} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=2} @self
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - sound{s=entity.ghast.shoot;v=5} @self
+  - leap{v=0} @target
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.3} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.6} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.9} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=1.3} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=1.6} @self
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.3} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.6} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.9} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=1.3} @self
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.3} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.6} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.9} @self
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.3} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.6} @self
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.3} @self
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 2
+  - message{m="<mob.name><&co> &7Ja tu rzadze!"} @PlayersInRadius{r=50}
+  - delay 4
+  - sound{s=entity.generic.explode;v=10} @self
+  - effect:particlering{particle=largeexplode;radius=0;points=4;amount=1} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=6;amount=1} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @self
+  - effect:particlering{particle=largeexplode;radius=2;points=8;amount=1} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @self
+  - effect:particlering{particle=largeexplode;radius=3;points=12;amount=1} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @self
+  - effect:particlering{particle=largeexplode;radius=4;points=16;amount=1} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @self
+  - effect:particlering{particle=largeexplode;radius=5;points=24;amount=1} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @self
+  - effect:particlering{particle=largeexplode;radius=6;points=32;amount=1} @self
+  - damage{amount=110} @PlayersInRadius{r=6}
+  - throw{velocity=7;velocityY=10} @PlayersInRadius{r=6}
+Nefarian1Spawn:
+  Conditions:
+  - mobsInRadius{types=Nefarian2;amount=1;radius=200} false
+  Skills:
+  - message{m="<mob.name><&co> &7Witaj w moim prywatnym sanktuarium bohaterze."} @PlayersInRadius{r=50}
+  - delay 5
+  - summon{mob=Aniol5;amount=2;noise=5} @Self
+  - summon{mob=Aniol6;amount=2;noise=5} @Self
+Nefarian1Spawn2:
+  Conditions:
+  - mobsInRadius{types=Nefarian2;amount=1;radius=200} true
+  Skills:
+  - suicide 1
+Nefarian2Spawn:
+  Skills:
+  - delay 20
+  - message{m="<mob.name><&co> &cNieskonczona moc!"} @PlayersInRadius{r=100}
+  - delay 20
+  - message{m="<mob.name><&co> &cPancerne smocze luski!"} @PlayersInRadius{r=100}
+  - delay 40
+NefarianDeath:
+  Skills:
+  - message{m="&b&lNie! NIE! Zniszcze cie!"} @PlayersOnServer
+  - message{m="&b&lMacie 30 sekund na zebranie dropu!"} @PlayersInRadius{r=100}
+  - message{m="&b&lPo tym czasie zostaniecie przeteleportowani na spawn!"} @PlayersInRadius{r=100}
+  - message{m="&6&lNefarian zostal pokonany!"} @PlayersOnServer
+  - message{m="&6&lProsze nie wchodzic do sanktuarium przez 30 sekund"} @PlayersOnServer
+  - delay 600
+  - command{c="mw move <target.name> F_RPG"} @PlayersInWorld
+NefarianPhase:
+  Conditions:
+  - mobsInRadius{types=Nefarian2;amount=1;radius=200} false
+  Skills:
+  - message{m="<mob.name><&co> &7Hahahaa!"} @PlayersInRadius{r=50}
+  - effect:particlesphere{particle=reddust;amount=200;radius=3;y=0.1} @self
+  - delay 5
+  - effect:particlesphere{particle=reddust;amount=200;radius=3;y=0.1} @self
+  - delay 5
+  - effect:particlesphere{particle=reddust;amount=200;radius=3;y=0.1} @self
+  - delay 5
+  - effect:particlesphere{particle=reddust;amount=200;radius=3;y=0.1} @self
+  - delay 5
+  - effect:particlesphere{particle=reddust;amount=200;radius=3;y=0.1} @self
+  - delay 5
+  - message{m="<mob.name><&co> &7Patrz!"} @PlayersInRadius{r=50}
+  - sound{s=entity.generic.explode;v=10} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=5;radius=1;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=10;radius=2;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=15;radius=3;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=20;radius=4;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=25;radius=5;y=0.1} @self
+  - delay 5
+  - effect:particlesphere{particle=hugeexplosion;amount=5;radius=1;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=10;radius=2;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=15;radius=3;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=20;radius=4;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=25;radius=5;y=0.1} @self
+  - delay 5
+  - sound{s=entity.generic.explode;v=10} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=5;radius=1;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=10;radius=2;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=15;radius=3;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=20;radius=4;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=25;radius=5;y=0.1} @self
+  - delay 5
+  - effect:particlesphere{particle=hugeexplosion;amount=5;radius=1;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=10;radius=2;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=15;radius=3;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=20;radius=4;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=25;radius=5;y=0.1} @self
+  - delay 5
+  - sound{s=entity.generic.explode;v=10} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=5;radius=1;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=10;radius=2;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=15;radius=3;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=20;radius=4;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=25;radius=5;y=0.1} @self
+  - delay 5
+  - message{m="<mob.name><&co> &7Drzyj!"} @PlayersInRadius{r=50}
+  - effect:particlesphere{particle=hugeexplosion;amount=5;radius=1;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=10;radius=2;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=15;radius=3;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=20;radius=4;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=25;radius=5;y=0.1} @self
+  - delay 5
+  - sound{s=entity.generic.explode;v=10} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=5;radius=1;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=10;radius=2;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=15;radius=3;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=20;radius=4;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=25;radius=5;y=0.1} @self
+  - delay 5
+  - effect:particlesphere{particle=hugeexplosion;amount=5;radius=1;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=10;radius=2;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=15;radius=3;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=20;radius=4;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=25;radius=5;y=0.1} @self
+  - delay 5
+  - sound{s=entity.generic.explode;v=10} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=5;radius=1;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=10;radius=2;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=15;radius=3;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=20;radius=4;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=25;radius=5;y=0.1} @self
+  - delay 5
+  - effect:particlesphere{particle=hugeexplosion;amount=5;radius=1;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=10;radius=2;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=15;radius=3;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=20;radius=4;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=25;radius=5;y=0.1} @self
+  - delay 5
+  - sound{s=entity.generic.explode;v=10} @self
+  - message{m="<mob.name><&co> &7Oto prawdziwa moc Nefariana!"} @PlayersInRadius{r=50}
+  - effect:particlesphere{particle=hugeexplosion;amount=5;radius=1;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=10;radius=2;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=15;radius=3;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=20;radius=4;y=0.1} @self
+  - effect:particlesphere{particle=hugeexplosion;amount=25;radius=5;y=0.1} @self
+  - delay 2
+  - summon{mob=Nefarian2;amount=1;noise=1} @Self
+  - delay 100
+  - sound{s=record.mall;v=10} @self
+Nefarian2Attack1:
+  Conditions:
+  - playernotwithin{d=13} true
+  Skills:
+  - sound{s=entity.ghast.shoot;v=10} @self
+  - projectile{onTick=Nefarian2-Tick;onEnd=Nefarian2-End;v=40;i=1;hR=3;vR=3;mr=100;sB=false} @NearestPlayer{r=100}
+Nefarian2Attack2:
+  Conditions:
+  - playernotwithin{d=13} true
+  Skills:
+  - sound{s=entity.ghast.shoot;v=10} @self
+  - projectile{onTick=Nefarian2-Tick;onEnd=Nefarian2-End;v=40;i=1;hR=3;vR=3;mr=100;sB=false} @PIR{r=100}
+Nefarian2Attack3:
+  Conditions:
+  - playernotwithin{d=13} true
+  Skills:
+  - sound{s=entity.ghast.shoot;v=10} @self
+  - projectile{onTick=Nefarian2-Tick;onEnd=Nefarian2-End;v=35;i=1;hR=3;vR=3;mr=100;sB=false} @NearestPlayer{r=100}
+  - delay 60
+  - sound{s=entity.ghast.shoot;v=10} @self
+  - projectile{onTick=Nefarian2-Tick;onEnd=Nefarian2-End;v=35;i=1;hR=3;vR=3;mr=100;sB=false} @NearestPlayer{r=100}
+Nefarian2Attack3Close:
+  Conditions:
+  - playerwithin{d=15} true
+  Skills:
+  - sound{s=entity.ghast.shoot;v=10} @self
+  - projectile{onTick=Nefarian2-Tick2;onEnd=Nefarian2-End2;v=40;i=1.5;hR=2;vR=2;mr=100;sB=false} @PIR{r=100}
+Nefarian2Attack1Close:
+  Conditions:
+  - playerwithin{d=15} true
+  Skills:
+  - sound{s=block.fire.ambient;v=10} @origin
+  - effect:particlering{particle=largeexplode;radius=1;points=4;amount=1} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=4;amount=1;y=1} @self
+  - damage{amount=175} @PlayersInRadius{r=1}
+  - throw{velocity=15;velocityY=5} @PlayersInRadius{r=1}
+  - delay 2
+  - sound{s=block.fire.ambient;v=10} @origin
+  - effect:particlering{particle=largeexplode;radius=2;points=8;amount=1} @self
+  - effect:particlering{particle=largeexplode;radius=2;points=8;amount=1;y=1} @self
+  - damage{amount=165} @PlayersInRadius{r=2}
+  - throw{velocity=13;velocityY=4} @PlayersInRadius{r=2}
+  - delay 2
+  - sound{s=block.fire.ambient;v=10} @origin
+  - effect:particlering{particle=largeexplode;radius=3;points=12;amount=1} @self
+  - effect:particlering{particle=largeexplode;radius=3;points=12;amount=1;y=1} @self
+  - damage{amount=155} @PlayersInRadius{r=3}
+  - throw{velocity=11;velocityY=3} @PlayersInRadius{r=3}
+  - delay 2
+  - sound{s=block.fire.ambient;v=10} @origin
+  - effect:particlering{particle=largeexplode;radius=4;points=16;amount=1} @self
+  - effect:particlering{particle=largeexplode;radius=4;points=16;amount=1;y=1} @self
+  - damage{amount=145} @PlayersInRadius{r=4}
+  - throw{velocity=9;velocityY=2} @PlayersInRadius{r=4}
+  - delay 2
+  - sound{s=block.fire.ambient;v=10} @origin
+  - effect:particlering{particle=largeexplode;radius=5;points=20;amount=1} @self
+  - effect:particlering{particle=largeexplode;radius=5;points=20;amount=1;y=1} @self
+  - damage{amount=135} @PlayersInRadius{r=5}
+  - throw{velocity=7;velocityY=1} @PlayersInRadius{r=5}
+  - delay 2
+  - sound{s=block.fire.ambient;v=10} @origin
+  - effect:particlering{particle=largeexplode;radius=6;points=24;amount=1} @self
+  - effect:particlering{particle=largeexplode;radius=6;points=24;amount=1;y=1} @self
+  - damage{amount=125} @PlayersInRadius{r=6}
+  - throw{velocity=7;velocityY=1} @PlayersInRadius{r=6}
+  - delay 2
+  - sound{s=block.fire.ambient;v=10} @origin
+  - effect:particlering{particle=largeexplode;radius=7;points=28;amount=1} @self
+  - effect:particlering{particle=largeexplode;radius=7;points=28;amount=1;y=1} @self
+  - damage{amount=115} @PlayersInRadius{r=7}
+  - throw{velocity=7;velocityY=1} @PlayersInRadius{r=7}
+  - delay 2
+  - sound{s=block.fire.ambient;v=10} @origin
+  - effect:particlering{particle=largeexplode;radius=8;points=32;amount=1} @self
+  - effect:particlering{particle=largeexplode;radius=8;points=32;amount=1;y=1} @self
+  - damage{amount=105} @PlayersInRadius{r=8}
+  - throw{velocity=7;velocityY=1} @PlayersInRadius{r=8}
+  - delay 2
+  - sound{s=block.fire.ambient;v=10} @origin
+  - effect:particlering{particle=largeexplode;radius=9;points=36;amount=1} @self
+  - effect:particlering{particle=largeexplode;radius=9;points=36;amount=1;y=1} @self
+  - damage{amount=95} @PlayersInRadius{r=9}
+  - throw{velocity=7;velocityY=1} @PlayersInRadius{r=9}
+  - delay 2
+  - sound{s=block.fire.ambient;v=10} @origin
+  - effect:particlering{particle=largeexplode;radius=10;points=40;amount=1} @self
+  - effect:particlering{particle=largeexplode;radius=10;points=40;amount=1;y=1} @self
+  - damage{amount=95} @PlayersInRadius{r=10}
+  - throw{velocity=7;velocityY=1} @PlayersInRadius{r=10}
+  - delay 2
+  - sound{s=block.fire.ambient;v=10} @origin
+  - effect:particlering{particle=largeexplode;radius=11;points=44;amount=1} @self
+  - effect:particlering{particle=largeexplode;radius=11;points=44;amount=1;y=1} @self
+  - damage{amount=95} @PlayersInRadius{r=11}
+  - throw{velocity=7;velocityY=1} @PlayersInRadius{r=11}
+  - delay 2
+  - sound{s=block.fire.ambient;v=10} @origin
+  - effect:particlering{particle=largeexplode;radius=12;points=48;amount=1} @self
+  - effect:particlering{particle=largeexplode;radius=12;points=48;amount=1;y=1} @self
+  - damage{amount=95} @PlayersInRadius{r=12}
+  - throw{velocity=7;velocityY=1} @PlayersInRadius{r=12}
+  - delay 2
+  - sound{s=block.fire.ambient;v=10} @origin
+  - effect:particlering{particle=largeexplode;radius=13;points=52;amount=1} @self
+  - effect:particlering{particle=largeexplode;radius=13;points=52;amount=1;y=1} @self
+  - damage{amount=95} @PlayersInRadius{r=13}
+  - throw{velocity=7;velocityY=1} @PlayersInRadius{r=13}
+  - delay 2
+  - sound{s=block.fire.ambient;v=10} @origin
+  - effect:particlering{particle=largeexplode;radius=14;points=56;amount=1} @self
+  - effect:particlering{particle=largeexplode;radius=14;points=56;amount=1;y=1} @self
+  - damage{amount=95} @PlayersInRadius{r=14}
+  - throw{velocity=7;velocityY=1} @PlayersInRadius{r=14}
+  - delay 2
+  - sound{s=block.fire.ambient;v=10} @origin
+  - effect:particlering{particle=largeexplode;radius=15;points=60;amount=1} @self
+  - effect:particlering{particle=largeexplode;radius=15;points=60;amount=1;y=1} @self
+  - damage{amount=95} @PlayersInRadius{r=15}
+  - throw{velocity=7;velocityY=1} @PlayersInRadius{r=15}
+Nefarian2Attack2Close:
+  Conditions:
+  - playerwithin{d=15} true
+  Skills:
+  - sound{s=block.fire.ambient;v=10} @origin
+  - effect:particlesphere{particle=hugeexplosion;amount=20;radius=5} @self
+  - delay 20
+  - sound{s=entity.generic.explode;v=10} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=4;amount=1;y=-0.5} @self
+  - effect:particlering{particle=largeexplode;radius=2;points=8;amount=1;y=-0.5} @self
+  - effect:particlering{particle=largeexplode;radius=3;points=12;amount=1;y=-0.5} @self
+  - effect:particlering{particle=largeexplode;radius=4;points=16;amount=1;y=-0.5} @self
+  - effect:particlering{particle=largeexplode;radius=5;points=20;amount=1;y=-0.5} @self
+  - effect:particlering{particle=largeexplode;radius=6;points=24;amount=1;y=-0.5} @self
+  - effect:particlering{particle=largeexplode;radius=7;points=28;amount=1;y=-0.5} @self
+  - effect:particlering{particle=largeexplode;radius=8;points=32;amount=1;y=-0.5} @self
+  - effect:particlering{particle=largeexplode;radius=9;points=36;amount=1;y=-0.5} @self
+  - effect:particlering{particle=largeexplode;radius=10;points=40;amount=1;y=-0.5} @self
+  - effect:particlering{particle=largeexplode;radius=11;points=44;amount=1;y=-0.5} @self
+  - effect:particlering{particle=largeexplode;radius=12;points=48;amount=1;y=-0.5} @self
+  - effect:particlering{particle=largeexplode;radius=13;points=52;amount=1;y=-0.5} @self
+  - effect:particlering{particle=largeexplode;radius=14;points=56;amount=1;y=-0.5} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=60;amount=1;y=-0.5} @self
+  - damage{amount=130} @PlayersInRadius{r=15}
+  - throw{velocity=0;velocityY=25} @PlayersInRadius{r=15}
+Nefarian2-Tick:
+  Skills:
+  - sound{s=block.fire.ambient;v=5} @origin
+  - effect:particlesphere{particle=explode;amount=2;radius=1;y=1} @origin
+  - effect:particlesphere{particle=largeexplode;amount=4;radius=2} @origin
+Nefarian2-End:
+  Skills:
+  - sound{s=block.fire.extinguish;v=10} @origin
+  - damage{amount=140} @PlayersNearOrigin{r=3}
+  - ignite{ticks=400} @PlayersNearOrigin{r=3}
+Nefarian2-Tick2:
+  Skills:
+  - sound{s=block.fire.ambient;v=10} @origin
+  - effect:particleline{particle=largeexplode;amount=2} @origin
+Nefarian2-End2:
+  Skills:
+  - sound{s=block.fire.extinguish;v=10} @origin
+  - damage{amount=165} @PlayersNearOrigin{r=2}
+  - ignite{ticks=600} @PlayersNearOrigin{r=2}
+NefarianRemove:
+  Conditions:
+  - playerwithin{d=105} false
+  Skills:
+  - remove @self

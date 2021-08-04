@@ -1,0 +1,44 @@
+id: "mag_quest_15"                                
+name: "&3&oWiedzmia potega"                          
+zleceniodawca: "&r&lBialy Enderman"                       
+lore:                                               
+  - "&aNa czele wyslanych przez Herobrina wiedzm"
+  - "&astoi Szepciucha."
+  - "&aTyle udalo mi sie tylko dowiedziec."
+  - "&aNiestety, nie znamy jej dokladnej lokalizacji,"
+  - "&apoza tym, ze czai sie gdzies w lesie."
+  - "&aOdnajdz ja, a nastepnie wybij jej obstawe."
+  - "&aIm mniej bedzie jej miec, tym latwiej bedzie"
+  - "&aja zgladzic"
+prize:                                    
+  - "xp: 53000"
+  - "money: 500"
+require:                                            
+  - "level: 54"
+  - "klasa: &5Mag"
+  - "quest: mag_quest_14"
+stopnie:
+  1:
+    talking: false
+    message: "&r%player%&7: &bA wiec tutaj zaczaila sie nasza Szepciucha. Cholernie blisko bazy i dosyc pokazna obstawa. Bedzie trzeba sie nia zajac..."
+    targets:
+      1:
+        id: "mag_quest_15_1_1"
+        type: "znajdz"
+        targetName: "szepciucha"
+        message: "Odszukal lokalizacje Szepciuchy: %stan%"
+  2:
+    talking: true
+    targets:
+      1:
+        id: "mag_quest_15_2_1"
+        type: "zabij"
+        targetName: "&5Wiedzma"
+        message: "Zabij 13 Wiedzm: %stan%"
+        ilosc: 13
+      1:
+        id: "mag_quest_15_2_1"
+        type: "zabij"
+        targetName: "&aCreeper"
+        message: "Zabij 13 Creeperow: %stan%"
+        ilosc: 13

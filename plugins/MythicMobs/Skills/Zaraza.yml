@@ -1,0 +1,15 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+MudAttack:
+  Skills:
+  - potion{type=CONFUSION;duration=500;level=4} @trigger 1
+  - potion{type=HUNGER;duration=500;level=1} @trigger 1
+ZarazaAttack1:
+  Skills:
+  - potion{type=SLOW;duration=20;level=2} @Target
+ZarazaAttack2:
+  Skills:
+  - potion{type=SLOW;duration=20;level=3} @Target
+  - potion{type=BLINDNESS;duration=240;level=1} @Target
+  - potion{type=WITHER;duration=100;level=1} @Target

@@ -1,0 +1,68 @@
+id: "fabula_quest_25"
+name: "&3&oZnalezc Geddona"                          
+zleceniodawca: "&c&lAlexstrasza"
+lore:
+  - "&aWiemy juz, ze Geddon przebywa gdzies"
+  - "&ana spaczonych ziemiach."
+  - "&aPora go znalezc."
+  - "&aSzukaj gdzies go tam i wybij jego"
+  - "&aslugi, kiedy go znajdziesz."
+prize:                                    
+  - "xp: 83000"
+require:                                            
+  - "quest: fabula_quest_24"
+  - "level: 47"
+stopnie:
+  1:
+    talking: false
+    message: "&r%player%&7: &bOgromne dwie orbity... Dosyc specyficzne miejsce sobie wybral Geddon. Zaloze sie, ze to nie jest przypadek. Pora wybic jego pomagierow."
+    targets:
+      1:
+        id: "fabula_quest_25_1_1"
+        type: "znajdz"
+        targetName: "baron_geddon"
+        message: "Odnajdz miejsce przebywania Barona Geddona na spaczonych ziemiach (-609;42): %stan%"
+  2:
+    talking: false
+    message: "&r%player%&7: &bGotowe. Pora poinformowac &c&lAlexstrasze&b."
+    targets:
+      1:
+        id: "fabula_quest_25_2_1"
+        type: "zabij"
+        targetName: "&cZywiolak Ognia"
+        message: "Pokonaj 30 zywiolakow ognia ze spaczonych ziem: %stan%"
+        ilosc: 30
+      2:
+        id: "fabula_quest_25_2_2"
+        type: "zabij"
+        targetName: "&4Zarzyciel"
+        message: "Pokonaj 10 Zarzycieli: %stan%"
+        ilosc: 10
+      3:
+        id: "fabula_quest_25_2_3"
+        type: "zabij"
+        targetName: "&c&lWulkaniczny Furiat"
+        message: "Pokonaj 15 Wulkanicznych Furiatow: %stan%"
+        ilosc: 15
+      4:
+        id: "fabula_quest_25_2_4"
+        type: "zabij"
+        targetName: "&4&lWulkaniczny Olbrzym"
+        message: "Pokonaj 5 Wulkanicznych Olbrzymow: %stan%"
+        ilosc: 5
+  3:
+    talking: false
+    targets:
+      1:
+        id: "fabula_quest_25_3_1"
+        type: "zagadaj"
+        targetName: "&c&lAlexstrasza"
+        message: "Porozmawiaj z &c&lAlexstrasza: %stan%"
+        dialog:
+          - "&r%player%&7: &bBaron Geddon jakos nie staral sie zbytnio ukrywac."
+          - "&r%player%&7: &bPrzebywa obecnie wsrod jakiejs budowli."
+          - "&r%player%&7: &bPrzypomina slonce z orbitami."
+          - "&c&oAlexstrasza&7: &aCzy wybiles jego obstawe?"
+          - "&r%player%&7: &bOczywiscie."
+          - "&c&oAlexstrasza&7: &aZnakomicie."
+          - "&c&oAlexstrasza&7: &aTeraz ten zdrajca juz sie nam nie wymknie."

@@ -1,0 +1,38 @@
+id: "zlodziej_quest_2"                                
+name: "&e&oZloto na poczet gildii"                          
+zleceniodawca: "&8&lValeera"                       
+lore:                                               
+  - "&aTak sie zastanawiam, od czego by"
+  - "&atu rozpoczac nasza wspolprace..."
+  - "&aZlodzieje sa slawni z tego powodu,"
+  - "&aze bardzo lubia zloto."
+  - "&aNiech tradycji stanie sie za dosc..."
+  - "&aPrzynies mi zloto, zloto i jeszcze raz zloto!"
+prize:                                    
+  - "xp: 425"
+require:                                            
+  - "level: 11"
+  - "quest: zlodziej_quest_1"
+stopnie:
+  1:
+    talking: true
+    message: "&8&lValeera&7: &aZloto na dobry poczatek wspolpracy na pewno nie zaszkodzi..."
+    targets:
+      1:
+        id: "zlodziej_quest_2_1_1"
+        type: "przynies"
+        targetName: "&6Zloto"
+        message: "Przynies 23 sztuki bandyckiego zlota: %stan%"
+        ilosc: 23
+      2:
+        id: "zlodziej_quest_2_1_2"
+        type: "przynies"
+        targetName: "&6Skradzione Zloto"
+        message: "Przynies 12 blokow skradzionego zlota: %stan%"
+        ilosc: 12
+      3:
+        id: "zlodziej_quest_2_1_3"
+        type: "przynies"
+        targetName: "&eGoblinie Zloto"
+        message: "Przynies 20 sztuk gobliniego zlota: %stan%"
+        ilosc: 20

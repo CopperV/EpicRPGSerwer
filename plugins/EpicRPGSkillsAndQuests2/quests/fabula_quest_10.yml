@@ -1,0 +1,30 @@
+id: "fabula_quest_10"
+name: "&2&lOczyszcic bagna I"                          
+zleceniodawca: "&7&lCarl"
+lore:
+  - "&aGotow na rozpoczecie oczyszczania bagien?"
+  - "&aDam Ci jedna rade - stworzenia na bagnach"
+  - "&asa strasznie powolne, ale tez potrafia sie regenerowac,"
+  - "&aleczyc swoje rany."
+  - "&aMusisz miec to na uwadze, kiedy bedziesz oczyszczac bagna."
+prize:                                    
+  - "xp: 11000"
+require:                                            
+  - "quest: fabula_quest_9"
+  - "level: 27"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "fabula_quest_10_1_1"
+        type: "zabij"
+        targetName: "&3Zombie"
+        message: "Zabij 28 Zombie z bagien: %stan%"
+        ilosc: 28
+      2:
+        id: "fabula_quest_10_1_2"
+        type: "zabij"
+        targetName: "&2&lHUSK - miniBOSS"
+        message: "Zabij 7 Huskow z bagien: %stan%"
+        ilosc: 7

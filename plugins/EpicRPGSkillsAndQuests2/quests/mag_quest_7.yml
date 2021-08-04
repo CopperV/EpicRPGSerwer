@@ -1,0 +1,48 @@
+id: "mag_quest_7"
+name: "&cArcymag &r- &5Arcymistrz"
+zleceniodawca: "&c&lCanthar"
+lore:
+  - "&aNajpotezniejsze czary wymagaja od maga"
+  - "&aznajomosci VI kregu magii."
+  - "&aTylko jednemu z nas udalo sie zglebic te tajniki."
+  - "&aNiestety, jak sie mozna spodziewac, zniknal."
+  - "&aPorzucil nasze nauki i dogmaty i sam wyruszyl swiat."
+  - "&aPlotki glosza, ze wyruszyl na poludnie."
+  - "&aIdz i spytaj sie &6&lRhobara &ao &8Xardasa&a."
+prize:
+  - "xp: 1000"
+require:
+  - "level: 35"
+  - "klasa: &5Mag"
+  - "quest: mag_quest_6"
+  - "quest: pirat_quest_5"
+stopnie:
+  1:
+    talking: false
+    targets:
+      1:
+        id: "mag_quest_7_1_1"
+        type: "zagadaj"
+        targetName: "&6&lRhobar"
+        message: "Porozmawiaj z &6&lRhobarem: %stan%"
+        dialog:
+        - "%player%&7: &bCo mozesz mi powiedziec o &8Xardasie&b?"
+        - "&6&lRhobar&7: &aNie za duzo."
+        - "&6&lRhobar&7: &aPojawil sie tu nagle i zaoferowal swa pomoc w powstrzymaniu orkow."
+        - "&6&lRhobar&7: &aZajal jeszcze bez mojej wiedzy i mojego pozwolenia jedna z wiez."
+  2:
+    talking: false
+    targets:
+      1:
+        id: "mag_quest_7_2_1"
+        type: "zagadaj"
+        targetName: "&8Xardas"
+        message: "Porozmawiaj z &8Xardasem: %stan%"
+        dialog:
+        - "&8Xardas&7: &aKim jestes i co ty tutaj robisz?"
+        - "&8Xardas&7: &aWyczuwam wokol Ciebie magiczna aure..."
+        - "&8Xardas&7: &aPo jaka cholere sie tutaj zjawiles!?"
+        - "&r%player%&7: &bChcialbym zglebic tajniki Vi kregu magii, a slyszalem, ze ty jestes jedynym magiem, ktory moze mi w tym pomoc."
+        - "&8Xardas&7: &aI myslisz, ze ot tak zaczne Ciebie uczyc, hm!?"
+        - "&8Xardas&7: &aNie ma tak latwo."
+        - "&8Xardas&7: &aJezeli chcesz, bym Ci przekazal swoja wiedze, to musisz zrozumiec istote magii, jej potege i moc..."

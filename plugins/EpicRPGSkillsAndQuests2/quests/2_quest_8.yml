@@ -1,0 +1,60 @@
+id: "2_quest_8"                                
+name: "&e&lPrastare ruiny"                          
+zleceniodawca: "&1Saturas"                       
+lore:                                               
+  - "&aNo coz, mam zle wiesci dla ciebie."
+  - "&aOstatnio sie nie popisales."
+  - "&aW tych pismach niemalze nic ciekawego nie ma."
+  - "&aUdasz sie wiec do ruin budowniczych i stamtad"
+  - "&aprzyniesiesz mi piach, pisma oraz serca mumii."
+prize:                                    
+  - "xp: 2295"
+require:                                            
+  - "level: 17"
+  - "quest: 2_quest_7"
+stopnie:
+  1:
+    talking: true
+    message: "&1Saturas&7: &aNo, juz lepiej. Widze, ze sie teraz postarales. Zobaczymy, co uda mi sie z tych pisemek odczytac..."
+    targets:
+      1:
+        id: "2_quest_8_1_1"
+        type: "znajdz"
+        targetName: "ruiny_budowniczych"
+        message: "Udaj sie do ruin wioski budowniczych (-259;310): %stan%"
+      2:
+        id: "2_quest_8_1_2"
+        type: "zabij"
+        targetName: "&6&lKaplan budowniczych"
+        message: "Pokonaj 10 kaplanow budowniczych: %stan%"
+        ilosc: 10
+      3:
+        id: "2_quest_8_1_3"
+        type: "zabij"
+        targetName: "&4MUMIA"
+        message: "Pokonaj 20 mumii: %stan%"
+        ilosc: 20
+      4:
+        id: "2_quest_8_1_4"
+        type: "zabij"
+        targetName: "&4STAROZYTNA MUMIA"
+        message: "Pokonaj 10 starozytnych mumii: %stan%"
+        ilosc: 10
+      5:
+        id: "2_quest_8_1_5"
+        type: "przynies"
+        targetName: "&rPisma budowniczych"
+        message: "Przynies 15 pism budowniczych: %stan%"
+        ilosc: 15
+      6:
+        id: "2_quest_8_1_6"
+        type: "przynies"
+        targetName: "&ePustynny piach"
+        message: "Przynies 30 porcji pustynnego piachu: %stan%"
+        ilosc: 30
+      7:
+        id: "2_quest_8_1_7"
+        type: "przynies"
+        targetName: "&eSerce mumii"
+        message: "Przynies 10 serc mumii: %stan%"
+        ilosc: 10

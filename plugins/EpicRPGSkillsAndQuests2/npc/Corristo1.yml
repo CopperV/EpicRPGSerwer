@@ -1,0 +1,44 @@
+name: "&6&lCorristo"
+title: "&6&lCorristo - dowodca"
+size: 54
+slots:
+  1:
+    item: "prolog_quest_1"
+  2:
+    item: "prolog_quest_2"
+  8:
+    item: "Sila1"
+    max: 10
+  9:
+    item: "Sila5"
+    max: 10
+  17:
+    item: "Wytrzymalosc1"
+    max: 10
+  18:
+    item: "Wytrzymalosc5"
+    max: 10
+  26:
+    item: "Zrecznosc1"
+    max: 10
+  27:
+    item: "Zrecznosc5"
+    max: 10
+  35:
+    item: "Zdolnosci1"
+    max: 10
+  36:
+    item: "Zdolnosci5"
+    max: 10
+  44:
+    item: "Inteligencja1"
+    max: 10
+  45:
+    item: "Inteligencja5"
+    max: 10
+  53:
+    item: "Mana1"
+    max: 15
+  54:
+    item: "Mana5"
+    max: 15

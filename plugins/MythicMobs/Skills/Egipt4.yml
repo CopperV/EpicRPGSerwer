@@ -1,0 +1,24 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+Egipt4Summon:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=60}
+  - summon{mob=Egipt5;amount=1;noise=3} @Self
+Egipt4Attack1:
+  Skills:
+  - potion{type=BLINDNESS;duration=400;level=2} @target
+  - potion{type=CONFUSION;duration=400;level=2} @target
+  - potion{type=WITHER;duration=400;level=2} @target
+Egipt4Attack2:
+  Skills:
+  - potion{type=CONFUSION;duration=400;level=2} @target
+  - potion{type=POISON;duration=400;level=1} @target
+Egipt4Attack3:
+  Skills:
+  - potion{type=BLINDNESS;duration=400;level=2} @target
+  - effect:flames @target
+  - delay 3
+  - damage{a=40} @target

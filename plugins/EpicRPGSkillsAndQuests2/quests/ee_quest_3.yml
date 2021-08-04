@@ -1,0 +1,28 @@
+id: "ee_quest_3"                                
+name: "&c&oMoje zycie, Twoje zycie"                          
+zleceniodawca: "&3&lDecard"                       
+lore:                                               
+  - "&aSwiat ten do zycia potrzebuja esencji,"
+  - "&aesencji, ktora jest rozkradana przez"
+  - "&atych najezdzcow."
+  - "&aBez niej ten swiat nie przezyje."
+  - "&aA badz pewien,"
+  - "&aze po moim przyjda po Twoj."
+  - "&aJezeli nie chcesz do tego dopuscic,"
+  - "&ato musisz mi pomoc."
+prize:                                    
+  - "xp: 26000"
+  - "money: 750"
+require:                                            
+  - "level: 42"
+  - "quest: ee_quest_2"
+stopnie:
+  1:
+    talking: true                  
+    targets:
+      1:
+        id: "ee_quest_3_1_1"
+        type: "przynies"
+        targetName: "&6&lEsencja RPG"
+        message: "Przynies 40 esencji RPG: %stan%"
+        ilosc: 40

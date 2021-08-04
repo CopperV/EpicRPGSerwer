@@ -1,0 +1,38 @@
+id: "5_quest_8"
+name: "&a&lDac wolnosc"
+zleceniodawca: "&b&lTyrael"
+lore:                                               
+  - "&aNadzei dla tej krainy nie ma."
+  - "&aJedyne, co mozemy zrobic,"
+  - "&ato powstrzymac spaczenie przed dalszym"
+  - "&arozprzestrzenianiem sie."
+  - "&aNie nalezy jednak zapominac o tych, ktorych"
+  - "&abezposrednio dotknelo to spaczenie."
+  - "&aNalezy dac im tak dluga wyczekiwana wolnosc."
+prize:                                    
+  - "xp: 85000"
+require:                                            
+  - "level: 50"
+  - "quest: 5_quest_7"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "5_quest_8_1_1"                     
+        type: "zabij"       
+        targetName: "&cSpaczona dusza"                      
+        message: "Pokonaj 30 Spaczonych Dusz: %stan%"
+        ilosc: 30
+      2:
+        id: "5_quest_8_1_2"                     
+        type: "zabij"       
+        targetName: "&c&oSpaczony kyrian"                      
+        message: "Pokonaj 20 Spaczonych Kyrian: %stan%"
+        ilosc: 20
+      3:
+        id: "5_quest_8_1_3"                     
+        type: "zabij"       
+        targetName: "&4Mroczny Kyrian"                      
+        message: "Pokonaj 10 Mrocznych Kyrian: %stan%"
+        ilosc: 10

@@ -1,0 +1,26 @@
+id: "4_quest_5"                                
+name: "&aPupile orkow"                          
+zleceniodawca: "&eHassan"                       
+lore:                                               
+  - "&aZaczniemy od czegos prostego."
+  - "&aPrawie w kazdej bitwie orkowie wykorzystuja wargi."
+  - "&aWalka z nimi jest mocno upierdliwa,"
+  - "&auzupelniaja orkow o to, co im brakuje."
+  - "&aWniosek jest prosty."
+  - "&aBez wargow walka z orkami staje sie nagle latwa."
+prize:                                    
+  - "xp: 4800"
+  - "money: 75"
+require:                                            
+  - "level: 32"
+  - "quest: 4_quest_2"
+stopnie:
+  1:
+    talking: true          
+    targets:
+      1:
+        id: "4_quest_5_1_1"                     
+        type: "zabij"       
+        targetName: "&cWarg"                      
+        message: "Zabij 30 wargow: %stan%"
+        ilosc: 30

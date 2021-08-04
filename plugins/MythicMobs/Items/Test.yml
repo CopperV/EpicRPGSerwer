@@ -1,0 +1,53 @@
+Notch:
+  Id: 278
+  Display: 'Notch'
+Frostmourne:
+  Id: 276
+  Display: '&b&lOstrze mrozu'
+Ashbringer:
+  Id: 267
+  Display: '&6&lSpopielacz'
+Rubinowe_Ostrze2:
+  Id: 276
+  Display: '&cRubinowe ostrze'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &735'
+  - '&4- &8Sila: &7+5'
+  - '&4- &8Walka: &7+5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c95'
+  - ''
+  - '&c&oCzas pozostawil na nim swoj slad...'
+  Options:
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      MovementSpeed: 0.02
+      KnockbackResistance: 0.03
+Test_Zr:
+  Id: 276
+  Display: '&c&oTest odrzutu'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      KnockbackResistance: 50
+Event1:
+  Id: 277
+  Display: '&c&l✪ &4&l&kA&6&l LOPATA EVENTOWA &4&l&kA&c&l ✪'
+  Options:
+    Unbreakable: true
+Event2:
+  Id: 359
+  Display: '&a&l♕ &b&l&kA&e&l NOZYCE EVENTOWE &b&l&kA&a&l ♔'
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - DIG_SPEED:4

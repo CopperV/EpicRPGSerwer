@@ -1,0 +1,26 @@
+id: "2_quest_10"                                
+name: "&b&lTest zaufania"                          
+zleceniodawca: "&1Saturas"                       
+lore:                                               
+  - "&aMysle, ze mam cos dla ciebie na rodzaj testu."
+  - "&aW ruinach wiezy strazniczej widziano pewnego szakala,"
+  - "&aktory wyroznial sie na tle innych."
+  - "&aKly cale zakrwawione, dwa razy wiekszy od swoich pobratymcow,"
+  - "&aagresor, jakich malo."
+  - "&aZabij go!"
+prize:                                    
+  - "xp: 2975"
+require:                                            
+  - "level: 19"
+  - "quest: 2_quest_9"
+stopnie:
+  1:
+    talking: true
+    message: "&1Saturas&7: &aHmm... Nadal mam watpliwosci co do ciebie. Nadal mi czegos brakuje..."
+    targets:
+      1:
+        id: "2_quest_10_1_1"
+        type: "zabij"
+        targetName: "&c&lSzakal Ludojad - BOSS"
+        message: "Pokonaj szakala ludojada z ruin wiezy strazniczej budowniczych: %stan%"
+        ilosc: 1

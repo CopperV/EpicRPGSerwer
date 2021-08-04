@@ -1,0 +1,25 @@
+id: "p_quest_2"                                
+name: "&aRosolek dla farmerow"                          
+zleceniodawca: "&eVenus"                       
+lore:                                               
+  - "&aWitaj dzielny bohaterze."
+  - "&aNie mialbys ochoty pomoc biednej farmerce?"
+  - "&aPotrzebuje troche kur,"
+  - "&aby ugotowac dla tych glodomorow troche rosolu."
+  - "&aPomozesz?"
+prize:                                    
+  - "xp: 85"
+  - "money: 10"
+require:                                            
+  - "level: 4"
+stopnie:
+  1:
+    talking: true
+    message: "&eVenus&7: &aDziekuje Ci za Twoja bezinteresowna pomoc. Przyjmij to zloto w nagrode. Jestesmy biedni, za duzo zaoferowac Ci nie mozemy."
+    targets:
+      1:
+        id: "p_quest_2_1_1"
+        type: "przynies"
+        targetName: "&rSurowa kura"
+        message: "Przynies na rosolek 20 surowych kur: %stan%"
+        ilosc: 20

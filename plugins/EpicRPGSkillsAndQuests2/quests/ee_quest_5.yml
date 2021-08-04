@@ -1,0 +1,31 @@
+id: "ee_quest_5"                                
+name: "&4&lWielki Warlord"                          
+zleceniodawca: "&3&lDecard"                       
+lore:                                               
+  - "&aDo odniesienia pelnego zwyciestwa"
+  - "&anad okupatorami nalezy zrobic"
+  - "&ajeszcze jedna rzecz."
+  - "&aMusisz urwac leb hydrze."
+  - "&aNajpotezniejszy warlod, WarlordSlayer"
+  - "&azazwyczaj jest widziany na wzgorzach."
+  - "&aBez jego dowodztwa reszta warlordow"
+  - "&aszybko opusci to miejsce."
+prize:                                    
+  - "xp: 45000"
+  - "money: 2500"
+  - "bc: &7[&b&lEpicRPG&7] &aGracz &7%player% &aukonczyl watek &3&lTajemnicza Dolina&a. &6&lGRATULACJE!"
+  - "cmd: crazycrates give physical EPICKA 1 %player%"
+  - "cmd: rta add %player% 15"
+require:                                            
+  - "level: 47"
+  - "quest: ee_quest_4"
+stopnie:
+  1:
+    talking: true                  
+    targets:
+      1:
+        id: "ee_quest_5_1_1"
+        type: "zabij"
+        targetName: "&4&lWarlodSlayer - BOSS"
+        message: "Pokonaj Warlord Slayera: %stan%"
+        ilosc: 1

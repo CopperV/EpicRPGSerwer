@@ -1,0 +1,81 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+NeptulonAttack1:
+  Skills:
+  - potion{type=BLINDNESS;duration=300;level=1}
+  - potion{type=WITHER;duration=160;level=1}
+NeptulonAttack2:
+  Skills:
+  - potion{type=CONFUSION;duration=300;level=3}
+NeptulonAttack3:
+  Skills:
+  - consume{d=90;h=90} @trigger
+NeptulonAttack4:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=65}
+  - message{m="<mob.name><&co> &7Niewierni..."} @PlayersInRadius{r=10}
+  - delay 5
+  - effect:lightning @PIR{r=5}
+  - damage{a=99} @PIR{r=5}
+NeptulonSummon1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=65}
+  - message{m="<mob.name><&co> &7Broncie straznicy naszego swietego sanktuarium, broncie!"} @PlayersInRadius{r=10}
+  - delay 5
+  - summon{mob=Guardian2;amount=1;noise=1} @Self
+NeptulonSummon2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=65}
+  - message{m="<mob.name><&co> &7Broncie straznicy naszego swietego sanktuarium, broncie!"} @PlayersInRadius{r=10}
+  - delay 5
+  - summon{mob=Guardian1;amount=1;noise=1} @Self
+  - summon{mob=Guardian1;amount=1;noise=1} @Self
+NeptulonSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &7Strzezcie sie mojego gniewu ci, ktorzy tu przychodza"} @PlayersInRadius{r=10}
+  - delay 30
+  - sound{s=entity.cat.hiss;v=10} @self
+  - effect:particlesphere{particle=explode;amount=200;radius=1;y=0.5} @self
+  - delay 2
+  - effect:particlesphere{particle=explode;amount=200;radius=1;y=0.5} @self
+  - effect:particlesphere{particle=explode;amount=250;radius=2;y=0.5} @self
+  - delay 2
+  - effect:particlesphere{particle=explode;amount=200;radius=1;y=0.5} @self
+  - effect:particlesphere{particle=explode;amount=250;radius=2;y=0.5} @self
+  - effect:particlesphere{particle=explode;amount=300;radius=3;y=0.5} @self
+  - delay 2
+  - effect:particlesphere{particle=explode;amount=200;radius=1;y=0.5} @self
+  - effect:particlesphere{particle=explode;amount=250;radius=2;y=0.5} @self
+  - effect:particlesphere{particle=explode;amount=300;radius=3;y=0.5} @self
+  - effect:particlesphere{particle=explode;amount=350;radius=4;y=0.5} @self
+  - delay 2
+  - effect:particlesphere{particle=explode;amount=200;radius=1;y=0.5} @self
+  - effect:particlesphere{particle=explode;amount=250;radius=2;y=0.5} @self
+  - effect:particlesphere{particle=explode;amount=300;radius=3;y=0.5} @self
+  - effect:particlesphere{particle=explode;amount=350;radius=4;y=0.5} @self
+  - effect:particlesphere{particle=explode;amount=400;radius=5;y=0.5} @self
+  - delay 2
+  - effect:particlesphere{particle=explode;amount=200;radius=1;y=0.5} @self
+  - effect:particlesphere{particle=explode;amount=250;radius=2;y=0.5} @self
+  - effect:particlesphere{particle=explode;amount=300;radius=3;y=0.5} @self
+  - effect:particlesphere{particle=explode;amount=350;radius=4;y=0.5} @self
+  - effect:particlesphere{particle=explode;amount=400;radius=5;y=0.5} @self
+  - effect:particlesphere{particle=explode;amount=450;radius=6;y=0.5} @self
+  - delay 2
+  - effect:particlesphere{particle=explode;amount=200;radius=1;y=0.5} @self
+  - effect:particlesphere{particle=explode;amount=250;radius=2;y=0.5} @self
+  - effect:particlesphere{particle=explode;amount=300;radius=3;y=0.5} @self
+  - effect:particlesphere{particle=explode;amount=350;radius=4;y=0.5} @self
+  - effect:particlesphere{particle=explode;amount=400;radius=5;y=0.5} @self
+  - effect:particlesphere{particle=explode;amount=450;radius=6;y=0.5} @self
+  - effect:particlesphere{particle=explode;amount=500;radius=7;y=0.5} @self
+  - sound{s=entity.ghast.shoot;v=10;p=10} @self
+  - damage{a=90} @PIR{r=7}
+  - potion{type=BLINDNESS;duration=600;level=4} @PIR{r=7}

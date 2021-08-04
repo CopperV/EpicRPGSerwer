@@ -1,0 +1,278 @@
+﻿KatedraPaper:
+  Id: 339
+  Display: '&e&lPrzepustka - KATEDRA'
+  Lore:
+  - ''
+  - '&aZwoj pozwalajacy przeniesc na dowolonego'
+  - '&abossa z katedry.'
+  - '&aBossy te dropia przedmioty niezbedne'
+  - '&ado wytworzenia plecakow, poteznych gemow'
+  - '&aoraz laczenia gemow.'
+  - ''
+  - '&bStan na teleporcie do wybranego bossa,'
+  - '&ba nastepnie kliknij PPM na ten zwoj.'
+  - '&bPrzeniesie cie on na arene wybranego bossa.'
+  - ''
+  - '&3===================='
+  - '&7&l!&4&lPRZEDMIOT TYPU SOULBIND&7&l!'
+  - '&3===================='
+Arena1:
+  Id: 397
+  Data: 3
+  Display: '&cSerce Azmodana'
+  NBT:
+    Base:
+      Katedra: "arena1"
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ1ZjRkMTM5YzllODkyNjJlYzA2YjI3YWFhZDczZmE0ODhhYjQ5MjkwZDJjY2Q2ODVhMjU1NDcyNTM3M2M5YiJ9fX0=
+  Lore:
+  - '&3===================='
+  - '!&4&lPRZEDMIOT TYPU SOULBIND!'
+  - '&3===================='
+Arena2:
+  Id: 397
+  Data: 3
+  Display: '&9Skowyt Kata'
+  NBT:
+    Base:
+      Katedra: "arena2"
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDY4YzFmYTRhMjFiYTRmMjdkY2IzMGFiM2JmYWIwZGMyMmExZTRmY2Y5ZWQxMmMxZDdhNzBmZWIwN2Y4ZDdhZSJ9fX0=
+  Lore:
+  - '&3===================='
+  - '!&4&lPRZEDMIOT TYPU SOULBIND!'
+  - '&3===================='
+Arena3:
+  Id: 397
+  Data: 3
+  Display: '&7Kronika Pustki'
+  NBT:
+    Base:
+      Katedra: "arena3"
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTY4M2RhZTZkMTMyZjUyZWZhNTVlOThjMTgxZGVmNTQwMzY3MmZkZWMyY2JjZjQ3OTMxNDJjYjBlNTliZDAifX19
+  Lore:
+  - '&3===================='
+  - '!&4&lPRZEDMIOT TYPU SOULBIND!'
+  - '&3===================='
+Arena4:
+  Id: 397
+  Data: 3
+  Display: '&5Oko Przestrzeni'
+  NBT:
+    Base:
+      Katedra: "arena4"
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGFhOGZjOGRlNjQxN2I0OGQ0OGM4MGI0NDNjZjUzMjZlM2Q5ZGE0ZGJlOWIyNWZjZDQ5NTQ5ZDk2MTY4ZmMwIn19fQ==
+  Lore:
+  - '&3===================='
+  - '!&4&lPRZEDMIOT TYPU SOULBIND!'
+  - '&3===================='
+Arena5:
+  Id: 397
+  Data: 3
+  Display: '&bEteryczna Energia'
+  NBT:
+    Base:
+      Katedra: "arena5"
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzc0MDBlYTE5ZGJkODRmNzVjMzlhZDY4MjNhYzRlZjc4NmYzOWY0OGZjNmY4NDYwMjM2NmFjMjliODM3NDIyIn19fQ==
+  Lore:
+  - '&3===================='
+  - '!&4&lPRZEDMIOT TYPU SOULBIND!'
+  - '&3===================='
+Arena6:
+  Id: 397
+  Data: 3
+  Display: '&cKawalek Meteorytu'
+  NBT:
+    Base:
+      Katedra: "arena6"
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2IwODJhOTFjZjRkM2M2YThjNmM5YjQwNzQzZmMwNzlhY2JhYWE0YzczMDM0YTQ3Mjc0MzA4NzIyY2QxZmNiOSJ9fX0=
+  Lore:
+  - '&3===================='
+  - '!&4&lPRZEDMIOT TYPU SOULBIND!'
+  - '&3===================='
+Arena7:
+  Id: 397
+  Data: 3
+  Display: '&3Ogien Pustki'
+  NBT:
+    Base:
+      Katedra: "arena7"
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjE0NmI5NmU0MzEwMTllNzEzYmUzNmQwZTNhYzFkNDg0ZDNiY2U3MjNmNDRlOGJmZTM1YmVlN2NkMGY0NzkzNCJ9fX0=
+  Lore:
+  - '&3===================='
+  - '!&4&lPRZEDMIOT TYPU SOULBIND!'
+  - '&3===================='
+Arena8:
+  Id: 397
+  Data: 3
+  Display: '&8Pieczec Cieni'
+  NBT:
+    Base:
+      Katedra: "arena8"
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTg3OWVkMmIzOWZhMDQ2MmM3NDI5MmY1Y2EzZDE4ODQyMDEyOGI0YTYzYWM3NWRiOGM5N2EwOTRkMWFjNjNmNCJ9fX0=
+  Lore:
+  - '&3===================='
+  - '!&4&lPRZEDMIOT TYPU SOULBIND!'
+  - '&3===================='
+Arena9:
+  Id: 397
+  Data: 3
+  Display: '&4Daemonum Modum'
+  NBT:
+    Base:
+      Katedra: "arena9"
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ2OTBjYzFkYTU1NTAwYzYwMjhmYzJjM2NkNmEyYzYwNDdlMTAyYzAwM2M3NGQ3YWFkMmVhY2YxNWVhMzMwZCJ9fX0=
+  Lore:
+  - '&3===================='
+  - '!&4&lPRZEDMIOT TYPU SOULBIND!'
+  - '&3===================='
+Arena10:
+  Id: 397
+  Data: 3
+  Display: '&9Dusza Pustki'
+  NBT:
+    Base:
+      Katedra: "arena10"
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIwMWFlMWE4YTA0ZGY1MjY1NmY1ZTQ4MTNlMWZiY2Y5Nzg3N2RiYmZiYzQyNjhkMDQzMTZkNmY5Zjc1MyJ9fX0=
+  Lore:
+  - '&3===================='
+  - '!&4&lPRZEDMIOT TYPU SOULBIND!'
+  - '&3===================='
+Arena11:
+  Id: 397
+  Data: 3
+  Display: '&8Kamień Pustki'
+  NBT:
+    Base:
+      Katedra: "arena11"
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQ0NWU0NzJhYzA1NTRlNzFlMjBhNTNkNjE2YTZjMDIyZjU0YTc0OGNjODcxM2YzNzEzZjM5MjZjNzI1ZmQyYSJ9fX0=
+  Lore:
+  - '&3===================='
+  - '!&4&lPRZEDMIOT TYPU SOULBIND!'
+  - '&3===================='
+Arena12:
+  Id: 397
+  Data: 3
+  Display: '&eGłowa Czempiona'
+  NBT:
+    Base:
+      Katedra: "arena12"
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmFiYmUzZGZjY2ViYWIyNDk1OTk0ZGY4MzVhYmZiMjk2YmUwNDE4ZDJmNjIyODUwYmRlMTRjOWU4MjQyMmYxYyJ9fX0=
+  Lore:
+  - '&3===================='
+  - '!&4&lPRZEDMIOT TYPU SOULBIND!'
+  - '&3===================='
+Arena13:
+  Id: 397
+  Data: 3
+  Display: '&6Honor Masjafu'
+  NBT:
+    Base:
+      Katedra: "arena13"
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ0OGE0YmFlMTY0MDJiYzk1ZmQyYzFlMWFlNmE2MzJjODQ3NWQ3MmJkZjk4NmQzNmYwYjc2YjFiNzA2NjYzYyJ9fX0=
+  Lore:
+  - '&3===================='
+  - '!&4&lPRZEDMIOT TYPU SOULBIND!'
+  - '&3===================='
+Arena14:
+  Id: 397
+  Data: 3
+  Display: '&8Kompas Pustki'
+  NBT:
+    Base:
+      Katedra: "arena14"
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGJlNjIyNmQ2MWVjY2NkYjU3MzJiNmY3MTU2MGQ2NDAxZDJjYTBlZmY4ZTFhYWZiYmUzY2I3M2ZiNWE5ZiJ9fX0=
+  Lore:
+  - '&3===================='
+  - '!&4&lPRZEDMIOT TYPU SOULBIND!'
+  - '&3===================='
+Arena15:
+  Id: 397
+  Data: 3
+  Display: '&ePierscien Masjafu'
+  NBT:
+    Base:
+      Katedra: "arena15"
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWVhMTkwNzljYTI4MTU4OTg0ZWEyOWVhNDU5MTczODc2ZTQ4NDUzYzJjOGI4NjQ4OTg5MzVkNjljODAifX19
+  Lore:
+  - '&3===================='
+  - '!&4&lPRZEDMIOT TYPU SOULBIND!'
+  - '&3===================='
+Arena16:
+  Id: 397
+  Data: 3
+  Display: '&4Korona Masjafu'
+  NBT:
+    Base:
+      Katedra: "arena16"
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTM0MTU2NjdkZTNmYjg5YzVmNDBjODgwYzM5ZTQ5NzFhMGNhYTdmM2E5ZDJjOGY3MTJiYTM3ZmFkY2VlIn19fQ==
+  Lore:
+  - '&3===================='
+  - '!&4&lPRZEDMIOT TYPU SOULBIND!'
+  - '&3===================='
+Arena17:
+  Id: 397
+  Data: 3
+  Display: '&cWampirzy Kiel'
+  NBT:
+    Base:
+      Katedra: "arena17"
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTZiMTIwOTM4ZDgzYmY0OWRkYWIzYTc4NjY2YTBiZjM3YTNkZTdiNDZiOWQ5N2I5ODRkYTNiZTYyY2UzZTVlMyJ9fX0=
+  Lore:
+  - '&3===================='
+  - '!&4&lPRZEDMIOT TYPU SOULBIND!'
+  - '&3===================='
+Arena18:
+  Id: 397
+  Data: 3
+  Display: '&2Herb Terakota'
+  NBT:
+    Base:
+      Katedra: "arena18"
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmRlZDZlNzhkMzUxZWVjNDZmZjgwMzkxZGFhODIwNDU1ODRkNGQwNDgwZDk5ZDg3MTk3MjU4MzExZGE4NzVmZSJ9fX0=
+  Lore:
+  - '&3===================='
+  - '!&4&lPRZEDMIOT TYPU SOULBIND!'
+  - '&3===================='
+Arena19:
+  Id: 397
+  Data: 3
+  Display: '&8Kamien Grzechu'
+  NBT:
+    Base:
+      Katedra: "arena19"
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2YzYmU2NDAxNjczNmJlNDRiMWQ1YTVmM2FkYWI2ZDRjMDQzNzgyYzE3ZGQyOWMzYjhjNGNiNmU3M2Y5ODk4In19fQ==
+  Lore:
+  - '&3===================='
+  - '!&4&lPRZEDMIOT TYPU SOULBIND!'
+  - '&3===================='
+Arena20:
+  Id: 397
+  Data: 3
+  Display: '&cSerce Generala'
+  NBT:
+    Base:
+      Katedra: "arena20"
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY3NDBkYWNkMDhkMzMxM2JkNDkwMjFjNTgxZTEwNTlmZDcyZTZkYzFmNzNhMjM0ZDA2MzNjMmE0YjlmODE2OCJ9fX0=
+  Lore:
+  - '&3===================='
+  - '!&4&lPRZEDMIOT TYPU SOULBIND!'
+  - '&3===================='

@@ -1,0 +1,32 @@
+id: "strzelec_quest_12"                                
+name: "&6Upadek Nizara"                          
+zleceniodawca: "&6Nefarius"                       
+lore:                                               
+  - "&2&lRonin &ajest bardzo zadowolony"
+  - "&az Twojej pracy w naszej twierdzy."
+  - "&aWiesci o smierci Nizara szybko"
+  - "&asie rozeszly."
+  - "&aPrzygotuj sie na porzadna nagrode."
+prize:                                    
+  - "xp: 2000"
+  - "money: 4000"
+  - "cmd: crazycrates give physical Rzadka 1 %player%"
+  - "bc: &7[&b&lEpicRPG&7] &aGracz &7%player% &aukonczyl watek &c&lZdrajca Assasynow&a. &6&lGRATULACJE!"
+require:                                            
+  - "level: 41"
+  - "quest: strzelec_quest_11"
+  - "klasa: &2Mysliwy"
+stopnie:
+  1:
+    talking: false
+    targets:
+      1:
+        id: "strzelec_quest_12_1_1"
+        type: "zagadaj"
+        targetName: "&2&lRonin"
+        message: "Porozmawiaj &2&lRoninem: %stan%"
+        dialog:
+          - "&2&lRonin&7: &aSwego czasu znalem Nizara."
+          - "&2&lRonin&7: &aWiedzialem, ze jest bardzo utalentowanym assasynem."
+          - "&2&lRonin&7: &aDlatego jak uslyszalem, ze poradziles sobie nie tylko z jego elita i czarnymi magami, ale rowniez z samym Nizarem, bylem pod bardzo wielkim wrazeniem."
+          - "&2&lRonin&7: &aZloto nie wyrazi w pelni wdziecznosci za Twoja robote, lecz sie moze na pewno przydac."

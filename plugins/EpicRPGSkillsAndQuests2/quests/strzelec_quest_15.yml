@@ -1,0 +1,34 @@
+id: "strzelec_quest_15"                                
+name: "&7Zapasy dla buntownikow"                          
+zleceniodawca: "&a&oAlex"                       
+lore:
+  - "&aJesli mozna, to chcialabym jeszcze"
+  - "&araz wykorzystac Ciebie do malej sprawy."
+  - "&aTulacze Herobrina nosza przy sobie torby"
+  - "&az przeroznymi rzeczami."
+  - "&aZ pewnoscia czesc bysmy mogli wykorzystac."
+  - "&aDodatkowo mozesz przyniesc nam ich czaszki."
+  - "&aMam rowniez pomysl na ich wykorzystanie."
+prize:                       
+  - "xp: 53000"
+  - "money: 500"
+require:                                            
+  - "level: 54"
+  - "klasa: &2Mysliwy"
+  - "quest: strzelec_quest_14"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "strzelec_quest_15_1_1"
+        type: "przynies"
+        targetName: "&3Czaszka tulacza"
+        message: "Przynies 15 czaszek tulacza: %stan%"
+        ilosc: 15
+      2:
+        id: "strzelec_quest_15_1_2"
+        type: "przynies"
+        targetName: "&3Torba tulacza"
+        message: "Przynies 5 torb tulacza: %stan%"
+        ilosc: 5

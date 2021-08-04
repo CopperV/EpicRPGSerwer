@@ -1,0 +1,32 @@
+id: "morze_quest_10"                                
+name: "&3Morskie dziwadla"                          
+zleceniodawca: "&b&lCorristo"                       
+lore:                                               
+  - "&bZdaje sie, ze pomogles wykonac zadania"
+  - "&4Narsa &bi &e&lNersa&b."
+  - "&bPowinienes zdac z tego raport u &b&lCorristo&b."
+prize:                                    
+  - "xp: 2500"
+  - "bc: &7[&b&lEpicRPG&7] &aGracz &7%player% &aukonczyl watek &bMorskie dziwadla&a. &6&lGRATULACJE!"
+  - "cmd: crazycrates give physical Rzadka 2 %player%"
+  - "money: 1500"
+require:                                            
+  - "level: 49"
+  - "quest: morze_quest_9"
+  - "quest: morze_quest_8"
+stopnie:
+  1:
+    talking: false                    
+    targets:
+      1:
+        id: "morze_quest_10_1_1"                     
+        type: "zagadaj"       
+        targetName: "&b&lCorristo"                      
+        message: "Zdaj raport &b&lCorristoa: %stan%"
+        dialog:
+          - "&r%player%&7: &bNo coz..."
+          - "&r%player%&7: &bNeptulon i Davy Jones pokonani."
+          - "&r%player%&7: &bWody wokol Archolosa powinny byc bezpieczniejsze."
+          - "&b&lCorristo&7: &aI chwala Ci za to."
+          - "&b&lCorristo&7: &aWiedzialem, ze sie spiszesz."
+          - "&b&lCorristo&7: &aZdecydowanie zasluzyles na ta nagrode."

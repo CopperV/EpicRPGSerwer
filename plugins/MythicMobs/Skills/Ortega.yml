@@ -1,0 +1,68 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+OrtegaSpawn:
+  Cooldown: 1
+  Skills:
+  - message{m="<mob.name><&co> &7Patrzcie, patrzcie, kto tu do nas przyszedl."} @PlayersInRadius{r=30} ~onSpawn
+  - message{m="<mob.name><&co> &7Znalazla sie owieczka posrod stada Banditow."} @PlayersInRadius{r=30} ~onSpawn
+  - message{m="<mob.name><&co> &7Patrzcie, patrzcie, kto tu do nas przyszedl."} @PlayersInRadius{r=30} ~onSpawn
+  - delay 5
+  - summon{mob=Bandit1;amount=1;noise=1} @Self
+  - summon{mob=Bandit1;amount=1;noise=2} @Self
+  - summon{mob=Bandit2;amount=1;noise=3} @Self
+  - delay 5
+  - summon{mob=Bandit2;amount=1;noise=4} @Self
+  - summon{mob=Bandit3;amount=1;noise=5} @Self
+  - summon{mob=Bandit3;amount=1;noise=6} @Self
+  - delay 5
+  - summon{mob=Bandit4;amount=1;noise=1} @Self
+  - summon{mob=Bandit5;amount=1;noise=3} @Self
+  - summon{mob=Bandit6;amount=1;noise=6} @Self
+  - summon{mob=Bandit7;amount=1;noise=6} @Self
+OrtegaSummon1:
+  Cooldown: 1
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=65}
+  - message{m="<mob.name><&co> &7Nie potrafisz odpuscic!?"} @PlayersInRadius{r=20}
+  - delay 5
+  - summon{mob=Bandit4;amount=1;noise=2} @Self
+  - summon{mob=Bandit6;amount=1;noise=2} @Self
+  - summon{mob=Bandit7;amount=1;noise=5} @Self
+OrtegaSummon2:
+  Cooldown: 1
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=65}
+  - message{m="<mob.name><&co> &7Smierc przychodzi duzo szybciej niz Ci sie wydaje"} @PlayersInRadius{r=20}
+  - delay 5
+  - summon{mob=Bandit7;amount=1;noise=3} @Self
+  - summon{mob=Bandit7;amount=1;noise=3} @Self
+OrtegaSummon3:
+  Cooldown: 1
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=65}
+  - message{m="<mob.name><&co> &7Nie wymkniesz mi sie"} @PlayersInRadius{r=20}
+  - delay 5
+  - summon{mob=Bandit7;amount=1;noise=3} @Self
+  - summon{mob=Bandit7;amount=1;noise=3} @Self
+  - summon{mob=Bandit7;amount=1;noise=3} @Self
+  - summon{mob=Bandit7;amount=1;noise=3} @Self
+  - summon{mob=Bandit7;amount=1;noise=3} @Target
+  - summon{mob=Bandit7;amount=1;noise=3} @Target
+  - summon{mob=Bandit7;amount=1;noise=3} @Target
+  - summon{mob=Bandit7;amount=1;noise=3} @Target
+OrtegaAttack:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=85}
+  - message{m="<mob.name><&co> &7Dorwe Cie!"} @PlayersInRadius{r=20}
+  - jump{velocity=1}
+  - delay 25
+  - damage{amount=40} @PlayersInRadius{r=5}

@@ -1,0 +1,13 @@
+name: "&eCratos"
+title: "&eCratos - farmer"
+size: 9
+slots:
+  1:
+    item: "kon_quest_2"
+  2:
+    item: "kon_quest_3"
+  3:
+    item: "przemytnik_quest_10"
+  4:
+    item: "przemytnik_quest_11"
+

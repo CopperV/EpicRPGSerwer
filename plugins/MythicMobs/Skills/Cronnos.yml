@@ -1,0 +1,133 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+CronnosAttack:
+  Skills:
+  - throw{velocity=15;velocityY=7}
+  - sound{s=entity.irongolem.attack;v=10;p=1} @self
+CronnosSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &7Wykryto intruzuow..."} @PlayersInRadius{r=15}
+  - delay 40
+  - message{m="<mob.name><&co> &7Uruchamiam zabezpieczenia obronne!"} @PlayersInRadius{r=15}
+  - threat{amount=100} @NearestPlayer
+CronnosSkill_1:
+  Conditions:
+  - hasaura CronnosSkill false
+  Skills:
+  - Aura{auraName=CronnosSkill;duration=120} @self
+  - message{m="<mob.name><&co> &7Procedura pozbycia intruza - uruchomiona"} @PlayersInRadius{r=15}
+#  - SudoSkill{s=CronnosEffectSkill_1;cat=false} 
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bCronnos zaczal castowac Bombe Cronnosa!";d=100} @PIR{r=20}
+  - skill{s=CronnosEffectSkill} @RandomThreatTarget
+CronnosEffectSkill:
+  Skills:
+  - skill{s=CronnosEffectSkill_1_PB}
+  - delay 100
+  - summon{mob=CronnosSkill1Damage;amount=1;noise=0}
+  - threat{amount=-20} @PlayersInRadius{r=3}
+
+CronnosSkill_2:
+  Conditions:
+  - hasaura CronnosSkill false
+  Skills:
+  - Aura{auraName=CronnosSkill;duration=420} @self
+  - message{m="<mob.name><&co> &7Aktywacja tarczy ochronnej"} @PlayersInRadius{r=15}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bCronnos przygotowuje orbitalna tarcze!";d=100} @PIR{r=20}
+  - delay 100
+  - skill{s=CronnosShield}
+
+
+CronnosSkill_3:
+  Skills:
+  - message{m="<mob.name><&co> &7Uruchamiam wsparcie wiezienne"} @PlayersInRadius{r=15}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bCronnos przygotowuje przyzwanie totemu!";d=100} @PIR{r=20}
+  - delay 100
+  - skill{s=CronnosTotem} @SelfLocation
+
+CronnosTotem:
+  Skills:
+  - totem{ch=15;oT=CronnosTotemTick;oH=CronnosTotemHit;oE=CronnosTotemEnd;oS=CronnosTotemStart;hR=3;vR=3;md=300;yo=1;hp=true}
+
+CronnosTotemTick:
+  Skills:
+  - sound{s=block.fire.ambient;v=1;p=1} @origin
+  - effect:particlesphere{particle=slime;amount=50;radius=1.25} @origin
+
+CronnosTotemHit:
+  Skills:
+  - damage{amount=72}
+  - throw{velocity=12;velocityY=5}
+  - potion{type=SLOW;duration=160;level=4}
+  - sound{s=entity.ghast.shoot;v=10;p=1}
+
+CronnosTotemEnd:
+  Skills:
+  - damage{amount=99} @PlayersNearOrigin{r=5}
+  - throw{velocity=12;velocityY=5} @PlayersNearOrigin{r=5}
+  - sound{s=entity.generic.explode;v=4;p=2} @Origin
+  - effect:particlesphere{particle=slime;amount=50;radius=1.25;speed=0.25} @Origin
+  - effect:particlesphere{particle=largesmoke;amount=50;radius=1.25;speed=0.25} @Origin
+
+CronnosTotemStart:
+  Skills:
+  - sound{s=entity.endermen.stare;v=4;p=1} @Origin
+  - effect:particlesphere{particle=happyVillager;amount=100;radius=1.25;s=0.25} @origin
+
+CronnosShield:
+  Skills:
+  - orbital{onTick=CronnosShield-Tick;onHit=CronnosShield-Hit;points=43;interval=1;duration=300;charges=1;r=2;hr=1;rx=0.78;ry=0;oy=1} @self
+  - orbital{onTick=CronnosShield-Tick;onHit=CronnosShield-Hit;points=31;interval=1;duration=300;charges=1;r=2;hr=1;rx=-0.78;ry=0;oy=1} @self
+  - orbital{onTick=CronnosShield-Tick;onHit=CronnosShield-Hit;points=29;interval=1;duration=300;charges=1;r=2;hr=1;rx=0;ry=0;oy=1} @self
+  - orbital{onTick=CronnosShield-Tick;onHit=CronnosShield-Hit;points=37;interval=1;duration=300;charges=1;r=2;hr=1;rx=0;ry=0;rz=-1.57;oy=1} @self
+CronnosShield-Tick:
+  Skills:
+  - effect:particles{p=cloud;amount=10;speed=0;hS=0.05;vS=0.05} @origin
+CronnosShield-Hit:
+  Skills:
+  - damage{amount=91} @PlayersNearOrigin{r=2.5}
+  - sound{s=entity.generic.explode;v=1;p=1} @Origin
+CronnosInvDamage:
+  Skills:
+  - delay 2
+  - damage{amount=122} @PlayersNearOrigin{r=3}
+  - effect:particles{particle=blockcrack_3_0;amount=100;hS=3;vS=0.7;speed=0;yOffset=0.75} @self
+  - effect:particles{particle=largesmoke;amount=100;hS=3;vS=0.7;speed=0;yOffset=0.75} @self
+  - potion{type=SLOW;duration=200;level=3} @PlayersNearOrigin{r=3}
+  - sound{s=entity.enderdragon.growl;v=1} @self
+  - delay 2
+  - remove @self
+CronnosEffectSkill_1_PB:
+  Skills:
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
+  - delay 10
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
+  - delay 10
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
+  - delay 10
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
+  - delay 10
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
+  - delay 10
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
+  - delay 10
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
+  - delay 10
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
+  - delay 10
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
+  - delay 10
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
+  - delay 10
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}

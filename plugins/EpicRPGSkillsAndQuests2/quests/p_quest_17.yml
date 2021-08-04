@@ -1,0 +1,24 @@
+id: "p_quest_17"                                
+name: "&0Czarni magowie &5sluza &4&lSmierci"
+zleceniodawca: "&4&lDeath"
+lore:                                               
+  - "&aCzarni magowie korzystajac z run mej sfery"
+  - "&apowinni mi sluzyc i wykonywac moje polecenia"
+  - "&aa nie jakiegos Rhobara czy Nizara."
+  - "&aZa to musza poniesc kare!"
+  - "&aA ty mozesz przy tym troche zarobic."
+prize:                                    
+  - "xp: 25000"
+  - "money: 250"
+require:                                            
+  - "level: 39"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "p_quest_17_1_1"
+        type: "zabij"
+        targetName: "&0&lCzarny Mag"
+        message: "Zabij 25 czarnych magow: %stan%"
+        ilosc: 25

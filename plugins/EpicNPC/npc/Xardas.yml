@@ -1,0 +1,16 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&8Xardas"
+  - "&7[&7&lNEKROLORD&7]"
+skinid: 1002824983
+location:
+  world: "F_RPG"
+  x: -712.35
+  y: 33
+  z: 386.5
+  yaw: 90
+  pitch: 25
+lookat: true
+state: CROUCHED

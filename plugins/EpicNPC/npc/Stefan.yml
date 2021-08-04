@@ -1,0 +1,17 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&9&oStefano"
+  - "&7[&a&lKANTOR&7]"
+skinid: 4371017
+location:
+  world: "vip1"
+  x: -281.5
+  y: 69.0
+  z: 929.5
+  yaw: -45
+  pitch: 3
+lookat: true
+commands:
+  - "cc open stefan %player%"

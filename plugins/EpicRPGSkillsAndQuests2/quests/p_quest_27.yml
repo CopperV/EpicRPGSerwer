@@ -1,0 +1,26 @@
+id: "p_quest_27"                                
+name: "&3&lDusze do uwolnienia"
+zleceniodawca: "&e&lIgnatius"
+lore:                                               
+  - "&c&lAlexstrasza &azapragnela uwolnic te biedne"
+  - "&aduszyczki, ktore padly ofiara spaczenia"
+  - "&ai wyznaczyla mnie do tego, by je pozyskac."
+  - "&aNie jestem szalencem, by samemu mierzyc sie"
+  - "&aze spaczeniem i jego stworzeniami."
+  - "&aAle z pustymi rekoma nie moge do niej wrocic."
+  - "&aPomoz mi, a sowicie Ciebie wynagrodze."
+prize:                                    
+  - "xp: 21500"
+  - "money: 500"
+require:                                            
+  - "level: 42"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "p_quest_27_1_1"
+        type: "przynies"
+        targetName: "&cSpaczona dusza"
+        message: "Przynies 25 zmaterializowanych spaczonych dusz: %stan%"
+        ilosc: 25

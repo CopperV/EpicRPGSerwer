@@ -1,0 +1,15 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&6Thor"
+  - "&7[&cNAUCZYCIEL WOJOWNIKOW&7]"
+skinid: 61908606
+location:
+  world: "F_RPG"
+  x: -107.5
+  y: 42.0
+  z: -47.5
+  yaw: -95
+  pitch: 0
+lookat: true

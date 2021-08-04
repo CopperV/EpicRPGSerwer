@@ -1,0 +1,68 @@
+id: "1_quest_2"                                
+name: "&aSprawa dla nowicjusza"                          
+zleceniodawca: "&b&lCorristo"                       
+lore:                                               
+  - "&aMam chyba dla Ciebie, jako nowicjusza idealna misje."
+  - "&8&lRangar &azalozyl swoj oboz w lesie na wschod,"
+  - "&agdzie zawsze dochodzi do atakow na konwoje"
+  - "&aoraz karety kupcow."
+  - "&aTrzeba rozwiazac tamtejszy problem czym predzej."
+  - "&aIdz do jego obozu i porozmawiaj z nim"
+prize:                                    
+  - "xp: 125"
+require:                                            
+  - "level: 4"
+  - "quest: 1_quest_1"
+stopnie:
+  1:
+    talking: false                    
+    targets:
+      1:
+        id: "1_quest_2_1_1"
+        type: "znajdz"
+        targetName: "exp0"
+        message: "Odnajdz oboz Rangara w lesie na wschodzie (652;9): %stan%"
+      2:
+        id: "1_quest_2_1_2"                     
+        type: "zagadaj"       
+        targetName: "&8&lRangar"                      
+        message: "Porozmawiaj z &8&lRangarem: %stan%"
+        dialog:
+          - "&8&lRangar&7: &aAch, nareszcie jestes. Bylem ciekaw, kiedy &b&lCorristo &aCiebie tutaj wysle."
+          - "&8&lRangar&7: &aAle my tu nie o tym."
+          - "&8&lRangar&7: &aZanim wezmiesz sie do roboty, chce, bys pogadal z moimi towarzyszami w obozie."
+          - "&8&lRangar&7: &aDowiedz sie, z jakimi problemami sie borykaja"
+          - "&8&lRangar&7: &ai jak bedziesz miec czas, to pomoz im."
+          - "&8&lRangar&7: &aPamietaj jednak, ze to ja i moje zadania sa dla Ciebie priorytetowe"
+  2:
+    talking: false
+    message: "&r%player%&7: &aWydaje sie, ze maja dosyc duzo problemow tutaj. To by tlumaczylo, czemu do tak wielu atakow tutaj dochodzi. Zdobede troche doswiadczenia i wezme sie do pracy"
+    targets:
+      1:
+        id: "1_quest_2_2_1"
+        type: "zagadaj"
+        targetName: "&8Udar"
+        message: "Porozmawiaj z towarzyszem &8Udarem: %stan%"
+        dialog:
+          - "&r%player%&7: &bPrzysyla mnie &8&lRan&b..."
+          - "&8Udar&7: &aNie musisz konczyc. Podsluchalem wasza rozmowe."
+          - "&8Udar&7: &aSprawa jest prosta - gobliny."
+          - "&8Udar&7: &aDosyc przerosniete - nie takie jak te, z ktorymi boryka sie &e&lUthar"
+          - "&8Udar&7: &aTo sa prawdziwe kolosy."
+          - "&8Udar&7: &aMalo tego, smiem przypuszczac, ze gdzies w poblizu maja swoja glowna jaskinie,"
+          - "&8Udar&7: &aa kto wie - moze jeszcze swojego wodza."
+          - "&8Udar&7: &aTak czy inaczej trzeba sie z nimi rozprawic - odpowiadaja za zbyt wiele atakow."
+      2:
+        id: "1_quest_2_2_2"
+        type: "zagadaj"
+        targetName: "&7Frithjof"
+        message: "Porozmawiaj z towarzyszem &7Frithjofem: %stan%"
+        dialog:
+          - "&r%player%&7: &8&lRangar &bpolecil mi sie spytac Ciebie, z jakimi konkretnie problemami sie borykasz."
+          - "&7Frithjof: &aI przysyla do mnie takiego nowicjusza jak Ty..."
+          - "&7Frithjof: &aNie wiem, co on i &b&lCorristo &asobie wyobrazaja."
+          - "&7Frithjof: &aCo do Twojeo pytania - wiesz, ile wilkow sie tutaj roi?"
+          - "&7Frithjof: &aTyle, ze nie zdziwilbym sie, gdyby mieli tutaj swoja Alfe."
+          - "&7Frithjof: &aOstatnie karawany, ktore nie przychodzily do miasta"
+          - "&7Frithjof: &abyly atakowane nie przez bandytow czy gobliny,"
+          - "&7Frithjof: &aale przez wilki."

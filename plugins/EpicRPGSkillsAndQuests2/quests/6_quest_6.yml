@@ -1,0 +1,40 @@
+id: "6_quest_6"                                
+name: "&4Rzady terroru"                          
+zleceniodawca: "&3&lSteve"                       
+lore:                                               
+  - "&aDo powstrzymania mamy Nulla oraz Herobrine."
+  - "&aO ile dwor Herobrine lezy poza naszym zasiegiem,"
+  - "&ao tyle znamy polozenie twierdzy Nulla."
+  - "&aProblem jest tylko jeden."
+  - "&aPotrzebujemy statku, ktory znajduje sie w porcie."
+  - "&aMusimy odbic miasto!"
+  - "&aUdaj sie tam i wybij przekletych osadnikow."
+prize:                                    
+  - "xp: 110000"
+require:                                            
+  - "level: 53"
+  - "quest: 6_quest_5"
+stopnie:
+  1:
+    talking: false                 
+    targets:
+      1:
+        id: "6_quest_6_1_1"                     
+        type: "znajdz"       
+        targetName: "exp50_city"
+        message: "Udaj sie do przekletego miasta (284 ; 362): %stan%"
+  2:
+    talking: true                  
+    targets:
+      1:
+        id: "6_quest_6_2_1"                     
+        type: "zabij"       
+        targetName: "&2&oZombie"
+        message: "Zabij 20 Zombie: %stan%"
+        ilosc: 20
+      2:
+        id: "6_quest_6_2_2"                     
+        type: "zabij"       
+        targetName: "&a&oZombie - Osadnik"
+        message: "Zabij 25 Zombie-Osadnikow: %stan%"
+        ilosc: 25

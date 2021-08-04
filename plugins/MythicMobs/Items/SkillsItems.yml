@@ -1,0 +1,287 @@
+Surowa_Stal:
+  Id: 265
+  Display: '&7Surowa stal'
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - DURABILITY:1
+Sztaba_Magicznej_Rudy:
+  Id: 265
+  Display: '&9Sztaba Magicznej Rudy'
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - DURABILITY:5
+Sztaba_Czystej_Magicznej_Rudy:
+  Id: 265
+  Display: '&b&lSztaba Czystej Magicznej Rudy'
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - DURABILITY:10
+Sztaba_Czarnej_Rudy:
+  Id: 405
+  Display: '&8&lSztaba Czarnej Rudy'
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - DURABILITY:10
+  - DAMAGE_ALL:3
+Rozgrzana_Stal:
+  Id: 266
+  Display: '&cRozgrzana Stal'
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - DURABILITY:3
+Magiczna_Ruda:
+  Id: 351
+  Data: 4
+  Display: "&9Magiczna Ruda"
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - DURABILITY:3
+Czysta_Magiczna_Ruda:
+  Id: 351
+  Data: 4
+  Display: "&b&lCzysta Magiczna Ruda"
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - DURABILITY:7
+Czarna_Ruda:
+  Id: 263
+  Display: "&8&lCzarna Ruda"
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - DURABILITY:8
+  - DAMAGE_ALL:2
+Wulkaniczny_Plomien:
+  Id: 377
+  Display: "&4Wulkaniczny plomien"
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - DAMAGE_ALL:5
+  - FIRE_ASPECT:3
+Rekojesc_Miecza:
+  Id: 265
+  Display: '&rRekojesc miecza'
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - DURABILITY:1
+Trzon_Topora:
+  Id: 265
+  Display: '&rTrzon topora'
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - DURABILITY:1
+Wegiel_hutniczy:
+  Id: 263
+  Data: 1
+  Display: "&8Wegiel hutniczy"
+  Options:
+    Unbreakable: true
+Zlota_Moneta:
+  Id: 371
+  Display: "&6Zlota moneta"
+Kawalek_Debu:
+  Id: 17
+  Data: 0
+  Display: "&aKawalek debu"
+  Options:
+    Unbreakable: true
+Kawalek_Klonu:
+  Id: 17
+  Data: 0
+  Display: "&aKawalek klonu"
+  Options:
+    Unbreakable: true
+Kawalek_Jesionu:
+  Id: 162
+  Data: 0
+  Display: "&aKawalek jesionu"
+  Options:
+    Unbreakable: true
+Kawalek_Wierzby:
+  Id: 162
+  Data: 1
+  Display: "&aKawalek wierzby"
+  Options:
+    Unbreakable: true
+Kawalek_Wiezu:
+  Id: 17
+  Data: 3
+  Display: "&aKawalek wiezu"
+  Options:
+    Unbreakable: true
+Kawalek_Brzozy:
+  Id: 17
+  Data: 2
+  Display: "&aKawalek brzozy"
+  Options:
+    Unbreakable: true
+Kawalek_Buku:
+  Id: 17
+  Data: 1
+  Display: "&aKawalek buku"
+  Options:
+    Unbreakable: true
+Kawalek_Cisu:
+  Id: 17
+  Data: 1
+  Display: "&aKawalek cisu"
+  Options:
+    Unbreakable: true
+Pila:
+  Id: 131
+  Display: "&7Pila do drewna"
+  Options:
+    Unbreakable: true
+Drewno_Debu:
+  Id: 280
+  Display: "&2Debowe drewno"
+  Options:
+    Unbreakable: true
+Drewno_Klonu:
+  Id: 280
+  Display: "&2Klonowe drewno"
+  Options:
+    Unbreakable: true
+Drewno_Jesionu:
+  Id: 280
+  Display: "&2Jesionowe drewno"
+  Options:
+    Unbreakable: true
+Drewno_Wierzby:
+  Id: 280
+  Display: "&2Drewno wierzby"
+  Options:
+    Unbreakable: true
+Drewno_Wiezu:
+  Id: 280
+  Display: "&2Drewno z wiazu"
+  Options:
+    Unbreakable: true
+Drewno_Brzozy:
+  Id: 280
+  Display: "&2Brzozowe drewno"
+  Options:
+    Unbreakable: true
+Drewno_Buku:
+  Id: 280
+  Display: "&2Bukowe drewno"
+  Options:
+    Unbreakable: true
+Drewno_Cisu:
+  Id: 280
+  Display: "&2Cisowe drewno"
+  Options:
+    Unbreakable: true
+Debowy_Patyk:
+  Id: 280
+  Display: "&2Debowy patyk"
+  Options:
+    Unbreakable: true
+Klonowy_Patyk:
+  Id: 280
+  Display: "&2Klonowy patyk"
+  Options:
+    Unbreakable: true
+Jesionowy_Patyk:
+  Id: 280
+  Display: "&2Jesionowy patyk"
+  Options:
+    Unbreakable: true
+Wierzbowy_Patyk:
+  Id: 280
+  Display: "&2Wierzbowy patyk"
+  Options:
+    Unbreakable: true
+Patyk_Z_Wiazu:
+  Id: 280
+  Display: "&2Patyk z wiazu"
+  Options:
+    Unbreakable: true
+Brzozowy_Patyk:
+  Id: 280
+  Display: "&2Brzozowy patyk"
+  Options:
+    Unbreakable: true
+Bukowy_Patyk:
+  Id: 280
+  Display: "&2Bukowy patyk"
+  Options:
+    Unbreakable: true
+Cisowy_Patyk:
+  Id: 280
+  Display: "&2Cisowy patyk"
+  Options:
+    Unbreakable: true
+Grot:
+  Id: 318
+  Display: "&7Grot"
+  Options:
+    Unbreakable: true
+Cieciwa:
+  Id: 287
+  Display: "&rCieciwa"
+  Options:
+    Unbreakable: true
+Wzmocniona_Cieciwa:
+  Id: 287
+  Display: "&r&lWzmocniona cieciwa"
+  Options:
+    Unbreakable: true
+Wyprawiona_Skora:
+  Id: 334
+  Display: "&aWyprawiona skora"
+  Options:
+    Unbreakable: true
+Skorzana_Lata:
+  Id: 336
+  Display: "&2Skorzana lata"
+  Options:
+    Unbreakable: true
+Stalowa_Plyta:
+  Id: 265
+  Display: "&7Stalowa plyta"
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - DURABILITY:2
+Plyta_z_Magicznej_Rudy:
+  Id: 265
+  Display: "&9Plyta z magicznej rudy"
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - DURABILITY:7
+Plyta_z_Czystej_Magicznej_Rudy:
+  Id: 265
+  Display: "&b&lPlyta z czystej magicznej rudy"
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - DURABILITY:10
+Plyta_z_Czarnej_Rudy:
+  Id: 405
+  Display: "&8&lPlyta z czarnej rudy"
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - DURABILITY:10
+  - DAMAGE_ALL:5
+Kukla_Head:
+  Id: 397
+  Data: 4
+Tarcza:
+  Id: 442
+  Options:
+    Color: RED
+  BannerLayers:
+  - BLUE TRIANGLES_TOP

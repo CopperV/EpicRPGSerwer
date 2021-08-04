@@ -1,0 +1,86 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+
+AvabyulSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &9&oBeliar nie zna litosci. Przygotuj sie na powolna smierc!"} @PlayersInRadius{r=25}
+
+AvabyulSkill1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=120} @self
+  - message{m="<mob.name><&co> &9&oTwoje zycie jest nic nie warte"} @PlayersInRadius{r=25}
+  - summon{type=AvabyulPortal;amount=1} @self
+
+AvabyulSkill2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=220} @self
+  - message{m="<mob.name><&co> &9&oBeliar daje mi sile. W nim mam swe oparcie!"} @PlayersInRadius{r=25}
+  - delay 60
+  - sound{s=entity.enderman.stare;v=2;p=0.5} @self
+  - orbital{onTick=AvabyulSkill2-Tick;onHit=AvabyulSkill2-Hit;points=19;interval=1;duration=200;charges=10;r=2;hr=1;rx=0;ry=0;oy=1} @self
+  - orbital{onTick=AvabyulSkill2-Tick;onHit=AvabyulSkill2-Hit;points=31;interval=1;duration=200;charges=10;r=2;hr=1;rx=3.14;ry=0;oy=1} @self
+  - delay 100
+  - sound{s=entity.enderman.stare;v=2;p=0.5} @self
+  - orbital{onTick=AvabyulSkill2-Tick;onHit=AvabyulSkill2-Hit;points=49;interval=1;duration=100;charges=10;r=3.5;hr=1;rx=1.27;ry=0;oy=1} @self
+  - orbital{onTick=AvabyulSkill2-Tick;onHit=AvabyulSkill2-Hit;points=49;interval=1;duration=100;charges=10;r=3.5;hr=1;rx=1.27;ry=0.78;oy=1} @self
+  - orbital{onTick=AvabyulSkill2-Tick;onHit=AvabyulSkill2-Hit;points=49;interval=1;duration=100;charges=10;r=3.5;hr=1;rx=1.27;ry=1.27;oy=1} @self
+  - orbital{onTick=AvabyulSkill2-Tick;onHit=AvabyulSkill2-Hit;points=49;interval=1;duration=100;charges=10;r=3.5;hr=1;rx=1.27;ry=2.36;oy=1} @self
+  - orbital{onTick=AvabyulSkill2-Tick;onHit=AvabyulSkill2-Hit;points=49;interval=1;duration=100;charges=10;r=3.5;hr=1;rx=1.27;ry=3.14;oy=1} @self
+  - orbital{onTick=AvabyulSkill2-Tick;onHit=AvabyulSkill2-Hit;points=49;interval=1;duration=100;charges=10;r=3.5;hr=1;rx=1.27;ry=3.93;oy=1} @self
+  - orbital{onTick=AvabyulSkill2-Tick;onHit=AvabyulSkill2-Hit;points=49;interval=1;duration=100;charges=10;r=3.5;hr=1;rx=1.27;ry=4.71;oy=1} @self
+  - orbital{onTick=AvabyulSkill2-Tick;onHit=AvabyulSkill2-Hit;points=49;interval=1;duration=100;charges=10;r=3.5;hr=1;rx=1.27;ry=5.5;oy=1} @self
+
+AvabyulSkill2-Tick:
+  Skills:
+  - effect:particles{particle=largesmoke;amount=4;speed=0.01;hS=0.5;vS=0.05} @origin
+AvabyulSkill2-Hit:
+  Skills:
+  - damage{amount=100} @PlayersNearOrigin{r=1.5}
+  - throw{velocity=25;velocityY=8} @PlayersNearOrigin{r=1.5}
+  - sound{s=entity.cat.hiss;v=2;p=0.01} @Origin
+
+AvabyulSkill3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=200} @self
+  - message{m="<mob.name><&co> &9&oZalosne kreatury!"} @PlayersInRadius{r=25}
+  - delay 40
+  - summon{type=AvabyulProjectile;amount=1;radius=0} @Location{c=-1906.5,76,1381.5,0,0}
+  - summon{type=AvabyulProjectile;amount=1;radius=0} @Location{c=-1918.5,76,1381.5,0,0}
+
+AvabyulProjectile_Skill1:
+  Skills:
+  - delay 10
+  - sound{s=entity.firework.large_blast;v=10} @self
+  - projectile{onTick=AvabyulProjectile-Tick;onHit=AvabyulProjectile-End;v=5;i=1;hR=1;vR=1;mr=40;sB=false;sE=false} @PIR{r=25}
+  - sound{s=entity.cat.hiss;v=2;p=0.6} @Origin
+  - delay 20
+  - projectile{onTick=AvabyulProjectile-Tick;onHit=AvabyulProjectile-End;v=5;i=1;hR=1;vR=1;mr=40;sB=false;sE=false} @PIR{r=25}
+  - sound{s=entity.cat.hiss;v=2;p=0.6} @Origin
+  - delay 20
+  - projectile{onTick=AvabyulProjectile-Tick;onHit=AvabyulProjectile-End;v=5;i=1;hR=1;vR=1;mr=40;sB=false;sE=false} @PIR{r=25}
+  - sound{s=entity.cat.hiss;v=2;p=0.6} @Origin
+  - delay 80
+  - remove @self
+
+AvabyulProjectile-Tick:
+  Skills:
+  - effect:particles{particle=largesmoke;amount=5;amount=5;speed=0.1;hS=0.3;vS=0.3} @origin
+AvabyulProjectile-End:
+  Skills:
+  - sound{s=entity.firework.large_blast_far;v=2;p=0.2} @origin
+  - damage{amount=200}
+  - potion{type=WITHER;duration=200;level=1}
+  - effect:particles{particle=largesmoke;amount=30;speed=0.15;hS=0.2;vS=0.2;y=1} @origin
+
+AvabyulPortalDeath:
+  Skills:
+  - sound{s=entity.enderdragon.death;v=4;p=0.1} @self
+  - effect:particles{particle=largesmoke;amount=30;hS=0.6;vS=0.6;speed=0.25;y=0.5} @self
+  - remove @self

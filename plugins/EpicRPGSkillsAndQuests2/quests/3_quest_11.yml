@@ -1,0 +1,28 @@
+id: "3_quest_11"                                
+name: "&4&lPierwszy zarazony"                          
+zleceniodawca: "&a&lJasuo"                       
+lore:                                               
+  - "&aZ naszych badan wynika, ze w tej zarazie"
+  - "&awystepuje jedno, bardzo specyficzne stadium."
+  - "&aZarazonych osiagajacych ten poziom nazwalismy purchlakami."
+  - "&aPoki co nie udalo nam sie napotkac na nich,"
+  - "&alecz moga stanowic duze niebezpieczenstwo."
+  - "&aPodejrzewamy, ze gdzies tam, na wykopaliskach mozna"
+  - "&aznalezc purchlaka."
+  - "&aChodzi o osoby, ktore jako pierwsze sie zarazily."
+  - "&aTwoim zadaniem bedzie zabic go."
+prize:                                    
+  - "xp: 12750"
+require:                                            
+  - "level: 30"
+  - "quest: 3_quest_10"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "3_quest_11_1_1"
+        type: "zabij"
+        targetName: "&4&lPurchlak - BOSS"
+        message: "Zabij purchlaka z wykopalisk: %stan%"
+        ilosc: 1

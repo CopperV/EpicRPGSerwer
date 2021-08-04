@@ -1,0 +1,28 @@
+id: "vip_quest_9"                                
+name: "&6&lCzlowiek interesu"                          
+zleceniodawca: "&6&lGustav"                       
+lore:                                               
+  - "&aDa sie poznac po Tobie, zes Ty"
+  - "&aczlowiek interesu jest."
+  - "&aSluchaj, jest maly biznesik."
+  - "&aSlyszalem, ze latajacy Holender zawital"
+  - "&ana nasza wyspe,"
+  - "&aa wraz z nim przekleci piraci i ich przeklete zloto."
+  - "&aNie masz ochoty sobie na tym zarobic? Hmm?"
+prize:                                    
+  - "xp: 9000"
+  - "money: 10000"
+  - "item: Zlota_Moneta 30"
+require:                                            
+  - "level: 47"
+  - "ranga: magnat"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "vip_quest_9_1_1"
+        type: "przynies"
+        targetName: "&cPrzeklete zloto"
+        message: "Przynies 30 sztuk przekletego zlota: %stan%"
+        ilosc: 30

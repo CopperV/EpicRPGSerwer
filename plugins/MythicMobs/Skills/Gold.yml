@@ -1,0 +1,10 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+GoldSummon:
+  Skills:
+  - summon{mob=MrGoldMinion;amount=1;noise=3} @Self
+GoldDrop:
+  Skills:
+  - message{m="&aOtrzymales &e&o5$"} @trigger
+  - currencygive{amount=5} @trigger

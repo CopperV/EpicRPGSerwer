@@ -1,0 +1,16 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&e&oRaczka"
+  - "&7[&6Lepkie Lapki&7]"
+skinid: 693503328
+location:
+  world: "F_RPG"
+  x: 8.5
+  y: 43.0
+  z: -65.5
+  yaw: 90.0
+  pitch: 8.5
+lookat: true
+showquest: "zlodziej_quest_21"

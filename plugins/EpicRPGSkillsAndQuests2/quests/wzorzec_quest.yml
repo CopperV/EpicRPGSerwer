@@ -1,0 +1,44 @@
+# Znak # to komentarz - nim sie nie przejmuj, nie musisz ich zawierac w plikach YML
+# Chyba, ze chcesz cos przekazac innemu programiscie :)
+# Lancuchy znakow/stringi/napisy zawieramy w cudzyslowach " "
+
+
+id: "wzorzec_quest"                                 #id questa - musi byc unikatowe; dobrze by bylo, gdyby w id zawierala sie nazwa 'quest'
+name: "&bRosolek dla farmerow"                      #nazwa questa, ktora bedzie wyswietlana graczowi
+zleceniodawca: "&eVenus"                            #zleceniodawca, czyli kto zleca zadanie (nie musi to byc nazwa NPC)
+lore:                                               #opis zadania, czyli co bedzie sie wyswietlac przed wzieciem questa. Moze byc to np. tekst, ktorym bedzie do nas przemawiac npc zachecajac nas do podjecia wyzwania
+  - "&aWitaj nieznajomy"
+  - "&aPotrzebuje pomocy kogos takiego"
+  - "&ajak TY"
+  - "&aMusze zrobic potrawe dla tych glodomorow."
+  - "&aNajlepszy bedzie tlusty, porzadny rosol."
+  - "&aNiestety, brakuje mi do tego troche kury"
+  - "&aUbij ich troche i przynies mi je"
+  
+prize:                                              #nagrody za zadanie - czyli co mozemy dostac za wykonanie zadania - kazda z nagrod jest opcjonalna i nie musi wystepowac
+  - "money: 10"                                     #money: ilosc[int] - ile monet otrzymujemy
+  - "xp: 50"                                        #xp: ilosc[int] - ile punktow doswiadczenia mozemy otrzymac za questa
+  - "item: Orkowa_Zguba"                            #item: przedmiot[MythicMobs] - nagroda w postaci przedmiotu MythicMobs - wykonuje sie komenda "mm i give". Liste dostepnych obecnie przedmiotow MM dostaniecie. Mozecie rowniez pokusic sie o stworzenie wlasnych :)
+  - "bc: Wiadomosc broadcast"                       #bc: tekst[string] - wiadomosc, ktora wyswietli sie wszystkim graczom - broadcast
+  - "cmd: mm i give %player% Orkowa_Zguba"          #cmd: komenda[string] - komenda, jaka ma zostac wykonana. W trakcie wykonania komendy, %player% zostaje zamienione na nick gracza ;)
+
+require:                                            #wymagania - czyli jakie warunki musimy spelnic, by moc wziac zadanie; kazde z wymagan jest opcjonalne i nie musi wystepowac
+  - "level: 50"                                     #level: poziom[int] - czyli jaki poziom minimalny musi miec gracz, by moc wziac zadanie
+  - "klasa: &bPaladyn"                              #klasa: klasa[string] - czyli jaka klase musze miec, by moc wziac questa. Wazne, by kolorki byly zgodne!!!
+  - "ranga: vip"                                    #ranga: perm[string] - czyli jaka range musi miec gracz, by mogl wziac questa. Przydatne do tworzenia questów vipowskich. Sprawdza to na zasadzie wzorca rpg.perm, czyli jezeli wpiszemy ranga: vip, a gracz ma permisje rpg.vip, to moze wziac questa :)
+  - "quest: poprzednik_quest"                       #quest: zadanie[string] - czyli jakiego questa musimy wykonac, by moc wziac ten quest. Poslugujemy sie tutaj ID questa!!!
+
+stopnie:                                            #czyli z ilu etapow sklada sie quest. Numerujemy od 1!
+  1:
+    talking: true/false                             #czyli czy musimy gadac ze zleceniodawca, by skonczyc etap/quest (przydatne przy rozbudowanych questach. Jest opcjonalną wartością i nie musi sie pojawic - domyslnie na true
+    message: "Zakonczyles etap"                     #wartosc opcjonalna - nie musi wystepowac. Jesli wystapi, to po zakonczeniu etapu/questa wyswietlana jest ta wiadomosc
+    targets:                                        #cele przypadajacy na dany etap zadania. Cele numerujemy od 1
+      1:
+        id: "wzorzec_quest_1_1"                     #kazdy cel ma swoj unikatowy identyfikator. Dobra praktyka jest, by id skladalo sie z idQuesta_Stopien_NrCelu
+        type: "zabij/przynies/znajdz/zagadaj"       #jedna z tych czterech wartosci
+        targetName: "cel nasz"                      #czyli nasz cel - dla celu znajdz jest to region !WorldGuard!
+        message: "Tekst: %stan%"                    #czyli co ma byc wyswietlane, kiedy gracz wpisze /questy - np. message: "Zabij 20 budowniczych: %stan%" - %stan% musi zawsze wystapic, gdyz on informuje gracza, czy wykonal juz cel, czy nie
+        ilosc: 30                                   #dostepne tylko przy typach zabij oraz przynies (ile czegos mamy zabic badz przyniesc)
+        dialog:                                     #dostepne tylko przy typie zagadaj. Okresla dialog, jaki ma miejsce pomiedzy graczem a NPC
+          - "&eVenus&7: &aNo i co chcesz mi powiedziec?"
+          - "&r%player%&7: &aA nic szczegolnego"

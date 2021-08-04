@@ -1,0 +1,25 @@
+id: "1_quest_8"                                
+name: "&cHerszt Bandytow"                          
+zleceniodawca: "&8&lRangar"                       
+lore:                                               
+  - "&aJestesmy bliscy zadania masakrycznego ciosu bandytom."
+  - "&aKazde wieksze skupisko bandytow ma swojego Herszta."
+  - "&aI to bedzie twoje zadanie."
+  - "&aNalezy znalezc oboz Herszta"
+  - "&aoraz wybic jego obstawe"
+prize:                                    
+  - "xp: 1485"
+require:                                            
+  - "level: 10"
+  - "quest: 1_quest_7"
+stopnie:
+  1:
+    talking: true
+    message: "&8&lRangar&7: &aUdalo Ci sie... No coz, po takim ciosie bandyci predko sie nie podniosa. Gratuluje"
+    targets:
+      1:
+        id: "1_quest_8_1_1"
+        type: "zabij"
+        targetName: "&c&lHerszt Bandytow - BOSS"
+        message: "Zabij pobliskiego Herszta Bandytow: %stan%"
+        ilosc: 1

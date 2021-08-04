@@ -1,0 +1,30 @@
+id: "4_quest_21"
+name: "&c&lBitwa o kopalnie"
+zleceniodawca: "&eMorkvarg"
+lore:
+  - "&aPora zadac orkom tutejszym jeden z wielu ciosow."
+  - "&aZejdziesz na dolne poziomy kopalni i wybijesz"
+  - "&atyle orkow ile jestes w stanie."
+  - "&aTakze do dziela!"
+prize:
+  - "xp: 8600"
+  - "money: 200"
+require:
+  - "level: 37"
+  - "quest: 4_quest_13"
+stopnie:
+  1:
+    talking: true   
+    targets:
+      1:
+        id: "4_quest_21_1_1"                     
+        type: "zabij"       
+        targetName: "&2&lGorski ork"                      
+        message: "Zabij 35 gorskich orkow z kopalni: %stan%"
+        ilosc: 35
+      2:
+        id: "4_quest_21_1_2"                     
+        type: "zabij"       
+        targetName: "&a&lGorski Szaman"                      
+        message: "Zabij 20 gorskich szamanow z kopalni: %stan%"
+        ilosc: 20

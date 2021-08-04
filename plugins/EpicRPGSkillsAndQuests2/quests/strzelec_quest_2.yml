@@ -1,0 +1,51 @@
+id: "strzelec_quest_2"
+name: "&9Okoliczni przeciwnicy"
+zleceniodawca: "&7&lSaro"
+lore:
+  - "&aZostalismy opuszczeni przez was,"
+  - "&aBEZ WSPARCIA!"
+  - "&aNie macie pojecia, z jakimi przeciwnosciami"
+  - "&amusimy sie tutaj mierzyc."
+  - "&aWilki, bandyci a nawet zywiolaki..."
+  - "&aW koncu bedziemy musieli ulec i opuscic ta wyspe..."
+prize:
+  - "xp: 550"
+  - "money: 100"
+require:
+  - "level: 11"
+  - "klasa: &2Mysliwy"
+  - "quest: strzelec_quest_1"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "strzelec_quest_2_1_1"
+        type: "zabij"
+        targetName: "&2Dziki wilk"
+        message: "Zabij 20 wilkow: %stan%"
+        ilosc: 20
+      2:
+        id: "strzelec_quest_2_1_2"
+        type: "zabij"
+        targetName: "&cRabus"
+        message: "Zabij 30 rabusiow: %stan%"
+        ilosc: 30
+      3:
+        id: "strzelec_quest_2_1_3"
+        type: "zabij"
+        targetName: "&cKieszonkowiec"
+        message: "Zabij 20 kieszonkowcow: %stan%"
+        ilosc: 20
+      4:
+        id: "strzelec_quest_2_1_4"
+        type: "zabij"
+        targetName: "&4Bandyta"
+        message: "Zabij 10 bandytow: %stan%"
+        ilosc: 10
+      5:
+        id: "strzelec_quest_2_1_5"
+        type: "zabij"
+        targetName: "&3Zywiolak powietrza"
+        message: "Pokonaj 2 zywiolaki powietrza: %stan%"
+        ilosc: 2

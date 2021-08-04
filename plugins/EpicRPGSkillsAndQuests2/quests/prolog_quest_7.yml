@@ -1,0 +1,30 @@
+id: "prolog_quest_7"                                
+name: "&eZrabowane dobra"                          
+zleceniodawca: "&e&lUthar"                       
+lore:                                               
+  - "&aOstatnia rzecz, przy ktorej mozesz mi pomoc."
+  - "&aTrzeba chociaz w niewielkim stopniu"
+  - "&aodzyskac to, co gobliny zrabowaly."
+  - "&aPomoz nam odzyskac nasze narzedzia."
+prize:                                    
+  - "xp: 650"
+require:                                            
+  - "level: 3"
+  - "quest: prolog_quest_6"
+stopnie:                                            
+  1:
+    talking: true
+    message: "&e&lUthar&7: &aSpisales sie znakomicie! Co prawda, gobliny mocno uszkodzily nasz sprzet, ale jestem pewien, ze bedziemy w stanie go naprawic."    
+    targets:
+      1:
+        id: "prolog_quest_7_1_1"                     
+        type: "przynies"       
+        targetName: "&rLaga"                      
+        message: "Przynies 3 lagi: %stan%"                    
+        ilosc: 3
+      2:
+        id: "prolog_quest_7_1_2"                     
+        type: "przynies"       
+        targetName: "&7Kilof goblina"                      
+        message: "Przynies 3 kilofy goblina: %stan%"                    
+        ilosc: 3

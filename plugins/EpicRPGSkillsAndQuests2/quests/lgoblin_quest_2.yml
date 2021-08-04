@@ -1,0 +1,35 @@
+id: "lgoblin_quest_2"                                
+name: "&a&lGoblin Junior"                          
+zleceniodawca: "&e&lUthar"                       
+lore:                                               
+  - "&aNo coz - pod nosem mam jaskinie pelna goblinow."
+  - "&aO tym szczerze mowiac nie marzylem."
+  - "&aMusisz zejsc w glab tej jaskini"
+  - "&ai ewentualnie zabic tam paskudztwa."
+prize:                                    
+  - "xp: 340"
+  - "money: 25"
+  - "bc: &7[&b&lEpicRPG&7] &aGracz &7%player% &aukonczyl watek &a&o&lCHOLERNE GOBLINY&a. &6&lGRATULACJE!"
+require:                                            
+  - "level: 5"
+  - "quest: lgoblin_quest_1"
+stopnie:                                            
+  1:
+    talking: false
+    message: "&r%player%&7: &aCo to za przerosniety goblin!? Mam z nim jakies szanse!? Musze sprobowac!"    
+    targets:
+      1:
+        id: "lgoblin_quest_2_1_1"                     
+        type: "znajdz"       
+        targetName: "junior"                      
+        message: "Zbadaj glab jaskini goblinow: %stan%"          
+  2:
+    talking: true
+    message: "&e&lUthar&7: &aDziekuje za Twoja pomoc. Duzo pieniedzy nie mam, ale mam nadzieje, ze to wystarczy."
+    targets:
+      1:
+        id: "lgoblin_quest_2_2_1"                     
+        type: "zabij"       
+        targetName: "&a&lGoblin Junior - BOSS"                      
+        message: "Zabij przerosnietego goblina z jaskini mlodych goblinow: %stan%"                    
+        ilosc: 1

@@ -1,0 +1,31 @@
+id: "strzelec_quest_1"
+name: "&a&oOdbudowa relacji"
+zleceniodawca: "&2&lRonin"
+lore:
+  - "&aMy, jako mysliwi, utrzymujemy"
+  - "&abardzo dobre kontakty z przemytnikami."
+  - "&aOstatnio jednak troche nasze relacje zaniedbalismy."
+  - "&aMasz proste zadanie - naprawic nasze relacje."
+  - "&aUdaj sie do ich obozu i porozmawiaj z ich dowodca."
+prize:
+  - "xp: 85"
+require:
+  - "level: 10"
+  - "klasa: &2Mysliwy"
+stopnie:
+  1:
+    talking: false
+    targets:
+      1:
+        id: "strzelec_quest_1_1_1"
+        type: "znajdz"
+        targetName: "przemytnik"
+        message: "Udaj sie do obozu przemytnikow na poludnie do obozu Rangara (760;210): %stan%"
+      2:
+        id: "strzelec_quest_1_1_2"
+        type: "zagadaj"
+        targetName: "&7&lSaro"
+        message: "Porozmawiaj z przywodca przemytnikow &7&lSaro: %stan%"
+        dialog:
+          - "%player%&7: &aPrzychodze od mysliwych, dostalem informacje, ze macie jakies problemy i wyslano mnie, bym wam pomogl."
+          - "&7&lSaro&7: &aTo mile z waszej strony, ze w koncu sie nami zainteresowaliscie. Mamy problemy z rabusiami i ich hersztami. Potrzeba bedzie sporo pracy, by sytuacja powrocila do normy."

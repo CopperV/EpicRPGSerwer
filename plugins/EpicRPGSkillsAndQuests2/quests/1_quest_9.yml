@@ -1,0 +1,29 @@
+id: "1_quest_9"                                
+name: "&bMeldunek dla &b&l&oCorristo"                          
+zleceniodawca: "&8&lRangar"                       
+lore:                                               
+  - "&aWykonales tutaj w obozie kawal solidnej roboty."
+  - "&aMozesz na spokojnie wracac do &b&l&oCorristo&a."
+  - "&aJuz go poinformowalem o Twoim wyczynie."
+prize:                                    
+  - "xp: 210"
+  - "bc: &7[&b&lEpicRPG&7] &aGracz &7%player% &aukonczyl watek &3&o&lPLAGA BANDYTOW&a. &6&lGRATULACJE!"
+  - "money: 1000"
+require:                                            
+  - "level: 10"
+  - "quest: 1_quest_8"
+stopnie:
+  1:
+    talking: false
+    targets:
+      1:
+        id: "1_quest_9_1_1"
+        type: "zagadaj"
+        targetName: "&b&lCorristo"
+        message: "Zdaj raport &b&lCorristo: %stan%"
+        dialog:
+          - "&r%player%&7: &bTrche bandytow zajmie czasu, zanim sie ogarna po ciosach, jakie im zadalem."
+          - "&b&lCorristo&7: &aO Twoim wyczynie juz slyszalem."
+          - "&b&lCorristo&7: &aHerszt Bandytow z Twoim doswiadczeniem..."
+          - "&b&lCorristo&7: &aKto by pomyslal."
+          - "&b&lCorristo&7: &aWez to zloto - przyda Ci sie pewnie na lepszy ekwipunek."

@@ -1,0 +1,50 @@
+id: worldquest_2
+name: '&9Walka o statek'
+zleceniodawca: '&3&lSteve'
+lore:
+- '&aNadszedl czas, aby w koncu zaatakowac'
+- '&aTwierdze Pustki.'
+- '&aMusimy jednak najpierw przejac statek'
+- '&az portu.'
+- '&aBedziecie musieli zmierzyc sie z armia Herobrine,'
+- '&abysmy mogli dostac sie do statku.'
+- '&aPowodzenia wojownicy!'
+prize:
+- 'bc: &7[&b&lEpicRPG&7] &aUkonczony zostal WorldQuest &9Walka o statek&a. &6&lGRATULACJE :)'
+require:
+- 'quest: 6_quest_8'
+- 'level: 55'
+completed: true
+stopnie:
+  '1':
+    talking: true
+    message: '&3&lSteve&7: &aZapomnialem wspomniec. Przyniescie mi Mroczne Pieczecie. Pomoga nawigowac naw w drodze do Twierdzy. Poza tym moga skrywac jakies sekrety.'
+    targets:
+      '1':
+        id: worldquest_2_1_1
+        type: zabij
+        targetName: '&a&oZombie - Osadnik'
+        message: 'Pokonaj 4 000 Zombie-Osadnikow: %stan%'
+        ilosc: 4000
+      '2':
+        id: worldquest_2_1_2
+        type: zabij
+        targetName: '&9Tulacz'
+        message: 'Pokonaj 1 000 Tulaczy: %stan%'
+        ilosc: 1000
+      '3':
+        id: worldquest_2_1_3
+        type: zabij
+        targetName: '&3&oJezdziec'
+        message: 'Pokonaj 1 000 Jezdzcow: %stan%'
+        ilosc: 1000
+  '2':
+    talking: true
+    message: '&3&lSteve&7: &aDobra robota. Juz zaczynamy przygotowywac sie do wyprawy na Twierdze. Przygotujcie sie dobrze, nie wiemy czego sie spodziewac w srodku.'
+    targets:
+      '1':
+        id: worldquest_2_2_1
+        type: przynies
+        targetName: '&8&oMroczna pieczec'
+        message: 'Przynies 50 Mrocznych Pieczeci: %stan%'
+        ilosc: 50

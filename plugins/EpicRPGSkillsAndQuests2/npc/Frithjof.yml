@@ -1,0 +1,48 @@
+name: "&7Frithjof"
+title: "&7Frithjof - dowodca"
+size: 27
+slots:
+  1:
+    item: "wilk_quest_1"
+  2:
+    item: "wilk_quest_2"
+  3:
+    item: "wilk_quest_3"
+  4:
+    item: "wilk_quest_4"
+  5:
+    item: "wilk_quest_5"
+  6:
+    item: "p_quest_1"
+  10:
+    item: "zlecenie_wilk"
+  8:
+    item: "Sila1"
+    max: 60
+    wymagania:
+      - "quest: p_quest_1"
+  9:
+    item: "Sila5"
+    max: 60
+    wymagania:
+      - "quest: p_quest_1"
+  17:
+    item: "Zdolnosci1"
+    max: 45
+    wymagania:
+      - "quest: p_quest_1"
+  18:
+    item: "Zdolnosci5"
+    max: 45
+    wymagania:
+      - "quest: p_quest_1"
+  26:
+    item: "Walka1"
+    max: 20
+    wymagania:
+      - "quest: p_quest_1"
+  27:
+    item: "Walka2"
+    max: 20
+    wymagania:
+      - "quest: p_quest_1"

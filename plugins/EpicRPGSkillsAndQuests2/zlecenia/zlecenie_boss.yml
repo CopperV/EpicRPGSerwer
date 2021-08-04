@@ -1,0 +1,219 @@
+id: "zlecenie_boss"                                
+name: "&4&lMonstra Archolosa"
+zleceniodawca: "&c&lAlexstrasza"                       
+lore:                                               
+  - "&aArcholos zamieszkuje wiele monstrow,"
+  - "&aktorych ubicie wymaga niemalej determinacji."
+  - "&aSieja zamet i postrach posrod mieszkancow"
+  - "&ai prostych zolnierzy."
+  - "&aPoskromienie ich jest niezbedne do przywrocenia"
+  - "&aladu i porzadku na tej wyspie."
+  - "&aJestes chetny odplatnie pomoc w tym?"
+prize:                                    
+  - "xp: 12500"
+  - "money: 700"
+require:                                            
+  - "level: 25"
+  - "quest: fabula_quest_7"
+etapy: 5
+stopnie:
+  1:
+    targets:
+      1:
+        id: "zlecenie_boss_1_1"
+        type: "zabij"
+        targetName: "&c&lSamiec ALFA - BOSS"
+        message: "Pokonaj Samca Alfe: %stan%"
+        ilosc: 1
+  2:
+    targets:
+      1:
+        id: "zlecenie_boss_2_1"
+        type: "zabij"
+        targetName: "&c&lHerszt Bandytow - BOSS"
+        message: "Pokonaj trzech hersztow bandytow: %stan%"
+        ilosc: 3
+  3:
+    targets:
+      1:
+        id: "zlecenie_boss_3_1"
+        type: "zabij"
+        targetName: "&4&lORTEGA - BOSS"
+        message: "Pokonaj przywodce bandytow - Ortege: %stan%"
+        ilosc: 1
+  4:
+    targets:
+      1:
+        id: "zlecenie_boss_4_1"
+        type: "zabij"
+        targetName: "&a&lGoblin Junior - BOSS"
+        message: "Pokonaj Goblina Juniora grasujacego kolo farmy Uthara: %stan%"
+        ilosc: 1
+  5:
+    targets:
+      1:
+        id: "zlecenie_boss_5_1"
+        type: "zabij"
+        targetName: "&cGoblini Krol - BOSS"
+        message: "Pokonaj gobliniego krola: %stan%"
+        ilosc: 1
+  6:
+    targets:
+      1:
+        id: "zlecenie_boss_6_1"
+        type: "zabij"
+        targetName: "&c&lSzakal Ludojad - BOSS"
+        message: "Pokonaj szakala ludojada: %stan%"
+        ilosc: 1
+  7:
+    targets:
+      1:
+        id: "zlecenie_boss_7_1"
+        type: "zabij"
+        targetName: "&3&lQuarhodron - BOSS"
+        message: "Pokonaj Quarhodrona - przywodce kasty wojownikow: %stan%"
+        ilosc: 1
+  8:
+    targets:
+      1:
+        id: "zlecenie_boss_9_1"
+        type: "zabij"
+        targetName: "&2&lHUSK - miniBOSS"
+        message: "Zabij 10 huskow: %stan%"
+        ilosc: 10
+  9:
+    targets:
+      1:
+        id: "zlecenie_boss_10_1"
+        type: "zabij"
+        targetName: "&4&lGIANT HUSK - BOSS"
+        message: "Pokonaj gigantycznego huska: %stan%"
+        ilosc: 1
+  10:
+    targets:
+      1:
+        id: "zlecenie_boss_11_1"
+        type: "zabij"
+        targetName: "&4&lPurchlak - BOSS"
+        message: "Pokonaj purchlaka: %stan%"
+        ilosc: 1
+  11:
+    targets:
+      1:
+        id: "zlecenie_boss_12_1"
+        type: "zabij"
+        targetName: "&6&lGomez - Straznik Kopalni - BOSS"
+        message: "Pokonaj Gomeza - straznika kopalni: %stan%"
+        ilosc: 1
+  12:
+    targets:
+      1:
+        id: "zlecenie_boss_13_1"
+        type: "zabij"
+        targetName: "&c&lTserebus - warg Kana - BOSS"
+        message: "Pokonaj warga naczelnego orkow Kana - Tserebusa: %stan%"
+        ilosc: 1
+  13:
+    targets:
+      1:
+        id: "zlecenie_boss_14_1"
+        type: "zabij"
+        targetName: "&4&lOrkowy General - BOSS"
+        message: "Pokonaj orkowego generala: %stan%"
+        ilosc: 1
+  14:
+    targets:
+      1:
+        id: "zlecenie_boss_15_1"
+        type: "zabij"
+        targetName: "&a&lGrok - najwyzszy szaman - BOSS"
+        message: "Pokonaj Najwyzszego Szamana - Groka: %stan%"
+        ilosc: 1
+  15:
+    targets:
+      1:
+        id: "zlecenie_boss_16_1"
+        type: "zabij"
+        targetName: "&6&lNaczelny Orkow - Kan - BOSS"
+        message: "Pokonaj Naczelnego Orkow - Kana: %stan%"
+        ilosc: 1
+  16:
+    targets:
+      1:
+        id: "zlecenie_boss_17_1"
+        type: "zabij"
+        targetName: "&e&lNizar - pierwszy z Assasynow - BOSS"
+        message: "Pokonaj zdradzieckiego Nizara: %stan%"
+        ilosc: 1
+  17:
+    targets:
+      1:
+        id: "zlecenie_boss_18_1"
+        type: "zabij"
+        targetName: "&6&lBaron Geddon - BOSS"
+        message: "Pokonaj Barona Archosa Geddona: %stan%"
+        ilosc: 1
+  18:
+    targets:
+      1:
+        id: "zlecenie_boss_19_1"
+        type: "zabij"
+        targetName: "&4&lMajordomus Egzekutus - BOSS"
+        message: "Pokonaj Majordomusa Egzekutusa: %stan%"
+        ilosc: 1
+  19:
+    targets:
+      1:
+        id: "zlecenie_boss_21_1"
+        type: "zabij"
+        targetName: "&4&lWarlodSlayer - BOSS"
+        message: "Pokonaj Warlord Slayera: %stan%"
+        ilosc: 1
+  20:
+    targets:
+      1:
+        id: "zlecenie_boss_22_1"
+        type: "zabij"
+        targetName: "&b&lNeptulon - Wladca Wod - BOSS"
+        message: "Pokonaj Neptulona - Wladce Wod: %stan%"
+        ilosc: 1
+  21:
+    targets:
+      1:
+        id: "zlecenie_boss_23_1"
+        type: "zabij"
+        targetName: "&6&lBarbossa - BOSS"
+        message: "Pokonaj Barbosse: %stan%"
+        ilosc: 1
+  22:
+    targets:
+      1:
+        id: "zlecenie_boss_24_1"
+        type: "zabij"
+        targetName: "&4&lDavy Jones - BOSS"
+        message: "Pokonaj kapitana latajacego holendra - Davego Jonesa: %stan%"
+        ilosc: 1
+  23:
+    targets:
+      1:
+        id: "zlecenie_boss_25_1"
+        type: "zabij"
+        targetName: "&5&lSpherus Magna - BOSS"
+        message: "Pokonaj eksperyment Xardasa - Spherus Magna: %stan%"
+        ilosc: 1
+  24:
+    targets:
+      1:
+        id: "zlecenie_boss_27_1"
+        type: "zabij"
+        targetName: "&2&lMaexxna - Krolowa Pajeczakow - BOSS"
+        message: "Pokonaj Krolowa Pajakow - Maexxne: %stan%"
+        ilosc: 1
+  25:
+    targets:
+      1:
+        id: "zlecenie_boss_28_1"
+        type: "zabij"
+        targetName: "&2&lMaexxna - Krolowa Pajeczakow - BOSS"
+        message: "Pokonaj Krolowa Pajakow - Maexxne: %stan%"
+        ilosc: 1

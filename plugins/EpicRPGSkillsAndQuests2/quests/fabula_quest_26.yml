@@ -1,0 +1,43 @@
+id: "fabula_quest_26"
+name: "&4&lBaron Geddon"                          
+zleceniodawca: "&c&lAlexstrasza"
+lore:
+  - "&aWiemy juz, ze Geddon przebywa gdzies"
+  - "&ana spaczonych ziemiach."
+  - "&aPora go znalezc."
+  - "&aSzukaj gdzies go tam i wybij jego"
+  - "&aslugi, kiedy go znajdziesz."
+prize:                                    
+  - "xp: 100000"
+  - "money: 10000"
+  - "bc: &7[&b&lEpicRPG&7] &aGracz &7%player% &aukonczyl watek &4&lGeddon Zdrajca&a. &6&lGRATULACJE!"
+  - "cmd: crazycrates give physical EPICKA 1 %player%"
+  - "cmd: rta add %player% 10"
+require:                                            
+  - "quest: fabula_quest_25"
+  - "level: 50"
+stopnie:
+  1:
+    talking: false
+    message: "&r%player%&7: &bBaron Geddon... Zdrajca... W koncu pokonany..."
+    targets:
+      1:
+        id: "fabula_quest_26_1_1"
+        type: "zabij"
+        targetName: "&6&lBaron Geddon - BOSS"
+        message: "Udaj sie na spaczone ziemie i pokonaj Barona Geddona: %stan%"
+        ilosc: 1
+  2:
+    talking: false
+    targets:
+      1:
+        id: "fabula_quest_26_2_1"
+        type: "zagadaj"
+        targetName: "&c&lAlexstrasza"
+        message: "Porozmawiaj z &c&lAlexstrasza: %stan%"
+        dialog:
+          - "&r%player%&7: &bUdalo sie..."
+          - "&r%player%&7: &bArchos odpowiedzial za swa zdrade."
+          - "&c&oAlexstrasza&7: &aWiedzialem, ze temu podolasz."
+          - "&c&oAlexstrasza&7: &aNiestety czeka nas dluga droga do przywrocenia ladu na tej wyspie."
+          - "&c&oAlexstrasza&7: &aO ile kiedykolwiek do tego dojdzie..."

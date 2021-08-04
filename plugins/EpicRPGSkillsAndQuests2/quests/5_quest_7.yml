@@ -1,0 +1,44 @@
+id: "5_quest_7"
+name: "&c&lSpaczone stworzenia"
+zleceniodawca: "&b&lTyrael"
+lore:                                               
+  - "&aSpaczone ziemie to nie tylko spaczone dusze"
+  - "&ai upadli kyrianie."
+  - "&aNa tych ziemiach zaroilo sie rowniez od stworzen"
+  - "&aRagnarosowatych, co daje do myslenia."
+  - "&aMozliwe, ze w jakis sposob on stoi za tym spaczeniem."
+  - "&aJednak nie to jest naszym zadaniem."
+  - "&aTrzeba troche oczyscic te ziemie z tych stworzen."
+prize:                                    
+  - "xp: 70000"
+require:                                            
+  - "level: 48"
+  - "quest: 5_quest_6"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "5_quest_7_1_1"                     
+        type: "zabij"       
+        targetName: "&cZywiolak Ognia"                      
+        message: "Zabij 30 Zywiolakow Ognia ze spaczonych ziem: %stan%"
+        ilosc: 30
+      2:
+        id: "5_quest_7_1_2"                     
+        type: "zabij"       
+        targetName: "&4Zarzyciel"                      
+        message: "Zabij 15 Zarzycieli ze spaczonych ziem: %stan%"
+        ilosc: 15
+      3:
+        id: "5_quest_7_1_3"                     
+        type: "zabij"       
+        targetName: "&c&lWulkaniczny Furiat"                      
+        message: "Zabij 15 Wulkanicznych Furiatow ze spaczonych ziem: %stan%"
+        ilosc: 15
+      4:
+        id: "5_quest_7_1_4"                     
+        type: "zabij"       
+        targetName: "&4&lWulkaniczny Olbrzym"                      
+        message: "Zabij 5 Wulkanicznych Olbrzymow ze spaczonych ziem: %stan%"
+        ilosc: 5

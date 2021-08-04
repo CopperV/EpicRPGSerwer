@@ -1,0 +1,16 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&eRaczka"
+  - "&7[&8&lWiezien&7]"
+skinid: 693503328
+location:
+  world: "prison_quest"
+  x: -185.5
+  y: 91.0
+  z: 226.0
+  yaw: -90.0
+  pitch: -6
+lookat: true
+hidequest: "zlodziej_quest_21"

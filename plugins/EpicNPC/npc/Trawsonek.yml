@@ -1,0 +1,16 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&2&l&oTrawsonek"
+  - "&a&oPoczekaj, tylko zapale :>"
+skinid: 954494189
+location:
+  world: "F_RPG"
+  x: -118.5
+  y: 81.0
+  z: -378
+  yaw: -4.5
+  pitch: 37.5
+lookat: true
+state: CROUCHED

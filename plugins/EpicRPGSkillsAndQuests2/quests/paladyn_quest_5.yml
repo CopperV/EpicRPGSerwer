@@ -1,0 +1,25 @@
+id: "paladyn_quest_5"                                
+name: "&4&lOrtega"                          
+zleceniodawca: "&a&lJasuo"                       
+lore:                                               
+  - "&aSkoro odnalazles Ortege, to moze"
+  - "&asprobujesz go pokonac?"
+  - "&aZwolaj swoich przyjaciol i wyruszcie"
+  - "&ana tego zwyrola!"
+prize:                                    
+  - "xp: 1275"
+require:                                            
+  - "level: 17"
+  - "quest: paladyn_quest_4"
+  - "klasa: &cWojownik"
+stopnie:
+  1:
+    talking: true
+    message: "&a&lJasuo&7: &aNIEMOZLIWE, UDALO CI SIE! &4&lDargoth &awiedzial kogo nalezy wyslac!"
+    targets:
+      1:
+        id: "paladyn_quest_5_1_1"
+        type: "zabij"
+        targetName: "&4&lORTEGA - BOSS"
+        message: "Pokonaj przywodce bandytow - Ortege: %stan%"
+        ilosc: 1

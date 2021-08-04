@@ -1,0 +1,30 @@
+id: "pirat_quest_3"                                
+name: "&e&oZrabowane skarby"                          
+zleceniodawca: "&e&lNers"                       
+lore:                                               
+  - "&aNo coz, tajemnica nie jest, ze piraci"
+  - "&adoslownie oplywaja w roznego rodzaju skarby."
+  - "&aSkarby, ktorych sie dorobili rabujac i grabiac."
+  - "&aMozna ich troche upokorzyc wlasnie"
+  - "&arabujac im to, co oni niegdys sami ukradli."
+prize:                                    
+  - "xp: 3000"
+require:                                            
+  - "level: 27"
+  - "quest: pirat_quest_2"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "pirat_quest_3_1_1"
+        type: "przynies"
+        targetName: "&bPirackie klejnoty"
+        message: "Przynies 25 pirackich klejnotow: %stan%"
+        ilosc: 25
+      2:
+        id: "pirat_quest_3_1_2"
+        type: "przynies"
+        targetName: "&4Pirackie rubiny"
+        message: "Przynies 25 pirackich rubinow: %stan%"
+        ilosc: 25

@@ -1,0 +1,17 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&b&lMyxir"
+  - "&7[&6&lBIZNESMEN&7]"
+skinid: 553429594
+location:
+  world: "F_RPG"
+  x: -7.5
+  y: 37
+  z: 549.0
+  yaw: -11
+  pitch: 4
+lookat: true
+commands:
+  - "cc open myxir %player%"

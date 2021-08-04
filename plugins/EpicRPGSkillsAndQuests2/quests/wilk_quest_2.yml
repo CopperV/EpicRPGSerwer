@@ -1,0 +1,28 @@
+id: "wilk_quest_2"                                
+name: "&eInteres Frithjofa"                          
+zleceniodawca: "&7Frithjof"                       
+lore:                                               
+  - "&aSluchaj, skoro jestesmy przy wilkach,"
+  - "&ato mam do Ciebie interes."
+  - "&aOprawicz takiego czworonoga zaden problem,"
+  - "&aa na ich skorach mozna troche zarobic."
+  - "&aGdybym mogl sie stad ruszyc, to sam bym to zalatwil."
+  - "&aPrzynies mie 12 skor wilka,"
+  - "&aa dam Ci za nie &e60$&a."
+prize:                                    
+  - "xp: 320"
+  - "money: 60"
+require:                                            
+  - "level: 6"
+  - "quest: wilk_quest_1"
+stopnie:
+  1:
+    talking: true
+    message: "&7Frithjof&7: &aZgodnie z obietnica, za te skory daje Ci &e60$&a."
+    targets:
+      1:
+        id: "wilk_quest_2_1_1"
+        type: "przynies"
+        targetName: "&rSkora Wilka"
+        message: "Przynies 12 skor wilka: %stan%"
+        ilosc: 12

@@ -1,0 +1,35 @@
+id: "zlodziej_quest_6"                                
+name: "&4Na pienku"                          
+zleceniodawca: "&8&lValeera"                       
+lore:                                               
+  - "&aPowiem krotko, z prostych wzgledow bandyci nam"
+  - "&auprzykrzaja zycie."
+  - "&aPrzez swoje dzialania straz miejska staje sie czujniejsza,"
+  - "&aa przez to rowniez nam ciezej w pracy."
+  - "&aW skrocie, mamy z bandytami na pienku."
+  - "&aKiedys wszystko bylo dobrze - nie bylo tylu problemow."
+  - "&aLecz odkad przybyl tutaj Baron Archos Geddon,"
+  - "&asytuacja dla nas zaczela sie gwaltwonie pogarszac."
+  - "&aOczywiscie, ja juz nie wspominam o ostatnim przybyciu"
+  - "&atutaj wojsk krolewskich."
+  - "&aGeneralnie sprawa jest prosta - trzeba ubic trzech Hersztow."
+  - "&aJeden z nich znajduje sie na polnoc, kolo farmy Cratosa."
+  - "&aDrugi na wschodzie, tuz za lasem centralnym."
+  - "&aTrzeci urzadzil sobie oboz na poludniu, na wybrzezu, kolo dzungli."
+prize:                                    
+  - "xp: 4500"
+  - "money: 400"
+require:                                            
+  - "level: 21"
+  - "quest: zlodziej_quest_5"
+stopnie:
+  1:
+    talking: true
+    message: "&8&lValeera&7: &aDobra robota... Zasluzyles sobie na to zloto. Od teraz powinnismy miec troche latwiej w pracy."
+    targets:
+      1:
+        id: "zlodziej_quest_6_1_1"
+        type: "zabij"
+        targetName: "&c&lHerszt Bandytow - BOSS"
+        message: "Pokonaj wszystkich trzech Hersztow Bandytow: %stan%"
+        ilosc: 3

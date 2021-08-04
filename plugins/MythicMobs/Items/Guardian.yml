@@ -1,0 +1,164 @@
+Buty_Koralowe_Zr:
+  Id: 313
+  Display: '&9Buty koralowe'
+  Enchantments:
+  - DEPTH_STRIDER:1
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &742'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c200'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 10
+      MovementSpeed: 0.05
+      KnockbackResistance: 0.03
+Buty_Koralowe_Zd:
+  Id: 313
+  Display: '&9Buty koralowe'
+  Enchantments:
+  - DEPTH_STRIDER:1
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &742'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c200'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 10
+      MovementSpeed: 0.05
+      KnockbackResistance: 0.03
+Buty_Koralowe_Str:
+  Id: 313
+  Display: '&9Buty koralowe'
+  Enchantments:
+  - DEPTH_STRIDER:1
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &749'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c220'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 18
+      MovementSpeed: 0.02
+      KnockbackResistance: 0.04
+Buty_Koralowe_Wytrz:
+  Id: 313
+  Display: '&9Buty koralowe'
+  Enchantments:
+  - DEPTH_STRIDER:1
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &765'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c230'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 20
+      MovementSpeed: 0.05
+      KnockbackResistance: 0.05
+Trojzab_Neptulona_Zr:
+  Id: 294
+  Display: '&b&lTrojzab Neptulona'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7160'
+  - '&4- &8Sila: &7+10'
+  - '&4- &8Zrecznosc: &7+70'
+  - '&4- &8Walka: &7+35'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c235'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.15
+    offhand:
+      MovementSpeed: 0.15
+Trojzab_Neptulona_Str:
+  Id: 294
+  Display: '&b&lTrojzab Neptulona'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7190'
+  - '&4- &8Sila: &7+60'
+  - '&4- &8Zrecznosc: &7+20'
+  - '&4- &8Walka: &7+30'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c220'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.1
+    offhand:
+      MovementSpeed: 0.1
+Morski_Skarb:
+  Id: 264
+  Display: '&1Morski skarb'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Sol:
+  Id: 353
+  Display: '&rSol'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Sol_Morska:
+  Id: 410
+  Display: '&9Sol morska'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Akwamaryn:
+  Id: 409
+  Display: '&7Akwamaryn'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'

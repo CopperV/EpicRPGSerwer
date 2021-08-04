@@ -1,0 +1,235 @@
+id: "zlecenie_useless"                                
+name: "&e&oNiedocenione"
+zleceniodawca: "&6&lSara"                       
+lore:                                               
+  - "&aWiele trofeow ze stworzen Archolosa"
+  - "&ajest tutaj nic nie warta,"
+  - "&anatomiast na kontynecie potrafia osiagac"
+  - "&aoszalamiajace kwoty."
+  - "&aOczywiscie, trzeba wiedziec gdzie mozna"
+  - "&aoto sprzedac po prawilnej cenie."
+prize:                                    
+  - "xp: 8000"
+  - "money: 800"
+  - "item: Zlota_Moneta 25"
+  - "cmd: crazycrates give physical Zwykla 1 %player%"
+require:                                            
+  - "level: 30"
+etapy: 5
+stopnie:
+  1:
+    targets:
+      1:
+        id: "zlecenie_useless_1_1"
+        type: "przynies"
+        targetName: "&rPajecza siec"
+        message: "Przynies 18 sztuk pajeczej sieci: %stan%"
+        ilosc: 18
+  2:
+    targets:
+      1:
+        id: "zlecenie_useless_2_1"
+        type: "przynies"
+        targetName: "&cOko pajaka"
+        message: "Pokonaj 15 sztuk oka pajaka: %stan%"
+        ilosc: 15
+  3:
+    targets:
+      1:
+        id: "zlecenie_useless_3_1"
+        type: "przynies"
+        targetName: "&4Galka czarnej wdowy"
+        message: "Przynies 15 galek czarnej wdowy: %stan%"
+        ilosc: 15
+  4:
+    targets:
+      1:
+        id: "zlecenie_useless_4_1"
+        type: "przynies"
+        targetName: "&rTrup"
+        message: "Przynies 19 trupow (drop szakala): %stan%"
+        ilosc: 19
+  5:
+    targets:
+      1:
+        id: "zlecenie_useless_5_1"
+        type: "przynies"
+        targetName: "&eSerce mumii"
+        message: "Przynies 21 serc mumii: %stan%"
+        ilosc: 21
+  6:
+    targets:
+      1:
+        id: "zlecenie_useless_6_1"
+        type: "przynies"
+        targetName: "&7Czaszka"
+        message: "Przynies 11 czaszek (drop szakala): %stan%"
+        ilosc: 11
+  7:
+    targets:
+      1:
+        id: "zlecenie_useless_7_1"
+        type: "przynies"
+        targetName: "&rKosc"
+        message: "Przynies 30 kosci (drop szakala): %stan%"
+        ilosc: 30
+  8:
+    targets:
+      1:
+        id: "zlecenie_useless_8_1"
+        type: "przynies"
+        targetName: "&eSkora szakala"
+        message: "Przynies 16 skor szakala: %stan%"
+        ilosc: 16
+  9:
+    targets:
+      1:
+        id: "zlecenie_useless_9_1"
+        type: "przynies"
+        targetName: "&eRybik"
+        message: "Przynies 20 skor rybika: %stan%"
+        ilosc: 20
+  10:
+    targets:
+      1:
+        id: "zlecenie_useless_10_1"
+        type: "przynies"
+        targetName: "&aKiel klikacza"
+        message: "Przynies 14 klow klikacza: %stan%"
+        ilosc: 14
+  11:
+    targets:
+      1:
+        id: "zlecenie_useless_11_1"
+        type: "przynies"
+        targetName: "&2Glowa zarazonego"
+        message: "Przynies 17 glow zarazonego: %stan%"
+        ilosc: 17
+  12:
+    targets:
+      1:
+        id: "zlecenie_useless_12_1"
+        type: "przynies"
+        targetName: "&2Resztki"
+        message: "Przynies 24 resztki (drop z bagien): %stan%"
+        ilosc: 24
+  13:
+    targets:
+      1:
+        id: "zlecenie_useless_13_1"
+        type: "przynies"
+        targetName: "&aGlowa umarlaka"
+        message: "Przynies 18 glow umarlaka (drop z bagien): %stan%"
+        ilosc: 18
+  14:
+    targets:
+      1:
+        id: "zlecenie_useless_14_1"
+        type: "przynies"
+        targetName: "&aOrkowa smycz"
+        message: "Przynies 12 orkowych smyczy (drop z wargow): %stan%"
+        ilosc: 12
+  15:
+    targets:
+      1:
+        id: "zlecenie_useless_15_1"
+        type: "przynies"
+        targetName: "&5Ksiega czarnej magii"
+        message: "Przynies 22 ksiegi czarnej magii: %stan%"
+        ilosc: 22
+  16:
+    targets:
+      1:
+        id: "zlecenie_useless_16_1"
+        type: "przynies"
+        targetName: "&0Kamien runiczny"
+        message: "Przynies 19 kamieni runicznych: %stan%"
+        ilosc: 19
+  17:
+    targets:
+      1:
+        id: "zlecenie_useless_17_1"
+        type: "przynies"
+        targetName: "&cSerce wulkanicznego olbrzyma"
+        message: "Przynies 10 serc wulkanicznego olbrzyma: %stan%"
+        ilosc: 10
+  18:
+    targets:
+      1:
+        id: "zlecenie_useless_18_1"
+        type: "przynies"
+        targetName: "&cSpaczona dusza"
+        message: "Przynies 20 spaczonych dusz: %stan%"
+        ilosc: 20
+  19:
+    targets:
+      1:
+        id: "zlecenie_useless_19_1"
+        type: "przynies"
+        targetName: "&4&lCzastka spaczenia"
+        message: "Przynies 15 czastek spaczenia: %stan%"
+        ilosc: 15
+  20:
+    targets:
+      1:
+        id: "zlecenie_useless_20_1"
+        type: "przynies"
+        targetName: "&7Pyl przekletego pirata"
+        message: "Przynies 8 porcji pylu przekletych piratow: %stan%"
+        ilosc: 8
+  21:
+    targets:
+      1:
+        id: "zlecenie_useless_21_1"
+        type: "przynies"
+        targetName: "&bElementium Wody"
+        message: "Przynies 15 sztuk elementium wody: %stan%"
+        ilosc: 15
+  22:
+    targets:
+      1:
+        id: "zlecenie_useless_22_1"
+        type: "przynies"
+        targetName: "&cElementium Ognia"
+        message: "Przynies 15 sztuk elementium ognia: %stan%"
+        ilosc: 15
+  23:
+    targets:
+      1:
+        id: "zlecenie_useless_23_1"
+        type: "przynies"
+        targetName: "&7Elementium Skaly"
+        message: "Przynies 15 sztuk elementium skaly: %stan%"
+        ilosc: 15
+  24:
+    targets:
+      1:
+        id: "zlecenie_useless_24_1"
+        type: "przynies"
+        targetName: "&rElementium Powietrza"
+        message: "Przynies 15 sztuk elementium powietrza: %stan%"
+        ilosc: 15
+  25:
+    targets:
+      1:
+        id: "zlecenie_useless_25_1"
+        type: "przynies"
+        targetName: "&6&lEsencja RPG"
+        message: "Przynies 10 esencji RPG: %stan%"
+        ilosc: 10
+  26:
+    targets:
+      1:
+        id: "zlecenie_useless_26_1"
+        type: "przynies"
+        targetName: "&4Plonaca Czaszka"
+        message: "Przynies 10 plonacych czaszek: %stan%"
+        ilosc: 10
+  27:
+    targets:
+      1:
+        id: "zlecenie_useless_27_1"
+        type: "przynies"
+        targetName: "&1Morski skarb"
+        message: "Przynies 7 morskich skarbow: %stan%"
+        ilosc: 7

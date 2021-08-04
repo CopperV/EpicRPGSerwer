@@ -1,0 +1,139 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+
+NrozasSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &9&oWitaj w Moim laboratorium, bohaterze..."} @PlayersInRadius{r=25}
+
+NrozasSkill1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=60} @self
+  - message{m="<mob.name><&co> &9&oTwoje wysilki sa na nic"} @PlayersInRadius{r=25}
+  - summon{type=NrozasSummon;amount=1;radius=0} @Location{c=-1939.5,81,1378.5,0,0}
+  - summon{type=NrozasSummon;amount=1;radius=0} @Location{c=-1945.5,81,1378.5,0,0}
+  - summon{type=NrozasSummon;amount=1;radius=0} @Location{c=-1945.5,81,1390.5,0,0}
+  - summon{type=NrozasSummon;amount=1;radius=0} @Location{c=-1939.5,81,1390.5,0,0}
+
+NrozasSkill2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=200} @self
+  - message{m="<mob.name><&co> &9&oPrzyjscie tutaj bylo bledem!"} @PlayersInRadius{r=25}
+  - summon{type=NrozasCrystal;amount=1;radius=0} @Location{c=-1942.5,81,1384.5,0,0}
+
+NrozasCrystalSpawn:
+  Skills:
+  - delay 300
+  - remove @self
+
+NrozasCrystalProjectile:
+  Skills:
+  - effect:sound{s=item.totem.use;v=4;p=0.1} @self
+  - projectile{onTick=NrozasCrystalProjectile-Tick;onHit=NrozasCrystalProjectile-End;v=5;i=1;hR=0.8;vR=0.8;mr=20;sB=false;sE=false} @PIR{r=35}
+
+NrozasCrystalProjectile-Tick:
+  Skills:
+  - effect:particles{particle=enchantmenttable;amount=10;speed=0.2;hS=0.3;vS=0.3} @origin
+
+
+NrozasCrystalProjectile-End:
+  Skills:
+  - sound{s=entity.firework.large_blast_far;v=4;p=0.2} @origin
+  - damage{amount=210}
+  - effect:particles{particle=enchantmenttable;amount=30;speed=0.15;hS=0.5;vS=0.5} @origin
+
+NrozasSkill3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=200} @self
+  - message{m="<mob.name><&co> &9&oZasypie Ciebie gradem moich pociskow!"} @PlayersInRadius{r=25}
+  - delay 20
+  - randomskill{skills=NrozasDragon1,NrozasDragon2,NrozasDragon3,NrozasDragon4,NrozasDragon5,NrozasDragon6,NrozasDragon7,NrozasDragon8,NrozasDragon9,NrozasDragon10,NrozasDragon11,NrozasDragon12}
+  - delay 20
+  - randomskill{skills=NrozasDragon1,NrozasDragon2,NrozasDragon3,NrozasDragon4,NrozasDragon5,NrozasDragon6,NrozasDragon7,NrozasDragon8,NrozasDragon9,NrozasDragon10,NrozasDragon11,NrozasDragon12}
+  - delay 20
+  - randomskill{skills=NrozasDragon1,NrozasDragon2,NrozasDragon3,NrozasDragon4,NrozasDragon5,NrozasDragon6,NrozasDragon7,NrozasDragon8,NrozasDragon9,NrozasDragon10,NrozasDragon11,NrozasDragon12}
+  - delay 20
+  - randomskill{skills=NrozasDragon1,NrozasDragon2,NrozasDragon3,NrozasDragon4,NrozasDragon5,NrozasDragon6,NrozasDragon7,NrozasDragon8,NrozasDragon9,NrozasDragon10,NrozasDragon11,NrozasDragon12}
+  - delay 20
+  - randomskill{skills=NrozasDragon1,NrozasDragon2,NrozasDragon3,NrozasDragon4,NrozasDragon5,NrozasDragon6,NrozasDragon7,NrozasDragon8,NrozasDragon9,NrozasDragon10,NrozasDragon11,NrozasDragon12}
+
+NrozasDragon1:
+  Skills:
+  - summon{type=NrozasDragon;amount=1;radius=0} @Location{c=-1941.5,84,1391.2,0,0}
+
+NrozasDragon2:
+  Skills:
+  - summon{type=NrozasDragon;amount=1;radius=0} @Location{c=-1941.5,86,1391.2,0,0}
+
+NrozasDragon3:
+  Skills:
+  - summon{type=NrozasDragon;amount=1;radius=0} @Location{c=-1941.5,88,1391.2,0,0}
+
+NrozasDragon4:
+  Skills:
+  - summon{type=NrozasDragon;amount=1;radius=0} @Location{c=-1943.5,84,1391.2,0,0}
+
+NrozasDragon5:
+  Skills:
+  - summon{type=NrozasDragon;amount=1;radius=0} @Location{c=-1943.5,86,1391.2,0,0}
+
+NrozasDragon6:
+  Skills:
+  - summon{type=NrozasDragon;amount=1;radius=0} @Location{c=-1943.5,88,1391.2,0,0}
+
+NrozasDragon7:
+  Skills:
+  - summon{type=NrozasDragon;amount=1;radius=0} @Location{c=-1943.5,84,1377.8,0,0}
+
+NrozasDragon8:
+  Skills:
+  - summon{type=NrozasDragon;amount=1;radius=0} @Location{c=-1943.5,86,1377.8,0,0}
+
+NrozasDragon9:
+  Skills:
+  - summon{type=NrozasDragon;amount=1;radius=0} @Location{c=-1943.5,88,1377.8,0,0}
+
+NrozasDragon10:
+  Skills:
+  - summon{type=NrozasDragon;amount=1;radius=0} @Location{c=-1941.5,84,1377.8,0,0}
+
+NrozasDragon11:
+  Skills:
+  - summon{type=NrozasDragon;amount=1;radius=0} @Location{c=-1941.5,86,1377.8,0,0}
+
+NrozasDragon12:
+  Skills:
+  - summon{type=NrozasDragon;amount=1;radius=0} @Location{c=-1941.5,88,1377.8,0,0}
+
+NrozasProjectileSpawn:
+  Skills:
+  - sound{s=block.fire.ambient;v=1;p=0.7} @self
+  - totem{ch=100;oT=NrozasProjectile_TotemTick;oE=NrozasProjectile_TotemTickEnd;hR=2;vR=2;md=40;yo=1;hp=true;i=1;yo=0.3} @self
+  - delay 120
+  - remove @self
+
+NrozasProjectile_TotemTick:
+  Skills:
+  - effect:particles{particle=flame;amount=10;speed=0.01;hS=0.1;vS=0.1} @origin
+
+NrozasProjectile_TotemTickEnd:
+  Skills:
+  - sound{s=entity.blaze.shoot;v=2;p=1.2} @origin
+  - projectile{onTick=NrozasProjectile_Tick;onHit=NrozasProjectile_Hit;v=8;i=1;hR=0.5;vR=0.5;mr=20;sB=false;sE=false} @PIR{r=35}
+
+NrozasProjectile_Tick:
+  Skills:
+  - effect:particles{particle=flame;amount=6;speed=0.02;hS=0.2;vS=0.2} @origin
+
+NrozasProjectile_Hit:
+  Skills:
+  - damage{a=220}
+  - ignite{ticks=120}
+  - effect:particles{particle=flame;amount=25;speed=0.15;hS=0.2;vS=0.2;y=1} @origin
+  - effect:sound{s=entity.generic.explode;v=1;p=0.2} @origin

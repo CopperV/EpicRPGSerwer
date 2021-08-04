@@ -1,0 +1,985 @@
+﻿Wolowina2:
+  Id: 363
+Marchwia:
+  Id: 396
+  Display: "&6Zlota marchwia"
+Strzala:
+  Id: 262
+  Display: "&rStrzala"
+Wolowina:
+  Id: 363
+  Display: "&rSurowa wolowina"
+Skora1:
+  Id: 334
+  Display: 'Krowia Skora'
+Kurczak:
+  Id: 365
+  Display: "&rSurowa kura"
+Pioro:
+  Id: 288
+  Display: '&rKurze Pierze'
+Schab:
+  Id: 319
+  Display: "&rSurowy schab"
+Baranina:
+  Id: 423
+  Display: "&rSurowa baranina"
+ItemStart1:
+  Id: 280
+  Display: '&rCiezka galaz'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &75'
+  Options:
+    Unbreakable: true
+ItemStart2:
+  Id: 300
+  Display: '&7Pas treningowy'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &74'
+  Options:
+    Unbreakable: true
+TutorialStart1:
+  Id: 280
+  Display: "&eKij treningowy"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &73'
+  Options:
+    Unbreakable: true
+TutorialStart2:
+  Id: 261
+  Display: "&aLuk treningowy"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &74'
+  Enchantments:
+  - ARROW_INFINITE:1
+  Options:
+    Unbreakable: true
+Diadem:
+  Id: 314
+  Display: '&6&lKrolewski diadem'
+Szkatulka:
+  Id: 397
+  Data: 3
+  Display: '&6&oSzkatulka z klejnotami'
+  Lore:
+  - ''
+  - '&c&oPrzedmiot questowy'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDRlZGZiZTk0ZDJkMWZhMzY3ODMyZDQyYWEyODI0ZjAxNGRhOTk1YTcyZGI3MmI0NTJiOWM3Yjk4ZTRmYSJ9fX0=
+ResetPaper:
+  Id: 339
+  Display: '&6&lZwoj Resetu'
+  Lore:
+  - ''
+  - '&b&oZwoj pozwalajacy na zresetowanie statystyk'
+  - '&b&odo ustawien poczatkowych.'
+  - '&b&oGracz otrzymuje ilosc punktow nauki'
+  - '&b&oadekwatna do jego poziomu.'
+  - '&b&oStatystyki zdobyte z mikstur'
+  - '&b&osa tracone na zawsze!'
+  - '&b&oZostaje rowniez zdjety ekwipunek gracza.'
+  - '&b&oW przypadku braku wolnych slotow,'
+  - '&b&ozbroja wypada na ziemie.'
+  - ''
+ResetPaper2:
+  Id: 339
+  Display: '&6&lZwoj Zmiany Klasy'
+  Lore:
+  - ''
+  - '&b&oZwoj pozwalajacy na zresetowanie statystyk'
+  - '&b&odo ustawien poczatkowych'
+  - '&b&ooraz do zresetowania klasy'
+  - '&b&odo &aobywatela&b.'
+  - '&b&oGracz otrzymuje ilosc punktow nauki'
+  - '&b&oadekwatna do jego poziomu.'
+  - '&b&oStatystyki zdobyte z mikstur'
+  - '&b&osa tracone na zawsze!'
+  - '&b&oZostaje rowniez zdjety ekwipunek gracza.'
+  - '&b&oW przypadku braku wolnych slotow,'
+  - '&b&ozbroja wypada na ziemie.'
+  - '&b&oDodatkowo quest klasowe, ktore wykonalo sie'
+  - '&b&obedac w jednej klasie'
+  - '&b&ozostana z automatu zaliczone w innych frakcjach.'
+  - ''
+#################################################################################
+Mana10:
+  Id: 373
+  Display: '&bEsencja many'
+  Lore:
+  - ''
+  - '&4- &3Przywrocona mana: &710'
+Mana30:
+  Id: 373
+  Display: '&b&lMikstura many'
+  Lore:
+  - ''
+  - '&4- &3Przywrocona mana: &730'
+Mana50:
+  Id: 373
+  Display: '&1Ekstrakt many'
+  Lore:
+  - ''
+  - '&4- &3Przywrocona mana: &750'
+Mana100:
+  Id: 373
+  Display: '&1&lEliksir many'
+  Lore:
+  - ''
+  - '&4- &3Przywrocona mana: &7100'
+Mana250:
+  Id: 373
+  Display: '&3Silny Eliksir many'
+  Lore:
+  - ''
+  - '&4- &3Przywrocona mana: &7250'
+Mana500:
+  Id: 373
+  Display: '&3&lPelnia many'
+  Lore:
+  - ''
+  - '&4- &3Przywrocona mana: &7500'
+Zycie30:
+  Id: 373
+  Display: '&dEsencja lecznicza'
+  Lore:
+  - ''
+  - '&4- &3Przywrocone zycie: &730'
+Zycie50:
+  Id: 373
+  Display: '&d&lMikstura lecznicza'
+  Lore:
+  - ''
+  - '&4- &3Przywrocone zycie: &750'
+Zycie100:
+  Id: 373
+  Display: '&cEkstrakt leczniczy'
+  Lore:
+  - ''
+  - '&4- &3Przywrocone zycie: &7100'
+Zycie200:
+  Id: 373
+  Display: '&c&lEliksir leczniczy'
+  Lore:
+  - ''
+  - '&4- &3Przywrocone zycie: &7200'
+#################################################################################
+OgnistaStrzala:
+  Id: 2262
+  Display: '&cOgnista strzala'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &71'
+  - '&4- &8Koszt many: &78'
+  - '&4- &8Obrazenia od magii: &780'
+  - '&4- &8Czas regeneracji: &72 sekund'
+MagicznyPocisk:
+  Id: 2256
+  Display: '&5Magiczny pocisk'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &71'
+  - '&4- &8Koszt many: &720'
+  - '&4- &8Obrazenia od magii: &7350'
+  - '&4- &8Czas regeneracji: &710 sekund'
+UderzenieWiatru:
+  Id: 2264
+  Display: '&2Uderzenie Wiatru'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &72'
+  - '&4- &8Koszt many: &725'
+  - '&4- &8Obrazenia od magii: &750'
+  - '&4- &8Dodatkowo: &7Odrzucenie'
+  - '&4- &8Czas regeneracji: &725 sekund'
+WyostrzoneZmysly:
+  Id: 2261
+  Display: '&aWyostrzone zmysly'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &2Mysliwy'
+  - '&4- &8Krag: &71'
+  - '&4- &8Koszt many: &715'
+  - '&4- &8Czas trwania: &725 sekund'
+  - '&4- &8Czas regeneracji: &7160 sekund'
+  - '&4- &8Zwiekszone obrazenia: &7+33%'
+LodowaStrzala:
+  Id: 2259
+  Display: '&bLodowa strzala'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &71'
+  - '&4- &8Koszt many: &712'
+  - '&4- &8Obrazenia od magii: &7115'
+  - '&4- &8Czas regeneracji: &74 sekund'
+MalaBlyskawica:
+  Id: 2256
+  Display: '&eMala blyskawica'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &71'
+  - '&4- &8Koszt many: &712'
+  - '&4- &8Obrazenia od magii: &7180'
+  - '&4- &8Czas regeneracji: &75 sekund'
+SwietaStrzala:
+  Id: 2260
+  Display: '&3Swieta strzala'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &cWojownik'
+  - '&4- &8Krag: &71'
+  - '&4- &8Koszt many: &78'
+  - '&4- &8Obrazenia od magii: &7120'
+  - '&4- &8Czas regeneracji: &75 sekund'
+Pirokineza:
+  Id: 2262
+  Display: '&cPirokineza'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &72'
+  - '&4- &8Koszt many: &740'
+  - '&4- &8Czas trwania: &715 sekund'
+  - '&4- &8Obrazenia na sekunde: &720'
+  - '&4- &8Czas regeneracji: &760 sekund'
+  - '&4- &8Dodatkowo: &7Podpalenie, Paraliz'
+Blyskawica:
+  Id: 2256
+  Display: '&eBlyskawica'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &72'
+  - '&4- &8Koszt many: &730'
+  - '&4- &8Obrazenia od magii: &7420'
+  - '&4- &8Czas regeneracji: &710 sekund'
+Leczenie:
+  Id: 2257
+  Display: '&aLeczenie'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &72'
+  - '&4- &8Koszt many: &740'
+  - '&4- &8Czas regeneracji: &7120 sekund'
+  - '&4- &8Sila leczenia: &7I krag = 10%'
+WypedzanieZla:
+  Id: 2260
+  Display: '&3Wypedzanie zla'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &cWojownik'
+  - '&4- &8Krag: &72'
+  - '&4- &8Koszt many: &715'
+  - '&4- &8Obrazenia od magii: &7250'
+  - '&4- &8Czas regeneracji: &78 sekund'
+PiachWOczy:
+  Id: 2258
+  Display: '&ePiach w oczy'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &72'
+  - '&4- &8Koszt many: &720'
+  - '&4- &8Spowolnienie: &7-60%'
+  - '&4- &8Czas trwania: &725 sekund'
+  - '&4- &8Czas regeneracji: &790 sekund'
+OgnistaStrzalaLcz:
+  Id: 2261
+  Display: '&aOgnista strzala'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &2Mysliwy'
+  - '&4- &8Krag: &72'
+  - '&4- &8Koszt many: &715'
+  - '&4- &8Czas trwania: &77 sekund'
+  - '&4- &8Obrazenia od magii: &7+50%'
+  - '&4- &8Czas regeneracji: &7120 sekund'
+  - '&4- &8Dodatkowo: &7Podpalenie'
+ZatrutaStrzala:
+  Id: 2261
+  Display: '&aZatruta strzala'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &2Mysliwy'
+  - '&4- &8Krag: &72'
+  - '&4- &8Koszt many: &712'
+  - '&4- &8Czas trwania: &78 sekund'
+  - '&4- &8Obrazenia od magii: &7+50%'
+  - '&4- &8Czas regeneracji: &7110 sekund'
+  - '&4- &8Dodatkowo: &7Trucizna'
+Trans:
+  Id: 2260
+  Display: '&3Trans'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &cWojownik'
+  - '&4- &8Krag: &72'
+  - '&4- &8Koszt many: &725'
+  - '&4- &8Czas trwania: &710 sekund'
+  - '&4- &8Zwiekszone obrazenia: &7+50%'
+  - '&4- &8Czas regeneracji: &7120 sekund'
+KulaOgnia:
+  Id: 2262
+  Display: '&cKula ognia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &73'
+  - '&4- &8Koszt many: &740'
+  - '&4- &8Czas regeneracji: &710 sekund'
+  - '&4- &8Obrazenia od magii: &7550'
+  - '&4- &8Dodatkowo: &7Podpalenie'
+OgnistaSfera:
+  Id: 2262
+  Display: '&cOgnista sfera'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &73'
+  - '&4- &8Koszt many: &780'
+  - '&4- &8Obrazenia od magii: &725%'
+  - '&4- &8Czas trwania: &760 sekund'
+  - '&4- &8Czas regeneracji: &7180 sekund'
+LodowaLanca:
+  Id: 2259
+  Display: '&bLodowa lanca'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &73'
+  - '&4- &8Koszt many: &725'
+  - '&4- &8Obrazenia od magii: &7400'
+  - '&4- &8Czas regeneracji: &710 sekund'
+BrylaLodu:
+  Id: 2259
+  Display: '&bBryla lodu'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &73'
+  - '&4- &8Koszt many: &760'
+  - '&4- &8Czas trwania: &720 sekund'
+  - '&4- &8Obrazenia na sekunde: &725'
+  - '&4- &8Czas regeneracji: &7120 sekund'
+  - '&4- &8Dodatkowo: &7Paraliz'
+Wyssanie:
+  Id: 2257
+  Display: '&5Wyssanie'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &73'
+  - '&4- &8Koszt many: &750'
+  - '&4- &8Obrazenia od magii: &7200'
+  - '&4- &8Czas regeneracji: &790 sekund'
+  - '&4- &8Sila leczenia: &7I krag = 5%'
+GromG1:
+  Id: 2256
+  Display: '&eWiazka elektryczna'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &73'
+  - '&4- &8Koszt many: &760'
+  - '&4- &8Czas trwania: &720 sekund'
+  - '&4- &8Obrazenia na sekunde: &720'
+  - '&4- &8Czas regeneracji: &7150 sekund'
+SmiercOzywiencom:
+  Id: 2266
+  Display: '&8Smierc ozywiencom'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &73'
+  - '&4- &8Koszt many: &7120'
+  - '&4- &8Obrazenia od magii: &7850'
+  - '&4- &8Czas regeneracji: &760 sekund'
+ZniszczenieZla:
+  Id: 2260
+  Display: '&3Zniszczenie zla'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &cWojownik'
+  - '&4- &8Krag: &73'
+  - '&4- &8Koszt many: &720'
+  - '&4- &8Obrazenia od magii: &7400'
+  - '&4- &8Czas regeneracji: &710 sekund'
+SzalBitewny:
+  Id: 2260
+  Display: '&3Szal bitewny'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &cWojownik'
+  - '&4- &8Krag: &73'
+  - '&4- &8Koszt many: &740'
+  - '&4- &8Czas trwania: &715 sekund'
+  - '&4- &8Zwiekszone obrazenia: &7+100%'
+  - '&4- &8Czas regeneracji: &7240 sekund'
+Gruboskornosc:
+  Id: 2260
+  Display: '&3Gruboskornosc'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &cWojownik'
+  - '&4- &8Krag: &73'
+  - '&4- &8Koszt many: &740'
+  - '&4- &8Czas trwania: &760 sekund'
+  - '&4- &8Zmniejszone obrazenia: &7I krag: 10%'
+  - '&4- &8Czas regeneracji: &7300 sekund'
+NocWDzien:
+  Id: 2263
+  Display: '&8Noc &rw &edzien'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &73'
+  - '&4- &8Koszt many: &750'
+PrecyzyjnyStrzal:
+  Id: 2261
+  Display: '&aPrecyzyjny strzal'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &2Mysliwy'
+  - '&4- &8Krag: &73'
+  - '&4- &8Koszt many: &720'
+  - '&4- &8Czas trwania: &77 sekund'
+  - '&4- &8Obrazenia od magii: &7+150%'
+  - '&4- &8Czas regeneracji: &7170 sekund'
+LodowaStrzalaLcz:
+  Id: 2261
+  Display: '&aLodowa strzala'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &2Mysliwy'
+  - '&4- &8Krag: &73'
+  - '&4- &8Koszt many: &718'
+  - '&4- &8Obrazenia od magii: &7+90%'
+  - '&4- &8Czas trwania: &710 sekund'
+  - '&4- &8Czas regeneracji: &7120 sekund'
+  - '&4- &8Dodatkowo: &7Spowolnienie'
+Wir:
+  Id: 2263
+  Display: '&7Wir'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &73'
+  - '&4- &8Koszt many: &755'
+  - '&4- &8Czas trwania: &740 sekund'
+  - '&4- &8Obrazenia na sekunde: &75'
+  - '&4- &8Czas regeneracji: &7180 sekund'
+  - '&4- &8Dodatkowo: &7Paraliz'
+BurzaOgnista:
+  Id: 2262
+  Display: '&cBurza ognista'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &74'
+  - '&4- &8Koszt many: &790'
+  - '&4- &8Obrazenia od magii: &7650'
+  - '&4- &8Obszar: &74'
+  - '&4- &8Czas regeneracji: &720 sekund'
+  - '&4- &8Dodatkowo: &7Podpalenie'
+PiorunKulisty:
+  Id: 2256
+  Display: '&ePiorun kulisty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &74'
+  - '&4- &8Koszt many: &745'
+  - '&4- &8Obrazenia od magii: &7550'
+  - '&4- &8Czas regeneracji: &710 sekund'
+UderzenieBurzy:
+  Id: 2264
+  Display: '&2Uderzenie burzy'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &74'
+  - '&4- &8Koszt many: &790'
+  - '&4- &8Obrazenia od magii: &7400'
+  - '&4- &8Czas regeneracji: &745 sekund'
+  - '&4- &8Dodatkowo: &7Odrzucenie'
+TchnienieSmierci:
+  Id: 2266
+  Display: '&8Tchnienie smierci'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &74'
+  - '&4- &8Koszt many: &7160'
+  - '&4- &8Obrazenia od magii: &71200'
+  - '&4- &8Czas regeneracji: &790 sekund'
+Haduoken:
+  Id: 2258
+  Display: '&bHaduoken'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &74'
+  - '&4- &8Koszt many: &72'
+  - '&4- &8Obrazenia od magii: &780'
+  - '&4- &8Czas regeneracji: &71 sekund'
+Gejzer:
+  Id: 2258
+  Display: '&bGejzer'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &74'
+  - '&4- &8Koszt many: &730'
+  - '&4- &8Obrazenia od magii: &7480'
+  - '&4- &8Czas regeneracji: &76 sekund'
+WodnaPiesc:
+  Id: 2258
+  Display: '&bWodna piesc'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &74'
+  - '&4- &8Koszt many: &745'
+  - '&4- &8Obrazenia od magii: &7590'
+  - '&4- &8Czas regeneracji: &710 sekund'
+OgnistaFala:
+  Id: 2262
+  Display: '&cOgnista fala'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &75'
+  - '&4- &8Koszt many: &7200'
+  - '&4- &8Obrazenia od magii: &7700'
+  - '&4- &8Obszar: &712'
+  - '&4- &8Dodatkowo: &7Podpalenie'
+  - '&4- &8Czas regeneracji: &790 sekund'
+LodowaFala:
+  Id: 2259
+  Display: '&bLodowa fala'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &75'
+  - '&4- &8Koszt many: &7190'
+  - '&4- &8Obrazenia od magii: &7800'
+  - '&4- &8Obszar: &710'
+  - '&4- &8Czas regeneracji: &7105 sekund'
+GrupoweLeczenie:
+  Id: 2257
+  Display: '&6&lGrupowe leczenie'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &75'
+  - '&4- &8Koszt many: &7160'
+  - '&4- &8Obszar: &76'
+  - '&4- &8Czas regeneracji: &7240 sekund'
+  - '&4- &8Sila leczenia: &71 krag = 10%'
+UderzenieCienia:
+  Id: 2266
+  Display: '&8Uderzenie cienia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &75'
+  - '&4- &8Koszt many: &7210'
+  - '&4- &8Obrazenia od magii: &71900'
+  - '&4- &8Czas regeneracji: &7120 sekund'
+SmiertelnaFala:
+  Id: 2266
+  Display: '&5&lSmiertelna fala'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &75'
+  - '&4- &8Koszt many: &7390'
+  - '&4- &8Obrazenia od magii: &71600'
+  - '&4- &8Obszar: &713'
+  - '&4- &8Czas regeneracji: &7360 sekund'
+Meteor:
+  Id: 2262
+  Display: '&cMeteor'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &76'
+  - '&4- &8Koszt many: &7300'
+  - '&4- &8Obrazenia od magii: &7850'
+  - '&4- &8Obszar: &716'
+  - '&4- &8Czas regeneracji: &7150 sekund'
+DeszczOgnia:
+  Id: 2262
+  Display: '&6&lDeszcz ognia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &76'
+  - '&4- &8Koszt many: &7350'
+  - '&4- &8Obrazenia od magii: &71500'
+  - '&4- &8Obszar: &724'
+  - '&4- &8Dodatkowo: &7Podpalenie'
+  - '&4- &8Czas regeneracji: &7240 sekund'
+Grom:
+  Id: 2259
+  Display: '&6&lGrom'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &76'
+  - '&4- &8Koszt many: &7320'
+  - '&4- &8Obrazenia od magii: &71900'
+  - '&4- &8Obszar: &720'
+  - '&4- &8Czas regeneracji: &7300 sekund'
+UkazanieSmierci:
+  Id: 2266
+  Display: '&6&lUkazanie Smierci'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &76'
+  - '&4- &8Szansa: &72%'
+  - '&4- &8Koszt many: &7300'
+  - '&4- &8Czas regeneracji: &7300 sekund'
+DuzaKulaOgnia:
+  Id: 2262
+  Display: '&c&lDuza kula ognia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &74'
+  - '&4- &8Koszt many: &760'
+  - '&4- &8Czas regeneracji: &715 sekund'
+  - '&4- &8Obrazenia od magii: &7800'
+  - '&4- &8Dodatkowo: &7Podpalenie'
+KulaSmierci:
+  Id: 2266
+  Display: '&5&l&oKula smierci'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &76'
+  - '&4- &8Koszt many: &7400'
+  - '&4- &8Obrazenia od magii: &73500'
+  - '&4- &8Czas regeneracji: &7180 sekund'
+Rezonans:
+  Id: 2263
+  Display: '&7Rezonans'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &74'
+  - '&4- &8Koszt many: &75'
+  - '&4- &8Obrazenia od magii: &780'
+  - '&4- &8Czas regeneracji: &75 sekund'
+  - '&4- &8Obszar: &78'
+Korzen:
+  Id: 2263
+  Display: '&e&oKorzen'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &74'
+  - '&4- &8Koszt many: &745'
+  - '&4- &8Czas trwania: &730 sekund'
+  - '&4- &8Obrazenia od magii: &7450'
+  - '&4- &8Czas regeneracji: &7150 sekund'
+  - '&4- &8Dodatkowo: &7Paraliz'
+StrzalaCiemnosci:
+  Id: 2266
+  Display: '&8Strzala ciemnosci'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &72'
+  - '&4- &8Koszt many: &790'
+  - '&4- &8Obrazenia od magii: &7700'
+  - '&4- &8Czas regeneracji: &740 sekund'
+SwieteSlowo:
+  Id: 2260
+  Display: '&3Swiete slowo'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &cWojownik'
+  - '&4- &8Krag: &73'
+  - '&4- &8Koszt many: &740'
+  - '&4- &8Obrazenia od magii: &7400'
+  - '&4- &8Czas regeneracji: &720 sekund'
+  - '&4- &8Obszar: &76'
+Zacma:
+  Id: 2261
+  Display: '&aZacma'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &2Mysliwy'
+  - '&4- &8Krag: &73'
+  - '&4- &8Koszt many: &740'
+  - '&4- &8Obrazenia od magii: &7150'
+  - '&4- &8Czas trwania: &730 sekund'
+  - '&4- &8Czas regeneracji: &7120 sekund'
+  - '&4- &8Dodatkowo: &7Spowolnienie'
+  - '&4- &8Obszar: &710'
+SferaCorristo:
+  Id: 2263
+  Display: '&6&lSfera Corristo'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &aobywatel'
+  - '&4- &8Krag: &70'
+  - '&4- &8Koszt many: &70'
+  - '&4- &8Obrazenia od magii: &750'
+  - '&4- &8Czas regeneracji: &710 sekund'
+  - '&4- &8Obszar: &78'
+SzalPustki:
+  Id: 2264
+  Display: '&8&lSzal Pustki'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &75'
+  - '&4- &8Koszt many: &7200'
+  - '&4- &8Obrazenia na sekunde: &7200'
+  - '&4- &8Obszar: &710'
+  - '&4- &8Czas trwania: &715 sekund'
+  - '&4- &8Czas regeneracji: &7120 sekund'

@@ -1,0 +1,8 @@
+name: "&cWulfgar"
+title: "&cWulfgar - dowodca"
+size: 9
+slots:
+  1:
+    item: "p_quest_6"
+  2:
+    item: "p_quest_7"

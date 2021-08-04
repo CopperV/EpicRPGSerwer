@@ -1,0 +1,36 @@
+id: "paladyn_quest_11"
+name: "&4&lNaczelnik orkow"
+zleceniodawca: "&4Reg"
+lore:
+  - "&aSkoro wiemy, gdzie sie znajduje orkowy naczelnik,"
+  - "&ato mozna sie z nim rozprawic."
+  - "&aBez jego dowodztwa orkowie szybko"
+  - "&aprzestana byc niebezpieczni."
+  - "&aNie bedzie nikogo, kto by sprawowal kontrole nad nimi,"
+  - "&aa sami orkowie pewnie zaczna bitwy miedzy soba"
+  - "&ao stanowisko dowodcy."
+prize:
+  - "xp: 42000"
+require:
+  - "level: 41"
+  - "klasa: &cWojownik"
+  - "quest: paladyn_quest_10"
+stopnie:
+  1:
+    talking: false
+    targets:
+      1:
+        id: "paladyn_quest_11_1_1"
+        type: "znajdz"
+        targetName: "dungeon_kan"
+        message: "Udaj sie znowu na wyspe naczelnika (-521;882): %stan%"
+  2:
+    talking: true
+    message: "&4Reg&7: &aDoskonala robota. Teraz bedziemy mogli przypuscic kontratak."
+    targets:
+      1:
+        id: "paladyn_quest_11_2_1"
+        type: "zabij"
+        targetName: "&6&lNaczelny Orkow - Kan - BOSS"
+        message: "Pokonaj Kana - naczelnego orkow: %stan%"
+        ilosc: 1

@@ -1,0 +1,106 @@
+SpherusSummon1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=60}
+  - summon{mob=Zywiolak5;amount=1;noise=3} @Self
+SpherusSummon2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=60}
+  - summon{mob=Zywiolak1;amount=1;noise=3} @Self
+  - summon{mob=Zywiolak2;amount=1;noise=3} @Self
+  - summon{mob=Zywiolak3;amount=1;noise=3} @Self
+  - summon{mob=Zywiolak4;amount=1;noise=3} @Self
+SpherusAttack1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=60}
+  - effect:lightning @PIR{r=30}
+  - damage{amount=85;ignoreArmor=true} @PIR{r=30}
+  - ignite{ticks=200} @PIR{r=30}
+SpherusAttack2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=140}
+  - shootfireball{y=3;v=1;small=false;ft=60} @NearestPlayer{r=100}
+  - delay 10
+  - shootfireball{y=3;v=1;small=true} @NearestPlayer{r=100}
+  - delay 10
+  - shootskull{y=3;v=1} @NearestPlayer{r=100}
+  - delay 10
+  - shootskull{y=5;v=1} @NearestPlayer{r=100}
+  - delay 10
+  - shootfireball{y=3;v=1;small=false;ft=60} @NearestPlayer{r=100}
+  - delay 10
+  - shootfireball{y=3;v=1;small=true} @NearestPlayer{r=100}
+  - delay 10
+  - shootskull{y=3;v=1} @NearestPlayer{r=100}
+  - delay 10
+  - shootskull{y=5;v=1} @NearestPlayer{r=100}
+  - delay 10
+SpherusAttack3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=60}
+  - sound{s=entity.generic.explode;v=10} @PIR{r=30}
+  - effect:particlering{particle=happyVillager;radius=0;points=4;amount=12;hS=0.5;vS=0} @self
+  - effect:particlering{particle=happyVillager;radius=0.5;points=4;amount=12;hS=0.5;vS=0} @self
+  - effect:particlering{particle=happyVillager;radius=1;points=6;amount=12;hS=0.5;vS=0} @self
+  - effect:particlering{particle=happyVillager;radius=1.5;points=6;amount=12;hS=0.5;vS=0} @self
+  - effect:particlering{particle=happyVillager;radius=2;points=8;amount=12;hS=0.5;vS=0} @self
+  - effect:particlering{particle=happyVillager;radius=2.5;points=8;amount=12;hS=0.5;vS=0} @self
+  - effect:particlering{particle=happyVillager;radius=3;points=12;amount=12;hS=0.5;vS=0} @self
+  - effect:particlering{particle=happyVillager;radius=3.5;points=12;amount=12;hS=0.5;vS=0} @self
+  - effect:particlering{particle=happyVillager;radius=4;points=16;amount=12;hS=0.5;vS=0} @self
+  - effect:particlering{particle=happyVillager;radius=4.5;points=16;amount=12;hS=0.5;vS=0} @self
+  - effect:particlering{particle=happyVillager;radius=5;points=24;amount=12;hS=0.5;vS=0} @self
+  - effect:particlering{particle=happyVillager;radius=5.5;points=24;amount=12;hS=0.5;vS=0} @self
+  - effect:particlering{particle=happyVillager;radius=6;points=32;amount=12;hS=0.5;vS=0} @self
+  - effect:particlering{particle=happyVillager;radius=6.5;points=32;amount=12;hS=0.5;vS=0} @self
+  - effect:particlering{particle=happyVillager;radius=7;points=64;amount=12;hS=0.5;vS=0} @self
+  - effect:particlering{particle=happyVillager;radius=7.5;points=64;amount=12;hS=0.5;vS=0} @self
+  - effect:particlering{particle=happyVillager;radius=8;points=100;amount=12;hS=0.5;vS=0} @self
+  - damage{amount=77} @PlayersInRadius{r=8}
+  - throw{velocity=9;velocityY=12} @PlayersInRadius{r=8}
+SpherusAttack4:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=60}
+  - summon{mob=Pirat10;amount=1;noise=3} @Self
+SpherusAttack5:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=90}
+  - sound{s=entity.enderdragon.growl;v=10} @self
+  - delay 10
+  - pull{velocity=4;to=true} @PIR{r=25}
+  - effect:particlebox{particle=snowballpoof;amount=50;radius=0.75;y=1.75} @PIR{r=25}
+  - delay 1
+  - pull{velocity=4;to=true} @PIR{r=25}
+  - effect:particlebox{particle=snowballpoof;amount=50;radius=0.75;y=1.75} @PIR{r=25}
+  - delay 1
+  - pull{velocity=4;to=true} @PIR{r=25}
+  - effect:particlebox{particle=snowballpoof;amount=50;radius=0.75;y=1.75} @PIR{r=25}
+  - delay 1
+  - pull{velocity=4;to=true} @PIR{r=25}
+  - effect:particlebox{particle=snowballpoof;amount=50;radius=0.75;y=1.75} @PIR{r=25}
+  - delay 1
+  - pull{velocity=4;to=true} @PIR{r=25}
+  - effect:particlebox{particle=snowballpoof;amount=50;radius=0.75;y=1.75} @PIR{r=25}
+  - delay 1
+  - pull{velocity=4;to=true} @PIR{r=25}
+  - effect:particlebox{particle=snowballpoof;amount=50;radius=0.75;y=1.75} @PIR{r=25}
+  - delay 1
+  - sound{s=random.explode;v=10} @self
+  - damage{amount=88} @PlayersInRadius{r=15}
+  - effect:particlebox{particle=snowballpoof;amount=150;radius=2.5;y=1.5} @PIR{r=15}
+  - throw{velocity=3;velocityY=15} @PlayersInRadius{r=15}
+  - delay 15
+  - prison{material=ICE;duration=100;breakable=true} @PlayersInRadius{r=35}

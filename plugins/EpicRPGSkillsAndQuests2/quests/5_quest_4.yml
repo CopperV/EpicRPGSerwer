@@ -1,0 +1,39 @@
+id: "5_quest_4"                                
+name: "&5&oPorazka oddzialu"                          
+zleceniodawca: "&b&lTyrael"                       
+lore:                                               
+  - "&aBaron Geddon z nieznanych nam powodow"
+  - "&anie wyslal tutaj swoich wojsk,"
+  - "&alecz wyslal prosbe o pomoc do naszego swiata."
+  - "&aZostali tutaj przyslani najlepsi z najlepszych."
+  - "&aJak tutaj przybylismy, to nie zastalismy tutaj"
+  - "&ajakichs powaznych przeciwnikow,"
+  - "&aa tylko te niewinne duszyczki."
+  - "&aCos nas jednak pokonalo."
+  - "&aZ dnia na dzien zaczelismy tracic swoje umysly,"
+  - "&anasza wlasna wole."
+  - "&aWiekszosc z nas stala sie niczym te duszyczki,"
+  - "&aktore probowales ostatnio uwolnic."
+  - "&aProsze Ciebie, abys teraz to samo uczynil"
+  - "&amoim braciom."
+prize:                                    
+  - "xp: 46500"
+require:                                            
+  - "level: 44"
+  - "quest: 5_quest_3"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "5_quest_4_1_1"                     
+        type: "zabij"       
+        targetName: "&c&oSpaczony kyrian"                      
+        message: "Pokonaj 19 spaczonych kyrian: %stan%"
+        ilosc: 19
+      2:
+        id: "5_quest_4_1_2"                     
+        type: "zabij"       
+        targetName: "&4Mroczny Kyrian"                      
+        message: "Pokonaj 7 mrocznych kyrian: %stan%"
+        ilosc: 7

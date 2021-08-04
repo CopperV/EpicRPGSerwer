@@ -1,0 +1,25 @@
+id: "p_quest_18"                                
+name: "&5&oNiedobory magicznych run"
+zleceniodawca: "&1Kairo"
+lore:                                               
+  - "&aMagow i adeptow z kazda chwila przybywa,"
+  - "&aa nam zaczyna brakowac pustych run"
+  - "&ado wytwarzania kolejnych."
+  - "&aSlyszalem, ze czarni magowie Nizara maja"
+  - "&aich pod dostatkiem."
+  - "&aPomozesz?"
+prize:                                    
+  - "xp: 21000"
+  - "money: 230"
+require:                                            
+  - "level: 38"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "p_quest_18_1_1"
+        type: "przynies"
+        targetName: "&0Kamien runiczny"
+        message: "Przynies 23 kamienie runiczne: %stan%"
+        ilosc: 23

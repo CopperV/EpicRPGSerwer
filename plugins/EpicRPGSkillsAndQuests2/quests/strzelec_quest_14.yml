@@ -1,0 +1,28 @@
+id: "strzelec_quest_14"                                
+name: "&2&oLesni straznicy"                          
+zleceniodawca: "&a&oAlex"                       
+lore:                                               
+  - "&aLas ten jest nie tylko opanowany"
+  - "&aprzez Zombie, Szkielety i Pajaki,"
+  - "&aale takze przez fanatycznych strzelcow,"
+  - "&aktorzy bezwzglednie sluza Herobrinowi."
+  - "&aOni stanowia dla nas najwieksze zagrozenie."
+  - "&aJezeli chcesz nam jeszcze pomoc,"
+  - "&ato pozbadz sie ich."
+prize:                                    
+  - "xp: 49500"
+  - "money: 700"
+require:                                            
+  - "level: 53"
+  - "klasa: &2Mysliwy"
+  - "quest: strzelec_quest_13"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "strzelec_quest_14_1_1"
+        type: "zabij"
+        targetName: "&9Tulacz"
+        message: "Zabij 25 tulaczy: %stan%"
+        ilosc: 25

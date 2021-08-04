@@ -1,0 +1,28 @@
+id: "arena_quest_3"                                
+name: "&eWeteran areny"                          
+zleceniodawca: "&eAlwin"                       
+lore:                                               
+  - "&aDuzo sie zmienilo od Twojej ostatniej wizyty."
+  - "&aPrzyszlo tutaj sporo wojownikow, ktorzy"
+  - "&amieli do czynienia z orkami i assasynami."
+  - "&aJestem ciekaw czy jako tutejszy weteran"
+  - "&adasz im rade."
+  - "&aOczywiscie, jak zwykle sporo place."
+  - "&aSkuszony?"
+prize:                                    
+  - "xp: 3800"
+  - "money: 1900"
+require:                                            
+  - "level: 32"
+  - "quest: arena_quest_2"
+stopnie:
+  1:
+    talking: true
+    message: "&eAlwin&7: &aDales tym frajerom niezly wycisk. Trzymaj zloto. Zasluzyles na nie"
+    targets:
+      1:
+        id: "arena_quest_3_1_1"
+        type: "player"
+        level: 30
+        message: "Pokonaj 10 graczy na poziomie przynajmniej 30: %stan%"
+        ilosc: 10

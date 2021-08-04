@@ -1,0 +1,19 @@
+Mieso_Huska:
+  Id: 367
+  Display: '&2Mieso Huska'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Resztki:
+  Id: 367
+  Display: '&2Resztki'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Glowa_Zombie:
+  Id: 397
+  Data: 2
+  Display: '&aGlowa umarlaka'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'

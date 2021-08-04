@@ -1,0 +1,746 @@
+Excalibur_Str:
+  Id: 267
+  Display: '&6&lExcalibur I'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7240'
+  - '&4- &8Sila: &7+50'
+  - '&4- &8Walka: &7+50'
+  - '&4- &8Wytrzymalosc: &7+20'
+  - '&4- &8Zdolnosci mysliwskie: &7+10'
+  - '&4- &8Zrecznosc: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c275'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.03
+      KnockbackResistance: 0.2
+      Health: 17
+    offhand:
+      MovementSpeed: -0.08
+      KnockbackResistance: 0.32
+Mestwo_Spartakusa_Wytrz:
+  Id: 303
+  Display: '&4&lMestwo Spartakusa I'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &7130'
+  - '&4- &8Sila: &7+8'
+  - '&4- &8Walka: &7+30'
+  - '&4- &8Wytrzymalosc: &7+37'
+  - '&4- &8Inteligencja: &7+15'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c275'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      MovementSpeed: -0.13
+      KnockbackResistance: 0.32
+      Health: 45
+Er_Hazir_Zd:
+  Id: 261
+  Display: "&b&lEr'Hazir I"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7220'
+  - '&4- &8Walka: &7+32'
+  - '&4- &8Wytrzymalosc: &7+14'
+  - '&4- &8Inteligencja: &7+16'
+  - '&4- &8Zdolnosci mysliwskie: &7+45'
+  - '&4- &8Zrecznosc: &7+18'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c275'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.1
+      KnockbackResistance: 0.08
+    offhand:
+      MovementSpeed: 0.12
+Ostrze_Tyraela_Zr:
+  Id: 276
+  Display: "&b&l&oOstrze Tyraela I"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7225'
+  - '&4- &8Walka: &7+70'
+  - '&4- &8Inteligencja: &7+25'
+  - '&4- &8Zdolnosci mysliwskie: &7+25'
+  - '&4- &8Zrecznosc: &7+80'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c275'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.13
+    offhand:
+      MovementSpeed: 0.17
+Kostur_Stworzenia_Int:
+  Id: 369
+  Display: "&a&lKostur Stworzenia I"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7180'
+  - '&4- &8Walka: &7+30'
+  - '&4- &8Inteligencja: &7+50'
+  - '&4- &8Mana: &7+40'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c275'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.05
+      KnockbackResistance: 0.1
+      Health: 40
+Buty_Wiecznego_Wedrowca_Mana:
+  Id: 313
+  Display: "&2&lButy Wiecznego Wedrowca I"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &760'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Inteligencja: &7+20'
+  - '&4- &8Mana: &7+110'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c550'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      MovementSpeed: 0.07
+      Health: 60
+Lsnienie_Swiatlosci:
+  Id: 310
+  Display: "&b&lLsnienie Swiatlosci I"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &7100'
+  - '&4- &8Walka: &7+20'
+  - '&4- &8Inteligencja: &7+20'
+  - '&4- &8Sila: &7+30'
+  - '&4- &8Wytrzymalosc: &7+30'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c140'
+  - '&4- &8Wytrzymalosc: &c140'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: 0.04
+      Health: 35
+      KnockbackResistance: 0.15
+Mithrilowa_Zbroja:
+  Id: 311
+  Display: "&1&lMithrilowa Zbroja I"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &7105'
+  - '&4- &8Walka: &7+35'
+  - '&4- &8Zrecznosc: &7+45'
+  - '&4- &8Zdolnosci mysliwskie: &7+45'
+  - '&4- &8Wytrzymalosc: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c140'
+  - '&4- &8Zdolnosci mysliwskie: &c140'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      MovementSpeed: 0.11
+      Health: 20
+      KnockbackResistance: 0.1
+Kostur_Wiecznego_Wedrowca:
+  Id: 280
+  Display: "&e&lKostur Wiecznego Wedrowca I"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7165'
+  - '&4- &8Walka: &7+25'
+  - '&4- &8Inteligencja: &7+60'
+  - '&4- &8Mana: &7+80'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c140'
+  - '&4- &8Mana: &c280'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.05
+      Health: 30
+      KnockbackResistance: 0.2
+Moc_Przodkow_Str:
+  Id: 267
+  Display: "&b&oMoc przodkow I"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &795'
+  - '&4- &8Walka: &7+18'
+  - '&4- &8Sila: &7+15'
+  - '&4- &8Zdolnosci mysliwskie: &7+5'
+  - '&4- &8Zrecznosc: &7+3'
+  - '&4- &8Inteligencja: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c230'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.05
+      Health: 10
+      KnockbackResistance: 0.25
+Helm_Ejnara_Wytrz:
+  Id: 298
+  Display: "&2&oHelm Ejnara I"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &765'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Sila: &7+5'
+  - '&4- &8Zdolnosci mysliwskie: &7+5'
+  - '&4- &8Zrecznosc: &7+5'
+  - '&4- &8Inteligencja: &7+5'
+  - '&4- &8Wytrzymalosc: &7+15'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c230'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.07
+      Health: 35
+      KnockbackResistance: 0.23
+Ksiezycowe_Ostrze_Zr:
+  Id: 267
+  Display: "&9&oKsiezycowe ostrze I"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &780'
+  - '&4- &8Walka: &7+35'
+  - '&4- &8Zrecznosc: &7+20'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c230'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.08
+Hamasin_Zd:
+  Id: 261
+  Display: "&d&oHamasin I"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &785'
+  - '&4- &8Walka: &7+15'
+  - '&4- &8Zrecznosc: &7+8'
+  - '&4- &8Zdolnosci mysliwskie: &7+22'
+  - '&4- &8Wytrzymalosc: &7+5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c230'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.07
+Helm_Pielgrzyma_Int:
+  Id: 310
+  Display: "&a&oHelm Pielgrzyma I"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &748'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Zrecznosc: &7+5'
+  - '&4- &8Inteligencja: &7+20'
+  - '&4- &8Mana: &7+10'
+  - '&4- &8Wytrzymalosc: &7+4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c230'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: 0.04
+      Health: 20
+      KnockbackResistance: 0.02
+Ar_Krah_Mana:
+  Id: 369
+  Display: "&c&oAr'Krah I"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &755'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Inteligencja: &7+10'
+  - '&4- &8Mana: &7+25'
+  - '&4- &8Sila: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c460'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.06
+      Health: 20
+    offhand:
+      MovementSpeed: 0.09
+Konsekrowane_Ostrze:
+  Id: 276
+  Display: "&1&oKonsekrowane ostrze I"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &780'
+  - '&4- &8Walka: &7+12'
+  - '&4- &8Sila: &7+13'
+  - '&4- &8Wytrzymalosc: &7+13'
+  - '&4- &8Inteligencja: &7+10'
+  - '&4- &8Mana: &7+15'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c115'
+  - '&4- &8Wytrzymalosc: &c115'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.05
+      KnockbackResistance: 0.01
+      Health: 10
+Rapier_Fingera:
+  Id: 267
+  Display: "&7&oRapier Fingera I"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &775'
+  - '&4- &8Walka: &7+35'
+  - '&4- &8Zrecznosc: &7+11'
+  - '&4- &8Zdolnosci mysliwskie: &7+11'
+  - '&4- &8Inteligencja: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c115'
+  - '&4- &8Zdolnosci mysliwskie: &c115'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.1
+    offhand:
+      MovementSpeed: 0.15
+Szarfa_Oswiecenia:
+  Id: 299
+  Display: "&5&oSzarfa oswiecenia I"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &753'
+  - '&4- &8Inteligencja: &7+13'
+  - '&4- &8Mana: &7+20'
+  - '&4- &8Zrecznosc: &7+3'
+  - '&4- &8Wytrzymalosc: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c115'
+  - '&4- &8Mana: &c230'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      MovementSpeed: 0.07
+      Health: 20
+Przekuty_Pancerz_Straznika_Str:
+  Id: 304
+  Display: "&8&lPrzekuty pancerz straznika I"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &743'
+  - '&4- &8Wytrzymalosc: &7+3'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Sila: &7+10'
+  - '&4- &8Zdolnosci mysliwskie: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c190'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      MovementSpeed: -0.06
+      Health: 8
+      KnockbackResistance: 0.03
+Wydluzona_Halabarda_Wytrz:
+  Id: 292
+  Display: "&9&bWydluzona Halabarda I"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &754'
+  - '&4- &8Wytrzymalosc: &7+12'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Sila: &7+3'
+  - '&4- &8Zdolnosci mysliwskie: &7-3'
+  - '&4- &8Zrecznosc: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c190'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.12
+      KnockbackResistance: 0.15
+    offhand:
+      KnockbackResistance: 0.3
+Spodnie_Poszukiwacza_Przygod_Zr:
+  Id: 300
+  Display: "&a&bSpodnie poszukiwacza przygod I"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &737'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Zdolnosci mysliwskie: &7+3'
+  - '&4- &8Zrecznosc: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c190'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      MovementSpeed: 0.1
+      Health: 5
+Ofirski_Miecz_Zd:
+  Id: 283
+  Display: "&e&lOfirski miecz I"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &748'
+  - '&4- &8Walka: &7+9'
+  - '&4- &8Zdolnosci mysliwskie: &7+9'
+  - '&4- &8Zrecznosc: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c190'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.09
+Kostur_Dominacji_Int:
+  Id: 294
+  Display: "&c&bKostur dominacji I"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &737'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Inteligencja: &7+7'
+  - '&4- &8Mana: &7-4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c190'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.04
+      Health: 2
+Opaska_Slepca_Mana:
+  Id: 298
+  Display: "&0&bOpaska slepca I"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &711'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Inteligencja: &7+10'
+  - '&4- &8Mana: &7+40'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c380'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: 0.1
+      Health: 20
+Starozytne_Ostrze_Str:
+  Id: 272
+  Display: "&8Starozytne ostrze I"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &730'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Zdolnosci mysliwskie: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c120'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.03
+Garnek_Rosolowy_Wytrz:
+  Id: 306
+  Display: "&rGarnek rosolowy I"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &719'
+  - '&4- &8Ochrona: &719'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Wytrzymalosc: &7+4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c120'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.03
+      KnockbackResistance: 0.01
+    head:
+      MovementSpeed: -0.07
+      KnockbackResistance: 0.03
+      Health: 4
+    offhand:
+      KnockbackResistance: 0.05
+Noz_Na_Szakale_Zr:
+  Id: 267
+  Display: "&eNoz na szakale I"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &725'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Zdolnosci mysliwskie: &7+3'
+  - '&4- &8Zrecznosc: &7+6'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c120'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.02
+Precyzyjny_Luk_Zd:
+  Id: 261
+  Display: "&aPrecyzyjny luk I"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &727'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Zdolnosci mysliwskie: &7+5'
+  - '&4- &8Zrecznosc: &7+1'
+  - '&4- &8Inteligencja: &7+3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c120'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.06
+Kaptur_Int:
+  Id: 298
+  Display: "&2Kaptur"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly I'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &711'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Inteligencja: &7+5'
+  - '&4- &8Mana: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c120'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: 0.06
+      Health: 2
+Kostur_Budowniczych_Mana:
+  Id: 369
+  Display: "&bKostur Budowniczych I"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &726'
+  - '&4- &8Inteligencja: &7+2'
+  - '&4- &8Mana: &7+10'
+  - '&4- &8Zrecznosc: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c240'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.06
+      KnockbackResistance: 0.01

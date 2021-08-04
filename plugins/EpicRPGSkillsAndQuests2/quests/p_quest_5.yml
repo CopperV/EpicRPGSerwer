@@ -1,0 +1,26 @@
+id: "p_quest_5"                                
+name: "&3Baranie danie"                          
+zleceniodawca: "&eVenus"                       
+lore:                                               
+  - "&aWpadl mi do glowy genialny pomysl"
+  - "&ana danie z barniny."
+  - "&aNiestety, nie mam dosc duzo tego miesa,"
+  - "&aby przygotowac to arcydzielo."
+  - "&aMam nadzieje, ze mi pomozesz."
+prize:                                    
+  - "xp: 125"
+  - "money: 20"
+require:                                            
+  - "level: 6"
+  - "quest: p_quest_3"
+stopnie:
+  1:
+    talking: true
+    message: "&eVenus&7: &aDziekuje Ci za Twoja bezinteresowna pomoc. Przyjmij to zloto w nagrode."
+    targets:
+      1:
+        id: "p_quest_5_1_1"
+        type: "przynies"
+        targetName: "&rSurowa baranina"
+        message: "Przynies 15 sztuk surowej baraniny: %stan%"
+        ilosc: 15

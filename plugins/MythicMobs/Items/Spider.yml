@@ -1,0 +1,200 @@
+Trujacy_Kiel_Zr:
+  Id: 272
+  Display: '&2Trujacy kiel'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &724'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Zrecznosc: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c65'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: -3
+    offhand:
+      Health: -40
+Kiel_Maexxny_Zr:
+  Id: 267
+  Display: '&dKiel Maexxny'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &734'
+  - '&4- &8Walka: &7+12'
+  - '&4- &8Zrecznosc: &7+12'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c75'
+  - '&4- &8Walka: &c3'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.07
+    offhand:
+      MovementSpeed: 0.07
+      Health: -100
+Kiel_Maexxny_Int:
+  Id: 267
+  Display: '&dKiel Maexxny'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &728'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Inteligencja: &7+8'
+  - '&4- &8Mana: &7+5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c77'
+  - '&4- &8Walka: &c2'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.04
+      Health: 4
+    offhand:
+      Health: -80
+Kiel_Maexxny_Mana:
+  Id: 267
+  Display: '&dKiel Maexxny'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &728'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Mana: &7+15'
+  - '&4- &8Inteligencja: &7+5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c147'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: -20
+      MovementSpeed: 0.1
+    offhand:
+      Health: 5
+      MovementSpeed: 0.1
+Osmiook_Mana:
+  Id: 293
+  Display: '&1Osmiook'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &728'
+  - '&4- &8Mana: &7+30'
+  - '&4- &8Inteligencja: &7+5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c170'
+  - '&4- &8Inteligencja: &c10'
+  Options:
+    Unbreakable: true
+  Attributes:
+    offhand:
+      Health: 10
+      MovementSpeed: 0.05
+Nimrod_Zd:
+  Id: 261
+  Display: '&b&lNimrod'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &787'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Zdolnosci mysliwskie: &7+20'
+  - '&4- &8Zrecznosc: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c89'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.11
+Helm_Poszukiwacza_Przygod_Zd:
+  Id: 298
+  Display: '&a&lHelm poszukiwacza przygod'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &742'
+  - '&4- &8Sila: &7+5'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Zdolnosci mysliwskie: &7+21'
+  - '&4- &8Zrecznosc: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c78'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 20
+      MovementSpeed: 0.1
+Pajecza_Siec:
+  Id: 30
+  Display: '&rPajecza siec'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Oko_Pajaka:
+  Id: 331
+  Display: '&cOko pajaka'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Pajecza_Zuwaczka:
+  Id: 263
+  Data: 1
+  Display: '&7Zuwaczki pajaka'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Galka_Wdowy:
+  Id: 375
+  Display: '&4Galka czarnej wdowy'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Jadowity_Kiel:
+  Id: 409
+  Display: '&2Jadowity kiel'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'

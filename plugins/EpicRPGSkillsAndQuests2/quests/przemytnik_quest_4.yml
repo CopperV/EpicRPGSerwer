@@ -1,0 +1,28 @@
+id: "przemytnik_quest_4"                                
+name: "&dDrogie skory"                          
+zleceniodawca: "&2Alima"                       
+lore:                                               
+  - "&aOtrzymalismy ostatnio zlecenie od gildii zlodziei"
+  - "&ana dosyc pokazna sumke."
+  - "&aChce oni troche skor szakali z pustyni."
+  - "&aNiestety, nie mamy ich na zapasie."
+  - "&aPomozesz nam?"
+  - "&aOdpalimy Ci 25 procent zyskow."
+prize:                                    
+  - "xp: 790"
+  - "money: 170"
+require:                                            
+  - "level: 16"
+  - "quest: przemytnik_quest_2"
+  - "quest: zlodziej_quest_4"
+stopnie:
+  1:
+    talking: true
+    message: "&2Alima&7: &aZnakomita robota. W dodatku skory sa znakomitej jakosci! Zgodnie z umowa - 25 procent dla Ciebie. Trzymaj sie."
+    targets:
+      1:
+        id: "przemytnik_quest_4_1_1"
+        type: "przynies"
+        targetName: "&eSkora szakala"
+        message: "Przynies 17 skor szakala: %stan%"
+        ilosc: 17

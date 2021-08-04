@@ -1,0 +1,28 @@
+id: "paladyn_quest_8"
+name: "&cElitarni orkowie"
+zleceniodawca: "&4Reg"
+lore:
+  - "&aZaczniemy od czegos oczywistego."
+  - "&aElitarni orkowie sa najgorszymi orkami,"
+  - "&ana ktorych mozna sie nadziac w trakcie walk."
+  - "&aNic dziwnego wiec, ze generalowie sie nimi"
+  - "&aotaczaja."
+  - "&aMusimy zredukowac troche ich ilosc,"
+  - "&ajezeli chcemy skutecznie dorwac orkowa szyche."
+prize:
+  - "xp: 14500"
+  - "money: 400"
+require:
+  - "level: 35"
+  - "klasa: &cWojownik"
+  - "quest: paladyn_quest_7"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "paladyn_quest_8_1_1"
+        type: "zabij"
+        targetName: "&c&lElitarny Ork Wojownik"
+        message: "Zabij 40 elitarnych orkow: %stan%"
+        ilosc: 40

@@ -1,0 +1,15 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&3&lSteve"
+skinid: 535363580
+location:
+  world: "Map113"
+  x: 370.5
+  y: 71.0
+  z: 142.5
+  yaw: -80.5
+  pitch: 15.5
+lookat: true
+hidequest: "6_quest_12"

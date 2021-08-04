@@ -1,0 +1,28 @@
+id: "3_quest_4"                                
+name: "&c&oAgresywni kopacze"                          
+zleceniodawca: "&a&lJasuo"                       
+lore:                                               
+  - "&aPo krotkiej przerwie pora wrocic na tereny wykopalisk."
+  - "&aTym razem pocwiczysz sobie troche"
+  - "&ana agresywnych kopaczach."
+  - "&aZ nieznanych nam powodow rzucaja sie na kazdego,"
+  - "&akto jest im obcym."
+  - "&aZachowuja sie gorzej niz zwierzeta,"
+  - "&aliczy sie dla nich tylko to, by zabic."
+  - "&aNie okazuj litosci - oni by Tobie jej nie okazali."
+prize:                                    
+  - "xp: 3525"
+  - "money: 50"
+require:                                            
+  - "level: 22"
+  - "quest: 3_quest_3"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "3_quest_4_1_1"
+        type: "zabij"
+        targetName: "&cZarazony Gornik"
+        message: "Pokonaj 25 gornikow spod wykopalisk: %stan%"
+        ilosc: 25

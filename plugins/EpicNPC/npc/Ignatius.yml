@@ -1,0 +1,15 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&e&lIgnatius"
+  - "&7[&c&oDOWODCA STRAZY KROLEWSKIEJ&7]"
+skinid: 808560151
+location:
+  world: "F_RPG"
+  x: -102
+  y: 42.0
+  z: 13.0
+  yaw: -90
+  pitch: 0
+lookat: true

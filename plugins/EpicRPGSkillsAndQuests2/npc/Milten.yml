@@ -1,0 +1,30 @@
+name: "&c&lMilten"
+title: "&c&lMilten - quester"
+size: 9
+slots:
+  1:
+    item: "6_quest_2"
+  2:
+    item: "6_quest_3"
+  3:
+    item: "6_quest_5"
+  4:
+    item: "p_quest_28"
+  8:
+    item: "Mana1"
+    max: 75
+    wymagania:
+      - "quest: 6_quest_2"
+  9:
+    item: "Mana5"
+    max: 75
+    wymagania:
+      - "quest: 6_quest_2"
+#  8:
+#    item: "skill_arrows"
+#    wymagania:
+#      - "quest: 4_quest_1"
+#  9:
+#    item: "skill_manareg"
+#    wymagania:
+#      - "quest: 3_quest_1"

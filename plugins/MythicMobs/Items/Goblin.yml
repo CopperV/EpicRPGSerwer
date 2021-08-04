@@ -1,0 +1,748 @@
+Laga_Zr:
+  Id: 280
+  Display: '&rLaga'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &76'
+  - '&4- &8Zrecznosc: &7+2'
+  - '&4- &8Sila: &7-1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c10'
+  Options:
+    Unbreakable: true
+Laga_Str:
+  Id: 280
+  Display: '&rLaga'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &76'
+  - '&4- &8Sila: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c11'
+  Options:
+    Unbreakable: true
+Laga_Wytrz:
+  Id: 280
+  Display: '&rLaga'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &76'
+  - '&4- &8Zrecznosc: &7-1'
+  - '&4- &8Sila: &7-1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c8'
+  Options:
+    Unbreakable: true
+Nat_Shakar_Int:
+  Id: 280
+  Display: '&e&oNat Shakar'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &79'
+  - '&4- &8Inteligencja: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c14'
+  Options:
+    Unbreakable: true
+Nat_Shakar_Mana:
+  Id: 280
+  Display: '&e&oNat Shakar'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &77'
+  - '&4- &8Mana: &7+3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c26'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.01
+Ur_Nath_Shakka_Int:
+  Id: 290
+  Display: '&a&oUr Nath Shakka'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &713'
+  - '&4- &8Inteligencja: &7+1'
+  - '&4- &8Zrecznosc: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c22'
+  Options:
+    Unbreakable: true
+Ur_Nath_Shakka_Mana:
+  Id: 290
+  Display: '&a&oUr Nath Shakka'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &710'
+  - '&4- &8Mana: &7+2'
+  - '&4- &8Walka: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c43'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.02
+Khir_Shar_Int:
+  Id: 291
+  Display: '&5Khir Shar'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &720'
+  - '&4- &8Inteligencja: &7+2'
+  - '&4- &8Zrecznosc: &7+1'
+  - '&4- &8Zdolnosci mysliwskie: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c41'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.01
+Khir_Shar_Mana:
+  Id: 291
+  Display: '&5Khir Shar'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &716'
+  - '&4- &8Mana: &7+4'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Zdolnosci mysliwskie: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c80'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.03
+Proca_Zd:
+  Id: 261
+  Display: '&rProca'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &77'
+  - '&4- &8Zrecznosc: &7-2'
+  - '&4- &8Zdolnosci mysliwskie: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c12'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.01
+Drewniak_Str:
+  Id: 268
+  Display: '&aDrewniak'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &713'
+  - '&4- &8Sila: &7+1'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Wytrzymalosc: &7-1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c16'
+  - '&4- &8Walka: &c1'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.01
+Drewniak_Wytrz:
+  Id: 268
+  Display: '&aDrewniak'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &710'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Sila: &7-2'
+  - '&4- &8Wytrzymalosc: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c15'
+  Options:
+    Unbreakable: true
+  Attributes:
+    offhand:
+      KnockbackResistance: 1%
+Kilof_Goblina_Str:
+  Id: 270
+  Display: '&7Kilof goblina'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &711'
+  - '&4- &8Sila: &7+4'
+  - '&4- &8Walka: &7-1'
+  - '&4- &8Wytrzymalosc: &7-1'
+  - '&4- &8Zrecznosc: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c13'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.01
+Zbroja_Goblina_Zr:
+  Id: 299
+  Display: '&aZbroja Goblina'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &711'
+  - '&4- &8Zrecznosc: &7+6'
+  - '&4- &8Sila: &7-2'
+  - '&4- &8Inteligencja: &7-1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c31'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 2
+      MovementSpeed: 0.02
+Zbroja_Goblina_Zd:
+  Id: 299
+  Display: '&aZbroja Goblina'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &712'
+  - '&4- &8Zrecznosc: &7-1'
+  - '&4- &8Inteligencja: &7-1'
+  - '&4- &8Zdolnosci mysliwskie: &7+5'
+  - '&4- &8Walka: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c33'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      MovementSpeed: 0.02
+Zbroja_Goblina_Wytrz:
+  Id: 299
+  Display: '&aZbroja Goblina'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &716'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Zrecznosc: &7-1'
+  - '&4- &8Sila: &7-1'
+  - '&4- &8Zdolnosci mysliwskie: &7-1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c36'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      MovementSpeed: -0.02
+Goblini_Luk_Zr:
+  Id: 261
+  Display: '&2Goblini luk'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &712'
+  - '&4- &8Zrecznosc: &7+2'
+  - '&4- &8Zdolnosci mysliwskie: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c27'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.02
+Goblini_Luk_Zd:
+  Id: 261
+  Display: '&2Goblini luk'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &715'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Zdolnosci mysliwskie: &7+3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c28'
+  - '&4- &8Walka: &c2'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.01
+Prymitywny_Helm_Str:
+  Id: 298
+  Display: '&aPrymitywny helm'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &74'
+  - '&4- &8Walka: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c7'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 1
+Prymitywny_Helm_Wytrz:
+  Id: 298
+  Display: '&aPrymitywny helm'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &77'
+  - '&4- &8Zrecznosc: &7-2'
+  - '&4- &8Sila: &7-1'
+  - '&4- &8Wytrzymalosc: &7+4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c10'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: -0.02
+Prymitywny_Helm_Zd:
+  Id: 298
+  Display: '&aPrymitywny helm'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &73'
+  - '&4- &8Zdolnosci mysliwskie: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c11'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: 0.02
+Goblinie_Spodnie_Zr:
+  Id: 300
+  Display: '&aGoblinie spodnie'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &79'
+  - '&4- &8Zrecznosc: &7+3'
+  - '&4- &8Zdolnosci mysliwskie: &7+2'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Sila: &7-2'
+  - '&4- &8Wytrzymalosc: &7-1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c24'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      Health: 2
+      MovementSpeed: 0.03
+Goblinie_Spodnie_Zd:
+  Id: 300
+  Display: '&aGoblinie spodnie'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &79'
+  - '&4- &8Zdolnosci mysliwskie: &7+4'
+  - '&4- &8Wytrzymalosc: &7+1'
+  - '&4- &8Zrecznosc: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c23'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      MovementSpeed: 0.03
+Skradzione_Zloto:
+  Id: 41
+  Display: '&6Skradzione Zloto'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Goblinie_Zloto:
+  Id: 266
+  Display: '&eGoblinie Zloto'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Ciezka_Laga_Str:
+  Id: 280
+  Display: '&7Ciezka Laga'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &714'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Zrecznosc: &7-2'
+  - '&4- &8Zdolnosci mysliwskie: &7-1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c20'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.02
+    offhand:
+      MovementSpeed: -0.03
+Goblini_Toporek_Str:
+  Id: 271
+  Display: '&eGoblini toporek'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &722'
+  - '&4- &8Sila: &7+5'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Zrecznosc: &7-4'
+  - '&4- &8Zdolnosci mysliwskie: &7-2'
+  - '&4- &8Inteligencja: &7-1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c31'
+  - '&4- &8Walka: &c3'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.04
+Kusza_Goblina_Str:
+  Id: 261
+  Display: '&aKusza goblina'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &719'
+  - '&4- &8Sila: &7+3'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Zdolnosci mysliwskie: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c31'
+  - '&4- &8Zrecznosc: &c4'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.03
+Zardzewialy_Topor_Str:
+  Id: 258
+  Display: '&8Zardzewialy topor'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &737'
+  - '&4- &8Walka: &7-3'
+  - '&4- &8Zrecznosc: &7-3'
+  - '&4- &8Zdolnosci mysliwskie: &7-3'
+  - '&4- &8Inteligencja: &7-3'
+  - '&4- &8Wytrzymalosc: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c33'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.04
+      Health: -3
+Goblini_Miecz_Zr:
+  Id: 272
+  Display: '&aGoblini miecz'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &723'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Zrecznosc: &7+5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c46'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.04
+Naostrzony_Topor_Str:
+  Id: 258
+  Display: '&7&lNaostrzony topor'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &737'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Sila: &7+5'
+  - '&4- &8Zrecznosc: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c48'
+  Options:
+    Unbreakable: true
+Kusza_Straznicza_Str:
+  Id: 261
+  Display: '&cKusza straznicza'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &729'
+  - '&4- &8Sila: &7+4'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Zdolnosci mysliwskie: &7-4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c46'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.02
+      KnockbackResistance: 1%
+Goblinia_Korona_Zr:
+  Id: 314
+  Display: '&e&lGoblinia korona'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &729'
+  - '&4- &8Zrecznosc: &7+20'
+  - '&4- &8Walka: &7+12'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c35'
+  - '&4- &8Walka: &c5'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: 0.05
+      Health: 15
+Goblinia_Korona_Zd:
+  Id: 314
+  Display: '&e&lGoblinia korona'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &732'
+  - '&4- &8Zdolnosci mysliwskie: &7+30'
+  - '&4- &8Zrecznosc: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c44'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: 0.15
+      Health: 18
+Goblinia_Korona_Wytrz:
+  Id: 314
+  Display: '&e&lGoblinia korona'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &744'
+  - '&4- &8Wytrzymalosc: &7+15'
+  - '&4- &8Sila: &7+15'
+  - '&4- &8Inteligencja: &7+10'
+  - '&4- &8Walka: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c53'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: -0.03
+      Health: 25
+Goblinia_Korona_Int:
+  Id: 314
+  Display: '&e&lGoblinia korona'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &727'
+  - '&4- &8Mana: &7+50'
+  - '&4- &8Inteligencja: &7+25'
+  - '&4- &8Walka: &7+5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c42'
+  - '&4- &8Mana: &c20'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 22

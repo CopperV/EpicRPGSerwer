@@ -1,0 +1,32 @@
+id: "3_quest_7"                                
+name: "&eSzukajac przyczyny II"                          
+zleceniodawca: "&a&lJasuo"                       
+lore:                                               
+  - "&aMam zla wiadomosc."
+  - "&aJest niezgodnosc zawartosci probek."
+  - "&aZ tego wniosek, ze bagno nie ma nic wspolnego"
+  - "&az obecnym stanem gornikowi i zaginionych poslow."
+  - "&aZ ciekawosci chcemy przebadac jeszcze gornikow."
+  - "&aMysle, ze wiesz, co trzeba zrobic."
+prize:                                    
+  - "xp: 6150"
+require:                                            
+  - "level: 26"
+  - "quest: 3_quest_6"
+stopnie:
+  1:
+    talking: true
+    message: "&a&lJasuo&7: &aDobra robota. Teraz mozesz przez jakis czas zajac sie swoimi zajeciami. Badania chwile potrwaja."
+    targets:
+      1:
+        id: "3_quest_7_1_1"
+        type: "zabij"
+        targetName: "&cZarazony Gornik"
+        message: "Zabij 40 zarazonych gornikow: %stan%"
+        ilosc: 40
+      2:
+        id: "3_quest_7_1_2"
+        type: "przynies"
+        targetName: "&2Bakterie"
+        message: "Przynies 64 probki bakterii: %stan%"
+        ilosc: 64

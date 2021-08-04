@@ -1,0 +1,28 @@
+id: "prolog_quest_8"                                
+name: "&eFarmer w potrzebie II"                          
+zleceniodawca: "&e&lUthar"                       
+lore:                                               
+  - "&aDziekuje za Twoja pomoc."
+  - "&aIdz do swojego przelozonego."
+  - "&aWykonales kawal dobrej roboty na farmie."
+prize:                                    
+  - "xp: 75"
+  - "bc: &7[&b&lEpicRPG&7] &aGracz &7%player% &aukonczyl watek &a&o&lPROLOG&a. &6&lGRATULACJE!"
+  - "cmd: rta add %player% 11"
+require:                                            
+  - "level: 3"
+  - "quest: prolog_quest_7"
+stopnie:                                            
+  1:
+    talking: false                    
+    targets:
+      1:
+        id: "prolog_quest_8_1_1"                     
+        type: "zagadaj"       
+        targetName: "&b&lCorristo"                      
+        message: "Zdaj raport &b&lCorristo: %stan%"
+        dialog:
+          - "&r%player%&7: &bRozwiazalem problem farmera &e&lUthara&b."
+          - "&6&lCorristo&7: &aJakos nie watpilem, ze tego dokonasz."
+          - "&6&lCorristo&7: &aGratuluje."
+          - "&6&lCorristo&7: &aPrzyjdz pozniej po swoja kolejna misje"

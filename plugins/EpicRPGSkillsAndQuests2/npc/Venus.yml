@@ -1,0 +1,11 @@
+name: "&eVenus"
+title: "&eVenus - farmerka"
+size: 9
+slots:
+  1:
+    item: "p_quest_2"
+  2:
+    item: "p_quest_3"
+  3:
+    item: "p_quest_5"
+

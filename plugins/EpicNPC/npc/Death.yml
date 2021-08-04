@@ -1,0 +1,16 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&4&lDeath"
+  - "&7[&c&lZniwiarz&7]"
+skinid: 820092110
+location:
+  world: "F_RPG"
+  x: -138
+  y: 57
+  z: 18
+  yaw: -96
+  pitch: 16
+lookat: true
+state: CROUCHED

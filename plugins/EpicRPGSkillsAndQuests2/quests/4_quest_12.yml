@@ -1,0 +1,27 @@
+id: "4_quest_12"                                
+name: "&2&oOrkowe psy"                          
+zleceniodawca: "&eHassan"                       
+lore:                                               
+  - "&aOrkowe psy to pewnego rodzaju przerosniete wargi."
+  - "&aJest ich znacznie mniej i sa znacznie mocniejsze."
+  - "&aRzadko orkowie ich wykorzystuje,"
+  - "&alecz jesli juz to zrobia, to walka sie staje"
+  - "&aznacznie bardziej dynamiczna."
+  - "&aMusisz zredukowac ich ilosc tak samo"
+  - "&ajak zrobiles to z wargami"
+prize:                                    
+  - "xp: 6650"
+  - "money: 100"
+require:                                            
+  - "level: 35"
+  - "quest: 4_quest_9"
+stopnie:
+  1:
+    talking: true  
+    targets:
+      1:
+        id: "4_quest_12_1_1"                     
+        type: "zabij"       
+        targetName: "&4Orkowy Pies"                      
+        message: "Zabij 35 orkowych psow: %stan%"
+        ilosc: 35

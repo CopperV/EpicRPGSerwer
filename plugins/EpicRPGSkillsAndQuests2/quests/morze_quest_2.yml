@@ -1,0 +1,34 @@
+id: "morze_quest_2"                                
+name: "&r&oLatajacy Holender"                          
+zleceniodawca: "&e&lNers"                       
+lore:                                               
+  - "&aJak juz tutaj jestes, to Ciebie"
+  - "&aod razu wykorzystamy."
+  - "&aPoplyniesz do latajacego Holendra,"
+  - "&aktory od pewnego czasu patroluje teren na poludniu"
+  - "&ai pokonasz paru przekletych piratow."
+prize:                                    
+  - "xp: 33000"
+  - "money: 330"
+require:                                            
+  - "level: 45"
+  - "quest: morze_quest_1"
+stopnie:
+  1:
+    talking: false
+    message: "&r%player%&7: &bWitamy latajacego Holendra. To teraz pora sie zajac przekletymi piratami..."
+    targets:
+      1:
+        id: "morze_quest_2_1_1"
+        type: "znajdz"
+        targetName: "holender"
+        message: "Udaj sie na latajacy holender na poludniu (232;1250): %stan%"
+  2:
+    talking: true
+    targets:
+      1:
+        id: "morze_quest_2_2_1"
+        type: "zabij"
+        targetName: "&3Przeklety Pirat"
+        message: "Pokonaj 25 przekletych piratow z latajacego Holendra: %stan%"
+        ilosc: 25

@@ -1,0 +1,15 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&4Magor"
+  - "&7[&cNAUCZYCIEL WOJOWNIKOW&7]"
+skinid: 1448005841
+location:
+  world: "F_RPG"
+  x: -120.5
+  y: 48.0
+  z: -45.5
+  yaw: -170
+  pitch: 10
+lookat: true

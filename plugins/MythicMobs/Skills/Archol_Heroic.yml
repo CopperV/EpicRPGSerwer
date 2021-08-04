@@ -1,0 +1,145 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+Archol_H_Spawn:
+  Skills:
+  - message{m="<mob.name><&co> &bTo Wy!"} @PlayersInRadius{r=20}
+  - delay 20
+  - message{m="<mob.name><&co> &bZaplacicie mi za smierc Archosa!"} @PlayersInRadius{r=20}
+  - threat{amount=30} @NearestPlayer
+  - threat{amount=20} @PIR{r=5}
+Archol_H_Skill_1:
+  Conditions:
+  - hasaura Archol_H_Skill false
+  Skills:
+  - Aura{auraName=Archol_H_Skill;duration=320} @self
+  - stun{d=100} @self
+  - message{m="<mob.name><&co> &bWkrotce wszystko sie skonczy..."} @PlayersInRadius{r=20}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bArchol przygotowuje wir ostrzy!";d=100} @PIR{r=25}
+  - delay 100
+  - skill{s=Archol_H_Skill_1_Wir1} @self
+
+
+Archol_H_Skill_2:
+  Conditions:
+  - hasaura Archol_H_Skill false
+  Skills:
+  - Aura{auraName=Archol_H_Skill;duration=120} @self
+  - message{m="<mob.name><&co> &bTo sanktuarium stanie sie Waszym grobowcem!"} @PlayersInRadius{r=20}
+  - stun{d=100;stopai=true;facing=false} @self
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bArchol przygotowuje uderzenie tarcza!";d=100} @PIR{r=25}
+  - delay 20
+  - Aura{auraName=Archol_H_Defense;duration=100} @self
+  - delay 80
+  - sound{s=entity.blaze.shoot;v=10;p=0.01} @self
+  - skill{s=Archol_H_Skill_2_Effect} @Forward{f=16;y=0.0}
+
+Archol_H_Skill_3:
+  Conditions:
+  - hasaura Archol_H_Skill false
+  Skills:
+  - Aura{auraName=Archol_H_Skill;duration=120} @self
+  - message{m="<mob.name><&co> &bOkowy pustki stana sie Wasza zguba"} @PlayersInRadius{r=20}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bArchol przygotowuje okowy pustki!";d=100} @PIR{r=25}
+  - stun{d=100} @self
+  - delay 20
+  - Aura{auraName=Archol_H_Defense;duration=100} @self
+  - delay 80
+  - skill{s=Archol_H_Skill_3_Effect}
+
+Archol_H_Skill_3_Effect:
+  Skills:
+  - chain{b=10;d=10;bounceRadius=10;onBounce=Archol_H_Skill_3_Effect_Bounce} @NearestPlayer{r=7}
+
+Archol_H_Skill_3_Effect_Bounce:
+  Skills:
+  - damage{amount=180}
+  - effect:particleline{particle=largesmoke;amount=10;fromOrigin=true;speed=0.1;hS=0.05;vS=0.05}
+  - potion{type=SLOW;duration=100;level=4}
+  - summon{mob=Niewola1_Dung_H;amount=2;radius=5;os=true}
+  - sound{s=entity.blaze.shoot;v=10;p=2}
+
+Archol_H_Skill_2_Effect:
+  Skills:
+  - projectile{onTick=Archol_H_Skill_2_Effect_Tick;onHit=Archol_H_Skill_2_Effect_Hit;v=11;i=1;hR=6;vR=1;mr=16;sE=false;sB=false;hs=true}
+
+Archol_H_Skill_2_Effect_Tick:
+  Skills:
+  - effect:particles{particle=blockcrack_1;amount=50;speed=0.05;hS=3;vS=0.1;radius=4;vd=20} @origin
+
+Archol_H_Skill_2_Effect_Hit:
+  Skills:
+  - damage{amount=230}
+  - potion{type=SLOW;duration=200;level=3}
+  - sound{s=entity.player.attack.strong;v=4;p=4} @Origin
+  - throw{velocity=5;velocityY=2}
+
+Archol_H_Skill_Defense:
+  Conditions:
+  - hasaura Archol_H_Defense true
+  Skills:
+  - heal{amount=5000} @self
+
+Archol_H_Skill_1_Defense:
+  Conditions:
+  - hasaura Archol_H_DefenseWir true
+  Skills:
+  - damage{amount=300} @trigger
+  - sound{s=entity.player.attack.strong;v=4;p=4} @TriggerLocation
+  - throw{velocity=5;velocityY=2} @trigger
+
+Archol_H_Skill_1_Wir1:
+  Skills:
+  - stun{d=200}
+  - Aura{auraName=Archol_H_DefenseWir;duration=200} @self
+  - effect:spin{duration=200;velocity=20} @self
+  - message{m="<mob.name><&co> &bWIR OSTRZY!"} @PlayersInRadius{r=30}
+  - orbital{onTick=Archol_H_Wir-Tick;onHit=Archol_H_Wir-Hit;points=23;interval=1;duration=200;charges=30;r=3;hr=1;rx=0;ry=0;oy=1}
+  - orbital{onTick=Archol_H_Wir-Tick;onHit=Archol_H_Wir-Hit;points=23;interval=1;duration=200;charges=30;r=2;hr=1;rx=0;ry=0;oy=1}
+  - orbital{onTick=Archol_H_Wir-Tick;onHit=Archol_H_Wir-Hit;points=23;interval=1;duration=200;charges=30;r=1;hr=1;rx=0;ry=0;oy=1}
+  - delay 200
+  - skill{s=Archol_H_Skill_1_Wir2} 0.65
+
+Archol_H_Skill_1_Wir2:
+  Skills:
+  - Aura{auraName=Archol_H_Skill;duration=220} @self
+  - Aura{auraName=Archol_H_DefenseWir;duration=200} @self
+  - stun{d=200}
+  - effect:spin{duration=200;velocity=20} @self
+  - message{m="<mob.name><&co> &bWiiir ostrzy..."} @PlayersInRadius{r=30}
+  - orbital{onTick=Archol_H_Wir-Tick;onHit=Archol_H_Wir-Hit;points=37;interval=1;duration=200;charges=30;r=6;hr=1;rx=0;ry=0;oy=1}
+  - orbital{onTick=Archol_H_Wir-Tick;onHit=Archol_H_Wir-Hit;points=37;interval=1;duration=200;charges=30;r=5;hr=1;rx=0;ry=0;oy=1}
+  - orbital{onTick=Archol_H_Wir-Tick;onHit=Archol_H_Wir-Hit;points=37;interval=1;duration=200;charges=30;r=4;hr=1;rx=0;ry=0;oy=1}
+  - orbital{onTick=Archol_H_Wir-Tick;onHit=Archol_H_Wir-Hit;points=37;interval=1;duration=200;charges=30;r=3;hr=1;rx=0;ry=0;oy=1}
+  - orbital{onTick=Archol_H_Wir-Tick;onHit=Archol_H_Wir-Hit;points=37;interval=1;duration=200;charges=30;r=2;hr=1;rx=0;ry=0;oy=1}
+  - orbital{onTick=Archol_H_Wir-Tick;onHit=Archol_H_Wir-Hit;points=37;interval=1;duration=200;charges=30;r=1;hr=1;rx=0;ry=0;oy=1}
+  - delay 200
+  - skill{s=Archol_H_Skill_1_Wir3} 0.65
+
+Archol_H_Skill_1_Wir3:
+  Skills:
+  - Aura{auraName=Archol_H_Skill;duration=220} @self
+  - Aura{auraName=Archol_H_DefenseWir;duration=200} @self
+  - stun{d=200}
+  - effect:spin{duration=200;velocity=20} @self
+  - message{m="<mob.name><&co> &bWIIIIR OOOSTRZYYYY!!!"} @PlayersInRadius{r=30}
+  - orbital{onTick=Archol_H_Wir-Tick;onHit=Archol_H_Wir-Hit;points=49;interval=1;duration=200;charges=30;r=9;hr=1;rx=0;ry=0;oy=1}
+  - orbital{onTick=Archol_H_Wir-Tick;onHit=Archol_H_Wir-Hit;points=49;interval=1;duration=200;charges=30;r=8;hr=1;rx=0;ry=0;oy=1}
+  - orbital{onTick=Archol_H_Wir-Tick;onHit=Archol_H_Wir-Hit;points=49;interval=1;duration=200;charges=30;r=7;hr=1;rx=0;ry=0;oy=1}
+  - orbital{onTick=Archol_H_Wir-Tick;onHit=Archol_H_Wir-Hit;points=49;interval=1;duration=200;charges=30;r=6;hr=1;rx=0;ry=0;oy=1}
+  - orbital{onTick=Archol_H_Wir-Tick;onHit=Archol_H_Wir-Hit;points=49;interval=1;duration=200;charges=30;r=5;hr=1;rx=0;ry=0;oy=1}
+  - orbital{onTick=Archol_H_Wir-Tick;onHit=Archol_H_Wir-Hit;points=49;interval=1;duration=200;charges=30;r=4;hr=1;rx=0;ry=0;oy=1}
+  - orbital{onTick=Archol_H_Wir-Tick;onHit=Archol_H_Wir-Hit;points=49;interval=1;duration=200;charges=30;r=3;hr=1;rx=0;ry=0;oy=1}
+  - orbital{onTick=Archol_H_Wir-Tick;onHit=Archol_H_Wir-Hit;points=49;interval=1;duration=200;charges=30;r=2;hr=1;rx=0;ry=0;oy=1}
+  - orbital{onTick=Archol_H_Wir-Tick;onHit=Archol_H_Wir-Hit;points=49;interval=1;duration=200;charges=30;r=1;hr=1;rx=0;ry=0;oy=1}
+  - delay 200
+
+
+Archol_H_Wir-Tick:
+  Skills:
+  - effect:particles{p=blockcrack_155;amount=10;speed=0.05;hS=0.1;vS=0.1} @origin
+Archol_H_Wir-Hit:
+  Skills:
+  - damage{amount=205} @PlayersNearOrigin{r=1.5}
+  - sound{s=entity.player.attack.strong;v=4;p=4} @Origin
+  - throw{velocity=5;velocityY=2} @PlayersNearOrigin{r=1.5}

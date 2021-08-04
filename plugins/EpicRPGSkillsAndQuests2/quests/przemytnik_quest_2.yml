@@ -1,0 +1,35 @@
+id: "przemytnik_quest_2"                                
+name: "&2Wilki i owce"                          
+zleceniodawca: "&7Cobryn"                       
+lore:                                               
+  - "&aSlyszalem, ze mozna na Tobie polegac."
+  - "&aOstatnimi czasu z lasu co raz czesciej"
+  - "&awychylaja swoje lby wilki"
+  - "&ai podchodza do naszych wozow."
+  - "&aRobia przy tym niezly balagan."
+  - "&aZa duzo nas tu obecnie nie ma,"
+  - "gdyz wiekszosc naszych jest w terenie, przez co"
+  - "&anie mozemy skutecznie je odgonic."
+  - "&aMam nadzieje, ze nam pomozesz"
+  - "&aza odrobine zlota."
+  - "&aCzasem sami potrzebujemy pomocy."
+  - "&aTeraz tez chcialbym Ciebie o cos prosic."
+  - "&aOstatniego czasu jest dosyc krucho u nas z prowiantem."
+  - "&aWspomoz nam, a nie zapomnimy Ci tego."
+prize:                                    
+  - "xp: 295"
+  - "money: 20"
+require:                                            
+  - "level: 8"
+  - "quest: przemytnik_quest_1"
+stopnie:
+  1:
+    talking: true
+    message: "&7Cobryn&7: &aNo, tyle powinno starczyc. Przyjmij zloto za swoj trud."
+    targets:
+      1:
+        id: "przemytnik_quest_2_1_1"
+        type: "zabij"
+        targetName: "&2Dziki wilk"
+        message: "Zabij 20 okolicznych wilkow: %stan%"
+        ilosc: 20

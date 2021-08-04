@@ -1,0 +1,94 @@
+PieczonyMisio:
+  Type: POLAR_BEAR
+  Display: '&cMis Polarny'
+  Health: 300
+  Damage: 38
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Drops:
+  - PieczoneMisioDrops
+  Options:
+    MovementSpeed: 0.35
+    Despawn: true
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    PreventMobKillDrops: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    Collidable: true
+    
+MagicznaSwinia:
+  Type: PIG
+  Display: '&4Magiczna Swinia'
+  Health: 290
+  Skills:
+  - message{m="<mob.name><&co> KWEEE KWEEE"} @PlayersInRadius{r=10} ~onDamaged >0 0.2
+  - skill{s=MagicznaSwiniaMinionSkill} @self ~onDamaged 0.3
+  - skill{s=MobRemove} ~onTimer:100
+  Drops:
+  - MagicznaSwiniaDrops
+  Options:
+    MovementSpeed: 0.16
+    AlwaysShowName: false
+    Despawn: true
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    PreventMobKillDrops: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    Collidable: true
+    
+MagicznaSwiniaMinion:
+  Type: BABY_PIG_ZOMBIE
+  Display: '&cMagiczna Swinia Minion'
+  Health: 10
+  Damage: 1
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Drops:
+  - MagicznaSwiniaMinionDrops
+  Options:
+    MovementSpeed: 0.4
+    AgeLock: true
+    Despawn: true
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    PreventMobKillDrops: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    Collidable: true
+    
+
+LatajacaKrowa:
+  Type: VEX
+  Display: '&aLatajaca Krowa'
+  Health: 100
+  Damage: 30
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Drops:
+  - LatajacaKrowaDrops        
+  Disguise:
+    Type: MUSHROOM_COW
+  Options:
+    MovementSpeed: 0.2
+    AgeLock: true
+    Despawn: true
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    PreventMobKillDrops: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    Collidable: true

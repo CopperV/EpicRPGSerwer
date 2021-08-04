@@ -1,0 +1,15 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&a&oSagitta"
+  - "&7[&dALCHEMIK&7]"
+skinid: 816221365
+location:
+  world: "F_RPG"
+  x: 8.5
+  y: 44.0
+  z: 64.5
+  yaw: -0
+  pitch: 3
+lookat: true

@@ -1,0 +1,424 @@
+Plomienny_Kostur_Int:
+  Id: 369
+  Display: '&cPlomienny kostur'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &745'
+  - '&4- &8Sila: &7+10'
+  - '&4- &8Inteligencja: &7+15'
+  - '&4- &8Mana: &7-5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c219'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: -10
+      MovementSpeed: 0.04
+    offhand:
+      Health: -20
+      MovementSpeed: 0.05
+Plomienny_Kostur_Mana:
+  Id: 369
+  Display: '&cPlomienny kostur'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &740'
+  - '&4- &8Sila: &7+5'
+  - '&4- &8Inteligencja: &7+5'
+  - '&4- &8Mana: &7+10'
+  - '&4- &8Walka: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c433'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: -10
+      MovementSpeed: 0.04
+    offhand:
+      Health: -20
+      MovementSpeed: 0.05
+Odlamek_Furiata_Str:
+  Id: 283
+  Display: '&4Odlamek furiata'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &779'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Sila: &7+7'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c225'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: -15
+      MovementSpeed: 0.04
+Odlamek_Furiata_Wytrz:
+  Id: 283
+  Display: '&4Odlamek furiata'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &750'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Zrecznosc: &7+2'
+  - '&4- &8Zdolnosci mysliwskie: &7+2'
+  - '&4- &8Inteligencja: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c204'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: -16
+      MovementSpeed: 0.04
+      KnockbackResistance: 0.03
+Odlamek_Furiata_Zr:
+  Id: 283
+  Display: '&4Odlamek furiata'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &771'
+  - '&4- &8Walka: &7+13'
+  - '&4- &8Sila: &7+1'
+  - '&4- &8Zrecznosc: &7+6'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c216'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: -20
+      MovementSpeed: 0.08
+Odlamek_Furiata_Zd:
+  Id: 283
+  Display: '&4Odlamek furiata'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &768'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Zdolnosci mysliwskie: &7+8'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c206'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: -20
+      MovementSpeed: 0.07
+Strzal_Furiata_Zr:
+  Id: 261
+  Display: '&4Strzal furiata'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &770'
+  - '&4- &8Zrecznosc: &7+8'
+  - '&4- &8Walka: &7+8'
+  - '&4- &8Zdolnosci mysliwskie: &7+4'
+  - '&4- &8Mana: &7-5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c211'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.1
+      Health: -20
+Strzal_Furiata_Zd:
+  Id: 261
+  Display: '&4Strzal furiata'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &778'
+  - '&4- &8Zrecznosc: &7+2'
+  - '&4- &8Walka: &7+12'
+  - '&4- &8Zdolnosci mysliwskie: &7+11'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c219'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.09
+      Health: -22
+Kostur_Ognia2_Int:
+  Id: 369
+  Display: '&4Kostur ognia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &751'
+  - '&4- &8Sila: &7+12'
+  - '&4- &8Inteligencja: &7+18'
+  - '&4- &8Walka: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c233'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: -10
+      MovementSpeed: 0.06
+    offhand:
+      Health: -20
+      MovementSpeed: 0.08
+Korona_Barona_Int:
+  Id: 314
+  Display: '&6Korona Barona'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &743'
+  - '&4- &8Inteligencja: &7+20'
+  - '&4- &8Wytrzymalosc: &7+10'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Mana: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c226'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 17
+      MovementSpeed: 0.05
+      KnockbackResistance: 0.01
+Korona_Barona_Mana:
+  Id: 314
+  Display: '&6Korona Barona'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &740'
+  - '&4- &8Inteligencja: &7+10'
+  - '&4- &8Wytrzymalosc: &7+10'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Mana: &7+40'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c450'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 17
+      MovementSpeed: 0.05
+      KnockbackResistance: 0.01
+Korona_Barona_Wytrz:
+  Id: 314
+  Display: '&6Korona Barona'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &770'
+  - '&4- &8Inteligencja: &7+10'
+  - '&4- &8Wytrzymalosc: &7+10'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Mana: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c230'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 20
+      MovementSpeed: -0.05
+      KnockbackResistance: 0.05
+Napiersnik_Barona_Wytrz:
+  Id: 315
+  Display: '&6Napiersnik Barona'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &785'
+  - '&4- &8Sila: &7+10'
+  - '&4- &8Wytrzymalosc: &7+15'
+  - '&4- &8Walka: &7+15'
+  - '&4- &8Inteligencja: &7+5'
+  - '&4- &8Mana: &7+15'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c250'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 28
+      MovementSpeed: -0.09
+      KnockbackResistance: 0.2
+Sulfuron_Str:
+  Id: 286
+  Display: '&6&lSulfuron'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7300'
+  - '&4- &8Sila: &7+100'
+  - '&4- &8Walka: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c235'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.1
+      KnockbackResistance: 0.2
+    offhand:
+      MovementSpeed: -0.1
+Spojrzenie_Barona_Zd:
+  Id: 261
+  Display: '&6&lSpojrzenie Barona'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7190'
+  - '&4- &8Walka: &7+35'
+  - '&4- &8Zrecznosc: &7+30'
+  - '&4- &8Zdolnosci mysliwskie: &7+60'
+  - '&4- &8Inteligencja: &7+15'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c220'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.12
+    offhand:
+      MovementSpeed: 0.15
+Kostur_Majordomusa_Mana:
+  Id: 369
+  Display: '&4&lKostur Majordomusa'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7140'
+  - '&4- &8Inteligencja: &7+30'
+  - '&4- &8Walka: &7+30'
+  - '&4- &8Mana: &7+100'
+  - '&4- &8Wytrzymalosc: &7+20'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c470'
+  Options:
+    Unbreakable: true
+Serce_Zywiolaka:
+  Id: 399
+  Display: '&cSerce zywiolaka'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Piekielna_Galaz:
+  Id: 369
+  Display: '&4Piekielna galaz'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Serce_Wulkanicznego_Olbrzyma:
+  Id: 372
+  Display: '&cSerce wulkanicznego olbrzyma'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+RagnarosPaper:
+  Id: 339
+  Display: '&oZwoj teleportacji - twierdza'
+  Lore:
+  - ''
+  - '&aZwoj teleportacji do twierdzy Ragnarosa'
+  - ''
+  - '&aRagnarosa pilnuje jego Majordomus'
+  - '&ai tylko na jego prosbe przybedzie'
+  - '&awladca ognia - Ragnaros.'
+  - '&aPokonaj Majordomusa, by zmierzyc sie'
+  - '&az Ragnarosem.'
+  - ''
+  - '&eRagnaros wlada aspektem ognia.'
+  - '&eNie jest zbyt przyjazna postacia.'
+  - '&eSpaczenie ziem na Archolosie ma wlasnie'
+  - '&eswe zrodlo w tym piekielnym pomiocie'

@@ -1,0 +1,16 @@
+name: "&6&lRhobar"
+title: "&6&lRhobar - quester"
+size: 9
+slots:
+  1:
+    item: "4_quest_2"
+  2:
+    item: "4_quest_24"
+  3:
+    item: "4_quest_25"
+  4:
+    item: "4_quest_26"
+  5:
+    item: "zlecenie_assasyn"
+  6:
+    item: "zlecenie_ork"

@@ -1,0 +1,65 @@
+id: "p_quest_31"                                
+name: "&c&lKrucjata Nowego Swiata"
+zleceniodawca: "&9&lThordir"
+lore:                                               
+  - "&aPrzybycie tu paladyna Tiriona"
+  - "&abardzo podnioslo nasze morale."
+  - "&aWidac, ze zna sie na rzeczy."
+  - "&aAle rownie bardzo jest wymagajacy."
+  - "&aMamy dosyc wazne zadanie."
+  - "&aOczyscic ten las z wszelakiego rodzaju"
+  - "&aplugastwa."
+  - "&aMam nadzieje, ze przylaczysz sie"
+  - "&ado zabawy."
+prize:                                    
+  - "xp: 66750"
+  - "money: 150"
+require:                                            
+  - "level: 59"
+  - "quest: p_quest_28"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "p_quest_31_1_1"
+        type: "zabij"
+        targetName: "&2&oZombie"
+        message: "Zabij 40 Zombie: %stan%"
+        ilosc: 40
+      2:
+        id: "p_quest_31_1_2"
+        type: "zabij"
+        targetName: "&7Szkielet"
+        message: "Zabij 35 Szkieletow: %stan%"
+        ilosc: 35
+      3:
+        id: "p_quest_31_1_3"
+        type: "zabij"
+        targetName: "&aCreeper"
+        message: "Zabij 20 Creeperow: %stan%"
+        ilosc: 20
+      4:
+        id: "p_quest_31_1_4"
+        type: "zabij"
+        targetName: "&7&oPajak"
+        message: "Zabij 30 Pajakow: %stan%"
+        ilosc: 30
+      5:
+        id: "p_quest_31_1_5"
+        type: "zabij"
+        targetName: "&eJockey"
+        message: "Zabij 15 Jockeow: %stan%"
+        ilosc: 15
+      6:
+        id: "p_quest_31_1_6"
+        type: "zabij"
+        targetName: "&5Wiedzma"
+        message: "Zabij 20 Wiedzm: %stan%"
+        ilosc: 20
+      7:
+        id: "p_quest_31_1_7"
+        type: "zabij"
+        targetName: "&9Tulacz"
+        message: "Zabij 15 Tulaczy: %stan%"
+        ilosc: 15

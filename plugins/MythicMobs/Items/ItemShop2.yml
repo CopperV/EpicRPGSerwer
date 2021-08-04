@@ -1,0 +1,1351 @@
+Chlopski_Miecz_Str:
+  Id: 272
+  Display: '&e&oChlopski miecz'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &713'
+  - '&4- &8Sila: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c21'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.03
+Chlopski_Miecz_Wytrz:
+  Id: 272
+  Display: '&e&oChlopski miecz'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &79'
+  - '&4- &8Walka: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c20'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.01
+Chlopski_Miecz_Mana:
+  Id: 272
+  Display: '&e&oChlopski miecz'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &78'
+  - '&4- &8Mana: &7+6'
+  - '&4- &8Inteligencja: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c39'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.03
+      Health: 1
+Chlopski_Miecz_Int:
+  Id: 272
+  Display: '&e&oChlopski miecz'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &79'
+  - '&4- &8Inteligencja: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c21'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.04
+Maczuga_Str:
+  Id: 272
+  Display: '&7Maczuga'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &750'
+  - '&4- &8Sila: &7+9'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Wytrzymalosc: &7-2'
+  - '&4- &8Zrecznosc: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c118'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.06
+      KnockbackResistance: 0.01
+    offhand:
+      MovementSpeed: -0.05
+      KnockbackResistance: 0.03
+Maczuga_Wytrz:
+  Id: 272
+  Display: '&7Maczuga'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &739'
+  - '&4- &8Sila: &7+1'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Wytrzymalosc: &7+3'
+  - '&4- &8Zrecznosc: &7-3'
+  - '&4- &8Zdolnosci mysliwskie: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c111'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.08
+      KnockbackResistance: 0.03
+    offhand:
+      MovementSpeed: -0.06
+      KnockbackResistance: 0.06
+Cwiekowana_Maczuga_Str:
+  Id: 272
+  Display: '&8&lCwiekowana Maczuga'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &761'
+  - '&4- &8Sila: &7+11'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Wytrzymalosc: &7-1'
+  - '&4- &8Zrecznosc: &7-4'
+  - '&4- &8Zdolnosci mysliwskie: &7-4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c132'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.1
+      KnockbackResistance: 0.04
+    offhand:
+      MovementSpeed: -0.08
+      KnockbackResistance: 0.07
+Cwiekowana_Maczuga_Wytrz:
+  Id: 272
+  Display: '&8&lCwiekowana Maczuga'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &746'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Walka: &7+7'
+  - '&4- &8Wytrzymalosc: &7+4'
+  - '&4- &8Zrecznosc: &7-4'
+  - '&4- &8Zdolnosci mysliwskie: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c125'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.12
+      KnockbackResistance: 0.06
+    offhand:
+      MovementSpeed: -0.1
+      KnockbackResistance: 0.1
+Krotki_Miecz_Str:
+  Id: 267
+  Display: '&rKrotki miecz'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &716'
+  - '&4- &8Sila: &7+1'
+  - '&4- &8Walka: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c27'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.04
+Krotki_Miecz_Wytrz:
+  Id: 267
+  Display: '&rKrotki miecz'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &711'
+  - '&4- &8Walka: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c24'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.02
+Krotki_Miecz_Zr:
+  Id: 267
+  Display: '&rKrotki miecz'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &716'
+  - '&4- &8Walka: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c29'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.05
+Krotki_Miecz_Zd:
+  Id: 267
+  Display: '&rKrotki miecz'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &711'
+  - '&4- &8Zdolnosci mysliwskie: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c26'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.03
+Krotki_Miecz_Int:
+  Id: 267
+  Display: '&rKrotki miecz'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &710'
+  - '&4- &8Inteligencja: &7+1'
+  - '&4- &8Walka: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c27'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.04
+Krotki_Miecz_Mana:
+  Id: 267
+  Display: '&rKrotki miecz'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &79'
+  - '&4- &8Inteligencja: &7+1'
+  - '&4- &8Mana: &7+7'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c49'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.05
+      Health: 2
+Sierp:
+  Id: 292
+  Display: '&a&oSierp'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &76'
+  - '&4- &8Walka: &7+5'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: -2
+    offhand:
+      Health: -12
+Wrzask_Berserkera_Str:
+  Id: 267
+  Display: '&c&lWrzask berserkera'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &782'
+  - '&4- &8Walka: &7+13'
+  - '&4- &8Sila: &7+12'
+  - '&4- &8Wytrzymalosc: &7-6'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c211'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.04
+      KnockbackResistance: 0.08
+Wyszczerbiony_Topor_Wytrz:
+  Id: 275
+  Display: '&8&oWyszczerbiony topor'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &733'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Sila: &7+5'
+  - '&4- &8Wytrzymalosc: &7+4'
+  - '&4- &8Zrecznosc: &7-3'
+  - '&4- &8Zdolnosci mysliwskie: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c41'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.06
+      KnockbackResistance: 0.04
+      Health: -4
+Zelazna_Maczuga_Str:
+  Id: 267
+  Display: '&7&l&oZelazna Maczuga'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &771'
+  - '&4- &8Sila: &7+12'
+  - '&4- &8Walka: &7+9'
+  - '&4- &8Wytrzymalosc: &7-2'
+  - '&4- &8Zrecznosc: &7-4'
+  - '&4- &8Zdolnosci mysliwskie: &7-4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c146'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.13
+      KnockbackResistance: 0.08
+    offhand:
+      MovementSpeed: -0.11
+      KnockbackResistance: 0.12
+Kostur_Mana:
+  Id: 290
+  Display: '&eKostur'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &721'
+  - '&4- &8Mana: &7+15'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Inteligencja: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c109'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.01
+      KnockbackResistance: 0.01
+      Health: 1
+Laska_Kaplanska_Mana:
+  Id: 290
+  Display: '&5&oLaska kaplanska'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &726'
+  - '&4- &8Mana: &7+18'
+  - '&4- &8Inteligencja: &7+3'
+  - '&4- &8Zdolnosci mysliwskie: &7-2'
+  - '&4- &8Zrecznosc: &7-1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c151'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.03
+      KnockbackResistance: 0.02
+Piesc_Trolla_Str:
+  Id: 258
+  Display: '&2&lPiesc trolla'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7115'
+  - '&4- &8Sila: &7+15'
+  - '&4- &8Zrecznosc: &7-5'
+  - '&4- &8Zdolnosci mysliwskie: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c234'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.14
+      KnockbackResistance: 0.15
+      Health: 10
+Kosciany_Luk_Zd:
+  Id: 261
+  Display: '&7Kosciany luk'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &741'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Zdolnosci mysliwskie: &7+4'
+  - '&4- &8Zrecznosc: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c62'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.03
+      KnockbackResistance: 0.02
+Kosciany_Luk_Zr:
+  Id: 261
+  Display: '&7Kosciany luk'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &733'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Zdolnosci mysliwskie: &7+1'
+  - '&4- &8Zrecznosc: &7+5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c59'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.04
+Krotki_Luk:
+  Id: 261
+  Display: '&r&oKrotki luk'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &77'
+  - '&4- &8Walka: &7+1'
+  Options:
+    Unbreakable: true
+Luk_Kawaleryjski_Zd:
+  Id: 261
+  Display: '&2&oLuk kawaleryjski'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &728'
+  - '&4- &8Zdolnosci mysliwskie: &7+4'
+  - '&4- &8Walka: &7-1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c42'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.04
+Topor_Drwala_Str:
+  Id: 258
+  Display: '&a&lTopor drwala'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &734'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Sila: &7+3'
+  - '&4- &8Zdolnosci mysliwskie: &7-1'
+  - '&4- &8Zrecznosc: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c35'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.04
+      KnockbackResistance: 0.03
+    offhand:
+      Health: 8
+Topor_Drwala_Wytrz:
+  Id: 258
+  Display: '&a&lTopor drwala'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &724'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Sila: &7+1'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Zrecznosc: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c33'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.07
+      KnockbackResistance: 0.05
+    offhand:
+      Health: 10
+Kostur_Czarnoksiestwa:
+  Id: 293
+  Display: '&5&lKostur Czarnoksiestwa'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &729'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Inteligencja: &7+6'
+  - '&4- &8Mana: &7+8'
+  - '&4- &8Zdolnosci mysliwskie: &7-4'
+  - '&4- &8Sila: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c62'
+  - '&4- &8Mana: &c121'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.04
+      KnockbackResistance: 0.01
+    offhand:
+      Health: 10
+Kostur_Z_Ostrzem_Int:
+  Id: 292
+  Display: '&7&lKostur z ostrzem'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &746'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Inteligencja: &7+2'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Zrecznosc: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c179'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.03
+      KnockbackResistance: 0.02
+Kostur_Z_Ostrzem_Mana:
+  Id: 292
+  Display: '&7&lKostur z ostrzem'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &740'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Mana: &7+3'
+  - '&4- &8Wytrzymalosc: &7+3'
+  - '&4- &8Zrecznosc: &7-1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c354'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.04
+      KnockbackResistance: 0.01
+    offhand:
+      KnockbackResistance: 0.03
+Okuty_Kostur_Int:
+  Id: 292
+  Display: '&8Okuty kostur'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &740'
+  - '&4- &8Walka: &7+7'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Wytrzymalosc: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c173'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.05
+      KnockbackResistance: 0.05
+Okuty_Kostur_Mana:
+  Id: 292
+  Display: '&8Okuty kostur'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &736'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Mana: &7+1'
+  - '&4- &8Wytrzymalosc: &7+4'
+  - '&4- &8Sila: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c345'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.06
+      KnockbackResistance: 0.03
+    offhand:
+      KnockbackResistance: 0.07
+Luk_Armijny_Zd:
+  Id: 261
+  Display: '&7&lLuk Armijny'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &765'
+  - '&4- &8Zdolnosci mysliwskie: &7+6'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Zrecznosc: &7+4'
+  - '&4- &8Mana: &7-8'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c173'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.02
+      KnockbackResistance: 0.02
+Luk_Gonca_Lesnego_Zd:
+  Id: 261
+  Display: '&2&lLuk Gonca Lesnego'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &741'
+  - '&4- &8Zdolnosci mysliwskie: &7+5'
+  - '&4- &8Walka: &7+3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c105'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.03
+Luk_Kolczasty_Zd:
+  Id: 261
+  Display: '&8Luk kolczasty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &748'
+  - '&4- &8Zdolnosci mysliwskie: &7+6'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Zrecznosc: &7-2'
+  - '&4- &8Wytrzymalosc: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c89'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.04
+      Health: -11
+    offhand:
+      Health: -24
+Luk_Polowy_Zd:
+  Id: 261
+  Display: '&2Luk polowy'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &736'
+  - '&4- &8Zdolnosci mysliwskie: &7+4'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Zrecznosc: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c71'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.05
+Luk_Polowy_Zr:
+  Id: 261
+  Display: '&2Luk polowy'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &732'
+  - '&4- &8Zdolnosci mysliwskie: &7+1'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Zrecznosc: &7+4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c69'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.08
+Luk_Z_Poroza_Zd:
+  Id: 261
+  Display: '&a&lLuk z poroza'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &781'
+  - '&4- &8Zdolnosci mysliwskie: &7+9'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Zrecznosc: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c181'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.06
+Luk_Z_Poroza_Zr:
+  Id: 261
+  Display: '&a&lLuk z poroza'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &770'
+  - '&4- &8Zdolnosci mysliwskie: &7+3'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Zrecznosc: &7+8'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c180'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.1
+Ciezka_Szata_Ognia1_Int:
+  Id: 299
+  Display: '&4&lCiezka Szata Ognia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &740'
+  - '&4- &8Mana: &7+9'
+  - '&4- &8Inteligencja: &7+16'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Sila: &7-1'
+  - '&4- &8Zrecznosc: &7-2'
+  - '&4- &8Zdolnosci mysliwskie: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c196'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      MovementSpeed: 0.01
+      Health: 15
+      KnockbackResistance: 0.04
+Ciezka_Szata_Ognia2_Int:
+  Id: 300
+  Display: '&4&lCiezka Szata Ognia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &735'
+  - '&4- &8Mana: &7+8'
+  - '&4- &8Inteligencja: &7+13'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Sila: &7+1'
+  - '&4- &8Zdolnosci mysliwskie: &7-6'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c187'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      MovementSpeed: 0.02
+      Health: 12
+      KnockbackResistance: 0.02
+Ciezka_Szata_Ognia3_Int:
+  Id: 301
+  Display: '&4&lCiezka Szata Ognia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &728'
+  - '&4- &8Inteligencja: &7+13'
+  - '&4- &8Mana: &7+7'
+  - '&4- &8Zrecznosc: &7+2'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Sila: &7-2'
+  - '&4- &8Zdolnosci mysliwskie: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c179'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      MovementSpeed: 0.05
+      Health: 8
+      KnockbackResistance: 0.01
+Ciezka_Szata_Wody1_Mana:
+  Id: 299
+  Display: '&b&lCiezka Szata Wody'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &735'
+  - '&4- &8Mana: &7+40'
+  - '&4- &8Inteligencja: &7+5'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Sila: &7-2'
+  - '&4- &8Zrecznosc: &7-3'
+  - '&4- &8Walka: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c384'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      MovementSpeed: 0.03
+      Health: 19
+      KnockbackResistance: 0.02
+Ciezka_Szata_Wody2_Mana:
+  Id: 300
+  Display: '&b&lCiezka Szata Wody'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &731'
+  - '&4- &8Mana: &7+30'
+  - '&4- &8Inteligencja: &7+2'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Sila: &7-3'
+  - '&4- &8Zdolnosci mysliwskie: &7-2'
+  - '&4- &8Zrecznosc: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c369'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      MovementSpeed: 0.05
+      Health: 15
+Ciezka_Szata_Wody3_Mana:
+  Id: 301
+  Display: '&b&lCiezka Szata Wody'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &725'
+  - '&4- &8Inteligencja: &7+2'
+  - '&4- &8Mana: &7+25'
+  - '&4- &8Zrecznosc: &7-2'
+  - '&4- &8Walka: &7-2'
+  - '&4- &8Sila: &7-2'
+  - '&4- &8Zdolnosci mysliwskie: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c350'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      MovementSpeed: 0.07
+      Health: 11
+Ciezka_Szata_Guru1:
+  Id: 299
+  Display: '&2&lCiezka Szata Guru'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &730'
+  - '&4- &8Mana: &7+30'
+  - '&4- &8Inteligencja: &7+36'
+  - '&4- &8Wytrzymalosc: &7+1'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Zrecznosc: &7-3'
+  - '&4- &8Zdolnosci mysliwskie: &7-4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c95'
+  - '&4- &8Mana: &c192'
+  Options:
+    Unbreakable: true
+    Color: 255,0,0
+  Attributes:
+    chest:
+      MovementSpeed: 0.05
+      Health: 20
+      KnockbackResistance: 0.06
+Ciezka_Szata_Guru2:
+  Id: 300
+  Display: '&2&lCiezka Szata Guru'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &727'
+  - '&4- &8Mana: &7+25'
+  - '&4- &8Inteligencja: &7+15'
+  - '&4- &8Sila: &7+1'
+  - '&4- &8Zdolnosci mysliwskie: &7-3'
+  - '&4- &8Zrecznosc: &7-4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c91'
+  - '&4- &8Mana: &c185'
+  Options:
+    Unbreakable: true
+    Color: 0,255,0
+  Attributes:
+    legs:
+      MovementSpeed: 0.07
+      Health: 17
+      KnockbackResistance: 0.05
+Ciezka_Szata_Guru3:
+  Id: 301
+  Display: '&2&lCiezka Szata Guru'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &721'
+  - '&4- &8Inteligencja: &7+17'
+  - '&4- &8Mana: &7+20'
+  - '&4- &8Zrecznosc: &7-2'
+  - '&4- &8Sila: &7-3'
+  - '&4- &8Wytrzymalosc: &7-1'
+  - '&4- &8Zdolnosci mysliwskie: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c87'
+  - '&4- &8Mana: &c180'
+  Options:
+    Unbreakable: true
+    Color: 0,255,0
+  Attributes:
+    feet:
+      MovementSpeed: 0.09
+      Health: 14
+      KnockbackResistance: 0.02
+Kaftan_Gubernatora1:
+  Id: 299
+  Display: '&eKaftan Gubernatora'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &714'
+  - '&4- &8Mana: &7+1'
+  - '&4- &8Inteligencja: &7+1'
+  - '&4- &8Wytrzymalosc: &7+1'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Zrecznosc: &7+1'
+  - '&4- &8Zdolnosci mysliwskie: &7+1'
+  - '&4- &8Sila: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c6'
+  - '&4- &8Mana: &c6'
+  - '&4- &8Sila: &c6'
+  - '&4- &8Zrecznosc: &c6'
+  - '&4- &8Zdolnosci mysliwskie: &c6'
+  - '&4- &8Wytrzymalosc: &c6'
+  - '&4- &8Walka: &c6'
+  Options:
+    Unbreakable: true
+    Color: 255,255,0
+  Attributes:
+    chest:
+      MovementSpeed: 0.04
+      Health: 4
+Kaftan_Gubernatora2:
+  Id: 300
+  Display: '&eKaftan Gubernatora'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &712'
+  - '&4- &8Mana: &7+1'
+  - '&4- &8Inteligencja: &7+1'
+  - '&4- &8Wytrzymalosc: &7+1'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Zrecznosc: &7+1'
+  - '&4- &8Zdolnosci mysliwskie: &7+1'
+  - '&4- &8Sila: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c5'
+  - '&4- &8Mana: &c5'
+  - '&4- &8Sila: &c5'
+  - '&4- &8Zrecznosc: &c5'
+  - '&4- &8Zdolnosci mysliwskie: &c5'
+  - '&4- &8Wytrzymalosc: &c5'
+  - '&4- &8Walka: &c5'
+  Options:
+    Unbreakable: true
+    Color: 255,255,255
+  Attributes:
+    legs:
+      MovementSpeed: 0.06
+      Health: 3
+Kaftan_Gubernatora3:
+  Id: 301
+  Display: '&eKaftan Gubernatora'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &79'
+  - '&4- &8Mana: &7+1'
+  - '&4- &8Inteligencja: &7+1'
+  - '&4- &8Wytrzymalosc: &7+1'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Zrecznosc: &7+1'
+  - '&4- &8Zdolnosci mysliwskie: &7+1'
+  - '&4- &8Sila: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c4'
+  - '&4- &8Mana: &c4'
+  - '&4- &8Sila: &c4'
+  - '&4- &8Zrecznosc: &c4'
+  - '&4- &8Zdolnosci mysliwskie: &c4'
+  - '&4- &8Wytrzymalosc: &c4'
+  - '&4- &8Walka: &c4'
+  Options:
+    Unbreakable: true
+    Color: 255,255,255
+  Attributes:
+    feet:
+      MovementSpeed: 0.08
+Mroczny_Plaszcz1:
+  Id: 298
+  Display: '&8&lMroczny Plaszcz'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &730'
+  - '&4- &8Mana: &7+6'
+  - '&4- &8Inteligencja: &7+6'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Wytrzymalosc: &7+4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c97'
+  - '&4- &8Mana: &c194'
+  Options:
+    Unbreakable: true
+    Color: 0,0,0
+  Attributes:
+    head:
+      MovementSpeed: 0.06
+      Health: 5
+      KnockbackResistance: 0.02
+Mroczny_Plaszcz2:
+  Id: 299
+  Display: '&8&lMroczny Plaszcz'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &744'
+  - '&4- &8Mana: &7+10'
+  - '&4- &8Inteligencja: &7+10'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Walka: &7+3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c102'
+  - '&4- &8Mana: &c206'
+  Options:
+    Unbreakable: true
+    Color: 0,0,0
+  Attributes:
+    chest:
+      MovementSpeed: 0.03
+      Health: 11
+Mroczny_Plaszcz3:
+  Id: 300
+  Display: '&8&lMroczny Plaszcz'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &738'
+  - '&4- &8Mana: &7+8'
+  - '&4- &8Inteligencja: &7+8'
+  - '&4- &8Walka: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c99'
+  - '&4- &8Mana: &c198'
+  Options:
+    Unbreakable: true
+    Color: 0,0,0
+  Attributes:
+    legs:
+      MovementSpeed: 0.04
+      Health: 8
+Mroczny_Plaszcz4:
+  Id: 301
+  Display: '&8&lMroczny Plaszcz'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &730'
+  - '&4- &8Inteligencja: &7+5'
+  - '&4- &8Mana: &7+5'
+  - '&4- &8Wytrzymalosc: &7+1'
+  - '&4- &8Walka: &7+3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c95'
+  - '&4- &8Mana: &c192'
+  Options:
+    Unbreakable: true
+    Color: 0,0,0
+  Attributes:
+    feet:
+      MovementSpeed: 0.08
+      Health: 4

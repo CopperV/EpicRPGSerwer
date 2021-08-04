@@ -1,0 +1,35 @@
+id: "vip_quest_5"                                
+name: "&6&lNiebezpieczne czworonogi"                          
+zleceniodawca: "&6&lReturning"                       
+lore:                                               
+  - "&aWargi to jedne z najniebezpieczniejszych wilkowatych,"
+  - "&ana ktore mysliwy moze zapolowac."
+  - "&aZ tego powodu ich trofea sa niezwykle cenne."
+  - "&aCzesto sa wykorzystywane przez orkow w swoich"
+  - "&adzialaniach wojennych."
+  - "&aBiznes jest prosty - przynosisz mi skory i kly wargow,"
+  - "&aa ja Ciebie za to sowicie wynagradzam."
+  - "&aChetny?"
+prize:                                    
+  - "xp: 1000"
+  - "money: 3000"
+  - "item: Zlota_Moneta 30"
+require:                                            
+  - "level: 33"
+  - "ranga: magnat"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "vip_quest_5_1_1"
+        type: "przynies"
+        targetName: "&cSkora warga"
+        message: "Przynies 20 skor warga: %stan%"
+        ilosc: 20
+      2:
+        id: "vip_quest_5_1_2"
+        type: "przynies"
+        targetName: "&cKiel warga"
+        message: "Przynies 20 klow warga: %stan%"
+        ilosc: 20

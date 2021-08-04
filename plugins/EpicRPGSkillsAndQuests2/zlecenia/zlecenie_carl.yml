@@ -1,0 +1,117 @@
+id: "zlecenie_carl"                                
+name: "&2&lLas pelen niespodzianek"
+zleceniodawca: "&7&lCarl"                       
+lore:                                               
+  - "&aLas w poblizu naszego posterunku"
+  - "&akryje wiele niespodzianek."
+  - "&aPajaki i bandyci z niego naprzykrzaja sie"
+  - "&anam dniem i noca."
+  - "&aNie mozemy przez to normalnie pracowac."
+  - "&aChetnie zaplace za pomoc w rozwiazaniu"
+  - "&atego klopotliwego problemu."
+prize:                                    
+  - "xp: 1100"
+  - "money: 175"
+require:                                            
+  - "level: 17"
+  - "brak przynaleznosci do: &aobywatel"
+etapy: 2
+stopnie:
+  1:
+    targets:
+      1:
+        id: "zlecenie_carl_1_1"
+        type: "zabij"
+        targetName: "&4&lORTEGA - BOSS"
+        message: "Pokonaj przywodce bandytow - Ortege: %stan%"
+        ilosc: 1
+  2:
+    targets:
+      1:
+        id: "zlecenie_carl_2_1"
+        type: "zabij"
+        targetName: "&2&lMaexxna - Krolowa Pajeczakow - BOSS"
+        message: "Pokonaj Maexxne - Krolowa Pajakow: %stan%"
+        ilosc: 1
+  3:
+    targets:
+      1:
+        id: "zlecenie_carl_3_1"
+        type: "zabij"
+        targetName: "&c&lHerszt Bandytow - BOSS"
+        message: "Pokonaj 2 hersztow bandytow: %stan%"
+        ilosc: 2
+  4:
+    targets:
+      1:
+        id: "zlecenie_carl_4_1"
+        type: "zabij"
+        targetName: "&4Bandzior Ortegi"
+        message: "Zabij 25 bandziorow Ortegi: %stan%"
+        ilosc: 25
+  5:
+    targets:
+      1:
+        id: "zlecenie_carl_5_1"
+        type: "zabij"
+        targetName: "&4Bandyta"
+        message: "Zabij 40 bandytow: %stan%"
+        ilosc: 40
+  6:
+    targets:
+      1:
+        id: "zlecenie_carl_6_1"
+        type: "zabij"
+        targetName: "&4Bandzior Ortegi"
+        message: "Zabij 12 bandziorow Ortegi: %stan%"
+        ilosc: 12
+      2:
+        id: "zlecenie_carl_6_2"
+        type: "zabij"
+        targetName: "&4Bandyta"
+        message: "Zabij 28 bandytow: %stan%"
+        ilosc: 28
+  7:
+    targets:
+      1:
+        id: "zlecenie_carl_7_1"
+        type: "zabij"
+        targetName: "&c&lHerszt Bandytow - BOSS"
+        message: "Pokonaj herszta bandytow: %stan%"
+        ilosc: 1
+      2:
+        id: "zlecenie_carl_7_2"
+        type: "zabij"
+        targetName: "&4Bandyta"
+        message: "Zabij 15 bandytow: %stan%"
+        ilosc: 15
+  8:
+    targets:
+      1:
+        id: "zlecenie_carl_8_1"
+        type: "zabij"
+        targetName: "&2Pajak lesny"
+        message: "Zabij 30 pajakow lesnych: %stan%"
+        ilosc: 30
+  9:
+    targets:
+      1:
+        id: "zlecenie_carl_9_1"
+        type: "zabij"
+        targetName: "&cCzarna wdowa"
+        message: "Zabij 18 czarne wdowy: %stan%"
+        ilosc: 18
+  10:
+    targets:
+      1:
+        id: "zlecenie_carl_10_1"
+        type: "zabij"
+        targetName: "&2Pajak lesny"
+        message: "Zabij 18 pajakow lesnych: %stan%"
+        ilosc: 18
+      2:
+        id: "zlecenie_carl_10_2"
+        type: "zabij"
+        targetName: "&cCzarna wdowa"
+        message: "Zabij 12 czarne wdowy: %stan%"
+        ilosc: 12

@@ -1,0 +1,15 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&6&lReturning"
+  - "&7[&e&l$&a&lMARKET&e&l$&7]"
+skinid: 595180235
+location:
+  world: "F_RPG"
+  x: 310.5
+  y: 40
+  z: 391.5
+  yaw: -50
+  pitch: 2
+lookat: true

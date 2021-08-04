@@ -1,0 +1,10 @@
+name: "&aFarim"
+title: "&aFarim - farmer"
+size: 9
+slots:
+  1:
+    item: "1_quest_12"
+  2:
+    item: "przemytnik_quest_9"
+  3:
+    item: "przemytnik_quest_11"

@@ -1,0 +1,517 @@
+KragNiewola6Spawn:
+  Skills:
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=0;points=4;amount=1} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=1;points=6;amount=1} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=2;points=8;amount=1} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=3;points=12;amount=1} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=4;points=16;amount=1} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=5;points=24;amount=1} @self
+  - message{m="&8&oDuch<&co> &cAaaaargh..."} @PlayersInRadius{r=30}
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=6;points=32;amount=1} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=7;points=40;amount=1} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=8;points=52;amount=1} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=9;points=64;amount=1} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=10;points=80;amount=1} @self
+  - delay 20
+  - message{m="&8&oDuch<&co> &cDlaczego mnie tutaj przyzwaliscie?"} @PlayersInRadius{r=30}
+  - delay 30
+  - message{m="&8&oDuch<&co> &cDlaczego zaklocacie moj odpoczynek?"} @PlayersInRadius{r=30}
+  - delay 30
+  - message{m="&c&oAlexstrasza<&co> &aNie bede owijac w bawelne."} @PlayersInRadius{r=30}
+  - delay 20
+  - message{m="&c&oAlexstrasza<&co> &aCzy Ty jestes Gall, skryba Barona Archosa Geddona?"} @PlayersInRadius{r=30}
+  - delay 40
+  - message{m="&8&oDuch<&co> &cTak."} @PlayersInRadius{r=30}
+  - delay 20
+  - message{m="&7&lGall<&co> &cDlaczego zaklocasz moj spokoj strazniku umarlych?"} @PlayersInRadius{r=30}
+  - delay 30
+  - message{m="&c&oAlexstrasza<&co> &aByles skryba Archosa. Jestem pewien, ze mozesz powiedziec nam cos na jego temat."} @PlayersInRadius{r=30}
+  - delay 60
+  - message{m="&7&lGall<&co> &cDlaczego o to pytacie?"} @PlayersInRadius{r=30}
+  - delay 30
+  - message{m="&c&oAlexstrasza<&co> &aBaron Geddon okazal sie byc zdrajca. Z jakiegos powodu doprowadzil do wszelkich kataklizmow na tej wyspie a samemu uciekl."} @PlayersInRadius{r=30}
+  - delay 80
+  - message{m="&c&oAlexstrasza<&co> &aSadzimy, ze bedziesz w stanie nam pomoc rozwiklac pare zagadek."} @PlayersInRadius{r=30}
+  - delay 50
+  - message{m="&c&oAlexstrasza<&co> &aW koncu duzo czasu spedzales w jego otoczeniu."} @PlayersInRadius{r=30}
+  - delay 40
+  - message{m="&7&lGall<&co> &cPRZEKLETY GEDDON!"} @PlayersInRadius{r=30}
+  - delay 30
+  - message{m="&7&lGall<&co> &cTo z jego powodu moje cialo zostalo przeklete."} @PlayersInRadius{r=30}
+  - delay 40
+  - message{m="&7&lGall<&co> &cTo z jego powodu spotkal mnie taki los."} @PlayersInRadius{r=30}
+  - delay 40
+  - message{m="&c&oAlexstrasza<&co> &aDlaczego mowisz tak swobodnie? Wczesniej przywolalismy ducha Matteo, ktory splonal w Twoim domu i nie byl zbyt rozmowny."} @PlayersInRadius{r=30}
+  - delay 90
+  - message{m="&7&lGall<&co> &cJego dusza zostala przekleta, spaczona."} @PlayersInRadius{r=30}
+  - delay 40
+  - message{m="&7&lGall<&co> &cMnie spotkal duzo lepszy los - tylko cialo zostalo przeklete."} @PlayersInRadius{r=30}
+  - delay 60
+  - message{m="&7&lGall<&co> &cCierpialem, lecz zdolaliscie mnie uwolnic."} @PlayersInRadius{r=30}
+  - delay 40
+  - message{m="&c&oAlexstrasza<&co> &aDlaczego zostales przeklety?"} @PlayersInRadius{r=30}
+  - delay 30
+  - message{m="&7&lGall<&co> &cBo probowalem Was uratowac."} @PlayersInRadius{r=30}
+  - delay 30
+  - message{m="&c&oAlexstrasza<&co> &aNie rozumiem..."} @PlayersInRadius{r=30}
+  - delay 20
+  - message{m="&7&lGall<&co> &cChcialem zmienic tresc listu, ktory Baron Geddon kazal mi napisac."} @PlayersInRadius{r=30}
+  - delay 60
+  - message{m="&7&lGall<&co> &cWiedzialem chociazby, ze nie wszystko, o czym on mowi jest prawda."} @PlayersInRadius{r=30}
+  - delay 60
+  - message{m="&7&lGall<&co> &cWiedzialem, ze nie wyslal swoich wojsk na spaczone ziemie, lecz zaangazowal niebianskie sily."} @PlayersInRadius{r=30}
+  - delay 80
+  - message{m="&7&lGall<&co> &cPrzylapal mnie na probie zmiany tresci listu i osobiscie dopilnowal, bym napisal go poprawnie."} @PlayersInRadius{r=30}
+  - delay 80
+  - message{m="&c&oAlexstrasza<&co> &aCzy mozesz nam powiedziec cos jeszcze na temat Archosa?"} @PlayersInRadius{r=30}
+  - delay 60
+  - message{m="&c&oAlexstrasza<&co> &aCos, co moze nas zainteresowac?"} @PlayersInRadius{r=30}
+  - delay 40
+  - message{m="&7&lGall<&co> &cOczywiscie."} @PlayersInRadius{r=30}
+  - delay 20
+  - message{m="&7&lGall<&co> &cPrawie zawsze mial u swojego boku jakas elfke."} @PlayersInRadius{r=30}
+  - delay 40
+  - message{m="&7&lGall<&co> &cNie byla jednak podobna do innych elfow."} @PlayersInRadius{r=30}
+  - delay 40
+  - message{m="&7&lGall<&co> &cSmierc zagladala jej z oczu."} @PlayersInRadius{r=30}
+  - delay 30
+  - message{m="&7&lGall<&co> &cKiedy Geddon polecil mi napisac moj ostatni list w zyciu, ona rowniez tam byla."} @PlayersInRadius{r=30}
+  - delay 60
+  - message{m="&7&lGall<&co> &cGdy odchodzilem, ona podeszla do niego i powiedziala cos w stylu 'W koncu to sie dokona'."} @PlayersInRadius{r=30}
+  - delay 80
+  - message{m="&7&lGall<&co> &cOn wowczas wstal i powiedzial do niej, ze wie i ze jest pewien, ze krol wysle tutaj posilki prosto na zaglade."} @PlayersInRadius{r=30}
+  - delay 90
+  - message{m="&c&oAlexstrasza<&co> &aCzy wiesz jak sie ta elfka nazywala?"} @PlayersInRadius{r=30}
+  - delay 40
+  - message{m="&7&lGall<&co> &cZwracal sie do niej..."} @PlayersInRadius{r=30}
+  - delay 40
+  - message{m="&7&lGall<&co> &cSylvanas..."} @PlayersInRadius{r=30}
+  - delay 20
+  - message{m="&8&oDuch<&co> &cAaaaargh..."} @PlayersInRadius{r=30}
+  - delay 5
+  - message{m="&c&oAlexstrasza<&co> &aAAAAA..."} @PlayersInRadius{r=30}
+  - delay 10
+  - effect:particlesphere{particle=hugeexplosion;amount=20;radius=1;y=0.1} @self
+  - summon{type=Niewola7;amount=1} @Location{c=15.5,33,-85.5}
+  - suicide 1
+KragNiewola4Spawn1:
+  Cooldown: 1
+  Conditions:
+  - mobsInRadius{types=Niewola5,Niewola6,Niewola7;amount=1;radius=20} false
+  Skills:
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=0;points=4;amount=1} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=1;points=6;amount=1} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=2;points=8;amount=1} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=3;points=12;amount=1} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=4;points=16;amount=1} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=5;points=24;amount=1} @self
+  - message{m="&8&oDuch<&co> &cAaaaargh..."} @PlayersInRadius{r=30}
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=6;points=32;amount=1} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=7;points=40;amount=1} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=8;points=52;amount=1} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=9;points=64;amount=1} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=10;points=80;amount=1} @self
+  - delay 20
+  - message{m="&8&oDuch<&co> &cDlaczego..."} @PlayersInRadius{r=30}
+  - delay 40
+  - message{m="&8&oDuch<&co> &cDlaczego..."} @PlayersInRadius{r=30}
+  - delay 40
+  - message{m="&8&oDuch<&co> &cobudziliscie..."} @PlayersInRadius{r=30}
+  - delay 40
+  - message{m="&c&oAlexstrasza<&co> &aJestes nam potrzebny w paru sprawach"} @PlayersInRadius{r=30}
+  - delay 60
+  - message{m="&c&oAlexstrasza<&co> &aOdpowiedz nam na nasze pytania, a puscimy Ciebie wolno"} @PlayersInRadius{r=30}
+  - delay 70
+  - message{m="&8&oDuch<&co> &cAaaaargh..."} @PlayersInRadius{r=30}
+  - delay 40
+  - message{m="&8&oDuch<&co> &cZadawaj pytania..."} @PlayersInRadius{r=30}
+  - delay 60
+  - message{m="&c&oAlexstrasza<&co> &aPowiedz nam Gall, co wiesz na temat Geddona!"} @PlayersInRadius{r=30}
+  - delay 50
+  - message{m="&8&oDuch<&co> &cJaki... Gall..."} @PlayersInRadius{r=30}
+  - delay 60
+  - message{m="&c&oAlexstrasza<&co> &aNie rozumiem... Czy Ty jestes Gall, skryba Barona Archosa Geddona?"} @PlayersInRadius{r=30}
+  - delay 80
+  - message{m="&8&oDuch<&co> &cNIEEE..."} @PlayersInRadius{r=30}
+  - delay 40
+  - message{m="&c&oAlexstrasza<&co> &aTo w takim razie kim jestes?"} @PlayersInRadius{r=30}
+  - delay 40
+  - message{m="&8&oDuch<&co> &cMatteo..."} @PlayersInRadius{r=30}
+  - delay 50
+  - message{m="&c&oAlexstrasza<&co> &aCo robiles w domu skryby Galla?"} @PlayersInRadius{r=30}
+  - delay 40
+  - message{m="&7&lMatteo<&co> &cWszystko... Zaplanowal..."} @PlayersInRadius{r=30}
+  - delay 60
+  - message{m="&c&oAlexstrasza<&co> &aKto wszystko zaplanowal? Co zaplanowal?"} @PlayersInRadius{r=30}
+  - delay 50
+  - message{m="&7&lMatteo<&co> &cBAAAARON..."} @PlayersInRadius{r=30}
+  - delay 30
+  - message{m="&7&lMatteo<&co> &cWiedzialem... Duzo..."} @PlayersInRadius{r=30}
+  - delay 60
+  - message{m="&7&lMatteo<&co> &cZaciagnal... Do domu..."} @PlayersInRadius{r=30}
+  - delay 60
+  - message{m="&7&lMatteo<&co> &cPrzywiazal... Podpalil..."} @PlayersInRadius{r=30}
+  - delay 80
+  - message{m="&c&oAlexstrasza<&co> &aCo wiesz na temat Archosa Geddona?"} @PlayersInRadius{r=30}
+  - delay 40
+  - message{m="&7&lMatteo<&co> &cNIEEE..."} @PlayersInRadius{r=30}
+  - delay 40
+  - message{m="&7&lMatteo<&co> &cWspomnienia... Trace..."} @PlayersInRadius{r=30}
+  - delay 60
+  - message{m="&7&lMatteo<&co> &cRzucila... Klatwe..."} @PlayersInRadius{r=30}
+  - delay 50
+  - message{m="&c&oAlexstrasza<&co> &aKto rzucil na Ciebie klatwe?"} @PlayersInRadius{r=30}
+  - delay 40
+  - message{m="&7&lMatteo<&co> &cBAN... SHEEEEE..."} @PlayersInRadius{r=30}
+  - delay 10
+  - message{m="&c&oAlexstrasza<&co> &aAAAAA..."} @PlayersInRadius{r=30}
+  - delay 10
+  - effect:particlesphere{particle=hugeexplosion;amount=20;radius=1;y=0.1} @self
+  - summon{type=Niewola5;amount=1} @Location{c=15.5,33,-85.5}
+  - suicide 1
+KragNiewola4Spawn2:
+  Conditions:
+  - mobsInRadius{types=Niewola5,Niewola6,Niewola7;amount=1;radius=20} true
+  Skills:
+  - suicide 1
+KragNiewola5Spawn:
+  Skills:
+  - delay 20
+  - message{m="&c&oAlexstrasza<&co> &aPowstrzymaj go!"} @PlayersInRadius{r=30}
+  - delay 30
+  - message{m="&c&oAlexstrasza<&co> &aW tym czasie ja zregeneruje sily!"} @PlayersInRadius{r=30}
+NiewolaDeath:
+  Skills:
+  - message{m="<mob.name><&co> &7Dziekuje Ci..."} @PlayersInRadius{r=30}
+NiewolaSay1:
+  Skills:
+  - message{m="<mob.name><&co> &7Uwolnij nas..."} @PlayersInRadius{r=30}
+NiewolaSay2:
+  Skills:
+  - message{m="<mob.name><&co> &7Dlaczego nas to spotkalo?..."} @PlayersInRadius{r=30}
+NiewolaSay3:
+  Skills:
+  - message{m="<mob.name><&co> &7Wieczna niewola..."} @PlayersInRadius{r=30}
+KolosAttack1:
+  Skills:
+  - effect:flames @self
+  - sound{s=entity.ghast.shoot} @PIR{r=7}
+  - pull{v=8;to=true} @PIR{r=7}
+KolosAttack2:
+  Skills:
+  - throw{velocity=6;velocityY=11} @trigger
+  - ignite{ticks=200} @trigger
+  - sound{s=entity.irongolem.attack;v=10;p=1} @self
+NiewolaAttack1:
+  Skills:
+  - delay 5
+  - leap{velocity=150} @target
+  - delay 5
+  - leap{velocity=150} @target
+NiewolaAttack2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=80}
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - sound{s=entity.wither.shoot;v=1} @self
+  - effect:particlering{particle=explode;radius=1;points=6;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=explode;radius=1;points=6;amount=1;hS=0;vS=0;y=0.3} @self
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=explode;radius=1;points=6;amount=1;hS=0;vS=0;y=0.6} @self
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=explode;radius=1;points=6;amount=1;hS=0;vS=0;y=0.9} @self
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=explode;radius=1;points=6;amount=1;hS=0;vS=0;y=1.3} @self
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=explode;radius=1;points=6;amount=1;hS=0;vS=0;y=1.6} @self
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=explode;radius=1;points=6;amount=1;hS=0;vS=0;y=2} @self
+  - delay 10
+  - sound{s=entity.generic.explode;v=1} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=6;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 3
+  - sound{s=entity.generic.explode;v=1} @self
+  - effect:particlering{particle=largeexplode;radius=2;points=10;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 3
+  - sound{s=entity.generic.explode;v=1} @self
+  - effect:particlering{particle=largeexplode;radius=3;points=14;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 3
+  - sound{s=entity.generic.explode;v=1} @self
+  - effect:particlering{particle=largeexplode;radius=4;points=20;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 3
+  - sound{s=entity.generic.explode;v=1} @self
+  - effect:particlering{particle=largeexplode;radius=5;points=26;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 3
+  - sound{s=entity.generic.explode;v=1} @self
+  - effect:particlering{particle=largeexplode;radius=6;points=32;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 3
+  - sound{s=entity.generic.explode;v=1} @self
+  - effect:particlering{particle=largeexplode;radius=7;points=40;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 3
+  - sound{s=entity.generic.explode;v=1} @self
+  - effect:particlering{particle=largeexplode;radius=8;points=50;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 3
+  - sound{s=entity.generic.explode;v=1} @self
+  - effect:particlering{particle=largeexplode;radius=9;points=60;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 3
+  - sound{s=entity.generic.explode;v=1} @self
+  - effect:particlering{particle=largeexplode;radius=10;points=72;amount=1;hS=0;vS=0;y=0.1} @self
+  - damage{a=90} @PIR{r=10}
+NiewolaAttack2_Dung:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=80}
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - sound{s=entity.wither.shoot;v=1} @self
+  - effect:particlering{particle=explode;radius=1;points=6;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=explode;radius=1;points=6;amount=1;hS=0;vS=0;y=0.3} @self
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=explode;radius=1;points=6;amount=1;hS=0;vS=0;y=0.6} @self
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=explode;radius=1;points=6;amount=1;hS=0;vS=0;y=0.9} @self
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=explode;radius=1;points=6;amount=1;hS=0;vS=0;y=1.3} @self
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=explode;radius=1;points=6;amount=1;hS=0;vS=0;y=1.6} @self
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=explode;radius=1;points=6;amount=1;hS=0;vS=0;y=2} @self
+  - delay 10
+  - sound{s=entity.generic.explode;v=1} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=6;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 3
+  - sound{s=entity.generic.explode;v=1} @self
+  - effect:particlering{particle=largeexplode;radius=2;points=10;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 3
+  - sound{s=entity.generic.explode;v=1} @self
+  - effect:particlering{particle=largeexplode;radius=3;points=14;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 3
+  - sound{s=entity.generic.explode;v=1} @self
+  - effect:particlering{particle=largeexplode;radius=4;points=20;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 3
+  - sound{s=entity.generic.explode;v=1} @self
+  - effect:particlering{particle=largeexplode;radius=5;points=26;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 3
+  - sound{s=entity.generic.explode;v=1} @self
+  - effect:particlering{particle=largeexplode;radius=6;points=32;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 3
+  - sound{s=entity.generic.explode;v=1} @self
+  - effect:particlering{particle=largeexplode;radius=7;points=40;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 3
+  - sound{s=entity.generic.explode;v=1} @self
+  - effect:particlering{particle=largeexplode;radius=8;points=50;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 3
+  - sound{s=entity.generic.explode;v=1} @self
+  - effect:particlering{particle=largeexplode;radius=9;points=60;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 3
+  - sound{s=entity.generic.explode;v=1} @self
+  - effect:particlering{particle=largeexplode;radius=10;points=72;amount=1;hS=0;vS=0;y=0.1} @self
+  - damage{a=80} @PIR{r=10}
+NiewolaAttack3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=90}
+  - sound{s=entity.ghast.shoot;v=10} @self
+  - projectile{onTick=Niewola-Tick;onEnd=Niewola-End;v=12;i=1;hR=1;vR=1;mr=300;sB=true} @NearestPlayer{r=50}
+Niewola-Tick:
+  Skills:
+  - sound{s=block.fire.extinguish;v=1} @origin
+  - effect:particlesphere{particle=largeexplode;amount=1;radius=1} @origin
+Niewola-End:
+  Skills:
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=0;points=4;amount=1} @origin
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=1;points=6;amount=1} @origin
+  - damage{amount=130} @PlayersNearOrigin{r=1}
+  - ignite{ticks=200} @PlayersNearOrigin{r=1}
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=2;points=8;amount=1} @origin
+  - damage{amount=115} @PlayersNearOrigin{r=2}
+  - ignite{ticks=150} @PlayersNearOrigin{r=2}
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=3;points=12;amount=1} @origin
+  - damage{amount=100} @PlayersNearOrigin{r=3}
+  - ignite{ticks=100} @PlayersNearOrigin{r=3}
+NiewolaAttack3_Dung:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=90}
+  - sound{s=entity.ghast.shoot;v=10} @self
+  - projectile{onTick=Niewola-Tick;onEnd=Niewola-End_Dung;v=12;i=1;hR=1;vR=1;mr=300;sB=true} @NearestPlayer{r=50}
+Niewola-End_Dung:
+  Skills:
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=0;points=4;amount=1} @origin
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=1;points=6;amount=1} @origin
+  - damage{amount=130} @PlayersNearOrigin{r=1}
+  - ignite{ticks=200} @PlayersNearOrigin{r=1}
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=2;points=8;amount=1} @origin
+  - damage{amount=115} @PlayersNearOrigin{r=2}
+  - ignite{ticks=150} @PlayersNearOrigin{r=2}
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=3;points=12;amount=1} @origin
+  - damage{amount=91} @PlayersNearOrigin{r=3}
+  - ignite{ticks=100} @PlayersNearOrigin{r=3}
+NiewolaAttack2_Dung_H:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=80}
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - sound{s=entity.wither.shoot;v=1} @self
+  - effect:particlering{particle=explode;radius=1;points=6;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 1
+  - leap{v=0} @target
+  - effect:particlering{particle=explode;radius=1;points=6;amount=1;hS=0;vS=0;y=0.3} @self
+  - delay 1
+  - leap{v=0} @target
+  - effect:particlering{particle=explode;radius=1;points=6;amount=1;hS=0;vS=0;y=0.6} @self
+  - delay 1
+  - leap{v=0} @target
+  - effect:particlering{particle=explode;radius=1;points=6;amount=1;hS=0;vS=0;y=0.9} @self
+  - delay 1
+  - leap{v=0} @target
+  - effect:particlering{particle=explode;radius=1;points=6;amount=1;hS=0;vS=0;y=1.3} @self
+  - delay 1
+  - leap{v=0} @target
+  - effect:particlering{particle=explode;radius=1;points=6;amount=1;hS=0;vS=0;y=1.6} @self
+  - delay 1
+  - leap{v=0} @target
+  - effect:particlering{particle=explode;radius=1;points=6;amount=1;hS=0;vS=0;y=2} @self
+  - delay 10
+  - sound{s=entity.generic.explode;v=1} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=6;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 1
+  - sound{s=entity.generic.explode;v=1} @self
+  - effect:particlering{particle=largeexplode;radius=2;points=10;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 1
+  - sound{s=entity.generic.explode;v=1} @self
+  - effect:particlering{particle=largeexplode;radius=3;points=14;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 1
+  - sound{s=entity.generic.explode;v=1} @self
+  - effect:particlering{particle=largeexplode;radius=4;points=20;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 1
+  - sound{s=entity.generic.explode;v=1} @self
+  - effect:particlering{particle=largeexplode;radius=5;points=26;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 1
+  - sound{s=entity.generic.explode;v=1} @self
+  - effect:particlering{particle=largeexplode;radius=6;points=32;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 1
+  - sound{s=entity.generic.explode;v=1} @self
+  - effect:particlering{particle=largeexplode;radius=7;points=40;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 1
+  - sound{s=entity.generic.explode;v=1} @self
+  - effect:particlering{particle=largeexplode;radius=8;points=50;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 1
+  - sound{s=entity.generic.explode;v=1} @self
+  - effect:particlering{particle=largeexplode;radius=9;points=60;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 1
+  - sound{s=entity.generic.explode;v=1} @self
+  - effect:particlering{particle=largeexplode;radius=10;points=70;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 1
+  - sound{s=entity.generic.explode;v=1} @self
+  - effect:particlering{particle=largeexplode;radius=11;points=72;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 1
+  - sound{s=entity.generic.explode;v=1} @self
+  - effect:particlering{particle=largeexplode;radius=12;points=80;amount=1;hS=0;vS=0;y=0.1} @self
+  - damage{a=165} @PIR{r=12}
+NiewolaAttack3_Dung_H:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=90}
+  - sound{s=entity.ghast.shoot;v=10} @self
+  - projectile{onTick=Niewola-Tick;onEnd=Niewola-End_Dung_H;v=12;i=1;hR=1;vR=1;mr=300;sB=true} @NearestPlayer{r=50}
+Niewola-End_Dung_H:
+  Skills:
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=0;points=4;amount=1} @origin
+  - delay 1
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=1;points=6;amount=1} @origin
+  - damage{amount=180} @PlayersNearOrigin{r=1}
+  - ignite{ticks=200} @PlayersNearOrigin{r=1}
+  - delay 1
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=2;points=8;amount=1} @origin
+  - damage{amount=155} @PlayersNearOrigin{r=2}
+  - ignite{ticks=150} @PlayersNearOrigin{r=2}
+  - delay 1
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=3;points=12;amount=1} @origin
+  - damage{amount=140} @PlayersNearOrigin{r=3}
+  - ignite{ticks=100} @PlayersNearOrigin{r=3}

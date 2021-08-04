@@ -1,0 +1,32 @@
+id: "vip_quest_2"                                
+name: "&6&lWilczy zabojca"                          
+zleceniodawca: "&6&lReturning"                       
+lore:                                               
+  - "&aWilki generalnie sa latwymi przeciwnikami"
+  - "&ai raczej mala grupka dla nikogo nie stanowi problemu."
+  - "&aJest jednak pewien problem."
+  - "&aChodzi o to, ze jakis czas temu, nad brzegiem rzeki"
+  - "&apojawil sie jakis stwor."
+  - "&aNigdy nie widzialem takiej masakry..."
+  - "&aNie dosc, ze wybil okoliczne wilki,"
+  - "&ato zmasakrowal je tak, ze nie bylo ani jednej czesci stalej."
+  - "&aSluchaj, jezeli wiesc o tym potworze sie rozejdzie,"
+  - "&ato jestesmy skonczeni..."
+  - "&aDroga ta juz nikt nie bedzie chcial przejezdzac..."
+prize:                                    
+  - "xp: 400"
+  - "money: 1500"
+  - "item: Zlota_Moneta 10"
+require:                                            
+  - "level: 10"
+  - "ranga: magnat"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "vip_quest_2_1_1"
+        type: "zabij"
+        targetName: "&4Mroczny Kyrian"
+        message: "Zabij wilczego zabojce znad brzegu rzeki (Mroczny Kyrian): %stan%"
+        ilosc: 1

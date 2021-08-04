@@ -1,0 +1,136 @@
+id: "fabula_quest_20"
+name: "&3&lPrzybycie orkow"                          
+zleceniodawca: "&8Xardas"
+lore:
+  - "&aUdalo mi sie czegos dowiedziec z tego"
+  - "&aco mi ostatnio przyniosles."
+  - "&aOkazuje sie, ze orkowie pochodza z krain,"
+  - "&aktore zwie sie Kalimdor."
+  - "&aIch stolica znajduje sie w Orgrimmarze."
+  - "&aUdalo mi sie tez ustalic wstepna lokalizacje"
+  - "&atego kontynentu i tutaj pojawia sie kolejne pytanie."
+  - "&aKalimdor znajduje sie zbyt dalego od Archolosa,"
+  - "&aby orkowie mogli przyplynac tutaj calkowicie niezauwazenie."
+  - "&aMusieli utworzyc ogromny portal w celu przeniesienia"
+  - "&atak ogromnej floty."
+  - "&aPojawia sie jednak problem."
+  - "&aTak ogromny portal na tak duza odleglosc mogl utworzyc"
+  - "&atylko bardzo potezny mag albo..."
+  - "&aMogly tego dokonac dwie osoby po kazdej ze stron."
+  - "&aMozliwe, ze szamani beda znac odpowiedz na to pytanie..."
+prize:                                    
+  - "xp: 75000"
+  - "money: 5000"
+  - "cmd: crazycrates give physical Epicka 1 %player%"
+require:                                            
+  - "quest: fabula_quest_19"
+  - "level: 40"
+stopnie:
+  1:
+    talking: false
+    message: "&r%player%&7: &bNiczego ciekawego sie nie dowiedzialem... Trzeba o tym pomowic z Xardasem."
+    targets:
+      1:
+        id: "fabula_quest_20_1_1"
+        type: "zabij"
+        targetName: "&a&lOrkowy Szaman"
+        message: "Zabij 35 orkowych szamanow: %stan%"
+        ilosc: 35
+  2:
+    talking: false
+    targets:
+      1:
+        id: "fabula_quest_20_2_1"
+        type: "zagadaj"
+        targetName: "&8Xardas"
+        message: "Porozmawiaj z &8Xardasem: %stan%"
+        dialog:
+          - "&r%player%&7: &bNiestety, orkowi szamani nie okazali sie zbyt chetni do rozmowy."
+          - "&r%player%&7: &bNie wiem, czy uda mi sie cos tutaj podzialac."
+          - "&8Xardas&7: &aNie musisz sie juz tym przejmowac."
+          - "&8Xardas&7: &aDowiedzialem sie przed chwila dosyc bardzo ciekawego."
+          - "&r%player%&7: &bZamieniam sie w sluch"
+          - "&8Xardas&7: &aOtoz szturm na kopalnie assasynow prowadzi pewien ork, ktory moze sie okazac dla nas wazny."
+          - "&8Xardas&7: &aJest nim niejaki Grok - najwyzszy z szamanow."
+          - "&8Xardas&7: &aMusi on wiedziec cos na nurtujace nas pytania."
+          - "&8Xardas&7: &aIdz i wydus to z niego."
+  3:
+    talking: false
+    message: "&r%player%&7: &bTroszke sie zaroilo od gorskich orkow... No nic, trzeba bedzie sie najpierw nimi zajac"
+    targets:
+      1:
+        id: "fabula_quest_20_3_1"
+        type: "znajdz"
+        targetName: "dungeon_mine"
+        message: "Udaj sie do kopalni assasynow: %stan%"
+  4:
+    talking: false
+    message: "&r%player%&7: &bNo dobra Groku... Gdzie ty jestes..."
+    targets:
+      1:
+        id: "fabula_quest_20_4_1"
+        type: "zabij"
+        targetName: "&2&lGorski ork"
+        message: "Pokonaj 30 gorskich orkow: %stan%"
+        ilosc: 30
+      2:
+        id: "fabula_quest_20_4_2"
+        type: "zabij"
+        targetName: "&a&lGorski Szaman"
+        message: "Pokonaj 20 gorskich szamanow: %stan%"
+        ilosc: 20
+  5:
+    talking: false
+    message: "&r%player%&7: &bHmm.... A wiec jakas banshee oraz Baron otworzyli portal. Bedzie trzeba poinformowac o tym &8Xardasa&b."
+    targets:
+      1:
+        id: "fabula_quest_20_5_1"
+        type: "zabij"
+        targetName: "&a&lGrok - najwyzszy szaman - BOSS"
+        message: "Pokonaj najwyzszego szamana - Groka oraz wydus z niego potrzebne informacje: %stan%"
+        ilosc: 1
+  6:
+    talking: false
+    targets:
+      1:
+        id: "fabula_quest_20_6_1"
+        type: "zagadaj"
+        targetName: "&8Xardas"
+        message: "Porozmawiaj o odkryciu z &8Xardasem: %stan%"
+        dialog:
+          - "&r%player%&7: &bMiales sluszne podejrzenia - to dwie osoby otworzyly portal dla orkow."
+          - "&r%player%&7: &bGrok wspomnial o jakiejs banshee oraz..."
+          - "&r%player%&7: &bo Baronie."
+          - "&8Xardas&7: &aCzy cos jeszcze powiedzial?"
+          - "&r%player%&7: &bNic wiecej."
+          - "&r%player%&7: &bCytujac jego: Banshee i Baron zaplaca nam za wszystko..."
+          - "&8Xardas&7: &aHmm..."
+          - "&8Xardas&7: &aTeraz zaczyna sie ukladac w logiczna calosc."
+          - "&8Xardas&7: &aArchos Geddon zniknal w nieznanych nam okolicznosciach."
+          - "&8Xardas&7: &aJego wojsko zreszta tez."
+          - "&8Xardas&7: &aPodejrzewam teraz, ze jest duze prawdopodobienstwo, ze mogl nas zdradzic..."
+          - "&r%player%&7: &bI co teraz?"
+          - "&8Xardas&7: &aMusisz czym predzej poinformowac &c&lAlexstrasze&a."
+          - "&8Xardas&7: &aDodatkowo musisz wiedziec, ze moj niepokoj wzbudza ta banshee."
+          - "&8Xardas&7: &aZnam je tylko z legend, nigdy nie widzialem ich na swoje oczy."
+          - "&8Xardas&7: &aBedziemy musieli sie dowiedziec czegos wiecej na temat tej tajemniczej postaci..."
+  7:
+    talking: false
+    targets:
+      1:
+        id: "fabula_quest_20_7_1"
+        type: "zagadaj"
+        targetName: "&c&lAlexstrasza"
+        message: "Porozmawiaj o odkryciu z &c&lAlexstrasza: %stan%"
+        dialog:
+          - "&c&lAlexstrasza&7: &aI jak &r%player%&a? Rozwiklales zagadke tych zbiegow okolicznosci?"
+          - "&r%player%&7: &bNiestety tak."
+          - "&r%player%&7: &bWyglada rowniez na to, ze znikniecie Geddona oraz jego wojsk nie bylo przypadkowe."
+          - "&r%player%&7: &bNajwyzszy szaman orkow - Grok wyjawil, ze to Baron jest odpowiedzialny za sprowadzenie ich tutaj."
+          - "&r%player%&7: &bMalo tego, wyglada na to, ze wspolpracowal on z jakas banshee."
+          - "&c&lAlexstrasza&7: &aBANSHEE!?"
+          - "&c&lAlexstrasza&7: &aPrzeciez nikt ich nie widzial od dziesiatek, a moze nawet i od setek lat!"
+          - "&c&lAlexstrasza&7: &a..."
+          - "&c&lAlexstrasza&7: &aTeraz przynajmniej zaczynaja pewne elementy do siebie pasowac."
+          - "&c&lAlexstrasza&7: &aZnowu wykonales kawal dobrej roboty."
+          - "&c&lAlexstrasza&7: &aZasluzyles calkowicie na ta nagrode."

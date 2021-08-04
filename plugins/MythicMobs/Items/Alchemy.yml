@@ -1,0 +1,232 @@
+Menzurka:
+  Id: 374
+  Display: "&rMenzurka"
+  Options:
+    Unbreakable: true
+Wywar_alchemiczny:
+  Id: 373
+  Display: "&bWywar alchemiczny"
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:1
+Mocny_wywar_alchemiczny:
+  Id: 373
+  Display: "&1Mocny wywar alchemiczny"
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:2
+DominikMleko:
+  Id: 373
+  Display: "&7&lMleczna Mikstura"
+  Options:
+    Unbreakable: true
+    Color: BLUE
+  PotionEffects:
+  - NIGHT_VISION 24000 1
+Wywar_Krolewski:
+  Id: 373
+  Display: "&6Wywar krolewski"
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:5
+Ziele_lecznicze:
+  Id: 175
+  Data: 4
+  Display: "&cZiele lecznicze"
+Ziolo_many:
+  Id: 175
+  Data: 1
+  Display: "&5Ziolo many"
+Zebate_ziele:
+  Id: 175
+  Data: 3
+  Display: "&r&lZebate ziele"
+Rdest_polny:
+  Id: 37
+  Display: "&aRdest polny"
+Bagienne_Ziele:
+  Id: 31
+  Data: 2
+  Display: "&3Bagienne ziele"
+Ognisty_korzen:
+  Id: 38
+  Data: 1
+  Display: "&dOgnisty korzen"
+Ognista_jagoda:
+  Id: 38
+  Data: 2
+  Display: "&dOgnista jagoda"
+Ziele_pancerza:
+  Id: 38
+  Data: 3
+  Display: "&2Ziele pancerza"
+Goblinska_jagoda:
+  Id: 38
+  Data: 0
+  Display: "&aGoblinska jagoda"
+Goblinie_ziele:
+  Id: 38
+  Data: 4
+  Display: "&aGoblinie ziele"
+Szczaw_Krolewski:
+  Id: 175
+  Data: 2
+  Display: '&6&lSzczaw Krolewski'
+Dragrot:
+  Id: 32
+  Display: '&4Dragrot'
+Wywar_Sila_I:
+  Id: 373
+  Display: "&4Wywar Sila I"
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:1
+  - DURABILITY:1
+Wywar_Sila_II:
+  Id: 373
+  Display: "&4Wywar Sila II"
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:2
+  - DURABILITY:2
+Wywar_Zdolnosci_I:
+  Id: 373
+  Display: "&aWywar Zdolnosci-mysliwskie I"
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:1
+  - DURABILITY:1
+Wywar_Zdolnosci_II:
+  Id: 373
+  Display: "&aWywar Zdolnosci-mysliwskie II"
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:2
+  - DURABILITY:2
+Wywar_Zrecznosc_I:
+  Id: 373
+  Display: "&2Wywar Zrecznosc I"
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:1
+  - DURABILITY:1
+Wywar_Zrecznosc_II:
+  Id: 373
+  Display: "&2Wywar Zrecznosc II"
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:2
+  - DURABILITY:2
+Wywar_Inteligencja_I:
+  Id: 373
+  Display: "&5Wywar Inteligencja I"
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:1
+  - DURABILITY:1
+Wywar_Inteligencja_II:
+  Id: 373
+  Display: "&5Wywar Inteligencja II"
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:2
+  - DURABILITY:2
+Wywar_Wytrzymalosc_I:
+  Id: 373
+  Display: "&bWywar Wytrzymalosc I"
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:1
+  - DURABILITY:1
+Wywar_Wytrzymalosc_II:
+  Id: 373
+  Display: "&bWywar Wytrzymalosc II"
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:2
+  - DURABILITY:2
+Wywar_Mana_I:
+  Id: 373
+  Display: "&bWywar Mana I"
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:1
+  - DURABILITY:1
+Wywar_Mana_II:
+  Id: 373
+  Display: "&bWywar Mana II"
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:2
+  - DURABILITY:2
+Mikstura_Duszy:
+  Id: 373
+  Display: "&1Mikstura duszy"
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:5
+  - DURABILITY:5
+Mikstura_Sily:
+  Id: 373
+  Display: "&4Mikstura sily"
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:5
+  - DURABILITY:5
+Mikstura_Zrecznosci:
+  Id: 373
+  Display: "&aMikstura zrecznosci"
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:5
+  - DURABILITY:5
+Mikstura_Umyslu:
+  Id: 373
+  Display: "&bMikstura umyslu"
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:5
+  - DURABILITY:5
+Mikstura_Mysliwska:
+  Id: 373
+  Display: "&2Mikstura mysliwska"
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:5
+  - DURABILITY:5
+Mikstura_Wytrzymalosci:
+  Id: 373
+  Display: "&cMikstura wytrzymalosci"
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:5
+  - DURABILITY:5
+Mikstura_Walki:
+  Id: 373
+  Display: "&6Mikstura walki"
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - PROTECTION_ENVIRONMENTAL:5
+  - DURABILITY:5

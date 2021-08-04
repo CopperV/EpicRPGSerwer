@@ -1,0 +1,45 @@
+id: "przemytnik_quest_1"                                
+name: "&8Ciezkie zycie wyrzutkow"                          
+zleceniodawca: "&7&lSaro"                       
+lore:                                               
+  - "&aWitaj,"
+  - "&aSzczerze mowiac, to Ciebie nie kojarze,"
+  - "&apewnie przybyles dosyc niedawno."
+  - "&aZapewne ty tez nas nie znasz."
+  - "&aNazywaja nas przemytnikami, aczkolwiek my"
+  - "&auwazamy, ze to jest dosyc obrazliwa dla nas nazwa."
+  - "&aZyjemy glownie z handlu oraz z zapewnienia"
+  - "&akupcom bezpiecznego transportu towarow"
+  - "&aza odrobine zlota."
+  - "&aCzasem sami potrzebujemy pomocy."
+  - "&aTeraz tez chcialbym Ciebie o cos prosic."
+  - "&aOstatniego czasu jest dosyc krucho u nas z prowiantem."
+  - "&aWspomoz nam, a nie zapomnimy Ci tego."
+prize:                                    
+  - "xp: 190"
+  - "money: 50"
+require:                                            
+  - "level: 7"
+stopnie:
+  1:
+    talking: true
+    message: "&7&lSaro&7: &aWielkie dzieki, bohaterze. Przyjmij te pare sztuk zlota."
+    targets:
+      1:
+        id: "przemytnik_quest_1_1_1"
+        type: "przynies"
+        targetName: "&rStrzala"
+        message: "Przynies 32 strzaly: %stan%"
+        ilosc: 32
+      2:
+        id: "przemytnik_quest_1_1_2"
+        type: "przynies"
+        targetName: "&rSurowa baranina"
+        message: "Przynies 15 sztuk surowej baraniny: %stan%"
+        ilosc: 15
+      3:
+        id: "przemytnik_quest_1_1_3"
+        type: "przynies"
+        targetName: "&rSurowa kura"
+        message: "Przynies 25 surowych kur: %stan%"
+        ilosc: 25

@@ -1,0 +1,38 @@
+id: "3_quest_6"                                
+name: "&eSzukajac przyczyny I"                          
+zleceniodawca: "&a&lJasuo"                       
+lore:                                               
+  - "&aWstepne wyniki badan juz mamy - teraz potrzebujemy"
+  - "&atylko probek porownawczych."
+  - "&aKazdy posel, ktorego poslal Archos, nie wrocil."
+  - "&aZostali tam i, podobnie jak gornicy, atakuja"
+  - "&awszystko na swojej drodze."
+  - "&aChce na poczatek przebadac ich probki."
+prize:                                    
+  - "xp: 5250"
+require:                                            
+  - "level: 25"
+  - "quest: 3_quest_5"
+stopnie:
+  1:
+    talking: true
+    message: "&a&lJasuo&7: &aDobra robota. Teraz mozesz przez jakis czas zajac sie swoimi zajeciami. Badania chwile potrwaja."
+    targets:
+      1:
+        id: "3_quest_6_1_1"
+        type: "zabij"
+        targetName: "&4Zarazony"
+        message: "Zabij 23 zarazonych z wykopalisk: %stan%"
+        ilosc: 23
+      2:
+        id: "3_quest_6_1_2"
+        type: "zabij"
+        targetName: "&c&lKlikacz"
+        message: "Zabij 7 klikaczy z wykopalisk: %stan%"
+        ilosc: 7
+      3:
+        id: "3_quest_6_1_3"
+        type: "przynies"
+        targetName: "&2Bakterie"
+        message: "Przynies 48 probek bakterii: %stan%"
+        ilosc: 48

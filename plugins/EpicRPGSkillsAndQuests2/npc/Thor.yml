@@ -1,0 +1,14 @@
+name: "&6Thor"
+title: "&6Thor - dowodca"
+size: 9
+slots:
+  8:
+    item: "Walka1"
+    max: 75
+    wymagania:
+      - "klasa: &cWojownik"
+  9:
+    item: "Walka2"
+    max: 75
+    wymagania:
+      - "klasa: &cWojownik"  

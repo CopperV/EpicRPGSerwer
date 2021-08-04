@@ -1,0 +1,40 @@
+id: "3_quest_8"                                
+name: "&2Zgodnosc - zaraza, kwalifikacja"                          
+zleceniodawca: "&a&lJasuo"                       
+lore:                                               
+  - "&aProbki przyniesione przez Ciebie"
+  - "&az poslow i gornikow sa zgodne."
+  - "&aMamy do czynienia z jakas specyficzna zaraza."
+  - "&aW trakcie badan niestety ucierpialo paru ludzi."
+  - "&aZ tego co zauwazylismy, zaraza ta ma rozne stadia."
+  - "&aMusimy je sprecyzowac i opisac oraz sprobowac"
+  - "&aznalezc lekarstwo."
+  - "&aNa poczatku zajmijmy sie kwalifikacja"
+prize:                                    
+  - "xp: 7125"
+require:                                            
+  - "level: 27"
+  - "quest: 3_quest_7"
+stopnie:
+  1:
+    talking: true
+    message: "&a&lJasuo&7: &aDobra robota. Teraz mozesz przez jakis czas zajac sie swoimi zajeciami. Badania chwile potrwaja."
+    targets:
+      1:
+        id: "3_quest_8_1_1"
+        type: "przynies"
+        targetName: "&2Glowa zarazonego"
+        message: "Przynies 15 glow zarazonego: %stan%"
+        ilosc: 15
+      2:
+        id: "3_quest_8_1_2"
+        type: "przynies"
+        targetName: "&aKiel klikacza"
+        message: "Przynies 10 klow klikacza: %stan%"
+        ilosc: 10
+      3:
+        id: "3_quest_8_1_3"
+        type: "przynies"
+        targetName: "&2Bakterie"
+        message: "Przynies 32 probki bakterii: %stan%"
+        ilosc: 32

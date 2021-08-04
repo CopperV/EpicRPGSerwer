@@ -1,0 +1,33 @@
+id: "vip_quest_3"                                
+name: "&6&lPirackie skarby"                          
+zleceniodawca: "&6&lGustav"                       
+lore:                                               
+  - "&aPrzyjacielu moj drogi kochany..."
+  - "&aSlyszalem, ze byles odpowiedzialny za odkryci"
+  - "&aobecnosci piratow na wyspie..."
+  - "&aNie mialbys ochoty wesprzec staruszka pirackiki skarbami?"
+  - "&aOczywiscie, sowicie Cie za nie wynagrodze!"
+prize:                                    
+  - "xp: 500"
+  - "money: 2500"
+  - "item: Zlota_Moneta 12"
+require:                                            
+  - "level: 17"
+  - "quest: przemytnik_quest_5"
+  - "ranga: magnat"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "vip_quest_3_1_1"
+        type: "przynies"
+        targetName: "&bPirackie klejnoty"
+        message: "Przynies 10 pirackich klejnotow: %stan%"
+        ilosc: 10
+      2:
+        id: "vip_quest_3_1_2"
+        type: "przynies"
+        targetName: "&4Pirackie rubiny"
+        message: "Przynies 10 pirackich rubinow: %stan%"
+        ilosc: 10

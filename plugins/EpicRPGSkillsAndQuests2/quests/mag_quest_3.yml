@@ -1,0 +1,45 @@
+id: "mag_quest_3"                                
+name: "&dSkladniki dla alchemika"                          
+zleceniodawca: "&7&lCarl"                       
+lore:                                               
+  - "&aZ pajakow mozna pozyskac wiele ciekawych produktow."
+  - "&aW bardziej zaawansowanych recepturach"
+  - "&asa one wrecz podstawowym skladnikiem."
+  - "&aSkoro oswoiles sie juz z tutejszymi warunkami,"
+  - "&ato przynies mi troche tych produktow."
+prize:                                    
+  - "xp: 720"
+  - "money: 200"
+require:                                            
+  - "level: 13"
+  - "quest: mag_quest_2"
+  - "klasa: &5Mag"
+stopnie:
+  1:
+    talking: true
+    message: "&7&lCarl&7: &aCos blado wygladasz. Nie przejmuj sie, kazdy na poczatku tak wyglada... HeHeHe..."    
+    targets:
+      1:
+        id: "mag_quest_3_1_1"
+        type: "przynies"
+        targetName: "&cOko pajaka"
+        message: "Przynies 8 sztuk oka pajaka: %stan%"
+        ilosc: 8
+      2:
+        id: "mag_quest_3_1_2"
+        type: "przynies"
+        targetName: "&7Zuwaczki pajaka"
+        message: "Przynies 6 pajeczych zuwaczek: %stan%"
+        ilosc: 6
+      3:
+        id: "mag_quest_3_1_3"
+        type: "przynies"
+        targetName: "&4Galka czarnej wdowy"
+        message: "Przynies 7 galek czarnej wdowy: %stan%"
+        ilosc: 7
+      4:
+        id: "mag_quest_3_1_4"
+        type: "przynies"
+        targetName: "&2Jadowity kiel"
+        message: "Przynies 9 jadowitych klow: %stan%"
+        ilosc: 9

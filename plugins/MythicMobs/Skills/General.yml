@@ -1,0 +1,60 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+GeneralSummon1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=65}
+  - message{m="<mob.name><&co> &7Wkrotce kazda mora uchyli swe czolo przed Kanem"} @PlayersInRadius{r=20}
+  - delay 5
+  - summon{mob=Ork4;amount=1;noise=3} @Self
+  - summon{mob=Ork5;amount=1;noise=3} @Self
+  - summon{mob=Ork6;amount=1;noise=3} @Self
+  - summon{mob=Ork7;amount=1;noise=3} @Self
+GeneralSummon2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=80}
+  - message{m="<mob.name><&co> &7Prastare duchy wspomoga nas w walce"} @PlayersInRadius{r=20}
+  - delay 15
+  - message{m="<mob.name><&co> &7To dzieki nim was zwyciezymy"} @PlayersInRadius{r=20}
+  - delay 5
+  - summon{mob=Ork7;amount=1;noise=3} @Self
+  - summon{mob=Ork7;amount=1;noise=3} @Self
+GeneralSummon3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=75}
+  - summon{mob=Ork3;amount=1;noise=3} @Self
+  - summon{mob=Ork2;amount=1;noise=3} @Self
+  - summon{mob=Ork2;amount=1;noise=3} @Self
+  - summon{mob=Ork1;amount=1;noise=3} @Self
+  - summon{mob=Ork1;amount=1;noise=3} @Self
+  - delay 15
+  - message{m="<mob.name><&co> &7Mieso armatnie"} @PlayersInRadius{r=20}
+GeneralSummon4:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=80}
+  - message{m="<mob.name><&co> &7Glupia moro..."} @PlayersInRadius{r=20}
+  - delay 15
+  - message{m="<mob.name><&co> &7Az tak predko tobie na lono Beliara!?"} @PlayersInRadius{r=20}
+  - delay 5
+  - summon{mob=Ork8;amount=1;noise=3} @Self
+  - summon{mob=Ork8;amount=1;noise=3} @Self
+GeneralSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &7Wszyscy ulegna przed potega orkow"} @PlayersInRadius{r=10}
+  - delay 20
+  - effect:lightning @self
+  - delay 10
+  - mount{type=WargGeneral}
+GeneralRally:
+  Skills:
+  - message{m="<mob.name><&co> &7ZA HORDE!"} @PlayersInRadius{r=50}
+  - delay 10
+  - rally{types=Ork1,Ork2,Ork3,Ork4,Ork5,Ork6,Ork7,Ork8,Ork9;radius=50} @trigger

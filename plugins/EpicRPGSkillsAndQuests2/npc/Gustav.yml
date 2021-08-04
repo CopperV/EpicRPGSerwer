@@ -1,0 +1,16 @@
+name: "&6&lGustav"
+title: "&6&lGustav - quester"
+size: 9
+slots:
+  1:
+    item: "vip_quest_4"
+  2:
+    item: "vip_quest_3"
+  3:
+    item: "vip_quest_6"
+  4:
+    item: "vip_quest_7"
+  5:
+    item: "vip_quest_9"
+  6:
+    item: "vip_quest_12"

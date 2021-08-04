@@ -1,0 +1,14 @@
+name: "&3&lDecard"
+title: "&3&lDecard - quester"
+size: 9
+slots:
+  1:
+    item: "ee_quest_1"
+  2:
+    item: "ee_quest_2"
+  3:
+    item: "ee_quest_3"
+  4:
+    item: "ee_quest_4"
+  5:
+    item: "ee_quest_5"

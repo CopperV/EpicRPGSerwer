@@ -1,0 +1,30 @@
+id: "2_quest_2"                                
+name: "&2Uciazliwe gobliny"                          
+zleceniodawca: "&1Saturas"                       
+lore:                                               
+  - "&aOd czego by tu zaczac..."
+  - "&aDobra, juz mam."
+  - "&aNasz oboz znajduje sie na pograniczu pustyni,"
+  - "&aa na polanie, ktora mozesz ujrzec za soba"
+  - "&aaz roi sie od goblinow."
+  - "&aKazdej nocy podchodza do obozu i staraja sie cos podkrasc."
+  - "&aSa bardzo uciazliwe, nie mozemy sie skupic"
+  - "&aprzez to na swojej pracy."
+  - "&aMysle, ze juz wiesz, czego chce od ciebie."
+  - "&aIdz i nie kaz na siebie dlugo czekac"
+prize:                                    
+  - "xp: 850"
+require:                                            
+  - "level: 11"
+  - "quest: 2_quest_1"
+stopnie:
+  1:
+    talking: true
+    message: "&1Saturas&7: &aMusze przyznac, ze w miare sprawnie uwinales sie z moim zadaniem. Ale nie mysl sobie, ze cale szkolenie pojdzie tak gladko!"
+    targets:
+      1:
+        id: "2_quest_2_1_1"
+        type: "zabij"
+        targetName: "&aMlody Goblin"
+        message: "Zabij 50 uciazliwych mlodych goblinow: %stan%"
+        ilosc: 50

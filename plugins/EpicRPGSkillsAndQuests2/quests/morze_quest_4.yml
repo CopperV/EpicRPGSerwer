@@ -1,0 +1,26 @@
+id: "morze_quest_4"                                
+name: "&4&oNeutralizacja przekletego zlota"                          
+zleceniodawca: "&e&lNers"                       
+lore:                                               
+  - "&aCi przekleci piraci nadal maja ze soba"
+  - "&ato przeklete zloto."
+  - "&aIm juz nic zlego nie zrobi,"
+  - "&alecz smialkom gotowym pojsc na Holendra"
+  - "&amoze wyrzadzic ogromna krzywde."
+  - "&aPotrzebujemy to zloto zneutralizowac."
+prize:                                    
+  - "xp: 38500"
+  - "money: 400"
+require:                                            
+  - "level: 46"
+  - "quest: morze_quest_2"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "morze_quest_4_1_1"
+        type: "przynies"
+        targetName: "&cPrzeklete zloto"
+        message: "Przynies 20 sztuk przekletego zlota: %stan%"
+        ilosc: 20

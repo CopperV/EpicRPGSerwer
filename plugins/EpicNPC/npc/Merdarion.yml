@@ -1,0 +1,15 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&b&lMerdarion"
+  - "&7[&3&lTELEPORTER&7]"
+skinid: 1439984766
+location:
+  world: "Map113"
+  x: 84.5
+  y: 65.0
+  z: 227.5
+  yaw: 90.0
+  pitch: 10.5
+lookat: false

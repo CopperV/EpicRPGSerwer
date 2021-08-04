@@ -1,0 +1,66 @@
+id: "goblin_quest_4"                                
+name: "&8Wawoz goblinow"                          
+zleceniodawca: "&8Udar"                       
+lore:                                               
+  - "&aSlyszalem, ze w polnocnym lesie odnalazles &cTavina&a."
+  - "&aA wraz z nim dziwny goblini wawoz."
+  - "&aMusisz go zbadac."
+prize:                                    
+  - "xp: 510"
+require:                                            
+  - "level: 8"
+  - "quest: goblin_quest_3"
+  - "quest: p_quest_1"
+stopnie:
+  1:
+    talking: false
+    message: "&r%player%&7: &bHmm... A coz to za jaskinia? Trzeba to zbadac"
+    targets:
+      1:
+        id: "goblin_quest_4_1_1"
+        type: "zabij"
+        targetName: "&a&lGoblini wojownik"
+        message: "Zabij 20 goblinich wojownikow: %stan%"
+        ilosc: 20
+      2:
+        id: "goblin_quest_4_1_2"
+        type: "znajdz"
+        targetName: "goblin_cave1"
+        message: "Zbadaj goblini wawoz: %stan%"
+  2:
+    talking: false
+    message: "&r%player%&7: &bJak to prawdziwa wylegarnia goblinow. Powinienem dokladniej zbadac ta jaskinie"
+    targets:
+      1:
+        id: "goblin_quest_4_2_1"
+        type: "znajdz"
+        targetName: "goblin_cave2"
+        message: "Wejdz do jaskini w wawozie goblinow: %stan%"
+  3:
+    talking: false
+    message: "&r%player%&7: &bO cholera... Co to za przerosniety goblin!? Musze uciekac i powiedziec o wszystkim &8Udarowi"
+    targets:
+      1:
+        id: "goblin_quest_4_3_1"
+        type: "zabij"
+        targetName: "&a&lGoblini wojownik"
+        message: "Zabij 20 goblinich wojownikow: %stan%"
+        ilosc: 20
+      2:
+        id: "goblin_quest_4_3_2"
+        type: "znajdz"
+        targetName: "goblin_cave3"
+        message: "Zbadaj w glab jaskinie goblinow (98;56): %stan%"
+  4:
+    talking: false
+    targets:
+      1:
+        id: "goblin_quest_4_4_1"
+        type: "zagadaj"
+        targetName: "&8Udar"
+        message: "Ucieknij z jaskini i porozmawiaj z &8Udarem: %stan%"
+        dialog:
+          - "&r%player%&7: &bW wawozie znajduje sie wejscie do gobliniej jaskini. Zdaje sie, ze tam maja swoja glowna baze oraz kogos na rodzaj swojego wodza."
+          - "&8Udar&7: &aZ jednej strony to co mowisz jest niepokojace..."
+          - "&8Udar&7: &aZ drugiej zas daje nam szanse pokazac tym pokrakom, gdzie ich miejsce..."
+          - "&8Udar&7: &aMusze przemyslec, co z tym faktem zrobic..."

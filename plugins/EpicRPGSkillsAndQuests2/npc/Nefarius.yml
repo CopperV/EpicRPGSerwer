@@ -1,0 +1,53 @@
+name: "&6Nefarius"
+title: "&6Nefarius - quester"
+size: 18
+slots:
+  1:
+    item: "4_quest_4"
+  2:
+    item: "4_quest_8"
+  3:
+    item: "4_quest_11"
+  4:
+    item: "4_quest_16"
+  5:
+    item: "4_quest_20"
+  6:
+    item: "4_quest_23"
+  10:
+    item: "strzelec_quest_8"
+  11:
+    item: "strzelec_quest_9"
+  12:
+    item: "strzelec_quest_10"
+  13:
+    item: "strzelec_quest_11"
+  14:
+    item: "strzelec_quest_12"
+  8:
+    item: "Walka1"
+    max: 95
+    wymagania:
+      - "quest: strzelec_quest_8"
+      - "klasa: &2Mysliwy"
+  9:
+    slot: 9
+    item: "Walka2"
+    max: 95
+    wymagania:
+      - "quest: strzelec_quest_8"
+      - "klasa: &2Mysliwy"
+  17:
+    slot: 17
+    item: "Zrecznosc1"
+    max: 230
+    wymagania:
+      - "quest: strzelec_quest_8"
+      - "klasa: &2Mysliwy"
+  18:
+    slot: 18
+    item: "Zrecznosc5"
+    max: 230
+    wymagania:
+      - "quest: strzelec_quest_8"
+      - "klasa: &2Mysliwy"

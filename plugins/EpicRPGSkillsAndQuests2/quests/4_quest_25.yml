@@ -1,0 +1,45 @@
+id: "4_quest_25"
+name: "&4&lLokalny dowodca orkow"
+zleceniodawca: "&6&lRhobar"
+lore:
+  - "&aOrkowie podejmuja dzialania i decyzje dosyc szybko."
+  - "&aTo oznacza, ze przyjmuja rozkazy od kogos u siebie w obozie."
+  - "&aMusisz wytropic oboz tego wodza"
+  - "&aoraz go zgladzic."
+  - "&aOrkowie po takim ciosie szybko sie nie podniosa,"
+  - "&abeda musieli nowego generala prosto z wyspy przyslac."
+prize:
+  - "xp: 50000"
+  - "money: 1500"
+require:
+  - "level: 40"
+  - "quest: 4_quest_24"
+stopnie:
+  1:
+    talking: false
+    message: "&r%player%&7: &bTo chyba oboz generala. Cholera, ladna ma obstawe. Trzeba bedzie sie nia zajac."
+    targets:
+      1:
+        id: "4_quest_25_1_1"
+        type: "znajdz"
+        targetName: "oboz_general"
+        message: "Odnajdz namiot generala (-523;871): %stan%"
+  2:
+    talking: false
+    message: "&r%player%&7: &bNo dobra... To teraz pora na Ciebie, generale..."
+    targets:
+      1:
+        id: "4_quest_25_2_1"
+        type: "zabij"
+        targetName: "&c&lElitarny Ork Wojownik"
+        message: "Wybij obstawe orkowego generala (elitarni orkowie): %stan%"
+        ilosc: 15
+  3:
+    talking: true
+    targets:
+      1:
+        id: "4_quest_25_3_1"
+        type: "zabij"
+        targetName: "&4&lOrkowy General - BOSS"
+        message: "Zgladz orkowego generala: %stan%"
+        ilosc: 1

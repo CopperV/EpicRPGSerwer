@@ -1,0 +1,17 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&a&lAya"
+  - "&7[&6&lBIZNESMEN&7]"
+skinid: 1291701906
+location:
+  world: "F_RPG"
+  x: 372.5
+  y: 45
+  z: -492.5
+  yaw: -155
+  pitch: 1.5
+lookat: true
+commands:
+  - "cc open aya %player%"

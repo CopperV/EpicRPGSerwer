@@ -1,0 +1,73 @@
+id: "zlodziej_quest_21"                             
+name: "&4&lAtak na wiezienie"                          
+zleceniodawca: "&e&lCassia"                       
+lore:                                               
+  - "&aRosniemy powoli."
+  - "&aCzyszczenie wyspy, przejecie karawany."
+  - "&aPora na cos jeszcze grubszego."
+  - "&aW miejscowym wiezieniu jest nasz przyjaciel."
+  - "&aNa kontynencie byl zywa legenda."
+  - "&aNie dalo sie go dopasc."
+  - "&aNiestety na Archolosie spotkal go inny los."
+  - "&aValeera go zdradzila i wyladowal w wiezieniu."
+  - "&aTrzeba go odbic."
+  - "&aTutaj, w piwnicy znajdziesz zejscie do wykopanego"
+  - "&atunelu do wiezienia."
+  - "&aUdaj sie tam i uwolnij Raczke."
+prize:                                    
+  - "xp: 90000"
+  - "money: 2500"
+require:                                            
+  - "level: 60"
+  - "quest: zlodziej_quest_20"
+stopnie:
+  1:
+    talking: false
+    message: "&r%player%&7: &bTroche to zajelo. Cholera, straz - trzeba sie nimi zajac..."
+    targets:
+      1:
+        id: "zlodziej_quest_21_1_1"                     
+        type: "znajdz"       
+        targetName: "prison2"
+        message: "Wejdz do wiezienia przez klape w podlodze (5 ; -63): %stan%"
+  2:
+    talking: false
+    message: "&r%player%&7: &bStraznicy obici, pora uwolnic Raczke"
+    targets:
+      1:
+        id: "zlodziej_quest_21_2_1"                     
+        type: "zabij"       
+        targetName: "&7Straz Wiezienia"
+        message: "Pokonaj Straznikow Wiezienia: %stan%"
+        ilosc: 2
+  3:
+    talking: false
+    targets:
+      1:
+        id: "zlodziej_quest_21_3_1"                     
+        type: "zagadaj"       
+        targetName: "&eRaczka"
+        message: "Znajdz wejscie do celi Raczki i go uwolnij: %stan%"
+        dialog:
+          - "&eRaczka&7: &aHej Ty... Jak sie tu dostales."
+          - "&r%player%&7: &bPrzez kanaly, inne cele, tunele."
+          - "&r%player%&7: &bPrzysyla mnie Cassia."
+          - "&eRaczka&7: &aCassia?"
+          - "&eRaczka&7: &aA wiec o mnie nie zapomniala."
+          - "&eRaczka&7: &aTo co, powiedz mi jak stad wyjsc."
+          - "&r%player%&7: &b<Tlumaczy droge do Cassi>"
+          - "&eRaczka&7: &aDobra, zrozumialem."
+          - "&eRaczka&7: &aPoradze sobie - zobaczymy sie na miejscu."
+  4:
+    talking: false
+    targets:
+      1:
+        id: "zlodziej_quest_21_4_1"                     
+        type: "zagadaj"       
+        targetName: "&e&lCassia"
+        message: "Opowiedz Cassi o uwolnieniu Raczki: %stan%"
+        dialog:
+          - "&r%player%&7: &bRaczka lada moment powinien sie zjawic."
+          - "&e&lCassia&7: &aWiedziala, ze podolasz temu wyzwaniu."
+          - "&e&lCassia&7: &aZasluzyles sobie na skarb naszej gildii."
+          - "&e&lCassia&7: &aWkrotce poszerzymy obszar naszych dzialan."

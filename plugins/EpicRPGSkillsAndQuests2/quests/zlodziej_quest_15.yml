@@ -1,0 +1,48 @@
+id: "zlodziej_quest_15"                                
+name: "&a&l&oPowrot Cassii"                          
+zleceniodawca: "&e&oRamirez"                       
+lore:                                               
+  - "&aNajwazniejsze przygotowania poczynione."
+  - "&aTeraz pora na Ciebie!"
+  - "&aPowiadom &a&oCassie&a,"
+  - "&aze wszystko przygotowalem na jej powrot."
+  - "&aPrzekaz jej tez,"
+  - "&aze &8&lValeera &aniczego sie nie spodziewa."
+  - "&aBedziemy na nia czekac w obozie przemytnikow."
+prize:                                    
+  - "xp: 2000"
+require:                                            
+  - "level: 55"
+  - "quest: zlodziej_quest_14"
+stopnie:
+  1:
+    talking: false
+    targets:
+      1:
+        id: "zlodziej_quest_15_1_1"
+        type: "zagadaj"
+        targetName: "&a&oCassia"
+        message: "Porozmawiaj z Cassia o ofercie Ramireza: %stan%"
+        dialog:
+          - "&a&oCassia&7: &aCzego tym razem chcesz?"
+          - "&a&oCassia&7: &aPoki co nie mam dla Ciebie zadnej roboty."
+          - "&a&oCassia&7: &aPoza tym wydaje mi sie, ze powinienes teraz robic co innego."
+          - "&r%player%&7: &bPrzysyla mnie &e&oRamirez&b."
+          - "&a&oCassia&7: &aCos Ty powiedzial!?"
+          - "&a&oCassia&7: &aSkad on..."
+          - "&a&oCassia&7: &aTy..."
+          - "&a&oCassia&7: &aPo co sie wtracasz w nie swoje sprawy?"
+          - "&a&oCassia&7: &a..."
+          - "&a&oCassia&7: &aMniejsza z tym."
+          - "&a&oCassia&7: &aPowiedz, jakie informacje przynosi."
+          - "&r%player%&7: &bWszystko na Twoj powrot jest przygotowane, a &8&lValeera &bniczego sie nie spodziewa."
+          - "&r%player%&7: &bMowi, ze powinniscie sie spotkac u Saro, w obozie przemytnikow."
+          - "&a&oCassia&7: &aUslyszal o moim pojawieniu sie i od razu wiedzial co planuje..."
+          - "&a&oCassia&7: &aZawsze moglam mu ufac."
+          - "&a&oCassia&7: &aPowiedz mi tylko, gdzie to jest - ten oboz przemytnikow."
+          - "&r%player%&7: &bZa miastem jest most prowadzacy do lasu."
+          - "&r%player%&7: &bNa poludnie od lasu znajduje sie wielka dziura z anomalia zywiolow."
+          - "&r%player%&7: &bMiedzy lasem a ta anomalia znajduje sie oboz Saro, w ktorym macie sie spotkac."
+          - "&a&oCassia&7: &aBardzo dobrze."
+          - "&a&oCassia&7: &aTez sie odpowiednio przygotuje."
+          - "&a&oCassia&7: &aW koncu ta akcja musi byc bardzo dobrze przemyslana."

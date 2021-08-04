@@ -1,0 +1,32 @@
+id: "przemytnik_quest_14"                                
+name: "&8Wybuchowy plan Saro"                          
+zleceniodawca: "&7&lSaro"                       
+lore:                                               
+  - "&aOdkrycie Nowego Swiata"
+  - "&adalo wiele mozliwosci."
+  - "&aSlyszalem, ze jestt obfita w stworzenia,"
+  - "&aktore sa wrecz wypchana"
+  - "&awybuchowym prochem."
+  - "&aZdobadz troche tego dla nas."
+  - "&aZ pewnoscia nam sie przyda."
+prize:                                    
+  - "xp: 40500"
+  - "money: 800"
+require:                                            
+  - "level: 51"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "przemytnik_quest_14_1_1"
+        type: "zabij"
+        targetName: "&aCreeper"
+        message: "Zabij 18 Creeperow: %stan%"
+        ilosc: 18
+      2:
+        id: "przemytnik_quest_14_1_2"
+        type: "przynies"
+        targetName: "&8Wybuchowy proch"
+        message: "Przynies 9 porcji wybuchowego prochu: %stan%"
+        ilosc: 9

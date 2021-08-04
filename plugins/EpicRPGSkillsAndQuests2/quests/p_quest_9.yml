@@ -1,0 +1,40 @@
+id: "p_quest_9"
+name: "&aIgnaz i jego mikstura"
+zleceniodawca: "&0Ignaz"
+lore:
+  - "&aHej, hej, hej, poczekaj chwileczke."
+  - "&aCzy pomogl bys mi w jednej sprawie?"
+  - "&aWybacz mi, jestem juz troche stary"
+  - "&ai nie mam juz sil na dlugie podroze."
+  - "&aPotrzebuje paru, dosyc nietypowych skladnikow"
+  - "&ado mojej mikstury."
+  - "&aPowinienes je moc pozyskac na pustyni."
+  - "&aProsze Cie, pomoz biednemu, staremu alchemikowi."
+prize:
+  - "money: 90"
+  - "xp: 550"
+require:
+  - "level: 12"
+stopnie:
+  1:
+    talking: true
+    message: "&0Ignaz&7: &aDziekuje Ci bardzo nieznajomy. Jestem Ci niezmiernie wdzieczny. Prosze, wez te pare monet. Jestem pewien, ze Ci sie przydadza."
+    targets:
+      1:
+        id: "p_quest_9_1_1"
+        type: "przynies"
+        targetName: "&rKosc"
+        message: "Przynies na miksture Ignaza 21 kosci: %stan%"
+        ilosc: 21
+      2:
+        id: "p_quest_9_1_2"
+        type: "przynies"
+        targetName: "&7Czaszka"
+        message: "Przynies na miksture Ignaza 7 czaszek: %stan%"
+        ilosc: 7
+      3:
+        id: "p_quest_9_1_3"
+        type: "przynies"
+        targetName: "&rTrup"
+        message: "Przynies na miksture Ignaza 4 trupy: %stan%"
+        ilosc: 4

@@ -1,0 +1,81 @@
+id: "4_quest_24"
+name: "&4Front"
+zleceniodawca: "&6&lRhobar"
+lore:
+  - "&aW poblizu zamku utworzyl sie front walki"
+  - "&aassasynow z orkami."
+  - "&aCalymi dniami walcza ze soba i Ty to wykorzystasz."
+  - "&aZabij ich jak najwiecej, pokaz, ze nie na darmo"
+  - "&aTobie zaufalem,"
+  - "&aze nie na darmo zaufal Tobie &b&lCorristo&a."
+prize:
+  - "xp: 30000"
+  - "money: 750"
+require:
+  - "level: 38"
+  - "quest: 4_quest_23"
+stopnie:
+  1:
+    talking: true
+    message: "&6&lRhobar&7: &aDoskonale bylo nawet stad slychac jek Twoich ofiar. Gratuluje."
+    targets:
+      1:
+        id: "4_quest_24_1_1"                     
+        type: "zabij"       
+        targetName: "&cWarg"                      
+        message: "Pokonaj 15 wargow: %stan%"
+        ilosc: 15
+      2:
+        id: "4_quest_24_1_2"                     
+        type: "zabij"       
+        targetName: "&4Orkowy Pies"                      
+        message: "Pokonaj 15 orkowych psow: %stan%"
+        ilosc: 15
+      3:
+        id: "4_quest_24_1_3"                     
+        type: "zabij"       
+        targetName: "&2Ork"                      
+        message: "Pokonaj 15 orkow: %stan%"
+        ilosc: 15
+      4:
+        id: "4_quest_24_1_4"                     
+        type: "zabij"       
+        targetName: "&cOrk wojownik"                      
+        message: "Pokonaj 15 orkowych wojownikow: %stan%"
+        ilosc: 15
+      5:
+        id: "4_quest_24_1_5"                     
+        type: "zabij"       
+        targetName: "&a&lOrkowy Szaman"                      
+        message: "Pokonaj 15 orkowych szamanow: %stan%"
+        ilosc: 15
+      6:
+        id: "4_quest_24_1_6"                     
+        type: "zabij"       
+        targetName: "&c&lElitarny Ork Wojownik"                      
+        message: "Pokonaj 15 elitarnych orkow: %stan%"
+        ilosc: 15
+      7:
+        id: "4_quest_24_1_7"                     
+        type: "zabij"       
+        targetName: "&cAssasyn"                      
+        message: "Pokonaj 15 assasynow: %stan%"
+        ilosc: 15
+      8:
+        id: "4_quest_24_1_8"                     
+        type: "zabij"       
+        targetName: "&4Assasyn - morderca"                      
+        message: "Pokonaj 15 assasynow - mordercow: %stan%"
+        ilosc: 15
+      9:
+        id: "4_quest_24_1_9"                     
+        type: "zabij"       
+        targetName: "&0&lCzarny Mag"                      
+        message: "Pokonaj 15 czarnych magow: %stan%"
+        ilosc: 15
+      10:
+        id: "4_quest_24_1_10"                     
+        type: "zabij"       
+        targetName: "&4&lElitarny Assasyn"                      
+        message: "Pokonaj 15 elitarnych assasynow: %stan%"
+        ilosc: 15

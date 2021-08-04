@@ -1,0 +1,64 @@
+name: "&7&lSaro"
+title: "&7&lSaro - dowodca"
+size: 27
+slots:
+  1:
+    item: "przemytnik_quest_1"
+  2:
+    item: "przemytnik_quest_3"
+  3:
+    item: "przemytnik_quest_5"
+  4:
+    item: "przemytnik_quest_13"
+  5:
+    item: "przemytnik_quest_14"
+  10:
+    item: "strzelec_quest_2"
+#  max: 150
+#  wystrzelecania:
+#  - "klasa: &2Mysliwy"
+#  - "quest: quest1"
+  11:
+    item: "strzelec_quest_3"
+  12:
+    item: "strzelec_quest_4"
+  13:
+    item: "strzelec_quest_5"
+  14:
+    item: "strzelec_quest_6"
+  8:
+    item: "Wytrzymalosc1"
+    max: 40
+    wystrzelecania:
+      - "quest: strzelec_quest_2"
+      - "klasa: &2Mysliwy"
+  9:
+    item: "Wytrzymalosc5"
+    max: 40
+    wystrzelecania:
+      - "quest: strzelec_quest_2"
+      - "klasa: &2Mysliwy"
+  17:
+    item: "Zrecznosc1"
+    max: 123
+    wystrzelecania:
+      - "quest: strzelec_quest_2"
+      - "klasa: &2Mysliwy"
+  18:
+    item: "Zrecznosc5"
+    max: 123
+    wystrzelecania:
+      - "quest: strzelec_quest_2"
+      - "klasa: &2Mysliwy"
+  26:
+    item: "Zdolnosci1"
+    max: 100
+    wystrzelecania:
+      - "quest: strzelec_quest_2"
+      - "klasa: &2Mysliwy"
+  27:
+    item: "Zdolnosci5"
+    max: 100
+    wystrzelecania:
+      - "quest: strzelec_quest_2"
+      - "klasa: &2Mysliwy"

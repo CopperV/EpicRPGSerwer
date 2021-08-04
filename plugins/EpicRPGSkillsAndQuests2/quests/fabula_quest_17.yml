@@ -1,0 +1,42 @@
+id: "fabula_quest_17"
+name: "&6Zbiegi okolicznosci"                          
+zleceniodawca: "&c&lAlexstrasza"
+lore:
+  - "&aBaron Geddon rzadzil tutaj przez wiele lat."
+  - "&aUdalo mi sie dowiedziec, ze cale poludnie"
+  - "&autracil w zaledwie pare miesiecy."
+  - "&aTo nie przypadek - mial wojska, ktore gdzies"
+  - "&asie podzialy,"
+  - "&amial sile, by bronic je,"
+  - "&aa jednak utracil to wszystko w przeciagu paru chwil."
+  - "&aPodejrzewam, ze orkowie tez sie tu przypadkiem"
+  - "&anie pojawili."
+  - "&aWysylam Ciebie na poludnie, do twierdzy assasynow."
+  - "&aZastaniesz tam pewnego arcymaga - &8Xardasa&a."
+  - "&aWspolnie postarajcie sie ustalic skad pochodza orkowie"
+  - "&ai jak tak szybko i niezauwazenie udalo im sie"
+  - "&atutaj dostac."
+prize:                                    
+  - "xp: 1750"
+require:                                            
+  - "quest: fabula_quest_16"
+  - "level: 35"
+stopnie:
+  1:
+    talking: false
+    targets:
+      1:
+        id: "fabula_quest_17_1_1"
+        type: "zagadaj"
+        targetName: "&8Xardas"
+        message: "Udaj sie do twierdzy assasynow i pogadaj z &8Xardasem: %stan%"
+        dialog:
+          - "&r%player%&7: &bNiech zgadne..."
+          - "&r%player%&7: &bDoskonale wiesz, dlaczego do Ciebie przychodze... Hmm?"
+          - "&8Xardas&7: &aWidze, ze juz dobrze mnie poznales, He He..."
+          - "&8Xardas&7: &aLubie wiedziec, co sie wokol mnie dzieje."
+          - "&8Xardas&7: &aWracajac do merituum."
+          - "&8Xardas&7: &aUwazam, ze &c&lAlexstrasza &ama racje co do tego, ze to nie sa zbiegi okolicznosci."
+          - "&8Xardas&7: &aNa nasze szczescie orkowie sa rozumnymi istotami a zarazem obce dla nas."
+          - "&8Xardas&7: &aMozemy wiec to wykorzystac."
+          - "&8Xardas&7: &aMoga jednak pojawic sie pewne komplikacje..."

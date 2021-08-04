@@ -1,0 +1,68 @@
+id: "fabula_quest_2"                                
+name: "&4&lBitwa o audiencje"                          
+zleceniodawca: "&e&lIgnatius"                       
+lore:                                               
+  - "&aZ tego, co mi sie wydaje, to"
+  - "&b&lCorristo &awyslal Ciebie na szkolenie do &1Saturasa&a,"
+  - "&ana pustynie."
+  - "&aTo nawet dobrze sie sklada - jest sie czym tam wykazac."
+  - "&aZadanie mi sie wydaje proste - dokonaj"
+  - "&amasakry na pustyni"
+prize:                                    
+  - "xp: 5000"
+require:                                            
+  - "level: 10"
+  - "quest: fabula_quest_1"
+stopnie:
+  1:
+    talking: true
+    message: "&e&lIgnatius&7: &aA wiec jednak. Nie cofnales sie nawet przed tym, by wybic tak wiele istnien. To nawet dobrze o Tobie swiadczy - wykonasz bezwzglednie rozkaz. Odpocznij i wroc, kiedy bedziesz gotowy na spotkanie."    
+    targets:
+      1:
+        id: "fabula_quest_2_1_1"
+        type: "zabij"
+        targetName: "&eRybik piaskowy"
+        message: "Wybij 100 rybikow piaskowych: %stan%"
+        ilosc: 100
+      2:
+        id: "fabula_quest_2_1_2"
+        type: "zabij"
+        targetName: "&e&lSzakal"
+        message: "Wybij 100 szakali: %stan%"
+        ilosc: 100
+      3:
+        id: "fabula_quest_2_1_3"
+        type: "zabij"
+        targetName: "&6Wojownik budowniczych"
+        message: "Pokonaj 50 wojownikow budowniczych: %stan%"
+        ilosc: 50
+      4:
+        id: "fabula_quest_2_1_4"
+        type: "zabij"
+        targetName: "&6Architekt budowniczych"
+        message: "Pokonaj 50 architektow budowniczych: %stan%"
+        ilosc: 50
+      5:
+        id: "fabula_quest_2_1_5"
+        type: "zabij"
+        targetName: "&6Strzelec budowniczych"
+        message: "Pokonaj 50 strzelcow budowniczych: %stan%"
+        ilosc: 50
+      6:
+        id: "fabula_quest_2_1_6"
+        type: "zabij"
+        targetName: "&6&lKaplan budowniczych"
+        message: "Pokonaj 50 kaplanow budowniczych: %stan%"
+        ilosc: 50
+      7:
+        id: "fabula_quest_2_1_7"
+        type: "zabij"
+        targetName: "&4MUMIA"
+        message: "Pokonaj 100 mumii: %stan%"
+        ilosc: 100
+      8:
+        id: "fabula_quest_2_1_8"
+        type: "zabij"
+        targetName: "&4STAROZYTNA MUMIA"
+        message: "Pokonaj 50 starozytnych mumii: %stan%"
+        ilosc: 50

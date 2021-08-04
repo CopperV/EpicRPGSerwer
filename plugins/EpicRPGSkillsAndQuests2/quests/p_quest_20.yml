@@ -1,0 +1,27 @@
+id: "p_quest_20"                                
+name: "&b&lOchrona zagrozonych"
+zleceniodawca: "&e&lIgnatius"
+lore:                                               
+  - "&aMiales juz chyba troche czasu"
+  - "&ana zapoznanie sie z klimatem u assasynow."
+  - "&aCzesc osob zaczela wykorzystywac uslugi,"
+  - "&ajakie oferuje Nizar, by moc sie pozbyc"
+  - "&aniewygodne dla siebie osobistosci."
+  - "&aMy mamy obowiazek ich chronic za wszelka cene."
+  - "&aAle wpierw musimy wiedziec kogo nalezy bronic."
+prize:                                    
+  - "xp: 10000"
+  - "money: 150"
+require:                                            
+  - "level: 33"
+  - "quest: 4_quest_2"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "p_quest_20_1_1"
+        type: "przynies"
+        targetName: "&rZlecenie"
+        message: "Przynies 15 zlecen: %stan%"
+        ilosc: 15

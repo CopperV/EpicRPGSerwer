@@ -1,0 +1,15 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&eCratos"
+  - "&7[&aFARMER&7]"
+skinid: 813882083
+location:
+  world: "F_RPG"
+  x: 383.5
+  y: 46.0
+  z: -518.0
+  yaw: 22.0
+  pitch: 10.0
+lookat: true

@@ -1,0 +1,107 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+TserebusSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &7HauHau!?"} @PlayersInRadius{r=20}
+  - delay 15
+  - message{m="<mob.name><&co> &7<Masz pojecie z kim sie mierzysz czlowieczku!?>"} @PlayersInRadius{r=20}
+  - delay 15
+  - message{m="<mob.name><&co> &7Wrrrr!"} @PlayersInRadius{r=20}
+  - delay 15
+  - message{m="<mob.name><&co> &7<Jestem Tserebus, WargSummon Kana, najwiekszy i najgrozniejszy!>"} @PlayersInRadius{r=20}
+  - delay 15
+  - message{m="<mob.name><&co> &7Aaauuuuuuuuu!"} @PlayersInRadius{r=20}
+  - delay 15
+  - message{m="<mob.name><&co> &7<Nie wyjdziesz stad zywy>"} @PlayersInRadius{r=20}
+  - delay 5
+  - summon{mob=WilkSummon;amount=1;noise=1} @Self
+  - summon{mob=WilkSummon;amount=1;noise=1} @Self
+  - delay 5
+  - summon{mob=WilkSummon;amount=1;noise=2} @Self
+  - summon{mob=WilkSummon;amount=1;noise=2} @Self
+  - delay 5
+  - summon{mob=WilkSummon;amount=1;noise=3} @Self
+  - summon{mob=WilkSummon;amount=1;noise=3} @Self
+  - delay 5
+  - summon{mob=WilkSummon;amount=1;noise=4} @Self
+  - summon{mob=WilkSummon;amount=1;noise=4} @Self
+  - delay 5
+  - summon{mob=WilkSummon;amount=1;noise=5} @Self
+  - summon{mob=WilkSummon;amount=1;noise=5} @Self
+TserebusSummon6:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=80}
+  - message{m="<mob.name><&co> &7Aaauuuuuuuuu!"} @PlayersInRadius{r=20}
+  - delay 15
+  - message{m="<mob.name><&co> &7<Jestem Alfa dla WargSummonow. Nie masz ze mna szans!>"} @PlayersInRadius{r=20}
+  - delay 5
+  - summon{mob=PiesSummon;amount=1;noise=3} @Self
+  - summon{mob=PiesSummon;amount=1;noise=3} @Self
+TserebusSummon1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=80}
+  - message{m="<mob.name><&co> &7Aaauuuuuuuuu!"} @PlayersInRadius{r=20}
+  - delay 15
+  - message{m="<mob.name><&co> &7<Jestem Alfa dla WargSummonow. Nie masz ze mna szans!>"} @PlayersInRadius{r=20}
+  - delay 5
+  - summon{mob=WargSummon;amount=1;noise=3} @Self
+  - summon{mob=WargSummon;amount=1;noise=3} @Self
+  - summon{mob=WargSummon;amount=1;noise=3} @Self
+TserebusSummon2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=80}
+  - message{m="<mob.name><&co> &7Wrrrrrrrrrr!"} @PlayersInRadius{r=20}
+  - delay 15
+  - message{m="<mob.name><&co> &7<Wladam nie tylko WargSummonami. Sam sie przekonaj>"} @PlayersInRadius{r=20}
+  - delay 5
+  - summon{mob=WilkSummon;amount=10;noise=3} @Self
+TserebusSummon3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=80}
+  - message{m="<mob.name><&co> &7Wrrrrrrrrrr!"} @PlayersInRadius{r=20}
+  - delay 15
+  - message{m="<mob.name><&co> &7<Wladam nie tylko WargSummonami. Sam sie przekonaj>"} @PlayersInRadius{r=20}
+  - delay 5
+  - summon{mob=SzakalSummon;amount=5;noise=3} @Self
+TserebusSummon4:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=80}
+  - message{m="<mob.name><&co> &7Aaauuuuuuuuu!"} @PlayersInRadius{r=20}
+  - delay 15
+  - message{m="<mob.name><&co> &7<Wataha, do mnie!>"} @PlayersInRadius{r=20}
+  - delay 5
+  - summon{mob=PiesSummon;amount=1;noise=3} @Self
+  - summon{mob=WargSummon;amount=2;noise=3} @Self
+  - summon{mob=SzakalSummon;amount=3;noise=3} @Self
+  - summon{mob=WilkSummon;amount=5;noise=3} @Self
+TserebusSummon5:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=80}
+  - message{m="<mob.name><&co> &7Wrrrr!"} @PlayersInRadius{r=20}
+  - delay 15
+  - message{m="<mob.name><&co> &7<Inne Alfy tez sa mi posluszne!>"} @PlayersInRadius{r=20}
+  - delay 5
+  - summon{mob=Ludojad_Warg;amount=1;noise=3} @Self
+  - summon{mob=Alfa_Warg;amount=1;noise=3} @Self
+TserebusTp:
+  Cooldown: 2
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=80}
+  - message{m="<mob.name><&co> &7Wrrrr!"} @PlayersInRadius{r=10}
+  - delay 20
+  - leap{velocity=50} @target

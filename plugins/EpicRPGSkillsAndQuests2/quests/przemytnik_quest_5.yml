@@ -1,0 +1,35 @@
+id: "przemytnik_quest_5"                                
+name: "&b&oPiraci nad rzeka"                          
+zleceniodawca: "&7&lSaro"                       
+lore:                                               
+  - "&aPewnie zaskoczy Ciebie ta wiadomosc"
+  - "&atak samo jak nas."
+  - "&aDowiedzielismy sie, ze prawie ze pod naszymi nosami,"
+  - "&ana poludniu, przy rzece grasuja prawdziwi piraci."
+  - "&aZ doswiadczenia wiem, ze potrafia narobic piec razy"
+  - "&atyle problemow, co bandyci."
+  - "&aNie sadzisz, ze pasowalo by im zlozyc wizyte?"
+prize:                                    
+  - "xp: 870"
+  - "money: 90"
+require:                                            
+  - "level: 16"
+  - "quest: przemytnik_quest_2"
+  - "quest: przemytnik_quest_3"
+stopnie:
+  1:
+    talking: true
+    message: "&7&lSaro&7: &aDziekuje za twoja pomoc. Masz troche zlota na lepszy ekwipunek."
+    targets:
+      1:
+        id: "przemytnik_quest_5_1_1"
+        type: "zabij"
+        targetName: "&eBukanier"
+        message: "Zabij 11 bukanierow: %stan%"
+        ilosc: 11
+      2:
+        id: "przemytnik_quest_5_1_2"
+        type: "zabij"
+        targetName: "&cSilny pirat"
+        message: "Pokonaj 4 silnych piratow: %stan%"
+        ilosc: 4

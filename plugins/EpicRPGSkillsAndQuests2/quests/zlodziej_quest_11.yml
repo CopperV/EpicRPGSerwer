@@ -1,0 +1,29 @@
+id: "zlodziej_quest_11"                                
+name: "&8Sprzedani"                          
+zleceniodawca: "&e&oRamirez"                       
+lore:                                               
+  - "&aWsrod assasynow Nizara mozna znalezc"
+  - "&aroznego rodzaju zlecenia."
+  - "&aZwykle dotycza uciszenia danej osobistosci"
+  - "&aMozna na nich niezle zarobic."
+  - "&aPotencjalna ofiara moze duzo zaplacic"
+  - "&aza list ze swoja facjata"
+  - "&ajak rowniez potencjalny najemnik."
+  - "&aSam widzisz, pare opcji tutaj jest."
+  - "&aPrzynies mi je, a sowicie Ciebie wynagrodze."
+prize:                                    
+  - "xp: 18500"
+  - "item: Zlota_Moneta 25"
+  - "money: 750"
+require:                                            
+  - "level: 36"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "zlodziej_quest_11_1_1"
+        type: "przynies"
+        targetName: "&rZlecenie"
+        message: "Przynies 25 zlecen: %stan%"
+        ilosc: 25

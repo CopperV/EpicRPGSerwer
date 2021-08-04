@@ -1,0 +1,117 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+
+Golem_PustkiSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &9&o<Odglosy Trzeszczacego Kamienia>"} @PlayersInRadius{r=25}
+
+Golem_PustkiSkill1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=340} @self
+  - message{m="<mob.name><&co> &9&o<Z sufitu zaczynaja leciec drobne kamyczki>"} @PlayersInRadius{r=25}
+  - potion{type=SLOW;duration=240;level=2} @self
+  - potion{type=SLOW;duration=240;level=2} @PIR{r=30}
+  - potion{type=BLINDNESS;duration=240;level=1} @PIR{r=30}
+  - skill{s=Golem_PustkiSkill1_Cast} @self
+  - delay 20
+  - skill{s=Golem_PustkiSkill1_Cast} @self
+  - delay 20
+  - skill{s=Golem_PustkiSkill1_Cast} @self
+  - delay 20
+  - skill{s=Golem_PustkiSkill1_Cast} @self
+  - delay 20
+  - skill{s=Golem_PustkiSkill1_Cast} @self
+  - delay 20
+  - skill{s=Golem_PustkiSkill1_Cast} @self
+  - delay 20
+  - skill{s=Golem_PustkiSkill1_Cast} @self
+  - delay 20
+  - skill{s=Golem_PustkiSkill1_Cast} @self
+  - delay 20
+  - skill{s=Golem_PustkiSkill1_Cast} @self
+  - delay 20
+  - skill{s=Golem_PustkiSkill1_Cast} @self
+
+Golem_PustkiSkill1_Cast:
+  Skills:
+  - summon{type=Golem_Pustki_Rock;amount=1;radius=20;os=true} @self
+  - projectile{type=meteor;onTick=Golem_Pustki-Tick;onEnd=Golem_Pustki-End;v=30;i=1;hR=1;vR=1;syo=8;tyo=8;g=1.2;mr=20} @MIR{r=25;t=Golem_Pustki_Rock}
+
+Golem_Pustki-Tick:
+  Skills:
+  - effect:particles{particle=cloud;amount=20;speed=0.1;hS=1.5;vS=1.5} @origin
+  - effect:particles{particle=enchantmenttable;amount=20;speed=0.1;hS=1.5;vS=1.5} @origin
+Golem_Pustki-End:
+  Skills:
+  - sound{s=entity.generic.explode;v=4;p=0.1} @PIR{r=20}
+  - effect:particles{particle=cloud;amount=40;speed=0.25;hS=2.5;vS=2.5} @origin
+  - effect:particles{particle=enchantmenttable;amount=40;speed=0.25;hS=2.5;vS=2.5} @origin
+  - damage{amount=360} @PlayersNearOrigin{r=5}
+
+Golem_PustkiSkill2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=120} @self
+  - summon{type=Golem_PustkiSzczelina;amount=1;radius=0} @Location{c=-1976.5,53,1245.5,0,0}
+
+Golem_PustkiSzczelina_Particles:
+  Skills:
+  - effect:particleline{particle=largesmoke;amount=5;vs=0.15;hs=0.15;s=0.05;fromOrigin=true} @Forward{f=0;y=4}
+
+Golem_PustkiSzczelina_Spawn:
+  Skills:
+  - sound{s=item.shield.break;v=2;p=0.05} @self
+  - delay 300
+  - remove @self
+  - sound{s=item.endermen.hurt;v=2;p=2} @self
+
+Golem_PustkiSzczelina_Projectile:
+  Skills:
+  - effect:sound{s=entity.anvil.land;v=4;p=0.1} @self
+  - missile{ot=Golem_PustkiSzczelina-Tick;oH=Golem_PustkiSzczelina-End;v=5;i=1;hR=1.5;vR=1.5;in=6;md=120;mr=50;sB=false;fo=true} @PIR{r=25}
+
+Golem_PustkiSzczelina-Tick:
+  Skills:
+  - effect:particles{particle=largesmoke;amount=5;speed=0.1;hS=0.15;vS=0.15} @origin
+
+
+Golem_PustkiSzczelina-End:
+  Skills:
+  - effect:sound{s=entity.sheep.hurt;v=4;p=0.1} @self
+  - damage{amount=175}
+  - effect:particles{particle=largesmoke;amount=20;speed=0.2;hS=0.4;vS=0.4} @origin
+
+Golem_PustkiSkill3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=120} @self
+  - message{m="<mob.name><&co> &9&o<Golem staje - przygotowuje sie do czegos>"} @PlayersInRadius{r=25}
+  - stun{d=60} @self
+  - delay 60
+  - sound{s=entity.generic.explode;v=10;p=0.01} @self
+  - effect:particlering{particle=blockcrack_87;radius=1;points=6;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - delay 2
+  - effect:particlering{particle=blockcrack_87;radius=2;points=10;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - delay 2
+  - effect:particlering{particle=blockcrack_87;radius=3;points=14;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - delay 2
+  - effect:particlering{particle=blockcrack_87;radius=4;points=18;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - delay 2
+  - effect:particlering{particle=blockcrack_87;radius=5;points=22;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - delay 2
+  - effect:particlering{particle=blockcrack_87;radius=6;points=26;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - delay 2
+  - effect:particlering{particle=blockcrack_87;radius=7;points=30;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - damage{a=190} @PIR{r=7}
+  - potion{type=WITHER;duration=200;level=3} @PIR{r=7}
+  - sound{s=entity.generic.explode;v=10;p=0.01} @PIR{r=7}
+Golem_Pustki_RockSpawn:
+  Skills:
+  - sound{s=entity.blaze.shoot;v=10;p=0.01} @PIR{r=40}
+  - delay 2
+  - remove @self

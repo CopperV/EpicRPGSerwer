@@ -1,0 +1,100 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+Exp50_Wiedzma_Teleport:
+  Conditions:
+  - hasaura Exp50_8_Tp_Prepare false
+  Skills:
+  - Aura{auraName=Exp50_8_Tp_Prepare;duration=80} @self
+  - effect:particles{particle=mobSpell;color=#0000EE;amount=25;speed=0.25;hS=0.75;vS=0.75;y=1} @self
+  - effect:particles{particle=mobSpell;color=#8B008B;amount=25;speed=0.25;hS=0.75;vS=0.75;y=1} @self
+  - delay 20
+  - effect:particles{particle=mobSpell;color=#0000EE;amount=25;speed=0.25;hS=0.75;vS=0.75;y=1} @self
+  - effect:particles{particle=mobSpell;color=#8B008B;amount=25;speed=0.25;hS=0.75;vS=0.75;y=1} @self
+  - delay 20
+  - effect:particles{particle=mobSpell;color=#0000EE;amount=25;speed=0.25;hS=0.75;vS=0.75;y=1} @self
+  - effect:particles{particle=mobSpell;color=#8B008B;amount=25;speed=0.25;hS=0.75;vS=0.75;y=1} @self
+  - delay 20
+  - delay 5
+  - sound{s=entity.endermen.teleport;v=1;p=0.1} @self
+  - teleport{spreadh=5;spreadv=0} @target
+  - effect:particles{particle=mobSpell;color=#AFBECD;amount=50;speed=0.2;hS=1.5;vS=1.5;y=1} @self
+  - effect:particles{particle=mobSpell;color=#FFDD11;amount=50;speed=0.2;hS=1.5;vS=1.5;y=1} @self
+
+Exp50_Creeper:
+  Skills:
+  - damage{amount=200} @PIR{r=5}
+
+Exp50_Wiedzma_Teleport_Effect:
+  Skills:
+  - orbital{onTick=Exp50_Wiedzma_Teleport_Effect_Tick;onHit=Exp50_Wiedzma_Teleport_Effect_Hit;points=29;interval=1;duration=100;charges=4;r=1;hr=1;rx=0;ry=0;oy=1}
+  - orbital{onTick=Exp50_Wiedzma_Teleport_Effect_Tick2;onHit=Exp50_Wiedzma_Teleport_Effect_Hit;points=29;interval=1;duration=100;charges=4;r=1;hr=1;rx=0;ry=3.14;oy=1}
+
+Exp50_Wiedzma_Teleport_Effect_Hit:
+  Skills:
+  - damage{amount=150} @PlayersNearOrigin{r=1.5}
+Exp50_Wiedzma_Teleport_Effect_Tick:
+  Skills:
+  - effect:particles{particle=mobSpell;color=#0000EE;amount=5;speed=0.05;hS=0.05;vS=0.05} @origin
+
+Exp50_Wiedzma_Teleport_Effect_Tick2:
+  Skills:
+  - effect:particles{particle=mobSpell;color=#8B008B;amount=5;speed=0.05;hS=0.05;vS=0.05} @origin
+
+Exp50_Summon:
+  Conditions:
+  - hasaura Exp50_8_Summon false
+  Skills:
+  - Aura{auraName=Exp50_8_Summon;duration=60} @self
+  - skill{s=Exp50_Wiedzma_Prepare} @TargetLocation
+  - delay 10
+  - skill{s=Exp50_Wiedzma_Prepare} @TargetLocation
+  - delay 10
+  - skill{s=Exp50_Wiedzma_Prepare} @TargetLocation
+  - delay 10
+  - skill{s=Exp50_Wiedzma_Prepare} @TargetLocation
+  - delay 10
+  - skill{s=Exp50_Wiedzma_Prepare} @TargetLocation
+
+Exp50_Wiedzma_Prepare:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=120}
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.1;hS=1;vS=1;y=0}
+  - delay 5
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - summon{mob=Exp8_Damage;amount=1;noise=0}
+
+Exp50_8_Damage:
+  Skills:
+  - delay 2
+  - damage{amount=140} @PIR{r=4}
+  - effect:particles{particle=mobSpell;color=#0000FF;amount=75;speed=0.5;hS=3;vS=3;y=0} @self
+  - effect:particles{particle=mobSpell;color=#00FF00;amount=75;speed=0.5;hS=3;vS=3;y=0} @self
+  - effect:particles{particle=mobSpell;color=#FF0000;amount=75;speed=0.5;hS=3;vS=3;y=0} @self
+  - potion{type=SLOW;duration=200;level=3} @PIR{r=4}
+  - sound{s=entity.splash_potion.break;v=1;p=0.5} @self
+  - delay 2
+  - remove @self

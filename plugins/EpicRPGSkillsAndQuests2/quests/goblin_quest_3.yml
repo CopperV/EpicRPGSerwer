@@ -1,0 +1,33 @@
+id: "goblin_quest_3"                                
+name: "&cGoblini wojownicy"                          
+zleceniodawca: "&8Udar"                       
+lore:                                               
+  - "&aWsrod goblinow mozna spotkac, o ironio,"
+  - "&awyspecjalizowane jednostki - wojownikow."
+  - "&aO ile zwykle gobliny nie sprawiaja problemow"
+  - "&aw walce,"
+  - "&ao tyle goblini wojownicy potrafia naprzykrzyc zycia."
+  - "&aTrzeba sie rowniez za nich zabrac."
+  - "&aJezeli udasz sie w glab lasu na polnoc,"
+  - "&ato powinienes ich znalezc."
+prize:                                    
+  - "xp: 380"
+require:                                            
+  - "level: 7"
+  - "quest: goblin_quest_2"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "goblin_quest_3_1_1"
+        type: "zabij"
+        targetName: "&2Goblin Berserker"
+        message: "Zabij 15 goblinich berserkerow: %stan%"
+        ilosc: 15
+      2:
+        id: "goblin_quest_3_1_2"
+        type: "zabij"
+        targetName: "&a&lGoblini wojownik"
+        message: "Zabij 10 goblinich wojownikow: %stan%"
+        ilosc: 10

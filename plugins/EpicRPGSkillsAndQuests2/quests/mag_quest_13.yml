@@ -1,0 +1,36 @@
+id: "mag_quest_13"                                
+name: "&3&oNowe stworzenia"                          
+zleceniodawca: "&r&lBialy Enderman"                       
+lore:                                               
+  - "&aZapewne przychodzac tutaj"
+  - "&azastales wiele stworzen,"
+  - "&aktore nigdy wczesniej nie widziales."
+  - "&aI nie zawsze tutaj byly."
+  - "&aCaly ten las przedstawial sie"
+  - "&aw zupelnie innych barwach."
+  - "&aChcialbym go znow widziec takim"
+  - "&ajaki byl kiedys,"
+  - "&aale do tego trzeba pierw sie pozbyc"
+  - "&anieproszonych gosci."
+prize:                                    
+  - "xp: 45750"
+  - "money: 600"
+require:                                            
+  - "level: 52"
+  - "klasa: &5Mag"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "mag_quest_13_1_1"
+        type: "zabij"
+        targetName: "&aCreeper"
+        message: "Zabij 20 Creeperow: %stan%"
+        ilosc: 20
+      2:
+        id: "mag_quest_13_1_2"
+        type: "zabij"
+        targetName: "&2&oZombie"
+        message: "Zabij 25 Zombie: %stan%"
+        ilosc: 25

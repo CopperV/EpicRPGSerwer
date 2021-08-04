@@ -1,0 +1,26 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+HuskCopySummon:
+  Skills:
+  - summon{mob=Zombie2;amount=1;noise=1} @Self
+  - effect:flames @Self
+  - sound{s=entity.ghast.shoot} @PIR{r=10}
+HuskMinionSummon:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=60}
+  - summon{mob=Zombie2;amount=1;noise=3} @Self
+  - summon{mob=Zombie2;amount=1;noise=3} @Self
+  - effect:flames @Self
+  - sound{s=entity.generic.big_fall} @PIR{r=10}
+HuskSummon:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=60}
+  - summon{mob=Zombie3;amount=1;noise=3} @Self
+  - summon{mob=Zombie3;amount=1;noise=3} @Self
+  - effect:flames @Self
+  - sound{s=entity.generic.big_fall} @PIR{r=10}

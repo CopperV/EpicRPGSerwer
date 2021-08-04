@@ -1,0 +1,48 @@
+name: "&e&lNers"
+title: "&e&lNers - quester"
+size: 27
+slots:
+  1:
+    item: "pirat_quest_2"
+  2:
+    item: "pirat_quest_3"
+  3:
+    item: "pirat_quest_4"
+  4:
+    item: "pirat_quest_5"
+  10:
+    item: "fabula_quest_12"
+  11:
+    item: "fabula_quest_13"
+  12:
+    item: "fabula_quest_16"
+  19:
+    item: "morze_quest_2"
+  20:
+    item: "morze_quest_4"
+  21:
+    item: "morze_quest_6"
+  22:
+    item: "morze_quest_8"
+  23:
+    item: "morze_quest_10"
+  8:
+    item: "Walka1"
+    max: 30
+    wymagania:
+    - "quest: pirat_quest_3"
+  9:
+    item: "Walka2"
+    max: 30
+    wymagania:
+    - "quest: pirat_quest_3"
+  17:
+    item: "Zrecznosc1"
+    max: 80
+    wymagania:
+    - "quest: pirat_quest_3"
+  18:
+    item: "Zrecznosc5"
+    max: 80
+    wymagania:
+    - "quest: pirat_quest_3"

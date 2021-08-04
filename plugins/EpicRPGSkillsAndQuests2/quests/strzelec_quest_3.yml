@@ -1,0 +1,35 @@
+id: "strzelec_quest_3"
+name: "&eRywalizacja o zasoby"
+zleceniodawca: "&7&lSaro"
+lore:
+  - "&aOd niepamietnych czasow trwa walka"
+  - "&apomiedzy nami a bandytami o zasoby."
+  - "&aRaz sobie oni radza a raz my."
+  - "&aJest to jednak nieuczciwa walka - ich jest"
+  - "&aznacznie wiecej."
+  - "&aCzasami tez sie zdarzaja napady z ich strony"
+  - "&ana nasz oboz i rabuja co sie da."
+  - "&aNie mozemy pozwolic sobie na takie straty."
+prize:
+  - "xp: 680"
+  - "money: 200"
+require:
+  - "level: 13"
+  - "klasa: &2Mysliwy"
+  - "quest: strzelec_quest_2"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "strzelec_quest_3_1_1"
+        type: "zabij"
+        targetName: "&cRabus"
+        message: "Zabij 40 rabusiow: %stan%"
+        ilosc: 40
+      2:
+        id: "strzelec_quest_3_1_2"
+        type: "zabij"
+        targetName: "&cKieszonkowiec"
+        message: "Zabij 30 kieszonkowcow: %stan%"
+        ilosc: 30

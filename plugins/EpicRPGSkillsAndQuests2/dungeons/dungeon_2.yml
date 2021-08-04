@@ -1,0 +1,208 @@
+id: dungeon_2
+name: '&8&lTwierdza Pustki'
+zleceniodawca: '&3&lSteve'
+lore:
+- '&aMajac przejety statek z miasta'
+- '&amozemy przypuscic szturm'
+- '&ana Twierdze Pustki.'
+- '&aBadz jednak ostrozny.'
+- '&aHerobrine trzyma w twierdzy cala swa armie.'
+- '&aNie mamy pojecia z czym przyjdzie sie Wam walczyc.'
+defeat: true
+world: dungeon2
+maxResp: 15
+require:
+- party
+stopnie:
+  '1':
+    talking: false
+    resp:
+      x: -1858.5
+      y: 69
+      z: 941.5
+    targets:
+      '1':
+        id: dungeon_2_1_1
+        type: znajdz
+        targetName: dungeon2_1
+        message: 'Wejdz do srodka Twierdzy Pustki (X: -1858; Z: 1070): %stan%'
+  '2':
+    talking: false
+    resp:
+      x: -1858.5
+      y: 81.5
+      z: 1076.5
+    blocked:
+    - dungeon2_2
+    - dungeon2_3
+    - dungeon2_4
+    - dungeon2_5
+    - dungeon2_6
+    - dungeon2_7
+    - dungeon2_21
+    start:
+    - mm m spawn Midas 1 dungeon2,-1858.5,82,1081.5
+    targets:
+      '1':
+        id: dungeon_2_2_1
+        type: zabij
+        targetName: '&c&lMidas - Straznik Bramy'
+        message: 'Pokonaj Midasa - Straznika Bramy: %stan%'
+        ilosc: 1
+  '3':
+    talking: false
+    resp:
+      x: -1858.5
+      y: 81.5
+      z: 1076.5
+    blocked:
+    - dungeon2_6
+    targets:
+      '1':
+        id: dungeon_2_3_1
+        type: zabij
+        targetName: '&3Wojownik twierdzy'
+        message: 'Pokonaj Wojownikow Twierdzy: %stan%'
+        ilosc: 20
+  '4':
+    talking: false
+    resp:
+      x: -1858.5
+      y: 81.5
+      z: 1076.5
+    targets:
+      '1':
+        id: dungeon_2_4_1
+        type: znajdz
+        targetName: dungeon2_8
+        message: 'Szturmuj dalej Twierdze (X: -1858; Z: 1264): %stan%'
+  '5':
+    talking: false
+    resp:
+      x: -1858.5
+      y: 80
+      z: 1282.5
+    blocked:
+    - dungeon2_9
+    - dungeon2_10
+    start:
+    - mm m spawn Vivian 1 dungeon2,-1858.5,80,1282.5
+    targets:
+      '1':
+        id: dungeon_2_5_1
+        type: zabij
+        targetName: '&5&lVivian - Zamkowa Dama'
+        message: 'Pokonaj Vivian - Zamkowa Dame: %stan%'
+        ilosc: 1
+  '6':
+    talking: false
+    resp:
+      x: -1858.5
+      y: 80
+      z: 1282.5
+    targets:
+      '1':
+        id: dungeon_2_6_1
+        type: znajdz
+        targetName: dungeon2_11
+        message: 'Wejdz do Wielkiej Sali Twierdzy (X: -1858; Z: 1333): %stan%'
+  '7':
+    talking: false
+    resp:
+      x: -1858.5
+      y: 79.5
+      z: 1334.5
+    blocked:
+    - dungeon2_12
+    - dungeon2_13
+    - dungeon2_14
+    - dungeon2_19
+    - dungeon2_20
+    start:
+    - mm m spawn Inubis 1 dungeon2,-1858.5,79.5,1346.5
+    targets:
+      '1':
+        id: dungeon_2_7_1
+        type: zabij
+        targetName: '&8&lInubis - Lord Pustki'
+        message: 'Pokonaj Inubisa - Lorda Pustki: %stan%'
+        ilosc: 1
+  '8':
+    talking: false
+    resp:
+      x: -1858.5
+      y: 79.5
+      z: 1334.5
+    blocked:
+    - dungeon2_14
+    targets:
+      '1':
+        id: dungeon_2_8_1
+        type: znajdz
+        targetName: dungeon2_15
+        message: 'Wejdz do Sali Arystokratow (X: -1858; Z: 1309): %stan%'
+  '9':
+    talking: false
+    resp:
+      x: -1858.5
+      y: 96
+      z: 1305.5
+    blocked:
+    - dungeon2_13
+    start:
+    - mm m spawn Niklaus 1 dungeon2,-1843.5,96.0625,1309.5
+    - mm m spawn Frieda 1 dungeon2,-1873.5,96.0625,1309.5
+    targets:
+      '1':
+        id: dungeon_2_9_1
+        type: zabij
+        targetName: '&4&oHrabia Niklaus'
+        message: 'Pokonaj Hrabiego Niklausa: %stan%'
+        ilosc: 1
+      '2':
+        id: dungeon_2_9_2
+        type: zabij
+        targetName: '&4&oBaronowa Frieda'
+        message: 'Pokonaj Baronowa Friede: %stan%'
+        ilosc: 1
+  '10':
+    talking: false
+    resp:
+      x: -1858.5
+      y: 79.5
+      z: 1334.5
+    targets:
+      '1':
+        id: dungeon_2_10_1
+        type: znajdz
+        targetName: dungeon2_16
+        message: 'Wyjdz z Wielkiej Sali (X: -1858; Z: 1382): %stan%'
+  '11':
+    talking: false
+    resp:
+      x: -1858.5
+      y: 79.5
+      z: 1334.5
+    targets:
+      '1':
+        id: dungeon_2_11_1
+        type: znajdz
+        targetName: dungeon2_17
+        message: 'Udaj sie do Tronu Pustki (X: -1858; Z: 1308): %stan%'
+  '12':
+    talking: true
+    resp:
+      x: -1858.5
+      y: 116
+      z: 1324.5
+    blocked:
+    - dungeon2_18
+    start:
+    - mm m spawn NULL_ 1 dungeon2,-1858.5,123.0625,1298.5
+    targets:
+      '1':
+        id: dungeon_2_12_1
+        type: zabij
+        targetName: '&8&lNULL - Legendary Boss'
+        message: 'Pokonaj NULLa: %stan%'
+        ilosc: 1

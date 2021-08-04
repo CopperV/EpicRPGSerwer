@@ -1,0 +1,28 @@
+id: "arena_quest_5"                                
+name: "&3Weterani nowego swiata"                          
+zleceniodawca: "&eAlwin"                       
+lore:                                               
+  - "&aA OTO I ON!"
+  - "&aWOJOWNIK PROSTO Z NOWEGO SWIATA!"
+  - "&aGDZIE CIEMNOSC I MROK TLAMSZA WSZYSTKO!"
+  - "&aZapewne wrociles tutaj,"
+  - "&aby troche powalczyc na arenie."
+  - "&aTak sie sklada, ze mam chyba wyzwanie"
+  - "&aw sam raz dla Ciebie."
+prize:                                    
+  - "xp: 8000"
+  - "money: 4500"
+require:                                            
+  - "level: 53"
+  - "quest: arena_quest_4"
+stopnie:
+  1:
+    talking: true
+    message: "&eAlwin&7: &aA oto byl powrot mistrza areny! Widowisko jakich malo! Podziekujmy mu za te wspaniale walki!"
+    targets:
+      1:
+        id: "arena_quest_5_1_1"
+        type: "player"
+        level: 50
+        message: "Pokonaj 11 graczy na poziomie przynajmniej 50: %stan%"
+        ilosc: 11

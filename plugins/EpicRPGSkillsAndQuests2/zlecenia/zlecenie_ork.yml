@@ -1,0 +1,177 @@
+id: "zlecenie_ork"                                
+name: "&c&oNiestabilny front"
+zleceniodawca: "&6&lRhobar"                       
+lore:                                               
+  - "&aFront na poludniu od nas caly czas"
+  - "&aulega zmianie."
+  - "&aNie potrafimy go ustabilizowac,"
+  - "&aa zadania nam nie ulatwiaja assasyni Niazara."
+  - "&aOrkow bija nas na leb sila i przewaga."
+  - "&aChetnie zaplace temu, kto pomoze nam"
+  - "&austabilizowac choc troche ten front."
+prize:                                    
+  - "xp: 21000"
+  - "money: 240"
+require:                                            
+  - "level: 38"
+  - "quest: 4_quest_23"
+etapy: 5
+stopnie:
+  1:
+    targets:
+      1:
+        id: "zlecenie_ork_1_1"
+        type: "zabij"
+        targetName: "&4&lOrkowy General - BOSS"
+        message: "Pokonaj Orkowego Generala: %stan%"
+        ilosc: 1
+  2:
+    targets:
+      1:
+        id: "zlecenie_ork_2_1"
+        type: "zabij"
+        targetName: "&2Ork"
+        message: "Zabij 50 orkow: %stan%"
+        ilosc: 50
+  3:
+    targets:
+      1:
+        id: "zlecenie_ork_3_1"
+        type: "zabij"
+        targetName: "&2&lGorski ork"
+        message: "Zabij 23 gorskich orkow: %stan%"
+        ilosc: 23
+      2:
+        id: "zlecenie_ork_3_2"
+        type: "zabij"
+        targetName: "&a&lGorski Szaman"
+        message: "Zabij 12 gorskich szamanow: %stan%"
+        ilosc: 12
+  4:
+    targets:
+      1:
+        id: "zlecenie_ork_4_1"
+        type: "zabij"
+        targetName: "&a&lGorski Szaman"
+        message: "Zabij 15 gorskich szamanow: %stan%"
+        ilosc: 15
+      1:
+        id: "zlecenie_ork_4_2"
+        type: "zabij"
+        targetName: "&a&lOrkowy Szaman"
+        message: "Zabij 15 orkowych szamanow: %stan%"
+        ilosc: 15
+  5:
+    targets:
+      1:
+        id: "zlecenie_ork_5_1"
+        type: "zabij"
+        targetName: "&c&lElitarny Ork Wojownik"
+        message: "Zabij 20 elitarnych orkow: %stan%"
+        ilosc: 20
+  6:
+    targets:
+      1:
+        id: "zlecenie_ork_6_1"
+        type: "zabij"
+        targetName: "&cOrk wojownik"
+        message: "Zabij 24 orkowych wojownikow: %stan%"
+        ilosc: 20
+      2:
+        id: "zlecenie_ork_6_2"
+        type: "zabij"
+        targetName: "&cWarg"
+        message: "Zabij 16 wargow: %stan%"
+        ilosc: 16
+  7:
+    targets:
+      1:
+        id: "zlecenie_ork_7_1"
+        type: "zabij"
+        targetName: "&cWarg"
+        message: "Zabij 25 wargow: %stan%"
+        ilosc: 25
+      2:
+        id: "zlecenie_ork_7_2"
+        type: "zabij"
+        targetName: "&4Orkowy Pies"
+        message: "Zabij 15 orkowych psow: %stan%"
+        ilosc: 15
+  8:
+    targets:
+      1:
+        id: "zlecenie_ork_8_1"
+        type: "zabij"
+        targetName: "&a&lOrkowy Szaman"
+        message: "Zabij 15 orkowych szamanow: %stan%"
+        ilosc: 15
+      2:
+        id: "zlecenie_ork_8_2"
+        type: "zabij"
+        targetName: "&cWarg"
+        message: "Zabij 11 wargow: %stan%"
+        ilosc: 11
+      3:
+        id: "zlecenie_ork_8_3"
+        type: "zabij"
+        targetName: "&4Orkowy Pies"
+        message: "Zabij 4 orkowe psy: %stan%"
+        ilosc: 4
+  9:
+    targets:
+      1:
+        id: "zlecenie_ork_9_1"
+        type: "zabij"
+        targetName: "&c&lElitarny Ork Wojownik"
+        message: "Zabij 10 elitarnych orkow: %stan%"
+        ilosc: 10
+      2:
+        id: "zlecenie_ork_9_2"
+        type: "zabij"
+        targetName: "&a&lOrkowy Szaman"
+        message: "Zabij 10 orkowych szamanow: %stan%"
+        ilosc: 10
+  10:
+    targets:
+      1:
+        id: "zlecenie_ork_10_1"
+        type: "zabij"
+        targetName: "&cOrk wojownik"
+        message: "Zabij 26 orkowych wojownikow: %stan%"
+        ilosc: 26
+      2:
+        id: "zlecenie_ork_10_2"
+        type: "zabij"
+        targetName: "&c&lElitarny Ork Wojownik"
+        message: "Zabij 14 elitarnych orkow: %stan%"
+        ilosc: 14
+  11:
+    targets:
+      1:
+        id: "zlecenie_ork_11_1"
+        type: "zabij"
+        targetName: "&cOrk wojownik"
+        message: "Zabij 40 orkowych wojownikow: %stan%"
+        ilosc: 40
+  12:
+    targets:
+      1:
+        id: "zlecenie_ork_12_1"
+        type: "zabij"
+        targetName: "&2Ork"
+        message: "Zabij 30 orkow: %stan%"
+        ilosc: 30
+      2:
+        id: "zlecenie_ork_12_2"
+        type: "zabij"
+        targetName: "&cWarg"
+        message: "Zabij 15 wargow: %stan%"
+        ilosc: 15
+  13:
+    targets:
+      1:
+        id: "zlecenie_ork_13_1"
+        type: "zabij"
+        targetName: "&a&lGorski Szaman"
+        message: "Zabij 30 gorskich szamanow: %stan%"
+        ilosc: 30

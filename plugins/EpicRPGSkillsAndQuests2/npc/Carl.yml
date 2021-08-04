@@ -1,0 +1,62 @@
+name: "&7&lCarl"
+title: "&7&lCarl - quester"
+size: 27
+slots:
+  1:
+    item: "fabula_quest_10"
+  2:
+    item: "fabula_quest_11"
+  3:
+    item: "fabula_quest_16"
+  4:
+    item: "p_quest_16"
+  5:
+    item: "zlecenie_carl"
+  10:
+    item: "mag_quest_2"
+#  max: 150
+#  wymagania:
+#  - "klasa: &5Mag"
+#  - "quest: quest1"
+  11:
+    item: "mag_quest_3"
+  12:
+    item: "mag_quest_4"
+  13:
+    item: "mag_quest_5"
+  14:
+    item: "mag_quest_6"
+  8:
+    item: "Inteligencja1"
+    max: 110
+    wymagania:
+    - "quest: mag_quest_2"
+    - "klasa: &5Mag"
+  9:
+    item: "Inteligencja5"
+    max: 110
+    wymagania:
+    - "quest: mag_quest_2"
+    - "klasa: &5Mag"
+  17:
+    item: "Mana1"
+    max: 180
+    wymagania:
+    - "quest: mag_quest_2"
+    - "klasa: &5Mag"
+  18:
+    item: "Mana5"
+    max: 180
+    wymagania:
+    - "quest: mag_quest_2"
+    - "klasa: &5Mag"
+  26:
+    item: "Krag3"
+    wymagania:
+    - "quest: mag_quest_2"
+    - "klasa: &5Mag"
+  27:
+    item: "Krag4"
+    wymagania:
+    - "quest: mag_quest_2"
+    - "klasa: &5Mag"

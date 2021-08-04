@@ -1,0 +1,162 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+
+KaalSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &9&oJestes niczym!"} @PlayersInRadius{r=25}
+
+KaalSkill1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=60} @self
+  - message{m="<mob.name><&co> &9&oNie potrzebujemy nikogo, by z Wami zwyciezyc!"} @PlayersInRadius{r=25}
+  - summon{type=KaalSummon2;amount=1;radius=0} @Location{c=-2109.5,111,1302.5,0,0}
+  - randomskill{skills=KaalSummonLoc1,KaalSummonLoc2,KaalSummonLoc3,KaalSummonLoc4,KaalSummonLoc5,KaalSummonLoc6,KaalSummonLoc7,KaalSummonLoc8,KaalSummonLoc9,KaalSummonLoc10,KaalSummonLoc11,KaalSummonLoc12,KaalSummonLoc13,KaalSummonLoc14,KaalSummonLoc15,KaalSummonLoc16,KaalSummonLoc17,KaalSummonLoc18,KaalSummonLoc19,KaalSummonLoc20,KaalSummonLoc21,KaalSummonLoc22,KaalSummonLoc23,KaalSummonLoc24}
+  - randomskill{skills=KaalSummonLoc1,KaalSummonLoc2,KaalSummonLoc3,KaalSummonLoc4,KaalSummonLoc5,KaalSummonLoc6,KaalSummonLoc7,KaalSummonLoc8,KaalSummonLoc9,KaalSummonLoc10,KaalSummonLoc11,KaalSummonLoc12,KaalSummonLoc13,KaalSummonLoc14,KaalSummonLoc15,KaalSummonLoc16,KaalSummonLoc17,KaalSummonLoc18,KaalSummonLoc19,KaalSummonLoc20,KaalSummonLoc21,KaalSummonLoc22,KaalSummonLoc23,KaalSummonLoc24}
+  - randomskill{skills=KaalSummonLoc1,KaalSummonLoc2,KaalSummonLoc3,KaalSummonLoc4,KaalSummonLoc5,KaalSummonLoc6,KaalSummonLoc7,KaalSummonLoc8,KaalSummonLoc9,KaalSummonLoc10,KaalSummonLoc11,KaalSummonLoc12,KaalSummonLoc13,KaalSummonLoc14,KaalSummonLoc15,KaalSummonLoc16,KaalSummonLoc17,KaalSummonLoc18,KaalSummonLoc19,KaalSummonLoc20,KaalSummonLoc21,KaalSummonLoc22,KaalSummonLoc23,KaalSummonLoc24}
+
+KaalSummonLoc1:
+  Skills:
+  - summon{type=KaalSummon1;amount=1;radius=0} @Location{c=-2102.5,111,1298.5,0,0}
+
+KaalSummonLoc2:
+  Skills:
+  - summon{type=KaalSummon1;amount=1;radius=0} @Location{c=-2101.5,111,1298.5,0,0}
+
+KaalSummonLoc3:
+  Skills:
+  - summon{type=KaalSummon1;amount=1;radius=0} @Location{c=-2100.5,111,1298.5,0,0}
+
+KaalSummonLoc4:
+  Skills:
+  - summon{type=KaalSummon1;amount=1;radius=0} @Location{c=-2099.5,111,1298.5,0,0}
+
+KaalSummonLoc5:
+  Skills:
+  - summon{type=KaalSummon1;amount=1;radius=0} @Location{c=-2098.5,111,1298.5,0,0}
+
+KaalSummonLoc6:
+  Skills:
+  - summon{type=KaalSummon1;amount=1;radius=0} @Location{c=-2097.5,111,1298.5,0,0}
+
+KaalSummonLoc7:
+  Skills:
+  - summon{type=KaalSummon1;amount=1;radius=0} @Location{c=-2102.5,112,1297.5,0,0}
+
+KaalSummonLoc8:
+  Skills:
+  - summon{type=KaalSummon1;amount=1;radius=0} @Location{c=-2101.5,112,1297.5,0,0}
+
+KaalSummonLoc9:
+  Skills:
+  - summon{type=KaalSummon1;amount=1;radius=0} @Location{c=-2100.5,112,1297.5,0,0}
+
+KaalSummonLoc10:
+  Skills:
+  - summon{type=KaalSummon1;amount=1;radius=0} @Location{c=-2099.5,112,1297.5,0,0}
+
+KaalSummonLoc11:
+  Skills:
+  - summon{type=KaalSummon1;amount=1;radius=0} @Location{c=-2098.5,112,1297.5,0,0}
+
+KaalSummonLoc12:
+  Skills:
+  - summon{type=KaalSummon1;amount=1;radius=0} @Location{c=-2097.5,112,1297.5,0,0}
+
+KaalSummonLoc13:
+  Skills:
+  - summon{type=KaalSummon1;amount=1;radius=0} @Location{c=-2102.5,111,1306.5,0,0}
+
+KaalSummonLoc14:
+  Skills:
+  - summon{type=KaalSummon1;amount=1;radius=0} @Location{c=-2101.5,111,1306.5,0,0}
+
+KaalSummonLoc15:
+  Skills:
+  - summon{type=KaalSummon1;amount=1;radius=0} @Location{c=-2100.5,111,1306.5,0,0}
+
+KaalSummonLoc16:
+  Skills:
+  - summon{type=KaalSummon1;amount=1;radius=0} @Location{c=-2099.5,111,1306.5,0,0}
+
+KaalSummonLoc17:
+  Skills:
+  - summon{type=KaalSummon1;amount=1;radius=0} @Location{c=-2098.5,111,1306.5,0,0}
+
+KaalSummonLoc18:
+  Skills:
+  - summon{type=KaalSummon1;amount=1;radius=0} @Location{c=-2097.5,111,1306.5,0,0}
+
+KaalSummonLoc19:
+  Skills:
+  - summon{type=KaalSummon1;amount=1;radius=0} @Location{c=-2102.5,112,1307.5,0,0}
+
+KaalSummonLoc20:
+  Skills:
+  - summon{type=KaalSummon1;amount=1;radius=0} @Location{c=-2101.5,112,1307.5,0,0}
+
+KaalSummonLoc21:
+  Skills:
+  - summon{type=KaalSummon1;amount=1;radius=0} @Location{c=-2100.5,112,1307.5,0,0}
+
+KaalSummonLoc22:
+  Skills:
+  - summon{type=KaalSummon1;amount=1;radius=0} @Location{c=-2099.5,112,1307.5,0,0}
+
+KaalSummonLoc23:
+  Skills:
+  - summon{type=KaalSummon1;amount=1;radius=0} @Location{c=-2098.5,112,1307.5,0,0}
+
+KaalSummonLoc24:
+  Skills:
+  - summon{type=KaalSummon1;amount=1;radius=0} @Location{c=-2097.5,112,1307.5,0,0}
+
+KaalSkill2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=140} @self
+  - message{m="<mob.name><&co> &9&oWezme te Twoja glowe!"} @PlayersInRadius{r=25}
+  - stun{d=60} @self
+  - delay 60
+  - equip{item=AIR:OFFHAND} @self
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=KaalOstrze;onTick=KaalProjectile-Tick;onHit=KaalProjectile-Hit;v=9;i=1;hR=1.4;vR=1.4;mr=30;sB=false;sE=false} @NearestPlayer{r=30}
+  - delay 30
+  - equip{item=AIR:0} @self
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=KaalOstrze;onTick=KaalProjectile-Tick;onHit=KaalProjectile-Hit;v=9;i=1;hR=1.4;vR=1.4;mr=30;sB=false;sE=false} @NearestPlayer{r=30}
+  - delay 50
+  - effect:sound{s=item.armor.equip_chain;v=4;p=1} @self
+  - equip{item=KaalOstrze:OFFHAND} @self
+  - delay 30
+  - effect:sound{s=item.armor.equip_chain;v=4;p=1} @self
+  - equip{item=KaalOstrze:0} @self
+
+KaalProjectile-Tick:
+  Skills:
+  - effect:particles{particle=enchantmenttable;amount=5;speed=0.05;hS=0.1;vS=0.1} @origin
+
+KaalProjectile-Hit:
+  Skills:
+  - sound{s=entity.firework.large_blast_far;v=4;p=0.2} @origin
+  - damage{amount=240}
+  - effect:particles{particle=enchantmenttable;amount=30;speed=0.1;hS=0.1;vS=0.1} @origin
+  - potion{type=WITHER;duration=100;level=4}
+  - potion{type=CONFUSION;duration=100;level=4}
+
+KaalSkill3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=100} @self
+  - message{m="<mob.name><&co> &9&oNie masz szans z Kamiennym Legionem!"} @PlayersInRadius{r=25}
+  - summon{type=KaalSummon;amount=1;radius=2;os=true} @self
+
+KaalSkill_AttackPotion:
+  Conditions:
+  - mobsInRadius{types=KaalSummon;amount=1to100;radius=40} true
+  Skills:
+  - potion{type=SPEED;duration=60;level=1} @self

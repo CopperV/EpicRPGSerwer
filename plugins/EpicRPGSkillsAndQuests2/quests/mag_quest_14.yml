@@ -1,0 +1,27 @@
+id: "mag_quest_14"                                
+name: "&9Wiedzmi las"                          
+zleceniodawca: "&r&lBialy Enderman"                       
+lore:                                               
+  - "&aHerobrine wyslal do tej czesci krainy"
+  - "&awiekszosc swoich wiedzm."
+  - "&aTo wlasnie one sa odpowiedzialne"
+  - "&aza to, co stalo sie z tym cudownym miejscem."
+  - "&aTo jest kolejny krok do przywrocenia"
+  - "&alasu do poprzedniego stanu."
+prize:                                    
+  - "xp: 49500"
+  - "money: 700"
+require:                                            
+  - "level: 53"
+  - "klasa: &5Mag"
+  - "quest: mag_quest_13"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "mag_quest_14_1_1"
+        type: "zabij"
+        targetName: "&5Wiedzma"
+        message: "Zabij 25 wiedzm: %stan%"
+        ilosc: 25

@@ -1,0 +1,15 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&3&lDecard"
+  - "&7[&e&lKWATERMISTRZ&7]"
+skinid: 1971255373
+location:
+  world: "easteregg1"
+  x: 103.5
+  y: 84.0
+  z: 76.5
+  yaw: -180
+  pitch: 4.5
+lookat: true

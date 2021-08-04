@@ -1,0 +1,17 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&6&lAukcjoner"
+  - "&7[&e&l$&a&lMARKET&e&l$&7]"
+skinid: 595180235
+location:
+  world: "F_RPG"
+  x: 893.0
+  y: 45.0625
+  z: -340.5
+  yaw: 20
+  pitch: 5.5
+lookat: true
+commands:
+  - "asPlayer: ah"

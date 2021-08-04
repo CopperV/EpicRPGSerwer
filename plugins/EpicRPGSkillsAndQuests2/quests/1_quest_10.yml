@@ -1,0 +1,148 @@
+id: "1_quest_10"
+name: "&7Poszukiwania kompanow"
+zleceniodawca: "&8&lRangar"
+lore:
+  - "&aDziekuje za pomoc z poprzednim zadaniem."
+  - "&aSprawdz dla mnie kilka miejsc - podam Ci wspolrzedne"
+  - "&aOdwiedz farme Cratosa na koordynatach X:380 Z:-500,"
+  - "&afarme Farima na X:880 Z:-340 i oboz na poludnie - X:750 Z:210."
+  - "&aJeden z farmerow mowil ze warto Ci wskazac te miejsca."
+prize:                                    
+  - "xp: 300"
+  - "money: 50"
+require:                                            
+  - "level: 4"
+  - "quest: 1_quest_2"
+stopnie:
+  1:
+    talking: false
+    message: "&r%player%&7: &bDobra, oto farma. A gdzie jej wlasciciel?"
+    targets:
+      1:
+        id: "1_quest_10_1_1"
+        type: "znajdz"
+        targetName: "wolnaf"
+        message: "Odwiedz farme Cratosa (X:380 Z:-500): %stan%"
+  2:
+    talking: false
+    message: "&r%player%&7: &bCzas w droge do kolejnego miejsca moze znajde tam jakas prace"
+    targets:
+      1:
+        id: "1_quest_10_2_1"
+        type: "zagadaj"
+        targetName: "&eCratos"
+        message: "Porozmawiaj z wlascicielem farmy Cratosa: %stan%"
+        dialog:
+          - "&r%player%&7: &bCzesc Ty tu jestes wlascicielem ziemskim?"
+          - "&eCratos&7: &aTak. W czym moge Ci pomoc?."
+          - "&r%player%&7: &bPrzyszedlem sie rozejrzec, podobno mozna u Ciebie zarobic."
+          - "&eCratos&7: &aMozesz sie rozgladnac, ale uwazaj zebys nikomu nie przeszkadzal."
+          - "&r%player%&7: &bDziekuje, bede pamietac o tym ostrzezeniu..."
+          - "&r%player%&7: &bA masz moze dla mnie jakas prace?."
+          - "&eCratos&7: &aCos moze znajde, ale wroc pozniej"
+  3:
+    talking: false
+    message: "&r%player%&7: &bFarma jak kazda inna. Pora porozmawiac z tutejszymi farmerami"
+    targets:
+      1:
+        id: "1_quest_10_3_1"
+        type: "znajdz"
+        targetName: "farma1"
+        message: "Odwiedz farme Farima (X:880 Z:-340): %stan%"
+  4:
+    talking: false
+    message: "&r%player%&7: &bDobra, to zostalo jeszcze jedno miejsce. Cholera... Strasznie daleko..."
+    targets:
+      1:
+        id: "1_quest_10_4_1"
+        type: "zagadaj"
+        targetName: "&aFarim"
+        message: "Odszukaj zarzadce farmy - Farima: %stan%"
+        dialog:
+          - "&r%player%&7: &bCzesc, kim jestes?"
+          - "&7Nieznajomy&7: &aPierw dobrze bylo by sie samemu przedstawic."
+          - "&r%player%&7: &bJestem %player%."
+          - "&aFarim&7: &aJa jestem Farim wlasciciel tej farmy."
+          - "&r%player%&7: &bMilo mi Cie poznac, masz moze dla mnie jakas robote?"
+          - "&aFarim&7: &aPraca na pewno sie znajdzie - w koncu to farma, ale zlece Ci prace pozniej."
+      2:
+        id: "1_quest_10_4_2"
+        type: "zagadaj"
+        targetName: "&2Lindsay"
+        message: "Zobacz czy ktos jest w domu jesli tak to porozmawiaj z nim: %stan%"
+        dialog:
+          - "&r%player%&7: &bCzesc, jestem %player%"
+          - "&2Lindsay&7: &aWitaj, jestem Lindsay."
+          - "&2Lindsay&7: &aBede miec do Ciebie prosbe jak skonczysz swoje sprawy"
+  5: 
+    talking: false
+    message: "&r%player%&7: &bWidac, ze porzadny oboz. Ciekawe czym sie tutejsi ludzie zajmuja..."
+    targets:
+      1:
+        id: "1_quest_10_5_1"
+        type: "znajdz"
+        targetName: "przemytnik"
+        message: "Odwiedz oboz na poludnie od lasu (X:750 Z:210): %stan%"
+  6: 
+    talking: false
+    message: "&r%player%&7: &bWszystkie miejsca odwiedzone. Pora porozmawiac z Rangarem."
+    targets:
+      1:
+        id: "1_quest_10_6_1"
+        type: "zagadaj"
+        targetName: "&7&lSaro"
+        message: "Porozmawiaj z przywodca obozu - Saro: %stan%"
+        dialog:
+          - "&8Nieznajomy&7: &aWitaj, wygladasz na poszukiwacza przygod."
+          - "&8Nieznajomy&7: &aKim jestes?"
+          - "&r%player%&7: &bJestem %player%."
+          - "&7&lSaro&7: &aMam na imie Saro."
+          - "&7&lSaro&7: &aJesli bedziesz szukac pracy to wpadnij do mnie kiedy bedziesz silniejszy"
+      2:
+        id: "1_quest_10_6_2"
+        type: "zagadaj"
+        targetName: "&7Cobryn"
+        message: "Porozmawiaj z Cobrynem obok wozu: %stan%"
+        dialog:
+          - "&7Cobryn&7: &bCzesc, bede miec robote dla takiego czlowieka jak ty jesli staniesz sie silniejszy"
+          - "&r%player%&7: &aMilo mi to slyszec... To ja wroce pozniej."
+      3:
+        id: "1_quest_10_6_3"
+        type: "zagadaj"
+        targetName: "&2Alima"
+        message: "Porozmawiaj z kobieta w namiocie: %stan%"
+        dialog:
+          - "&2Alima&7: &bWitaj %player%, milo mi Cie poznac."
+          - "&2Alima&7: &bJestem Alima."
+          - "&r%player%&7: &aSkad znasz moje imie?"
+          - "&2Alima&7: &bTacy jak ja znaja kazdego kto sie tutaj pojawia."
+          - "&2Alima&7: &bJak staniesz sie silniejszy to bede miec dla Ciebie kilka ciekawych zadan."
+          - "&2Alima&7: &bWroc pozniej i uwazaj na siebie."
+  7:
+    talking: false
+    targets:
+      1:
+        id: "1_quest_10_7_1"
+        type: "zagadaj"
+        targetName: "&8&lRangar"
+        message: "Powiedz Rangarowi co znalazles w miejscach wskazanych przez farmera: %stan%"
+        dialog:
+          - "&8&lRangar&7: &aI jak tam?"
+          - "&8&lRangar&7: &aByles w miejscach, ktore kazal przekazac Ci farmer"
+          - "&r%player%&7: &bTak - odwiedzilem farmy Cratosa, Farima oraz oboz na poludnie od lasu"
+          - "&8&lRangar&7: &aDziekuje, to bardzo dobre informacje. Masz tutaj za fatyge pare drobnych"
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

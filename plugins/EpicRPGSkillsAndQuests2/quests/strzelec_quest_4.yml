@@ -1,0 +1,25 @@
+id: "strzelec_quest_4"
+name: "&6&oZlota, moj przyjacielu"
+zleceniodawca: "&7&lSaro"
+lore:
+  - "&aChcesz odbudowac nasze relacje ze swoja frakcje."
+  - "&aTo moze podaruj nam troche zlota?"
+  - "&aSpokojnie..."
+  - "&aNie mam na mysli Twojego zlota."
+  - "&aPrzynies mi od bandytow i bedzie dobrze."
+prize:
+  - "xp: 810"
+require:
+  - "level: 15"
+  - "klasa: &2Mysliwy"
+  - "quest: strzelec_quest_3"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "strzelec_quest_4_1_1"
+        type: "przynies"
+        targetName: "&6Zloto"
+        message: "Przynies 45 sztuk bandyckiego zlota: %stan%"
+        ilosc: 45

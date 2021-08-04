@@ -1,0 +1,16 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&6&lKupiec"
+skinid: 2059590051
+location:
+  world: "F_RPG"
+  x: 316.5
+  y: 40
+  z: 396.5
+  yaw: 135
+  pitch: 1.5
+lookat: true
+commands:
+  - "asOp: epicrpg kupiec"

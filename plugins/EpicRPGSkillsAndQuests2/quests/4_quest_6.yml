@@ -1,0 +1,25 @@
+id: "4_quest_6"                                
+name: "&2&oGorscy orkowie"                          
+zleceniodawca: "&eMorkvarg"                       
+lore:                                               
+  - "&aJuz mniej wiecej na polowie wysokosci kopalni"
+  - "&amozna spotkac orkow."
+  - "&aIch sila i ilosc jest przerazajaca."
+  - "&aMusimy zaczac ich wypierac z kopalni zanim"
+  - "&aoni wypra nas."
+prize:                                    
+  - "xp: 5100"
+  - "money: 100"
+require:                                            
+  - "level: 32"
+  - "quest: 4_quest_2"
+stopnie:
+  1:
+    talking: true          
+    targets:
+      1:
+        id: "4_quest_6_1_1"                     
+        type: "zabij"       
+        targetName: "&2&lGorski ork"                      
+        message: "Zabij 25 gorskich orkow z kopalni: %stan%"
+        ilosc: 25

@@ -1,0 +1,121 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+KuchtaSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &dOj dzieci, dzieci - bylyscie bardzo niegrzeczne!"} @PlayersInRadius{r=20}
+  - threat{amount=100000} @NearestPlayer
+
+KuchtaSkill_1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=300} @self
+  - message{m="<mob.name><&co> &dCo sie rwiesz jaskuleczko?"} @PlayersInRadius{r=40}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bKuchta przygotowuje Wiedzmia Magie!";d=100} @PIR{r=40}
+  - stun{d=100} @self
+  - delay 100
+  - orbital{onTick=KuchtaSkill_1-Tick;onHit=KuchtaSkill_1-Hit;points=23;interval=1;duration=200;charges=31;r=2;hr=1.5;vr=4;rx=0;ry=4.7124;oy=0.15;ox=0;oz=-2} @self
+  - orbital{onTick=KuchtaSkill_1-Tick;onHit=KuchtaSkill_1-Hit;points=23;interval=1;duration=200;charges=31;r=2;hr=1.5;vr=4;rx=0;ry=1.0472;oy=0.15;ox=-1.732;oz=2} @self
+  - orbital{onTick=KuchtaSkill_1-Tick;onHit=KuchtaSkill_1-Hit;points=23;interval=1;duration=200;charges=31;r=2;hr=1.5;vr=4;rx=0;ry=2.618;oy=0.15;ox=1.732;oz=2} @self
+  - orbital{onTick=KuchtaSkill_1-Tick;onHit=KuchtaSkill_1-Hit;points=23;interval=1;duration=200;charges=31;r=3;hr=1.5;vr=4;rx=0;ry=1.5708;oy=0.15;ox=0;oz=3} @self
+  - orbital{onTick=KuchtaSkill_1-Tick;onHit=KuchtaSkill_1-Hit;points=23;interval=1;duration=200;charges=31;r=3;hr=1.5;vr=4;rx=0;ry=4.7124;oy=0.15;ox=0;oz=-3} @self
+  - orbital{onTick=KuchtaSkill_1-Tick;onHit=KuchtaSkill_1-Hit;points=23;interval=1;duration=200;charges=31;r=3;hr=1.5;vr=4;rx=0;ry=3.1416;oy=0.15;ox=3;oz=0} @self
+  - orbital{onTick=KuchtaSkill_1-Tick;onHit=KuchtaSkill_1-Hit;points=23;interval=1;duration=200;charges=31;r=3;hr=1.5;vr=4;rx=0;ry=0;oy=0.15;ox=-3;oz=0} @self
+  - orbital{onTick=KuchtaSkill_1-Tick;onHit=KuchtaSkill_1-Hit;points=23;interval=1;duration=200;charges=31;r=4;hr=1.5;vr=4;rx=0;ry=0;oy=0.15;ox=-4;oz=0} @self 
+  - orbital{onTick=KuchtaSkill_1-Tick;onHit=KuchtaSkill_1-Hit;points=23;interval=1;duration=200;charges=31;r=4;hr=1.5;vr=4;rx=0;ry=5.0265;oy=0.15;ox=-1.2361;oz=-3.8042261} @self
+  - orbital{onTick=KuchtaSkill_1-Tick;onHit=KuchtaSkill_1-Hit;points=23;interval=1;duration=200;charges=31;r=4;hr=1.5;vr=4;rx=0;ry=1.2566;oy=0.15;ox=-1.2361;oz=3.8042261} @self
+  - orbital{onTick=KuchtaSkill_1-Tick;onHit=KuchtaSkill_1-Hit;points=23;interval=1;duration=200;charges=31;r=4;hr=1.5;vr=4;rx=0;ry=2.5133;oy=0.15;ox=3.2361;oz=2.351141} @self
+  - orbital{onTick=KuchtaSkill_1-Tick;onHit=KuchtaSkill_1-Hit;points=23;interval=1;duration=200;charges=31;r=4;hr=1.5;vr=4;rx=0;ry=3.7699;oy=0.15;ox=3.2361;oz=-2.351141} @self
+  - orbital{onTick=KuchtaSkill_1-Tick;onHit=KuchtaSkill_1-Hit;points=23;interval=1;duration=200;charges=30;r=5;hr=1.5;vr=4;rx=0;ry=1.5708;oy=0.15;ox=0;oz=5} @self
+  - orbital{onTick=KuchtaSkill_1-Tick;onHit=KuchtaSkill_1-Hit;points=23;interval=1;duration=200;charges=30;r=5;hr=1.5;vr=4;rx=0;ry=2.618;oy=0.15;ox=4.33;oz=2.5} @self
+  - orbital{onTick=KuchtaSkill_1-Tick;onHit=KuchtaSkill_1-Hit;points=23;interval=1;duration=200;charges=30;r=5;hr=1.5;vr=4;rx=0;ry=3.6652;oy=0.15;ox=4.33;oz=-2.5} @self
+  - orbital{onTick=KuchtaSkill_1-Tick;onHit=KuchtaSkill_1-Hit;points=23;interval=1;duration=200;charges=30;r=5;hr=1.5;vr=4;rx=0;ry=4.7124;oy=0.15;ox=0;oz=-5} @self
+  - orbital{onTick=KuchtaSkill_1-Tick;onHit=KuchtaSkill_1-Hit;points=23;interval=1;duration=200;charges=30;r=5;hr=1.5;vr=4;rx=0;ry=5.7596;oy=0.15;ox=-4.33;oz=-2.5} @self
+  - orbital{onTick=KuchtaSkill_1-Tick;onHit=KuchtaSkill_1-Hit;points=23;interval=1;duration=200;charges=30;r=5;hr=1.5;vr=4;rx=0;ry=0.523599;oy=0.15;ox=-4.33;oz=2.5} @self
+
+KuchtaSkill_1-Tick:
+  Skills:
+  - effect:particles{particle=mobSpell;color=#FFFFFF;amount=2;vd=10;speed=0.02;hS=0.2;vS=0.2;y=0} @origin
+  - effect:particles{particle=mobSpell;color=#000000;amount=2;vd=10;speed=0.02;hS=0.2;vS=0.2;y=0} @origin
+  - effect:particles{particle=mobSpell;color=#777777;amount=2;vd=10;speed=0.02;hS=0.2;vS=0.2;y=0} @origin
+  - sound{s=entity.splash_potion.break;v=0.4;p=0.5} @origin
+
+
+KuchtaSkill_1-Hit:
+  Skills:
+  - damage{amount=200;pk=true}
+  - sound{s=entity.player.attack.strong;v=4;p=4} @Origin
+  - throw{velocity=5;velocityY=2}
+
+KuchtaSkill_2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=300} @self
+  - message{m="<mob.name><&co> &dMe ostrza przebija wszystko!"} @PlayersInRadius{r=30}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bKuchta przygotowuje Kuchenne Rewolucje!";d=100} @PIR{r=30}
+  - stun{d=300} @self
+  - delay 100
+  - spin{duration=200;velocity=10} @self
+  - effect:sound{s=item.totem.use;v=4;p=0.7;repeat=40;repeatInterval=5} @self
+  - projectile{bulletType=MYTHICITEM;material=Ingreyn_Zr;oT=KuchtaSkill-Tick;onHit=KuchtaSkill-Hit;v=11;i=1;hR=1.25;vR=1.25;mr=60;sB=false;sE=false;syo=1;hs=true;hfs=1;repeat=40;repeatInterval=5} @Forward{f=5;y=1}
+
+KuchtaSkill-Tick:
+  Skills:
+  - effect:particles{particle=enchantmenttable;amount=5;speed=0.05;hS=0.1;vS=0.1} @origin
+KuchtaSkill-Hit:
+  Skills:
+  - sound{s=entity.firework.large_blast_far;v=4;p=0.2} @origin
+  - damage{amount=240}
+  - effect:particles{particle=enchantmenttable;amount=30;speed=0.1;hS=0.1;vS=0.1} @origin
+  - potion{type=WITHER;duration=100;level=4}
+  - potion{type=BLINDNESS;duration=100;level=4}
+
+KuchtaSkill_3:
+  Skills:
+  - gcd{ticks=60} @self
+  - message{m="<mob.name><&co> &dKoniec sie zbliza. Nieublaganie!"} @PlayersInRadius{r=30}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bKuchta przygotowuje Wiedzmie Kule!";d=100} @PIR{r=30}
+  - stun{d=100} @self
+  - delay 100
+  - sound{s=entity.skeleton.shoot;v=10;p=0.1} @self
+  - projectile{oT=KuchtaSkill3-Tick;onHit=KuchtaSkill3-Hit;onEnd=KuchtaSkill3-End;v=10;sB=true;i=1;hR=1.5;vR=1.5;mr=100} @PIR{r=60}
+
+KuchtaSkill3-Tick:
+  Skills:
+  - effect:particles{particle=reddust;color=#8B008B;amount=5;speed=0.05;hS=0.5;vS=0.5} @origin
+  - effect:particles{particle=dragonbreath;amount=5;speed=0.05;hS=0.5;vS=0.5} @origin
+
+KuchtaSkill3-Hit:
+  Skills:
+  - sound{s=entity.generic.explode;v=3;p=1.4} @origin
+  - damage{amount=260} @PlayersNearOrigin{r=3}
+
+KuchtaSkill3-End:
+  Skills:
+  - totem{ch=0;oT=KuchtaAreaPrepare_TotemTick;oE=KuchtaAreaPrepare_TotemTickEnd;hR=2;vR=2;md=60;yo=0;hp=true;i=0.1}
+
+KuchtaAreaPrepare_TotemTick:
+  Skills:
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=1;points=4;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=2;points=8;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=3;points=12;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=4;points=16;amount=1;y=0.1}
+
+KuchtaAreaPrepare_TotemTickEnd:
+  Skills:
+  - sound{s=entity.blaze.shoot;v=2;p=0.2} @origin
+  - totem{ch=0;oT=KuchtaArea_TotemTick;oH=KuchtaArea_TotemHit;hR=4;vR=8;md=24000;yo=0;hp=true;i=0.1} @origin
+
+KuchtaArea_TotemTick:
+  Skills:
+  - effect:particlering{particle=dragonbreath;vd=20;radius=1;points=4;amount=2;y=0.1;hS=0.05;vS=0.05;speed=0.01} @origin
+  - effect:particlering{particle=dragonbreath;vd=20;radius=2;points=8;amount=2;y=0.1;hS=0.05;vS=0.05;speed=0.01} @origin
+  - effect:particlering{particle=dragonbreath;vd=20;radius=3;points=12;amount=2;y=0.1;hS=0.05;vS=0.05;speed=0.01} @origin
+  - effect:particlering{particle=dragonbreath;vd=20;radius=4;points=16;amount=2;y=0.1;hS=0.05;vS=0.05;speed=0.01} @origin
+
+KuchtaArea_TotemHit:
+  Skills:
+  - damage{amount=165;pk=true}
+  

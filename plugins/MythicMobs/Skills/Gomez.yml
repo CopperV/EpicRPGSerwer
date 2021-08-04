@@ -1,0 +1,66 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+GomezSummon:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=65}
+  - message{m="<mob.name><&co> &7To teren prywatny, odejdz stad poki mozesz"} @PlayersInRadius{r=20}
+  - delay 5
+  - summon{mob=Zaraza1;amount=1;noise=3} @Self
+  - summon{mob=Zaraza2;amount=1;noise=3} @Self
+  - summon{mob=Zaraza5;amount=1;noise=3} @Self
+GomezAttack1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=80}
+  - message{m="<mob.name><&co> &7Trzeba miec sporo odwagi, by tu przychodzic"} @PlayersInRadius{r=20}
+  - sound{s=entity.generic.explode;v=1} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=0;points=4;amount=1} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=1} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=1;points=6;amount=1} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=1} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=2;points=8;amount=1} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=1} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=3;points=12;amount=1} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=1} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=4;points=16;amount=1} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=1} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=5;points=24;amount=1} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=1} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=6;points=32;amount=1} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=1} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=7;points=40;amount=1} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=1} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=8;points=52;amount=1} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=1} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=9;points=64;amount=1} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=1} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=10;points=80;amount=1} @self
+  - damage{amount=90} @PlayersInRadius{r=6}
+  - throw{velocity=11;velocityY=15} @PlayersInRadius{r=10}
+GomezTp:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=70}
+  - message{m="<mob.name><&co> &7Ta kopalnia stanie sie twoim grobowcem"} @PlayersInRadius{r=20}
+  - teleport{spreadh=5;spreadv=2} @PLIR{r=25;limit=1;sort=RANDOM}
+  - effect:particles{particle=witchMagic;amount=50;speed=3;hS=0.3;vS=0.1;y=0.05} @self
+  - effect:particlering{particle=witchMagic;radius=2;points=16;amount=12} @self
+  - sound{s=entity.endermen.teleport} @PlayersInRadius{r=10}
+  - delay 10
+  - effect:particles{particle=witchMagic;amount=50;speed=3;hS=0.3;vS=0.1;y=0.05} @self
+  - effect:particlering{particle=witchMagic;radius=2;points=16;amount=12} @self

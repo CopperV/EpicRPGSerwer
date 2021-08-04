@@ -1,0 +1,48 @@
+id: "fabula_quest_8"                                
+name: "&bSekret budowniczych"                          
+zleceniodawca: "&1Saturas"                       
+lore:                                               
+  - "&aSwoje zadanie tutaj, na pustyni - wykonales."
+  - "&aPrztstopowalismy na jakis czas budowniczych,"
+  - "&aa wlasnie to bylo ostatnio najwazniejszym celem."
+  - "&aBudowniczowie maja duzo sekretow,"
+  - "&az ktorymi nie chca sie w zadnym wypadku dzielic."
+  - "&aStonnos jak i najwyzszy opiekun pozostaja poki co"
+  - "&ajedynie w sferze badan i domyslow."
+  - "&aUdaj sie do &1Kairo&a."
+  - "&aPewnie juz na Ciebie czeka."
+prize:                                    
+  - "xp: 500"
+  - "money: 2500"
+require:                                            
+  - "quest: fabula_quest_7"
+  - "level: 25"
+stopnie:
+  1:
+    talking: false  
+    targets:
+      1:
+        id: "fabula_quest_8_1_1"
+        type: "zagadaj"
+        targetName: "&1Kairo"
+        message: "Porozmawiaj z &1Kairo: %stan%"
+        dialog:
+          - "&1Kairo&7: &aNo, nareszcie zes sie pojawil."
+          - "&1Kairo&7: &aSlyszalem, ze dobrze sie sprawowales na pustyni."
+          - "&1Kairo&7: &1Saturas &anie mogl sie Ciebie nachwalic."
+          - "&1Kairo&7: &aDzieki Tobie udalo sie jemu odkryc tak duzo sekretow."
+          - "&1Kairo&7: &aAle tez w trakcie Twojej wyprawy na pustyni pojawily sie kolejne pytania, na ktore pewnie predko nie poznamy odpowiedzi."
+          - "&1Kairo&7: &aUdaj sie do &c&lAlexstraszy &a- chciala by Ciebie nagrodzic."
+  2:
+    talking: false
+    targets:
+      1:
+        id: "fabula_quest_8_2_1"
+        type: "zagadaj"
+        targetName: "&c&lAlexstrasza"
+        message: "Porozmawiaj z &c&lAlexstrasza: %stan%"
+        dialog:
+          - "&c&lAlexstrasza&7: &aWitaj, mlody bohaterze."
+          - "&c&lAlexstrasza&7: &aWiele dzieki Tobie zawdzieczamy."
+          - "&c&lAlexstrasza&7: &aPrzyjmij to zloto w nagrode za swe serce i za swa dusze wlozone w pomoc na pustyni."
+          - "&c&lAlexstrasza&7: &aDzieki Tobie zaczynamy miec coraz szerszy obraz na to, co sie tu wlasciwie stalo i co sie dzieje..."

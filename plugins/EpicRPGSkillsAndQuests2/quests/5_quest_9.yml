@@ -1,0 +1,58 @@
+id: "5_quest_9"
+name: "&3Bez nadziei"
+zleceniodawca: "&b&lTyrael"
+lore:                                               
+  - "&aJak juz wspomnialem, nadziei dla tej krainy nie ma."
+  - "&aPodejrzewam, ze nawet dla Archolosa juz nie ma."
+  - "&aKto by pomyslal, ze za cale to zamieszanie jest odpowiedzialny"
+  - "&aBaron Geddon..."
+  - "&aZrobiles, co miales zrobic."
+  - "&aPoinformuj o tym swojego przelozonego."
+prize:                                    
+  - "xp: 5000"
+  - "money: 10000"
+  - "bc: &7[&b&lEpicRPG&7] &aGracz &7%player% &aukonczyl watek &4&lTam, gdzie ginie wszelka nadzieja&a. &6&lGRATULACJE!"
+  - "cmd: crazycrates give physical EPICKA 1 %player%"
+require:                                            
+  - "level: 50"
+  - "quest: 5_quest_8"
+  - "quest: fabula_quest_24"
+stopnie:
+  1:
+    talking: false                    
+    targets:
+      1:
+        id: "5_quest_9_1_1"
+        type: "zagadaj"
+        targetName: "&b&lCorristo"
+        message: "Porozmawiaj z &b&lCorristo: %stan%"
+        dialog:
+          - "&b&lCorristo&7: &aI jak tam?"
+          - "&b&lCorristo&7: &aDomyslam sie, ze jak zwykle naszemu bohaterowi sie udalo!"
+          - "&r%player%&7: &bNie tym razem..."
+          - "&b&lCorristo&7: &aJak to!?"
+          - "&r%player%&7: &bSpaczenie osiagnelo zbyt duze rozmiary."
+          - "&r%player%&7: &bJest zbyt potezne nawet jak dla mnie."
+          - "&r%player%&7: &bMozna jedynie spaczenie powstrzymywac przed rozprzestrzenianiem sie, lecz na dzien dzisiejszy jest nie do pokonania..."
+          - "&b&lCorristo&7: &aTragiczne informacje..."
+          - "&b&lCorristo&7: &aPowinienes o tym jak najszybciej poinformowac &c&lAlexstrasze&a."
+  2:
+    talking: false
+    targets:
+      1:
+        id: "5_quest_9_2_1"
+        type: "zagadaj"
+        targetName: "&c&lAlexstrasza"
+        message: "Porozmawiaj z &c&lAlexstrasza: %stan%"
+        dialog:
+          - "&c&lAlexstrasza&7: &aI jakie wiesci nam teraz przynosisz &r%player%&a?"
+          - "&r%player%&7: &bRobilem wszystko, co w mojej mocy, by powstrzymac spaczenie."
+          - "&r%player%&7: &bWszystko jednak bez wiekszego skutku."
+          - "&r%player%&7: &bMozna walczyc ze skutkami spaczenia i z jego rozprzestrzenianiem, lecz samego w sobie spaczenia nie damy rady poki co powstrzymac."
+          - "&c&lAlexstrasza&7: &aPodejrzewalam, ze tak bedzie."
+          - "&c&lAlexstrasza&7: &aNie bez powodu ten zdrajca Geddon akurat tam sie zaszyl."
+          - "&c&lAlexstrasza&7: &aZe wszystkich niegodziwosci z jego strony to bylo najwieksze."
+          - "&c&lAlexstrasza&7: &aNie wiem co dokladnie zrobil ani jak..."
+          - "&c&lAlexstrasza&7: &aKiedys na pewno powstrzymamy spaczenie."
+          - "&c&lAlexstrasza&7: &aTym razem zasluzyles na ta nagrode za swoje bohaterskie czyny."
+          - "&c&lAlexstrasza&7: &aPamietaj jednak - to nie koniec twojej przygody!"

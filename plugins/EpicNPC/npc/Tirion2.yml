@@ -1,0 +1,16 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&e&lTirion Fordring"
+  - "&7[&4&lDOWODCA PALADYNOW&7]"
+skinid: 1248770320
+location:
+  world: "Map113"
+  x: 637.5
+  y: 65.0
+  z: 401.0
+  yaw: 120.0
+  pitch: 2
+lookat: true
+showquest: "p_quest_28"

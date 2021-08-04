@@ -1,0 +1,187 @@
+id: "p_quest_28"                                
+name: "&c&oDezercja Cassii"
+zleceniodawca: "&c&lMilten"
+lore:                                               
+  - "&aCos sie stalo..."
+  - "&aNie otrzymuje zadnych raportow"
+  - "&aod Cassii."
+  - "&aPodejrzewam, ze zdezerterowala,"
+  - "&aze postanowila w koncu zrobic to,"
+  - "&apo co tu przyplynela."
+  - "&aNie mam jednak co do tego"
+  - "&a100% pewnosci."
+  - "&aW obozie u Cassii mozna znalezc"
+  - "&apaladyna Thordira."
+  - "&aDowiedz sie od niego, co sie"
+  - "&astalo z Cassia."
+  - "&aNastepnie sprowadz kogos nowego"
+  - "&ana jej miejsce."
+prize:                                    
+  - "xp: 8000"
+require:                                            
+  - "level: 57"
+  - "quest: zlodziej_quest_17"
+stopnie:
+  1:
+    talking: false
+    message: "&r%player%&7: &bLadnie to sobie Cassia wymyslila. Jestem pewien, ze sama sciagnela tych tulaczy do obozu. Dobra, pora porozmawiac z Kairo. Moze przysle tu kogos noweog."
+    targets:
+      1:
+        id: "p_quest_28_1_1"
+        type: "zagadaj"
+        targetName: "&9&lThordir"
+        message: "Udaj sie do obozu Cassii, odnajdz paladyna Thordira i dowiedz sie czegos o Cassii: %stan%"
+        dialog:
+          - "&r%player%&7: &bCo sie stalo z Twoja przywodczynia?"
+          - "&9&lThordir&7: &aJak to co?"
+          - "&9&lThordir&7: &aNie widac?"
+          - "&9&lThordir&7: &aTa suka uciekla sobie od tak."
+          - "&9&lThordir&7: &aZostawila nas samych na pastwe losu w tym przekletym miejscu."
+          - "&r%player%&7: &bKiedy to sie stalo?"
+          - "&9&lThordir&7: &aZ pare dni temu."
+          - "&9&lThordir&7: &aZaatakowala nas jakas grupka tulaczy."
+          - "&9&lThordir&7: &aPo potyczce juz jej nie bylo."
+          - "&9&lThordir&7: &aZaloze sie, ze musiala wykorzystac ten moment i sie ulotnic."
+          - "&r%player%&7: &bSkad wiesz, ze uciekla?"
+          - "&r%player%&7: &bMoze zostala porwana przez tych tulaczy."
+          - "&9&lThordir&7: &aBzdura!"
+          - "&9&lThordir&7: &aWszystkich tulaczy, ktorzy nas zaatakowali, roznieslismy w pyl."
+          - "&9&lThordir&7: &aLepiej sprowadz tu kogos nowego."
+          - "&9&lThordir&7: &aKogos kto nas poprowadzi."
+          - "&9&lThordir&7: &ai nie ucieknie przy pierwszej lepszej okazji..."
+          - "&r%player%&7: &bTak zrobie."
+  2:
+    talking: false
+    targets:
+      1:
+        id: "p_quest_28_2_1"
+        type: "zagadaj"
+        targetName: "&1Kairo"
+        message: "Udaj sie do zamku i porozmawiaj z Kairo: %stan%"
+        dialog:
+          - "&r%player%&7: &bJest problem."
+          - "&1Kairo&7: &aJakbym ich mial malo..."
+          - "&1Kairo&7: &aCo za problem?"
+          - "&r%player%&7: &bCassia zniknela, ludzie z jej obozu sa zalamani, morale bardzo slabe."
+          - "&r%player%&7: &bTrzeba kogos przyprowadzic na jej miejsce."
+          - "&1Kairo&7: &aTo nie do mnie z tym."
+          - "&1Kairo&7: &aJa odpowiadam tylko za ludzi, ktorzy sa tam."
+          - "&1Kairo&7: &aNie rekrutuje nowych osob."
+          - "&1Kairo&7: &aPogadaj o tym z Alexstrasza."
+  3:
+    talking: false
+    targets:
+      1:
+        id: "p_quest_28_3_1"
+        type: "zagadaj"
+        targetName: "&c&lAlexstrasza"
+        message: "Porozmawiaj z Alexstrasza o Cassii: %stan%"
+        dialog:
+          - "&c&lAlexstrasza&7: &aPo Twojej minie wnioskuje, ze cos sie stalo."
+          - "&c&lAlexstrasza&7: &aJakie problemy przynosisz ze soba."
+          - "&r%player%&7: &bCassia zniknela."
+          - "&c&lAlexstrasza&7: &aMoglam sie tego spodziewac."
+          - "&c&lAlexstrasza&7: &aTrzeba w takim razie znalezc kogos nowego na jej miejsce."
+          - "&c&lAlexstrasza&7: &aZajmiesz sie tym."
+          - "&c&lAlexstrasza&7: &aWarto spytac sie Corristo, czy nie wezmie udzialu w takiej wyprawie."
+          - "&c&lAlexstrasza&7: &aPewnie odmowi, ale warto sie go zapytac."
+          - "&c&lAlexstrasza&7: &aPoza tym na zamku pojawili sie dwaj paladyni z wyjatkowym doswiadczeniem."
+          - "&c&lAlexstrasza&7: &aPrzeteleportowali sie wraz z Miltenem tutaj, ale wolalam, by zostali na zamku."
+          - "&c&lAlexstrasza&7: &aByc moze ktorys z nich bedzie chetny wyruszyc."
+  4:
+    talking: false
+    targets:
+      1:
+        id: "p_quest_28_4_1"
+        type: "zagadaj"
+        targetName: "&b&lCorristo"
+        message: "Zaproponuj Corristo miejsce Cassii: %stan%"
+        dialog:
+          - "&r%player%&7: &bDowodco."
+          - "&b&lCorristo&7: &aWojowniku?"
+          - "&r%player%&7: &bZwolnilo sie miejsce w ekspedycji Nowego Swiata."
+          - "&r%player%&7: &c&lAlexstrasza &bpolecila mi, zebym sie zapytal czy nie bylbys chetny wybrac sie na ta ekspedycje."
+          - "&b&lCorristo&7: &aZapomnij o tym."
+          - "&b&lCorristo&7: &aCo by sie stalo z tymi nowymi wojownikami, gdyby mnie zabraklo?"
+          - "&b&lCorristo&7: &aKto by sie nimi zajal?"
+          - "&b&lCorristo&7: &aPoszukaj kogos innego."
+          - "&r%player%&7: &bTak jest!"
+      2:
+        id: "p_quest_28_4_2"
+        type: "zagadaj"
+        targetName: "&6&lBolvar Fordragon"
+        message: "Odszukaj na zamku paladyna Bolvara i zaproponuj mu miejsce Cassii: %stan%"
+        dialog:
+          - "&6&lBolvar&7: &aKolejna nowa twarz mi sie zdaje."
+          - "&6&lBolvar&7: &aJak sie zwiesz mlodziencze?"
+          - "&r%player%&7: &b%player%."
+          - "&6&lBolvar&7: &aI z jaka sprawa do mnie przychodzisz?"
+          - "&r%player%&7: &bSlyszales o ekspedycji Nowego Swiata?"
+          - "&6&lBolvar&7: &aMusialem o niej slyszec wyruszajac tutaj na wyspe."
+          - "&6&lBolvar&7: &aPodaj jakies konkrety."
+          - "&r%player%&7: &bZwolnilo sie miejsce dowodcy jednego z obozow."
+          - "&6&lBolvar&7: &aI przyszedles tutaj zaoferowac mi to miejsce..."
+          - "&6&lBolvar&7: &aPrzybylem tutaj w innej sprawie."
+          - "&6&lBolvar&7: &aPoszukaj innego kozla."
+      3:
+        id: "p_quest_28_4_3"
+        type: "zagadaj"
+        targetName: "&6&lTirion Fordring"
+        message: "Odszukaj na zamku paladyna Tiriona i zaproponuj mu miejsce Cassii: %stan%"
+        dialog:
+          - "&6&lTirion&7: &aPatrzcie na to, jakis swiezak czegos ode mnie chce."
+          - "&6&lTirion&7: &aSlucham, w czym moge pomoc?"
+          - "&r%player%&7: &bPrzychodze od &c&lAlexstraszy&b."
+          - "&6&lTirion&7: &aTo pewnie jakas powazna sprawa."
+          - "&6&lTirion&7: &aZamieniam sie w sluch."
+          - "&r%player%&7: &bMorale jednego z obozow spadly do poziomu bliskiego zeru."
+          - "&r%player%&7: &bSpowodowane jest to naglym i niespodziewanym zniknieciem dowodcy obozu."
+          - "&r%player%&7: &bPotrzeba kogos doswiadczonego na to miejsce."
+          - "&r%player%&7: &bKogos, kto wyraznie podniesie morale ludzi i zacheci do walki."
+          - "&6&lTirion&7: &aI trafiles na mnie..."
+          - "&6&lTirion&7: &aJezeli otrzymam takie polecenie bezposrednio od &c&lAlexstraszy&a, to udam sie tam niezwlocznie."
+          - "&6&lTirion&7: &aZolnierze bez morali sa tak samo bezwartosciowi jak chlopi na bitwie."
+          - "&6&lTirion&7: &aNiczego nie mozna sie po nich spodziewac."
+  5:
+    talking: false
+    targets:
+      1:
+        id: "p_quest_28_5_1"
+        type: "zagadaj"
+        targetName: "&c&lAlexstrasza"
+        message: "Porozmawiaj z Alexstrasza o wyborze nowego dowodcy: %stan%"
+        dialog:
+          - "&c&lAlexstrasza&7: &aNo i czego sie tam dowiedziales?"
+          - "&c&lAlexstrasza&7: &aJak tam &b&lCorristo&a?"
+          - "&c&lAlexstrasza&7: &aZgodzil sie."
+          - "&r%player%&7: &bAbsolutnie nie."
+          - "&r%player%&7: &bCzuje sie odpowiedzialny za los nowych wojownikow."
+          - "&r%player%&7: &bZa zadne skarby nie chce udac sie na ekspedycje."
+          - "&c&lAlexstrasza&7: &aA co z tymi nowymi paladynami?"
+          - "&r%player%&7: &6&lBolvar &arowniez nie chce brac udzialu w ekspedycji."
+          - "&r%player%&7: &aMa jakies swoej powody, ktorych mi nie zdradzil."
+          - "&r%player%&7: &aNatomiast jego brat - &6&lTirion &awyrazil chec udzialu w ekspedycji."
+          - "&r%player%&7: &aMusi dostac tylko bezposrednie polecenie od Ciebie."
+          - "&c&lAlexstrasza&7: &aI je dostanie."
+          - "&c&lAlexstrasza&7: &aDobra robota."
+          - "&c&lAlexstrasza&7: &aPowiedz &c&lMiltenowi&a, ze niedlugo ktos zajmie sie obozem na wybrzezu."
+  6:
+    talking: false
+    targets:
+      1:
+        id: "p_quest_28_6_1"
+        type: "zagadaj"
+        targetName: "&c&lMilten"
+        message: "Porozmawiaj z Miltenem o nowym dowodcy: %stan%"
+        dialog:
+          - "&c&lMilten&7: &aI jak?"
+          - "&c&lMilten&7: &aUdalo Ci sie cos ustalic?"
+          - "&c&lMilten&7: &aCo stalo sie z Cassia?"
+          - "&r%player%&7: &bNie mam 100% pewnosci czy zdezerterowala."
+          - "&r%player%&7: &bZnikla w czasie ataku tulaczy na oboz."
+          - "&c&lMilten&7: &aWydaje mi sie, ze nie ma co do tego watpliwosci, ze wykorzystala sytuacje i zwiala."
+          - "&c&lMilten&7: &aA co z nowym dowodca?"
+          - "&r%player%&7: &c&lAlexstrasza &awysle tutaj dowodce paladynow - &6&lTiriona&a."
+          - "&r%player%&7: &aZ pewnoscia okaze sie lepsza persona od Cassii."
+          - "&c&lMilten&7: &aW to nie watpie."
+          - "&c&lMilten&7: &aDobra robota - spisales sie."

@@ -1,0 +1,15 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&8Zarkan"
+  - "&7[&7&oMISTRZ KUZNI&7]"
+skinid: 1941957235
+location:
+  world: "F_RPG"
+  x: -18.5
+  y: 44.0
+  z: 66.5
+  yaw: -120
+  pitch: 8
+lookat: true

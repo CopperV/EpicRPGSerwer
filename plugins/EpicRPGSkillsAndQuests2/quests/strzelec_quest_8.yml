@@ -1,0 +1,39 @@
+id: "strzelec_quest_8"
+name: "&ePotega &ri &cbezkarnosc"
+zleceniodawca: "&6Nefarius"
+lore:
+  - "&aNizar wraz z podleglymi mu assasynami dopuscili sie"
+  - "&awielu zbrodni nie tylko wobec prawa,"
+  - "&aale rownie wobec nas i naszej tradycji."
+  - "&aPodejmuje sie haniebnych zlecen stawiajac nasz frakcje"
+  - "&aw negatywnym swietle."
+  - "&aTrzeba polozyc kres jego machlojkom!"
+prize:
+  - "xp: 14500"
+  - "money: 400"
+require:
+  - "level: 35"
+  - "klasa: &2Mysliwy"
+  - "quest: strzelec_quest_7"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "strzelec_quest_8_1_1"
+        type: "przynies"
+        targetName: "&cNielegalne zloto"
+        message: "Przynies 25 sztuk nielegalnego zlota: %stan%"
+        ilosc: 25
+      2:
+        id: "strzelec_quest_8_1_2"
+        type: "przynies"
+        targetName: "&7Niewolnicza lina"
+        message: "Przynies 15 niewolniczych lin: %stan%"
+        ilosc: 15
+      3:
+        id: "strzelec_quest_8_1_3"
+        type: "przynies"
+        targetName: "&rZlecenie"
+        message: "Przynies 25 zlecen: %stan%"
+        ilosc: 25

@@ -1,0 +1,41 @@
+id: "3_quest_2"                                
+name: "&4Straznik kopalni"                          
+zleceniodawca: "&a&lJasuo"                       
+lore:                                               
+  - "&aKopalnia tutaj zarzadzal Gomez."
+  - "&aStaralismy sie dowiedziec, co sie z nim dzieje,"
+  - "&alecz go nie odnalezlismy."
+  - "&aWiadomo jedynie, ze na otwartej przestrzeni go nie ma,"
+  - "&amusi byc gdzie w glebi kopalni."
+  - "&aOdszukaj go, moze jest caly, moze ranny,"
+  - "&amoze potrzebuje naszej pomocy."
+prize:                                    
+  - "xp: 300"
+require:                                            
+  - "level: 20"
+  - "quest: 3_quest_1"
+stopnie:
+  1:
+    talking: false
+    message: "&r%player%&7 &bDziwne, Gomez nie wyglada jak ci inni wariaci. Wyglada na to, ze ma dosyc nieprzyjazne nastawienie do mnie. Malo tego, chodza ci wariaci kolo niego, ale nie reaguja na Gomeza. To wszystko jest dziwne... O cholera! Trzeba wiac!"
+    targets:
+      1:
+        id: "3_quest_2_1_1"
+        type: "znajdz"
+        targetName: "gomez1"
+        message: "Odszukaj Gomeza - Straznika kopalni (szukaj w glebi kopalni): %stan%"
+  2:
+    talking: false
+    targets:    
+      1:
+        id: "3_quest_2_2_1"                     
+        type: "zagadaj"       
+        targetName: "&a&lJasuo"                      
+        message: "Zamelduj sie u &a&lJasuo: %stan%"
+        dialog:
+          - "&r%player%&7: &bGomez jest w kopalni na najnizszym poziomie."
+          - "&r%player%&7: &bWyglada na calego i zdrowego, lecz jest jakies ale..."
+          - "&r%player%&7: &bByl agresywnie nastawiony do mnie a sam siebie otaczal tymi wariatami."
+          - "&a&lJasuo&7: &aDziwne i zarazem niepokojace wiesci..."
+          - "&a&lJasuo&7: &aCzuje, ze tutaj gra sie toczy o cos wiekszego..."
+          - "&a&lJasuo&7: &aPoki co nie rozumiem tego wszystkiego, ale pewnie przyjdzie pora, kiedy to zrozumie..."

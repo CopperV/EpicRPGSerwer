@@ -1,0 +1,31 @@
+id: "zlodziej_quest_4"                                
+name: "&7Droga na skroty II"                          
+zleceniodawca: "&8&lValeera"                       
+lore:                                               
+  - "&aNo coz, wydaje mi sie,"
+  - "&aze sie wykazales juz wystarczajaco."
+  - "&aPrzekarz swojemu przelozonemu,"
+  - "&aze podejmiemy z nimi wspolprace."
+  - "&aNiech oczekuje naszego czlowieka,"
+  - "&aobgada z nimi szczegoly."
+prize:                                    
+  - "xp: 170"
+  - "money: 350"
+require:                                            
+  - "level: 13"
+  - "quest: zlodziej_quest_3"
+stopnie:
+  1:
+    talking: false                    
+    targets:
+      1:
+        id: "zlodziej_quest_4_1_1"                     
+        type: "zagadaj"       
+        targetName: "&2Alima"                      
+        message: "Porozmawiaj o odniesionym sukcesie z &2Alima: %stan%"
+        dialog:
+          - "&r%player%&7: &bPrzekonalem gildie zlodziei, wkrotce wysla tutaj swojego czlowieka."
+          - "&r%player%&7: &bOn obgada z Wami szczegoly."
+          - "&2Alima&7: &aTroche Ci to zajelo, ale efekt w koncu pozadany."
+          - "&2Alima&7: &aPrzyjmij to zloto w nagrode."
+          - "&2Alima&7: &aJa poinformuje o wszystkich &7&lSaro&a."

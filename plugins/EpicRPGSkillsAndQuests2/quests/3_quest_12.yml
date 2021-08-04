@@ -1,0 +1,31 @@
+id: "3_quest_12"                                
+name: "&9Bez szans"                          
+zleceniodawca: "&a&lJasuo"                       
+lore:                                               
+  - "&aNo coz, zrobilismy chyba juz wszystko, co moglismy."
+  - "&aSzczerze mowiac, &6&lCorristo &abyl pewien,"
+  - "&aze z Twoja pomoca uda sie odbic kopalnie."
+  - "&aWyglada na to, ze poki co to pozostaje w sferze marzen."
+  - "&aWracaj do &6&lCorristo &a- juz o wszystkim wie."
+prize:                                    
+  - "xp: 750"
+  - "money: 1000"
+  - "bc: &7[&b&lEpicRPG&7] &aGracz &7%player% &aukonczyl watek &2&l&oKopalnia na wschodzie&a. &6&lGRATULACJE!"
+  - "cmd: crazycrates give physical Rzadka 1 %player%"
+require:                                            
+  - "level: 30"
+  - "quest: 3_quest_11"
+stopnie:
+  1:
+    talking: false
+    targets:
+      1:
+        id: "3_quest_12_1_1"
+        type: "zagadaj"
+        targetName: "&b&lCorristo"
+        message: "Szkolenie zakonczone. Porozmawiaj o tym z &b&lCorristo: %stan%"
+        dialog:
+          - "&6&lCorristo&7: &aDlugo kazales na siebie czekac."
+          - "&6&lCorristo&7: &aTo wielka tragedia dla nas."
+          - "&6&lCorristo&7: &aLiczylismy na to, ze jest nadzieja na powrot do kopalni."
+          - "&6&lCorristo&7: &aStanales praktycznie na glowie, by do tego doszlo, ale bez szans..."

@@ -1,0 +1,99 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+
+AntramentorSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &9&oStworzono mnie, by powstrzymac takich jak Ty. Dalej nie przejdziesz!"} @PlayersInRadius{r=25}
+
+AntramentorSkill1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=60} @self
+  - message{m="<mob.name><&co> &9&oW tej krypcie zakonczy sie Twoja podroz"} @PlayersInRadius{r=25}
+  - summon{type=AntramentorSummon;amount=2;radius=6;os=true} @Location{c=-1915.5,48,1186.5,0,0}
+  - summon{type=AntramentorSummon;amount=1;radius=0} @Location{c=-1900.5,48,1192.5,0,0}
+  - summon{type=AntramentorSummon;amount=1;radius=0} @Location{c=-1900.5,48,1180.5,0,0}
+
+AntramentorSkill2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=150} @self
+  - message{m="<mob.name><&co> &9&oOgien tej krypty was spopieli!"} @PlayersInRadius{r=25}
+  - summon{type=AntramentorMissile;amount=1;radius=0} @Location{c=-1915.5,48,1186.5,0,0}
+
+AntramentorMissileSpawn:
+  Skills:
+  - delay 600
+  - remove @self
+
+AntramentorMissileSkill:
+  Skills:
+  - effect:sound{s=entity.blaze.shoot;v=4;p=0.8} @self
+  - missile{ot=AntramentorMissile-Tick;oH=AntramentorMissile-End;v=6;i=1;hR=1;vR=1;in=3;md=400;mr=90;sB=false;fo=true} @PIR{r=40}
+
+AntramentorMissile-Tick:
+  Skills:
+  - effect:particles{particle=flame;amount=5;speed=0.05;hS=0.1;vS=0.1} @origin
+
+
+AntramentorMissile-End:
+  Skills:
+  - effect:sound{s=entity.blaze.hurt;v=4;p=2} @self
+  - damage{amount=200}
+  - ignite{ticks=100}
+  - effect:particles{particle=flame;amount=20;speed=0.15;hS=0.3;vS=0.3} @origin
+
+AntramentorSkill3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=140} @self
+  - message{m="<mob.name><&co> &9&oPogrzebie Cie w tych gruzach!"} @PlayersInRadius{r=25}
+  - potion{type=SLOW;duration=240;level=2} @self
+  - potion{type=SLOW;duration=240;level=2} @PIR{r=40}
+  - potion{type=SLOW;duration=240;level=2} @MIR{r=50;t=AntramentorSummon}
+  - potion{type=BLINDNESS;duration=240;level=1} @PIR{r=40}
+  - skill{s=Antramentor_Skill3_Cast} @self
+  - delay 20
+  - skill{s=Antramentor_Skill3_Cast} @self
+  - delay 20
+  - skill{s=Antramentor_Skill3_Cast} @self
+  - delay 20
+  - skill{s=Antramentor_Skill3_Cast} @self
+  - delay 20
+  - skill{s=Antramentor_Skill3_Cast} @self
+  - delay 20
+  - skill{s=Antramentor_Skill3_Cast} @self
+  - delay 20
+  - skill{s=Antramentor_Skill3_Cast} @self
+  - delay 20
+  - skill{s=Antramentor_Skill3_Cast} @self
+  - delay 20
+  - skill{s=Antramentor_Skill3_Cast} @self
+  - delay 20
+  - skill{s=Antramentor_Skill3_Cast} @self
+
+Antramentor_Skill3_Cast:
+  Skills:
+  - summon{type=Antramentor_Rock;amount=2;radius=30;os=true} @self
+  - projectile{type=meteor;onTick=Antramentor-Tick;onEnd=Antramentor-End;v=30;i=1;hR=1;vR=1;syo=8;tyo=8;g=1.2;mr=20} @MIR{r=40;t=Antramentor_Rock}
+
+Antramentor-Tick:
+  Skills:
+  - effect:particles{particle=cloud;amount=20;speed=0.1;hS=2.5;vS=2.5} @origin
+  - effect:particles{particle=enchantmenttable;amount=20;speed=0.1;hS=2.5;vS=2.5} @origin
+Antramentor-End:
+  Skills:
+  - sound{s=entity.generic.explode;v=4;p=0.1} @PIR{r=40}
+  - effect:particles{particle=cloud;amount=40;speed=0.25;hS=5;vS=5} @origin
+  - effect:particles{particle=enchantmenttable;amount=40;speed=0.25;hS=5;vS=5} @origin
+  - damage{amount=400} @PlayersNearOrigin{r=5}
+
+Antramentor_RockSpawn:
+  Skills:
+  - sound{s=entity.blaze.shoot;v=10;p=0.01} @PIR{r=40}
+  - delay 2
+  - remove @self

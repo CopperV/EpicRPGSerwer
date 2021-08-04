@@ -1,0 +1,42 @@
+name: "&4Olivier"
+title: "&4Olivier - quester"
+size: 27
+slots:
+  1:
+    item: "p_quest_26"
+  2:
+    item: "zlecenie_spaczenie1"
+  8:
+    item: "Mana1"
+    max: 200
+    wymagania:
+      - "quest: p_quest_26"
+  9:
+    item: "Mana5"
+    max: 200
+    wymagania:
+      - "quest: p_quest_26"
+  17:
+    item: "Sila1"
+    max: 210
+    wymagania:
+      - "quest: p_quest_26"
+      - "klasa: &cWojownik"
+  18:
+    item: "Sila5"
+    max: 210
+    wymagania:
+      - "quest: p_quest_26"
+      - "klasa: &cWojownik"
+  26:
+    item: "Wytrzymalosc1"
+    max: 280
+    wymagania:
+      - "quest: p_quest_26"
+      - "klasa: &cWojownik"
+  27:
+    item: "Wytrzymalosc5"
+    max: 280
+    wymagania:
+      - "quest: p_quest_26"
+      - "klasa: &cWojownik"

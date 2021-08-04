@@ -1,0 +1,12 @@
+name: "&2Alima"
+title: "&2Alima - quester"
+size: 9
+slots:
+  1:
+    item: "zlodziej_quest_1"
+  2:
+    item: "przemytnik_quest_4"
+  3:
+    item: "przemytnik_quest_7"
+  4:
+    item: "przemytnik_quest_11"

@@ -1,0 +1,130 @@
+id: "fabula_quest_23"
+name: "&c&lRytual przywolania"                          
+zleceniodawca: "&c&lAlexstrasza"
+lore:
+  - "&aOstatnio odnalazles dwa ciala,"
+  - "&aa my nadal nie wiemy za duzo w sprawie Geddona."
+  - "&aPomyslalam, ze mozna bylo by sie czegos jeszcze"
+  - "&adowiedziec od tych zmarlych."
+  - "&aMoga sie jeszcze na cos przydac."
+  - "&aJednak do przywolania tych dusz bede potrzebowac"
+  - "&aparu rzeczy - miedzy innymi serc zywiolakow."
+  - "&aPrzynies mi je."
+prize:                                    
+  - "xp: 50000"
+require:                                            
+  - "quest: fabula_quest_22"
+  - "level: 44"
+stopnie:
+  1:
+    talking: false
+    message: "&c&lAlexstrasza&7: &aDoskonala robota. Teraz udaj sie do &b&lCronosa &aw obozie ekspedycyjnym i niech on Ciebie przeteleportuje do kregu zycia. Bede tam na Ciebie czekac."
+    targets:
+      1:
+        id: "fabula_quest_23_1_1"
+        type: "przynies"
+        targetName: "&cSerce zywiolaka"
+        message: "Przynies 30 serc zywiolakow: %stan%"
+        ilosc: 30
+      2:
+        id: "fabula_quest_23_1_2"
+        type: "przynies"
+        targetName: "&cSerce wulkanicznego olbrzyma"
+        message: "Przynies 2 serca wulkanicznych olbrzymow: %stan%"
+        ilosc: 2
+      3:
+        id: "fabula_quest_23_1_3"
+        type: "przynies"
+        targetName: "&cSpaczona dusza"
+        message: "Przynies 10 spaczonych dusz: %stan%"
+        ilosc: 10
+      4:
+        id: "fabula_quest_23_1_4"
+        type: "przynies"
+        targetName: "&eSerce mumii"
+        message: "Przynies 30 serc mumii: %stan%"
+        ilosc: 30
+      5:
+        id: "fabula_quest_23_1_5"
+        type: "przynies"
+        targetName: "&ePierwiastek Kalimosa"
+        message: "Przynies 18 pierwiastkow Kalimosa: %stan%"
+        ilosc: 18
+  2:
+    talking: false
+    message: "&r%player%&7: &bNo i jestesmy. Widze, ze &c&oAlexstrasza &bjuz na mnie czeka. Trzeba sie dowiedziec, co ja tutaj robie."
+    targets:
+      1:
+        id: "fabula_quest_23_2_1"
+        type: "znajdz"
+        targetName: "krag1"
+        message: "Udaj sie do Cronosa i przeteleportuj sie do &c&okregu zycia: %stan%"
+  3:
+    talking: false
+    targets:
+      1:
+        id: "fabula_quest_23_3_1"
+        type: "zagadaj"
+        targetName: "&c&oAlexstrasza"
+        message: "Porozmawiaj z &c&oAlexstrasza: %stan%"
+        dialog:
+          - "&r%player%&7: &bNo dobra, jestem."
+          - "&r%player%&7: &bPo co tutaj jestesmy?"
+          - "&c&oAlexstrasza&7: &aWykorzystamy zwloki i przywolamy duchy, do ktorych nalezaly ciala."
+          - "&c&oAlexstrasza&7: &aNastepnie je przeslucham w sprawie nurtujacych nas pytan."
+          - "&r%player%&7: &bNo dobra, a po co ja tutaj jestem?"
+          - "&c&oAlexstrasza&7: &aDusze zmarlych nie beda z pewnoscia zadowolone z powodu zaklocania ich spokoju."
+          - "&c&oAlexstrasza&7: &aPrzywolanie tego typu bedzie mnie sporo kosztowac."
+          - "&c&oAlexstrasza&7: &aPo rozmowie z kazda z dusz nie bede w stanie sie bronic, a przywolane dusze moga to wykorzystac."
+          - "&c&oAlexstrasza&7: &aRozumiesz wszystko?"
+          - "&r%player%&7: &bTo co mam teraz robic?"
+          - "&c&oAlexstrasza&7: &aPodejdz do srodka kregu i poczekaj az przywolam dusze."
+          - "&c&oAlexstrasza&7: &aNa poczatek zajmiemy sie cialem z domu skryby."
+          - "&c&oAlexstrasza&7: &aJak ja przeslucham, to moze sie na mnie rzucic."
+          - "&c&oAlexstrasza&7: &aMusisz powstrzymac ja przed tym."
+  4:
+    talking: false
+    targets:
+      1:
+        id: "fabula_quest_23_4_1"
+        type: "znajdz"
+        targetName: "krag2"
+        message: "Podejdz do srodka kamiennego kregu: %stan%"
+  5:
+    talking: false
+    message: "&c&lAlexstrasza&7: &aMiejmy juz to za soba. Od razu przyzywam druga dusze..."
+    targets:
+      1:
+        id: "fabula_quest_23_5_1"
+        type: "zabij"
+        targetName: "&oPrzywolany Matteo"
+        message: "Wysluchaj rozmowy Alexstraszy z pierwszym duchem a nastepnie obron Alexstrasze przed tym duchem: %stan%"
+        ilosc: 1
+  6:
+    talking: false
+    message: "&r%player%&7: &bOstra jazda byla przy tym kregu zycia. Powinienem sie spotkac z &c&lAlexstrasza &bna zamku."
+    targets:
+      1:
+        id: "fabula_quest_23_6_1"
+        type: "zabij"
+        targetName: "&oPrzywolany Gall"
+        message: "Wysluchaj rozmowy Alexstraszy z drugim duchem a nastepnie obron Alexstrasze przed tym duchem: %stan%"
+        ilosc: 1
+  7:
+    talking: false
+    targets:
+      1:
+        id: "fabula_quest_23_7_1"
+        type: "zagadaj"
+        targetName: "&c&lAlexstrasza"
+        message: "Porozmawiaj z &c&lAlexstrasza na zamku: %stan%"
+        dialog:
+          - "&c&oAlexstrasza&7: &aDobrze, ze juz jestes."
+          - "&c&oAlexstrasza&7: &aNie spodziewalem sie uslyszec takich wiesci od duchow."
+          - "&c&oAlexstrasza&7: &aGeddon bardzo dobrze rozplanowal wszystko."
+          - "&c&oAlexstrasza&7: &aA jeszcze dochodzi ta tajemnicza elfka..."
+          - "&c&oAlexstrasza&7: &aNie kojarze zadnej Sylvany..."
+          - "&r%player%&7: &bCo to dla nas oznacza?"
+          - "&c&oAlexstrasza&7: &aJeszcze nie wiem."
+          - "&c&oAlexstrasza&7: &aObawiam sie jednak, ze moze namieszac rownie dobrze a nawet bardziej niz Archos."
+          - "&c&oAlexstrasza&7: &aWyglada na to, ze to ona jest odpowiedzialna za klatwy rzucone na Matteo i Galla."

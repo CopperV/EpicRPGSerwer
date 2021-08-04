@@ -1,0 +1,112 @@
+id: "kon_quest_3"                                
+name: "&3Opuszczona wieza"                          
+zleceniodawca: "&eCratos"                       
+lore:                                               
+  - "&aMam dla Ciebie jeszcze jedno zadanie."
+  - "&aJak go wykonasz, dostaniesz ode mnie konia."
+  - "&aOtoz niedaleko od mojej farmy znajduje sie przelecz,"
+  - "&aa centralnie przed wejsciem na nia wieza straznicza."
+  - "&aMam wrazenie, ze od ostatniego czasu tam straszy."
+  - "&aChce, bys to dla mnie zbadal."
+prize:                                    
+  - "xp: 340"
+  - "cmd: luckperms user %player% permission set rpg.horses"
+  - "item: Kon1"
+require:                                            
+  - "level: 10"
+  - "quest: kon_quest_2"
+stopnie:
+  1:
+    talking: false
+    message: "&r%player%&7: &bA wiec to jest ta wieza straznicza. Wyglada na to, ze &eCratos &bmial troche racji. Mozna dostrzec duchy straznikow. Trzeba sie bedzie z nimi rozprawic."
+    targets:
+      1:
+        id: "kon_quest_3_1_1"
+        type: "znajdz"
+        targetName: "wieza"
+        message: "Znajdz wieze straznicza w poblizu przeleczy (99;-298): %stan%"
+  2:
+    talking: false
+    message: "&r%player%&7: &bDobra, troche ogarniete. Pora wdrapac sie na szczyt tej wiezy"
+    targets:
+      1:
+        id: "kon_quest_3_2_1"
+        type: "zabij"
+        targetName: "&3Duch straznika"
+        message: "Pokonaj 6 duchow straznikow z wiezy strazniczej: %stan%"
+        ilosc: 6
+  3:
+    talking: false
+    message: "&r%player%&7: &bProsze, prosze... A co my tu mamy? (Pyta sie spogladajac na gore) Wyglada to na portal. Trzeba to sprawdzic"
+    targets:
+      1:
+        id: "kon_quest_3_3_1"
+        type: "znajdz"
+        targetName: "wieza_up"
+        message: "Wejdz na szczyt wiezy strazniczej: %stan%"
+  4:
+    talking: false
+    message: "&r%player%&7: &bZaraza... A jednak portal... Stad nie ma zadnego wyjscia. Trzeba zbadac to podziemie."
+    targets:
+      1:
+        id: "kon_quest_3_4_1"
+        type: "znajdz"
+        targetName: "horse_entry"
+        message: "Sproboj wejsc do portalu znajdujacego sie na czubku wiezy: %stan%"
+  5:
+    talking: false
+    message: "&r%player%&7: &bWyglada to na jakis kamien mocy... Ale juz nieaktywny, wygasly. Szkoda... Zaraza, mamy towarzystwo"
+    targets:
+      1:
+        id: "kon_quest_3_5_1"
+        type: "zabij"
+        targetName: "&3Duch straznika"
+        message: "Pokonaj 4 duchy straznikow w tajemniczym podziemiu: %stan%"
+        ilosc: 4
+      2:
+        id: "kon_quest_3_5_2"
+        type: "znajdz"
+        targetName: "kamien_mocy"
+        message: "Zbadaj tajemnicze podziemie (-4;23): %stan%"
+  6:
+    talking: false
+    message: "&r%player%&7: &bPrzynajmniej wiem, ze ten farmer mial troche racji. Trzeba mu o tym powiedziec. Tylko jak sie stad wydostac?"
+    targets:
+      1:
+        id: "kon_quest_3_6_1"
+        type: "zabij"
+        targetName: "&3Duch straznika"
+        message: "Pokonaj 5 duchow straznikow spod kamienia mocy: %stan%"
+        ilosc: 5
+      2:
+        id: "kon_quest_3_6_2"
+        type: "zabij"
+        targetName: "&cDuch zmutowanego wojownika"
+        message: "Pokonaj 2 tajemnicze duchy wojownikow spod kamienia mocy: %stan%"
+        ilosc: 2
+  7:
+    talking: false
+    message: "&r%player%&7: &bZaraza, nienawidze portali. Ale dosc juz o tym, trzeba sie udac do tego farmera i mu o wszystkim powiedziec."
+    targets:
+      1:
+        id: "kon_quest_3_7_1"
+        type: "znajdz"
+        targetName: "horse_back"
+        message: "Znajdz wyjscie z podziemia (nie uzywajac komendy /spawn) (80;-40): %stan%"
+  8:
+    talking: false
+    targets:
+      1:
+        id: "kon_quest_3_8_1"
+        type: "zagadaj"
+        targetName: "&eCratos"
+        message: "Opowiedz o znalezisku &eCratosowi: %stan%"
+        dialog:
+          - "&r%player%&7: &bMiales racje. W tej wiezy rzeczywiscie cos sie stalo - sa tam duchy straznikow."
+          - "&r%player%&7: &bDodatkowo, na szczycie znajduje sie portal do tajemniczego podziemia,"
+          - "&r%player%&7: &bw ktorym znajduje sie kamien mocy."
+          - "&eCratos&7: &aMam nadzieje, ze pozbyles sie tamtejszych duchow."
+          - "&r%player%&7: &bMialem tylko sprawdzic czy w tej wiezy straszy - nic wiecej..."
+          - "&r%player%&7: &bA teraz dawaj mi mojego konia."
+          - "&eCratos&7: &aDobra, niech Ci bedzie. Bierz ten patyk - nim przyzwiesz swojego wierzchowca."
+          - "&7[&b&l&oEpicRPG&7] &cBy przywolac wierzchowca, uzyj komendy &4&o/horse call"

@@ -1,0 +1,33 @@
+id: "p_quest_6"                                
+name: "&7Zbiegli wiezniowie"                          
+zleceniodawca: "&cWulfgar"                       
+lore:                                               
+  - "&aZnikniecie Barona Geddona wykorzystali"
+  - "&anatychmiastowo tutejsi wiezniowie."
+  - "&aUrzadzili ucieczke na skale do tej pory nieznana."
+  - "&aTrzeba ich ukarac."
+  - "&aI zeby byla jasnosc,"
+  - "&anie chce, bys ich tutaj sprowadzal."
+  - "&aZabij ich!"
+  - "&aNiech beda przykladem dla innych!"
+prize:                                    
+  - "xp: 100"
+  - "money: 30"
+require:                                            
+  - "level: 4"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "p_quest_6_1_1"
+        type: "zabij"
+        targetName: "&cRabus"
+        message: "Zabij 10 zbieglych rabusiow: %stan%"
+        ilosc: 10
+      2:
+        id: "p_quest_6_1_2"
+        type: "zabij"
+        targetName: "&cKieszonkowiec"
+        message: "Zabij 5 zbieglych kieszonkowcow: %stan%"
+        ilosc: 5

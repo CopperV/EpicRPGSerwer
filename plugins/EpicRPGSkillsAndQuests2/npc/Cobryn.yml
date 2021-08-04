@@ -1,0 +1,10 @@
+name: "&7Cobryn"
+title: "&7Cobryn - quester"
+size: 9
+slots:
+  1:
+    item: "przemytnik_quest_2"
+  2:
+    item: "przemytnik_quest_6"
+  3:
+    item: "przemytnik_quest_12"

@@ -1,0 +1,17 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&e&oGilana"
+  - "&7[&6&lBIZNESMEN&7]"
+skinid: 1661783402
+location:
+  world: "Map113"
+  x: 86.5
+  y: 65
+  z: 217.5
+  yaw: 45
+  pitch: 4.5
+lookat: true
+commands:
+  - "cc open gilana %player%"

@@ -1,0 +1,42 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+GorylAttack:
+  Skills:
+  - jump{velocity=1}
+  - delay 25
+  - damage{amount=45} @PlayersInRadius{r=4}
+GorylAttack2:
+  Skills:
+  - throw{velocity=5;velocityY=12} @trigger
+Zakazenie:
+  Skills:
+  - potion{type=BLINDNESS;duration=200;level=2} @target
+  - potion{type=POISON;duration=200;level=2} @target
+Krwawienie:
+  Skills:
+  - effect:particles{p=reddust;a=50;hs=0.8;vs=0.5;y=0.5} @target
+  - delay 15
+  - effect:particles{p=reddust;a=50;hs=0.8;vs=0.5;y=0.5} @target
+  - damage{amount=15} @target
+  - delay 15
+  - effect:particles{p=reddust;a=50;hs=0.8;vs=0.5;y=0.5} @target
+  - damage{amount=15} @target
+  - delay 15
+  - effect:particles{p=reddust;a=50;hs=0.8;vs=0.5;y=0.5} @target
+  - damage{amount=15} @target
+  - delay 15
+  - effect:particles{p=reddust;a=50;hs=0.8;vs=0.5;y=0.5} @target
+  - damage{amount=15} @target
+  - delay 15
+  - effect:particles{p=reddust;a=50;hs=0.8;vs=0.5;y=0.5} @target
+  - damage{amount=15} @target
+  - delay 15
+  - effect:particles{p=reddust;a=50;hs=0.8;vs=0.5;y=0.5} @target
+  - damage{amount=15} @target
+  - delay 15
+  - effect:particles{p=reddust;a=50;hs=0.8;vs=0.5;y=0.5} @target
+  - damage{amount=15} @target
+  - delay 15
+  - effect:particles{p=reddust;a=50;hs=0.8;vs=0.5;y=0.5} @target
+  - damage{amount=15} @target

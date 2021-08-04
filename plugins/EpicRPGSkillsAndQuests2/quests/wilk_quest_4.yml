@@ -1,0 +1,28 @@
+id: "wilk_quest_4"                                
+name: "&bDziwne obrazenia"                          
+zleceniodawca: "&7Frithjof"                       
+lore:                                               
+  - "&aOstatnio zwiadowcy wrocili z bardzo"
+  - "&adziwnymi ranami szarpanymi."
+  - "&aNie wygladaly, jakby je zrobily wilki..."
+  - "&aLecz cos znacznie wiekszego."
+  - "&aZwiadowcy opowiedzieli, ze napadlo na nich"
+  - "&acos ogromnego, szybkiego i silnego."
+  - "&aMam pewne przypuszczenia, ale zeby je potwierdzic"
+  - "&ato bede potrzebowac troche wilczych klow."
+prize:                                    
+  - "xp: 410"
+require:                                            
+  - "level: 8"
+  - "quest: wilk_quest_3"
+stopnie:
+  1:
+    talking: true
+    message: "&7Frithjof&7: &aDziwne... Rany powstaly najprawdopodobniej w wyniku ugryzien wilka, ale kly, ktore mi przyniosles, sa za male, by mogly zadac takie obrazenia. Mysle, ze zwiadowcy napotkali sie na wilka alfe."
+    targets:
+      1:
+        id: "wilk_quest_4_1_1"
+        type: "przynies"
+        targetName: "&3Kly Wilka"
+        message: "Przynies 15 wilczych klow: %stan%"
+        ilosc: 15

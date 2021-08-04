@@ -1,0 +1,44 @@
+id: "p_quest_26"                                
+name: "&4Strach przed spaczeniem"
+zleceniodawca: "&4Olivier"
+lore:                                               
+  - "&b&lTyrael &azapewnia mnie, ze wszystko"
+  - "&ajest na dobrej drodze,"
+  - "&aze spaczenie mamy pod kontrola."
+  - "&aNie chce mi sie w to wierzyc tym bardziej"
+  - "&awidzac chadzajace sobie stworzenia spaczenia"
+  - "&acalkowicie swobodnie."
+  - "&aSpalbym znacznie spokojnie, gdyby bylo ich mniej,"
+  - "&agdyby nie podchodzili tak blisko przeleczy."
+prize:                                    
+  - "xp: 24000"
+require:                                            
+  - "level: 42"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "p_quest_26_1_1"
+        type: "zabij"
+        targetName: "&cZywiolak Ognia"
+        message: "Zabij 18 zywiolakow ognia: %stan%"
+        ilosc: 18
+      2:
+        id: "p_quest_26_1_2"
+        type: "zabij"
+        targetName: "&4Zarzyciel"
+        message: "Zabij 9 zarzycieli: %stan%"
+        ilosc: 9
+      3:
+        id: "p_quest_26_1_3"
+        type: "zabij"
+        targetName: "&c&lWulkaniczny Furiat"
+        message: "Zabij 12 wulkanicznych furiatow: %stan%"
+        ilosc: 12
+      4:
+        id: "p_quest_26_1_4"
+        type: "zabij"
+        targetName: "&4&lWulkaniczny Olbrzym"
+        message: "Zabij 1 wulkanicznego olbrzyma: %stan%"
+        ilosc: 1

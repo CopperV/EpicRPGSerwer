@@ -1,0 +1,56 @@
+id: "1_quest_11"                                
+name: "&bTluste Kurczaki"                          
+zleceniodawca: "&2Lindsay"                       
+lore:                                               
+  - "&3Moj maz jest strasznym dziwakiem."
+  - "&3Nie pozwala mi dotykac jego kurczakow."
+  - "&3Przynies mi troche jego kurczakow,"
+  - "&3a zrobie z nich obiad dla niego."
+  - "&3Zobacze czy mu zasmakuje."
+  - "&3Najlepiej pozbadz sie ich troche bo za szybko sie rozmnazaja."
+  - "&3Nie zapomnij przyniesc mi pierze, zrobie dla Farima"
+  - "&3poduszke z pierza jego kochanych kurczakow."
+  - "&3Postaraj sie aby, moj kochany nie zauwazyl co niesiesz"
+prize:                                    
+  - "xp: 50"
+  - "money: 50"
+require:                                            
+  - "quest: 1_quest_4"
+  - "level: 4"
+stopnie:
+  1:
+    talking: true
+    message: "&2Lindsay&7: &aDzieki za pomoc. Mam do Ciebie jeszcze jedna prosbe. Wez te poduszke i wrecz ja mojemu mezowi."
+    targets:
+      1:
+        id: "1_quest_11_1_1"
+        type: "zabij"
+        targetName: "&rHodowlana Kura"
+        message: "Upoluj 32 Hodowlane Kury: %stan%"
+        ilosc: 32
+      2:
+        id: "1_quest_11_1_2"
+        type: "przynies"
+        targetName: "&rSurowa kura"
+        message: "Przynies 32 surowych kur do Lindsay: %stan%"
+        ilosc: 32
+      3:
+        id: "1_quest_11_1_3"
+        type: "przynies"
+        targetName: "&rKurze Pierze"
+        message: "Przynies Lindsay 16 Kurzego Pierza na podusze dla Farima: %stan%"
+        ilosc: 16
+  2:
+    talking: false
+    targets:
+      1: 
+        id: "1_quest_11_2_1"
+        type: "zagadaj"
+        targetName: "&aFarim"
+        message: "Porozmawiaj z Farimem: %stan%"
+        dialog:
+          - "&r%player%&7: &bTwoja zona poprosila mnie, abym Ci przekazal, ze ma dla Ciebie nowa poduszke z miasta."
+          - "&7Nieznajomy&7: &aJaka ona kochana, zawsze sie troszczy o mnie"
+          - "&r%player%&7: &bAaa... Jeszcze zaraz będziesz miec obiad pachnie jak gulasz."
+          - "&aFarim&7: &aRzeczywiscie - pachnie jak gulasz - moja ulubiona potrawa."
+          - "&aFarim&7: &aDziekuje za pomoc, masz w nagrode kilka groszy"

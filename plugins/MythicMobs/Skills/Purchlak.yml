@@ -1,0 +1,40 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+PurchlakAttack1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=60}
+  - shoot{type=snowball;velocity=1;damage=100} @TargetLocation
+  - effect:smokeswirl{duration=30;interval=10} @Self
+PurchlakAttack2:
+  Skills:
+  - potion{type=SLOW;duration=200;level=1} @Target
+  - potion{type=BLINDNESS;duration=400;level=3} @Target
+  - potion{type=CONFUSION;duration=400;level=3} @Target
+  - potion{type=POISON;duration=100;level=1} @Target
+PurchlakAttack3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=100}
+  - jump{velocity=1}
+  - sound{s=entity.ghast.shoot} @PIR{r=10}
+  - delay 25
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=hugeexplosion;radius=0;points=4;amount=1;hS=0.5;vS=0} @self
+  - delay 2
+  - effect:particlering{particle=hugeexplosion;radius=1;points=6;amount=1;hS=0.5;vS=0} @self
+  - delay 2
+  - effect:particlering{particle=hugeexplosion;radius=2;points=8;amount=1;hS=0.5;vS=0} @self
+  - delay 2
+  - effect:particlering{particle=hugeexplosion;radius=3;points=12;amount=1;hS=0.5;vS=0} @self
+  - delay 2
+  - effect:particlering{particle=hugeexplosion;radius=4;points=16;amount=1;hS=0.5;vS=0} @self
+  - delay 2
+  - effect:particlering{particle=hugeexplosion;radius=5;points=24;amount=1;hS=0.5;vS=0} @self
+  - delay 2
+  - effect:particlering{particle=hugeexplosion;radius=6;points=32;amount=1;hS=0.5;vS=0} @self
+  - damage{amount=90} @PlayersInRadius{r=6}
+  - throw{velocity=9;velocityY=12} @PlayersInRadius{r=6}

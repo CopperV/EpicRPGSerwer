@@ -1,0 +1,28 @@
+id: "mag_quest_6"                                
+name: "&bRaport dla Canthara"                          
+zleceniodawca: "&7&lCarl"                       
+lore:                                               
+  - "&aNo, juz chyba wystarczajaco mi tutaj pomogles."
+  - "&aIdz, &c&lCanthar &ajuz sie za Toba stesknil."
+prize:                                    
+  - "xp: 215"
+  - "money: 700"
+  - "cmd: crazycrates give physical Zwykla 1 %player%"
+  - "bc: &7[&b&lEpicRPG&7] &aGracz &7%player% &aukonczyl watek &2&oLESNI ZABOJCY&a. &6&lGRATULACJE!"
+require:                                            
+  - "level: 17"
+  - "quest: mag_quest_5"
+  - "klasa: &5Mag"
+stopnie:
+  1:
+    talking: false
+    targets:
+      1:
+        id: "mag_quest_6_1_1"
+        type: "zagadaj"
+        targetName: "&c&lCanthar"
+        message: "Udaj sie do &c&lRonina: %stan%"
+        dialog:
+          - "&c&lCanthar&7: &aNo, no. &7&lCarl &anie mogl sie Ciebie nachwalic."
+          - "&c&lCanthar&7: &aStrasznie mu zaimponowales, co nie kazdemu sie udaje."
+          - "&c&lCanthar&7: &aCalkowicie zasluzyles na ta nagrode."

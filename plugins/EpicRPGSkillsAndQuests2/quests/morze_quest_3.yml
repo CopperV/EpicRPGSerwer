@@ -1,0 +1,33 @@
+id: "morze_quest_3"                                
+name: "&9&lNa niespojnych wodach"                          
+zleceniodawca: "&4Nars"                       
+lore:                                               
+  - "&aJak dla mnie powinienes sie zmierzyc"
+  - "&aze straznikami wod,"
+  - "&aby wiedziec jak potem walczyc z Neptulonem."
+  - "&aNiestety, cala akcja dzieje sie pod woda,"
+  - "&awiec albo bedziesz co chwile wyplywac"
+  - "&ana powierzchnie po tlen, albo znajdziesz"
+  - "&ajakis specjalny helm."
+prize:                                    
+  - "xp: 35500"
+  - "money: 100"
+require:                                            
+  - "level: 45"
+  - "quest: morze_quest_1"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "morze_quest_3_1_1"
+        type: "zabij"
+        targetName: "&9Straznik wod"
+        message: "Zabij 18 straznikow wod: %stan%"
+        ilosc: 18
+      2:
+        id: "morze_quest_3_1_2"
+        type: "zabij"
+        targetName: "&bStraznik Swiatynny"
+        message: "Pokonaj 2 straznikow swiatynnych: %stan%"
+        ilosc: 2

@@ -1,0 +1,37 @@
+id: "6_quest_13"                                
+name: "&8&l&oWyslannik Herobrine"                          
+zleceniodawca: "&3&lSteve"                       
+lore:                                               
+  - "&aStalo sie..."
+  - "&aHerobrine wyslal tutaj kogos,"
+  - "&aby stlumic nasze dzialania."
+  - "&aWidac, ze chce miec pewnosc,"
+  - "&aze sie nas pozbedzie."
+  - "&aWyslal tutaj Lorda Pustki."
+  - "&aJednego juz spotkaliscie w Twierdzy."
+  - "&aPora na drugiego."
+  - "&aOsadzil sie na wzgorzu, nad miastem."
+  - "&aStamtad probuje wyszukac nas i nasza baze."
+prize:                                    
+  - "xp: 300000"
+  - "money: 30000"
+  - "bc: &7[&b&lEpicRPG&7] &aGracz &7%player% &aukonczyl watek &c&lRebelia Nowego Swiata&a. &6&lGRATULACJE!"
+  - "cmd: rta add %player% 22"
+require:                                            
+  - "level: 60"
+  - "quest: 6_quest_12"
+stopnie:
+  1:
+    talking: true                  
+    targets:
+      1:
+        id: "6_quest_13_1_1"                     
+        type: "znajdz"       
+        targetName: "sentenza"
+        message: "Wejdz na wzgorze nad miastem (182 ; 318): %stan%"
+      2:
+        id: "6_quest_13_1_2"                     
+        type: "zabij"       
+        targetName: "&8&lSentenza - EPIC BOSS"
+        message: "Pokonaj Lorda Pustki - Sentenze: %stan%"
+        ilosc: 1

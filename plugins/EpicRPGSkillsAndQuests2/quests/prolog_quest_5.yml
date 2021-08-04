@@ -1,0 +1,65 @@
+id: "prolog_quest_5"                                
+name: "&aPraca na farmie"                          
+zleceniodawca: "&e&lUthar"                       
+lore:                                               
+  - "&aZanim pokaze Ci w czym problem,"
+  - "&achce, bys pokazal, ze nie boisz sie pracy"
+  - "&ai ze nie stchorzyc przy pierwszej lepszej gorce."
+  - "&aPopracujesz troche na rzecz farmy..."
+prize:                                    
+  - "xp: 200"
+require:                                            
+  - "level: 2"
+  - "quest: prolog_quest_4"
+stopnie:                                            
+  1:
+    talking: true                    
+    targets:
+      1:
+        id: "prolog_quest_5_1_1"
+        type: "zabij"
+        targetName: "&dSwinka"
+        message: "Zabij 7 swin: %stan%"
+        ilosc: 7
+      2:
+        id: "prolog_quest_5_1_2"                     
+        type: "zabij"       
+        targetName: "&rKrowa"                      
+        message: "Zabij 6 krow: %stan%"                    
+        ilosc: 6
+      3:
+        id: "prolog_quest_5_1_3"                     
+        type: "zabij"       
+        targetName: "&7Owca nizinna"                      
+        message: "Zabij 10 owieczek: %stan%"                    
+        ilosc: 10
+      4:
+        id: "prolog_quest_5_1_4"                     
+        type: "zabij"       
+        targetName: "&rHodowlana kura"                      
+        message: "Zabij 15 kur hodowlanych: %stan%"                    
+        ilosc: 15
+      5:
+        id: "prolog_quest_5_1_5"
+        type: "przynies"
+        targetName: "&rSurowa kura"
+        message: "Przynies 7 surowych kur: %stan%"
+        ilosc: 7
+      6:
+        id: "prolog_quest_5_1_6"
+        type: "przynies"
+        targetName: "&rSurowy schab"
+        message: "Przynies 4 surowe schaby: %stan%"
+        ilosc: 4
+      7:
+        id: "prolog_quest_5_1_7"
+        type: "przynies"
+        targetName: "&rSurowa wolowina"
+        message: "Przynies 4 surowe wolowiny: %stan%"
+        ilosc: 4
+      8:
+        id: "prolog_quest_5_1_8"
+        type: "przynies"
+        targetName: "&rSurowa baranina"
+        message: "Przynies 5 surowych baranin: %stan%"
+        ilosc: 5

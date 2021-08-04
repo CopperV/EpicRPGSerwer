@@ -1,0 +1,30 @@
+id: "5_quest_5"                                
+name: "&7Zmaterializowane dusze"                          
+zleceniodawca: "&b&lTyrael"                       
+lore:                                               
+  - "&aDusza kojarzy sie z czyms, czego"
+  - "&anie mozna dotknac."
+  - "&aWalczac ze spaczeniem zauwazyles zapewne,"
+  - "&aze z niektorych tych biednych dusz cos wypada."
+  - "&aIstnieje prawdopodobienstwo, ze same"
+  - "&apokonanie spaczonej duszy nie wyzwoli jej z niewoli."
+  - "&aMoze dojsc do jej zmaterializowania."
+  - "&aZmaterializowane dusze znacznie ciezej uwolnic,"
+  - "&alecz mamy na to sposoby."
+  - "&aPrzynies mi czesc tych dusz,"
+  - "&aa ja sie zajme reszta."
+prize:                                    
+  - "xp: 52000"
+require:                                            
+  - "level: 45"
+  - "quest: 5_quest_4"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "5_quest_5_1_1"                     
+        type: "przynies"       
+        targetName: "&cSpaczona dusza"                      
+        message: "Przynies 30 spaczonych dusz: %stan%"
+        ilosc: 30

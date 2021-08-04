@@ -1,0 +1,277 @@
+Rezan_H_Spawn:
+  Skills:
+  - message{m="<mob.name><&co> &3Smierc Archosa niczego nie zmieni..."} @PlayersInRadius{r=25}
+  - delay 10
+  - message{m="<mob.name><&co> &3I tak jestescie zgubieni!"} @PlayersInRadius{r=25}
+  - delay 10
+  - message{m="<mob.name><&co> &3Przygotujcie sie na smierc..."} @PlayersInRadius{r=25}
+
+Rezan_H_Skill_1:
+  Conditions:
+  - hasaura Rezan_H_Skill false
+  Skills:
+  - stun{d=100} @self
+  - Aura{auraName=Rezan_H_Skill;duration=100} @self
+  - message{m="<mob.name><&co> &3Nie mozecie powstrzymac pustki..."} @PlayersInRadius{r=25}
+  - message{m="<mob.name><&co> &3NIC NIE MOZE!"} @PlayersInRadius{r=25}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bRezan przygotowuje smiertelna fale!";d=80} @PIR{r=30}
+  - delay 80
+  - skill{s=SmiertelnaFalaSkill_H} @SelfLocation
+
+Rezan_H_Skill_2:
+  Conditions:
+  - hasaura Rezan_H_Skill false
+  Skills:
+  - stun{d=120} @self
+  - Aura{auraName=Rezan_H_Skill;duration=130} @self
+  - message{m="<mob.name><&co> &3Wasza moc nie moze sie rownac mojej..."} @PlayersInRadius{r=25}
+  - message{m="<mob.name><&co> &3Jestescie na straconej pozycji..."} @PlayersInRadius{r=25}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bRezan przygotowuje pocisk pustki!";d=100} @PIR{r=30}
+  - delay 100
+  - sound{s=item.chorus_fruit.teleport;v=3} @self
+  - skill{s=PociskPustkiSkill_H} @PIR{r=16}
+  - effect:particleline{particle=largesmoke;amount=10;fromOrigin=true;speed=0.1;hS=0.05;vS=0.05} @PIR{r=16}
+
+Rezan_H_Skill_3:
+  Conditions:
+  - hasaura Rezan_H_Balls false
+  Skills:
+  - stun{d=120} @self
+  - Aura{auraName=Rezan_H_Balls;duration=430} @self
+  - randomskill{skills=TotemChoose1,TotemChoose2,TotemChoose3,TotemChoose4,TotemChoose5,TotemChoose6}
+
+
+TotemChoose1:
+  Skills:
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=99.5,220,-422.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=118.5,217,-427.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=133.5,215,-422.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=125.5,222,-414.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=132.5,220,-373.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=89.5,214,-378.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=88.5,218,-403.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=116.5,223,-397.5}
+  - delay 100
+  - skill{s=Rezan_H_Totem} @Location{c=99.5,220,-422.5}
+  - skill{s=Rezan_H_Totem} @Location{c=118.5,217,-427.5}
+  - skill{s=Rezan_H_Totem} @Location{c=133.5,215,-422.5}
+  - skill{s=Rezan_H_Totem} @Location{c=125.5,222,-414.5}
+  - skill{s=Rezan_H_Totem} @Location{c=132.5,220,-373.5}
+  - skill{s=Rezan_H_Totem} @Location{c=89.5,214,-378.5}
+  - skill{s=Rezan_H_Totem} @Location{c=88.5,218,-403.5}
+  - skill{s=Rezan_H_Totem} @Location{c=116.5,223,-397.5}
+
+
+TotemChoose2:
+  Skills:
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=100.5,221,-406.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=102.5,214,-390.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=82.5,216,-371.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=132.5,217,-412.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=125.5,221,-388.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=136.5,215,-377.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=115.5,216,-377.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=140.5,218,-400.5}
+  - delay 100
+  - skill{s=Rezan_H_Totem} @Location{c=100.5,221,-406.5}
+  - skill{s=Rezan_H_Totem} @Location{c=102.5,214,-390.5}
+  - skill{s=Rezan_H_Totem} @Location{c=82.5,216,-371.5}
+  - skill{s=Rezan_H_Totem} @Location{c=132.5,217,-412.5}
+  - skill{s=Rezan_H_Totem} @Location{c=125.5,221,-388.5}
+  - skill{s=Rezan_H_Totem} @Location{c=136.5,215,-377.5}
+  - skill{s=Rezan_H_Totem} @Location{c=115.5,216,-377.5}
+  - skill{s=Rezan_H_Totem} @Location{c=140.5,218,-400.5}
+
+TotemChoose3:
+  Skills:
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=114.5,217,-417.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=125.5,220,-379.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=89.5,216,-391.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=101.5,218,-395.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=87.5,218,-427.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=125.5,218,-414.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=105.5,220,-412.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=93.5,222,-388.5}
+  - delay 100
+  - skill{s=Rezan_H_Totem} @Location{c=114.5,217,-417.5}
+  - skill{s=Rezan_H_Totem} @Location{c=125.5,220,-379.5}
+  - skill{s=Rezan_H_Totem} @Location{c=89.5,216,-391.5}
+  - skill{s=Rezan_H_Totem} @Location{c=101.5,218,-395.5}
+  - skill{s=Rezan_H_Totem} @Location{c=87.5,218,-427.5}
+  - skill{s=Rezan_H_Totem} @Location{c=125.5,218,-414.5}
+  - skill{s=Rezan_H_Totem} @Location{c=105.5,220,-412.5}
+  - skill{s=Rezan_H_Totem} @Location{c=93.5,222,-388.5}
+
+TotemChoose4:
+  Skills:
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=119.5,216,-402.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=127.5,220,-402.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=110.5,214,-411.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=121.5,219,-425.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=88.5,219,-400.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=90.5,217,-385.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=112.5,214,-382.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=121.5,218,-373.5}
+  - delay 100
+  - skill{s=Rezan_H_Totem} @Location{c=119.5,216,-402.5}
+  - skill{s=Rezan_H_Totem} @Location{c=127.5,220,-402.5}
+  - skill{s=Rezan_H_Totem} @Location{c=110.5,214,-411.5}
+  - skill{s=Rezan_H_Totem} @Location{c=121.5,219,-425.5}
+  - skill{s=Rezan_H_Totem} @Location{c=88.5,219,-400.5}
+  - skill{s=Rezan_H_Totem} @Location{c=90.5,217,-385.5}
+  - skill{s=Rezan_H_Totem} @Location{c=112.5,214,-382.5}
+  - skill{s=Rezan_H_Totem} @Location{c=121.5,218,-373.5}
+
+TotemChoose5:
+  Skills:
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=129.5,216,-392.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=137.5,217,-407.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=127.5,217,-418.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=84.5,218,-385.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=106.5,218,-388.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=109.5,221,-413.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=92.5,220,-407.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=86.5,214,-421.5}
+  - delay 100
+  - skill{s=Rezan_H_Totem} @Location{c=129.5,216,-392.5}
+  - skill{s=Rezan_H_Totem} @Location{c=137.5,217,-407.5}
+  - skill{s=Rezan_H_Totem} @Location{c=127.5,217,-418.5}
+  - skill{s=Rezan_H_Totem} @Location{c=84.5,218,-385.5}
+  - skill{s=Rezan_H_Totem} @Location{c=106.5,218,-388.5}
+  - skill{s=Rezan_H_Totem} @Location{c=109.5,221,-413.5}
+  - skill{s=Rezan_H_Totem} @Location{c=92.5,220,-407.5}
+  - skill{s=Rezan_H_Totem} @Location{c=86.5,214,-421.5}
+
+TotemChoose6:
+  Skills:
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=96.5,218,-424.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=112.5,215,-423.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=129.5,217,-411.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=119.5,217,-406.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=122.5,218,-395.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=129.5,217,-382.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=134.5,218,-393.5}
+  - skill{s=Rezan_H_TotemPrepare} @Location{c=109.5,220,-388.5}
+  - delay 100
+  - skill{s=Rezan_H_Totem} @Location{c=96.5,218,-424.5}
+  - skill{s=Rezan_H_Totem} @Location{c=112.5,215,-423.5}
+  - skill{s=Rezan_H_Totem} @Location{c=129.5,217,-411.5}
+  - skill{s=Rezan_H_Totem} @Location{c=119.5,217,-406.5}
+  - skill{s=Rezan_H_Totem} @Location{c=122.5,218,-395.5}
+  - skill{s=Rezan_H_Totem} @Location{c=129.5,217,-382.5}
+  - skill{s=Rezan_H_Totem} @Location{c=134.5,218,-393.5}
+  - skill{s=Rezan_H_Totem} @Location{c=109.5,220,-388.5}
+
+Rezan_H_TotemPrepare:
+  Skills:
+  - sound{s=entity.endermen.stare;v=4;p=1} @Origin
+  - totem{ch=30;oT=Rezan_H_TotemPrepare_Tick;hR=9;vR=9;md=100;yo=1;hp=false;ht=false}
+
+Rezan_H_TotemPrepare_Tick:
+  Skills:
+  - effect:particlesphere{particle=happyVillager;amount=100;radius=9;s=0.15;vd=20} @origin
+
+Rezan_H_Totem:
+  Skills:
+  - totem{ch=2;oT=Rezan_H_TotemTick;oH=Rezan_H_TotemHit;oE=Rezan_H_TotemEnd;hR=9;vR=9;md=300;yo=1;hp=true}
+
+Rezan_H_TotemTick:
+  Skills:
+  - effect:particlesphere{particle=largesmoke;amount=100;radius=9;s=0.05;vd=20} @origin
+
+Rezan_H_TotemHit:
+  Skills:
+  - sound{s=entity.ghast.shoot;v=10;p=1}
+  - damage{amount=100000}
+
+Rezan_H_TotemEnd:
+  Skills:
+  - sound{s=entity.generic.explode;v=4;p=1} @Origin
+
+PociskPustkiSkill_H:
+  Skills:
+  - stun{d=300}
+  - skill{s=PociskPrison_H}
+  - damage{a=200}
+  - blackscreen{d=300}
+
+PociskPrison_H:
+  Skills:
+  - orbital{onTick=PociskPrison-Tick;onHit=PociskPrison-Hit;points=29;interval=1;duration=300;charges=30;r=1;hr=1;rx=0.78;ry=0;oy=1;hp=false}
+  - orbital{onTick=PociskPrison-Tick;onHit=PociskPrison-Hit;points=23;interval=1;duration=300;charges=30;r=1;hr=1;rx=-0.78;ry=0;oy=1;hp=false}
+PociskPrison-Tick:
+  Skills:
+  - effect:particles{p=largesmoke;amount=10;speed=0;hS=0.05;vS=0.05} @origin
+
+PociskPrison-Hit:
+  Skills:
+  - throw{velocity=10;velocityY=5}
+  - damage{a=200}
+  - delay 20
+  - stun{d=300}
+  - blackscreen{d=300}
+  - effect:particleline{particle=largesmoke;amount=10;fromOrigin=true;speed=0.1;hS=0.05;vS=0.05}
+  - skill{s=PociskPrison_H}
+
+SmiertelnaFalaSkill_H:
+  Skills:
+  - sound{s=entity.skeleton_horse.death;v=3} @self
+  - effect:particlering{particle=largesmoke;radius=1;points=6;amount=15;hS=0.3;vS=0.3;s=0.15;y=0.5} @self
+  - effect:particlering{particle=largesmoke;radius=1;points=6;amount=15;hS=0.3;vS=0.3;s=0.15;y=1.5} @self
+  - delay 2
+  - sound{s=entity.skeleton_horse.death;v=3} @self
+  - effect:particlering{particle=largesmoke;radius=2;points=10;amount=15;hS=0.3;vS=0.3;s=0.15;y=0.5} @self
+  - effect:particlering{particle=largesmoke;radius=2;points=10;amount=15;hS=0.3;vS=0.3;s=0.15;y=1.5} @self
+  - delay 2
+  - sound{s=entity.skeleton_horse.death;v=3} @self
+  - effect:particlering{particle=largesmoke;radius=3;points=14;amount=15;hS=0.3;vS=0.3;s=0.15;y=0.5} @self
+  - effect:particlering{particle=largesmoke;radius=3;points=14;amount=15;hS=0.3;vS=0.3;s=0.15;y=1.5} @self
+  - delay 2
+  - sound{s=entity.skeleton_horse.death;v=3} @self
+  - effect:particlering{particle=largesmoke;radius=4;points=18;amount=15;hS=0.3;vS=0.3;s=0.15;y=0.5} @self
+  - effect:particlering{particle=largesmoke;radius=4;points=18;amount=15;hS=0.3;vS=0.3;s=0.15;y=1.5} @self
+  - delay 2
+  - sound{s=entity.skeleton_horse.death;v=3} @self
+  - effect:particlering{particle=largesmoke;radius=5;points=22;amount=15;hS=0.3;vS=0.3;s=0.15;y=0.5} @self
+  - effect:particlering{particle=largesmoke;radius=5;points=22;amount=15;hS=0.3;vS=0.3;s=0.15;y=1.5} @self
+  - delay 2
+  - sound{s=entity.skeleton_horse.death;v=3} @self
+  - effect:particlering{particle=largesmoke;radius=6;points=26;amount=15;hS=0.3;vS=0.3;s=0.15;y=0.5} @self
+  - effect:particlering{particle=largesmoke;radius=6;points=26;amount=15;hS=0.3;vS=0.3;s=0.15;y=1.5} @self
+  - delay 2
+  - sound{s=entity.skeleton_horse.death;v=3} @self
+  - effect:particlering{particle=largesmoke;radius=7;points=30;amount=15;hS=0.3;vS=0.3;s=0.15;y=0.5} @self
+  - effect:particlering{particle=largesmoke;radius=7;points=30;amount=15;hS=0.3;vS=0.3;s=0.15;y=1.5} @self
+  - delay 2
+  - sound{s=entity.skeleton_horse.death;v=3} @self
+  - effect:particlering{particle=largesmoke;radius=8;points=34;amount=15;hS=0.3;vS=0.3;s=0.15;y=0.5} @self
+  - effect:particlering{particle=largesmoke;radius=8;points=34;amount=15;hS=0.3;vS=0.3;s=0.15;y=1.5} @self
+  - delay 2
+  - sound{s=entity.skeleton_horse.death;v=3} @self
+  - effect:particlering{particle=largesmoke;radius=9;points=38;amount=15;hS=0.3;vS=0.3;s=0.15;y=0.5} @self
+  - effect:particlering{particle=largesmoke;radius=9;points=38;amount=15;hS=0.3;vS=0.3;s=0.15;y=1.5} @self
+  - delay 2
+  - sound{s=entity.skeleton_horse.death;v=3} @self
+  - effect:particlering{particle=largesmoke;radius=10;points=42;amount=15;hS=0.3;vS=0.3;s=0.15;y=0.5} @self
+  - effect:particlering{particle=largesmoke;radius=10;points=42;amount=15;hS=0.3;vS=0.3;s=0.15;y=1.5} @self
+  - delay 2
+  - sound{s=entity.skeleton_horse.death;v=3} @self
+  - effect:particlering{particle=largesmoke;radius=11;points=46;amount=15;hS=0.3;vS=0.3;s=0.15;y=0.5} @self
+  - effect:particlering{particle=largesmoke;radius=11;points=46;amount=15;hS=0.3;vS=0.3;s=0.15;y=1.5} @self
+  - delay 2
+  - sound{s=entity.skeleton_horse.death;v=3} @self
+  - effect:particlering{particle=largesmoke;radius=12;points=50;amount=15;hS=0.3;vS=0.3;s=0.15;y=0.5} @self
+  - effect:particlering{particle=largesmoke;radius=12;points=50;amount=15;hS=0.3;vS=0.3;s=0.15;y=1.5} @self
+  - delay 2
+  - sound{s=entity.skeleton_horse.death;v=3} @self
+  - effect:particlering{particle=largesmoke;radius=13;points=54;amount=15;hS=0.3;vS=0.3;s=0.15;y=0.5} @self
+  - effect:particlering{particle=largesmoke;radius=13;points=54;amount=15;hS=0.3;vS=0.3;s=0.15;y=1.5} @self
+  - delay 2
+  - sound{s=entity.skeleton_horse.death;v=3} @self
+  - effect:particlering{particle=largesmoke;radius=14;points=58;amount=15;hS=0.3;vS=0.3;s=0.15;y=0.5} @self
+  - effect:particlering{particle=largesmoke;radius=14;points=58;amount=15;hS=0.3;vS=0.3;s=0.15;y=1.5} @self
+  - delay 2
+  - sound{s=entity.skeleton_horse.death;v=3} @self
+  - effect:particlering{particle=largesmoke;radius=15;points=62;amount=15;hS=0.3;vS=0.3;s=0.15;y=0.5} @self
+  - effect:particlering{particle=largesmoke;radius=15;points=62;amount=15;hS=0.3;vS=0.3;s=0.15;y=1.5} @self
+  - damage{a=275} @PIR{r=15}

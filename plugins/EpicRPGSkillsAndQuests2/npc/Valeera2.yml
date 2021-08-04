@@ -1,0 +1,8 @@
+name: "&7&lValeera"
+title: "&7&lValeera - quester"
+size: 9
+slots:
+  1:
+    item: "zlodziej_quest_18"
+  2:
+    item: "zlodziej_quest_22"

@@ -1,0 +1,158 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+
+Chel_Drak_Spawn:
+  Skills:
+  - stun{d=40;stopai=true;facing=false} @self
+  - delay 40
+  - summon{type=Chel_Drak_Herobrine;amount=1;radius=0} @Location{c=-1858.5,66,1361.5,180,45}
+
+Chel_Drak_Herobrine_Spawn:
+  Skills:
+  - effect:particles{particle=cloud;amount=100;speed=0.15;hS=1.5;vS=1.5} @self
+  - sound{s=entity.ghast.hurt;v=10} @self
+  - message{m="<mob.name><&co> &9&oProsze, prosze, kto tu sie zjawil!"} @PlayersInRadius{r=60}
+  - delay 20
+  - message{m="<mob.name><&co> &9&oNasz Wielki bohater!"} @PlayersInRadius{r=60}
+  - delay 20
+  - message{m="<mob.name><&co> &9&oZobaczymy jak sobie poradzisz z moim czempionem..."} @PlayersInRadius{r=60}
+
+Chel_Drak_Herobrine_Check:
+  Conditions:
+  - mobsInRadius{types=Chel_Drak;amount=1;radius=100} false
+  Skills:
+  - remove @self
+
+
+Chel_Drak_Skill1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=120} @self
+  - summon{type=Chel_Drak_Herobrine_Target;amount=1;radius=3;os=true} @self
+  - summon{type=Chel_Drak_Herobrine_Target;amount=1;radius=3;os=true} @trigger
+  - signal{s=HERO_CHEL_SKILL_1} @MobsInRadius{r=100;t=Chel_Drak_Herobrine}
+
+
+Chel_Drak_HerobrineSkill1:
+  Skills:
+  - message{m="<mob.name><&co> &9&oChyba moj czempion stanowi dla Ciebie zbyt male wyzwanie..."} @PlayersInRadius{r=100}
+  - delay 5
+  - sound{s=entity.ghast.hurt;v=10} @self
+  - projectile{onTick=Chel_Drak-Tick;onEnd=Chel_Drak-End;v=14;i=1;hR=1.5;vR=1;mr=50;hnp=true} @MIR{r=100;t=Chel_Drak_Herobrine_Target}
+
+Chel_Drak-Tick:
+  Skills:
+  - effect:particles{particle=cloud;amount=20;speed=0.05;hS=0.1;vS=0.1} @origin
+
+Chel_Drak-End:
+  Skills:
+  - sound{s=entity.generic.explode;v=4;p=1.2} @PIR{r=20}
+  - effect:particles{particle=cloud;amount=40;speed=0.25;hS=2.5;vS=2.5} @origin
+  - summon{type=Chel_Drak_Summon;amount=1}
+
+Chel_Drak_Herobrine_Target_Spawn:
+  Skills:
+  - delay 100
+  - remove @self
+
+
+Chel_Drak_Skill2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=120} @self
+  - stun{d=60} @self
+  - signal{s=HERO_CHEL_SKILL_2} @MobsInRadius{r=100;t=Chel_Drak_Herobrine}
+  - delay 60
+  - sound{s=item.armor.equip_chain;v=10;p=0.1} @self
+  - projectile{bulletType=MYTHICITEM;material=Aleor;onTick=Chel_Drak-Tick2;onHit=Chel_Drak-End2;v=9;i=1;hR=1.5;vR=1.5;mr=30} @NearestPlayer{r=20}
+  - potion{type=SPEED;duration=100;level=2} @self
+  
+Chel_Drak-Tick2:
+  Skills:
+  - effect:particles{particle=smoke;amount=2;speed=0;hS=0;vS=0} @origin
+
+Chel_Drak-End2:
+  Skills:
+  - sound{s=item.firecharge.use;v=10;p=2} @self
+  - effect:particles{particle=smoke;amount=40;speed=0.2;hS=0.5;vS=0.5} @origin
+  - damage{amount=230}
+  - potion{type=WITHER;duration=100;level=3}
+  - potion{type=SLOW;duration=100;level=2}
+
+Chel_Drak_HerobrineSkill2:
+  Skills:
+  - message{m="<mob.name><&co> &9&oNie masz najmniejszych szans przeciwko mojemu czempionowi!"} @PlayersInRadius{r=100}
+
+Chel_DrakSzczelina_Particles:
+  Skills:
+  - effect:particleline{particle=largesmoke;amount=5;vs=0.15;hs=0.15;s=0.05;fromOrigin=true} @Forward{f=0;y=4}
+
+Chel_DrakSzczelina_Spawn:
+  Skills:
+  - sound{s=item.shield.break;v=2;p=0.05} @self
+  - delay 300
+  - remove @self
+  - sound{s=item.endermen.hurt;v=2;p=2} @self
+
+Chel_DrakSzczelina_Projectile:
+  Skills:
+  - effect:sound{s=entity.anvil.land;v=4;p=0.1} @self
+  - missile{ot=Chel_DrakSzczelina-Tick;oH=Chel_DrakSzczelina-End;v=5;i=1;hR=1.5;vR=1.5;in=6;md=120;mr=50;sB=false;fo=true} @PIR{r=25}
+
+Chel_DrakSzczelina-Tick:
+  Skills:
+  - effect:particles{particle=largesmoke;amount=5;speed=0.1;hS=0.15;vS=0.15} @origin
+
+
+Chel_DrakSzczelina-End:
+  Skills:
+  - effect:sound{s=entity.sheep.hurt;v=4;p=0.1} @self
+  - damage{amount=175}
+  - effect:particles{particle=largesmoke;amount=20;speed=0.2;hS=0.4;vS=0.4} @origin
+
+Chel_Drak_Skill3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=200} @self
+  - signal{s=HERO_CHEL_SKILL_3} @MobsInRadius{r=100;t=Chel_Drak_Herobrine}
+  - stun{d=60} @self
+  - delay 60
+  - potion{type=SPEED;duration=120;level=1} @self
+  - Aura{auraName=Chel_Drak_Skil3_Attack;duration=120} @self
+
+Chel_Drak_HerobrineSkill3:
+  Skills:
+  - message{m="<mob.name><&co> &9&oJestem posiadaczem mocy Chaosu. Z nia szans nie masz!"} @PlayersInRadius{r=100}
+  - delay 60
+  - sound{s=entity.ghast.hurt;v=10} @self
+
+Chel_Drak_Skill3_AttackEffect:
+  Conditions:
+  - hasaura Chel_Drak_Skil3_Attack true
+  Skills:
+  - CancelEvent
+  - sound{s=entity.enderdragon.growl;v=3;p=1.5} @self
+  - damage{a=300} @trigger
+  - effect:particles{particle=largesmoke;amount=20;speed=0.2;hS=0.3;vS=0.3;y=1} @trigger
+
+Chel_Drak_Skill3_AttackParticles:
+  Conditions:
+  - hasaura Chel_Drak_Skil3_Attack true
+  Skills:
+  - effect:particles{particle=largesmoke;amount=5;speed=0.1;hS=0.5;vS=0.5;y=1} @self
+
+Chel_Drak_End:
+  Skills:
+  - message{m="&9&lHerobrine - Legendary Boss<&co> &9&oOczekuje Ciebie na moim Dworze. Tam zobaczymy ile jestes wart..."} @PlayersInRadius{r=30}
+  - effect:particles{particle=cloud;amount=100;speed=0.15;hS=1.5;vS=1.5} @MobsInRadius{r=100;t=Chel_Drak_Herobrine}
+  - sound{s=entity.ghast.hurt;v=5} @self
+  - remove @MobsInRadius{r=100;t=Chel_Drak_Herobrine}
+  - delay 10
+  - command{c="mm m kill Chel_Drak"} @self
+  - delay 10
+  - command{c="killall all arena12"} @self
+  - command{c="killall named arena12"} @self

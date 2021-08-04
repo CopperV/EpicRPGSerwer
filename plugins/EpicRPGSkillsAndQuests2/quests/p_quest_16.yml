@@ -1,0 +1,42 @@
+id: "p_quest_16"                                
+name: "&2Dzungla na poludniu"
+zleceniodawca: "&7&lCarl"
+lore:                                               
+  - "&aAtmosfera i klimat na wyspie w sposob znaczacy"
+  - "&awplynelo na zachowanie zwierzat."
+  - "&aDzungla na poludniu stanowi obecnie przez to"
+  - "&adla nas jeszcze wieksze zagrozenie niz"
+  - "&aw normalnych warunkach."
+  - "&aOstatni zwiadowcy, ktorzy patrolowali tereny"
+  - "&aw poblizu dzungli wrocili obici,"
+  - "&aposiniaczeni, polamani i pogryzieni."
+  - "&aZeznali, ze to sprawka zwierzat z dzungli."
+  - "&aWyobraz sobie, ze nawet wspominali"
+  - "&ao agresywnych papugach."
+prize:                                    
+  - "xp: 4000"
+  - "money: 300"
+require:                                            
+  - "level: 23"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "p_quest_16_1_1"
+        type: "zabij"
+        targetName: "&2Goryl"
+        message: "Zabij 20 goryli: %stan%"
+        ilosc: 20
+      2:
+        id: "p_quest_16_1_2"
+        type: "zabij"
+        targetName: "&3Wsciekla papuga"
+        message: "Zabij 20 wscieklych papug: %stan%"
+        ilosc: 20
+      3:
+        id: "p_quest_16_1_3"
+        type: "zabij"
+        targetName: "&8Pantera"
+        message: "Zabij 20 panter: %stan%"
+        ilosc: 20

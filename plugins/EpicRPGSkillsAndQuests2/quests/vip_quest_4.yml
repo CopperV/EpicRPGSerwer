@@ -1,0 +1,29 @@
+id: "vip_quest_4"                                
+name: "&6&lArtefakty przeszlosci"                          
+zleceniodawca: "&6&lGustav"                       
+lore:                                               
+  - "&aStarozytne zwoje, prastara wiedza,"
+  - "&azapomniana kultura, pradawna magia."
+  - "&aTo wszystko okresla pisma budowniczych i nawet wiecej."
+  - "&aSa niezwykle rzadkie do spotkania dla zwyklych ludzi,"
+  - "&aa kolekcjonerzy czy inne osoby sa w stanie"
+  - "&adac ogromna sume pieniedzy wlasnie za takie pisma."
+  - "&aJak myslisz?"
+  - "&aDa sie na tym wzbogacic?"
+prize:                                    
+  - "xp: 400"
+  - "money: 1500"
+  - "item: Zlota_Moneta 8"
+require:                                            
+  - "level: 14"
+  - "ranga: magnat"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "vip_quest_4_1_1"
+        type: "przynies"
+        targetName: "&rPisma budowniczych"
+        message: "Przynies 32 pisma budowniczych: %stan%"
+        ilosc: 32

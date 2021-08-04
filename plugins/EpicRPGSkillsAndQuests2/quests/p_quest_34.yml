@@ -1,0 +1,37 @@
+id: "p_quest_34"                                
+name: "&b&lZwiekszenie Morali"
+zleceniodawca: "&e&lTirion Fordring"
+lore:                                               
+  - "&aMorale tutejszych ludzi sa bardzo niskie."
+  - "&aWlasciwie Cassia zostawila po sobie ruine."
+  - "&aPotrzeba podniesc naszych ludzi na duchu."
+  - "&aPomozesz mi w tym?"
+  - "&aNa poczatek mozna oczyscic okolice,"
+  - "&aby mogli w spokoju odpoczac."
+prize:                                    
+  - "xp: 65000"
+  - "money: 325"
+require:                                            
+  - "level: 58"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "p_quest_34_1_1"
+        type: "zabij"
+        targetName: "&7Szkielet"
+        message: "Zabij 20 Szkieletow: %stan%"
+        ilosc: 20
+      2:
+        id: "p_quest_34_1_2"
+        type: "zabij"
+        targetName: "&aCreeper"
+        message: "Zabij 13 Creeperow: %stan%"
+        ilosc: 13
+      3:
+        id: "p_quest_34_1_3"
+        type: "zabij"
+        targetName: "&5Wiedzma"
+        message: "Zabij 17 Wiedzm: %stan%"
+        ilosc: 17

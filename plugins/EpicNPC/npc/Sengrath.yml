@@ -1,0 +1,17 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&7&lSengrath"
+  - "&3&oLaczenie Gemow"
+skinid: 1329216376
+location:
+  world: "Map113"
+  x: 385.5
+  y: 64.0
+  z: 129.5
+  yaw: 120
+  pitch: 1.5
+lookat: true
+commands:
+  - "rpgmenu %player% 3"

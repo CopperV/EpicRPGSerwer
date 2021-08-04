@@ -1,0 +1,124 @@
+id: "zlecenie_assasyn"                                
+name: "&b&lObrona przed hanba"
+zleceniodawca: "&6&lRhobar"                       
+lore:                                               
+  - "&aNizar swoimi poczynaniami wyrzadzil juz"
+  - "&awystarczajaco zla."
+  - "&aZhanbil nasz lud, zdeptal nasza tradycje,"
+  - "&azrownal swoich przodkow z blotem,"
+  - "&apodrzegl swoich wspolbraci do zdrady."
+  - "&aOn i kazdy jego czlowiek musi zostac ukarany."
+  - "&aMusimy oczyscic nasz lud z ciazacych na nas winach."
+  - "&aCzy za drobna oplata bedziesz sklony nam pomoc?"
+prize:                                    
+  - "xp: 14000"
+  - "money: 360"
+require:                                            
+  - "level: 38"
+  - "quest: 4_quest_24"
+etapy: 3
+stopnie:
+  1:
+    targets:
+      1:
+        id: "zlecenie_assasyn_1_1"
+        type: "zabij"
+        targetName: "&e&lNizar - pierwszy z Assasynow - BOSS"
+        message: "Pokonaj Nizara: %stan%"
+        ilosc: 1
+  2:
+    targets:
+      1:
+        id: "zlecenie_assasyn_2_1"
+        type: "zabij"
+        targetName: "&0&lCzarny Mag"
+        message: "Zabij 25 czarnych magow: %stan%"
+        ilosc: 25
+  3:
+    targets:
+      1:
+        id: "zlecenie_assasyn_3_1"
+        type: "zabij"
+        targetName: "&4&lElitarny Assasyn"
+        message: "Zabij 20 elitarnych asasynow: %stan%"
+        ilosc: 20
+  4:
+    targets:
+      1:
+        id: "zlecenie_assasyn_4_1"
+        type: "zabij"
+        targetName: "&4Assasyn - morderca"
+        message: "Zabij 35 assasynow - mordercow: %stan%"
+        ilosc: 35
+  5:
+    targets:
+      1:
+        id: "zlecenie_assasyn_5_1"
+        type: "zabij"
+        targetName: "&cAssasyn"
+        message: "Zabij 45 assasynow: %stan%"
+        ilosc: 45
+  6:
+    targets:
+      1:
+        id: "zlecenie_assasyn_6_1"
+        type: "zabij"
+        targetName: "&cAssasyn"
+        message: "Zabij 25 assasynow: %stan%"
+        ilosc: 25
+      2:
+        id: "zlecenie_assasyn_6_2"
+        type: "zabij"
+        targetName: "&4Assasyn - morderca"
+        message: "Zabij 15 assasynow - mordercow: %stan%"
+        ilosc: 15
+  7:
+    targets:
+      1:
+        id: "zlecenie_assasyn_7_1"
+        type: "zabij"
+        targetName: "&0&lCzarny Mag"
+        message: "Zabij 12 czarnych magow: %stan%"
+        ilosc: 12
+      2:
+        id: "zlecenie_assasyn_7_2"
+        type: "zabij"
+        targetName: "&4&lElitarny Assasyn"
+        message: "Zabij 13 elitarnych assasynow: %stan%"
+        ilosc: 13
+  8:
+    targets:
+      1:
+        id: "zlecenie_assasyn_8_1"
+        type: "przynies"
+        targetName: "&0Kamien runiczny"
+        message: "Przynies 11 kamieni runicznych: %stan%"
+        ilosc: 11
+      2:
+        id: "zlecenie_assasyn_8_2"
+        type: "przynies"
+        targetName: "&5Ksiega czarnej magii"
+        message: "Przynies 9 ksiag czarnej magii: %stan%"
+        ilosc: 9
+  9:
+    targets:
+      1:
+        id: "zlecenie_assasyn_9_1"
+        type: "przynies"
+        targetName: "&7Niewolnicza lina"
+        message: "Przynies 12 niewolniczych lin: %stan%"
+        ilosc: 12
+      2:
+        id: "zlecenie_assasyn_9_2"
+        type: "przynies"
+        targetName: "&rZlecenie"
+        message: "Przynies 18 zlecen: %stan%"
+        ilosc: 18
+  10:
+    targets:
+      1:
+        id: "zlecenie_assasyn_10_1"
+        type: "przynies"
+        targetName: "&cNielegalne zloto"
+        message: "Przynies 25 sztuk zdelegalizowanego zlota: %stan%"
+        ilosc: 25

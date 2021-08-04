@@ -1,0 +1,31 @@
+id: "fabula_quest_11"
+name: "&2&lOczyszcic bagna II"                          
+zleceniodawca: "&7&lCarl"
+lore:
+  - "&aJak juz pewnie dales rade sie przekonac,"
+  - "&ana bagnach najwiekszy problem stanowia Huski."
+  - "&aPotrafia przywolywac miniony, ktore potrafia sie replikowac."
+  - "&aWsrod tych huskow zdarzaja sie pewne ewenementy,"
+  - "&aktore wielkoscia dorownuja zamkowi w miescie."
+  - "&aTrzeba na takich uwazac."
+prize:                                    
+  - "xp: 18000"
+require:                                            
+  - "quest: fabula_quest_10"
+  - "level: 29"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "fabula_quest_11_1_1"
+        type: "zabij"
+        targetName: "&2&lHUSK - miniBOSS"
+        message: "Zabij 15 Huskow z bagien: %stan%"
+        ilosc: 15
+      2:
+        id: "fabula_quest_11_1_2"
+        type: "zabij"
+        targetName: "&4&lGIANT HUSK - BOSS"
+        message: "Zabij Gigantycznego Huska z bagien: %stan%"
+        ilosc: 1

@@ -1,0 +1,33 @@
+id: "przemytnik_quest_11"                                
+name: "&eZwiazek farmerski"                          
+zleceniodawca: "&2Alima"                       
+lore:                                               
+  - "&bUdalo Ci sie przekonac wszystkich"
+  - "&atrzech farmerow."
+  - "&2Alima &bbedzie z Ciebie bardzo zadowolona."
+  - "&bPowinienes jej o tym powiedziec."
+prize:                                    
+  - "xp: 375"
+  - "money: 1000"
+  - "item: Zlota_Moneta 10"
+require:                                            
+  - "level: 24"
+  - "quest: przemytnik_quest_8"
+  - "quest: przemytnik_quest_9"
+  - "quest: przemytnik_quest_10"
+stopnie:
+  1:
+    talking: false
+    targets:
+      1:
+        id: "przemytnik_quest_11_1_1"
+        type: "zagadaj"
+        targetName: "&2Alima"
+        message: "Pogadaj o wykonanym zadaniu z &2Alima: %stan%"
+        dialog:
+          - "&r%player%&7: &bUdalo mi sie przekonac wszystkich trzech farmerow."
+          - "&r%player%&7: &bPodejma z wami wspolprace."
+          - "&2Alima&7: &aWiedzialam, ze nawet w tej kwestii nas nie zawiedziesz."
+          - "&2Alima&7: &aTworzymy juz calkiem ladna i zgrabna siatke."
+          - "&2Alima&7: &aJak tak dalej pojdzie, to kazdy na wyspie bedzie sie musial liczyc z naszym zdaniem."
+          - "&2Alima&7: &aTymczasem przyjmij ta skromna nagrode za swoja robote."

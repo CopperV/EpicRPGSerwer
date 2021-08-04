@@ -1,0 +1,15 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&cWulfgar"
+  - "&7[&4&oSTRAZ WIEZIENIA&7]"
+skinid: 1625092042
+location:
+  world: "F_RPG"
+  x: -63.5
+  y: 42.0
+  z: -103.5
+  yaw: 0
+  pitch: 0
+lookat: true

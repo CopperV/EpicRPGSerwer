@@ -1,0 +1,63 @@
+id: "zlodziej_quest_8"                                
+name: "&6Skarbiec zamkowy"                          
+zleceniodawca: "&8&lValeera"                       
+lore:                                               
+  - "&aTutejszy skarbiec zamkowy jest najprawdopodobniej"
+  - "&anajbardziej strzezonym miejscem na tej wyspie."
+  - "&aA jest jednak cos, co mnie bardzo z niego interesuje."
+  - "&aTrzymana jest tam pewna drogocenna szkatulka z klejnotami."
+  - "&aChce, bys mi ja przyniosl."
+  - "&aDam Ci tez pewna rade - nie probuj sie dostac od frontu."
+  - "&aStraznicy Ciebie sprzatna juz na sama mysl o probie wejscia."
+  - "&aParenascie lat temu doszlo do udanego wlamu do skarbca."
+  - "&aDo tej pory nie jest wiadome, jak sie tam dostal."
+  - "&aStraz przeszukala caly skarbiec, by dowiedziec sie jakim cudem"
+  - "&azlodziej dostal sie do skarbca, ale bez skutku."
+  - "&aJestem przekonana, ze to alternatywne wejscie do skarbca nadal istnieje."
+  - "&aSprobuj nim przekrasc sie i ukrasc szkatule."
+prize:                                    
+  - "xp: 5250"
+  - "money: 500"
+  - "item: Zlota_Moneta 5"
+require:                                            
+  - "level: 27"
+  - "quest: zlodziej_quest_6"
+stopnie:
+  1:
+    talking: false
+    message: "&r%player%&7: &bJakis podziemny tunel. Wyglada na stary i prymitywny. Zaloze sie, ze prowadzi do skarbca!"
+    targets:
+      1:
+        id: "zlodziej_quest_8_1_1"
+        type: "znajdz"
+        targetName: "skarbiec1"
+        message: "Odnajdz alternatywne wejscie do skarbca zamkowego: %stan%"
+  2:
+    talking: false
+    message: "&r%player%&7: &bNo i prosze - mamy skarbiec. Pora znalezc jeszcze ta szkat... O cholera, chyba mamy towarzystwo..."    
+    targets:
+      1:
+        id: "zlodziej_quest_8_2_1"
+        type: "znajdz"
+        targetName: "skarbiec2"
+        message: "Sprawdz, czy odkryty tunel prowadzi do skarbca zamkowego: %stan%"
+  3:
+    talking: false
+    message: "&r%player%&7: &bUff... Bylo ciezko. A co to my tutaj mamy? Zdaje sie, ze nasz straznik bardzo mocno pilnowal tej szkatulki..."
+    targets:
+      1:
+        id: "zlodziej_quest_8_3_1"
+        type: "zabij"
+        targetName: "&c&oStraznik Skarbca"
+        message: "Pokonaj Straznika Skarbca: %stan%"
+        ilosc: 1
+  4:
+    talking: true
+    message: "&8&lValeera&7: &aDobrze sie spisales. Przyjmij ta gore zlota za swoj trud wlozony w to zadanie"
+    targets:
+      1:
+        id: "zlodziej_quest_8_4_1"
+        type: "przynies"
+        targetName: "&6&oSzkatulka z klejnotami"
+        message: "Przynies szkatulke z klejnotami, ktorej tak mocno pilnowal Straznik Skarbca: %stan%"
+        ilosc: 1

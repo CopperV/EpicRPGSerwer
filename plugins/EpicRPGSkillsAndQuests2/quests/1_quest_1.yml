@@ -1,0 +1,49 @@
+id: "1_quest_1"                                
+name: "&3Rzezimieszki pod murami"                          
+zleceniodawca: "&b&lCorristo"                       
+lore:                                               
+  - "&aJak zapewne zauwazyles,"
+  - "&apod murami miasta czai sie dosyc duzo rabusiow."
+  - "&aTrzeba sie z nimi rozprawic,"
+  - "&anie mozna pozwolic, by grasowali centralnie"
+  - "&aprzed naszymi murami."
+prize:                                    
+  - "xp: 640"
+require:                                            
+  - "level: 4"
+#  - "quest: prolog_quest_3"
+stopnie:
+  1:
+    talking: true
+    message: "&b&lCorristo&7: &aMam nadzieje, ze Archos mylil sie, ze plaga bandytow jest najmniejszym problemem... Jestem zaskoczony, ze tak blisko miasta mozna ich spotkac. To dosyc nietypowe..."
+    targets:
+      1:
+        id: "1_quest_1_1_1"
+        type: "zabij"
+        targetName: "&cRabus"
+        message: "Zabij 12 Rabusiow w okolicy: %stan%"
+        ilosc: 12
+      2:
+        id: "1_quest_1_1_2"
+        type: "zabij"
+        targetName: "&cKieszonkowiec"
+        message: "Zabij 5 Kieszonkowcow w okolicy: %stan%"
+        ilosc: 5
+#  1:
+#    talking: false                    
+#    targets:
+#      1:
+#        id: "1_quest_2_1_1"
+#        type: "znajdz"
+#        targetName: "exp0"
+#        message: "Udaj sie do farmy pod miastem: %stan%"
+#      2:
+#        id: "1_quest_2_1_2"                     
+#        type: "zagadaj"       
+#        targetName: "&8&lRangar"                      
+#        message: "Porozmawiaj z farmerem &e&lUtharem: %stan%"
+#        dialog:
+#          - "&r%player%&7: &bPrzyslal mnie &b&lCorristo&b, podobno masz jakies problemy"
+#          - "&e&lUthar&7: &aZgadza sie. Szczerze mowiac, myslalem, ze wysle kogos... Bardziej doswiadczonego."
+#          - "&e&lUthar&7: &aNo dobra, zobaczymy za chwile, czy jestes w stanie rozwiazac moj problem..."
+#          - "&r%player%&7: &bPrzekonamy sie."

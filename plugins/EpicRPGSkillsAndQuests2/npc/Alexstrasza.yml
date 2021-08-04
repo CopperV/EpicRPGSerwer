@@ -1,0 +1,30 @@
+name: "&c&lAlexstrasza"
+title: "&c&lAlexstrasza - quester"
+size: 27
+slots:
+  1:
+    item: "fabula_quest_9"
+  2:
+    item: "fabula_quest_17"
+  3:
+    item: "fabula_quest_21"
+  4:
+    item: "fabula_quest_22"
+  5:
+    item: "fabula_quest_23"
+  6:
+    item: "fabula_quest_24"
+  7:
+    item: "fabula_quest_25"
+  8:
+    item: "fabula_quest_26"
+  9:
+    item: "6_quest_1"
+  10:
+    item: "worldquest_1"
+  18:
+    item: "zlecenie_boss"
+  19:
+    item: "dungeon_1"
+  20:
+    item: "dungeon_h1"

@@ -1,0 +1,28 @@
+id: "p_quest_7"                                
+name: "&8Bandyckie nasienie"                          
+zleceniodawca: "&cWulfgar"                       
+lore:                                               
+  - "&aPobliscy rabusie i kieszonkowcy sa wspierani"
+  - "&aprzez bandytow z lasu."
+  - "&aNie moge tego zdzierzyc, ze my musimy walczyc"
+  - "&atakim gownem, a Ci przestepcy dostaja"
+  - "&acaly czas wsparcie."
+  - "&aZabij bandytow z lasu,"
+  - "&aktorzy udzielaja non stop wsparcia"
+  - "&atym rzezimieszkom"
+prize:                                    
+  - "xp: 300"
+  - "money: 30"
+require:                                            
+  - "level: 7"
+  - "quest: p_quest_6"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "p_quest_7_1_1"
+        type: "zabij"
+        targetName: "&4Bandyta"
+        message: "Zabij 18 bandytow: %stan%"
+        ilosc: 18

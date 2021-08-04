@@ -1,0 +1,37 @@
+id: "p_quest_14"                                
+name: "&2Zaraza dajaca wieczne zycie"
+zleceniodawca: "&4&lDeath"
+lore:                                               
+  - "&aKto by sie spodziewal, ze zaraza,"
+  - "&aktora rozpanoszyla sie na terenie kopalni"
+  - "&adaje zycie wieczne w zamian za rozum."
+  - "&aRzecz jasna, przykry ich los i tak dalej."
+  - "&aCale szczescie, zaraza chroni tylko przed"
+  - "&aSmiercia ze starosci."
+  - "&aOd miecza i topora nadal dobrze gina."
+prize:                                    
+  - "xp: 3225"
+require:                                            
+  - "level: 26"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "p_quest_14_1_1"
+        type: "zabij"
+        targetName: "&cZarazony Gornik"
+        message: "Zabij 25 zarazonych gornikow: %stan%"
+        ilosc: 25
+      2:
+        id: "p_quest_14_1_2"
+        type: "zabij"
+        targetName: "&4Zarazony"
+        message: "Zabij 13 zarazonych: %stan%"
+        ilosc: 13
+      3:
+        id: "p_quest_14_1_3"
+        type: "zabij"
+        targetName: "&c&lKlikacz"
+        message: "Zabij 7 klikaczy: %stan%"
+        ilosc: 7

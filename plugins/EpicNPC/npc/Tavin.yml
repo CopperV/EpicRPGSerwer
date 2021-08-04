@@ -1,0 +1,16 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&cTavin"
+  - "&7[&a&oOCALALY&7]"
+skinid: 772090650
+location:
+  world: "F_RPG"
+  x: 733.0
+  y: 24.0
+  z: -220
+  yaw: 27.5
+  pitch: 21.5
+lookat: true
+state: CROUCHED

@@ -1,0 +1,30 @@
+id: "zlodziej_quest_12"                                
+name: "&e&oRyzyko zawodowe"                          
+zleceniodawca: "&e&oRamirez"                       
+lore:                                               
+  - "&aCzesc piratow okazala sie byc zby zachlanna."
+  - "&aZabrali zloto, ktore okazalo sie byc przeklete."
+  - "&aMialo to dla nich, krotko mowiac,"
+  - "&akrotko mowiac katastrofalne skutki."
+  - "&aNie znaczy to jednak, ze my na ich nieszczesciu"
+  - "&anie mozemy sie wzbogacic."
+  - "&aTak jak to zrobiles ze zdelegalizowanym zlotem,"
+  - "&atak samo mozna postapic z przekletym."
+  - "&aPewnie beda jakies ofiary tego,"
+  - "&aale to nas juz nie obchodzi..."
+prize:                                    
+  - "xp: 35000"
+  - "item: Zlota_Moneta 20"
+  - "money: 1200"
+require:                                            
+  - "level: 47"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "zlodziej_quest_12_1_1"
+        type: "przynies"
+        targetName: "&cPrzeklete zloto"
+        message: "Przynies 20 sztuk przekletego zlota: %stan%"
+        ilosc: 20

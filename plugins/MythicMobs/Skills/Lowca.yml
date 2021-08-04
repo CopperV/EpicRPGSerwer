@@ -1,0 +1,42 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+
+LowcaSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &3&oPokonaliscie Entity i wdarliscie sie do naszego swiata..."} @PlayersInRadius{r=20}
+  - delay 20
+  - message{m="<mob.name><&co> &3&oPopelniliscie niesamowity blad!"} @PlayersInRadius{r=20}
+
+LowcaDeath:
+  Skills:
+  - message{m="<mob.name><&co> &3&oPrzyjda... Po nas... Kolejni..."} @PlayersInRadius{r=20}
+
+LowcaSummon:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=80}
+  - message{m="<mob.name><&co> &3&oStawanie przeciwko mnie i moim zastepom wydaje sie przynajmniej nierozsadne!"} @PlayersInRadius{r=20}
+  - delay 20
+  - summon{mob=Exp50_9;amount=2;radius=4} @Self
+
+LowcaTp:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=70}
+  - message{m="<mob.name><&co> &3&oTwoje wysilki sa daremne"} @PlayersInRadius{r=20}
+  - delay 10
+  - effect:particles{particle=largesmoke;amount=50;speed=0.25;hS=0.75;vS=0.75;y=1} @self
+  - teleport{spreadh=5;spreadv=0} @target
+
+LowcaBlack:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=70}
+  - message{m="<mob.name><&co> &3&oOpieracie sie tylko na jednym!"} @PlayersInRadius{r=20}
+  - delay 10
+  - message{m="<mob.name><&co> &3&oNA WZROKU!"} @PlayersInRadius{r=20}
+  - potion{type=BLINDNESS;duration=300;level=4} @PIR{r=20}

@@ -1,0 +1,129 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+SentenzaSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &9Wyslano mnie tutaj, by stlumic Wasz bunt."} @PlayersInRadius{r=25}
+  - delay 20
+  - message{m="<mob.name><&co> &9Nie macie szans z posiadaczem Mocy Chaosu!"} @PlayersInRadius{r=25}
+  - threat{amount=10} @NearestPlayer
+
+SentenzaDeath:
+  Skills:
+  - message{m="<mob.name><&co> &9Jeszcze sie zobaczymy..."} @PlayersInRadius{r=25}
+  - message{m="<mob.name><&co> &9Jestem tego pewien..."} @PlayersInRadius{r=25}
+  - effect:particles{particle=largesmoke;amount=80;speed=0.2;hS=1;vS=1;y=1} @origin
+
+SentenzaSkill_1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=120} @self
+  - message{m="<mob.name><&co> &9Chaos w mej duszy pochlonie kazde zycie!"} @PlayersInRadius{r=30}
+  - stun{d=260;stopai=true;facing=false} @self
+  - delay 60
+  - summon{mob=SentenzaSummon1;amount=1;radius=15;os=true;repeat=40;repeatInterval=5} @self
+
+SentenzaSkill_1_Signal:
+  Skills:
+  - skill{s=SentenzaSkill_1_Projectile} @MIR{r=20;t=SentenzaSummon1}
+  
+SentenzaSkill_1_Projectile:
+  Skills:
+  - sound{s=entity.blaze.shoot;v=4;p=2} @self
+  - projectile{oT=SentenzaProjectile-Tick;onHit=SentenzaProjectile-Hit;onEnd=SentenzaProjectile-End;v=20;i=1;hR=1;vR=1;mr=60;sB=true;sE=false;g=2;vO=1.309} @trigger
+  
+
+SentenzaProjectile-Tick:
+  Skills:
+  - sound{s=entity.endermen.teleport;v=5;p=1.75} @origin
+  - effect:particles{particle=reddust;color=#8B008B;amount=5;speed=0.05;hS=0.1;vS=0.1} @origin
+  - effect:particles{particle=smoke;amount=5;speed=0.05;hS=0.1;vS=0.1} @origin
+
+SentenzaProjectile-Hit:
+  Skills:
+  - sound{s=entity.endermen.hurt;v=10;p=0.7} @origin
+  - damage{amount=200}
+  - potion{type=BLINDNESS;duration=60;level=4}
+
+SentenzaProjectile-End:
+  Skills:
+  - sound{s=entity.endermen.hurt;v=10;p=0.7} @PlayersNearOrigin{r=20}
+  - effect:particlering{particle=reddust;color=#8B008B;radius=0;points=4;amount=5;speed=0.05;hS=0.3;vS=0.1} @origin
+  - effect:particlering{particle=smoke;radius=0;points=4;amount=5;speed=0.05;hS=0.7;vS=0.1} @origin
+  - delay 2
+  - sound{s=entity.endermen.hurt;v=10;p=0.7} @PlayersNearOrigin{r=20}
+  - effect:particlering{particle=reddust;color=#8B008B;radius=1;points=8;amount=5;speed=0.05;hS=0.3;vS=0.1} @origin
+  - effect:particlering{particle=smoke;radius=1;points=8;amount=5;speed=0.05;hS=0.7;vS=0.1} @origin
+  - delay 2
+  - sound{s=entity.endermen.hurt;v=10;p=0.7} @PlayersNearOrigin{r=20}
+  - effect:particlering{particle=reddust;color=#8B008B;radius=2;points=12;amount=5;speed=0.05;hS=0.3;vS=0.1} @origin
+  - effect:particlering{particle=smoke;radius=2;points=12;amount=5;speed=0.05;hS=0.7;vS=0.1} @origin
+  - delay 2
+  - sound{s=entity.endermen.hurt;v=10;p=0.7} @PlayersNearOrigin{r=20}
+  - effect:particlering{particle=reddust;color=#8B008B;radius=3;points=16;amount=5;speed=0.05;hS=0.3;vS=0.1} @origin
+  - effect:particlering{particle=smoke;radius=3;points=16;amount=5;speed=0.05;hS=0.7;vS=0.1} @origin
+  - delay 2
+  - sound{s=entity.endermen.hurt;v=10;p=0.7} @PlayersNearOrigin{r=20}
+  - effect:particlering{particle=reddust;color=#8B008B;radius=4;points=20;amount=5;speed=0.05;hS=0.3;vS=0.1} @origin
+  - effect:particlering{particle=smoke;radius=4;points=20;amount=5;speed=0.05;hS=0.7;vS=0.1} @origin
+  - delay 2
+  - sound{s=entity.endermen.hurt;v=10;p=0.7} @PlayersNearOrigin{r=20}
+  - effect:particlering{particle=reddust;color=#8B008B;radius=5;points=24;amount=5;speed=0.05;hS=0.3;vS=0.1} @origin
+  - effect:particlering{particle=smoke;radius=5;points=24;amount=5;speed=0.05;hS=0.7;vS=0.1} @origin
+  - damage{amount=165} @PlayersNearOrigin{r=5}
+  - potion{type=BLINDNESS;duration=160;level=4} @PlayersNearOrigin{r=4}
+  
+
+SentenzaSkill_2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=100} @self
+  - message{m="<mob.name><&co> &9Skoncze te cala Wasze dziecinade!"} @PlayersInRadius{r=30}
+  - stun{d=60;stopai=true;facing=true} @self
+  - delay 60
+  - sound{s=entity.endermen.teleport;v=2} @self
+  - projectile{bulletType=ARROW;oT=SentenzaProjectile-Tick;onHit=SentenzaProjectile2-Hit;v=10;i=1;hR=1;vR=1;mr=40;sB=false;sE=false;syo=1;sfo=0;sso=3;hs=true;hfs=1} @Forward{f=150;y=1}
+  - projectile{bulletType=ARROW;oT=SentenzaProjectile-Tick;onHit=SentenzaProjectile2-Hit;v=10;i=1;hR=1;vR=1;mr=40;sB=false;sE=false;syo=1;sfo=-1;sso=6;hs=true;hfs=1} @Forward{f=150;y=1}
+  - projectile{bulletType=ARROW;oT=SentenzaProjectile-Tick;onHit=SentenzaProjectile2-Hit;v=10;i=1;hR=1;vR=1;mr=40;sB=false;sE=false;syo=1;sfo=-2;sso=9;hs=true;hfs=1} @Forward{f=150;y=1}
+  - projectile{bulletType=ARROW;oT=SentenzaProjectile-Tick;onHit=SentenzaProjectile2-Hit;v=10;i=1;hR=1;vR=1;mr=40;sB=false;sE=false;syo=1;sfo=0;sso=-3;hs=true;hfs=1} @Forward{f=150;y=1}
+  - projectile{bulletType=ARROW;oT=SentenzaProjectile-Tick;onHit=SentenzaProjectile2-Hit;v=10;i=1;hR=1;vR=1;mr=40;sB=false;sE=false;syo=1;sfo=-1;sso=-6;hs=true;hfs=1} @Forward{f=150;y=1}
+  - projectile{bulletType=ARROW;oT=SentenzaProjectile-Tick;onHit=SentenzaProjectile2-Hit;v=10;i=1;hR=1;vR=1;mr=40;sB=false;sE=false;syo=1;sfo=-2;sso=-9;hs=true;hfs=1} @Forward{f=150;y=1}
+  - projectile{bulletType=ARROW;oT=SentenzaProjectile-Tick;onHit=SentenzaProjectile2-Hit;v=10;i=1;hR=1;vR=1;mr=40;sB=false;sE=false;syo=1;sfo=1;sso=0;hs=true;hfs=1} @Forward{f=150;y=1}
+
+SentenzaProjectile2-Hit:
+  Skills:
+  - sound{s=entity.endermen.hurt;v=10;p=0.7} @origin
+  - damage{amount=200}
+  - potion{type=BLINDNESS;duration=60;level=4}
+
+SentenzaSkill_3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=160} @self
+  - message{m="<mob.name><&co> &9Kazdy moj atak to kolejna niespodzianka dla Was..."} @PlayersInRadius{r=30}
+  - stun{d=60;stopai=true;facing=false} @self
+  - delay 60
+  - orbital{onTick=SentenzaSkill_3-Tick;onHit=SentenzaSkill_3-Hit;points=23;interval=1;duration=200;charges=30;r=4;hr=1;vr=10;rx=0;ry=1.5708;oy=0.15;ox=0;oz=4} @self
+  - orbital{onTick=SentenzaSkill_3-Tick;onHit=SentenzaSkill_3-Hit;points=23;interval=1;duration=200;charges=30;r=4;hr=1;vr=10;rx=0;ry=2.618;oy=0.15;ox=3.464;oz=2} @self
+  - orbital{onTick=SentenzaSkill_3-Tick;onHit=SentenzaSkill_3-Hit;points=23;interval=1;duration=200;charges=30;r=4;hr=1;vr=10;rx=0;ry=3.6652;oy=0.15;ox=3.464;oz=-2} @self
+  - orbital{onTick=SentenzaSkill_3-Tick;onHit=SentenzaSkill_3-Hit;points=23;interval=1;duration=200;charges=30;r=4;hr=1;vr=10;rx=0;ry=4.7124;oy=0.15;ox=0;oz=-4} @self
+  - orbital{onTick=SentenzaSkill_3-Tick;onHit=SentenzaSkill_3-Hit;points=23;interval=1;duration=200;charges=30;r=4;hr=1;vr=10;rx=0;ry=5.7596;oy=0.15;ox=-3.464;oz=-2} @self
+  - orbital{onTick=SentenzaSkill_3-Tick;onHit=SentenzaSkill_3-Hit;points=23;interval=1;duration=200;charges=30;r=4;hr=1;vr=10;rx=0;ry=0.523599;oy=0.15;ox=-3.464;oz=2} @self
+
+SentenzaSkill_3-Tick:
+  Skills:
+  - effect:particles{p=smoke;amount=15;speed=0.05;hS=0.15;vS=0.15} @origin
+SentenzaSkill_3-Hit:
+  Skills:
+  - damage{amount=200} @PlayersNearOrigin{r=1.5}
+  - sound{s=entity.player.attack.strong;v=4;p=4} @Origin
+  - throw{velocity=5;velocityY=2} @PlayersNearOrigin{r=1.5}
+
+SentenzaSummon1_Skill:
+  Skills:
+  - signal{s=SentenzaBombarda} @MobsInRadius{r=20;t=Sentenza}
+  - delay 4
+  - remove @self

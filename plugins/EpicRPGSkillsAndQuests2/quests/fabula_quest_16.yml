@@ -1,0 +1,37 @@
+id: "fabula_quest_16"
+name: "&3Gorzkie zwyciestwo"                          
+zleceniodawca: "&c&lAlexstrasza"
+lore:
+  - "&bNiby odnioslem zwyciestwo na poludniu,"
+  - "&bale co z tego, jak za nie zaplacilismy"
+  - "&btak wiele..."
+  - "&bNie mniej jednak musze o swoim 'sukcesie'"
+  - "&bpoinformowac &c&lAlexstrasze&b."
+prize:                                    
+  - "xp: 1500"
+  - "money: 2500"
+require:                                            
+  - "quest: fabula_quest_15"
+  - "quest: fabula_quest_13"
+  - "quest: fabula_quest_11"
+  - "level: 26"
+stopnie:
+  1:
+    talking: false
+    targets:
+      1:
+        id: "fabula_quest_16_1_1"
+        type: "zagadaj"
+        targetName: "&c&lAlexstrasza"
+        message: "Zdaj raport &c&lAlexstraszy: %stan%"
+        dialog:
+          - "&r%player%&7: &bUdalo sie w miare mozliwosci opanowac poludnie, ale..."
+          - "&r%player%&7: &bPonieslismy przy tym ogromne straty..."
+          - "&r%player%&7: &bKopalni nie uda sie odzyskac, bagna ze wzgledu na swa lokacje pochlona mnostwo zycia w drodze do ich odbicia, a piraci..."
+          - "&r%player%&7: &bOkazuje sie, ze sami sa przekleci..."
+          - "&r%player%&7: &bTo zwyciestwo nie bylo warte kosztow, jakie musielismy poniesc"
+          - "&c&lAlexstrasza&7: &aNie mniej jednak wykonales swoje zadanie."
+          - "&c&lAlexstrasza&7: &aPochlonelo to troche czasu i zycia, ale sie udalo."
+          - "&c&lAlexstrasza&7: &aTylko tym mozna sie pocieszac."
+          - "&c&lAlexstrasza&7: &aPrzyjmij to zloto jako swoje wynagrodzenie."
+          - "&c&lAlexstrasza&7: &aZaczynam powoli nabierac pewnych podejrzen, ale o tym pozniej."

@@ -1,0 +1,34 @@
+id: "fabula_quest_18"
+name: "&5W poszukiwaniu odpowiedzi"                          
+zleceniodawca: "&8Xardas"
+lore:
+  - "&aZwykli orkowie na pewno nic nam ciekawego nie powiedza."
+  - "&aRobia po prostu za wojow, potrzebnych tylko i wylacznie"
+  - "&ado prowadzenia wojen."
+  - "&aTrzeba siegnac troche wyzej."
+  - "&aElity i szamani powinni wiedziec o celach podrozy"
+  - "&aoraz jak sie tutaj dostali."
+  - "&aNajlatwiejszym sposobem bedzie zmusic ich do tego sila."
+  - "&aTakze nie czekaj - szkoda czasu."
+prize:                                    
+  - "xp: 20000"
+require:                                            
+  - "quest: fabula_quest_17"
+  - "level: 35"
+stopnie:
+  1:
+    talking: true
+    message: "&8Xardas&7: &aA wiec mowisz, ze niczego sie nie dowiedziales. Hmm... Nie wyglada to za dobrze. Na chwile obecna to wyglada tak, jakby sposob ich przybycia pozostawal ogromna tajemnica."
+    targets:
+      1:
+        id: "fabula_quest_18_1_1"
+        type: "zabij"
+        targetName: "&a&lOrkowy Szaman"
+        message: "Pokonaj 25 orkowych szamanow: %stan%"
+        ilosc: 25
+      2:
+        id: "fabula_quest_18_1_2"
+        type: "zabij"
+        targetName: "&c&lElitarny Ork Wojownik"
+        message: "Pokonaj 25 elitarnych orkow: %stan%"
+        ilosc: 25

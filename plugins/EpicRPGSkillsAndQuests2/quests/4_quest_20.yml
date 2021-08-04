@@ -1,0 +1,28 @@
+id: "4_quest_20"
+name: "&6&lElita Nizara"
+zleceniodawca: "&6Nefarius"
+lore:
+  - "&aNizar sposrod swego grona wybral"
+  - "&anajbardziej zaufanych ludzi i uczynil z nich"
+  - "&aswoje elity."
+  - "&aNadal im specjalne uprawnienia oraz uzbroil ich"
+  - "&ana tyle na ile mogl sobie pozwolic."
+  - "&aTo sprawia, ze sa niezwykle ciezkimi przeciwnikami."
+  - "&aDlatego jezeli chcemy kiedys dorwac Nizara,"
+  - "&ato musimy pierw wybic jego elite."
+prize:
+  - "xp: 8200"
+  - "money: 450"
+require:
+  - "level: 37"
+  - "quest: 4_quest_16"
+stopnie:
+  1:
+    talking: true   
+    targets:
+      1:
+        id: "4_quest_20_1_1"                     
+        type: "zabij"       
+        targetName: "&4&lElitarny Assasyn"                      
+        message: "Zabij 20 elitarnych assasynow: %stan%"
+        ilosc: 20

@@ -1,0 +1,34 @@
+id: "morze_quest_6"                                
+name: "&2Kajuta kapitana"                          
+zleceniodawca: "&e&lNers"                       
+lore:                                               
+  - "&aCzeka Ciebie kolejna wyprawa na holendra."
+  - "&aPrzygotowujemy sie do polowania"
+  - "&ana jego kapitana."
+  - "&aWlasciwie to Ty to zrobisz,"
+  - "&aale wpierw musisz odnalezc jego kajute."
+prize:                                    
+  - "xp: 45000"
+  - "money: 200"
+require:                                            
+  - "level: 48"
+  - "quest: morze_quest_4"
+stopnie:
+  1:
+    talking: false
+    message: "&r%player%&7: &bWyglada to na kajute kapitana. Pora wiec teraz zajac sie piratami."
+    targets:
+      1:
+        id: "morze_quest_6_1_1"
+        type: "znajdz"
+        targetName: "kajuta"
+        message: "Odnajdz kajute kapitana Holendra: %stan%"
+  2:
+    talking: true
+    targets:
+      1:
+        id: "morze_quest_6_2_1"
+        type: "zabij"
+        targetName: "&3Przeklety Pirat"
+        message: "Pokonaj 30 przekletych piratow z latajacego Holendra: %stan%"
+        ilosc: 30

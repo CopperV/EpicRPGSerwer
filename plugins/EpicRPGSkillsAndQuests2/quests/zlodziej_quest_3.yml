@@ -1,0 +1,27 @@
+id: "zlodziej_quest_3"                                
+name: "&6&oCenne zabytki kultury"                          
+zleceniodawca: "&8&lValeera"                       
+lore:                                               
+  - "&aSlyszalam, ze zostales poslany na pustynie,"
+  - "&ado tego staruszka &1Saturasa&a."
+  - "&aMoze nam stamtad cos przyniesiesz?"
+  - "&aDokladniej - pisma budowniczych."
+  - "&aNa czarnym rynku takie cacka moga zejsc"
+  - "&aza fortunke."
+prize:                                    
+  - "xp: 585"
+  - "money: 250"
+require:                                            
+  - "level: 13"
+  - "quest: zlodziej_quest_2"
+stopnie:
+  1:
+    talking: true
+    message: "&8&lValeera&7: &aTyle powinno starczyc. Trzymaj te pieniadze za swoj udzial"
+    targets:
+      1:
+        id: "zlodziej_quest_3_1_1"
+        type: "przynies"
+        targetName: "&rPisma budowniczych"
+        message: "Przynies 25 pism budowniczych: %stan%"
+        ilosc: 25

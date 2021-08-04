@@ -1,0 +1,29 @@
+id: "2_quest_11"                                
+name: "&1&l&oSaturas nieufny"                          
+zleceniodawca: "&1Saturas"                       
+lore:                                               
+  - "&aMam juz w sam raz dla ciebie test."
+  - "&aOstatni i juz wiecej zadan dla ciebie"
+  - "&amiec nie bede."
+  - "&aPokonaj mnie w uczciwej walce - jeden na jednego."
+  - "&aJezeli mnie pokonasz, to uznam,"
+  - "&aze przeszedles moje szkolenie."
+  - "&aUdaj sie do &b&lCronosa&a."
+  - "&aZnajduje sie w jednym z namiotow."
+  - "&aOn Ciebie przeteleportuje na miejsce potyczki."
+prize:                                    
+  - "xp: 3400"
+require:                                            
+  - "level: 20"
+  - "quest: 2_quest_10"
+stopnie:
+  1:
+    talking: true
+    message: "&1Saturas&7: &aA jednak Ci sie udalo. Przyjdz do mnie jak bedziesz gotow na odprawe."
+    targets:
+      1:
+        id: "2_quest_11_1_1"
+        type: "zabij"
+        targetName: "&1Saturas Nieufny - BOSS"
+        message: "Udaj sie do Cronosa, przeteleportuj sie do Saturasa i go pokonaj: %stan%"
+        ilosc: 1

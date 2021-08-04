@@ -1,0 +1,12 @@
+name: "&1Kairo"
+title: "&1Kairo - quester"
+size: 9
+slots:
+  1:
+    item: "p_quest_11"
+  2:
+    item: "p_quest_13"
+  3:
+    item: "p_quest_18"
+  4:
+    item: "p_quest_21"

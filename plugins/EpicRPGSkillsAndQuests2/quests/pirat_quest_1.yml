@@ -1,0 +1,37 @@
+id: "pirat_quest_1"                                
+name: "&6Piraci z Karaibow"                          
+zleceniodawca: "&b&lCorristo"                       
+lore:                                               
+  - "&aWiesci o piratch szybko sie roznosza."
+  - "&aRowniez do naszych usz to dotarlo."
+  - "&aPrawda jest taka, ze mozna ich spotkac"
+  - "&anie tylko nad rzeka."
+  - "&aKontroluja cale nabrzeze oraz przejeli port."
+  - "&aWysle Ciebie do obozu portowego na poludniu."
+  - "&aPogadaj z &e&lNersem&a, on sie Toba dalej zajmie"
+prize:                                    
+  - "xp: 225"
+require:                                            
+  - "level: 25"
+  - "quest: przemytnik_quest_5"
+stopnie:
+  1:
+    talking: false                    
+    targets:
+      1:
+        id: "pirat_quest_1_1_1"
+        type: "znajdz"
+        targetName: "plaza"
+        message: "Odnajdz oboz portowy na poludni, przy morzu (526;853): %stan%"
+      2:
+        id: "pirat_quest_1_1_2"                     
+        type: "zagadaj"       
+        targetName: "&e&lNers"                      
+        message: "Zamelduj sie u &e&lNersa: %stan%"
+        dialog:
+          - "&r%player%&7: &bPrzysyla mnie &6&lCorristo &bw sprawie piratow."
+          - "&r%player%&7: &bMialem sie do Ciebie zameldowac."
+          - "&e&lNers&7: &aSlyszalem, ze ladny porzadek zrobiles z piratami nad rzeka."
+          - "&e&lNers&7: &aMysle, ze poradzisz sobie rowniez z korsarzami."
+          - "&e&lNers&7: &aAle do tego przejdziemy pozniej."
+          - "&e&lNers&7: &aOdpocznij sobie, pewnie jestes zmeczony podroza tutaj."

@@ -1,0 +1,43 @@
+id: "p_quest_35"                                
+name: "&5Elita Nowego Swiata"
+zleceniodawca: "&3&lSteve"
+lore:                                               
+  - "&aPokonanie Lorda Pustki otworzylo nam droge"
+  - "&ado nieznanej nam lokacji."
+  - "&aWstepnie to nazwalismy Katedra Pustki."
+  - "&aKryje w sobie rozne monstra,"
+  - "&aa ich trofea moga pomoc w stworzeniu"
+  - "&apoteznych przedmiotow."
+  - "&aUdaj sie tam i pokonaj jednego z nich."
+prize:                                    
+  - "xp: 200000"
+  - "money: 350"
+require:                                            
+  - "level: 60"
+  - "quest: 6_quest_13"
+stopnie:
+  1:
+    talking: false
+    targets:
+      1:
+        id: "p_quest_35_1_1"
+        type: "znajdz"
+        targetName: "katedra_quest_1"
+        message: "Znajdz portal do Katedry Pustki i do niego wejdz (169 ; 319): %stan%"
+  2:
+    talking: false
+    targets:
+      1:
+        id: "p_quest_35_2_1"
+        type: "znajdz"
+        targetName: "katedra_quest_2"
+        message: "Kup od Przewodnika Katedry Przepustke i udaj sie do Mefisto: %stan%"
+  3:
+    talking: true
+    targets:
+      1:
+        id: "p_quest_35_3_1"
+        type: "zabij"
+        targetName: "&3&lMefisto - BOSS"
+        message: "Pokonaj Mefisto: %stan%"
+        ilosc: 1

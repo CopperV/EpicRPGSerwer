@@ -1,0 +1,24 @@
+id: "wilk_quest_3"                                
+name: "&2Polowanie na wilki"                          
+zleceniodawca: "&7Frithjof"                       
+lore:                                               
+  - "&aTwoje ostatnie polowanie na wilki"
+  - "&aza bardzo nie pomoglo."
+  - "&aCaly czas dostaje zgloszenia o nowych atakach."
+  - "&aMalo tego, z obozu mozna je dostrzec."
+  - "&aTrzeba sie bardziej przylozyc do pracy..."
+prize:                                    
+  - "xp: 350"
+require:                                            
+  - "level: 7"
+  - "quest: wilk_quest_2"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "wilk_quest_3_1_1"
+        type: "zabij"
+        targetName: "&2Dziki wilk"
+        message: "Upoluj 30 wilkow: %stan%"
+        ilosc: 30

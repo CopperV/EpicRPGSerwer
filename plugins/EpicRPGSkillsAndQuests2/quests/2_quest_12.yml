@@ -1,0 +1,29 @@
+id: "2_quest_12"                                
+name: "&bSzkolenie zakonczone"                          
+zleceniodawca: "&1Saturas"                       
+lore:                                               
+  - "&aZrobiles na mnie ogromne wrazenie."
+  - "&aOd wielu miesiecy nikt pomyslnie nie przeszedl"
+  - "&amojego szkolenia."
+  - "&aMozesz z czystym sumieniem udac sie"
+  - "&ado &b&lCorristo&a."
+  - "&aJuz o wszystkim wie."
+prize:                                    
+  - "xp: 425"
+  - "money: 500"
+  - "bc: &7[&b&lEpicRPG&7] &aGracz &7%player% &aukonczyl watek &1&l&oSzkolenie u Saturasa&a. &6&lGRATULACJE!"
+  - "cmd: crazycrates give physical Zwykla 2 %player%"
+require:                                            
+  - "level: 20"
+  - "quest: 2_quest_11"
+stopnie:
+  1:
+    talking: false
+    targets:
+      1:
+        id: "2_quest_12_1_1"
+        type: "zagadaj"
+        targetName: "&b&lCorristo"
+        message: "Szkolenie zakonczone. Porozmawiaj o tym z &b&lCorristo: %stan%"
+        dialog:
+          - "&b&lCorristo&7: &aSzczerze mowiac, nie myslalem, ze przejdziesz szkolenie u &1Saturasa&a. Jestem pod wrazeniem."

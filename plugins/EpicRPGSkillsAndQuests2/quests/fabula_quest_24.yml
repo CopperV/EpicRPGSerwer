@@ -1,0 +1,134 @@
+id: "fabula_quest_24"
+name: "&5&lTajemniczy kompleks"                          
+zleceniodawca: "&c&lAlexstrasza"
+lore:
+  - "&aDomyslam sie, ze jeszcze nie do konca"
+  - "&azbadales ten tajemniczy podziemny kompleks."
+  - "&aZerklam ostatnio do niego i zobaczylam,"
+  - "&aze jest ogromny i ze sluzyl do wiekszych celow."
+  - "&aIdz i zbadaj do konca ten kompleks."
+prize:                                    
+  - "xp: 70000"
+require:                                            
+  - "quest: fabula_quest_23"
+  - "quest: 5_quest_2"
+  - "level: 45"
+stopnie:
+  1:
+    talking: false
+    message: "&r%player%&7: &c&lAlexstrasza &bniestety miala racje. Kompleks jest ogromny... A do tego zamieszkany..."
+    targets:
+      1:
+        id: "fabula_quest_24_1_1"
+        type: "znajdz"
+        targetName: "geddon4"
+        message: "Wroc do tajemniczego kompleksu i kontynuuj jego ekslporacje: %stan%"
+  2:
+    talking: false
+    message: "&r%player%&7: &bLokatorzy pokonani - pora kontynuowac eksploracje."
+    targets:
+      1:
+        id: "fabula_quest_24_2_1"
+        type: "zabij"
+        targetName: "&4&lKolos Geddona"
+        message: "Pokonaj 4 kolosy Geddona: %stan%"
+        ilosc: 4
+      2:
+        id: "fabula_quest_24_2_2"
+        type: "zabij"
+        targetName: "&c&lZniewolony Wojownik"
+        message: "Pokonaj 11 zniewolonych wojownikow: %stan%"
+        ilosc: 11
+      3:
+        id: "fabula_quest_24_2_3"
+        type: "zabij"
+        targetName: "&c&oZniewolony Mag"
+        message: "Pokonaj 7 zniewolonych magow: %stan%"
+        ilosc: 7
+  3:
+    talking: false
+    message: "&r%player%&7: &bO cholera... Spaczenie... Chyba juz wiem, dokad dalsza eklsploracja kompleksu mnie zaprowadzi..."
+    targets:
+      1:
+        id: "fabula_quest_24_3_1"
+        type: "znajdz"
+        targetName: "geddon5"
+        message: "Kontunuuj ekslporacje kompleksu: %stan%"
+  4:
+    talking: false
+    message: "&r%player%&7: &bZobaczmy, co sie znajduje tam na koncu..."
+    targets:
+      1:
+        id: "fabula_quest_24_4_1"
+        type: "zabij"
+        targetName: "&c&lZniewolony Wojownik"
+        message: "Pokonaj 12 zniewolonych wojownikow: %stan%"
+        ilosc: 12
+      2:
+        id: "fabula_quest_24_4_2"
+        type: "zabij"
+        targetName: "&c&lWulkaniczny Furiat"
+        message: "Zabij 18 wulkanicznych furiatow: %stan%"
+        ilosc: 18
+  5:
+    talking: false
+    message: "&r%player%&7: &bTak jak myslalem - spaczone ziemie. Powinienem o tym poinformowac &c&lAlexstrasze&b."
+    targets:
+      1:
+        id: "fabula_quest_24_5_1"
+        type: "znajdz"
+        targetName: "geddon2_back"
+        message: "Kontunuuj ekslporacje kompleksu: %stan%"
+  6:
+    talking: false
+    targets:
+      1:
+        id: "fabula_quest_24_6_1"
+        type: "zagadaj"
+        targetName: "&c&lAlexstrasza"
+        message: "Porozmawiaj z &c&lAlexstrasza: %stan%"
+        dialog:
+          - "&r%player%&7: &bOto jestem."
+          - "&c&oAlexstrasza&7: &aJakie wiesci tym razem przynosisz?"
+          - "&r%player%&7: &bTajemniczy kompleks to w rzeczywistosci podziemne przejscie na spaczone ziemie."
+          - "&r%player%&7: &bTo tedy musial uciec Archos."
+          - "&r%player%&7: &bPodejrzewam, ze sie skrywa gdzies na spaczonych ziemiach."
+          - "&c&oAlexstrasza&7: &aBardzo niepokojaca wiadomosc."
+          - "&c&oAlexstrasza&7: &aEwidentnie Archos wybudowal tutaj wiele przejsc i postawil wiele portali, ktorych nie ma w planach zamkowych."
+          - "&c&oAlexstrasza&7: &aTo tylko pokazuje jak bardzo bylismy slepi na jego dzialania."
+          - "&c&oAlexstrasza&7: &aWybudowanie takiego przejscia pod gorami nie moglo trwac pare godzin."
+          - "&c&oAlexstrasza&7: &aPowinienes o tym fakcie poinformowac &b&lTyraela&a."
+          - "&r%player%&7: &bTak uczynie."
+  7:
+    talking: false
+    targets:
+      1:
+        id: "fabula_quest_24_7_1"
+        type: "zagadaj"
+        targetName: "&b&lTyrael"
+        message: "Porozmawiaj z &b&lTyraelem: %stan%"
+        dialog:
+          - "&b&lTyrael&7: &aZ czym teraz do mnie przychodzisz?"
+          - "&r%player%&7: &bPrzysyla mnie &c&lAlexstrasza&b."
+          - "&r%player%&7: &bMam Ciebie poinformowac o naszych ustaleniach."
+          - "&r%player%&7: &bUwaza, ze powinienes o tym wiedziec."
+          - "&b&lTyrael&7: &aCzekam z niecierpliwoscia na to, co mi powiesz."
+          - "&r%player%&7: &bZapewne juz wiesz, ze Baron Geddon nas zdradzil."
+          - "&r%player%&7: &bNajprawdopodobniej celowo Was sprowadzil do spaczenia byscie przegrali."
+          - "&r%player%&7: &bWybudowal podziemne przejscie prowadzace z zamku na spaczone ziemie."
+          - "&r%player%&7: &bPodejrzewamy, ze nadal przebywa gdzies tutaj."
+          - "&r%player%&7: &bSwoj plan realizowal od wielu miesiecy jak nie lat."
+          - "&r%player%&7: &bA my bylismy slepi - niczego nie zauwazylismy."
+          - "&b&lTyrael&7: &aNajjasniejsza Archontko..."
+          - "&b&lTyrael&7: &aJak moglismy byc tak slepi..."
+          - "&b&lTyrael&7: &aGeddon musi poniesc kare!"
+          - "&r%player%&7: &bTo nie wszystko."
+          - "&r%player%&7: &bOkazuje sie, ze nie dzialal sam."
+          - "&r%player%&7: &bDzialal z pewna dziwna elfka - Sylvana."
+          - "&r%player%&7: &bPoki co nic nie wiemy na jej temat."
+          - "&b&lTyrael&7: &aJezeli wspolpracowala z Geddonem, to musi byc jak najszybciej odszukana."
+          - "&b&lTyrael&7: &aPoki jest na wolnosci..."
+          - "&b&lTyrael&7: &aPoki my nie wiemy, gdzie sie ona podziewa..."
+          - "&b&lTyrael&7: &aMoze stanowic znacznie wieksze zagrozenie niz obecnie Geddon."
+          - "&b&lTyrael&7: &aDziekuje Ci za te wiesci."
+          - "&b&lTyrael&7: &aIdz, ruszaj w swoja strone..."

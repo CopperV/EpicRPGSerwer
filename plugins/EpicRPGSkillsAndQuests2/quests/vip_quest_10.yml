@@ -1,0 +1,33 @@
+id: "vip_quest_10"                                
+name: "&6&lDrogocenna sol"                          
+zleceniodawca: "&6&lReturning"                       
+lore:                                               
+  - "&aSol w tym swiecie to ekskluzywny towar,"
+  - "&aa w szczegolnosci sol morska."
+  - "&aPozyskanie jej jest niezwykle ciezkie i niebezpieczne."
+  - "&aSprawia to dla nas okazje do zarobku."
+  - "&aSol sprzedaje sie bardzo drogo i natychmiastowo."
+  - "&aMozna ja pozyskac dla przykladow ze straznikow wod."
+prize:                                    
+  - "xp: 5000"
+  - "money: 9000"
+  - "item: Zlota_Moneta 45"
+require:                                            
+  - "level: 45"
+  - "ranga: magnat"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "vip_quest_9_1_1"
+        type: "przynies"
+        targetName: "&rSol"
+        message: "Przynies 20 porcji soli: %stan%"
+        ilosc: 20
+      2:
+        id: "vip_quest_9_1_2"
+        type: "przynies"
+        targetName: "&9Sol morska"
+        message: "Przynies 10 porcji soli morskiej: %stan%"
+        ilosc: 10

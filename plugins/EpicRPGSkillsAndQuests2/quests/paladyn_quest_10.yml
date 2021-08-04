@@ -1,0 +1,93 @@
+id: "paladyn_quest_10"
+name: "&5Tajemniczy portal orkowego generala"
+zleceniodawca: "&4Reg"
+lore:
+  - "&aNiemalze w samym srodku obozu orkow znajduje sie"
+  - "&aogromny namiot."
+  - "&aPodejrzewam, ze nalezy on do orkowego generala."
+  - "&aW srodku znajduje sie tajemniczy portal."
+  - "&aMusisz zbadac dokad prowadzi."
+prize:
+  - "xp: 26500"
+require:
+  - "level: 39"
+  - "klasa: &cWojownik"
+  - "quest: paladyn_quest_9"
+stopnie:
+  1:
+    talking: false
+    message: "&r%player%&7: &bCholera... Leb mi nawala... O panie... Gdzie ja jestem... Wyglada na to, ze jestem w orkowym wiezieniu... Trzeba sie jakos stad wydostac..."
+    targets:
+      1:
+        id: "paladyn_quest_10_1_1"
+        type: "znajdz"
+        targetName: "dungeon_kan"
+        message: "Zbadaj tajemniczy portal z namiotu orkowego generala (-521;882): %stan%"
+  2:
+    talking: false
+    message: "&r%player%&7: &bDobra, udalo sie uciec. Teraz mozna zbadac ta wyspe i to, co sie na niej znajduje"
+    targets:
+      1:
+        id: "paladyn_quest_10_2_1"
+        type: "znajdz"
+        targetName: "kan1"
+        message: "Ucieknij z orkowego wiezienia: %stan%"
+  3:
+    talking: false
+    message: "&r%player%&7: &bZdaje sie, ze to jest namiot dowodcy orkow. Nie wyglada to za dobrze. Duzo orkow oraz wargow i jeszcze do tego osobisty warg. Trzeba bedzie sie tym zajac..."
+    targets:
+      1:
+        id: "paladyn_quest_10_3_1"
+        type: "znajdz"
+        targetName: "kan2"
+        message: "Przebadaj orkowa wyspe (-47;-171): %stan%"
+  4:
+    talking: false
+    message: "&r%player%&7: &bPora uciekac z tej wyspy i poinformowac o wszystkim &4Rega&b."
+    targets:
+      1:
+        id: "paladyn_quest_10_4_1"
+        type: "zabij"
+        targetName: "&cOrk wojownik"
+        message: "Zabij 20 orkowych wojownikow: %stan%"
+        ilosc: 20
+      2:
+        id: "paladyn_quest_10_4_2"
+        type: "zabij"
+        targetName: "&2Ork"
+        message: "Zabij 15 orkow: %stan%"
+        ilosc: 15
+      3:
+        id: "paladyn_quest_10_4_3"
+        type: "zabij"
+        targetName: "&a&lOrkowy Szaman"
+        message: "Zabij 10 orkowych szamanow: %stan%"
+        ilosc: 10
+      4:
+        id: "paladyn_quest_10_4_4"
+        type: "zabij"
+        targetName: "&cWarg"
+        message: "Zabij 5 wargow: %stan%"
+        ilosc: 5
+      5:
+        id: "paladyn_quest_10_4_5"
+        type: "zabij"
+        targetName: "&4Orkowy Pies"
+        message: "Zabij 5 orkowych psow: %stan%"
+        ilosc: 5
+  5:
+    talking: false
+    targets:
+      1:
+        id: "paladyn_quest_10_5_1"
+        type: "zagadaj"
+        targetName: "&4Reg"
+        message: "Porozmawiaj o portalu z &4Regiem: %stan%"
+        dialog:
+          - "&4Reg&7: &aNo i jak?"
+          - "&4Reg&7: &aUdalo Ci sie cos ustalic z portalem?"
+          - "&r%player%&7: &bInformacje na pewno Ciebie zadowola."
+          - "&r%player%&7: &bPortal prowadzi wprost na wyspe, gdzie urzeduje ta orkowa szycha."
+          - "&r%player%&7: &bTo wlasnie przez ten portal orkowie dostaja posilki."
+          - "&4Reg&7: &aWspaniala wiadomosc..."
+          - "&4Reg&7: &aTo oznacza, ze orkowy dowodca juz dlugo sobie nie pozyje..."

@@ -1,0 +1,32 @@
+name: "&eMorkvarg"
+title: "&eMorkvarg - quester"
+size: 18
+slots:
+  1:
+    item: "4_quest_6"
+  2:
+    item: "4_quest_13"
+  3:
+    item: "4_quest_21"
+  4:
+    item: "4_quest_23"
+  8:
+    item: "Sila1"
+    max: 120
+    wymagania:
+      - "quest: 4_quest_6"
+  9:
+    item: "Sila5"
+    max: 120
+    wymagania:
+      - "quest: 4_quest_6"
+  17:
+    item: "Wytrzymalosc1"
+    max: 100
+    wymagania:
+      - "quest: 4_quest_6"
+  18:
+    item: "Wytrzymalosc5"
+    max: 100
+    wymagania:
+      - "quest: 4_quest_6"

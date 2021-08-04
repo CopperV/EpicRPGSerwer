@@ -1,0 +1,40 @@
+id: "klasa_quest_strzelec"
+name: "&bJa - strzelec"
+zleceniodawca: "&2&lRonin"
+lore:
+  - "&aNowa twarz..."
+  - "&aSlyszalem troche o twoich dokonaniach,"
+  - "&aale to nadal za malo, by do nas dolaczyc."
+  - "&aMy, jako strzelcy, doskonalimy sie glownie"
+  - "&aw myslistwie."
+  - "&aPrzynies mi troche trofeow,"
+  - "&aa przyjmiemy Ciebie w swoje szeregi."
+prize:
+  - "xp: 500"
+  - "klasa: &2Mysliwy"
+  - "cmd: mm i give %player% Strzelec1"
+  - "cmd: mm i give %player% Strzelec2"
+  - "cmd: mm i give %player% Strzelec3"
+  - "cmd: mm i give %player% Strzelec4"
+  - "cmd: rta add %player% 14"
+#nauka - strzelcy
+require:
+  - "level: 5"
+  - "klasa: &aobywatel"
+stopnie:
+  1:
+    talking: true
+    message: "&2&lRonin&7: &aA wiec dokonalo sie. Od dzis jestes strzelcem. Glownie doskonalimy swoje zdolnosci mysliwskie, by moc jak najlepiej strzelac z lukow. Znajda sie u nas tez tacy, ktorzy wola walke wrecz. Sa oni perfekcyjnymi wojownikami, wiedza dokladnie, gdzie uderzyc."
+    targets:
+      1:
+        id: "klasa_quest_strzelec_1_1"
+        type: "przynies"
+        targetName: "&rSkora Wilka"
+        ilosc: 15
+        message: "Przynies 15 wilczych skor: %stan%"
+      2:
+        id: "klasa_quest_strzelec_1_2"
+        type: "przynies"
+        targetName: "&3Kly Wilka"
+        ilosc: 10
+        message: "Przynies 10 wilczych klow: %stan%"

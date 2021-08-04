@@ -1,0 +1,33 @@
+id: "paladyn_quest_12"                                
+name: "&4&oOrkowie do wybitki"                          
+zleceniodawca: "&4Reg"                       
+lore:                                               
+  - "&aOrkowie rozgromieni,"
+  - "&aich wodz lezy,"
+  - "&aa cala ich elita wybita."
+  - "&aSpisales sie doskonale."
+  - "&aPoinformowalem juz o wszystkim &4&lDargotha&a."
+  - "&aZdaje sie, ze czeka juz na Ciebie."
+prize:                                    
+  - "xp: 2000"
+  - "money: 4000"
+  - "cmd: crazycrates give physical Rzadka 1 %player%"
+  - "bc: &7[&b&lEpicRPG&7] &aGracz &7%player% &aukonczyl watek &4&oOrkowie do wybitki&a. &6&lGRATULACJE!"
+require:                                            
+  - "level: 41"
+  - "quest: paladyn_quest_11"
+  - "klasa: &cWojownik"
+stopnie:
+  1:
+    talking: false
+    targets:
+      1:
+        id: "paladyn_quest_12_1_1"
+        type: "zagadaj"
+        targetName: "&4&lDargoth"
+        message: "Zdaj raport &4&lDargothowi: %stan%"
+        dialog:
+          - "&4&lDargoth&7: &aNo, no. Ladnie sie spisales."
+          - "&4&lDargoth&7: &aSpodziewalem sie, ze swoja przygode skonczysz na wybiciu paru elitarnych orkow."
+          - "&4&lDargoth&7: &aZrobiles jednak cos znacznie wiecej."
+          - "&4&lDargoth&7: &aZasluzyles w pelni na ta nagrode."

@@ -1,0 +1,137 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+SzepciuchaSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &9&oTwoja obecnosc tutaj jest mocno niepozadana"} @PlayersInRadius{r=25}
+
+SzepciuchaDeath:
+  Skills:
+  - message{m="<mob.name><&co> &9&oNIE... AAA... NIE!"} @PlayersInRadius{r=25}
+
+SzepciuchaHeal:
+  Conditions:
+  - hasaura SzepciuchaState true
+  Skills:
+  - heal{amount=500} @self
+
+SzepciuchaSkill1:
+  Conditions:
+  - hasaura SzepciuchaState false
+  Skills:
+  - message{m="<mob.name><&co> &9&oWasze wysilki sa daremne"} @PlayersInRadius{r=25}
+  - skill{s=SzepciuchaSkill1_Prepare} @PLIR{r=15}
+  - delay 10
+  - Aura{auraName=SzepciuchaState;duration=40} @self
+  - skill{s=SzepciuchaSkill1_Prepare} @PLIR{r=15}
+  - delay 10
+  - skill{s=SzepciuchaSkill1_Prepare} @PLIR{r=15}
+  - delay 10
+  - skill{s=SzepciuchaSkill1_Prepare} @PLIR{r=15}
+  - delay 10
+  - skill{s=SzepciuchaSkill1_Prepare} @PLIR{r=15}
+
+SzepciuchaSkill2:
+  Conditions:
+  - hasaura SzepciuchaState false
+  Skills:
+  - message{m="<mob.name><&co> &9&oWynoscie sie z tego swiata!"} @PlayersInRadius{r=25}
+  - effect:particles{particle=largesmoke;amount=15;speed=0.05;hS=0.2;vS=0.2;y=0.5} @self
+  - stun{d=85} @self
+  - delay 10
+  - Aura{auraName=SzepciuchaState;duration=120} @self
+  - effect:particles{particle=largesmoke;amount=25;speed=0.1;hS=0.2;vS=0.2;y=1} @self
+  - delay 10
+  - effect:particles{particle=largesmoke;amount=35;speed=0.1;hS=0.2;vS=0.2;y=1} @self
+  - delay 10
+  - effect:particles{particle=largesmoke;amount=45;speed=0.1;hS=0.25;vS=0.25;y=1} @self
+  - delay 10
+  - effect:particles{particle=largesmoke;amount=55;speed=0.1;hS=0.25;vS=0.25;y=1} @self
+  - delay 10
+  - effect:particles{particle=largesmoke;amount=65;speed=0.1;hS=0.3;vS=0.3;y=1} @self
+  - delay 10
+  - effect:particles{particle=largesmoke;amount=75;speed=0.1;hS=0.3;vS=0.3;y=1} @self
+  - delay 10
+  - effect:particles{particle=largesmoke;amount=85;speed=0.1;hS=0.35;vS=0.35;y=1} @self
+  - delay 10
+  - effect:particles{particle=largesmoke;amount=95;speed=0.1;hS=0.35;vS=0.35;y=1} @self
+  - delay 10
+  - effect:particles{particle=largesmoke;amount=100;speed=0.1;hS=0.35;vS=0.35;y=1} @self
+  - summon{mob=Szepciucha_Summon2;amount=4;radius=10;os=true} @self
+  - delay 3
+  - sound{s=entity.blaze.shoot;v=2;p=1.7} @self
+  - projectile{onTick=SzepciuchaSkill2_Tick;onHit=SzepciuchaSkill2_Hit;v=10;i=1;hR=1.5;vR=1;mr=50;sB=false} @MIR{r=15;t=Szepciucha_Summon2}
+  - delay 2
+  - sound{s=entity.endermen.teleport;v=1;p=1.5} @self
+  - teleport{spreadh=7;spreadv=0} @target
+  - delay 1
+  - effect:particles{particle=largesmoke;amount=100;speed=0.1;hS=0.3;vS=0.3;y=1.5} @self
+  - effect:particles{particle=largesmoke;amount=100;speed=0.1;hS=0.3;vS=0.3;y=0.5} @self
+
+SzepciuchaSkill3:
+  Conditions:
+  - hasaura SzepciuchaState false
+  Skills:
+  - message{m="<mob.name><&co> &9&oPrzybadzcie siosty. Trzeba sie rozprawic z nimi!"} @PlayersInRadius{r=25}
+  - summon{mob=Exp50_8;amount=3;radius=4} @self
+  - delay 5
+  - Aura{auraName=SzepciuchaState;duration=60} @self
+  
+  
+  
+SzepciuchaSkill2_Tick:
+  Skills:
+  - effect:particles{particle=largesmoke;amount=15;speed=0.1;hS=0.2;vS=0.2} @origin
+
+SzepciuchaSkill2_Hit:
+  Skills:
+  - effect:particles{particle=largesmoke;amount=100;speed=0.2;hS=0.4;vS=0.4;y=1} @origin
+  - damage{amount=145}
+  - potion{type=CONFUSION;duration=100;level=2}
+  - potion{type=WEAKNESS;duration=100;level=1}
+
+SzepciuchaSkill1_Prepare:
+  Skills:
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - summon{mob=Szepciucha_Summon1;amount=1;noise=0;os=true}
+
+Szepciucha_Summon1_Skill:
+  Skills:
+  - delay 2
+  - damage{amount=160} @PIR{r=5}
+  - effect:particles{particle=mobSpell;color=#FFFFFF;amount=75;speed=0.5;hS=4;vS=4;y=0} @self
+  - effect:particles{particle=mobSpell;color=#000000;amount=75;speed=0.5;hS=4;vS=4;y=0} @self
+  - effect:particles{particle=mobSpell;color=#777777;amount=75;speed=0.5;hS=4;vS=4;y=0} @self
+  - potion{type=SLOW;duration=200;level=3} @PIR{r=5}
+  - potion{type=CONFUSION;duration=200;level=3} @PIR{r=5}
+  - sound{s=entity.splash_potion.break;v=1;p=0.5} @self
+  - delay 2
+  - remove @self
+
+Szepciucha_Summon2_Skill:
+  Skills:
+  - delay 10
+  - remove @self

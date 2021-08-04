@@ -1,0 +1,23 @@
+id: "morze_quest_8"                                
+name: "&3&o&lKapitan Holendra"                          
+zleceniodawca: "&e&lNers"                       
+lore:                                               
+  - "&aNastala pora przepedzenia Holendra."
+  - "&aMozna to uczynic pokonujac jego kapitana."
+  - "&aZnalazles juz jego kajute."
+  - "&aTeraz idz i dorwij go."
+prize:                                    
+  - "xp: 65000"
+require:                                            
+  - "level: 49"
+  - "quest: morze_quest_6"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "morze_quest_8_1_1"
+        type: "zabij"
+        targetName: "&4&lDavy Jones - BOSS"
+        message: "Pokonaj przekletego kapitana Holendra: %stan%"
+        ilosc: 1

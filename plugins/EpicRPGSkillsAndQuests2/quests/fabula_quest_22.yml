@@ -1,0 +1,92 @@
+id: "fabula_quest_22"
+name: "&5&oTajemnicze znikniecie Geddona"                          
+zleceniodawca: "&c&lAlexstrasza"
+lore:
+  - "&aArchos zniknal wraz ze swoim wojskiem szybko"
+  - "&ai niezauwazenie."
+  - "&aWiemy takze, ze nie wyslal swoich wojsk do walki"
+  - "&aze spaczeniem, lecz zaangazowal z jakiegos powodu"
+  - "&asily Kyrian."
+  - "&aWszystko to jest dziwne i tajemnicze..."
+  - "&aNa poczatek powinnismy zajac sie tym,"
+  - "&aw jaki sposob zdolal sie wymknac z zamku."
+  - "&aJedno jest pewne - zadnym znanym nam wejsciem"
+  - "&ago nie opuscil."
+  - "&aWiemy juz, ze zamek skrywa sporo sekretow..."
+  - "&aChociazby zaginione laboratorium, w ktorego odkrycie"
+  - "&amiales znaczacy wklad."
+  - "&aMoze jest gdzies na zamku jakies przejscie,"
+  - "&aktorym zdolal on sie wymknac."
+prize:                                    
+  - "xp: 40000"
+require:                                            
+  - "quest: fabula_quest_21"
+  - "quest: p_quest_11"
+  - "level: 43"
+stopnie:
+  1:
+    talking: false
+    message: "&r%player%&7: &bHmm... Szczelina, ktora dokads prowadzi. Powinienem to zbadac..."
+    targets:
+      1:
+        id: "fabula_quest_22_1_1"
+        type: "znajdz"
+        targetName: "geddon1"
+        message: "Zbadaj zamek w poszukiwaniu tajemnego przejscia, ktore wykorzystal Geddon do ucieczki: %stan%"
+  2:
+    talking: false
+    message: "&r%player%&7: &bO cholera - tajemne podziemne przejscie. Ciekaw jestem, dokad to wszystko prowadzi. Powinienem przebadac ten kompleks."
+    targets:
+      1:
+        id: "fabula_quest_22_2_1"
+        type: "znajdz"
+        targetName: "geddon1_entry"
+        message: "Zbadaj tajemnicza szczeline: %stan%"
+  3:
+    talking: false
+    message: "&r%player%&7: &bWidac, ze ten kompleks nie jest do konca opuszczony. Trzeba sie zajac goscmi!"
+    targets:
+      1:
+        id: "fabula_quest_22_3_1"
+        type: "znajdz"
+        targetName: "geddon2"
+        message: "Zbadaj podziemny kompleks: %stan%"
+  4:
+    talking: false
+    message: "&r%player%&7: &bTo by bylo na tyle. Kontynuujmy eksploracje..."
+    targets:
+      1:
+        id: "fabula_quest_22_4_1"
+        type: "zabij"
+        targetName: "&4&lKolos Geddona"
+        message: "Pokonaj kolosy Geddona: %stan%"
+        ilosc: 2
+  5:
+    talking: false
+    message: "&r%player%&7: &bHmm... Odrebne przejscie do jakiejs celi wieziennej, a w niej jakas dziwna humanoidalna postac. Wyglada na to, ze nie jest przyjaznie do mnie nastawiony..."
+    targets:
+      1:
+        id: "fabula_quest_22_5_1"
+        type: "znajdz"
+        targetName: "geddon3"
+        message: "Zbadaj podziemny kompleks: %stan%"
+  6:
+    talking: false
+    message: "&r%player%&7: &bCos czuje, ze powinienem wziac jego szczatki i zaniesc do &c&lAlexstraszy&b."
+    targets:
+      1:
+        id: "fabula_quest_22_6_1"
+        type: "zabij"
+        targetName: "&7&oDziwne stworzenie"
+        message: "Pokonaj dziwne stworzenie z wiezienia: %stan%"
+        ilosc: 1
+  7:
+    talking: false
+    message: "&7[&bOpowiadasz historie o kompleksie i stworzeniu&7] &c&lAlexstrasza&7: &aDziwne odkrycie. Ogromny kompleks zaraz pod zamkiem... I w dodatku to wiezienie... Co tutaj Archos wyprawial!? Odejdz poki co, zastanowie sie, co zrobic z tym fantem..."
+    targets:
+      1:
+        id: "fabula_quest_22_7_1"
+        type: "przynies"
+        targetName: "&2&oSzczatki"
+        message: "Przynies szczatki zabitego stworzenia z wiezienia do &c&lAlexstraszy: %stan%"
+        ilosc: 1

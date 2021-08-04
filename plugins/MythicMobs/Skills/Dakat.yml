@@ -1,0 +1,101 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+
+DakatSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &9&oPrzyjscie tutaj wymagalo sporo odwagi... Albo glupoty!"} @PlayersInRadius{r=25}
+
+DakatSkill1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=60} @self
+  - message{m="<mob.name><&co> &9&oSmierc pochlonie Was wszystkich!"} @PlayersInRadius{r=25}
+  - summon{type=DakatSummon;amount=6;radius=4} @self
+
+DakatSkill2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=120} @self
+  - message{m="<mob.name><&co> &9&oChaos jest zrodlem mej mocy..."} @PlayersInRadius{r=25}
+  - stun{d=20} @self
+  - delay 20
+  - sound{s=entity.enderdragon.growl;v=3;p=0.1} @self
+  - potion{type=SPEED;duration=160;level=1} @self
+  - Aura{auraName=DakatSkill2_Attack;duration=160} @self
+
+DakatSkill2_AttackEffect:
+  Conditions:
+  - hasaura DakatSkill2_Attack true
+  Skills:
+  - CancelEvent
+  - sound{s=entity.enderdragon.growl;v=3;p=1.5} @self
+  - damage{a=300} @trigger
+  - effect:particles{particle=largesmoke;amount=20;speed=0.2;hS=0.3;vS=0.3;y=1} @trigger
+
+DakatSkill2_AttackParticles:
+  Conditions:
+  - hasaura DakatSkill2_Attack true
+  Skills:
+  - effect:particles{particle=largesmoke;amount=5;speed=0.1;hS=0.5;vS=0.5;y=1} @self
+
+DakatSkill3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=120} @self
+  - message{m="<mob.name><&co> &9&oGotuj sie na smierc"} @PlayersInRadius{r=25}
+  - stun{d=60} @self
+  - delay 60
+  - skill{s=DakatSkill3_Wir1} @self
+
+DakatSkill3_Wir1:
+  Skills:
+  - Aura{auraName=DakatDefenseWir;duration=200} @self
+  - message{m="<mob.name><&co> &9&oWir ostrzy!"} @PlayersInRadius{r=25}
+  - orbital{onTick=DakatWir-Tick;onHit=DakatWir-Hit;points=23;interval=1;duration=200;charges=30;r=2;hr=1;rx=0;ry=0;oy=1}
+  - orbital{onTick=DakatWir-Tick;onHit=DakatWir-Hit;points=23;interval=1;duration=200;charges=30;r=1;hr=1;rx=0;ry=0;oy=1}
+  - delay 200
+  - skill{s=DakatSkill3_Wir2} 0.5
+
+DakatSkill3_Wir2:
+  Skills:
+  - Aura{auraName=DakatDefenseWir;duration=200} @self
+  - message{m="<mob.name><&co> &9&oSzykuj sie na to!"} @PlayersInRadius{r=25}
+  - orbital{onTick=DakatWir-Tick;onHit=DakatWir-Hit;points=23;interval=1;duration=200;charges=30;r=4;hr=1;rx=0;ry=0;oy=1}
+  - orbital{onTick=DakatWir-Tick;onHit=DakatWir-Hit;points=23;interval=1;duration=200;charges=30;r=3;hr=1;rx=0;ry=0;oy=1}
+  - orbital{onTick=DakatWir-Tick;onHit=DakatWir-Hit;points=23;interval=1;duration=200;charges=30;r=2;hr=1;rx=0;ry=0;oy=1}
+  - orbital{onTick=DakatWir-Tick;onHit=DakatWir-Hit;points=23;interval=1;duration=200;charges=30;r=1;hr=1;rx=0;ry=0;oy=1}
+  - delay 200
+  - skill{s=DakatSkill3_Wir3} 0.5
+
+DakatSkill3_Wir3:
+  Skills:
+  - Aura{auraName=DakatDefenseWir;duration=200} @self
+  - message{m="<mob.name><&co> &9&oTO TWOJ KONIEC!"} @PlayersInRadius{r=25}
+  - orbital{onTick=DakatWir-Tick;onHit=DakatWir-Hit;points=23;interval=1;duration=200;charges=30;r=6;hr=1;rx=0;ry=0;oy=1}
+  - orbital{onTick=DakatWir-Tick;onHit=DakatWir-Hit;points=23;interval=1;duration=200;charges=30;r=5;hr=1;rx=0;ry=0;oy=1}
+  - orbital{onTick=DakatWir-Tick;onHit=DakatWir-Hit;points=23;interval=1;duration=200;charges=30;r=4;hr=1;rx=0;ry=0;oy=1}
+  - orbital{onTick=DakatWir-Tick;onHit=DakatWir-Hit;points=23;interval=1;duration=200;charges=30;r=3;hr=1;rx=0;ry=0;oy=1}
+  - orbital{onTick=DakatWir-Tick;onHit=DakatWir-Hit;points=23;interval=1;duration=200;charges=30;r=2;hr=1;rx=0;ry=0;oy=1}
+  - orbital{onTick=DakatWir-Tick;onHit=DakatWir-Hit;points=23;interval=1;duration=200;charges=30;r=1;hr=1;rx=0;ry=0;oy=1}
+  - delay 200
+
+DakatWir-Tick:
+  Skills:
+  - effect:particles{p=largesmoke;amount=10;speed=0.05;hS=0.1;vS=0.1} @origin
+DakatWir-Hit:
+  Skills:
+  - damage{amount=200} @PlayersNearOrigin{r=1.5}
+  - sound{s=entity.player.attack.strong;v=4;p=4} @Origin
+  - throw{velocity=5;velocityY=2} @PlayersNearOrigin{r=1.5}
+
+DakatSkill3_Defense:
+  Conditions:
+  - hasaura DakatDefenseWir true
+  Skills:
+  - damage{amount=185} @trigger
+  - sound{s=entity.player.attack.strong;v=4;p=4} @TriggerLocation
+  - throw{velocity=5;velocityY=2} @trigger

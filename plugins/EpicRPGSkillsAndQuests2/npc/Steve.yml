@@ -1,0 +1,68 @@
+name: "&3&lSteve"
+title: "&3&lSteve - quester"
+size: 36
+slots:
+  1:
+    item: "6_quest_6"
+  2:
+    item: "6_quest_7"
+  3:
+    item: "6_quest_8"
+  4:
+    item: "zlecenie_nowy_swiat"
+  10:
+    item: "6_quest_9"
+  11:
+    item: "6_quest_10"
+  12:
+    item: "6_quest_11"
+  13:
+    item: "6_quest_12"
+  14:
+    item: "6_quest_13"
+  19:
+    item: "paladyn_quest_13"
+  20:
+    item: "paladyn_quest_14"
+  21:
+    item: "paladyn_quest_15"
+  22:
+    item: "paladyn_quest_16"
+  8:
+    item: "Sila1"
+    max: 295
+    wymagania:
+      - "quest: paladyn_quest_15"
+      - "klasa: &cWojownik"
+  9:
+    item: "Sila5"
+    max: 295
+    wymagania:
+      - "quest: paladyn_quest_15"
+      - "klasa: &cWojownik"
+  17:
+    item: "Wytrzymalosc1"
+    max: 305
+    wymagania:
+      - "quest: paladyn_quest_15"
+      - "klasa: &cWojownik"
+  18:
+    item: "Wytrzymalosc5"
+    max: 305
+    wymagania:
+      - "quest: paladyn_quest_15"
+      - "klasa: &cWojownik"
+  23:
+    item: "p_quest_35"
+  24:
+    item: "worldquest_2"
+  28:
+    item: "dungeon_2"
+#  8:
+#    item: "skill_arrows"
+#    wymagania:
+#      - "quest: 4_quest_1"
+#  9:
+#    item: "skill_manareg"
+#    wymagania:
+#      - "quest: 3_quest_1"

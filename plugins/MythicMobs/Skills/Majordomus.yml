@@ -1,0 +1,157 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+MajordomusDamage:
+  Skills:
+  - CancelEvent
+  - damage{a=127} @trigger
+  - skill{s=MajordomusIgnite} @trigger 0.3
+MajordomusIgnite:
+  Skills:
+  - ignite{ticks=220} @trigger
+MajordomusSummon1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=70}
+  - message{m="<mob.name><&co> &7Zgladzic ich!"} @PlayersInRadius{r=25}
+  - delay 10
+  - summon{mob=Lava9;amount=1;noise=3} @Self 1
+  - summon{mob=Lava9;amount=1;noise=3} @Self 0.3
+  - summon{mob=Lava9;amount=1;noise=3} @Self 0.3
+  - summon{mob=Lava9;amount=1;noise=3} @Self 0.3
+  - summon{mob=Lava9;amount=1;noise=3} @Self 0.3
+  - summon{mob=Lava9;amount=1;noise=3} @Self 0.3
+MajordomusSpawn:
+  Conditions:
+  - mobsInRadius{types=Ragnaros;amount=1;radius=50} false
+  Skills:
+  - message{m="<mob.name><&co> &7Zywy Ogien strawi wszystko!"} @PlayersInRadius{r=25}
+  - delay 100
+  - message{m="<mob.name><&co> &7Zgladzic ich!"} @PlayersInRadius{r=25}
+  - delay 10
+  - summon{mob=Lava9;amount=1;noise=3} @Self
+  - summon{mob=Lava9;amount=1;noise=3} @Self
+MajordomusSpawn2:
+  Conditions:
+  - mobsInRadius{types=Ragnaros;amount=1;radius=50} true
+  Skills:
+  - suicide 1
+MajordomusDeath:
+  Conditions:
+  - mobsInRadius{types=Ragnaros;amount=1;radius=50} false
+  Skills:
+  - effect:particlesphere{particle=reddust;amount=500;radius=3;y=0.1} @Location{c=-170.5,49,-584.5}
+  - delay 15
+  - effect:particlesphere{particle=reddust;amount=500;radius=3;y=0.1} @Location{c=-170.5,49,-584.5}
+  - delay 15
+  - effect:particlesphere{particle=reddust;amount=500;radius=3;y=0.1} @Location{c=-170.5,49,-584.5}
+  - delay 30
+  - effect:particlesphere{particle=hugeexplosion;amount=200;radius=3;y=0.1} @Location{c=-170.5,49,-584.5}
+  - sound{s=entity.generic.explode;v=10} @self
+  - summon{type=Ragnaros;amount=1} @Location{c=-170.5,49,-584.5}
+  - delay 10
+  - message{m="<mob.name><&co> &7Oto Ragnaros!"} @PlayersInRadius{r=25}
+  - delay 10
+  - message{m="<mob.name><&co> &7Byl juz prastara istota juz u zarania dziejow!"} @PlayersInRadius{r=25}
+  - delay 10
+MajordomusAttack2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=70}
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - shootfireball{y=1;v=1;ps=true} @target
+MajordomusAttack1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=110}
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - shootfireball{y=1;v=1;sml=true;ps=true} @target
+  - delay 10
+  - shootfireball{y=1;v=1;sml=true;ps=true} @target
+  - delay 10
+  - shootfireball{y=1;v=1;sml=true;ps=true} @target
+  - delay 10
+  - shootfireball{y=1;v=1;sml=true;ps=true} @target
+  - delay 10
+  - shootfireball{y=1;v=1;sml=true;ps=true} @PIR{r=10}

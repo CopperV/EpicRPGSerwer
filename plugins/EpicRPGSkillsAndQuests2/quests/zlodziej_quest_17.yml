@@ -1,0 +1,49 @@
+id: "zlodziej_quest_17"                                
+name: "&3&l&oPowrot do korzeni"                          
+zleceniodawca: "&a&oCassia"                       
+lore:                                               
+  - "&aWszystko zalatwione, pozostaly"
+  - "&azaledwie drobne rzeczy do zrobienia."
+  - "&aMusze kupic troche czasu na ucieczke."
+  - "&aNie beda patrzec na kogos, kto rzetelnie"
+  - "&awykonuje swoja robote."
+  - "&aZabij troche tulaczy i jezdzcow."
+  - "&aA przy okazji mozesz przyniesc mi ich skarby."
+  - "&aWrocic po dezercji raczej tutaj nie wroce,"
+  - "&aa takie unikatowe skarby z pewnoscia sie przydadza"
+prize:                                    
+  - "xp: 95000"
+  - "money: 10000"
+  - "bc: &7[&b&lEpicRPG&7] &aGracz &7%player% &aukonczyl watek &8&l&oPowrot Gildii Zlodziei&a. &6&lGRATULACJE!"
+require:                                            
+  - "level: 57"
+  - "quest: zlodziej_quest_16"
+  - "quest: zlodziej_quest_15"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "zlodziej_quest_17_1_1"
+        type: "zabij"
+        targetName: "&9Tulacz"
+        message: "Zabij 20 tulaczy: %stan%"
+        ilosc: 20
+      2:
+        id: "zlodziej_quest_17_1_2"
+        type: "zabij"
+        targetName: "&3&oJezdziec"
+        message: "Zabij 20 jezdzcow: %stan%"
+        ilosc: 20
+      3:
+        id: "zlodziej_quest_17_1_3"
+        type: "przynies"
+        targetName: "&8&lPierscien Morgulu"
+        message: "Przynies 5 pierscieni Morgulu: %stan%"
+        ilosc: 5
+      4:
+        id: "zlodziej_quest_17_1_4"
+        type: "przynies"
+        targetName: "&3Torba tulacza"
+        message: "Przynies 5 torb tulacza: %stan%"
+        ilosc: 5

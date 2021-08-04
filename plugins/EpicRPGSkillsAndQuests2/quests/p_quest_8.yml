@@ -1,0 +1,26 @@
+id: "p_quest_8"                                
+name: "&4Mumie - oszutstki"                          
+zleceniodawca: "&4&lDeath"                       
+lore:                                               
+  - "&aPrzez smierc kazdy musi przejsc..."
+  - "&aKazda dusza musi przeze mnie przejsc,"
+  - "&aa cialo sie rozpasc."
+  - "&aMumie jednak ten pewny los oszukaly,"
+  - "&aniezyjac i chodzac po tym swiecie."
+  - "&aIch serca sa mocno zwiazane z tym swiatem."
+  - "&aGdyby ich spalic, spalilo by sie tez"
+  - "&aresztki zycia tych bandazowcow"
+prize:                                    
+  - "xp: 835"
+require:                                            
+  - "level: 16"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "p_quest_8_1_1"
+        type: "przynies"
+        targetName: "&eSerce mumii"
+        message: "Przynies dla smierci 20 serc mumii: %stan%"
+        ilosc: 20

@@ -1,0 +1,101 @@
+id: "zlodziej_quest_20"                             
+name: "&ePrzejecie towarow"                          
+zleceniodawca: "&e&lCassia"                       
+lore:                                               
+  - "&aBandyci zostali mocno dziesiatkowani,"
+  - "&awiec teraz mozemy przystapic do naszej roboty."
+  - "&aNa polnoc, przy przeleczy na spaczone ziemie,"
+  - "&akolo wiezy mgiel zostala zaatakowana karawana."
+  - "&aPoki co posilki jeszcze nie zdolaly przybyc,"
+  - "&aniedobitki czekaja w jaskini na pomoc."
+  - "&aChce, abys udal sie tam i zabral ich towary."
+  - "&aPowinienes znalezc dwie duze skrzynie."
+  - "&aIdz i nie wracaj bez nich."
+prize:                                    
+  - "xp: 100000"
+  - "money: 1200"
+require:                                            
+  - "level: 59"
+  - "quest: zlodziej_quest_19"
+stopnie:
+  1:
+    talking: false
+    targets:
+      1:
+        id: "zlodziej_quest_20_1_1"                     
+        type: "znajdz"       
+        targetName: "wieza"
+        message: "Udaj sie na przelecz kolo wiezy mgiel (74 ; -322): %stan%"
+  2:
+    talking: false
+    message: "&r%player%&7: &bKrew... Duzo krwi... Mam nadzieje, ze towar jest caly"
+    targets:
+      1:
+        id: "zlodziej_quest_20_2_1"                     
+        type: "zabij"       
+        targetName: "&3Duch straznika"
+        message: "Pokonaj Duchy Straznikow: %stan%"
+        ilosc: 40
+  3:
+    talking: false
+    message: "&r%player%&7: &bWidze swiatlo w jaskini. Powinienem to zbadac"
+    targets:
+      1:
+        id: "zlodziej_quest_20_3_1"                     
+        type: "znajdz"       
+        targetName: "zlodziej_quest_20_1"
+        message: "Wejdz do jaskini kolo wiezy mgiel (39 ; -285): %stan%"
+  4:
+    talking: false
+    message: "&r%player%&7: &bCholera, sa jacys ocalali..."
+    targets:
+      1:
+        id: "zlodziej_quest_20_4_1"                     
+        type: "znajdz"       
+        targetName: "zlodziej_quest_20_2"
+        message: "Udaj sie do swiatla w jaskini (53 ; -266): %stan%"
+  5:
+    talking: false
+    message: "&r%player%&7: &bCholera... Obstawa martwa a tylko jedna skrzynia... W jaskini byla jeszcze druga odnoga. Moze tam cos znajde?"
+    targets:
+      1:
+        id: "zlodziej_quest_20_5_1"                     
+        type: "zabij"       
+        targetName: "&c&oRukhar - Straznik Konwoju"
+        message: "Pokonaj Straznika Konwoju - Rukhara i zabierz jego skrzynie: %stan%"
+        ilosc: 1
+  6:
+    talking: false
+    message: "&r%player%&7: &bCO TO JEST!? Widze, ze ma skrzynie... Trzeba bedzie tym bydlakiem sie zajac..."
+    targets:
+      1:
+        id: "zlodziej_quest_20_6_1"                     
+        type: "znajdz"       
+        targetName: "zlodziej_quest_20_3"
+        message: "Udaj sie do swiatla w jaskini (20 ; -276): %stan%"
+  7:
+    talking: false
+    message: "&r%player%&7: &bDobra, mam komplet skrzyn. Pora je oddac Cassi"
+    targets:
+      1:
+        id: "zlodziej_quest_20_7_1"                     
+        type: "zabij"       
+        targetName: "&8Przeklety Duch z Wiezy Mgiel"
+        message: "Pokonaj Ducha z Wiezy Mgiel i zabierz jego skrzynie: %stan%"
+        ilosc: 1
+  8:
+    talking: true
+    message: "&e&lCassia&7: &aDobra robota. Mysle, ze zadnych problemow z ta misja nie bylo. Przyjmij w nagrode troche zlota."
+    targets:
+      1:
+        id: "zlodziej_quest_20_8_1"                     
+        type: "przynies"       
+        targetName: "&7&oTowar Rukhara"
+        message: "Przynies towar Rukhara: %stan%"
+        ilosc: 1
+      2:
+        id: "zlodziej_quest_20_8_2"                     
+        type: "przynies"       
+        targetName: "&7&oSkrzynia Ducha"
+        message: "Przynies skrzynie Ducha z Wiezy Mgiel: %stan%"
+        ilosc: 1

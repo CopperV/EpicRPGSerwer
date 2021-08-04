@@ -1,0 +1,76 @@
+id: "6_quest_1"                                
+name: "&3&oNowy swiat"                          
+zleceniodawca: "&c&lAlexstrasza"                       
+lore:                                               
+  - "&aWiele wydarzylo sie w ostatnim czasie..."
+  - "&aZdrada Geddona, otwarcie sfery, tajemniczy przeciwnik."
+  - "&aWszystko to jest dosyc tajemnicze."
+  - "&aPrzybycie Entity zostawilo pewien slad,"
+  - "&adzieki ktoremu mozemy okreslic lokacje,"
+  - "&az ktorej przybyl."
+  - "&aPostanowilismy wyslac ekspedycje na ten nowy swiat."
+  - "&aWiecej informacji udzieli Ci &1Kairo&a."
+  - "&aPorozmawiaj z nim."
+prize:                                    
+  - "xp: 2500"
+require:                                            
+  - "level: 50"
+  - "quest: 5_quest_9"
+  - "quest: fabula_quest_26"
+stopnie:
+  1:
+    talking: false                    
+    targets:
+      1:
+        id: "6_quest_1_1_1"                     
+        type: "zagadaj"       
+        targetName: "&1Kairo"                      
+        message: "Odnajdz na zamku Kairo i porozmawiaj z nim: %stan%"
+        dialog:
+          - "&r%player%&7: &bMialem sie z Toba spotkac."
+          - "&r%player%&7: &bPodobno wiecie, skad pochodzil Entity."
+          - "&1Kairo&7: &aTak, zgadza sie."
+          - "&1Kairo&7: &aPoinformowalem o wszystkim, co sie wydarzylo krola i co planujemy."
+          - "&1Kairo&7: &aWyslal nam do pomocy paru wojownikow i magow."
+          - "&1Kairo&7: &aPierwsze postepy juz poczynilismy - otworzylismy portal, przenieslismy sie i rozbilismy oboz."
+          - "&1Kairo&7: &aNiestety, pierwsze relacje wskazuja na to, ze Entity byl tylko plotka."
+          - "&1Kairo&7: &aNiebezpieczenstwo czai sie na kazdym skrawku lasu."
+          - "&1Kairo&7: &aPosle Ciebie do &c&lMiltena &a- to on przewodzi ekspedycji."
+          - "&1Kairo&7: &aPomozesz mu w rozwiazaniu obecnych problemow."
+          - "&1Kairo&7: &aPortal znajdziesz na parterze, kolo sali tronowej."
+  2:
+    talking: false
+    targets:
+      1:
+        id: "6_quest_1_2_1"
+        type: "znajdz"
+        targetName: "exp50_1"
+        message: "Przejdz do nowego swiata przy uzyciu portalu (-153 ; 22): %stan%"
+      2:
+        id: "6_quest_1_2_2"                     
+        type: "zagadaj"       
+        targetName: "&c&lMilten"                      
+        message: "Porozmawiaj z &c&lMiltenem: %stan%"
+        dialog:
+          - "&r%player%&7: &bZostalem poslany do Ciebie przez &1Kairo&a."
+          - "&r%player%&7: &bMam Ci pomoc w obecnych sprawach."
+          - "&c&lMilten&7: &aCiesze sie, ze przyslal do mnie kogos takiego."
+          - "&c&lMilten&7: &aWiele o Tobie slyszalem."
+          - "&c&lMilten&7: &aSluchaj, sprawa wyglada nastepujaco:"
+          - "&c&lMilten&7: &aCaly ten las zdaje sie byc przeklety, zaczarowany;"
+          - "&c&lMilten&7: &awszedzie, na kazdym kroku mozna spotkac jakies dziwne, niespotykane do tej pory stworzenie."
+          - "&c&lMilten&7: &aDodatkowo na poludniowym wschodzie znajduje sie jakies miasteczko,"
+          - "&c&lMilten&7: &aktore wcale nie jest lepsze od tego cholernego lasu."
+          - "&r%player%&7: &bCos jeszcze?"
+          - "&c&lMilten&7: &aTak..."
+          - "&c&lMilten&7: &aWycisz swoj umysl, wyostrzyj zmysly..."
+          - "&c&lMilten&7: &aCzujesz to?"
+          - "&c&lMilten&7: &aLas wydaje sie byc caly czas zywy, ale wszedzie wokol..."
+          - "&c&lMilten&7: &aPustka, nicosc..."
+          - "&c&lMilten&7: &aNie wiem dokladnie jak to nazwac..."
+          - "&c&lMilten&7: &aPierwszy raz takie cos czuje."
+          - "&r%player%&7: &bJa tam niczego nie czuje."
+          - "&c&lMilten&7: &aZ pewnoscia poczujesz."
+          - "&c&lMilten&7: &aCzuje jak to cos sie rozprzestrzenia, zbliza sie do nas."
+          - "&c&lMilten&7: &aJak bedziesz gotow, to podejdz."
+          - "&c&lMilten&7: &aBede mial dla Ciebie pare zadan."

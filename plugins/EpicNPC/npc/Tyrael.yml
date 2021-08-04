@@ -1,0 +1,21 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&b&lTyrael"
+  - "&7[&1&lKYRIAN&7]"
+skinid: 993232752
+location:
+  world: "F_RPG"
+  x: -112.0
+  y: 43
+  z: -328.0
+  yaw: -111
+  pitch: 0.5
+eq:
+  MAINHAND:
+    item: DIAMOND_SWORD
+    display: "ostrze tyraela"
+  CHESTPLATE:
+    item: ELYTRA
+lookat: true

@@ -1,0 +1,45 @@
+id: "6_quest_11"                                
+name: "&8Moc Pustki"                          
+zleceniodawca: "&3&lSteve"                       
+lore:                                               
+  - "&aTroche czasu juz minelo,"
+  - "&aa my nadal nie wiemy gdzie"
+  - "&aukrywa sie Herobrine."
+  - "&aBardzo wplywa to niekorzystnie"
+  - "&ana nasza sytuacje."
+  - "&aByc moze z pewnych artefaktow"
+  - "&amoglibysmy odkryc polozenie"
+  - "&atego tyrana."
+prize:                                    
+  - "xp: 185750"
+require:                                            
+  - "level: 57"
+  - "quest: 6_quest_10"
+stopnie:
+  1:
+    talking: true                  
+    targets:
+      1:
+        id: "6_quest_11_1_1"                     
+        type: "przynies"       
+        targetName: "&8&lPierscien Morgulu"
+        message: "Przynies 10 Pierscieni Morgulu: %stan%"
+        ilosc: 10
+      2:
+        id: "6_quest_11_1_2"                     
+        type: "przynies"       
+        targetName: "&3Torba tulacza"
+        message: "Przynies 10 Torb Tulaczy: %stan%"
+        ilosc: 10
+      3:
+        id: "6_quest_11_1_3"                     
+        type: "przynies"       
+        targetName: "&3Czaszka tulacza"
+        message: "Przynies 10 czaszek tulaczy: %stan%"
+        ilosc: 10
+      4:
+        id: "6_quest_11_1_4"                     
+        type: "przynies"       
+        targetName: "&8Wybuchowy proch"
+        message: "Przynies 10 porcji wybuchowego prochu: %stan%"
+        ilosc: 10

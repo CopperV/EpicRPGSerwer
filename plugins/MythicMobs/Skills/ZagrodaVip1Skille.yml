@@ -1,0 +1,5 @@
+MagicznaSwiniaMinionSkill:
+  Skills:
+  - message{m="<mob.name><&co> &cKWEEE KWEEE!"} @PlayersInRadius{r=10}
+  - delay 1
+  - summon{mob=MagicznaSwiniaMinion;amount=3;noise=5} @Self

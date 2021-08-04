@@ -1,0 +1,42 @@
+name: "&a&oCassia"
+title: "&a&oCassia - quester"
+size: 18
+slots:
+  1:
+    item: "6_quest_4"
+  2:
+    item: "6_quest_5"
+  10:
+    item: "zlodziej_quest_13"
+  11:
+    item: "zlodziej_quest_14"
+  12:
+    item: "zlodziej_quest_17"
+  8:
+    item: "Walka1"
+    max: 115
+    wymagania:
+      - "quest: 6_quest_4"
+  9:
+    item: "Walka2"
+    max: 115
+    wymagania:
+      - "quest: 6_quest_4"
+  17:
+    item: "Zrecznosc1"
+    max: 110
+    wymagania:
+      - "quest: 6_quest_4"
+  18:
+    item: "Zrecznosc5"
+    max: 110
+    wymagania:
+      - "quest: 6_quest_4"
+#  8:
+#    item: "skill_arrows"
+#    wymagania:
+#      - "quest: 4_quest_1"
+#  9:
+#    item: "skill_manareg"
+#    wymagania:
+#      - "quest: 3_quest_1"

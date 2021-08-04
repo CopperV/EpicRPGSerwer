@@ -1,0 +1,461 @@
+﻿B1xxx:
+  Id: 280
+B1:
+  Id: 280
+B2:
+  Id: 299
+B3:
+  Id: 261
+B4:
+  Id: 143
+B5:
+  Id: 359
+B6:
+  Id: 300
+B7:
+  Id: 267
+B8:
+  Id: 307
+B9:
+  Id: 275
+Ortega1:
+  Id: 286
+Ortega2:
+  Id: 315
+  Enchantments:
+  - DURABILITY:500
+Ortega3:
+  Id: 316
+  Enchantments:
+  - DURABILITY:500
+Ortega4:
+  Id: 317
+  Enchantments:
+  - DURABILITY:500
+B10:
+  Id: 280
+  Display: 'Laga'
+  Enchantments:
+  - DAMAGE_ALL:2
+B11:
+  Id: 261
+  Display: 'Prosty luk'
+  Enchantments:
+  - ARROW-DAMAGE:2
+#################################################################################
+G1:
+  Id: 41
+  Enchantments:
+  - DURABILITY:10
+G2:
+  Id: 1
+G3:
+  Id: 268
+G4:
+  Id: 271
+G5:
+  Id: 270
+G6:
+  Id: 258
+G7:
+  Id: 272
+G8:
+  Id: 314
+  Enchantments:
+  - DURABILITY:500
+#################################################################################
+xxx:
+  Id: 0
+E1:
+  Id: 298
+E2:
+  Id: 303
+E3:
+  Id: 292
+E4:
+  Id: 261
+  Enchantments:
+  - ARROW_KNOCKBACK:1
+E5:
+  Id: 294
+E6:
+  Id: 274
+E7:
+  Id: 304
+E8:
+  Id: 403
+E9:
+  Id: 301
+E10:
+  Id: 302
+E11:
+  Id: 308
+  Enchantments:
+  - DURABILITY:500
+E12:
+  Id: 294
+  Enchantments:
+  - DAMAGE_ALL:3
+#################################################################################
+Z1:
+  Id: 257
+  Enchantments:
+  - DAMAGE_ALL:3
+Z2:
+  Id: 256
+  Enchantments:
+  - DAMAGE_ALL:3
+Z3:
+  Id: 311
+  Enchantments:
+  - DURABILITY:500
+Z4:
+  Id: 309
+  Enchantments:
+  - DURABILITY:500
+Z5:
+  Id: 283
+  Enchantments:
+  - DAMAGE_ALL:5
+#################################################################################
+O1:
+  Id: 397
+  Data: 0
+O2:
+  Id: 279
+  Enchantments:
+  - DAMAGE_ALL:5
+O3:
+  Id: 280
+  Enchantments:
+  - DAMAGE_ALL:7
+O4:
+  Id: 261
+  Lore:
+  - '&4- &8Obrazenia: &739'
+O5:
+  Id: 258
+  Enchantments:
+  - DAMAGE_ALL:4
+O6:
+  Id: 307
+  Enchantments:
+  - DURABILITY:500
+O7:
+  Id: 306
+  Enchantments:
+  - DURABILITY:500
+O8:
+  Id: 267
+  Enchantments:
+  - DAMAGE_ALL:7
+O9:
+  Id: 397
+  Data: 1
+O10:
+  Id: 299
+  Enchantments:
+  - DURABILITY:500
+O11:
+  Id: 300
+  Enchantments:
+  - DURABILITY:500
+O12:
+  Id: 301
+  Enchantments:
+  - DURABILITY:500
+O13:
+  Id: 276
+  Enchantments:
+  - DAMAGE_ALL:7
+O14:
+  Id: 261
+  Enchantments:
+  - ARROW-DAMAGE:8
+  - ARROW_KNOCKBACK:2
+O15:
+  Id: 312
+  Enchantments:
+  - DURABILITY:500
+O16:
+  Id: 313
+  Enchantments:
+  - DURABILITY:500
+O17:
+  Id: 283
+  Enchantments:
+  - DAMAGE_ALL:10
+#################################################################################
+A1:
+  Id: 292
+  Enchantments:
+  - DAMAGE_ALL:8
+A2:
+  Id: 261
+  Enchantments:
+  - ARROW-DAMAGE:1
+  - ARROW_KNOCKBACK:3
+A3:
+  Id: 303
+  Enchantments:
+  - DURABILITY:500
+A4:
+  Id: 261
+  Enchantments:
+  - ARROW-DAMAGE:4
+  - ARROW_KNOCKBACK:1
+A5:
+  Id: 302
+  Enchantments:
+  - DURABILITY:500
+A6:
+  Id: 304
+  Enchantments:
+  - DURABILITY:500
+A7:
+  Id: 305
+  Enchantments:
+  - DURABILITY:500
+A8:
+  Id: 403
+A9:
+  Id: 293
+  Enchantments:
+  - DAMAGE_ALL:10
+A10:
+  Id: 261
+  Enchantments:
+  - ARROW-DAMAGE:6
+  - ARROW_KNOCKBACK:2
+A11:
+  Id: 293
+  Enchantments:
+  - DAMAGE_ALL:15
+#################################################################################
+L1:
+  Id: 369
+L2:
+  Id: 292
+  Enchantments:
+  - DAMAGE_ALL:12
+  - FIRE_ASPECT:3
+#################################################################################
+P1:
+  Id: 310
+  Enchantments:
+  - DURABILITY:500
+P2:
+  Id: 332
+Boss1:
+  Id: 299
+  Options:
+    Color: 255,255,255
+    Unbreakable: true
+Boss2:
+  Id: 300
+  Options:
+    Color: 255,255,255
+    Unbreakable: true
+Boss3:
+  Id: 301
+  Options:
+    Color: 255,255,255
+    Unbreakable: true
+Exp50_Armor1:
+  Id: 302
+  Enchantments:
+  - DURABILITY:500
+Exp50_Armor2:
+  Id: 303
+  Enchantments:
+  - DURABILITY:500
+Exp50_Armor3:
+  Id: 304
+  Enchantments:
+  - DURABILITY:500
+Exp50_Armor4:
+  Id: 305
+  Enchantments:
+  - DURABILITY:500
+Exp50_7_Weapon:
+  Id: 267
+################################################################################
+Luk_Bandit2:
+  Id: 261
+  Lore:
+  - '&4- &8Obrazenia: &711'
+Luk_Bandit5:
+  Id: 261
+  Lore:
+  - '&4- &8Obrazenia: &715'
+Luk_LGoblin2:
+  Id: 261
+  Lore:
+  - '&4- &8Obrazenia: &78'
+Luk_Goblin2:
+  Id: 261
+  Lore:
+  - '&4- &8Obrazenia: &710'
+Luk_Goblin6:
+  Id: 261
+  Lore:
+  - '&4- &8Obrazenia: &713'
+Luk_Goblin7:
+  Id: 261
+  Lore:
+  - '&4- &8Obrazenia: &715'
+Luk_Egipt3:
+  Id: 261
+  Lore:
+  - '&4- &8Obrazenia: &728'
+Luk_Zaraza3:
+  Id: 1
+  Lore:
+  - '&4- &8Obrazenia: &731'
+Luk_Ork3:
+  Id: 261
+  Lore:
+  - '&4- &8Obrazenia: &739'
+Luk_Ork6:
+  Id: 261
+  Lore:
+  - '&4- &8Obrazenia: &744'
+Luk_Ork9:
+  Id: 261
+  Lore:
+  - '&4- &8Obrazenia: &749'
+Luk_Assasyn2:
+  Id: 261
+  Lore:
+  - '&4- &8Obrazenia: &741'
+Luk_Assasyn4:
+  Id: 261
+  Lore:
+  - '&4- &8Obrazenia: &747'
+Luk_Assasyn7:
+  Id: 261
+  Lore:
+  - '&4- &8Obrazenia: &753'
+Luk_Assasyn9:
+  Id: 261
+  Lore:
+  - '&4- &8Obrazenia: &761'
+Luk_Nizar:
+  Id: 261
+  Lore:
+  - '&4- &8Obrazenia: &766'
+Luk_StrazNizara2:
+  Id: 261
+  Lore:
+  - '&4- &8Obrazenia: &755'
+Luk_Aniol2:
+  Id: 261
+  Lore:
+  - '&4- &8Obrazenia: &756'
+Luk_Aniol4:
+  Id: 261
+  Lore:
+  - '&4- &8Obrazenia: &762'
+Luk_Aniol6:
+  Id: 261
+  Lore:
+  - '&4- &8Obrazenia: &766'
+Luk_Exp50_2:
+  Id: 261
+  Lore:
+  - '&4- &8Obrazenia: &776'
+Luk_Exp50_7:
+  Id: 261
+  Lore:
+  - '&4- &8Obrazenia: &785'
+Luk_Exp50_9:
+  Id: 261
+  Lore:
+  - '&4- &8Obrazenia: &780'
+Luk_Exp50_Boss:
+  Id: 261
+  Lore:
+  - '&4- &8Obrazenia: &7100'
+Krol_Tulaczy_Boss:
+  Id: 261
+  Lore:
+  - '&4- &8Obrazenia: &7135'
+Twierdza_Mob_Luk_1:
+  Id: 261
+  Lore:
+  - '&4- &8Obrazenia: &795'
+Dwor_Mob_Luk_2:
+  Id: 261
+  Lore:
+  - '&4- &8Obrazenia: &785'
+Dwor_Mob_Luk_5:
+  Id: 261
+  Lore:
+  - '&4- &8Obrazenia: &793'
+Luk_Pirat2:
+  Id: 1
+  Lore:
+  - '&4- &8Obrazenia: &729'
+Luk_Pirat6:
+  Id: 261
+  Lore:
+  - '&4- &8Obrazenia: &733'
+Luk_Pirat8:
+  Id: 261
+  Lore:
+  - '&4- &8Obrazenia: &736'
+Elytra:
+  Id: 443
+Aleor:
+  Id: 279
+  Display: '&9&l&oAleor'
+Ostrze_Morgulu:
+  Id: 276
+  Display: '&9&lOstrze Morgulu'
+Mithrilowe_Ostrze:
+  Id: 267
+  Display: '&9Mithrilowe ostrze'
+Godendar:
+  Id: 277
+  Display: '&9&l&oGodendar'
+Dobry_Miecz_Magiczny_Mob:
+  Id: 276
+  Display: '&1Dobry miecz magiczny'
+SengaShield:
+  Id: 442
+  Options:
+    Unbreakable: true
+    Color: GRAY
+  BannerLayers:
+  - BLUE SQUARE_TOP_RIGHT
+  - BLUE BORDER
+Inkwizytor_Mob:
+  Id: 267
+  Display: '&bInkwizytor'
+Katana:
+  Id: 267
+  Display: '&r&lKatana'
+KaalOstrze:
+  Id: 276
+  Display: 'Ostrze Kaal'
+SentenzaOstrze:
+  Id: 276
+  Display: '&1Magiczne ostrze bojowe'
+BookHeadMob:
+  Id: 397
+  Data: 3
+  Display: '&cSlabya'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWVlOGQ2ZjVjYjdhMzVhNGRkYmRhNDZmMDQ3ODkxNWRkOWViYmNlZjkyNGViOGNhMjg4ZTkxZDE5YzhjYiJ9fX0=
+RukharChest:
+  Id: 397
+  Data: 3
+  Display: '&7&oTowar Rukhara'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjUyMmVjNTcwOWVkOWQ1ZDE2MjRjNjc5ZThkM2UxNmM3ZjdjZmJiZGI3OGY4OTAzNjFiZjFmMmFhMDRiODNmNSJ9fX0=
+DuchChest:
+  Id: 397
+  Data: 3
+  Display: '&7&oSkrzynia Ducha'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkNmU0YmQ4MTNmZGViNGNiNTQzZjgxOTk0Y2NiYzI2YjhlNDYwMjIxMjM5MTFmZDdlZWYzMjJmMGQ3ZDNlNyJ9fX0=

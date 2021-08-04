@@ -1,0 +1,38 @@
+id: "paladyn_quest_4"                                
+name: "&c&oLokalizacja Ortegi"                          
+zleceniodawca: "&a&lJasuo"                       
+lore:                                               
+  - "&aWystarczajaco juz obilismy ludzi Ortegi."
+  - "&aTeraz pora wytropic jego oboz."
+  - "&aPodejrzewamy, ze jego oboz znajduje sie"
+  - "&agdzies na polnocy."
+  - "&aPewnie zapytasz sie, skad te przypuszczenia."
+  - "&aBo tylko stamtad nasi zwiadowcy nie wracali."
+  - "&aMam nadzieje, ze rzeczywiscie tam sie"
+  - "&aznajduje jego oboz i ze wrocisz"
+  - "&aw jednym kawalku."
+prize:                                    
+  - "xp: 810"
+require:                                            
+  - "level: 15"
+  - "quest: paladyn_quest_3"
+  - "klasa: &cWojownik"
+stopnie:
+  1:
+    talking: false
+    targets:
+      1:
+        id: "paladyn_quest_4_1_1"
+        type: "znajdz"
+        targetName: "oboz_ortegi"
+        message: "Odnajdz oboz Ortegi (1041;-595): %stan%"
+  2:
+    talking: true
+    message: "&r%player%&7: &bMiales racje... Centralnie przy polnocnym wyjsciu z lasu pajakow znajduje sie oboz Ortegi. Jest olbrzymi. Nie wiem, jak go zdolamy pokonac"
+    targets:
+      1:
+        id: "paladyn_quest_4_2_1"
+        type: zabij
+        targetName: "&4Bandzior Ortegi"
+        message: "Zabij 20 bandziorow Ortegi: %stan%"
+        ilosc: 20

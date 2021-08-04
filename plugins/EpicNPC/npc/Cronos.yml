@@ -1,0 +1,17 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&b&lCronos"
+  - "&7[&5&oMISTRZ TELEPORTACJI&7]"
+skinid: 1297237306
+location:
+  world: "F_RPG"
+  x: 17.0
+  y: 37.0
+  z: 564.0
+  yaw: 135
+  pitch: 3.5
+lookat: true
+commands:
+  - "cc open cronos %player%"

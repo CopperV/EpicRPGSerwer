@@ -1,0 +1,117 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+
+SurturSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &9&oNedzni smiertelnicy! Poznajcie potege Plomieni Surtura!"} @PlayersInRadius{r=25}
+
+SurturSkill1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=100} @self
+  - message{m="<mob.name><&co> &9&oPosmakuj plomieni Surtura!"} @PlayersInRadius{r=25}
+  - summon{type=SurturTornado;amount=2;radius=5;os=true} @self
+
+SurturSkill2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=120} @self
+  - message{m="<mob.name><&co> &9&oWszyscy sploniecie!"} @PlayersInRadius{r=25}
+  - stun{d=60} @self
+  - effect:particlering{particle=largeexplode;radius=8;points=40;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 10
+  - effect:particlering{particle=largeexplode;radius=8;points=40;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 10
+  - effect:particlering{particle=largeexplode;radius=8;points=40;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 10
+  - effect:particlering{particle=largeexplode;radius=8;points=40;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 10
+  - effect:particlering{particle=largeexplode;radius=8;points=40;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 10
+  - effect:particlering{particle=largeexplode;radius=8;points=40;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 10
+  - effect:particlering{particle=largeexplode;radius=8;points=40;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=7;points=36;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=6;points=32;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=5;points=28;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=4;points=24;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=3;points=20;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=2;points=16;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=12;amount=1;hS=0;vS=0;y=0.1} @self
+  - damage{amount=250} @PlayersInRadius{r=8}
+  - ignite{ticks=300} @PlayersInRadius{r=8}
+  - sound{s=entity.generic.extinguish_fire;v=1;p=0.7} @PlayersInRadius{r=8}
+
+SurturSkill3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=120} @self
+  - message{m="<mob.name><&co> &9&oARMAGEDON!"} @PlayersInRadius{r=25}
+  - skill{s=SurturSkill3_Cast} @self
+  - delay 20
+  - skill{s=SurturSkill3_Cast} @self
+  - delay 20
+  - skill{s=SurturSkill3_Cast} @self
+  - delay 20
+  - skill{s=SurturSkill3_Cast} @self
+  - delay 20
+  - skill{s=SurturSkill3_Cast} @self
+
+SurturSkill3_Cast:
+  Skills:
+  - summon{type=SurturMeteor;amount=3;radius=15;os=true} @self
+  - projectile{type=meteor;onTick=Surtur-Tick;onEnd=Surtur-End;v=30;i=1;hR=3;vR=3;syo=15;tyo=15;g=0.6;mr=50} @MIR{r=20;t=SurturMeteor}
+
+Surtur-Tick:
+  Skills:
+  - sound{s=entity.generic.explode} @origin
+  - effect:particles{particle=reddust;amount=10} @origin
+  - effect:particlesphere{particle=largeexplode;amount=10;radius=1} @origin
+Surtur-End:
+  Skills:
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=0;points=4;amount=1} @origin
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=1;points=6;amount=1} @origin
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=2;points=8;amount=1} @origin
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=3;points=12;amount=1} @origin
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=4;points=16;amount=1} @origin
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=5;points=20;amount=1} @origin
+  - damage{amount=200} @PlayersNearOrigin{r=5}
+  - ignite{ticks=400} @PlayersNearOrigin{r=5}
+
+SurturMeteorSpawn:
+  Skills:
+  - delay 2
+  - remove @self
+
+SurturTornado:
+  Skills:
+  - effect:particletornado{p=largeexplode;cp=largeexplode;mr=0.75;h=2;i=2;d=100;rs=0.1;sh=1;cs=0;ca=0;chs=0.1;cvs=0.1;cps=0.05;cyo=0;y=0;a=1} @self
+  - sound{s=entity.generic.extinguish_fire;v=2;p=2} @self
+
+SurturAttack:
+  Conditions:
+  - playerwithin{d=2}
+  Skills:
+  - damage{amount=160} @PlayersInRadius{r=2}
+  - throw{velocity=15;velocityY=5} @PlayersInRadius{r=2}
+  - sound{s=entity.generic.extinguish_fire;v=1;p=0.1} @PlayersInRadius{r=2}
+  - ignite{ticks=100} @PlayersInRadius{r=2}
+SurturDeath:
+  Skills:
+  - delay 400
+  - suicide 1

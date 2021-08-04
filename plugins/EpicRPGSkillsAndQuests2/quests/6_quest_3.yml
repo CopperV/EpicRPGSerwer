@@ -1,0 +1,41 @@
+id: "6_quest_3"                                
+name: "&9Drugi oboz"                          
+zleceniodawca: "&c&lMilten"                       
+lore:                                               
+  - "&aTo teraz sluchaj mnie uwaznie."
+  - "&aDaleko na wschodzie, na brzegu"
+  - "&arozbilismy drugi oboz."
+  - "&aRzadzi tam &a&oCassia."
+  - "&aPomoz troche jej, potem pomyslimy"
+  - "&aco dalej."
+prize:                                    
+  - "xp: 3000"
+require:                                            
+  - "level: 51"
+  - "quest: 6_quest_2"
+stopnie:
+  1:
+    talking: false                   
+    targets:
+      1:
+        id: "6_quest_3_1_1"                     
+        type: "znajdz"       
+        targetName: "exp50_2"
+        message: "Udaj sie do obozu Cassii (637 ; 384): %stan%"
+      2:
+        id: "6_quest_3_1_2"                     
+        type: "zagadaj"       
+        targetName: "&a&oCassia"
+        message: "Porozmawiaj z Cassia: %stan%"
+        dialog:
+          - "&r%player%&7: &bPrzyslal mnie do pomocy &c&lMilten&b."
+          - "&a&oCassia&7: &aI bardzo dobrze."
+          - "&a&oCassia&7: &aSytuacja jest katastroficzna."
+          - "&a&oCassia&7: &aPowiedz no mi, jak sie zwiesz."
+          - "&r%player%&7: &b%player%."
+          - "&a&oCassia&7: &aSuper %player%."
+          - "&a&oCassia&7: &aJestesmy tu w takiej dupie, ze szkoda gadac."
+          - "&a&oCassia&7: &aJak mogles sie przekonac, droga powrotna jest calkowicie zablokowana."
+          - "&a&oCassia&7: &aPelno roznego rodzaju cholerstwa."
+          - "&a&oCassia&7: &aW razie czego nie mamy nawet gdzie uciekac - jestesmy tutaj przygwozdzeni."
+          - "&a&oCassia&7: &aPomoc w tym zakresie z pewnoscia sie nam przyda."

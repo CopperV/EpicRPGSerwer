@@ -1,0 +1,27 @@
+id: "paladyn_quest_14"                                
+name: "&8&oUpadli jezdzcy"                          
+zleceniodawca: "&3&lSteve"                       
+lore:                                               
+  - "&aKolejni na naszej liscie sa jezdzcy."
+  - "&aPraktycznie wszyscy sa na uslugach Nulla."
+  - "&aSprzedali sie w zamian za rzekoma niesmiertelnosc"
+  - "&ai odrobine mocy."
+  - "&aStacjonuja w porcie."
+  - "&aTrzeba sie ich jak najszybciej pozbyc."
+prize:                                    
+  - "xp: 49500"
+  - "money: 700"
+require:                                            
+  - "level: 53"
+  - "klasa: &cWojownik"
+  - "quest: paladyn_quest_13"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "paladyn_quest_14_1_1"
+        type: "zabij"
+        targetName: "&3&oJezdziec"
+        message: "Zabij 25 jezdzcow: %stan%"
+        ilosc: 25

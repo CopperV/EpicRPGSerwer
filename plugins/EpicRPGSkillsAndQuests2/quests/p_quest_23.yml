@@ -1,0 +1,26 @@
+id: "p_quest_23"                                
+name: "&c&oPrzeklete dusze"
+zleceniodawca: "&4&lDeath"
+lore:                                               
+  - "&aBaron Geddon dosyc sporo namieszal"
+  - "&aw spaczeniu ziem na zachodzie."
+  - "&aWraz z ziemia zostaly przeklete, spaczone"
+  - "&adusze mieszkancow pobliskiego miasteczka."
+  - "&aJako moj wyslannik pojdziesz i dasz im wolnosc,"
+  - "&aa ja sie juz nimi odpowiednio zajme."
+  - "&aWszakze smierc jest dla nich obecnie milosierdziem..."
+prize:                                    
+  - "xp: 26000"
+  - "money: 300"
+require:                                            
+  - "level: 43"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "p_quest_23_1_1"
+        type: "zabij"
+        targetName: "&cSpaczona dusza"
+        message: "Pokonaj 30 spaczonych dusz: %stan%"
+        ilosc: 30

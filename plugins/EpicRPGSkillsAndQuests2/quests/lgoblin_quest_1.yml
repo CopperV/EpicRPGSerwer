@@ -1,0 +1,35 @@
+id: "lgoblin_quest_1"                                
+name: "&cWylegarnia goblinow"                          
+zleceniodawca: "&e&lUthar"                       
+lore:                                               
+  - "&aMyslalem, ze Twoja interwencja pomogla."
+  - "&aJednak guzik z tego."
+  - "&aJest ich jeszcze wiecej niz wczesniej."
+  - "&aZeszlej nocy porwali mojego parobka."
+  - "&aDowiedz sie, skad przychodza te bydlaki"
+prize:                                    
+  - "xp: 170"
+  - "money: 10"
+require:                                            
+  - "level: 4"
+  - "quest: prolog_quest_7"
+stopnie:                                            
+  1:
+    talking: false
+    message: "&r%player%&7: &aO kurcze. Wyglada to na jasknie goblinow. Strasznie patowa sytuacja. Trzeba cos z tym zrobic..."    
+    targets:
+      1:
+        id: "lgoblin_quest_1_1_1"                     
+        type: "znajdz"       
+        targetName: "wylegarnia"                      
+        message: "Znajdz miejsce, z ktorego caly czas przybywaja mlode gobliny (134;223): %stan%"     
+  2:
+    talking: true
+    message: "&e&lUthar&7: &aKto by pomyslal, ze tak blisko farmy znajduje sie jaskinia tych cholerstw. Nie mozna tak tego zostawic..."
+    targets:
+      1:
+        id: "lgoblin_quest_1_2_1"                     
+        type: "zabij"       
+        targetName: "&aMlody Goblin"                      
+        message: "Wybij 20 mlodych goblinow: %stan%"                    
+        ilosc: 20

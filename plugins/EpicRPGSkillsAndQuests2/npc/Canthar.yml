@@ -1,0 +1,26 @@
+name: "&c&lCanthar"
+title: "&c&lCanthar - dowodca"
+size: 9
+slots:
+  1:
+    item: "klasa_quest_mag"
+#  max: 150
+#  wymagania:
+#  - "klasa: &cMag"
+#  - "quest: quest1"
+  2:
+    item: "mag_quest_1"
+  3:
+    item: "mag_quest_7"
+  2:
+    item: "mag_quest_1"
+  8:
+    item: "Inteligencja1"
+    max: 180
+    wymagania:
+      - "klasa: &5Mag"
+  9:
+    item: "Inteligencja5"
+    max: 180
+    wymagania:
+      - "klasa: &5Mag"

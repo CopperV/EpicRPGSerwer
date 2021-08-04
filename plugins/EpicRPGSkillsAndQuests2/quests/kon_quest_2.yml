@@ -1,0 +1,52 @@
+id: "kon_quest_2"                                
+name: "&eNapady na farme"                          
+zleceniodawca: "&eCratos"                       
+lore:                                               
+  - "&aBede z Toba szczery,"
+  - "&ana chlopa mi nie wygladasz"
+  - "&ai do pracy w pole nie bede Ciebie posylac."
+  - "&aAle wydaje mi sie, ze mam zadanie"
+  - "&aw sam raz dla kogos takiego jak Ty."
+  - "&aSluchaj..."
+  - "&aDuzo dalismy za swoja niezaleznosc,"
+  - "&aale ma to swoje konsekwencje."
+  - "&aMiasto przy tym nie ingeruje w nasze sprawy..."
+  - "&ai problemy."
+  - "&aA problemow tu troche jest."
+  - "&aMam na mysli bandytow, ktorzy rozbili swoj oboz"
+  - "&aniedaleko naszej farmie i notorycznie nas odwiedzaja."
+  - "&aTrzeba im sie odplacic"
+prize:                                    
+  - "xp: 300"
+require:                                            
+  - "level: 10"
+  - "quest: kon_quest_1"
+stopnie:
+  1:
+    talking: true
+    message: "&eCratos&7: &aDobra robota. Jak bedziesz gotow, to przyjdz. Mam dla Ciebie jeszcze jedno zadanie..."
+    targets:
+      1:
+        id: "kon_quest_2_1_1"
+        type: "zabij"
+        targetName: "&cRabus"
+        message: "Zabij 12 Rabusiow z pobliskiego obozu: %stan%"
+        ilosc: 12
+      2:
+        id: "kon_quest_2_1_2"
+        type: "zabij"
+        targetName: "&cKieszonkowiec"
+        message: "Zabij 8 Kieszonkowcow z pobliskiego obozu: %stan%"
+        ilosc: 8
+      3:
+        id: "kon_quest_2_1_3"
+        type: "zabij"
+        targetName: "&4Bandyta"
+        message: "Zabij 4 Bandytow z pobliskiego obozu: %stan%"
+        ilosc: 4
+      4:
+        id: "kon_quest_2_1_4"
+        type: "zabij"
+        targetName: "&4Bandzior Ortegi"
+        message: "Zabij 1 Bandziora Ortegi z pobliskiego obozu: %stan%"
+        ilosc: 1

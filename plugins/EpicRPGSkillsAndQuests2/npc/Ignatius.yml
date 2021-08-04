@@ -1,0 +1,12 @@
+name: "&e&lIgnatius"
+title: "&e&lIgnatius - quester"
+size: 9
+slots:
+  1:
+    item: "fabula_quest_2"
+  2:
+    item: "fabula_quest_3"
+  3:
+    item: "p_quest_20"
+  4:
+    item: "p_quest_27"

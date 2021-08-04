@@ -1,0 +1,16 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&3piotr0727"
+  - "&7[&3&lSuperMod&7]"
+skinid: 1212915084
+location:
+  world: "F_RPG"
+  x: -109
+  y: 70.0
+  z: 14.0
+  yaw: -90
+  pitch: 7.5
+lookat: true
+state: ON_FIRE

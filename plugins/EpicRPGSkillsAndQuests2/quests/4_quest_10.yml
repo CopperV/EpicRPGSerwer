@@ -1,0 +1,68 @@
+id: "4_quest_10"                                
+name: "&4&oHierarchia orkow"                          
+zleceniodawca: "&4Reg"                       
+lore:                                               
+  - "&aOrkowie to dosyc ciekawe stworzenia w swej naturze."
+  - "&aWyraznie mozna wyroznic u nich czysta i klarowna hierarchie."
+  - "&aNajnizej znajduja sie zwykli orkowie,"
+  - "&aktorzy albo nie sa jeszcze gotowi zostac wojownikami,"
+  - "&aalbo do walki juz sie nie nadaja."
+  - "&aNa dzien dzisiejszy stanowia najliczniejsza grupe."
+  - "&aPozniej sa orkowi wojownicy, ktorzy sa podstawa orkowej armii."
+  - "&aCzesto ich mozna spotkac na frontach, walka z nimi nie nalezy do najciezszych."
+  - "&aDalej sa elitarni orkowie."
+  - "&aUgrupowanie to sklada sie z wyjatkowo wyrozniajacych sie wojownikow."
+  - "&aWalka z nimi jest niezwykle ciezka - maja dobry pancerz i najlepsza bron."
+  - "&aJeszcze wyzej znajduja sie szamani, ktorzy sluza duchowa rada i pomoca orkom."
+  - "&aDysponuja poteznymi zakleciami - nalezy ich sie strzec."
+  - "&aJeszcze wyzej znajduja sie generalowie i dowodcy, ale ich radze na razie zostawic."
+  - "&aTwoim zadaniem bedzie teraz zapolowanie na kazdego przedstawiciela"
+  - "&atych grup."
+  - "&aInna hierarchie mozna wyroznic wsrod gorskich orkow,"
+  - "&aale to juz zostaw &eMorkvargowi&a."
+prize:                                    
+  - "xp: 6800"
+  - "money: 50"
+require:                                            
+  - "level: 34"
+  - "quest: 4_quest_7"
+stopnie:
+  1:
+    talking: false
+    message: "&r%player%&7: &bDobra, zwyklych orkow mam juz za soba. Pora zajac sie wojownikami"    
+    targets:
+      1:
+        id: "4_quest_10_1_1"                     
+        type: "zabij"       
+        targetName: "&2Ork"                      
+        message: "Zabij 30 orkow: %stan%"
+        ilosc: 30
+  2:
+    talking: false
+    message: "&r%player%&7: &bWojownicy gryza piach. Przyszedl czas na elity"    
+    targets:
+      1:
+        id: "4_quest_10_2_1"                     
+        type: "zabij"       
+        targetName: "&cOrk wojownik"                      
+        message: "Zabij 20 orkowych wojownikow: %stan%"
+        ilosc: 20
+  3:
+    talking: false
+    message: "&r%player%&7: &bNo i na koniec duchowe wsparcie orkow"    
+    targets:
+      1:
+        id: "4_quest_10_3_1"                     
+        type: "zabij"       
+        targetName: "&c&lElitarny Ork Wojownik"                      
+        message: "Zabij 7 elitarnych orkow: %stan%"
+        ilosc: 7
+  4:
+    talking: true
+    targets:
+      1:
+        id: "4_quest_10_4_1"                     
+        type: "zabij"       
+        targetName: "&a&lOrkowy Szaman"                      
+        message: "Zabij 13 orkowych szamanow: %stan%"
+        ilosc: 13

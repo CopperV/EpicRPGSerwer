@@ -1,0 +1,99 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+SaturasSpawn:
+  Skills:
+  - delay 40
+  - message{m="<mob.name><&co> &cNo, nareszcie jestes."} @PIR{r=100}
+  - delay 40
+  - message{m="<mob.name><&co> &cPokaz, na co Ciebie stac!"} @PIR{r=100}
+  - delay 40
+  - effect:lightning @self
+  - weather{type=storm;duration=10000}
+SaturasDeath:
+  Skills:
+  - message{m="<mob.name><&co> &cA wiec Ci sie jednak udalo..."} @PIR{r=100}
+  - weather{type=clear;duration=10000}
+SaturasAttack1:
+  Conditions:
+  - playernotwithin{d=1}
+  Skills:
+  - sound{s=entity.firework.large_blast;v=10} @self
+  - message{m="<mob.name><&co> &cBron sie!"} @PIR{r=100}
+  - projectile{onTick=Saturas2-Tick;onEnd=Saturas2-End;v=5;i=1;hR=1;vR=1;mr=100;sB=true} @NearestPlayer{r=50}
+AlchemikAttack:
+  Conditions:
+  - playernotwithin{d=1}
+  - offgcd
+  Skills:
+  - gcd{ticks=60}
+  - sound{s=entity.firework.large_blast;v=10} @self
+  - projectile{onTick=Saturas2-Tick;onEnd=Saturas2-End;v=5;i=1;hR=1;vR=1;mr=100;sB=true} @NearestPlayer{r=50}
+SaturasAttack2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=65}
+  - message{m="<mob.name><&co> &cSLABO!"} @PIR{r=100}
+  - sound{s=entity.firework.large_blast_far;v=10} @self
+  - delay 10
+  - pull{velocity=4;to=true} @PIR{r=25}
+  - delay 1
+  - pull{velocity=4;to=true} @PIR{r=25}
+  - delay 1
+  - pull{velocity=4;to=true} @PIR{r=25}
+  - delay 1
+  - pull{velocity=4;to=true} @PIR{r=25}
+  - delay 1
+  - pull{velocity=4;to=true} @PIR{r=25}
+  - delay 1
+  - pull{velocity=4;to=true} @PIR{r=25}
+  - delay 1
+  - sound{s=entity.firework.large_blast_far;v=10} @self
+  - damage{amount=40} @PIR{r=15}
+  - throw{velocity=3;velocityY=15} @PIR{r=10}
+SaturasAttack3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=95}
+  - message{m="<mob.name><&co> &cNie tchorz. I tak nie dasz mi rady!"} @PIR{r=100}
+  - delay 25
+  - sound{s=entity.firework.large_blast_far;v=10} @self
+  - effect:particlering{particle=explode;radius=0;points=4;amount=1;hS=0.5;vS=0} @self
+  - damage{amount=55} @PIR{r=0}
+  - throw{velocity=15;velocityY=30} @PIR{r=0}
+  - delay 2
+  - sound{s=entity.firework.large_blast_far;v=10} @self
+  - effect:particlering{particle=explode;radius=1;points=6;amount=1;hS=0.5;vS=0} @self
+  - damage{amount=50} @PIR{r=1}
+  - throw{velocity=13;velocityY=27} @PIR{r=1}
+  - delay 2
+  - sound{s=entity.firework.large_blast_far;v=10} @self
+  - effect:particlering{particle=explode;radius=2;points=8;amount=1;hS=0.5;vS=0} @self
+  - damage{amount=45} @PIR{r=2}
+  - throw{velocity=12;velocityY=25} @PIR{r=2}
+  - delay 2
+  - sound{s=entity.firework.large_blast_far;v=10} @self
+  - effect:particlering{particle=explode;radius=3;points=12;amount=1;hS=0.5;vS=0} @self
+  - damage{amount=40} @PIR{r=3}
+  - throw{velocity=10;velocityY=22} @PIR{r=3}
+  - delay 2
+  - sound{s=entity.firework.large_blast_far;v=10} @self
+  - effect:particlering{particle=explode;radius=4;points=16;amount=1;hS=0.5;vS=0} @self
+  - damage{amount=35} @PIR{r=4}
+  - throw{velocity=9;velocityY=20} @PIR{r=4}
+  - delay 2
+  - sound{s=entity.firework.large_blast_far;v=10} @self
+  - effect:particlering{particle=explode;radius=5;points=24;amount=1;hS=0.5;vS=0} @self
+  - damage{amount=30} @PIR{r=5}
+  - throw{velocity=8;velocityY=18} @PIR{r=5}
+Saturas2-Tick:
+  Skills:
+  - sound{s=entity.firework.large_blast_far;v=5} @origin
+  - effect:particlesphere{particle=smoke;amount=50;radius=0.3;y=0.3} @origin
+Saturas2-End:
+  Skills:
+  - sound{s=entity.firework.large_blast_far;v=10} @origin
+  - damage{amount=53} @PlayersNearOrigin{r=3}
+  - effect:particlesphere{particle=portal;amount=400;radius=1.5} @PlayersNearOrigin{r=3}

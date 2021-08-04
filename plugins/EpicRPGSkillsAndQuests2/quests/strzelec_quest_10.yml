@@ -1,0 +1,85 @@
+id: "strzelec_quest_10"
+name: "&7&oKryjowka Nizara"
+zleceniodawca: "&6Nefarius"
+lore:
+  - "&aPora znalezc w koncu tego bydlaka."
+  - "&aNie bedzie to proste zadanie, ale wierze,"
+  - "&aze jakos temu podolasz."
+  - "&aChodza pogloski, ze go wcale sie nie znajdzie tutaj,"
+  - "&ana kamiennej pustyni,"
+  - "&alecz udal sie za to ognista rzeke."
+  - "&aMoze tam sprobujesz szczescia?"
+prize:
+  - "xp: 26500"
+require:
+  - "level: 39"
+  - "klasa: &2Mysliwy"
+  - "quest: strzelec_quest_9"
+stopnie:
+  1:
+    talking: false
+    message: "&r%player%&7: &bAha... Assasyni poza pustynia i to w dodatku elitarni. Czuje, ze w tej jaskini ukrywa sie Nizar..."
+    targets:
+      1:
+        id: "strzelec_quest_10_1_1"
+        type: "znajdz"
+        targetName: "nizar1"
+        message: "Sprobuj znalezc kryjowke Nizara gdzies za ognista rzeka (-384;182): %stan%"
+  2:
+    talking: false
+    message: "&r%player%&7: &bDobra, obstawa przed jaskinia wybita. Pora przeszukac jaskinie."
+    targets:
+      1:
+        id: "strzelec_quest_10_2_1"
+        type: "zabij"
+        targetName: "&4&lElitarny Assasyn"
+        message: "Zabij 20 elitarnych assasynow: %stan%"
+        ilosc: 20
+      2:
+        id: "strzelec_quest_10_2_2"
+        type: "zabij"
+        targetName: "&0&lCzarny Mag"
+        message: "Zabij 5 czarnych magow: %stan%"
+        ilosc: 5
+  3:
+    talking: false
+    message: "&r%player%&7: &bA wiec mamy naszego zdrajce... I od cholery obstawy... Nie mozna tak tego zostawic, trzeba sie nimi zajac..."
+    targets:
+      1:
+        id: "strzelec_quest_10_3_1"
+        type: "znajdz"
+        targetName: "nizar2"
+        message: "Przeszukaj jaskinie (-527;166): %stan%"
+  4:
+    talking: false
+    message: "&r%player%&7: &bTo chyba wystarczy. Pora porozmawiac z &6Nefariusem&b."
+    targets:
+      1:
+        id: "strzelec_quest_10_4_1"
+        type: "zabij"
+        targetName: "&4&lElitarny Assasyn"
+        message: "Zabij 30 elitarnych assasynow: %stan%"
+        ilosc: 30
+      2:
+        id: "strzelec_quest_10_4_2"
+        type: "zabij"
+        targetName: "&0&lCzarny Mag"
+        message: "Zabij 10 czarnych magow: %stan%"
+        ilosc: 10
+  5:
+    talking: false
+    targets:
+      1:
+        id: "strzelec_quest_10_5_1"
+        type: "zagadaj"
+        targetName: "&6Nefarius"
+        message: "Porozmawiaj o kryjowce Nizara z &6Nefariusem: %stan%"
+        dialog:
+          - "&r%player%&7: &bZnalazlem kryjowke Nizara, lecz jego lokalizacja Ciebie nie ucieszy."
+          - "&r%player%&7: &bZabunkrowal sie w jaskini na przeleczy na spaczone ziemie."
+          - "&6Nefarius&7: &aWiedzial, gdzie sie schowac, by nasz gniew go nie dosiegnal."
+          - "&6Nefarius&7: &aSa to tereny zdecydowanie poza naszymi wplywami."
+          - "&6Nefarius&7: &aPoza tym nie naraze moich ludzi na tak duze niebezpieczenstwo, jakim sa spaczone ziemie."
+          - "&6Nefarius&7: &aPrzynajmniej wiemy gdzie sie znajduje."
+          - "&6Nefarius&7: &aCzas zaczal grac na niekorzysc Nizara."
+          - "&6Nefarius&7: &aWkrotce go dorwiemy..."

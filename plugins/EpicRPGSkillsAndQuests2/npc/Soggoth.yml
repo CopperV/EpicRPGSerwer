@@ -1,0 +1,14 @@
+name: "&eSoggoth"
+title: "&eSoggoth - dowodca"
+size: 9
+slots:
+  8:
+    item: "Mana1"
+    max: 400
+    wymagania:
+      - "klasa: &5Mag"
+  9:
+    item: "Mana5"
+    max: 400
+    wymagania:
+      - "klasa: &5Mag"

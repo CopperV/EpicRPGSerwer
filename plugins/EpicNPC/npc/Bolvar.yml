@@ -1,0 +1,15 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&6&lBolvar Fordragon"
+  - "&7[&2&lBRAT TIRIONA&7]"
+skinid: 1556551531
+location:
+  world: "F_RPG"
+  x: -128.5
+  y: 42.0
+  z: 11.5
+  yaw: 42.5
+  pitch: 4.5
+lookat: true

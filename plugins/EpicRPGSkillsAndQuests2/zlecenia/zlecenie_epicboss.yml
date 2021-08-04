@@ -1,0 +1,49 @@
+id: "zlecenie_epicboss"                                
+name: "&c&lEpicki pogrom"
+zleceniodawca: "&6&lSara"                       
+lore:                                               
+  - "&aArcholos jest nekany przez rozne potezne stworzenia,"
+  - "&aktorych pokonanie jest konieczne do przywrocenia"
+  - "&aladu i porzadku na tej wyspie."
+  - "&aPomoz nam go odzyskac, a sowicie Ciebie wynagrodze."
+prize:                                    
+  - "xp: 20000"
+  - "money: 1500"
+  - "cmd: crazycrates give physical Zwykla 1 %player%"
+require:                                            
+  - "level: 25"
+  - "quest: fabula_quest_7"
+etapy: 1
+stopnie:
+  1:
+    targets:
+      1:
+        id: "zlecenie_epicboss_1_1"
+        type: "zabij"
+        targetName: "&b&lKhardimon - Najwyzszy kaplan - EPIC BOSS"
+        message: "Pokonaj Najwyzszego Kaplana - Khardimona: %stan%"
+        ilosc: 1
+  2:
+    targets:
+      1:
+        id: "zlecenie_epicboss_2_1"
+        type: "zabij"
+        targetName: "&6&lKalimos - Pierwotny Wladca - EPIC BOSS"
+        message: "Pokonaj Pierwotnego Wladce - Kalimosa: %stan%"
+        ilosc: 1
+  3:
+    targets:
+      1:
+        id: "zlecenie_epicboss_3_1"
+        type: "zabij"
+        targetName: "&6&lRAGNAROS - Wladca Ognia - EPIC BOSS"
+        message: "Pokonaj Wladce Ognia - Ragnarosa: %stan%"
+        ilosc: 1
+  4:
+    targets:
+      1:
+        id: "zlecenie_epicboss_4_1"
+        type: "zabij"
+        targetName: "&4&lNefarian - Syn Nelthariona - EPIC BOSS"
+        message: "Pokonaj Syna Nelthariona - Nefariana: %stan%"
+        ilosc: 1

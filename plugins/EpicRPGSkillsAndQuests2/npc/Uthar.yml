@@ -1,0 +1,23 @@
+name: "&e&lUthar"
+title: "&e&lUthar - farmer"
+size: 9
+slots:
+  1:
+    item: "prolog_quest_5"
+  2:
+    item: "prolog_quest_6"
+  3:
+    item: "prolog_quest_7"
+  4:
+    item: "prolog_quest_8"
+  5:
+    item: "lgoblin_quest_1"
+  6:
+    item: "lgoblin_quest_2"
+  7:
+    item: "p_quest_4"
+  8:
+    item: "przemytnik_quest_8"
+  9:
+    item: "przemytnik_quest_11"
+

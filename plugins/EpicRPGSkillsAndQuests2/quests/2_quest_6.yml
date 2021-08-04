@@ -1,0 +1,54 @@
+id: "2_quest_6"                                
+name: "&e&oGniew budowniczych"                          
+zleceniodawca: "&1Saturas"                       
+lore:                                               
+  - "&aMysle, ze w koncu nadszedl czas na nieco"
+  - "&abardziej skomplikowane zadanie dla ciebie."
+  - "&aSluchaj uwaznie, bo nie bede sie powtarzal."
+  - "&aW swoim liscie Baron Geddon zawarl wiele katastrof,"
+  - "&aktore przydarzyly sie tej wyspie,"
+  - "&alecz ani slowem nie wspomnial o przebudzeniu sie budowniczych."
+  - "&aZ tego, co udalo nam sie do tej pory ustalic,"
+  - "&ato ze budowniczowie nalezeli do starozytnej cywilizacji,"
+  - "&aktora czcila Adanosa - Boga rownowagi i wod."
+  - "&aZ nieznanych nam przyczyn, ich cywilizacja nagle zniknela."
+  - "&aJedyna pozostaloscia po nich byly tutejsze ruiny."
+  - "&aCos jednak ich przebudzilo z grobowego snu."
+  - "&aUdaj sie do wioski i postaraj sie nawiazac jakis kontakt z nimi."
+prize:                                    
+  - "xp: 1785"
+require:                                            
+  - "level: 15"
+  - "quest: 2_quest_5"
+stopnie:
+  1:
+    talking: false
+    message: "&r%player%&7: &bBudowniczowie nie wygladaja na takich, co by mieli ochote porozmawiac. O cholera, chyba atakuja..."
+    targets:
+      1:
+        id: "2_quest_6_1_1"
+        type: "znajdz"
+        targetName: "wioska_budowniczych"
+        message: "Udaj sie do starej wioski budowniczych (-202;675): %stan%"
+  2:
+    talking: true
+    message: "&1Saturas&7: &aHeh. A wiec nici z rozmow z nimi. No coz, bedzie trzeba liczyc na ich starozytne pisma..."
+    targets:
+      1:
+        id: "2_quest_6_2_1"
+        type: "zabij"
+        targetName: "&6Architekt budowniczych"
+        message: "Pokonaj 15 architektow budowniczych: %stan%"
+        ilosc: 15
+      2:
+        id: "2_quest_6_2_2"
+        type: "zabij"
+        targetName: "&6Wojownik budowniczych"
+        message: "Pokonaj 12 wojownikow budowniczych: %stan%"
+        ilosc: 12
+      3:
+        id: "2_quest_6_2_3"
+        type: "zabij"
+        targetName: "&6Strzelec budowniczych"
+        message: "Pokonaj 8 strzelcow budowniczych: %stan%"
+        ilosc: 8

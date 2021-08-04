@@ -1,0 +1,37 @@
+id: "2_quest_5"                                
+name: "&cZaginiony patrol"                          
+zleceniodawca: "&1Saturas"                       
+lore:                                               
+  - "&aJakis czas temu wyslalem na zwiad patrol"
+  - "&azlozony z takich samych rekrutow jak ty."
+  - "&aJak mozesz sie domyslac, nie wrocili."
+  - "&aDomyslam sie, ze zostali zaatakowani przez szakale."
+  - "&aOdnajdz ich i to juz!"
+prize:                                    
+  - "xp: 1570"
+require:                                            
+  - "level: 14"
+  - "quest: 2_quest_4"
+stopnie:
+  1:
+    talking: true
+    message: "&1Saturas&7: &aJak widac, nie kazdy potrafi przejsc przez moje szkolenie. Uwazaj, bo moze ciebie taki sam los spotkac!"
+    targets:
+      1:
+        id: "2_quest_5_1_1"
+        type: "przynies"
+        targetName: "&7Czaszka"
+        message: "Przynies 5 czasek zaginionego patrolu: %stan%"
+        ilosc: 5
+      2:
+        id: "2_quest_5_1_2"
+        type: "przynies"
+        targetName: "&rKosc"
+        message: "Przynies 15 kosci zaginionego patrolu: %stan%"
+        ilosc: 15
+      3:
+        id: "2_quest_5_1_3"
+        type: "przynies"
+        targetName: "&rTrup"
+        message: "Przynies 5 trupow zaginionego patrolu: %stan%"
+        ilosc: 5

@@ -1,0 +1,30 @@
+id: "p_quest_29"                                
+name: "&e&oRoznorodnosc skarbca zamkowego"
+zleceniodawca: "&5Marson"
+lore:                                               
+  - "&aTyle nowych skarbow czeka."
+  - "&aTakie samotne, takie bezpanskie."
+  - "&aDobrze uzupelnily by kolekcje skarbca."
+  - "&aPrzynies troche pieniedzy nowego swiata."
+  - "&aPotrafie sie ladnie odwdzieczyc."
+prize:                                    
+  - "xp: 57500"
+  - "money: 1000"
+require:                                            
+  - "level: 56"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "p_quest_29_1_1"
+        type: "przynies"
+        targetName: "&7&oSrebnik cieni"
+        message: "Przynies 30 srebnikow cieni: %stan%"
+        ilosc: 30
+      2:
+        id: "p_quest_29_1_2"
+        type: "przynies"
+        targetName: "&e&oMoneta cieni"
+        message: "Przynies 15 monet cieni: %stan%"
+        ilosc: 15

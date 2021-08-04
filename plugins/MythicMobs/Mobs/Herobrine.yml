@@ -1,0 +1,668 @@
+Exp50_1:
+  Type: Zombie
+  Display: "&2&oZombie"
+  Health: 4000
+  Damage: 165
+  Faction: Herobrine
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 50
+    KnockbackResistance: 1
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Drops:
+  - Exp50_1_Weapon
+  - Exp50_1_Armor
+  - Korzen 1 0.05
+  - NocWDzien 1 0.1
+  - Zgnile_Mieso 1 0.15
+  - Mozg_Zombie 1 0.07
+  - Konczyna 1 0.09
+Exp50_2:
+  Type: Skeleton
+  Display: "&7Szkielet"
+  Health: 2350
+  Damage: 1
+  Faction: Herobrine
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 30
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - Luk_Exp50_2:0
+  Drops:
+  - Exp50_2_Weapon
+  - Exp50_2_Armor
+  - Zacma 1 0.04
+  - NocWDzien 1 0.1
+  - Stara_Kosc 1 0.13
+  - Strzala_Cieni 1 0.06
+  - Strzala 3-10 0.89
+Exp50_3:
+  Type: Creeper
+  Display: "&aCreeper"
+  Health: 2000
+  Damage: 200
+  Faction: Herobrine
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 20
+    KnockbackResistance: 0.5
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    ExplosionRadius: 5
+    FuseTicks: 20
+    SuperCharged: false
+#    PreventSuicide: true
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+#  - skill{s=Exp50_Creeper} ~onExplode
+  - remove @self ~onAttack
+#  - remove @self ~onDeath
+#  - remove @self ~onDespawn
+  Drops:
+  - Exp50_3_Armor
+  - Wybuchowy_Proch 1 0.15
+  - Korzen 1 0.05
+  - NocWDzien 1 0.1
+Exp50_4:
+  Type: Spider
+  Display: "&7&oPajak"
+  Health: 2100
+  Damage: 120
+  Faction: Herobrine
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 35
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Drops:
+  - Exp50_4_Weapon
+  - NocWDzien 1 0.1
+  - Pajecza_Nic 1 0.13
+  - Jajo_Pajaka 1 0.06
+Exp50_5:
+  Type: ZOMBIE_VILLAGER
+  Display: "&a&oZombie - Osadnik"
+  Health: 4500
+  Damage: 165
+  Faction: Herobrine
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 40
+    KnockbackResistance: 0.8
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Drops:
+  - Exp50_5_Weapon
+  - Exp50_5_Armor
+  - Srebnik_Cieni 1 0.16
+  - Moneta_Cieni 1 0.09
+Exp50_6:
+  Type: Skeleton
+  Display: "&eJockey"
+  Health: 2000
+  Damage: 1
+  Faction: Herobrine
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 40
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - Luk_Exp50_2:0
+  Mount: Exp50_4
+  Drops:
+  - Exp50_6_Weapon
+  - Exp50_6_Armor
+  - Zacma 1 0.05
+  - NocWDzien 1 0.11
+  - Stara_Kosc 1 0.15
+  - Strzala_Cieni 1 0.08
+  - Strzala 4-12 0.9
+Exp50_7_Mount:
+  Type: VILLAGER
+  Health: 1500
+  Faction: Herobrine
+  Disguise:
+    Type: SKELETON_HORSE
+  Options:
+    Despawn: false
+    FollowRange: 40
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    Saddled: true
+    Tamed: false
+    Baby: false
+    Age: 1
+    MovementSpeed: 0.35
+    HasTrades: false
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+Exp50_7_1:
+  Type: Skeleton
+  Display: "&3&oJezdziec"
+  Health: 2600
+  Damage: 140
+  Faction: Herobrine
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  - 2 randomlookaround
+  - 3 lookatplayers
+  - 3 opendoors
+  - 3 closedoors
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 40
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    KnockbackResistance: 1
+    MovementSpeed: 0.28
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - remove @Mount ~onDeath
+  Equipment:
+  - Exp50_7_Weapon:0
+  - Exp50_Armor1:4
+  - Exp50_Armor2:3
+  - Exp50_Armor3:2
+  - Exp50_Armor4:1
+  Mount: Exp50_7_Mount
+  Drops:
+  - Exp50_7_Weapon_2
+  - Exp50_7_Armor
+  - Glowa_Jezdzca 1 0.09
+  - Pierscien_Morgulu 1 0.05
+Exp50_7_2:
+  Type: Skeleton
+  Display: "&3&oJezdziec"
+  Health: 2950
+  Damage: 1
+  Faction: Herobrine
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 40
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    KnockbackResistance: 1
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - remove @Mount ~onDeath
+  Equipment:
+  - Luk_Exp50_7:0
+  - Exp50_Armor1:4
+  - Exp50_Armor2:3
+  - Exp50_Armor3:2
+  - Exp50_Armor4:1
+  Mount: Exp50_7_Mount
+  Drops:
+  - Exp50_7_Weapon_1
+  - Exp50_7_Armor
+  - Glowa_Jezdzca 1 0.09
+  - Pierscien_Morgulu 1 0.05
+Exp50_8:
+  Type: WITCH
+  Display: "&5Wiedzma"
+  Health: 2250
+  Damage: 1
+  Faction: Herobrine
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    KnockbackResistance: 0.2
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=Exp50_Wiedzma_Teleport} ~onTimer:40 0.11
+  - skill{s=Exp50_Summon} ~onTimer:30 0.17
+  - skill{s=Exp50_Summon} ~onDamaged 0.17
+  Drops:
+  - Exp50_7_Armor
+  - Wiedzmi_Kostur_Int 1 0.12
+  - StrzalaCiemnosci 1 0.12
+  - NocWDzien 1 0.11
+  - Menzurka 1 0.5
+  - Zycie50 1 0.1
+  - Zycie100 1 0.02
+  - Mana100 1 0.1
+  - Mana250 1 0.02
+Exp8_Damage:
+  Type: villager
+  Health: 10000
+  Damage: 0
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  Skills:
+  - skill{s=Exp50_8_Damage} ~onSpawn
+  Options:
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    Invincible: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    HasTrades: false
+  Disguise:
+    Type: villager
+    Invisible: true
+Exp50_9:
+  Type: STRAY
+  Display: "&9Tulacz"
+  Health: 2700
+  Damage: 1
+  Faction: Herobrine
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 40
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    KnockbackResistance: 0.6
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - Luk_Exp50_9:0
+  Drops:
+  - Exp50_9_Weapon
+  - Exp50_9_Armor
+  - Zacma 1 0.06
+  - NocWDzien 1 0.12
+  - Stara_Kosc 1 0.14
+  - Strzala_Cieni 1 0.08
+  - Czaszka_Tulacza 1 0.11
+  - Torba_Tulacza 1 0.05
+  - Strzala 4-12 0.9
+Lowca_Herobrine:
+  Type: STRAY
+  Display: "&2&lLowca Herobrina - BOSS"
+  Health: 36750
+  Damage: 1
+  BossBar:
+    Enabled: true
+    Title: "&a==] &2&lLowca Herobrine'a - BOSS &8< &c<caster.hp> &4❤ &8> &a[=="
+    Color: GREEN
+    Range: 60
+    Style: SEGMENTED_12
+  Faction: Herobrine
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 40
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    KnockbackResistance: 1
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=LowcaSpawn} ~onSpawn
+  - skill{s=LowcaDeath} ~onDeath
+  - randomskill{skills=LowcaSummon,LowcaBlack,LowcaTp} ~onTimer:40 0.18
+  - randomskill{skills=LowcaSummon,LowcaBlack,LowcaTp} ~onDamaged 0.14
+  Equipment:
+  - Luk_Exp50_Boss:0
+  Drops:
+  - Mroczna_Pieczec 1 0.05
+  - Exp50_Lowca_1
+  - Exp50_Lowca_2
+  - StrzalaCiemnosci 1 0.5
+  - NocWDzien 1 0.41
+  - Zacma 1 0.14
+  - Stara_Kosc 1 0.4
+  - Strzala_Cieni 1 0.24
+  - Czaszka_Tulacza 1 0.3
+  - Torba_Tulacza 1 0.2
+  - Strzala 8-32
+  - Szczaw_Krolewski 1 0.05
+Jezdziec_Pustki:
+  Type: skeleton
+  Display: "&8&lJezdziec Pustki - BOSS"
+  Health: 39000
+  Damage: 165
+  BossBar:
+    Enabled: true
+    Title: "&0==] &8&lJezdziec Pustki - BOSS &8< &c<caster.hp> &4❤ &8> &0[=="
+    Color: WHITE
+    Range: 60
+    Style: SEGMENTED_12
+  Faction: Herobrine
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 40
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    KnockbackResistance: 1
+    MovementSpeed: 0.31
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=JezdziecMount} ~onTimer:20
+  - skill{s=JezdziecSpawn} ~onSpawn
+  - skill{s=JezdziecDeath} ~onDeath
+  - randomskill{skills=JezdziecSkill1,JezdziecSkill3,JezdziecSkill2} ~onDamaged 0.12
+  - remove @Mount ~onDeath
+  Equipment:
+  - Exp50_7_Weapon:0
+  - Exp50_Armor1:4
+  - Exp50_Armor2:3
+  - Exp50_Armor3:2
+  - Exp50_Armor4:1
+  Mount: Jezdziec_Pustki_Mount
+  Drops:
+  - Mroczna_Pieczec 1 0.05
+  - Exp50_Jezdziec_1
+  - Exp50_Jezdziec_2
+  - Szczaw_Krolewski 1 0.05
+  - Pierscien_Morgulu 1 0.15
+Jezdziec_Pustki_Mount:
+  Type: VILLAGER
+  Health: 10000
+  Faction: Herobrine
+  Disguise:
+    Type: SKELETON_HORSE
+  Options:
+    Despawn: false
+    FollowRange: 40
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    Saddled: true
+    Tamed: false
+    Baby: false
+    Age: 1
+    MovementSpeed: 0.38
+    HasTrades: false
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=JezdziecMountRemove} ~onTimer:20
+Szepciucha:
+  Type: Witch
+  Display: "&d&lSzepciucha - BOSS"
+  Health: 30000
+  Damage: 1
+  BossBar:
+    Enabled: true
+    Title: "&5==] &d&lSzepciucha - BOSS &8< &c<caster.hp> &4❤ &8> &5[=="
+    Color: PINK
+    Range: 60
+    Style: SEGMENTED_10
+  Faction: Herobrine
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 40
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    KnockbackResistance: 1
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - randomskill{skills=SzepciuchaSkill1,SzepciuchaSkill2,SzepciuchaSkill3} ~onDamaged 0.1
+  - randomskill{skills=SzepciuchaSkill1,SzepciuchaSkill2} ~onTimer:30 0.11
+  - skill{s=SzepciuchaHeal} ~onDamaged
+  - skill{s=SzepciuchaSpawn} ~onSpawn
+  - skill{s=SzepciuchaDeath} ~onDeath
+  Drops:
+  - Mroczna_Pieczec 1 0.05
+  - Exp50_Szepciucha_1
+  - Exp50_Szepciucha_2
+  - Szczaw_Krolewski 1 0.05
+Szepciucha_Summon1:
+  Type: villager
+  Health: 10000
+  Damage: 0
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  Skills:
+  - skill{s=Szepciucha_Summon1_Skill} ~onSpawn
+  Options:
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    Invincible: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    HasTrades: false
+  Disguise:
+    Type: villager
+    Invisible: true
+Szepciucha_Summon2:
+  Type: villager
+  Health: 10000
+  Damage: 0
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  Skills:
+  - skill{s=Szepciucha_Summon2_Skill} ~onSpawn
+  Options:
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    Invincible: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    HasTrades: false
+  Disguise:
+    Type: villager
+    Invisible: true
+Sentenza:
+  Type: zombie
+  Display: "&8&lSentenza - EPIC BOSS"
+  Health: 100000
+  Damage: 250
+  BossBar:
+    Enabled: true
+    Title: '&4==] &8&lSentenza &8< &c<caster.hp> &4❤ &8> &4[=='
+    Color: RED
+    Range: 50
+    Style: SEGMENTED_10
+  Modules:
+    ThreatTable: true
+  Disguise:
+    Type: player
+    Skin: _LordChaos
+  Skills:
+  - setmaxhealth{amount=200000;mode=STATIC} @self ~onSpawn
+  - skill{s=SentenzaSpawn} ~onSpawn
+  - skill{s=SentenzaDeath} ~onDeath
+  - skill{s=SentenzaSkill_1_Signal} ~onSignal:SentenzaBombarda
+  - skill{s=MobRemove} ~onTimer:100
+  - randomskill{skills=SentenzaSkill_1,SentenzaSkill_2,SentenzaSkill_3} ~onDamaged 0.12
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 30
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.3
+    KnockbackResistance: 1
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Drops:
+  - Mroczna_Pieczec 1 0.15
+  - Exp50_Sentenza
+  - Niestabilna_Stygia 1
+  Equipment:
+  - B4:4
+  - SentenzaOstrze:0
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+SentenzaSummon1:
+  Type: villager
+  Health: 10000
+  Damage: 0
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  Skills:
+  - skill{s=SentenzaSummon1_Skill} ~onSpawn
+  Options:
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    Invincible: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    HasTrades: false
+  Disguise:
+    Type: villager
+    Invisible: true

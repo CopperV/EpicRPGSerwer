@@ -1,0 +1,22 @@
+id: "4_quest_13"                                
+name: "&2&lGorscy szamani"                          
+zleceniodawca: "&eMorkvarg"                       
+lore:                                               
+  - "&aGorscy wojownicy dostaja ogromne wsparcie od swych szamanow."
+  - "&aMaja znacznie wiecej mocy od swych pobratymcow na powierzchni."
+  - "&aJesli mamy odbic kopalnie, musimy sie ich pozbyc."
+prize:                                    
+  - "xp: 7000"
+require:                                            
+  - "level: 35"
+  - "quest: 4_quest_6"
+stopnie:
+  1:
+    talking: true  
+    targets:
+      1:
+        id: "4_quest_13_1_1"                     
+        type: "zabij"       
+        targetName: "&a&lGorski Szaman"                      
+        message: "Zabij 30 Gorskich Szamanow z kopalni: %stan%"
+        ilosc: 30

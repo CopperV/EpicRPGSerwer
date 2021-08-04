@@ -1,0 +1,139 @@
+id: "p_quest_11"
+name: "&3Zaginione laboratorium"
+zleceniodawca: "&1Kairo"
+lore:
+  - "&aDostalem ostatnio od &c&lAlexstraszy"
+  - "&apewne zadanie, o ktorym Tobie teraz"
+  - "&anie moge powiedziec..."
+  - "&aAle mozesz mi w czyms pomoc..."
+  - "&aOdkrylem ostatnio stare plany zamkowe,"
+  - "&az ktorych jednoznacznie wynika, ze gdzies tutaj,"
+  - "&ana zamku znajduje sie laboratorium alchemiczne."
+  - "&aPrzeszukalem caly budynek wzdluz i wszerz,"
+  - "&akazde pomieszczenie w Tym zamku, a nie znalazlem."
+  - "&aOdnajdz i zbadaj laboratorium alchemiczne."
+prize:
+  - "money: 100"
+  - "xp: 1020"
+require:
+  - "level: 19"
+  - "quest: p_quest_10"
+stopnie:
+  1:
+    talking: false
+    message: "&r%player%&7: &bWydaje mi sie, ze to moze byc to zaginione laboratorium alchemiczne, o ktorym mowil &1Kairo&b. Bedzie trzeba doglebniej zbadac to pomieszczenie..."
+    targets:
+      1:
+        id: "p_quest_11_1_1"
+        type: "znajdz"
+        targetName: "lab1"
+        message: "Odnajdz zaginione laboratorium alchemiczne na zamku: %stan%"
+  2:
+    talking: false
+    message: "&r%player%&7: &bStare klatki... Pytanie co lub kogo tutaj trzymali... Jest tez portal - powinienem go zbadac."
+    targets:
+      1:
+        id: "p_quest_11_2_1"
+        type: "znajdz"
+        targetName: "lab2"
+        message: "Zbadaj tajemnicze pomieszczenie na zamku: %stan%"
+  3:
+    talking: false
+    message: "&r%player%&7: &bHmm... Teraz to juz bardziej wyglada na jakies laboratorium. A co to? Golemy? Widze, ze nie sa przyjaznie nastawione"
+    targets:
+      1:
+        id: "p_quest_11_3_1"
+        type: "znajdz"
+        targetName: "lab_entry"
+        message: "Wejdz do portalu z odkrytego pomieszczenia: %stan%"
+  4:
+    talking: false
+    message: "&r%player%&7: &bNo dobra, mam troche luzu. Jak to &1Kairo &bmowil? Mam jeszcze zbadac to laboratorium"
+    targets:
+      1:
+        id: "p_quest_11_4_1"
+        type: "zabij"
+        targetName: "&7Kamienny golem"
+        message: "Pokonaj 4 golemy z tajemniczego laboratorium: %stan%"
+        ilosc: 4
+  5:
+    talking: false
+    message: "&r%player%&7: &bNo, no. Tajemne przejscie za biblioteczka. Pytanie, dokad prowadzi?"
+    targets:
+      1:
+        id: "p_quest_11_5_1"
+        type: "znajdz"
+        targetName: "lab3"
+        message: "Zbadaj tajemnicze laboratorium alchemiczne: %stan%"
+  6:
+    talking: false
+    message: "&r%player%&7: &bWyglada to na jakis podziemny labirynt... Wraz z kolejnymi golemami. Trzeba sie z nimi uporac!"
+    targets:
+      1:
+        id: "p_quest_11_6_1"
+        type: "znajdz"
+        targetName: "lab4"
+        message: "Kontynuuj badanie tajemniczego laboratorium alchemicznego: %stan%"
+  7:
+    talking: false
+    message: "&r%player%&7: &bNo dobra. Golemy na chwile mam z glowy. Trzeba zobaczyc, dokad prowadzi ten labirynt"
+    targets:
+      1:
+        id: "p_quest_11_7_1"
+        type: "zabij"
+        targetName: "&7Kamienny golem"
+        message: "Pokonaj 4 golemy z podziemnego labiryntu: %stan%"
+        ilosc: 4
+  8:
+    talking: false
+    message: "&r%player%&7: &bA ktoz to? Cholera, miota miksturami. Pewnie to stary uzytkownik tego miejsca. Pytanie, jakimi zabawami sie poddal?..."
+    targets:
+      1:
+        id: "p_quest_11_8_1"
+        type: "znajdz"
+        targetName: "lab5"
+        message: "Znajdz drugie wyjscie z podziemnego labiryntu: %stan%"
+  9:
+    talking: false
+    message: "&r%player%&7: &bAlchemika mam z glowy. Pytanie, czego on tutaj pilnowal?"
+    targets:
+      1:
+        id: "p_quest_11_9_1"
+        type: "zabij"
+        targetName: "&3Zaginiony alchemik"
+        message: "Pokonaj odnalezionego alchemika: %stan%"
+        ilosc: 1
+  10:
+    talking: false
+    message: "&r%player%&7: &bPomieszczenie wyglada na solidna kolekcje przepisow alchemicznych... Wraz ze straznikami..."
+    targets:
+      1:
+        id: "p_quest_11_10_1"
+        type: "znajdz"
+        targetName: "lab6"
+        message: "Sprawdz, czego pilnowal stary alchemik: %stan%"
+  11:
+    talking: false
+    message: "&r%player%&7: &bChyba wykonalem swoje zadanie. Pora wracac do &1Kairo&b."
+    targets:
+      1:
+        id: "p_quest_11_11_1"
+        type: "zabij"
+        targetName: "&7Kamienny golem"
+        message: "Pokonaj 4 golemy pilnujacych zapiskow: %stan%"
+        ilosc: 4
+  12:
+    talking: false
+    targets:
+      1:
+        id: "p_quest_11_12_1"
+        type: "zagadaj"
+        targetName: "&1Kairo"
+        message: "Porozmawiaj o odnalezionym laboratorium z &1Kairo: %stan%"
+        dialog:
+          - "&r%player%&7: &bOdnalazlem i przebadalem laboratorium o ktorym mowiles."
+          - "&1Kairo&7: &aTo swietnie! Opowiadaj o tym, gdzie jest i co tam znalazles!"
+          - "&7[&6...&7]"
+          - "&7[&eOpowiadasz o odnalezionym laboratorium&7]"
+          - "&7[&6...&7]"
+          - "&1Kairo&7: &aDobrze sie spisales. Przyjmij troche zlota w nagrode..."

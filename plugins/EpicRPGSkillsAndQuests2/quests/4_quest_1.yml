@@ -1,0 +1,36 @@
+id: "4_quest_1"                                
+name: "&7Ostatnia kopalnia"                          
+zleceniodawca: "&b&lCorristo"                       
+lore:                                               
+  - "&aSkoro nie uda nam sie odzyskac naszej kopalni,"
+  - "&ato trzeba walczyc o to, by assasyni nie przegrali"
+  - "&ai nie utracili przy okazji swojej."
+  - "&aNa poludni kolo pustyni znajduja sie kamienne pustkowia."
+  - "&aTam mozna znalezc twierdze naszych sprzymierzencow."
+  - "&aIdz tam i porozmawiaj z &6&lRhobarem&a."
+prize:                                    
+  - "xp: 550"
+require:                                            
+  - "level: 30"
+  - "quest: 3_quest_12"
+stopnie:
+  1:
+    talking: false                    
+    targets:
+      1:
+        id: "4_quest_1_1_1"
+        type: "znajdz"
+        targetName: "exp30"
+        message: "Odnajdz twierdze assasynow na kamiennych pustkowiach na poludniu (-705;376): %stan%"
+      2:
+        id: "4_quest_1_1_2"                     
+        type: "zagadaj"       
+        targetName: "&6&lRhobar"                      
+        message: "Porozmawiaj z &6&lRhobarem: %stan%"
+        dialog:
+          - "&6&lRhobar&7: &aKtos Ty? Dlaczego tam sie paletasz po naszej twierdzy?"
+          - "&r%player%&7: &bSpokojnie... Przychodze od &b&lCorristo&b."
+          - "&r%player%&7: &bPolecil mi sie tutaj udac, by pomoc Wam z waszymi problemami."
+          - "&6&lRhobar&7: &aSamemu nie mogl sobie poradzic ze swoja kopalnia, to sobie przypomnial o nas!?"
+          - "&6&lRhobar&7: &aDobrze slyszalem, co tam sie wydarzylo."
+          - "&6&lRhobar&7: &aSzczerze mowiac nie wiem, czy latwiej bylo by Wam poswiecic ludzi i odbic tamta kopalnie czy nam pomoc w obronie naszej..."

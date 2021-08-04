@@ -1,0 +1,122 @@
+id: "zlecenie_nowy_swiat"                                
+name: "&9&lBojownicy Nowego Swiata"
+zleceniodawca: "&3&lSteve"                       
+lore:                                               
+  - "&aCzekac dluzej nie mozemy,"
+  - "&amusimy zaatakowac."
+  - "&aTakiej okazji nie bylo nigdy."
+  - "&aDopiero teraz zaczynam wierzyc,"
+  - "&aze mozemy pokonac tego tyrana."
+  - "&aPomoz nam ich wyprzec."
+prize:                                    
+  - "xp: 33500"
+  - "money: 500"
+require:                                            
+  - "level: 55"
+  - "quest: 5_quest_9"
+etapy: 4
+stopnie:
+  1:
+    targets:
+      1:
+        id: "zlecenie_nowy_swiat_1_1"
+        type: "zabij"
+        targetName: "&2&oZombie"
+        message: "Pokonaj 24 Zombie: %stan%"
+        ilosc: 24
+  2:
+    targets:
+      1:
+        id: "zlecenie_nowy_swiat_2_1"
+        type: "zabij"
+        targetName: "&7Szkielet"
+        message: "Zabij 26 Szkieletow: %stan%"
+        ilosc: 26
+  3:
+    targets:
+      1:
+        id: "zlecenie_nowy_swiat_3_1"
+        type: "zabij"
+        targetName: "&aCreeper"
+        message: "Zabij 14 Creeperow: %stan%"
+        ilosc: 14
+  4:
+    targets:
+      1:
+        id: "zlecenie_nowy_swiat_4_1"
+        type: "zabij"
+        targetName: "&7&oPajak"
+        message: "Zabij 19 Pajakow: %stan%"
+        ilosc: 19
+  5:
+    targets:
+      1:
+        id: "zlecenie_nowy_swiat_5_1"
+        type: "zabij"
+        targetName: "&a&oZombie - Osadnik"
+        message: "Zabij 22 Zombie - Osadnikow: %stan%"
+        ilosc: 22
+  6:
+    targets:
+      1:
+        id: "zlecenie_nowy_swiat_6_1"
+        type: "zabij"
+        targetName: "&eJockey"
+        message: "Zabij 15 Jockeyow: %stan%"
+        ilosc: 15
+  7:
+    targets:
+      1:
+        id: "zlecenie_nowy_swiat_7_1"
+        type: "zabij"
+        targetName: "&3&oJezdziec"
+        message: "Zabij 17 Jezdzcow: %stan%"
+        ilosc: 17
+  8:
+    targets:
+      1:
+        id: "zlecenie_nowy_swiat_8_1"
+        type: "zabij"
+        targetName: "&5Wiedzma"
+        message: "Zabij 17 Wiedzm: %stan%"
+        ilosc: 17
+  9:
+    targets:
+      1:
+        id: "zlecenie_nowy_swiat_9_1"
+        type: "zabij"
+        targetName: "&9Tulacz"
+        message: "Zabij 17 tulaczy: %stan%"
+        ilosc: 17
+  10:
+    targets:
+      1:
+        id: "zlecenie_nowy_swiat_10_1"
+        type: "zabij"
+        targetName: "&2&lLowca Herobrina - BOSS"
+        message: "Pokonaj Lowce Herobrine: %stan%"
+        ilosc: 1
+  11:
+    targets:
+      1:
+        id: "zlecenie_nowy_swiat_11_1"
+        type: "zabij"
+        targetName: "&8&lJezdziec Pustki - BOSS"
+        message: "Pokonaj Jezdzca Pustki: %stan%"
+        ilosc: 1
+  12:
+    targets:
+      1:
+        id: "zlecenie_nowy_swiat_12_1"
+        type: "zabij"
+        targetName: "&d&lSzepciucha - BOSS"
+        message: "Pokonaj Szepciuche: %stan%"
+        ilosc: 1
+  13:
+    targets:
+      1:
+        id: "zlecenie_nowy_swiat_13_1"
+        type: "zabij"
+        targetName: "&8&lSentenza - EPIC BOSS"
+        message: "Pokonaj Sentenze: %stan%"
+        ilosc: 1

@@ -1,0 +1,15 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&6Nefarius"
+  - "&7[&4&oMSCICIEL&7]"
+skinid: 208174202
+location:
+  world: "F_RPG"
+  x: -707
+  y: 41.0
+  z: 372
+  yaw: -21
+  pitch: 6.5
+lookat: true

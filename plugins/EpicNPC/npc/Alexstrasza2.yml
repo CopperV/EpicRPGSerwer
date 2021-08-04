@@ -1,0 +1,15 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&c&oAlexstrasza"
+  - "&7[&6&lNAMIESTNIK&7]"
+skinid: 1238085131
+location:
+  world: "khorinis1"
+  x: 9.5
+  y: 32.0
+  z: -91.5
+  yaw: -50
+  pitch: 3.5
+lookat: true

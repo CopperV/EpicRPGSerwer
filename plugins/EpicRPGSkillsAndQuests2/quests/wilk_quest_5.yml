@@ -1,0 +1,32 @@
+id: "wilk_quest_5"                                
+name: "&2&o&lSamiec Alfa"                          
+zleceniodawca: "&7Frithjof"                       
+lore:                                               
+  - "&aRozmawialem jeszcze raz ze zwiadowcami,"
+  - "&aktorzy doswiadczyli ataku tajemniczego napastnika."
+  - "&aWszystko wskazuje na to, ze staneli oko w oko"
+  - "&az samcem alfa."
+  - "&aMieli cholernie duzo szczescia,"
+  - "&aze udalo im sie przetrwac."
+  - "&aTrzeba upolowac alfe."
+  - "&aMoze to troche popsuc wilcze szyki."
+  - "&aZwiadowcy patrolowali polnocno-wschodnia czesc lasu."
+  - "&aTam wlasnie zostali napadnieci."
+  - "&aIdz i tam szukaj alfy."
+prize:                                    
+  - "xp: 765"
+  - "money: 750"
+  - "bc: &7[&b&lEpicRPG&7] &aGracz &7%player% &aukonczyl watek &a&o&lWilki i Alfa&a. &6&lGRATULACJE!"
+require:                                            
+  - "level: 9"
+  - "quest: wilk_quest_4"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "wilk_quest_5_1_1"
+        type: "zabij"
+        targetName: "&c&lSamiec ALFA - BOSS"
+        message: "Zabij wilka alfe: %stan%"
+        ilosc: 1

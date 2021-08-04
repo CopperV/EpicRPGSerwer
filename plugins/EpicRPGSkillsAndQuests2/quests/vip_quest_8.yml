@@ -1,0 +1,35 @@
+id: "vip_quest_8"                                
+name: "&6&lWyjatkowy warg"                          
+zleceniodawca: "&6&lReturning"                       
+lore:                                               
+  - "&aWsrod orkowych wargow mozna wyroznic jedna bestie."
+  - "&aJest pupilkiem u orkowego naczelnika na jego wyspie."
+  - "&aZ tego co mi sie wydaje, to zwie sie Tserebus."
+  - "&aJak wiadomo, jest jeden jedyny i wyjatkowy"
+  - "&apod wieloma wzgledami."
+  - "&aPomysl tylko ile jego skora oraz jego kly moga byc warte."
+  - "&aA do tego wydaje mi sie, ze wyswiadczysz assasynow przysluge."
+  - "&aZainteresowany?"
+prize:                                    
+  - "xp: 5000"
+  - "money: 7500"
+  - "item: Zlota_Moneta 64"
+require:                                            
+  - "level: 39"
+  - "ranga: magnat"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "vip_quest_8_1_1"
+        type: "przynies"
+        targetName: "&4Skora Tserebusa"
+        message: "Przynies skore Tserebusa: %stan%"
+        ilosc: 1
+      2:
+        id: "vip_quest_8_1_2"
+        type: "przynies"
+        targetName: "&c&lKiel Tserebusa"
+        message: "Przynies kiel Tserebusa: %stan%"
+        ilosc: 1

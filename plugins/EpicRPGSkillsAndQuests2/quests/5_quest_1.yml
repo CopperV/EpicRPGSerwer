@@ -1,0 +1,64 @@
+id: "5_quest_1"                                
+name: "&4&oSpaczone ziemie"                          
+zleceniodawca: "&b&lCorristo"                       
+lore:                                               
+  - "&aJak juz wspomnialem, mam dla Ciebie zadanie."
+  - "&aA dokladniej nie ja, lecz sama &c&lAlexstrasza&a."
+  - "&aGeddon w swoim liscie wspomnial o spaczonych ziemiach"
+  - "&awraz z miasteczkiem na polnoc."
+  - "&aOkazalo sie, e dosyc powierzchownie opisal tamta sytuacje."
+  - "&aGeneralnie jest tam masakra,"
+  - "&audalo nam sie powstrzymac rozprzestrzenianie tego czegos,"
+  - "&alecz nie wiemy na jak dlugo."
+prize:                                    
+  - "xp: 1000"
+require:                                            
+  - "level: 40"
+  - "quest: 4_quest_26"
+  - "quest: 3_quest_12"
+  - "quest: 2_quest_12"
+  - "quest: 1_quest_9"
+stopnie:
+  1:
+    talking: false                    
+    targets:
+      1:
+        id: "5_quest_1_1_1"                     
+        type: "zagadaj"       
+        targetName: "&c&lAlexstrasza"                      
+        message: "Porozmawiaj z &c&lAlexstrasza: %stan%"
+        dialog:
+          - "&r%player%&7: &bPrzybylem na Wasze wezwanie Wasz..."
+          - "&c&lAlexstrasza&7: &aSkoncz juz wreszcie z ta gadka."
+          - "&c&lAlexstrasza&7: &aArcholos wiele Tobie zawdziecza."
+          - "&c&lAlexstrasza&7: &aPozostala jeszcze tylko jedna rzecz, do ktorej byle nowicjusza nie moge wyslac."
+          - "&c&lAlexstrasza&7: &aWedlug listu Geddona, Baron wyslal cale swoje wojsko do walki ze spaczeniem."
+          - "&c&lAlexstrasza&7: &aOkazalo sie jednak, ze to inne wojska zostaly tam wyslane - Kyrian."
+          - "&c&lAlexstrasza&7: &aNie mam poki co czasu, zeby Ci o nich opowiadac - wazne, ze zmienia to diametralnie postac rzeczy."
+          - "&c&lAlexstrasza&7: &aSytuacja musi byc naprawde tragiczna, skoro nawet Kyrianie nie powstrzymali spaczenia."
+          - "&c&lAlexstrasza&7: &aPozostaje jeszcze jedna nierozwiklana zagadka, ale to przy innej okazji."
+          - "&c&lAlexstrasza&7: &aUdaj sie na polnocna przelecz i tam porozmawiaj z ocalalym Kyrianem - &b&lTyraelem&a."
+  2:
+    talking: false
+    targets:
+      1:
+        1:
+        id: "5_quest_2_1_1"
+        type: "znajdz"
+        targetName: "exp40"
+        message: "Udaj sie na polnocna przelecz prowadzaca na spaczone ziemie (-114;-330): %stan%"
+      2:
+        id: "5_quest_2_1_2"                     
+        type: "zagadaj"       
+        targetName: "&b&lTyrael"                      
+        message: "Porozmawiaj z &b&lTyraelem: %stan%"
+        dialog:
+          - "&r%player%&7: &bPrzysyla mnie do pomocy &c&lAlexstrasza&b. Podobno jestes jednym z niewielu ocalalych Kyrian."
+          - "&b&lTyrael&7: &aTak, zgadza sie."
+          - "&b&lTyrael&7: &aZostalem tutaj tylko po to, by sprobowac odzyskac jakos swoich kompanow."
+          - "&b&lTyrael&7: &aW rzeczywistosci oni nie pomarli - spaczenie na nich wplynelo - stali sie slugami zla podobnie jak mieszkancy tutejszej wioski."
+          - "&b&lTyrael&7: &aRaduje sie me serce z powodu Twej obecnosci, gdyz to pokazuje, ze Pani Zycia i Smierci jeszcze o nas pamieta."
+          - "&b&lTyrael&7: &aDziekuje w imieniu swoich i poleglych braci."
+          - "&b&lTyrael&7: &aZmeczyles sie pewnie podroza tutaj."
+          - "&b&lTyrael&7: &aIdz i odpocznij."
+          - "&b&lTyrael&7: &aNie bede na sam poczatek Ciebie katowac zadaniami."

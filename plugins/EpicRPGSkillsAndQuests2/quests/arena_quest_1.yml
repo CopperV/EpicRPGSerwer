@@ -1,0 +1,30 @@
+id: "arena_quest_1"                                
+name: "&bKazdy jakos zaczyna"                          
+zleceniodawca: "&eAlwin"                       
+lore:                                               
+  - "&aWitaj, nazywam sie &eAlwin"
+  - "&ai jestem zarzadca tej areny."
+  - "&aSlyszalem juz troche o Twoich dokonaniach"
+  - "&atutaj, na Archolosie."
+  - "&aSluchaj."
+  - "&aNie mialbys ochoty zmierzyc sie na mojej arenie?"
+  - "&aDobrze place, a przy okazji bedziesz mogl"
+  - "&askutecznie przetestowac swoje umiejetnosci."
+  - "&aCo ty na to?"
+  - "&aPiszesz sie?"
+prize:                                    
+  - "xp: 1200"
+  - "money: 600"
+require:                                            
+  - "level: 14"
+stopnie:
+  1:
+    talking: true
+    message: "&eAlwin&7: &aOch, doskonala robota! Pokazales im, kto tu rzadzi! Oto obiecana nagroda. Tak trzymac!"
+    targets:
+      1:
+        id: "arena_quest_1_1_1"
+        type: "player"
+        level: 10
+        message: "Pokonaj 20 graczy na poziomie przynajmniej 10: %stan%"
+        ilosc: 20

@@ -1,0 +1,35 @@
+id: "1_quest_12"                                
+name: "&1Wilcza Wataha"                          
+zleceniodawca: "&aFarim"                       
+lore:                                               
+  - "&3Prosze, pozbadz sie dla mnie"
+  - "&3groznej watahy wilkow w pobliskim lesie."
+  - "&3Przynies mi ich skory i kly w dowod wykonania zadania"
+prize:                                    
+  - "xp: 250"
+  - "money: 50"
+require:                                            
+  - "quest: 1_quest_10"
+  - "level: 4"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "1_quest_12_1_1"
+        type: "zabij"
+        targetName: "&2Dziki wilk"
+        message: "Zabij 14 Dzikich wilkow grasujacych nieopodal farmy: %stan%"
+        ilosc: 14
+      2:
+        id: "1_quest_12_1_2"
+        type: "przynies"
+        targetName: "&3Kly Wilka"
+        message: "Przynies Farimowi 6 klow wilka: %stan%"
+        ilosc: 6
+      3:
+        id: "1_quest_12_1_3"
+        type: "przynies"
+        targetName: "&rSkora Wilka"
+        message: "Przynies Farimowi 4 skory wilka jako dowod: %stan%"
+        ilosc: 4

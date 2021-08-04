@@ -1,0 +1,58 @@
+id: "mag_quest_11"
+name: "&5&lEksperyment &5&l&oSpherus Magna"
+zleceniodawca: "&8Xardas"
+lore:
+  - "&aZa pomoca elementiow i pierwiastkow Kalimosa,"
+  - "&aktore mi przyniosles planowalem stworzyc konstrukta,"
+  - "&agolema, sluge, ktory wladal by wszystkimi"
+  - "&azywiolami tego swiata."
+  - "&aCos jednak poszlo nie tak i moj eksperyment Spherus Magna"
+  - "&aszlag trafil."
+  - "&aWymknal sie spod kontroli, musialem uciekac z mojej wiezy"
+  - "&ana wyspie &a&oKhorinis&a."
+  - "&aStworzylem magiczna bariere, by nie mogl uciec i sporzadzic"
+  - "&awiekszych szkod."
+  - "&aMusisz sie udac do mojej wiezy i go zneutralizowac."
+  - "&b&lCronos &az obozu ekspedycyjnego bedzie mogl Ciebie"
+  - "&aprzeteleportowac do &a&oKhorinis&a."
+prize:
+  - "xp: 42000"
+require:
+  - "level: 41"
+  - "klasa: &5Mag"
+  - "quest: mag_quest_10"
+stopnie:
+  1:
+    talking: false
+    message: "&r%player%&7: &bDobra, jestem w wiezy. Pora poszukac tego eksperymentu."
+    targets:
+      1:
+        id: "mag_quest_11_1_1"
+        type: "znajdz"
+        targetName: "spherus"
+        message: "Udaj sie do Cronosa i przeteleportuj sie do wiezy Xardasa: %stan%"
+  2:
+    talking: false
+    message: "&r%player%&7: &bDobra, Spherus Magna pokonany. Pora porozmawiac o tym z &8Xardasem&b."
+    targets:
+      1:
+        id: "mag_quest_11_2_1"
+        type: "zabij"
+        targetName: "&5&lSpherus Magna - BOSS"
+        message: "Zneutralizuj nieudany eksperyment Xardasa - Spherus Magna: %stan%"
+        ilosc: 1
+  3:
+    talking: false
+    targets:
+      1:
+        id: "mag_quest_11_3_1"
+        type: "zagadaj"
+        targetName: "&8Xardas"
+        message: "Porozmawiaj z &8Xardasem: %stan%"
+        dialog:
+          - "&r%player%&7: &bUdalo mi sie zneutralizowac Twoj szalony eksperyment."
+          - "&r%player%&7: &bMysle, ze jestem juz godzien pobierania Twoich nauk."
+          - "&8Xardas&7: &aAlez w rzeczy samej, zasluzyles sobie."
+          - "&8Xardas&7: &aPokonales moja kreature, ktora stworzylem celowo na potrzeby przeegzaminowania Ciebie."
+          - "&8Xardas&7: &aPokazales, ze rozumiesz moce zywiolow i potrafisz zapanowac nad nimi."
+          - "&8Xardas&7: &aNaucze Ciebie wszystkiego, czego zdolalem sie nauczyc przez te wszystkie lata."

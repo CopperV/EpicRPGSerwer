@@ -1,0 +1,561 @@
+Orkowy_Miecz_Wojenny:
+  id: 276
+  name: '&4Orkowy miecz wojenny'
+  lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &765'
+  - '&4- &8Sila: &7+10'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Zrecznosc: &7-10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c168'
+Orkowa_Kusza_Wojenna:
+  id: 261
+  name: '&4Orkowa kusza wojenna'
+  lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &759'
+  - '&4- &8Sila: &7+15'
+  - '&4- &8Walka: &7+7'
+  - '&4- &8Zrecznosc: &7-4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c185'
+Orkowy_Pancerz_Wojenny:
+  id: 307
+  name: '&4Orkowy pancerz wojenny'
+  lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &747'
+  - '&4- &8Sila: &7+10'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Zrecznosc: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c187'
+Uzbrojenie_Orka:
+  id: 308
+  name: '&4&lUzbrojenie elitarnego orka'
+  lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &750'
+  - '&4- &8Sila: &7+13'
+  - '&4- &8Walka: &7+8'
+  - '&4- &8Zrecznosc: &7-8'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c184'
+Bash_Daggar:
+  id: 276
+  name: '&4&lBash Daggar'
+  lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &773'
+  - '&4- &8Sila: &7+20'
+  - '&4- &8Walka: &7+8'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c168'
+Krash_Morra:
+  id: 261
+  name: '&4Krash Morra'
+  lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &768'
+  - '&4- &8Sila: &7+20'
+  - '&4- &8Walka: &7+13'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c174'
+Bash_Vahur:
+  id: 267
+  name: "&cBash Vahur"
+  lore:
+  - ""
+  - "&r&lTyp przedmiotu: &rZwykly"
+  - ""
+  - "&6&l&m==>&c Atrybuty &6&l&m<=="
+  - ""
+  - "&4- &8Obrazenia: &748"
+  - "&4- &8Sila: &7+13"
+  - "&4- &8Walka: &7-2"
+  - "&4- &8Zrecznosc: &7-10"
+  - ""
+  - "&6&l&m==>&c Wymagania &6&l&m<=="
+  - ""
+  - "&4- &8Sila: &c131"
+Krush_Pach:
+  id: 258
+  name: "&cKrush Pach"
+  lore:
+  - ""
+  - "&r&lTyp przedmiotu: &rZwykly"
+  - ""
+  - "&6&l&m==>&c Atrybuty &6&l&m<=="
+  - ""
+  - "&4- &8Obrazenia: &742"
+  - "&4- &8Sila: &7+10"
+  - "&4- &8Walka: &7+1"
+  - ""
+  - "&6&l&m==>&c Wymagania &6&l&m<=="
+  - ""
+  - "&4- &8Sila: &c151"
+Krush_BrokDar:
+  id: 279
+  name: "&c&lKrush BrokDar"
+  lore:
+  - ""
+  - "&r&lTyp przedmiotu: &bRzadki"
+  - ""
+  - "&6&l&m==>&c Atrybuty &6&l&m<=="
+  - ""
+  - "&4- &8Obrazenia: &753"
+  - "&4- &8Sila: &7+15"
+  - "&4- &8Walka: &7+2"
+  - "&4- &8Zrecznosc: &7-5"
+  - ""
+  - "&6&l&m==>&c Wymagania &6&l&m<=="
+  - ""
+  - "&4- &8Sila: &c150"
+Orkowa_Palka:
+  id: 280
+  name: "&a&lOrkowa palka"
+  lore:
+  - ""
+  - "&r&lTyp przedmiotu: &rZwykly"
+  - ""
+  - "&6&l&m==>&c Atrybuty &6&l&m<=="
+  - ""
+  - "&4- &8Obrazenia: &746"
+  - "&4- &8Sila: &7-3"
+  - "&4- &8Zrecznosc: &7-5"
+  - ""
+  - "&6&l&m==>&c Wymagania &6&l&m<=="
+  - ""
+  - "&4- &8Sila: &c101"
+Krush_Agash:
+  id: 279
+  name: "&4Krush Agash"
+  lore:
+  - ""
+  - "&r&lTyp przedmiotu: &rZwykly"
+  - ""
+  - "&6&l&m==>&c Atrybuty &6&l&m<=="
+  - ""
+  - "&4- &8Obrazenia: &745"
+  - "&4- &8Sila: &7+12"
+  - "&4- &8Walka: &7+5"
+  - ""
+  - "&6&l&m==>&c Wymagania &6&l&m<=="
+  - ""
+  - "&4- &8Sila: &c179"
+Lekka_Kusza:
+  id: 261
+  name: "&cLekka orkowa kusza"
+  lore:
+  - ""
+  - "&r&lTyp przedmiotu: &rZwykly"
+  - ""
+  - "&6&l&m==>&c Atrybuty &6&l&m<=="
+  - ""
+  - "&4- &8Obrazenia: &744"
+  - "&4- &8Sila: &7+8"
+  - "&4- &8Walka: &7+8"
+  - ""
+  - "&6&l&m==>&c Wymagania &6&l&m<=="
+  - ""
+  - "&4- &8Sila: &c177"
+Sztylet:
+  id: 267
+  name: "&rSztylet"
+  lore:
+  - ""
+  - "&r&lTyp przedmiotu: &rZwykly"
+  - ""
+  - "&6&l&m==>&c Atrybuty &6&l&m<=="
+  - ""
+  - "&4- &8Obrazenia: &715"
+  - "&4- &8Walka: &7+1"
+  - "&4- &8Sila: &7+3"
+  - ""
+  - "&6&l&m==>&c Wymagania &6&l&m<=="
+  - ""
+  - "&4- &8Sila: &c25"
+Palasz:
+  id: 267
+  name: "&cPalasz bandytow"
+  lore:
+  - ""
+  - "&r&lTyp przedmiotu: &bRzadki"
+  - ""
+  - "&6&l&m==>&c Atrybuty &6&l&m<=="
+  - ""
+  - "&4- &8Obrazenia: &720"
+  - "&4- &8Walka: &7+4"
+  - "&4- &8Sila: &7+1"
+  - ""
+  - "&6&l&m==>&c Wymagania &6&l&m<=="
+  - ""
+  - "&4- &8Sila: &c25"
+  - "&4- &8Walka: &c2"
+Ciezki_Miecz:
+  id: 267
+  name: "&c&lCiezki Miecz"
+  lore:
+  - ""
+  - "&r&lTyp przedmiotu: &5Epicki"
+  - ""
+  - "&6&l&m==>&c Atrybuty &6&l&m<=="
+  - ""
+  - "&4- &8Obrazenia: &733"
+  - "&4- &8Walka: &7+2"
+  - "&4- &8Sila: &7+10"
+  - "&4- &8Zrecznosc: &7-2"
+  - ""
+  - "&6&l&m==>&c Wymagania &6&l&m<=="
+  - ""
+  - "&4- &8Sila: &c29"
+  - "&4- &8Walka: &c3"
+Luk1:
+  id: 261
+  name: "&aLuk kompozytowy"
+  lore:
+  - ""
+  - "&r&lTyp przedmiotu: &rZwykly"
+  - ""
+  - "&6&l&m==>&c Atrybuty &6&l&m<=="
+  - ""
+  - "&4- &8Obrazenia: &713"
+  - "&4- &8Zrecznosc: &7+7"
+  - ""
+  - "&6&l&m==>&c Wymagania &6&l&m<=="
+  - ""
+  - "&4- &8Zrecznosc: &c27"
+Kusza1:
+  id: 261
+  name: "&cBandycka kusza"
+  lore:
+  - ""
+  - "&r&lTyp przedmiotu: &bRzadki"
+  - ""
+  - "&6&l&m==>&c Atrybuty &6&l&m<=="
+  - ""
+  - "&4- &8Obrazenia: &722"
+  - "&4- &8Sila: &7+4"
+  - "&4- &8Zrecznosc: &7-1"
+  - ""
+  - "&6&l&m==>&c Wymagania &6&l&m<=="
+  - ""
+  - "&4- &8Sila: &c23"
+  - "&4- &8Walka: &c3"
+Stary_Topor:
+  id: 275
+  name: "&7Stary Topor"
+  lore:
+  - ""
+  - "&r&lTyp przedmiotu: &rZwykly"
+  - ""
+  - "&6&l&m==>&c Atrybuty &6&l&m<=="
+  - ""
+  - "&4- &8Obrazenia: &719"
+  - "&4- &8Sila: &7+2"
+  - "&4- &8Walka: &7-1"
+  - ""
+  - "&6&l&m==>&c Wymagania &6&l&m<=="
+  - ""
+  - "&4- &8Sila: &c25"
+Strzala:
+  id: 262
+  name: "&rStrzala"
+Marchwia:
+  id: 396
+  name: "&6Zlota marchwia"
+Item1:
+  id: 280
+  name: "&rBandycka laga"
+  lore:
+  - ""
+  - "&r&lTyp przedmiotu: &rZwykly"
+  - ""
+  - "&6&l&m==>&c Atrybuty &6&l&m<=="
+  - ""
+  - "&4- &8Obrazenia: &77"
+  - "&4- &8Sila: &7+1"
+Item2:
+  id: 339
+  name: "&rZwoj teleportacji - sanktuarium"
+  lore:
+  - ""
+  - "&aZwoj teleportacji do prywatnego sanktuarium"
+  - "&aLorda Victora Nefariusa"
+  - ""
+  - "&aJest to 2-etapowy EpicBoss"
+  - ""
+  - "&eVictor Nefarius to ludzka postac smoka"
+  - "&ez plugawego szczepu Nelthariona"
+  - "&eStanowia ogromne zagrozenie dla swiata ludzi"
+  - "&ei zwierzat"
+Skora1:
+  id: 334
+  name: "Krowia Skora"
+Kurczak:
+  id: 365
+  name: "&rSurowa kura"
+Wolowina:
+  id: 363
+  name: "&rSurowa wolowina"
+Schab:
+  id: 319
+  name: "&rSurowy schab"
+Baranina:
+  id: 423
+  name: "&rSurowa baranina"
+Laga:
+  id: 280
+  name: "&rLaga"
+  lore:
+  - ""
+  - "&r&lTyp przedmiotu: &rZwykly"
+  - ""
+  - "&6&l&m==>&c Atrybuty &6&l&m<=="
+  - ""
+  - "&4- &8Obrazenia: &75"
+  - "&4- &8Zrecznosc: &7+4"
+  - ""
+  - "&6&l&m==>&c Wymagania &6&l&m<=="
+  - ""
+  - "&4- &8Zrecznosc: &c12"
+Kilof_Goblina:
+  id: 270
+  name: "&7Kilof goblina"
+  lore:
+  - ""
+  - "&r&lTyp przedmiotu: &rZwykly"
+  - ""
+  - "&6&l&m==>&c Atrybuty &6&l&m<=="
+  - ""
+  - "&4- &8Obrazenia: &714"
+  - "&4- &8Sila: &7+3"
+  - "&4- &8Walka: &7-2"
+  - ""
+  - "&6&l&m==>&c Wymagania &6&l&m<=="
+  - ""
+  - "&4- &8Sila: &c19"
+Skradzione_Zloto:
+  id: 41
+  name: "&6Skradzione Zloto"
+Goblinie_Zloto:
+  id: 266
+  name: "&eGoblinie Zloto"
+Zloto:
+  id: 266
+  name: "&6Zloto"
+Skora_Wilka:
+  id: 334
+  name: "&rSkora Wilka"
+Kly_Wilka:
+  id: 410
+  name: "&3Kly Wilka"
+OgnistaStrzala:
+  id: 2262
+  name: "&cOgnista strzala"
+  lore:
+  - "&rNajprostrze zaklecie ofensywne"
+  - "&rpierwszego kregu magii dominacji"
+  - ""
+  - "&4=========="
+  - ""
+  - "&r&lTyp przedmiotu: &rZwykly"
+  - ""
+  - "&6&l&m==>&c Opis &6&l&m<=="
+  - ""
+  - "&4- &8Klasa: &cMag"
+  - "&4- &8Krag: &71"
+  - "&4- &8Koszt many: &75"
+  - "&4- &8Obrazenia od magii: &720"
+  - "&4- &8Czas regeneracji: &71 sekund"
+Trup:
+  id: 367
+  name: "&rTrup"
+Czaszka:
+  id: 397
+  name: "&7Czaszka"
+Kosc:
+  id: 352
+  name: "&rKosc"
+Egipskie_Pergaminy:
+  id: 339
+  name: "&rEgipskie pergaminy"
+Rybik:
+  id: 334
+  name: "&eRybik"
+Skora_Szakala:
+  id: 334
+  name: "&eSkora szakala"
+Kly_Szakala:
+  id: 409
+  name: "&7Kly szakala"
+Serce_Mumii:
+  id: 399
+  name: "&eSerce mumii"
+Pustynny_Piach:
+  id: 12
+  name: "&ePustynny piach"
+Pajecza_Siec:
+  id: 30
+  name: "&rPajecza siec"
+Oko_Pajaka:
+  id: 331
+  name: "&cOko pajaka"
+Pajecza_Zuwaczka:
+  id: 263
+  Data: 1
+  name: "&7Zuwaczki pajaka"
+Galka_Wdowy:
+  id: 375
+  name: "&4Galka czarnej wdowy"
+Jadowity_Kiel:
+  id: 409
+  name: "&2Jadowity kiel"
+Diadem:
+  id: 314
+  name: "&6&lKrolewski diadem"
+Surowa_Stal:
+  id: 265
+  name: "&7Surowa stal"
+Mieso_Huska:
+  id: 367
+  name: "&2Mieso Huska"
+Resztki:
+  id: 367
+  name: "&2Resztki"
+Glowa_Zombie:
+  id: 397
+  data: 2
+  name: "&aGlowa umarlaka"
+Glowa_Zarazonego:
+  id: 397
+  data: 2
+  name: "&2Glowa zarazonego"
+Bakterie:
+  id: 361
+  name: "&2Bakterie"
+Kiel_Klikacza:
+  id: 318
+  name: "&aKiel klikacza"
+Zlota_Moneta:
+  id: 371
+  name: "&6Zlota moneta"
+Pirackie_Klejnoty:
+  id: 264
+  name: "&bPirackie klejnoty"
+Pirackie_Rubiny:
+  id: 388
+  name: "&4Pirackie rubiny"
+Przeklete_Zloto:
+  id: 266
+  name: "&cPrzeklete zloto"
+Pyl_Przekletego_Pirata:
+  id: 337
+  name: "&7Pyl przekletego pirata"
+Orkowa_Odznaka:
+  id: 77
+  name: "&8Orkowa odznaka"
+Amulet_Orkow:
+  id: 397
+  data: 1
+  name: "&bAmulet orkow"
+Ksiega_Czarnej_Magii:
+  id: 340
+  name: "&5Ksiega czarnej magii"
+Nielegalne_Zloto:
+  id: 371
+  name: "&cNielegalne zloto"
+Niewolnicza_Lina:
+  id: 420
+  name: "&7Niewolnicza lina"
+Zlecenie:
+  id: 339
+  name: "&rZlecenie"
+Kamien_Runiczny:
+  id: 263
+  data: 1
+  name: "&0Kamien runiczny"
+Orkowa_Odznaka:
+  id: 77
+  name: "&8Orkowa odznaka"
+Amulet_Orkow:
+  id: 397
+  data: 1
+  name: "&bAmulet orkow"
+Skora_Warga:
+  id: 334
+  name: "&cSkora warga"
+Skora_Tserebusa:
+  id: 334
+  name: "&4Skora Tserebusa"
+Kiel_Warga:
+  id: 409
+  name: "&cKiel warga"
+Kiel_Tserebusa:
+  id: 318
+  name: "&c&lKiel Tserebusa"
+Psia_Kosc:
+  id: 352
+  name: "&rPsia kosc"
+Orkowa_Smycz:
+  id: 421
+  name: "&aOrkowa smycz"
+Elementium_Wody:
+  id: 351
+  Data: 12
+  name: '&bElementium Wody'
+Elementium_Ognia:
+  id: 351
+  Data: 14
+  name: '&cElementium Ognia'
+Elementium_Skaly:
+  id: 351
+  Data: 8
+  name: '&7Elementium Skaly'
+Elementium_Powietrza:
+  id: 351
+  Data: 7
+  name: '&rElementium Powietrza'
+Pierwiastek_Kalimosa:
+  id: 406
+  name: '&ePierwiastek Kalimosa'
+Kon1:
+  id: 398
+  name: 'Podstawowy Kon'

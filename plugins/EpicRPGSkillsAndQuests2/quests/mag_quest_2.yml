@@ -1,0 +1,33 @@
+id: "mag_quest_2"                                
+name: "&5&oArachnofobia"                          
+zleceniodawca: "&7&lCarl"                       
+lore:                                               
+  - "&aJezeli lekasz sie pajakow,"
+  - "&ato najblizszy czas spedzony tutaj"
+  - "&abedzie dla Ciebie istnym horrorem."
+  - "&aZebys sie przyzwyczail do tutejszych warunkow,"
+  - "&awysle Ciebie na male polowanie."
+prize:                                    
+  - "xp: 550"
+  - "money: 100"
+require:                                            
+  - "level: 11"
+  - "quest: mag_quest_1"
+  - "klasa: &5Mag"
+stopnie:
+  1:
+    talking: true
+    message: "&7&lCarl&7: &aI jak? Bylo tak strasznie? Przyjmij troszke zlota jako odszkodowanie za uszczerbek na psychice..."    
+    targets:
+      1:
+        id: "mag_quest_2_1_1"
+        type: "zabij"
+        targetName: "&2Pajak lesny"
+        message: "Zabij 18 pajakow lesnych: %stan%"
+        ilosc: 18
+      2:
+        id: "mag_quest_2_1_2"
+        type: "zabij"
+        targetName: "&cCzarna wdowa"
+        message: "Zabij 10 czarnych wdow: %stan%"
+        ilosc: 10

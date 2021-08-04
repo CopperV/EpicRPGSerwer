@@ -1,0 +1,26 @@
+id: "strzelec_quest_11"
+name: "&c&lZdrada krwi wymaga"
+zleceniodawca: "&6Nefarius"
+lore:
+  - "&aCzasy Nizara sa juz policzone od kiedy"
+  - "&aznamy lokalizacje jego przebywania."
+  - "&aUdasz sie do jego jaskini"
+  - "&ai go zgladzisz."
+  - "&aZdrada, szczegolnie jego, krwi wymaga."
+prize:
+  - "xp: 42000"
+require:
+  - "level: 41"
+  - "klasa: &2Mysliwy"
+  - "quest: strzelec_quest_10"
+stopnie:
+  1:
+    talking: true
+    message: "&6Nefarius&7: &aNalezalo sie temu zdrajcy. To bedzie dla innych nauczka. Zdrada nikomu nie poplaca."
+    targets:
+      1:
+        id: "strzelec_quest_11_1_1"
+        type: "zabij"
+        targetName: "&e&lNizar - pierwszy z Assasynow - BOSS"
+        message: "Zabij zdrajce assasynow - Nizara: %stan%"
+        ilosc: 1

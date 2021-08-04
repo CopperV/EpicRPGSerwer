@@ -1,0 +1,26 @@
+id: "4_quest_4"                                
+name: "&2Rozszczep assasynow"                          
+zleceniodawca: "&6Nefarius"                       
+lore:                                               
+  - "&aNizar zdradzajac nas zadal nam okropny cios."
+  - "&aNajbardziej chyba dotklo to &6&lRhobara&a."
+  - "&aByl jego prawa reka i przyjacielem."
+  - "&aOdchodzac pociagnal rowniez za soba wielu innych."
+  - "&aIch tez trzeba bedzie ukarac za zdrade."
+  - "&aI wlasnie od tego zaczniesz."
+prize:                                    
+  - "xp: 4000"
+  - "money: 105"
+require:                                            
+  - "level: 31"
+  - "quest: 4_quest_2"
+stopnie:
+  1:
+    talking: true          
+    targets:
+      1:
+        id: "4_quest_4_1_1"                     
+        type: "zabij"       
+        targetName: "&cAssasyn"                      
+        message: "Zabij 35 assasynow: %stan%"
+        ilosc: 35

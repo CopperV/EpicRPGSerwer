@@ -1,0 +1,15 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&8Udar"
+  - "&7[&7ZWIADOWCA&7]"
+skinid: 1194019978
+location:
+  world: "F_RPG"
+  x: 635
+  y: 42.0
+  z: -3
+  yaw: -26
+  pitch: 5.5
+lookat: true

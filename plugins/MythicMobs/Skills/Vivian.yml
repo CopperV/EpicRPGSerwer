@@ -1,0 +1,250 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+VivianSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &9Intruzi sie tu wdarli."} @PlayersInRadius{r=25}
+  - delay 20
+  - message{m="<mob.name><&co> &9Gdzie jest moja straz?"} @PlayersInRadius{r=25}
+  - threat{amount=100} @NearestPlayer
+  - delay 40
+  - summon{mob=VivianGuard;amount=4;radius=4;os=true} @self
+
+VivianSkill_1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=300} @self
+  - message{m="<mob.name><&co> &9Precz stad bandyci!"} @PlayersInRadius{r=30}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bVivian przygotowuje Taniec Ostrzy!";d=100} @PIR{r=40}
+  - stun{d=300;stopai=true;facing=false} @self
+  - delay 100
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 5
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=11;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+
+VivianProjectile-Tick:
+  Skills:
+  - effect:particles{particle=enchantmenttable;amount=5;speed=0.05;hS=0.1;vS=0.1} @origin
+VivianProjectile-Hit:
+  Skills:
+  - sound{s=entity.firework.large_blast_far;v=4;p=0.2} @origin
+  - damage{amount=200}
+  - effect:particles{particle=enchantmenttable;amount=30;speed=0.1;hS=0.1;vS=0.1} @origin
+  - potion{type=WITHER;duration=100;level=4}
+  
+
+VivianSkill_2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=60} @self
+  - message{m="<mob.name><&co> &9Do mnie moje slugi!"} @PlayersInRadius{r=30}
+  - message{m="<mob.name><&co> &9Broncie swa Pania!"} @PlayersInRadius{r=30}
+  - summon{mob=VivianSummon;amount=2;radius=2;os=true} @self
+  - delay 5
+  - sound{s=entity.endermen.teleport;v=2} @self
+  - randomskill{skills=VivianSkill_2_Loc1,VivianSkill_2_Loc2,VivianSkill_2_Loc3,VivianSkill_2_Loc4,VivianSkill_2_Loc5,VivianSkill_2_Loc6,VivianSkill_2_Loc7,VivianSkill_2_Loc8,VivianSkill_2_Loc9,VivianSkill_2_Loc10}
+
+VivianSkill_2_Loc1:
+  Skills:
+  - teleportto{location=-1857,80,1259} @self
+
+VivianSkill_2_Loc2:
+  Skills:
+  - teleportto{location=-1852,80,1275} @self
+
+VivianSkill_2_Loc3:
+  Skills:
+  - teleportto{location=-1868,88,1279} @self
+
+VivianSkill_2_Loc4:
+  Skills:
+  - teleportto{location=-1869,80,1276} @self
+
+VivianSkill_2_Loc5:
+  Skills:
+  - teleportto{location=-1853,80,1279} @self
+
+VivianSkill_2_Loc6:
+  Skills:
+  - teleportto{location=-1849,84,1265} @self
+
+VivianSkill_2_Loc7:
+  Skills:
+  - teleportto{location=-1848,80,1284} @self
+
+VivianSkill_2_Loc8:
+  Skills:
+  - teleportto{location=-1862,80,1269} @self
+
+VivianSkill_2_Loc9:
+  Skills:
+  - teleportto{location=-1856,88,1283} @self
+
+VivianSkill_2_Loc10:
+  Skills:
+  - teleportto{location=-1869,80,1271} @self
+
+VivianSkill_3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=300} @self
+  - message{m="<mob.name><&co> &bNiczego stad nie zabierzecie!"} @PlayersInRadius{r=30}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bVivian przygotowuje ostrza Azzinothu!";d=100} @PIR{r=30}
+  - stun{d=100;stopai=true;facing=false} @self
+  - delay 100
+  - randomskill{skills=VivianSkill_2_Loc1,VivianSkill_2_Loc2,VivianSkill_2_Loc3,VivianSkill_2_Loc4,VivianSkill_2_Loc5,VivianSkill_2_Loc6,VivianSkill_2_Loc7,VivianSkill_2_Loc8,VivianSkill_2_Loc9,VivianSkill_2_Loc10}
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=8;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 20
+  - randomskill{skills=VivianSkill_2_Loc1,VivianSkill_2_Loc2,VivianSkill_2_Loc3,VivianSkill_2_Loc4,VivianSkill_2_Loc5,VivianSkill_2_Loc6,VivianSkill_2_Loc7,VivianSkill_2_Loc8,VivianSkill_2_Loc9,VivianSkill_2_Loc10}
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=8;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 20
+  - randomskill{skills=VivianSkill_2_Loc1,VivianSkill_2_Loc2,VivianSkill_2_Loc3,VivianSkill_2_Loc4,VivianSkill_2_Loc5,VivianSkill_2_Loc6,VivianSkill_2_Loc7,VivianSkill_2_Loc8,VivianSkill_2_Loc9,VivianSkill_2_Loc10}
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=8;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 20
+  - randomskill{skills=VivianSkill_2_Loc1,VivianSkill_2_Loc2,VivianSkill_2_Loc3,VivianSkill_2_Loc4,VivianSkill_2_Loc5,VivianSkill_2_Loc6,VivianSkill_2_Loc7,VivianSkill_2_Loc8,VivianSkill_2_Loc9,VivianSkill_2_Loc10}
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=8;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 20
+  - randomskill{skills=VivianSkill_2_Loc1,VivianSkill_2_Loc2,VivianSkill_2_Loc3,VivianSkill_2_Loc4,VivianSkill_2_Loc5,VivianSkill_2_Loc6,VivianSkill_2_Loc7,VivianSkill_2_Loc8,VivianSkill_2_Loc9,VivianSkill_2_Loc10}
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=8;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 20
+  - randomskill{skills=VivianSkill_2_Loc1,VivianSkill_2_Loc2,VivianSkill_2_Loc3,VivianSkill_2_Loc4,VivianSkill_2_Loc5,VivianSkill_2_Loc6,VivianSkill_2_Loc7,VivianSkill_2_Loc8,VivianSkill_2_Loc9,VivianSkill_2_Loc10}
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=8;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 20
+  - randomskill{skills=VivianSkill_2_Loc1,VivianSkill_2_Loc2,VivianSkill_2_Loc3,VivianSkill_2_Loc4,VivianSkill_2_Loc5,VivianSkill_2_Loc6,VivianSkill_2_Loc7,VivianSkill_2_Loc8,VivianSkill_2_Loc9,VivianSkill_2_Loc10}
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=8;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 20
+  - randomskill{skills=VivianSkill_2_Loc1,VivianSkill_2_Loc2,VivianSkill_2_Loc3,VivianSkill_2_Loc4,VivianSkill_2_Loc5,VivianSkill_2_Loc6,VivianSkill_2_Loc7,VivianSkill_2_Loc8,VivianSkill_2_Loc9,VivianSkill_2_Loc10}
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=8;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 20
+  - randomskill{skills=VivianSkill_2_Loc1,VivianSkill_2_Loc2,VivianSkill_2_Loc3,VivianSkill_2_Loc4,VivianSkill_2_Loc5,VivianSkill_2_Loc6,VivianSkill_2_Loc7,VivianSkill_2_Loc8,VivianSkill_2_Loc9,VivianSkill_2_Loc10}
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=8;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 20
+  - randomskill{skills=VivianSkill_2_Loc1,VivianSkill_2_Loc2,VivianSkill_2_Loc3,VivianSkill_2_Loc4,VivianSkill_2_Loc5,VivianSkill_2_Loc6,VivianSkill_2_Loc7,VivianSkill_2_Loc8,VivianSkill_2_Loc9,VivianSkill_2_Loc10}
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=8;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - delay 20
+  - randomskill{skills=VivianSkill_2_Loc1,VivianSkill_2_Loc2,VivianSkill_2_Loc3,VivianSkill_2_Loc4,VivianSkill_2_Loc5,VivianSkill_2_Loc6,VivianSkill_2_Loc7,VivianSkill_2_Loc8,VivianSkill_2_Loc9,VivianSkill_2_Loc10}
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Ostrze_Azzinotha_Zr;oT=VivianProjectile-Tick;onHit=VivianProjectile-Hit;v=8;i=1;hR=1.5;vR=1.5;mr=40;sB=false;sE=false} @PlayersInRadius{r=40;limit=1;sort=RANDOM}

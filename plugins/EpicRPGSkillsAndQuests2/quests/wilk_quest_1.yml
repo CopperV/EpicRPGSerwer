@@ -1,0 +1,26 @@
+id: "wilk_quest_1"                                
+name: "&aWataha wilkow"                          
+zleceniodawca: "&7Frithjof"                       
+lore:                                               
+  - "&aPoludniowa czesc lasu zamieszkuje wataha wilkow."
+  - "&aOdnotowalismy wiele atakow z ich strony na ludzi."
+  - "&aPojedynczo wilk moze nie stanowi duzego zagrozenia,"
+  - "&alecz ich sila tkwi w grupie."
+  - "&aRazem stanowia ogromne wyzwanie nawet"
+  - "&adla doswiadczonego wojownika."
+  - "&aMusimy kontrolowac ich liczebnosc, poki jeszcze mozna."
+prize:                                    
+  - "xp: 255"
+require:                                            
+  - "level: 5"
+  - "quest: 1_quest_2"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "wilk_quest_1_1_1"
+        type: "zabij"
+        targetName: "&2Dziki wilk"
+        message: "Zabij 20 wilkow: %stan%"
+        ilosc: 20

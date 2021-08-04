@@ -1,0 +1,31 @@
+id: "4_quest_17"
+name: "&2&oTrofea mysliwskie II"
+zleceniodawca: "&eHassan"
+lore:
+  - "&aOstatnio polowales na orkowe psy,"
+  - "&ato teraz przyszla pora na ich trofea."
+  - "&aChodzi o orkowe smycze i psie kosci."
+  - "&aTakze nie pozostaje mi nic innego"
+  - "&ajak zyczyc Ci powodzenia."
+prize:
+  - "xp: 7250"
+  - "money: 450"
+require:
+  - "level: 36"
+  - "quest: 4_quest_12"
+stopnie:
+  1:
+    talking: true  
+    targets:
+      1:
+        id: "4_quest_17_1_1"                     
+        type: "przynies"       
+        targetName: "&aOrkowa smycz"                      
+        message: "Przynies 28 orkowych smyczy: %stan%"
+        ilosc: 28
+      2:
+        id: "4_quest_17_1_2"                     
+        type: "przynies"       
+        targetName: "&rPsia kosc"                      
+        message: "Przynies 22 psie kosci: %stan%"
+        ilosc: 22

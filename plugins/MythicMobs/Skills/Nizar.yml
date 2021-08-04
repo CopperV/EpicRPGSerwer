@@ -1,0 +1,78 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+NizarToMelle:
+  Skills:
+  - summon{mob=StrazNizara1;amount=1;noise=3} @Self
+  - summon{mob=StrazNizara2;amount=1;noise=3} @Self
+NizarToBow:
+  Conditions:
+  - mobsInRadius{types=StrazNizara1,StrazNizara2;amount=1;radius=300} true
+  Skills:
+  - healpercent{m=0.01} @self
+NizarArrow1:
+  Skills:
+  - potion{type=POISON;duration=340;level=1} @trigger
+  - potion{type=HUNGER;duration=340;level=1} @trigger
+NizarArrow2:
+  Skills:
+  - potion{type=BLINDNESS;duration=460;level=4} @trigger
+  - potion{type=CONFUSION;duration=230;level=4} @trigger
+NizarArrow3:
+  Skills:
+  - potion{type=WITHER;duration=220;level=2} @trigger
+NizarArrow4:
+  Skills:
+  - potion{type=SLOW;duration=200;level=2} @trigger
+NizarSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &7Jestesmy ludem wybranym..."} @PlayersInRadius{r=15}
+  - delay 15
+  - message{m="<mob.name><&co> &7Bogactwo dla nas..."} @PlayersInRadius{r=15}
+  - delay 5
+  - summon{mob=Assasyn5;amount=1;noise=3} @Self
+  - summon{mob=Assasyn5;amount=1;noise=3} @Self
+  - delay 10
+  - message{m="<mob.name><&co> &7wladza dla Beliara"} @PlayersInRadius{r=15}
+NizarSummon1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=80}
+  - message{m="<mob.name><&co> &7Dla slabych nie ma zmilowania..."} @PlayersInRadius{r=15}
+  - delay 15
+  - message{m="<mob.name><&co> &7Tylko bol i smierc"} @PlayersInRadius{r=15}
+  - delay 5
+  - summon{mob=Assasyn7;amount=1;noise=3} @Self
+  - summon{mob=Assasyn6;amount=1;noise=3} @Self
+NizarSummon2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=80}
+  - message{m="<mob.name><&co> &7Tylko czarni magowie wiedza..."} @PlayersInRadius{r=15}
+  - delay 15
+  - message{m="<mob.name><&co> &7Jak chronic ludzi przed gniewem Beliara!"} @PlayersInRadius{r=15}
+  - delay 5
+  - summon{mob=Assasyn5;amount=1;noise=3} @Self
+NizarSummon3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=80}
+  - message{m="<mob.name><&co> &7Krolestwo Beliara nastanie..."} @PlayersInRadius{r=15}
+  - delay 15
+  - message{m="<mob.name><&co> &7I zadrza Ci, ku ktorym skieruje swoj gniew!"} @PlayersInRadius{r=15}
+  - delay 5
+  - summon{mob=Assasyn2;amount=1;noise=3} @Self
+  - summon{mob=Assasyn2;amount=1;noise=3} @Self
+  - summon{mob=Assasyn1;amount=1;noise=3} @Self
+NizarSummon4:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=65}
+  - message{m="<mob.name><&co> &7BELIAR NIE ZNA LITOSCI!"} @PlayersInRadius{r=15}
+  - delay 5
+  - summon{mob=Assasyn3;amount=1;noise=3} @Self
+  - summon{mob=Assasyn4;amount=1;noise=3} @Self

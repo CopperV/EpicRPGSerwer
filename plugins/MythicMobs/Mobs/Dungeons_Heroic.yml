@@ -1,0 +1,443 @@
+#################################################################################
+Kolos_Dung_H:
+  Type: zombie
+  Display: "&4Kolos Geddona"
+  Health: 15000
+  Damage: 190
+  Faction: Lava
+  Disguise:
+    Type: IRON_GOLEM
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=KolosAttack2} ~onAttack 1
+  - effect:particles{particle=flame;amount=35;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75} @self ~onTimer:20
+  - effect:particles{particle=flame;amount=35;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5} @self ~onTimer:20
+  - skill{s=KolosAttack1} ~onTimer:20 0.07
+  Options:
+    AlwaysShowName: true
+    FollowRange: 10
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.3
+    KnockbackResistance: 1
+    PreventSunburn: true
+Niewola1_Dung_H:
+  Type: zombie
+  Display: "&cZniewolony Wojownik"
+  Health: 7500
+  Damage: 150
+  Faction: Lava
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  Disguise:
+    Type: player
+    Skin: db3005
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - effect:particles{particle=flame;amount=35;hS=0.5;vS=0.5;speed=0.05;yOffset=1} @self ~onTimer:10
+  - randomskill{skills=NiewolaSay1,NiewolaSay2,NiewolaSay3} ~onTimer:40 0.05
+  - skill{s=NiewolaAttack1} ~onTimer:20 0.12
+  - skill{s=NiewolaDeath} ~onDeath
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.3
+    KnockbackResistance: 0.95
+    PreventSunburn: true
+  Equipment:
+  - Miecz_Poltorareczny:0
+  - Miecz_Poltorareczny:OFFHAND
+Niewola2_Dung_H:
+  Type: zombie
+  Display: "&cZniewolony Mag"
+  Health: 6000
+  Damage: 130
+  Faction: Lava
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  Disguise:
+    Type: player
+    Skin: Ryan5ft3
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - effect:particles{particle=flame;amount=35;hS=0.5;vS=0.5;speed=0.05;yOffset=1} @self ~onTimer:10
+  - randomskill{skills=NiewolaSay1,NiewolaSay2,NiewolaSay3} ~onTimer:40 0.05
+  - randomskill{skills=NiewolaAttack2_Dung_H,NiewolaAttack3_Dung_H} ~onTimer:20 0.13
+  - skill{s=NiewolaDeath} ~onDeath
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.27
+    KnockbackResistance: 0.8
+    PreventSunburn: true
+  Equipment:
+  - KulaOgnia:0
+Cronnos_H:
+  Type: zombie
+  Display: "&3&lCronnos - Pierwszy Kolos"
+  Health: 110000
+  Damage: 190
+  Faction: Lava
+  Disguise:
+    Type: IRON_GOLEM
+  Modules:
+    ThreatTable: true
+  BossBar:
+    Enabled: true
+    Title: '&7==] &3&lCronnos &8< &c<caster.hp> &4❤ &8> &7[=='
+    Color: BLUE
+    Range: 50
+    Style: SEGMENTED_10
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=Cronnos_H_Spawn} ~onSpawn
+  - skill{s=Cronnos_H_Attack} ~onAttack 1
+  - randomskill{skills=Cronnos_H_Skill_2,Cronnos_H_Skill_1,Cronnos_H_Skill_3} ~onTimer:30 0.13
+  - randomskill{skills=Cronnos_H_Skill_2,Cronnos_H_Skill_1,Cronnos_H_Skill_3} ~onDamaged 0.09
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75} @self ~onTimer:10
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5} @self ~onTimer:10
+  Options:
+    AlwaysShowName: true
+    Despawn: true
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.24
+    KnockbackResistance: 1
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  Equipment:
+  - B4:4
+  Drops:
+  - Mroczna_Pieczec 1 0.05
+  - Cronnos_H_Drop 1 0.06
+  - Gem_Wytrzymalosc2 1 0.01
+  - Gem_Zdolnosci2 1 0.01
+  - Szczaw_Krolewski 1 0.05
+Rezan_H:
+  Type: zombie
+  Display: "&5&lRezan - Nadworny Mag"
+  Health: 55000
+  Damage: 200
+  Faction: Lava
+  Modules:
+    ThreatTable: true
+  BossBar:
+    Enabled: true
+    Title: '&d==] &5&lRezan &8< &c<caster.hp> &4❤ &8> &d[=='
+    Color: PURPLE
+    Range: 50
+    Style: SEGMENTED_10
+  Disguise:
+    Type: player
+    Skin: DarkMage23
+  Skills:
+  - skill{s=Rezan_H_Spawn} ~onSpawn
+  - skill{s=MobRemove} ~onTimer:100
+  - randomskill{skills=Rezan_H_Skill_1,Rezan_H_Skill_2} ~onTimer:40 0.15
+  - skill{s=Rezan_H_Skill_3} ~onTimer:30 0.1
+  - randomskill{skills=Rezan_H_Skill_1,Rezan_H_Skill_2} ~onDamaged 0.1
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.29
+    KnockbackResistance: 0.4
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - B4:4
+  - SmiertelnaFala:0
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  Drops:
+  - Mroczna_Pieczec 1 0.05
+  - Rezan_H_Drop 1 0.06
+  - Gem_Mana2 1 0.01
+  - Gem_Inteligencja2 1 0.01
+  - Szczaw_Krolewski 1 0.05
+Archol_H:
+  Type: zombie
+  Display: "&4&lArchol - Straz Geddona"
+  Health: 87500
+  Damage: 185
+  Faction: Lava
+  BossBar:
+    Enabled: true
+    Title: '&c==] &4&lArchol &8< &c<caster.hp> &4❤ &8> &c[=='
+    Color: RED
+    Range: 50
+    Style: SEGMENTED_10
+  Modules:
+    ThreatTable: true
+  Disguise:
+    Type: player
+    Skin: DarkMage13
+  Skills:
+  - skill{s=Archol_H_Spawn} ~onSpawn
+  - skill{s=Archol_H_Skill_Defense} ~onDamaged
+  - skill{s=Archol_H_Skill_1_Defense} ~onDamaged
+  - skill{s=MobRemove} ~onTimer:100
+  - randomskill{skills=Archol_H_Skill_1,Archol_H_Skill_3,Archol_H_Skill_2} ~onTimer:40 0.17
+  - randomskill{skills=Archol_H_Skill_1,Archol_H_Skill_3,Archol_H_Skill_2} ~onDamaged 0.12
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 30
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.33
+    KnockbackResistance: 0.95
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - B4:4
+  - Magiczne_Ostrze_Bojowe:0
+  - ArcholShield:OFFHAND
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  Drops:
+  - Mroczna_Pieczec 1 0.05
+  - Archol_H_Drop 1 0.06
+  - Gem_Sila2 1 0.01
+  - Gem_Zrecznosc2 1 0.01
+  - Szczaw_Krolewski 1 0.05
+Entity303_H:
+  Type: Zombie
+  Display: "&7&lEntity303 - Legendary Boss"
+  Health: 400000
+  Damage: 190
+  BossBar:
+    Enabled: true
+    Title: '&f==] &7&lEntity303 &8< &c<caster.hp> &4❤ &8> &f[=='
+    Color: WHITE
+    Range: 50
+    Style: SEGMENTED_20
+    CreateFog: true
+    DarkenSky: true
+  Disguise:
+    Type: player
+    Skin: __Entity303__
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    Despawn: true
+    FollowRange: 100
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.35
+    KnockbackResistance: 1
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Skills:
+  - skill{s=Entity_H_Spawn} ~onSpawn
+  - skill{s=Entity_H_End} ~onDeath
+  - skill{s=Entity_H_End} ~onDespawn
+  - skill{s=MobRemove} ~onTimer:100
+  - randomskill{skills=Entity_H_Skill_1,Entity_H_Skill_3,Entity_H_Skill_4,Entity_H_Skill_5,Entity_H_Skill_2} ~onTimer:25 0.16
+  - randomskill{skills=Entity_H_Skill_1,Entity_H_Skill_3,Entity_H_Skill_4,Entity_H_Skill_5,Entity_H_Skill_2} ~onDamaged 0.14
+  - randomskill{skills=SphereSkill_H_2_Signal,SphereSkill_H_5_Signal,SphereSkill_H_3_Signal,SphereSkill_H_4_Signal} ~onTimer:30 0.17
+  - randomskill{skills=SphereSkill_H_2_Signal,SphereSkill_H_5_Signal,SphereSkill_H_3_Signal,SphereSkill_H_4_Signal} ~onDamaged 0.15
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  Equipment:
+  - B4:4
+  Drops:
+  - Mroczna_Pieczec 1 0.25
+  - Entity_H_Drop 1 0.15
+  - Gem_Walka2 1 0.01
+  - Gem_HP2 1 0.01
+  - Gem_Speed2 1 0.01
+  - Gem_KnockBack2 1 0.01
+  - Szczaw_Krolewski 1 0.2
+EntitySphereAdd_H:
+  Type: villager
+  Health: 10000
+  Damage: 0
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  Skills:
+  - skill{s=SphereSkill_H_1} ~onTimer:20
+  - skill{s=SphereCheck_H} ~onTimer:20
+#  - skill{s=SphereEnd} ~onTimer:100
+  - skill{s=SphereSkill_H_2} ~onSignal:SPHERE_SIGNAL_2
+  - skill{s=SphereSkill_H_3} ~onSignal:SPHERE_SIGNAL_3
+  - skill{s=SphereSkill_H_4} ~onSignal:SPHERE_SIGNAL_4
+  - skill{s=SphereSkill_H_5} ~onSignal:SPHERE_SIGNAL_5
+  Options:
+    Despawn: false
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    Invincible: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    HasTrades: false
+  Disguise:
+    Type: villager
+    Invisible: false
+Entity303Summon_H:
+  Type: zombie
+  Health: 3250
+  Damage: 140
+  Display: "&5&oManifestacja pustki"
+  Disguise:
+    Type: player
+    Skin: EmperiumVoid
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    Despawn: true
+    FollowRange: 100
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.31
+    KnockbackResistance: 0.8
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Skills:
+  - skill{s=Manifestacja_Skill_H} ~onTimer:40 0.1
+  - threat{amount=-5} ~onDamaged
+  - skill{s=MobRemove} ~onTimer:100
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  Equipment:
+  - B4:4
+Cronnos_H_Skill1Damage_H:
+  Type: villager
+  Health: 10000
+  Damage: 0
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  Skills:
+  - skill{s=Cronnos_H_InvDamage} ~onSpawn
+  Options:
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    Invincible: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    HasTrades: false
+  Disguise:
+    Type: villager
+    Invisible: true

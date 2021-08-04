@@ -1,0 +1,30 @@
+id: "4_quest_14"                                
+name: "&8&lArtefakty ciemnosci"                          
+zleceniodawca: "&8Xardas"                       
+lore:                                               
+  - "&aCzarni magowie to niezwykle smiertelni przeciwnicy."
+  - "&aIch czary sa w stanie zabic dosyc szybko kazdego."
+  - "&aKorzystaja z czarnej magii."
+  - "&aPotrzebuje do swoich celow wlasnie przedmiotow,"
+  - "&aktore wspomagaja ich zaklecia."
+prize:                                    
+  - "xp: 7350"
+require:                                            
+  - "level: 35"
+  - "quest: 4_quest_2"
+stopnie:
+  1:
+    talking: true  
+    targets:
+      1:
+        id: "4_quest_14_1_1"                     
+        type: "przynies"       
+        targetName: "&5Ksiega czarnej magii"                      
+        message: "Przynies 10 ksiag czarnej magii: %stan%"
+        ilosc: 10
+      2:
+        id: "4_quest_14_1_2"                     
+        type: "przynies"       
+        targetName: "&0Kamien runiczny"                      
+        message: "Przynies 18 kamieni runicznych: %stan%"
+        ilosc: 18

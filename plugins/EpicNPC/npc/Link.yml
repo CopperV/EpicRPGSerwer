@@ -1,0 +1,17 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&6&lLink"
+  - "&7[&aDZIALKOWIEC&7]"
+skinid: 951924009
+location:
+  world: "plots"
+  x: -28.0
+  y: 65.0
+  z: -20.0
+  yaw: 161.5
+  pitch: 2
+lookat: true
+commands:
+  - "cc open link %player%"

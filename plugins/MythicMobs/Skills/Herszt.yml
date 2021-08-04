@@ -1,0 +1,52 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+HersztSummon1:
+  Cooldown: 1
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=65}
+  - message{m="<mob.name><&co> &7Brac go chlopcy"} @PlayersInRadius{r=20}
+  - delay 5
+  - summon{mob=Bandit1;amount=1;noise=3} @Self
+  - summon{mob=Bandit2;amount=1;noise=3} @Self
+  - summon{mob=Bandit1;amount=1;noise=3} @Self
+  - summon{mob=Bandit2;amount=1;noise=3} @Self
+  - summon{mob=Bandit3;amount=1;noise=5} @Self
+HersztSummon2:
+  Cooldown: 2
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=65}
+  - message{m="<mob.name><&co> &7Ortega nie popuszcza nikomu!"} @PlayersInRadius{r=20}
+  - delay 5
+  - summon{mob=Bandit4;amount=1;noise=4} @Self
+  - summon{mob=Bandit5;amount=1;noise=4} @Self
+  - summon{mob=Bandit6;amount=1;noise=4} @Self
+HersztAttack:
+  Cooldown: 1
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=60}
+  - arrowvolley{a=20;s=25;v=10;rd=200} @Target
+HersztArmy:
+  Cooldown: 1
+  Skills:
+  - message{m="<mob.name><&co> &7Do mnie chlopcy! Nie odpuscimy im! Ich rzeczy beda nasze!"} @PlayersInRadius{r=20}
+  - delay 5
+  - summon{mob=Bandit1;amount=1;noise=2} @Self
+  - summon{mob=Bandit1;amount=1;noise=2} @Self
+  - summon{mob=Bandit3;amount=1;noise=2} @Self
+  - delay 5
+  - summon{mob=Bandit2;amount=1;noise=4} @Self
+  - summon{mob=Bandit2;amount=1;noise=4} @Self
+  - summon{mob=Bandit2;amount=1;noise=4} @Self
+  - summon{mob=Bandit5;amount=1;noise=4} @Self
+  - delay 5
+  - summon{mob=Bandit4;amount=1;noise=8} @Self
+  - summon{mob=Bandit4;amount=1;noise=8} @Self
+  - summon{mob=Bandit6;amount=1;noise=8} @Self
+  - summon{mob=Bandit6;amount=1;noise=8} @Self

@@ -1,0 +1,38 @@
+id: "p_quest_22"                                
+name: "&1Zlecenie dla alchemika"
+zleceniodawca: "&0Ignaz"
+lore:                                               
+  - "&aDostalem ostatnio z zamku zamowienie"
+  - "&ana duza partie mikstur many i szybkosci."
+  - "&aNiestety, nie posiadam obecnie roslin potrzebnych"
+  - "&ado wytworzenia potrzebnych mikstur."
+  - "&aMoze mi pomozesz?"
+  - "&aSlyszalem, ze mozna je pozyskac z czarnych magow"
+  - "&ai orkowych szamanow."
+prize:                                    
+  - "xp: 23000"
+require:                                            
+  - "level: 38"
+  - "quest: p_quest_13"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "p_quest_22_1_1"
+        type: "przynies"
+        targetName: "&5Ziolo many"
+        message: "Przynies 30 sztuk ziola many: %stan%"
+        ilosc: 30
+      2:
+        id: "p_quest_22_1_2"
+        type: "przynies"
+        targetName: "&r&lZebate ziele"
+        message: "Przynies 15 sztuk zebatego ziela: %stan%"
+        ilosc: 15
+      3:
+        id: "p_quest_22_1_3"
+        type: "przynies"
+        targetName: "&aRdest polny"
+        message: "Przynies 45 sztuk rdestu polnego: %stan%"
+        ilosc: 45

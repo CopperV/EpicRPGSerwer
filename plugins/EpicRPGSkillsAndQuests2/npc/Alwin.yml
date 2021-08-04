@@ -1,0 +1,14 @@
+name: "&eAlwin"
+title: "&eAlwin - quester"
+size: 9
+slots:
+  1:
+    item: "arena_quest_1"
+  2:
+    item: "arena_quest_2"
+  3:
+    item: "arena_quest_3"
+  4:
+    item: "arena_quest_4"
+  5:
+    item: "arena_quest_5"

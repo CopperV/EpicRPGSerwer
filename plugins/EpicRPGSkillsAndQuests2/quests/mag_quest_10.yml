@@ -1,0 +1,61 @@
+id: "mag_quest_10"
+name: "&b&lNiebezpieczne eksperymenty"
+zleceniodawca: "&8Xardas"
+lore:
+  - "&aMusze Ciebie troche opierdzielic."
+  - "&aPrzyniosles zdecydowanie za malo tego elementium."
+  - "&aPotrzebuje tego znacznie wiecej!"
+prize:
+  - "xp: 26500"
+require:
+  - "level: 39"
+  - "klasa: &5Mag"
+  - "quest: mag_quest_9"
+stopnie:
+  1:
+    talking: true
+    message: "&8Xardas&7: &aNiemalze w kazdym miejscu silne w zywioly mozna spotkac istoty wladajace wszystkimi zywioami. Swoje zrodlo mocy biora od Pierwotnego Wladcy Zywiolow - Kalimosa. Ich elementia sa specyficzne - maja zdolnosc spajania innych zywiolow. Zabij pare slug Kalimosa i przynies mi ich pierwiastki."
+    targets:
+      1:
+        id: "mag_quest_10_1_1"
+        type: "przynies"
+        targetName: "&rElementium Powietrza"
+        message: "Przynies 15 sztuk elementium powietrza: %stan%"
+        ilosc: 15
+      2:
+        id: "mag_quest_10_1_2"
+        type: "przynies"
+        targetName: "&7Elementium Skaly"
+        message: "Przynies 15 sztuk elementium skaly: %stan%"
+        ilosc: 15
+      3:
+        id: "mag_quest_10_1_3"
+        type: "przynies"
+        targetName: "&bElementium Wody"
+        message: "Przynies 15 sztuk elementium wody: %stan%"
+        ilosc: 15
+      4:
+        id: "mag_quest_10_1_4"
+        type: "przynies"
+        targetName: "&cElementium Ognia"
+        message: "Przynies 15 sztuk elementium ognia: %stan%"
+        ilosc: 15
+  2:
+    talking: false
+    message: "&r%player%&7: &bDobra, sa obici. Pora zebrac teraz dla &8Xardasa &bich pierwiastki"
+    targets:
+      1:
+        id: "mag_quest_10_2_1"
+        type: "zabij"
+        targetName: "&6Sluga Kalimosa"
+        message: "Pokonaj 30 slug Kalimosa: %stan%"
+        ilosc: 30
+  3:
+    talking: true
+    targets:
+      1:
+        id: "mag_quest_10_3_1"
+        type: "przynies"
+        targetName: "&ePierwiastek Kalimosa"
+        message: "Przynies 20 pierwiastkow Kalimosa: %stan%"
+        ilosc: 20

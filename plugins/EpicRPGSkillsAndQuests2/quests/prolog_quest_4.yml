@@ -1,0 +1,34 @@
+id: "prolog_quest_4"                                
+name: "&eFarmer w potrzebie"                          
+zleceniodawca: "&b&lCorristo"                       
+lore:                                               
+  - "&aPokazales, ze potrafisz zabic."
+  - "&aTo juz cos..."
+  - "&aWysle Ciebie teraz na farme tuz pod miastem."
+  - "&aFarmer &e&lUthar &askarzy sie, ze ma jakies problemy."
+  - "&aUdasz sie do niego i pomozesz rozwiazac"
+  - "&amu jego problem."
+prize:                                    
+  - "xp: 50"
+require:                                            
+  - "level: 2"
+  - "quest: prolog_quest_3"
+stopnie:                                            
+  1:
+    talking: false                    
+    targets:
+      1:
+        id: "prolog_quest_4_1_1"
+        type: "znajdz"
+        targetName: "farma_miasto"
+        message: "Udaj sie do farmy pod miastem (217;124): %stan%"
+      2:
+        id: "prolog_quest_4_1_2"                     
+        type: "zagadaj"       
+        targetName: "&e&lUthar"                      
+        message: "Porozmawiaj z farmerem &e&lUtharem: %stan%"
+        dialog:
+          - "&r%player%&7: &bPrzyslal mnie &b&lCorristo&b, podobno masz jakies problemy"
+          - "&e&lUthar&7: &aZgadza sie. Szczerze mowiac, myslalem, ze wysle kogos... Bardziej doswiadczonego."
+          - "&e&lUthar&7: &aNo dobra, zobaczymy za chwile, czy jestes w stanie rozwiazac moj problem..."
+          - "&r%player%&7: &bPrzekonamy sie."

@@ -1,0 +1,36 @@
+id: "strzelec_quest_13"                                
+name: "&2Las pelen zagrozen"                          
+zleceniodawca: "&a&oAlex"                       
+lore:                                               
+  - "&aSlyszalam, ze jestes calkiem niezlym mysliwym."
+  - "&aPrzydalbys nam sie tutaj."
+  - "&aJak pewnie sie zorientowales,"
+  - "&amamy tutaj dosyc nietypowa zwierzyna,"
+  - "&aa latwo tutaj stac sie"
+  - "&az mysliwego ofiara."
+  - "&aChcemy przejac ten las,"
+  - "&alecz ilosc stworow tego lasu po prostu"
+  - "&anas przeraza."
+  - "&aPrzeczysc go troche dla nas."
+prize:                                    
+  - "xp: 45750"
+  - "money: 600"
+require:                                            
+  - "level: 52"
+  - "klasa: &2Mysliwy"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "strzelec_quest_13_1_1"
+        type: "zabij"
+        targetName: "&eJockey"
+        message: "Zabij 19 Jockeow: %stan%"
+        ilosc: 19
+      2:
+        id: "strzelec_quest_13_1_2"
+        type: "zabij"
+        targetName: "&7Szkielet"
+        message: "Zniszcz 26 szkieletow: %stan%"
+        ilosc: 26

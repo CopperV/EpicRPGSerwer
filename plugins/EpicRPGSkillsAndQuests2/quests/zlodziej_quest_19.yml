@@ -1,0 +1,36 @@
+id: "zlodziej_quest_19"                             
+name: "&bPorzadki na Archolosie"                          
+zleceniodawca: "&e&lCassia"                       
+lore:                                               
+  - "&aValeera mocno zaniedbala swoje obowiazki"
+  - "&ajako przywodca gildii zlodziei."
+  - "&aPozwolila tej holocie rozprzestrzenic sie"
+  - "&apo calej wyspie."
+  - "&aRozumiem, ze mogla nie miec wplywu"
+  - "&ana wydarzenia kopalni czy spaczenia,"
+  - "&alecz z bandytami powinna sobie poradzic."
+  - "&aCoz, trzeba z tym szybko sie uporac."
+  - "&aIch obecnosc niekorzystnie wplywa"
+  - "&ana nasze dzialania."
+prize:                                    
+  - "xp: 100500"
+  - "money: 500"
+require:                                            
+  - "level: 58"
+  - "quest: zlodziej_quest_17"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "zlodziej_quest_19_1_1"                     
+        type: "zabij"       
+        targetName: "&4Bandyta"
+        message: "Wybij bandytów na wyspie: %stan%"
+        ilosc: 1000
+      2:
+        id: "zlodziej_quest_19_1_2"                     
+        type: "zabij"       
+        targetName: "&c&lHerszt Bandytow - BOSS"
+        message: "Pokonaj Hersztow Bandytow: %stan%"
+        ilosc: 10

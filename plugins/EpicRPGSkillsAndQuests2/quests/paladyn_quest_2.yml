@@ -1,0 +1,37 @@
+id: "paladyn_quest_2"                                
+name: "&cBandyci na drogach"                          
+zleceniodawca: "&a&lJasuo"                       
+lore:                                               
+  - "&aNa poczatku zajmijy sie oczyszczaniem drog."
+  - "&aBandyci, kieszonkowcy i rabusie obstawiaja"
+  - "&adrogi od nas do lasu poprzez farme Farima."
+  - "&aTrzeba zaczac je oczyszczac."
+prize:                                    
+  - "xp: 550"
+  - "money: 100"
+require:                                            
+  - "level: 11"
+  - "quest: paladyn_quest_1"
+  - "klasa: &cWojownik"
+stopnie:
+  1:
+    talking: true                 
+    targets:
+      1:
+        id: "paladyn_quest_2_1_1"
+        type: "zabij"
+        targetName: "&cRabus"
+        message: "Zabij 30 Rabusiow grasujacych na drogach: %stan%"
+        ilosc: 30
+      2:
+        id: "paladyn_quest_2_1_2"                     
+        type: "zabij"       
+        targetName: "&cKieszonkowiec"                      
+        message: "Zabij 15 Kieszonkowcow grasujacych na drogach: %stan%"
+        ilosc: 15
+      3:
+        id: "paladyn_quest_2_1_3"                     
+        type: "zabij"       
+        targetName: "&4Bandyta"                      
+        message: "Zabij 15 Bandytow grasujacych na drogach: %stan%"
+        ilosc: 15

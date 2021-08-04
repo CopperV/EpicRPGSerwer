@@ -1,0 +1,50 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+
+KadarSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &9&oTa Twierdza zbiera sily Chaosu. Nic poza smiercia tutaj na Was nie czeka!"} @PlayersInRadius{r=25}
+
+KadarSkill1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=120} @self
+  - message{m="<mob.name><&co> &9&oStad nie ma ucieczki..."} @PlayersInRadius{r=25}
+  - stun{d=60} @self
+  - delay 60
+  - sound{s=entity.blaze.shoot;v=10;p=0.01} @self
+  - projectile{onTick=KadarSkill1_Effect_Tick;onHit=KadarSkill1_Effect_Hit;v=11;i=1;hR=5;vR=1;mr=25;sE=false;sB=false;hs=true}
+
+KadarSkill1_Effect_Tick:
+  Skills:
+  - effect:particles{particle=blockcrack_1;amount=50;speed=0.05;hS=2.5;vS=0.1;radius=4} @origin
+
+KadarSkill1_Effect_Hit:
+  Skills:
+  - damage{amount=210}
+  - potion{type=SLOW;duration=160;level=2}
+  - sound{s=entity.player.attack.strong;v=4;p=4} @Origin
+  - throw{velocity=5;velocityY=2}
+
+KadarSkill2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=60} @self
+  - message{m="<mob.name><&co> &9&oWszyscy sploniecie!"} @PlayersInRadius{r=25}
+  - summon{type=KadarSummon;amount=2;radius=4} @self
+  - summon{type=KadarSummon;amount=1to4;radius=3} @Location{c=-1895.5,55,1303,0,0}
+
+KadarSkill3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=60} @self
+  - message{m="<mob.name><&co> &9&oNoga!"} @PlayersInRadius{r=25}
+  - summon{type=KadarSummon;amount=1;radius=2} @self
+  - delay 10
+  - effect:particles{particle=largesmoke;amount=20;speed=0.2;hS=0.3;vS=0.3;y=1} @trigger
+  - effect:particles{particle=largesmoke;amount=20;speed=0.2;hS=0.3;vS=0.3;y=1} @self
+  - swap trigger

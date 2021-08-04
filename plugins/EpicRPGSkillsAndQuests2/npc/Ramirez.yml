@@ -1,0 +1,14 @@
+name: "&e&oRamirez"
+title: "&e&oRamirez - quester"
+size: 9
+slots:
+  1:
+    item: "zlodziej_quest_7"
+  2:
+    item: "zlodziej_quest_9"
+  3:
+    item: "zlodziej_quest_11"
+  4:
+    item: "zlodziej_quest_12"
+  5:
+    item: "zlodziej_quest_15"

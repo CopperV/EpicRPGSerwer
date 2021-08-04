@@ -1,0 +1,34 @@
+id: "p_quest_30"                                
+name: "&6Unikatowa bizuteria dla damy"
+zleceniodawca: "&5Marson"
+lore:                                               
+  - "&aWidziales w tym nowym swiecie te pierscienie?"
+  - "&aZ tymi duzymi brylantami."
+  - "&aZ pewnoscia widziales."
+  - "&aSkad inni by takie nosili jak nie od Ciebie."
+  - "&aChciala bym miec po jednym na kazdy palec."
+  - "&aMozesz tez przy okazji przyniesc pare toreb."
+  - "&aZ pewnoscia mi sie przydadza."
+  - "&aA poza tym moze znajde w nich cos ciekawego."
+prize:                                    
+  - "xp: 60000"
+  - "money: 2000"
+require:                                            
+  - "level: 58"
+  - "quest: p_quest_29"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "p_quest_30_1_1"
+        type: "przynies"
+        targetName: "&8&lPierscien Morgulu"
+        message: "Przynies 10 pierscieni Morgulu: %stan%"
+        ilosc: 10
+      2:
+        id: "p_quest_30_1_2"
+        type: "przynies"
+        targetName: "&3Torba tulacza"
+        message: "Przynies 5 torb tulaczy: %stan%"
+        ilosc: 5

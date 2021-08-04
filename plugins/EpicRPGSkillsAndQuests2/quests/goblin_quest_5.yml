@@ -1,0 +1,27 @@
+id: "goblin_quest_5"                                
+name: "&4Krol goblinow"                          
+zleceniodawca: "&8Udar"                       
+lore:                                               
+  - "&aWiele myslalem nad tym, co mi ostatnio powiedziales..."
+  - "&aI doszedlem do wniosku, ze najlepiej bedzie"
+  - "&apokonac tego duzego goblina."
+  - "&aW dodatku, wydaje mi sie, ze to Ty"
+  - "&anajlepiej sie nadajesz do wykonania tego zadania."
+prize:                                    
+  - "xp: 850"
+  - "bc: &7[&b&lEpicRPG&7] &aGracz &7%player% &aukonczyl watek &2&o&lPLAGA GOBLINOW&a. &6&lGRATULACJE!"
+  - "money: 600"
+require:                                            
+  - "level: 9"
+  - "quest: goblin_quest_4"
+stopnie:
+  1:
+    talking: true
+    message: "&8Udar&7: &aUdalo Ci sie! Gobliny natychmiastowo wycofaly sie do swojej jaskini. Doskonala robota."
+    targets:
+      1:
+        id: "goblin_quest_5_1_1"
+        type: "zabij"
+        targetName: "&cGoblini Krol - BOSS"
+        message: "Pokonaj Gobliniego Krola z jaskini goblinow: %stan%"
+        ilosc: 1

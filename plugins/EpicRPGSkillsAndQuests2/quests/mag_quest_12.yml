@@ -1,0 +1,33 @@
+id: "mag_quest_12"                                
+name: "&b&lArcymistrzostwo w zasiegu reki"                          
+zleceniodawca: "&8Xardas"                       
+lore:                                               
+  - "&bSpelnilem swoje zadanie."
+  - "&bPrzekonalem &8Xardasa&b, do tego"
+  - "&bby mnie uczyl."
+  - "&bStane sie poteznym arcymagiem."
+  - "&bPowinienem o tym poinformowac &c&lCanthara&b."
+prize:                                    
+  - "xp: 2000"
+  - "money: 4000"
+  - "cmd: crazycrates give physical Rzadka 1 %player%"
+  - "bc: &7[&b&lEpicRPG&7] &aGracz &7%player% &aukonczyl watek &5&lVI krag magii&a. &6&lGRATULACJE!"
+require:                                            
+  - "level: 41"
+  - "quest: mag_quest_11"
+  - "klasa: &5Mag"
+stopnie:
+  1:
+    talking: false
+    targets:
+      1:
+        id: "mag_quest_12_1_1"
+        type: "zagadaj"
+        targetName: "&c&lCanthar"
+        message: "Udaj sie do &c&lCanthara: %stan%"
+        dialog:
+          - "&r%player%&7: &bPo wielu i dlugich probrach udalo mi sie przekonac &8Xardasa&b."
+          - "&r%player%&7: &bPowiedzial, ze nauczy mnie wszystkiego, czego sie nauczyl przez te wszystkie lata."
+          - "&c&lCanthar&7: &aA wiec sie dokonuje."
+          - "&c&lCanthar&7: &aStaniesz sie najpotezniejszym magiem."
+          - "&c&lCanthar&7: &aWkrotce my Ciebie przestaniemy uczyc, a swa wiedze zaczniesz przekazywac nam."

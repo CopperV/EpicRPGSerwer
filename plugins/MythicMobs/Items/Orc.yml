@@ -1,0 +1,988 @@
+Krush_Pach_Str:
+  Id: 258
+  Display: '&cKrush Pach'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &748'
+  - '&4- &8Sila: &7+8'
+  - '&4- &8Walka: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c156'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.04
+      KnockbackResistance: 0.04
+Orkowa_Palka_Str:
+  Id: 280
+  Display: '&a&lOrkowa palka'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &737'
+  - '&4- &8Walka: &7+3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c141'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.06
+Orkowa_Palka_Wytrz:
+  Id: 280
+  Display: '&a&lOrkowa palka'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &735'
+  - '&4- &8Walka: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c136'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.07
+      KnockbackResistance: 0.03
+Krush_Agash_Str:
+  Id: 279
+  Display: '&4Krush Agash'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &753'
+  - '&4- &8Sila: &7+10'
+  - '&4- &8Walka: &7+3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c169'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.05
+      KnockbackResistance: 0.05
+Drag_Mal_Str:
+  Id: 261
+  Display: '&cDrag Mal'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &746'
+  - '&4- &8Walka: &7+6'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c168'
+  Options:
+    Unbreakable: true
+Drag_Mal_Wytrz:
+  Id: 261
+  Display: '&cDrag Mal'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &739'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Walka: &7+5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c161'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      KnockbackResistance: 0.03
+Orkowa_Zbroja_Str:
+  Id: 307
+  Display: '&cOrkowa zbroja'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &739'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Sila: &7+7'
+  - '&4- &8Wytrzymalosc: &7-1'
+  - '&4- &8Zrecznosc: &7-3'
+  - '&4- &8Inteligencja: &7-1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c165'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      KnockbackResistance: 0.06
+      MovementSpeed: -0.04
+      Health: 8
+Orkowa_Zbroja_Wytrz:
+  Id: 307
+  Display: '&cOrkowa zbroja'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &750'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Sila: &7+1'
+  - '&4- &8Wytrzymalosc: &7+5'
+  - '&4- &8Zrecznosc: &7-1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c176'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      KnockbackResistance: 0.08
+      MovementSpeed: -0.05
+      Health: 11
+Orkowy_Helm_Str:
+  Id: 306
+  Display: '&cOrkowy helm'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &725'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Sila: &7+1'
+  - '&4- &8Zrecznosc: &7-1'
+  - '&4- &8Inteligencja: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c158'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      KnockbackResistance: 0.01
+      MovementSpeed: -0.02
+      Health: 2
+Orkowy_Helm_Wytrz:
+  Id: 306
+  Display: '&cOrkowy helm'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &740'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c169'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      KnockbackResistance: 0.03
+      MovementSpeed: -0.01
+      Health: 5
+Bash_Vahur_Str:
+  Id: 267
+  Display: '&cBash Vahur'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &754'
+  - '&4- &8Sila: &7+11'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Zrecznosc: &7-8'
+  - '&4- &8Zdolnosci mysliwskie: &7-4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c174'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      KnockbackResistance: 0.07
+      MovementSpeed: -0.06
+    offhand:
+      KnockbackResistance: 0.2
+      MovementSpeed: -0.15
+      Health: -10
+Drag_Morra_Str:
+  Id: 261
+  Display: '&4Drag Morra'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &749'
+  - '&4- &8Sila: &7+3'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Zrecznosc: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c170'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.02
+Grachtnakk_Int:
+  Id: 290
+  Display: '&a&lGrachtnakk'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &734'
+  - '&4- &8Sila: &7+4'
+  - '&4- &8Inteligencja: &7+12'
+  - '&4- &8Walka: &7-4'
+  - '&4- &8Zrecznosc: &7-4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c167'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.05
+    offhand:
+      Health: 10
+Orkowa_Toga_Mana:
+  Id: 299
+  Display: '&bOrkowa toga'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &728'
+  - '&4- &8Mana: &7+25'
+  - '&4- &8Inteligencja: &7+3'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Sila: &7-4'
+  - '&4- &8Zdolnosci mysliwskie: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c335'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      MovementSpeed: 0.05
+      Health: 12
+Orkowa_Toga_Int:
+  Id: 299
+  Display: '&bOrkowa toga'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &731'
+  - '&4- &8Mana: &7+10'
+  - '&4- &8Inteligencja: &7+10'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Zrecznosc: &7-5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c171'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      MovementSpeed: 0.05
+      Health: 12
+Zaklete_Buty_Mana:
+  Id: 301
+  Display: '&1Zaklete buty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &719'
+  - '&4- &8Mana: &7+16'
+  - '&4- &8Inteligencja: &7+4'
+  - '&4- &8Walka: &7-2'
+  - '&4- &8Sila: &7-2'
+  - '&4- &8Zrecznosc: &7-3'
+  - '&4- &8Zdolnosci mysliwskie: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c312'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      MovementSpeed: 0.07
+      Health: 6
+Pancerz_Orka_Wytrz:
+  Id: 308
+  Display: '&4Pancerz elitarnego wojownika'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &750'
+  - '&4- &8Sila: &7+3'
+  - '&4- &8Wytrzymalosc: &7+6'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Zrecznosc: &7-5'
+  - '&4- &8Zdolnosci mysliwskie: &7-3'
+  - '&4- &8Mana: &7-5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c175'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      MovementSpeed: -0.06
+      Health: 10
+      KnockbackResistance: 0.07
+Buty_Wojenne_Str:
+  Id: 309
+  Display: '&cButy wojenne'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &724'
+  - '&4- &8Sila: &7+5'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Wytrzymalosc: &7+1'
+  - '&4- &8Zrecznosc: &7-2'
+  - '&4- &8Mana: &7-6'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c161'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      MovementSpeed: -0.03
+      Health: 5
+Buty_Wojenne_Wytrz:
+  Id: 309
+  Display: '&cButy wojenne'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &735'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Wytrzymalosc: &7+4'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Inteligencja: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c167'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      MovementSpeed: -0.04
+      Health: 6
+      KnockbackResistance: 0.02
+Krush_UrRok_Str:
+  Id: 258
+  Display: '&4Krush UrRok'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &755'
+  - '&4- &8Sila: &7+8'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Wytrzymalosc: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c176'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.04
+      KnockbackResistance: 0.05
+Krush_BrokDar_Str:
+  Id: 279
+  Display: '&c&lKrush BrokDar'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &762'
+  - '&4- &8Sila: &7+12'
+  - '&4- &8Walka: &7+7'
+  - '&4- &8Zrecznosc: &7-4'
+  - '&4- &8Inteligencja: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c184'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.06
+      KnockbackResistance: 0.08
+Bash_Hatag_Str:
+  Id: 267
+  Display: '&c&lBash Hatag'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &767'
+  - '&4- &8Sila: &7+13'
+  - '&4- &8Walka: &7+7'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Zrecznosc: &7-6'
+  - '&4- &8Zdolnosci mysliwskie: &7-6'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c190'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      KnockbackResistance: 0.1
+      MovementSpeed: -0.07
+    offhand:
+      KnockbackResistance: 0.25
+      MovementSpeed: -0.15
+Orkowy_Pancerz_Str:
+  Id: 307
+  Display: '&c&lOrkowy pancerz'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &741'
+  - '&4- &8Walka: &7+8'
+  - '&4- &8Sila: &7+15'
+  - '&4- &8Wytrzymalosc: &7+3'
+  - '&4- &8Mana: &7-10'
+  - '&4- &8Zdolnosci mysliwskie: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c181'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      KnockbackResistance: 0.08
+      MovementSpeed: -0.05
+      Health: 11
+Orkowy_Pancerz_Wytrz:
+  Id: 307
+  Display: '&c&lOrkowy pancerz'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &760'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Wytrzymalosc: &7+9'
+  - '&4- &8Zdolnosci mysliwskie: &7-3'
+  - '&4- &8Zrecznosc: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c192'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      KnockbackResistance: 0.12
+      MovementSpeed: -0.05
+      Health: 15
+Pancerz_Gorskiego_Orka_Wytrz:
+  Id: 299
+  Display: '&2&lPancerz gorskiego orka'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &744'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Wytrzymalosc: &7+5'
+  - '&4- &8Mana: &7+15'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c179'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      MovementSpeed: 0.04
+      Health: 16
+ShaBaNakk_Int:
+  Id: 290
+  Display: '&1&lShaBaNakk'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &739'
+  - '&4- &8Sila: &7+12'
+  - '&4- &8Inteligencja: &7+12'
+  - '&4- &8Walka: &7-5'
+  - '&4- &8Zrecznosc: &7-5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c182'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.1
+      KnockbackResistance: 0.05
+    offhand:
+      Health: 20
+Szamanska_Szata_Mana:
+  Id: 300
+  Display: '&b&lSzamanska szata'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &725'
+  - '&4- &8Mana: &7+25'
+  - '&4- &8Inteligencja: &7+3'
+  - '&4- &8Zrecznosc: &7-10'
+  - '&4- &8Wytrzymalosc: &7-4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c340'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      MovementSpeed: 0.08
+      Health: 15
+Szamanska_Szata_Int:
+  Id: 300
+  Display: '&b&lSzamanska szata'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &728'
+  - '&4- &8Mana: &7+10'
+  - '&4- &8Inteligencja: &7+12'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Zdolnosci mysliwskie: &7-15'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c176'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      MovementSpeed: 0.08
+      Health: 15
+Orkowy_Miecz_Wojenny_Str:
+  Id: 276
+  Display: '&4Orkowy miecz wojenny'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &770'
+  - '&4- &8Sila: &7+10'
+  - '&4- &8Walka: &7+9'
+  - '&4- &8Zrecznosc: &7-5'
+  - '&4- &8Zdolnosci mysliwskie: &7-4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c194'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      KnockbackResistance: 0.13
+      MovementSpeed: -0.1
+Drag_Nimrod_Str:
+  Id: 261
+  Display: '&4Drag Nimrod'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &756'
+  - '&4- &8Sila: &7+5'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Zrecznosc: &7-4'
+  - '&4- &8Inteligencja: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c184'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.04
+    offhand:
+      MovementSpeed: -0.14
+Orkowy_Pancerz_Wojenny_Wytrz:
+  Id: 307
+  Display: '&4Orkowy pancerz wojenny'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &765'
+  - '&4- &8Sila: &7+5'
+  - '&4- &8Walka: &7+9'
+  - '&4- &8Wytrzymalosc: &7+13'
+  - '&4- &8Zrecznosc: &7-5'
+  - '&4- &8Zdolnosci mysliwskie: &7-5'
+  - '&4- &8Mana: &7-5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c200'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      MovementSpeed: -0.07
+      Health: 19
+      KnockbackResistance: 0.15
+Uzbrojenie_Orka_Wytrz:
+  Id: 308
+  Display: '&4&lUzbrojenie elitarnego orka'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &757'
+  - '&4- &8Sila: &7+4'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Wytrzymalosc: &7+8'
+  - '&4- &8Zrecznosc: &7-10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c191'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      MovementSpeed: -0.06
+      Health: 12
+      KnockbackResistance: 0.1
+Bash_Daggar_Str:
+  Id: 276
+  Display: '&4&lBash Daggar'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &780'
+  - '&4- &8Sila: &7+17'
+  - '&4- &8Walka: &7+8'
+  - '&4- &8Wytrzymalosc: &7+3'
+  - '&4- &8Zrecznosc: &7-3'
+  - '&4- &8Zdolnosci mysliwskie: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c203'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      KnockbackResistance: 0.13
+      MovementSpeed: -0.1
+    offhand:
+      KnockbackResistance: 0.22
+      MovementSpeed: -0.15
+Krash_Morra_Str:
+  Id: 261
+  Display: '&4Krash Morra'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &765'
+  - '&4- &8Sila: &7+7'
+  - '&4- &8Walka: &7+13'
+  - '&4- &8Zrecznosc: &7-8'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c197'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.05
+Zbroja_Generala_Wytrz:
+  Id: 307
+  Display: '&6Zbroja Generala'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &775'
+  - '&4- &8Sila: &7+5'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Wytrzymalosc: &7+10'
+  - '&4- &8Mana: &7+10'
+  - '&4- &8Zrecznosc: &7-6'
+  - '&4- &8Zdolnosci mysliwskie: &7-4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c215'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      MovementSpeed: -0.07
+      Health: 22
+      KnockbackResistance: 0.18
+Pancerz_Generala_Wytrz:
+  Id: 308
+  Display: '&6Pancerz Generala'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &767'
+  - '&4- &8Sila: &7+4'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Wytrzymalosc: &7+8'
+  - '&4- &8Zrecznosc: &7-1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c200'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      MovementSpeed: -0.06
+      Health: 15
+      KnockbackResistance: 0.13
+Buty_Generala_Wytrz:
+  Id: 309
+  Display: '&6Buty Generala'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &754'
+  - '&4- &8Sila: &7+4'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Wytrzymalosc: &7+4'
+  - '&4- &8Zrecznosc: &7+4'
+  - '&4- &8Inteligencja: &7+2'
+  - '&4- &8Zdolnosci mysliwskie: &7-8'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c189'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 9
+      MovementSpeed: -0.04
+Ogromny_Orkowy_Miecz_Wojenny_Str:
+  Id: 276
+  Display: '&4&lOgromny orkowy miecz wojenny'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &784'
+  - '&4- &8Sila: &7+15'
+  - '&4- &8Wytrzymalosc: &7+3'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Zrecznosc: &7-5'
+  - '&4- &8Inteligencja: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c209'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.1
+      KnockbackResistance: 0.15
+Zbroja_Naczelnika_Wytrz:
+  Id: 311
+  Display: '&6&lZbroja Naczelnika'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &7105'
+  - '&4- &8Sila: &7+15'
+  - '&4- &8Wytrzymalosc: &7+25'
+  - '&4- &8Walka: &7+15'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c185'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      Health: 30
+      MovementSpeed: -0.1
+      KnockbackResistance: 0.18
+Gniew_Beliara_Str:
+  Id: 283
+  Display: '&5&lGniew Beliara'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7150'
+  - '&4- &8Zrecznosc: &7+10'
+  - '&4- &8Walka: &7+30'
+  - '&4- &8Sila: &7+50'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c190'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      KnockbackResistance: 0.15
+    offhand:
+      KnockbackResistance: 0.1
+Orkowa_Odznaka:
+  Id: 77
+  Display: '&8Orkowa odznaka'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Amulet_Orkow:
+  Id: 397
+  Data: 1
+  Display: '&bAmulet orkow'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'

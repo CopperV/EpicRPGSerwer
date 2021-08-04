@@ -1,0 +1,75 @@
+id: "p_quest_37"                                
+name: "&4Rzady Smierci"
+zleceniodawca: "&4&lDeath"
+lore:                                               
+  - "&aDoszly mnie sluchy, ze otworzyliscie"
+  - "&aportal do innej krainy."
+  - "&aOd razu poczulem zgnilizne, sterte kosci."
+  - "&aDziwne, ze ja tam jeszcze zapanowac nie moge."
+  - "&aAz trudno pomyslec, ze istnieje taka moc,"
+  - "&aktora moze doslownie wszystko ukryc przede mna."
+  - "&aAle dluzny nie pozostane."
+  - "&aUdaj sie tam i spraw, by zapanowaly tam MOJE RZADY!"
+prize:                                    
+  - "xp: 70500"
+  - "money: 666"
+require:                                            
+  - "level: 54"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "p_quest_37_1_1"
+        type: "zabij"
+        targetName: "&2&oZombie"
+        message: "Zabij 20 Zombie: %stan%"
+        ilosc: 20
+      2:
+        id: "p_quest_37_1_2"
+        type: "zabij"
+        targetName: "&7Szkielet"
+        message: "Zabij 18 Szkieletow: %stan%"
+        ilosc: 18
+      3:
+        id: "p_quest_37_1_3"
+        type: "zabij"
+        targetName: "&aCreeper"
+        message: "Zabij 7 Creeperow: %stan%"
+        ilosc: 7
+      4:
+        id: "p_quest_37_1_4"
+        type: "zabij"
+        targetName: "&7&oPajak"
+        message: "Zabij 15 Pajakow: %stan%"
+        ilosc: 15
+      5:
+        id: "p_quest_37_1_5"
+        type: "zabij"
+        targetName: "&eJockey"
+        message: "Zabij 8 Jockeow: %stan%"
+        ilosc: 8
+      6:
+        id: "p_quest_37_1_6"
+        type: "zabij"
+        targetName: "&5Wiedzma"
+        message: "Zabij 12 Wiedzm: %stan%"
+        ilosc: 12
+      7:
+        id: "p_quest_37_1_7"
+        type: "zabij"
+        targetName: "&9Tulacz"
+        message: "Zabij 10 Tulaczy: %stan%"
+        ilosc: 10
+      8:
+        id: "p_quest_37_1_8"
+        type: "zabij"
+        targetName: "&a&oZombie - Osadnik"
+        message: "Zabij 20 Zombie - Osadnikow: %stan%"
+        ilosc: 20
+      9:
+        id: "p_quest_37_1_9"
+        type: "zabij"
+        targetName: "&3&oJezdziec"
+        message: "Zabij 10 Jezdzcow: %stan%"
+        ilosc: 10

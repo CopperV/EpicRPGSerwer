@@ -1,0 +1,15 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&6&lCorristo"
+  - "&7[&e&oKAPITAN&7]"
+skinid: 752914859
+location:
+  world: "tutorial"
+  x: -701.5
+  y: 51.0
+  z: 1153.5
+  yaw: 90
+  pitch: 37
+lookat: true

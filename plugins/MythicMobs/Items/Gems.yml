@@ -1,0 +1,632 @@
+﻿Gem_HP1:
+  Id: 397
+  Data: 3
+  Display: '&cSlaby Gem Zycia'
+  Attributes:
+    offhand:
+      Health: +20
+  NBT:
+    Base:
+      RPGType: "gem"
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmIwNTVjODEwYmRkZmQxNjI2NGVjOGQ0MzljNDMyODNlMzViY2E3MWE1MDk4M2UxNWUzNjRjZDhhYjdjNjY4ZiJ9fX0=
+Gem_HP2:
+  Id: 397
+  Data: 3
+  Display: '&cSredni Gem Zycia'
+  Attributes:
+    offhand:
+      Health: +40
+  NBT:
+    Base:
+      RPGType: "gem"
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmIwNTVjODEwYmRkZmQxNjI2NGVjOGQ0MzljNDMyODNlMzViY2E3MWE1MDk4M2UxNWUzNjRjZDhhYjdjNjY4ZiJ9fX0=
+Gem_HP3:
+  Id: 397
+  Data: 3
+  Display: '&cMocny Gem Zycia'
+  Attributes:
+    offhand:
+      Health: +60
+  NBT:
+    Base:
+      RPGType: "gem"
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmIwNTVjODEwYmRkZmQxNjI2NGVjOGQ0MzljNDMyODNlMzViY2E3MWE1MDk4M2UxNWUzNjRjZDhhYjdjNjY4ZiJ9fX0=
+Gem_HP4:
+  Id: 397
+  Data: 3
+  Display: '&cPotezny Gem Zycia'
+  Attributes:
+    offhand:
+      Health: +80
+  NBT:
+    Base:
+      RPGType: "gem"
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmIwNTVjODEwYmRkZmQxNjI2NGVjOGQ0MzljNDMyODNlMzViY2E3MWE1MDk4M2UxNWUzNjRjZDhhYjdjNjY4ZiJ9fX0=
+Gem_KnockBack1:
+  Id: 397
+  Data: 3
+  Display: '&8Slaby Gem Odrzutu'
+  Attributes:
+    offhand:
+      KnockbackResistance: 0.1
+  NBT:
+    Base:
+      RPGType: "gem"
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTg4YmNlNDk3Y2ZhNWY2MTE4MzlmNmRhMjFjOTVkMzRlM2U3MjNjMmNjNGMzYzMxOWI1NjI3NzNkMTIxNiJ9fX0=
+Gem_KnockBack2:
+  Id: 397
+  Data: 3
+  Display: '&8Sredni Gem Odrzutu'
+  Attributes:
+    offhand:
+      KnockbackResistance: 0.2
+  NBT:
+    Base:
+      RPGType: "gem"
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTg4YmNlNDk3Y2ZhNWY2MTE4MzlmNmRhMjFjOTVkMzRlM2U3MjNjMmNjNGMzYzMxOWI1NjI3NzNkMTIxNiJ9fX0=
+Gem_KnockBack3:
+  Id: 397
+  Data: 3
+  Display: '&8Mocny Gem Odrzutu'
+  Attributes:
+    offhand:
+      KnockbackResistance: 0.3
+  NBT:
+    Base:
+      RPGType: "gem"
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTg4YmNlNDk3Y2ZhNWY2MTE4MzlmNmRhMjFjOTVkMzRlM2U3MjNjMmNjNGMzYzMxOWI1NjI3NzNkMTIxNiJ9fX0=
+Gem_KnockBack4:
+  Id: 397
+  Data: 3
+  Display: '&8Potezny Gem Odrzutu'
+  Attributes:
+    offhand:
+      KnockbackResistance: 0.4
+  NBT:
+    Base:
+      RPGType: "gem"
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTg4YmNlNDk3Y2ZhNWY2MTE4MzlmNmRhMjFjOTVkMzRlM2U3MjNjMmNjNGMzYzMxOWI1NjI3NzNkMTIxNiJ9fX0=
+Gem_Speed1:
+  Id: 397
+  Data: 3
+  Display: '&7Slaby Gem Szybkosci'
+  Attributes:
+    offhand:
+      MovementSpeed: 0.07
+  NBT:
+    Base:
+      RPGType: "gem"
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjNlZWI0NDA0YTIyZTNjNWZiZGQ0ODM2YzcyYTdmNTljMTYxNTU4OGE5YzU3ZDI4NzE1NTQ1MzcyOGFlYSJ9fX0=
+Gem_Speed2:
+  Id: 397
+  Data: 3
+  Display: '&7Sredni Gem Szybkosci'
+  Attributes:
+    offhand:
+      MovementSpeed: 0.15
+  NBT:
+    Base:
+      RPGType: "gem"
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjNlZWI0NDA0YTIyZTNjNWZiZGQ0ODM2YzcyYTdmNTljMTYxNTU4OGE5YzU3ZDI4NzE1NTQ1MzcyOGFlYSJ9fX0=
+Gem_Speed3:
+  Id: 397
+  Data: 3
+  Display: '&7Mocny Gem Szybkosci'
+  Attributes:
+    offhand:
+      MovementSpeed: 0.25
+  NBT:
+    Base:
+      RPGType: "gem"
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjNlZWI0NDA0YTIyZTNjNWZiZGQ0ODM2YzcyYTdmNTljMTYxNTU4OGE5YzU3ZDI4NzE1NTQ1MzcyOGFlYSJ9fX0=
+Gem_Speed4:
+  Id: 397
+  Data: 3
+  Display: '&7Potezny Gem Szybkosci'
+  Attributes:
+    offhand:
+      MovementSpeed: 0.35
+  NBT:
+    Base:
+      RPGType: "gem"
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjNlZWI0NDA0YTIyZTNjNWZiZGQ0ODM2YzcyYTdmNTljMTYxNTU4OGE5YzU3ZDI4NzE1NTQ1MzcyOGFlYSJ9fX0=
+Gem_Sila1:
+  Id: 397
+  Data: 3
+  Display: '&cSlaby Gem Sily'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Sila: &7+10'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWQ5Y2NmMGQyODM1MTRiM2Q3N2NhYmEwMWJmYzI2YjQ1NGM3ZDU3NGJiN2E0Y2VhMTA2NDYxZDU4ZDE1ZjNjMSJ9fX0=
+Gem_Sila2:
+  Id: 397
+  Data: 3
+  Display: '&cSredni Gem Sily'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Sila: &7+20'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWQ5Y2NmMGQyODM1MTRiM2Q3N2NhYmEwMWJmYzI2YjQ1NGM3ZDU3NGJiN2E0Y2VhMTA2NDYxZDU4ZDE1ZjNjMSJ9fX0=
+Gem_Sila3:
+  Id: 397
+  Data: 3
+  Display: '&cMocny Gem Sily'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Sila: &7+30'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWQ5Y2NmMGQyODM1MTRiM2Q3N2NhYmEwMWJmYzI2YjQ1NGM3ZDU3NGJiN2E0Y2VhMTA2NDYxZDU4ZDE1ZjNjMSJ9fX0=
+Gem_Sila4:
+  Id: 397
+  Data: 3
+  Display: '&cPotezny Gem Sily'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Sila: &7+40'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWQ5Y2NmMGQyODM1MTRiM2Q3N2NhYmEwMWJmYzI2YjQ1NGM3ZDU3NGJiN2E0Y2VhMTA2NDYxZDU4ZDE1ZjNjMSJ9fX0=
+Gem_Zdolnosci1:
+  Id: 397
+  Data: 3
+  Display: '&aSlaby Gem Mysliwski'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &7+10'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmU2Y2EzY2U1ZDg5YWNiMDZhNjQzZjQ5ZjUyNzQ4NTVlZGVlNmVlYjFhNTQ1MTViMzA0MGExYjNmOGNiYjdhMSJ9fX0=
+Gem_Zdolnosci2:
+  Id: 397
+  Data: 3
+  Display: '&aSredni Gem Mysliwski'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &7+20'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmU2Y2EzY2U1ZDg5YWNiMDZhNjQzZjQ5ZjUyNzQ4NTVlZGVlNmVlYjFhNTQ1MTViMzA0MGExYjNmOGNiYjdhMSJ9fX0=
+Gem_Zdolnosci3:
+  Id: 397
+  Data: 3
+  Display: '&aMocny Gem Mysliwski'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &7+30'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmU2Y2EzY2U1ZDg5YWNiMDZhNjQzZjQ5ZjUyNzQ4NTVlZGVlNmVlYjFhNTQ1MTViMzA0MGExYjNmOGNiYjdhMSJ9fX0=
+Gem_Zdolnosci4:
+  Id: 397
+  Data: 3
+  Display: '&aPotezny Gem Mysliwski'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &7+40'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmU2Y2EzY2U1ZDg5YWNiMDZhNjQzZjQ5ZjUyNzQ4NTVlZGVlNmVlYjFhNTQ1MTViMzA0MGExYjNmOGNiYjdhMSJ9fX0=
+Gem_Wytrzymalosc1:
+  Id: 397
+  Data: 3
+  Display: '&6Slaby Gem Wytrzymalosci'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Wytrzymalosc: &7+10'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTIwNzE2MjAzZGEwMzljYWZjYTI0YmJkOWYzZTliZDVjNjk4NWMzYzI1NTI3YmNkNTA2ZDM4OGU5OWJiN2FmZSJ9fX0=
+Gem_Wytrzymalosc2:
+  Id: 397
+  Data: 3
+  Display: '&6Sredni Gem Wytrzymalosci'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Wytrzymalosc: &7+20'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTIwNzE2MjAzZGEwMzljYWZjYTI0YmJkOWYzZTliZDVjNjk4NWMzYzI1NTI3YmNkNTA2ZDM4OGU5OWJiN2FmZSJ9fX0=
+Gem_Wytrzymalosc3:
+  Id: 397
+  Data: 3
+  Display: '&6Mocny Gem Wytrzymalosci'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Wytrzymalosc: &7+30'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTIwNzE2MjAzZGEwMzljYWZjYTI0YmJkOWYzZTliZDVjNjk4NWMzYzI1NTI3YmNkNTA2ZDM4OGU5OWJiN2FmZSJ9fX0=
+Gem_Wytrzymalosc4:
+  Id: 397
+  Data: 3
+  Display: '&6Potezny Gem Wytrzymalosci'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Wytrzymalosc: &7+40'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTIwNzE2MjAzZGEwMzljYWZjYTI0YmJkOWYzZTliZDVjNjk4NWMzYzI1NTI3YmNkNTA2ZDM4OGU5OWJiN2FmZSJ9fX0=
+Gem_Inteligencja1:
+  Id: 397
+  Data: 3
+  Display: '&5Slaby Gem Inteligencji'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Inteligencja: &7+10'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2OTc1YWY3MDcyNGQ2YTQ0ZmQ1OTQ2ZTYwYjI3MTc3MzdkZmRiNTQ1YjRkYWIxODkzMzUxYTljOWRkMTgzYyJ9fX0=
+Gem_Inteligencja2:
+  Id: 397
+  Data: 3
+  Display: '&5Sredni Gem Inteligencji'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Inteligencja: &7+20'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2OTc1YWY3MDcyNGQ2YTQ0ZmQ1OTQ2ZTYwYjI3MTc3MzdkZmRiNTQ1YjRkYWIxODkzMzUxYTljOWRkMTgzYyJ9fX0=
+Gem_Inteligencja3:
+  Id: 397
+  Data: 3
+  Display: '&5Mocny Gem Inteligencji'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Inteligencja: &7+30'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2OTc1YWY3MDcyNGQ2YTQ0ZmQ1OTQ2ZTYwYjI3MTc3MzdkZmRiNTQ1YjRkYWIxODkzMzUxYTljOWRkMTgzYyJ9fX0=
+Gem_Inteligencja4:
+  Id: 397
+  Data: 3
+  Display: '&5Potezny Gem Inteligencji'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Inteligencja: &7+40'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI2OTc1YWY3MDcyNGQ2YTQ0ZmQ1OTQ2ZTYwYjI3MTc3MzdkZmRiNTQ1YjRkYWIxODkzMzUxYTljOWRkMTgzYyJ9fX0=
+Gem_Zrecznosc1:
+  Id: 397
+  Data: 3
+  Display: '&2Slaby Gem Zrecznosci'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Zrecznosc: &7+10'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc1N2NmYzdjMTFiMWU2ZjEwMjhiODA0NjJkMWU0MzAyZGNhNWFiODU5MjIyNWVhOGM4Yjc2MzljNzBlNjFmOSJ9fX0=
+Gem_Zrecznosc2:
+  Id: 397
+  Data: 3
+  Display: '&2Sredni Gem Zrecznosci'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Zrecznosc: &7+20'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc1N2NmYzdjMTFiMWU2ZjEwMjhiODA0NjJkMWU0MzAyZGNhNWFiODU5MjIyNWVhOGM4Yjc2MzljNzBlNjFmOSJ9fX0=
+Gem_Zrecznosc3:
+  Id: 397
+  Data: 3
+  Display: '&2Mocny Gem Zrecznosci'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Zrecznosc: &7+30'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc1N2NmYzdjMTFiMWU2ZjEwMjhiODA0NjJkMWU0MzAyZGNhNWFiODU5MjIyNWVhOGM4Yjc2MzljNzBlNjFmOSJ9fX0=
+Gem_Zrecznosc4:
+  Id: 397
+  Data: 3
+  Display: '&2Potezny Gem Zrecznosci'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Zrecznosc: &7+40'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc1N2NmYzdjMTFiMWU2ZjEwMjhiODA0NjJkMWU0MzAyZGNhNWFiODU5MjIyNWVhOGM4Yjc2MzljNzBlNjFmOSJ9fX0=
+Gem_Mana1:
+  Id: 397
+  Data: 3
+  Display: '&3Slaby Gem Many'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Mana: &7+20'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTExNWRjODhlMzIxNGMzODI0M2Q3ODJkNjNlZGIwYTZlMDYyOTFlYjZkYThlNjAwYzdlMmVhMzZlN2Y2MWIzMSJ9fX0=
+Gem_Mana2:
+  Id: 397
+  Data: 3
+  Display: '&3Sredni Gem Many'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Mana: &7+40'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTExNWRjODhlMzIxNGMzODI0M2Q3ODJkNjNlZGIwYTZlMDYyOTFlYjZkYThlNjAwYzdlMmVhMzZlN2Y2MWIzMSJ9fX0=
+Gem_Mana3:
+  Id: 397
+  Data: 3
+  Display: '&3Mocny Gem Many'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Mana: &7+60'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTExNWRjODhlMzIxNGMzODI0M2Q3ODJkNjNlZGIwYTZlMDYyOTFlYjZkYThlNjAwYzdlMmVhMzZlN2Y2MWIzMSJ9fX0=
+Gem_Mana4:
+  Id: 397
+  Data: 3
+  Display: '&3Potezny Gem Many'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Mana: &7+80'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTExNWRjODhlMzIxNGMzODI0M2Q3ODJkNjNlZGIwYTZlMDYyOTFlYjZkYThlNjAwYzdlMmVhMzZlN2Y2MWIzMSJ9fX0=
+Gem_Walka1:
+  Id: 397
+  Data: 3
+  Display: '&4Slaby Gem Walki'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Walka: &7+5'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTkzZTIwNjg2MTc4NzJjNTQyZWNkYTFkMjdkZjRlY2U5MWM2OTk5MDdiZjMyN2M0ZGRiODUzMDk0MTJkMzkzOSJ9fX0=
+Gem_Walka2:
+  Id: 397
+  Data: 3
+  Display: '&4Sredni Gem Walki'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Walka: &7+10'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTkzZTIwNjg2MTc4NzJjNTQyZWNkYTFkMjdkZjRlY2U5MWM2OTk5MDdiZjMyN2M0ZGRiODUzMDk0MTJkMzkzOSJ9fX0=
+Gem_Walka3:
+  Id: 397
+  Data: 3
+  Display: '&4Mocny Gem Walki'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Walka: &7+15'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTkzZTIwNjg2MTc4NzJjNTQyZWNkYTFkMjdkZjRlY2U5MWM2OTk5MDdiZjMyN2M0ZGRiODUzMDk0MTJkMzkzOSJ9fX0=
+Gem_Walka4:
+  Id: 397
+  Data: 3
+  Display: '&4Potezny Gem Walki'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Walka: &7+20'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTkzZTIwNjg2MTc4NzJjNTQyZWNkYTFkMjdkZjRlY2U5MWM2OTk5MDdiZjMyN2M0ZGRiODUzMDk0MTJkMzkzOSJ9fX0=
+Gem_Unikat1:
+  Id: 397
+  Data: 3
+  Display: '&8&lGEM PUSTKI'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Sila: &7+20'
+  - '&4- &8Zdolnosci mysliwskie: &7+20'
+  - '&4- &8Wytrzymalosc: &7+20'
+  - '&4- &8Inteligencja: &7+20'
+  - '&4- &8Zrecznosc: &7+20'
+  - '&4- &8Mana: &7+40'
+  Attributes:
+    offhand:
+      Health: +40
+      KnockbackResistance: 0.2
+      MovementSpeed: 0.15
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWM2NDlhMGJiMjY1OWQ4ZjAzNzBjOWRhMWQwMGIzMmI1NmQwOTg5Nzg4ZWJmZGY5ODQwMmNjYmYzZTk2OGE3NSJ9fX0=
+Gem_Unikat1_H:
+  Id: 397
+  Data: 3
+  Display: '&8&lGEM PUSTKI I'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Walka: &7+15'
+  - '&4- &8Sila: &7+30'
+  - '&4- &8Zdolnosci mysliwskie: &7+30'
+  - '&4- &8Wytrzymalosc: &7+30'
+  - '&4- &8Inteligencja: &7+30'
+  - '&4- &8Zrecznosc: &7+30'
+  - '&4- &8Mana: &7+60'
+  Attributes:
+    offhand:
+      Health: +60
+      KnockbackResistance: 0.3
+      MovementSpeed: 0.25
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWM2NDlhMGJiMjY1OWQ4ZjAzNzBjOWRhMWQwMGIzMmI1NmQwOTg5Nzg4ZWJmZGY5ODQwMmNjYmYzZTk2OGE3NSJ9fX0=
+Gem_Unikat1_M:
+  Id: 397
+  Data: 3
+  Display: '&8&lGEM PUSTKI II'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Walka: &7+20'
+  - '&4- &8Sila: &7+40'
+  - '&4- &8Zdolnosci mysliwskie: &7+40'
+  - '&4- &8Wytrzymalosc: &7+40'
+  - '&4- &8Inteligencja: &7+40'
+  - '&4- &8Zrecznosc: &7+40'
+  - '&4- &8Mana: &7+80'
+  Attributes:
+    offhand:
+      Health: +80
+      KnockbackResistance: 0.4
+      MovementSpeed: 0.35
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWM2NDlhMGJiMjY1OWQ4ZjAzNzBjOWRhMWQwMGIzMmI1NmQwOTg5Nzg4ZWJmZGY5ODQwMmNjYmYzZTk2OGE3NSJ9fX0=
+Gem_Unikat2:
+  Id: 397
+  Data: 3
+  Display: '&6&lGEM &6&l♕&c&lMASTER&6&l♔'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Walka: &7+40'
+  Attributes:
+    offhand:
+      Health: +60
+      KnockbackResistance: 0.4
+      MovementSpeed: 0.25
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODRlNGE2OTdmN2YzNWJhYTRjZDczNDI5YjE1YmVjNjhjYzcyOGU5ZjZkNmYwMzU3YTM4MzMyNjZjNGMyIn19fQ==
+Gem_Wojownik:
+  Id: 397
+  Data: 3
+  Display: '&c&lGem Wojownika'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Sila: &7+5'
+  - '&4- &8Wytrzymalosc: &7+5'
+  - '&4- &8Mana: &7+4'
+  Attributes:
+    offhand:
+      Health: +10
+      KnockbackResistance: 0.05
+      MovementSpeed: 0.02
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2IwMzNiMmMyZDNjZjU4OTEzM2FiNzMwZWQxYThiNDQzMTNkNjI5OTU0ODBjM2EwZGFjMzI4ZDUzN2UyN2Q3ZiJ9fX0=
+Gem_Mysliwy:
+  Id: 397
+  Data: 3
+  Display: '&2&lGem Mysliwego'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Zdolnosci mysliwskie: &7+5'
+  - '&4- &8Zrecznosc: &7+5'
+  Attributes:
+    offhand:
+      Health: +6
+      MovementSpeed: 0.06
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJlNGZmYzcxYzlmZDQ0NWRhNmYyNWY3ODAzNDEwNjg5N2E5YWFhY2VkNTM5Y2YxY2ZiZWU0ZGNiOThhYzNmOSJ9fX0=
+Gem_Mag:
+  Id: 397
+  Data: 3
+  Display: '&5&lGem Maga'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Lore:
+  - ''
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Inteligencja: &7+5'
+  - '&4- &8Mana: &7+10'
+  Attributes:
+    offhand:
+      Health: +13
+      MovementSpeed: 0.03
+      KnockbackResistance: 0.01
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTlmMDI1ZjNmOWYxNDljYjZkMjkwOGM2ODcyMWZmNjYyMmE2Zjk0NTk1NmYwNzRlYTRmZGU0NDNjNWI1ZDdjNyJ9fX0=
+Gem_Annihilus:
+  Id: 397
+  Data: 3
+  Display: '&6&lGem Annihilus'
+  NBT:
+    Base:
+      RPGType: "gem"
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzBjNWNjNzI4Yzg2OWVjZjNjNmUwOTc5ZThhYTA5YzEwMTQ3ZWQ3NzA0MTdlNGJhNTQxYWFjMzgyZjAifX19

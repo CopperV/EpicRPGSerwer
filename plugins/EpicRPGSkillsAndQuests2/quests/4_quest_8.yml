@@ -1,0 +1,43 @@
+id: "4_quest_8"                                
+name: "&8Skradziona bron"                          
+zleceniodawca: "&6Nefarius"                       
+lore:                                               
+  - "&aCierpimy ostatnimi czasy na mocne braki broni."
+  - "&aDostawy z kopalni sa mocno ograniczone,"
+  - "&anie mamy dobrego kowala"
+  - "&aa w dodatku Ci zdrajcy uciekajac zabrali spory zapas broni."
+  - "&aMusimy go odzyskac"
+prize:                                    
+  - "xp: 5400"
+  - "money: 200"
+require:                                            
+  - "level: 33"
+  - "quest: 4_quest_4"
+stopnie:
+  1:
+    talking: true          
+    targets:
+      1:
+        id: "4_quest_8_1_1"                     
+        type: "przynies"       
+        targetName: "&cAssasynska wlocznia"                      
+        message: "Przynies 3 assasynskie wloczni: %stan%"
+        ilosc: 3
+      2:
+        id: "4_quest_8_1_2"                     
+        type: "przynies"       
+        targetName: "&4Miecz assasyna"                      
+        message: "Przynies 1 miecz assasyna: %stan%"
+        ilosc: 1
+      3:
+        id: "4_quest_8_1_3"                     
+        type: "przynies"       
+        targetName: "&cLuk assasyna"                      
+        message: "Przynies 3 luki assasyna: %stan%"
+        ilosc: 3
+      4:
+        id: "4_quest_8_1_4"                     
+        type: "przynies"       
+        targetName: "&4Luk mordercy"                      
+        message: "Przynies 1 luk mordercy: %stan%"
+        ilosc: 1

@@ -1,0 +1,51 @@
+id: "przemytnik_quest_13"                                
+name: "&bSasiedzi na poludniu"                          
+zleceniodawca: "&7&lSaro"                       
+lore:                                               
+  - "&aWidzisz ten krater na poludniu?"
+  - "&aMieszkaja tam dosyc nieprzyjazni sasiedzi."
+  - "&aChodzi o zywiolakow."
+  - "&aOstatnio coraz smielej wychodza na powierzchnie."
+  - "&aTworzy to pewnego rodzaju niebezpieczenstwo dla nas."
+  - "&aZywiolaki to dosyc potezne stworzenia."
+  - "&aMusimy sie ich pozbyc."
+prize:                                    
+  - "xp: 12500"
+  - "money: 650"
+require:                                            
+  - "level: 34"
+  - "quest: przemytnik_quest_5"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "przemytnik_quest_13_1_1"
+        type: "zabij"
+        targetName: "&3Zywiolak powietrza"
+        message: "Pokonaj 10 zywiolakow powietrza: %stan%"
+        ilosc: 10
+      2:
+        id: "przemytnik_quest_13_1_2"
+        type: "zabij"
+        targetName: "&cZywiolak skaly"
+        message: "Pokonaj 10 zywiolakow skaly: %stan%"
+        ilosc: 10
+      3:
+        id: "przemytnik_quest_13_1_3"
+        type: "zabij"
+        targetName: "&bZywiolak wody"
+        message: "Pokonaj 10 zywiolakow wody: %stan%"
+        ilosc: 10
+      4:
+        id: "przemytnik_quest_13_1_4"
+        type: "zabij"
+        targetName: "&4Zywiolak ognia"
+        message: "Pokonaj 10 zywiolakow ognia: %stan%"
+        ilosc: 10
+      5:
+        id: "przemytnik_quest_13_1_5"
+        type: "zabij"
+        targetName: "&6Sluga Kalimosa"
+        message: "Pokonaj 5 slug Kalimosa: %stan%"
+        ilosc: 5

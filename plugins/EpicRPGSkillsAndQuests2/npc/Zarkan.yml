@@ -1,0 +1,12 @@
+name: "&8Zarkan"
+title: "&8Zarkan - quester"
+size: 9
+slots:
+  1:
+    item: "p_quest_12"
+  7:
+    item: "Luczarstwo"
+  8:
+    item: "Platnerstwo"
+  9:
+    item: "Kowalstwo"

@@ -1,0 +1,15 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&4Nars"
+  - "&7[&2&lLOWCA PIRATOW&7]"
+skinid: 1171924570
+location:
+  world: "F_RPG"
+  x: 525.5
+  y: 33.0625
+  z: 862.5
+  yaw: 45
+  pitch: 30
+lookat: true

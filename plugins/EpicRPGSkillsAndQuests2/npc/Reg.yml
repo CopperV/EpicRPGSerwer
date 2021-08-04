@@ -1,0 +1,50 @@
+name: "&4Reg"
+title: "&4Reg - quester"
+size: 18
+slots:
+  1:
+    item: "4_quest_3"
+  2:
+    item: "4_quest_7"
+  3:
+    item: "4_quest_10"
+  4:
+    item: "4_quest_15"
+  5:
+    item: "4_quest_19"
+  6:
+    item: "4_quest_23"
+  10:
+    item: "paladyn_quest_8"
+  11:
+    item: "paladyn_quest_9"
+  12:
+    item: "paladyn_quest_10"
+  13:
+    item: "paladyn_quest_11"
+  14:
+    item: "paladyn_quest_12"
+  8:
+    item: "Walka1"
+    max: 90
+    wymagania:
+      - "quest: paladyn_quest_8"
+      - "klasa: &cWojownik"
+  9:
+    item: "Walka2"
+    max: 90
+    wymagania:
+      - "quest: paladyn_quest_8"
+      - "klasa: &cWojownik"
+  17:
+    item: "Sila1"
+    max: 215
+    wymagania:
+      - "quest: paladyn_quest_8"
+      - "klasa: &cWojownik"
+  18:
+    item: "Sila5"
+    max: 215
+    wymagania:
+      - "quest: paladyn_quest_8"
+      - "klasa: &cWojownik"

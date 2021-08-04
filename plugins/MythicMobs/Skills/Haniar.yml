@@ -1,0 +1,79 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+
+HaniarSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &9&oMasjaf stanie sie Twoja zguba!"} @PlayersInRadius{r=25}
+
+HaniarSkill1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=60} @self
+  - message{m="<mob.name><&co> &9&oWszyscy ugna sie pod nasza potega!"} @PlayersInRadius{r=25}
+  - summon{type=HaniarSummon;amount=1;radius=0} @Location{c=-1962.5,130,1386.5,0,0}
+  - summon{type=HaniarSummon;amount=1;radius=0} @Location{c=-1962.5,130,1382.5,0,0}
+  - summon{type=HaniarSummon;amount=1;radius=0} @Location{c=-1954.5,130,1382.5,0,0}
+  - summon{type=HaniarSummon;amount=1;radius=0} @Location{c=-1954.5,130,1386.5,0,0}
+
+HaniarSkill2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=180} @self
+  - message{m="<mob.name><&co> &9&oMasjaf pochlonie Was wszystkich!"} @PlayersInRadius{r=25}
+  - potion{type=SPEED;duration=120;level=2} @self
+
+HaniarSkill3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=120} @self
+  - message{m="<mob.name><&co> &9&oZginiesz w tej Twierdzy!"} @PlayersInRadius{r=25}
+  - skill{s=HaniarSkill3_Prepare} @PLIR{r=15}
+  - delay 10
+  - skill{s=HaniarSkill3_Prepare} @PLIR{r=15}
+  - delay 10
+  - skill{s=HaniarSkill3_Prepare} @PLIR{r=15}
+
+HaniarSkill3_Prepare:
+  Skills:
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - effect:particles{particle=mobSpell;color=#000000;amount=10;speed=0.05;hS=0.5;vS=0.5;y=0}
+  - delay 5
+  - summon{mob=HaniarSummon2;amount=1;noise=0;os=true}
+
+HaniarSummon2_Skill:
+  Skills:
+  - delay 2
+  - damage{amount=180} @PIR{r=3}
+  - effect:particles{particle=mobSpell;color=#FFFFFF;amount=75;speed=0.5;hS=4;vS=4;y=0} @self
+  - effect:particles{particle=mobSpell;color=#000000;amount=75;speed=0.5;hS=4;vS=4;y=0} @self
+  - effect:particles{particle=mobSpell;color=#777777;amount=75;speed=0.5;hS=4;vS=4;y=0} @self
+  - potion{type=SLOW;duration=100;level=1} @PIR{r=3}
+  - potion{type=CONFUSION;duration=100;level=1} @PIR{r=3}
+  - sound{s=entity.splash_potion.break;v=1;p=0.5} @self
+  - delay 2
+  - remove @self

@@ -1,0 +1,54 @@
+id: "prolog_quest_2"                                
+name: "&7Szczury pokladowe"                          
+zleceniodawca: "&6&lCorristo"                       
+lore:                                               
+  - "&aNo to teraz mlody zrobimy tak..."
+  - "&aSkoro nie chce Ci sie trenowac,"
+  - "&ato troche popracujesz."
+  - "&aZejdziesz na dolny poklad i zabijesz"
+  - "&aszczury pokladowe"
+prize:                                    
+  - "xp: 100"
+  - "cmd: endtut %player%"
+require:                                            
+  - "level: 1"
+  - "quest: prolog_quest_1"
+stopnie:                                            
+  1:
+    talking: false                           
+    message: "&r%player%&7: &aTo mnie &6&lCorristo &awpakowal. Stad nie ma wyjscia. I jak ja stad teraz wyjde?"                     
+    targets:
+      1:
+        id: "prolog_quest_2_1_1"
+        type: "znajdz"
+        targetName: "dolny_poklad"
+        message: "Zejdz na dolny poklad (-665;30;1153): %stan%"
+      2:
+        id: "prolog_quest_2_1_2"                     
+        type: "zabij"       
+        targetName: "&7Szczur pokladowy"                      
+        message: "Zabij 10 szczurow pokladowych: %stan%"                    
+        ilosc: 10
+  2:
+    talking: false
+    message: "&r%player%&7: &aDobra, starczy na dzis tego treningu. Udam sie do &6&lCorristo"
+    targets:
+      1:
+        id: "prolog_quest_2_2_1"
+        type: "znajdz"
+        targetName: "prolog_powrot"
+        message: "Uzyj komendy /spawn, by dostac sie spowrotem na gore: %stan%"
+  3:
+    talking: false
+    targets:
+      1:
+        id: "prolog_quest_2_3_1"
+        type: "zagadaj"
+        targetName: "&6&lCorristo"
+        message: "Porozmawiaj z &6&lCorristo&7: %stan%"
+        dialog:
+          - "&r%player%&7: &bNie doceniles mnie chyba"
+          - "&6&lCorristo&7: &aMozliwe..."
+          - "&6&lCorristo&7: &aMyslalem, ze dluzej Ci zajmie dotarcie tutaj."
+          - "&6&lCorristo&7: &aAle dosc juz tego,"
+          - "&6&lCorristo&7: &awyglada na to, ze juz doplywamy"

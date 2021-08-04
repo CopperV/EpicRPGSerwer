@@ -1,0 +1,38 @@
+id: "klasa_quest_mag"
+name: "&bJa - mag"
+zleceniodawca: "&c&lCanthar"
+lore:
+  - "&aSciezka maga nie nalezy do najlatwiejszych."
+  - "&aJest wiele rzeczy, na ktorych trzeba"
+  - "&asie skupic."
+  - "&aJezeli natomiast uda Ci sie kiedys"
+  - "&aosiagnac odpowiednia perfekcje,"
+  - "&ato staniesz sie magiem nie do zabicia."
+  - "&aOczywiscie, jezeli zechcesz wstapic"
+  - "&aw nasze szeregi."
+  - "&aJezeli chcesz tego dokonac, to"
+  - "&amusisz mi przyniesc rune"
+  - "&cognistej strzaly&a."
+prize:
+  - "xp: 500"
+  - "klasa: &5Mag"
+  - "cmd: mm i give %player% Mag1"
+  - "cmd: mm i give %player% Mag2"
+  - "cmd: mm i give %player% Mag3"
+  - "cmd: mm i give %player% Mag4"
+  - "cmd: rta add %player% 13"
+#nauka - magowie
+require:
+  - "level: 5"
+  - "klasa: &aobywatel"
+stopnie:
+  1:
+    talking: true
+    message: "&c&lCanthar&7: &aSwoj test zaliczyles. W takim razie od dzis jestes magiem. Sluchaj uwaznie, kazda z run wymaga przynajmniej dwoch rzeczy - many i kregu magii. Im wiecej masz many, tym dluzej mozesz miotac czarami bez przerwy. Natomiast im wyzszy posiadasz krag magii, tym bardziej skomplikowane zaklecia mozesz rzucac. Dodatkowo, obrazenia od zaklec zwieksza twoja inteligencja. Nie zapominaj o niej."
+    targets:
+      1:
+        id: "klasa_quest_mag_1_1"
+        type: "przynies"
+        targetName: "&cOgnista strzala"
+        message: "Przynies rune &cOgnistej strzaly: %stan%"
+        ilosc: 1

@@ -1,0 +1,44 @@
+id: "zlodziej_quest_1"                                
+name: "&7Droga na skroty"                          
+zleceniodawca: "&2Alima"                       
+lore:                                               
+  - "&7&lSaro &apoprosil mnie, bym nawiazala kontakty"
+  - "&az gildia zlodziei."
+  - "&aProblem jest jeden - nawet nie wiemy,"
+  - "&agdzie sie znajduja."
+  - "&aW sumie to logiczne."
+  - "&aJedyne, co wiemy, to to, ze ich przywodca"
+  - "&anazywa sie &8&lValeera &aoraz to,"
+  - "&aze musza przebywac gdzies w miescie."
+  - "&aCzy moglbys mi pomoc?"
+prize:                                    
+  - "xp: 85"
+require:                                            
+  - "level: 10"
+  - "quest: 1_quest_8"
+  - "quest: przemytnik_quest_1"
+stopnie:
+  1:
+    talking: false                    
+    targets:
+      1:
+        id: "zlodziej_quest_1_1_1"
+        type: "znajdz"
+        targetName: "gildia_zlodziei"
+        message: "Odnajdz kryjowke gildii zlodziei w miescie: %stan%"
+      2:
+        id: "zlodziej_quest_1_1_2"                     
+        type: "zagadaj"       
+        targetName: "&8&lValeera"                      
+        message: "Pogadaj z przywodca gildii zlodziei - &8&lValeera: %stan%"
+        dialog:
+          - "&r%player%&7: &bZgaduje, ze Ty jestes &8&lValeera&b,"
+          - "&r%player%&7: &ba to jest wasza kryjowka."
+          - "&8&lValeera&7: &aZgadza sie, na twoje nieszczescie."
+          - "&8&lValeera&7: &aGadaj kim jestes i czego tutaj chcesz."
+          - "&8&lValeera&7: &aAlbo juz nie wyjdziesz stad zywy."
+          - "&r%player%&7: &bSpokojnie, jestem tutaj z poslannictwa przemytnikow..."
+          - "&r%player%&7: &bChca nawiazac z wami kontakt, rozpoczac wspolprace."
+          - "&8&lValeera&7: &aA to ciekawe..."
+          - "&8&lValeera&7: &aNawiazemy z nimi kontakt, ale w zamian musisz wykonac dla mnie pare zadan."
+          - "&8&lValeera&7: &aPrzyjdz pozniej."

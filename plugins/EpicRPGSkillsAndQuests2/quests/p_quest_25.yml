@@ -1,0 +1,35 @@
+id: "p_quest_25"                                
+name: "&3&lNiedobory soli"
+zleceniodawca: "&0Ignaz"
+lore:                                               
+  - "&aOstatnimi czasie na Archolosie pojawiaja"
+  - "&asie niedobory soli."
+  - "&aStatki handlowe nie przybywaja do portow,"
+  - "&aa w poblizu nie ma zadnego miejsca zloz soli."
+  - "&aSlyszalem, ze sol morska jak i zwykla mozna pozyskac"
+  - "&aze straznikow wod."
+  - "&aNiestety, nikt do tej pory nie zdobyl sie na to,"
+  - "&aby z nimi zawalczyc."
+  - "&aMoze Ty bedziesz miec wiecej odwagi?"
+prize:                                    
+  - "xp: 43000"
+  - "money: 500"
+require:                                            
+  - "level: 47"
+  - "quest: p_quest_22"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "p_quest_25_1_1"
+        type: "przynies"
+        targetName: "&rSol"
+        message: "Przynies 27 porcji soli: %stan%"
+        ilosc: 27
+      2:
+        id: "p_quest_25_1_2"
+        type: "przynies"
+        targetName: "&9Sol morska"
+        message: "Przynies 18 porcji soli morskiej: %stan%"
+        ilosc: 18

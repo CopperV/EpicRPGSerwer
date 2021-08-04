@@ -1,0 +1,34 @@
+id: "zlodziej_quest_5"                                
+name: "&6&oWypelnienie skarbca"                          
+zleceniodawca: "&8&lValeera"                       
+lore:                                               
+  - "&aSlyszalam, ze na poludniu pojawili sie piraci..."
+  - "&aTo bardzo dobra okazja do poszerzenia"
+  - "&agildyjnego skarbca."
+  - "&aZwlaszcza, ze piraci plawia sie nie tylko w zlocie."
+  - "&aOdrobine zroznicowanie naszego majatku"
+  - "&anam nie zaszkodzi..."
+prize:                                    
+  - "xp: 1040"
+  - "money: 300"
+require:                                            
+  - "level: 18"
+  - "quest: przemytnik_quest_5"
+  - "quest: zlodziej_quest_3"
+stopnie:
+  1:
+    talking: true
+    message: "&8&lValeera&7: &aDobra robota... Zasluzyles sobie na to zloto. Idz i dalej zdobywaj swiat!"
+    targets:
+      1:
+        id: "zlodziej_quest_5_1_1"
+        type: "przynies"
+        targetName: "&bPirackie klejnoty"
+        message: "Przynies 15 pirackich klejnotow: %stan%"
+        ilosc: 15
+      2:
+        id: "zlodziej_quest_5_1_2"
+        type: "przynies"
+        targetName: "&4Pirackie rubiny"
+        message: "Przynies 15 pirackich rubinow: %stan%"
+        ilosc: 15

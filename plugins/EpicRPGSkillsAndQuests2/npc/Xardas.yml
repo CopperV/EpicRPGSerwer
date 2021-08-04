@@ -1,0 +1,56 @@
+name: "&8Xardas"
+title: "&8Xardas - quester"
+size: 27
+slots:
+  1:
+    item: "4_quest_14"
+  2:
+    item: "4_quest_18"
+  3:
+    item: "4_quest_22"
+  4:
+    item: "4_quest_23"
+  10:
+    item: "fabula_quest_18"
+  11:
+    item: "fabula_quest_19"
+  12:
+    item: "fabula_quest_20"
+  19:
+    item: "mag_quest_8"
+  20:
+    item: "mag_quest_9"
+  21:
+    item: "mag_quest_10"
+  22:
+    item: "mag_quest_11"
+  23:
+    item: "mag_quest_12"
+  27:
+    item: "Krag6"
+    wymagania:
+      - "quest: mag_quest_11"
+  8:
+    item: "Inteligencja1"
+    max: 300
+    wymagania:
+      - "quest: mag_quest_11"
+      - "klasa: &5Mag"
+  9:
+    item: "Inteligencja5"
+    max: 300
+    wymagania:
+      - "quest: mag_quest_11"
+      - "klasa: &5Mag"
+  17:
+    item: "Mana1"
+    max: 700
+    wymagania:
+      - "quest: mag_quest_11"
+      - "klasa: &5Mag"
+  18:
+    item: "Mana5"
+    max: 700
+    wymagania:
+      - "quest: mag_quest_11"
+      - "klasa: &5Mag"

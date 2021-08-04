@@ -1,0 +1,34 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+LudojadSpawn:
+  Skills:
+  - summon{mob=SzakalSummon;amount=1;noise=3} @Self
+  - summon{mob=SzakalSummon;amount=1;noise=3} @Self
+LudojadSummon1:
+  Cooldown: 1
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=65}
+  - message{m="<mob.name><&co> &7Aaauuuuuuuuu!"} @PlayersInRadius{r=20}
+  - delay 5
+  - summon{mob=Rybik;amount=1;noise=3} @Self
+  - summon{mob=Rybik;amount=1;noise=3} @Self
+LudojadSummon2:
+  Cooldown: 1
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=65}
+  - message{m="<mob.name><&co> &7Auu, Aauuuu!"} @PlayersInRadius{r=20}
+  - delay 5
+  - summon{mob=SzakalSummon;amount=1;noise=7} @Self
+  - summon{mob=SzakalSummon;amount=1;noise=7} @Self
+LudojadBlood:
+  Skills:
+  - effect:particles{p=reddust;a=50;hs=0.8;vs=0.5;y=0.5} @target
+  - delay 15
+  - effect:particles{p=reddust;a=50;hs=0.8;vs=0.5;y=0.5} @target
+  - damage{amount=25} @target
+  - skill{s=LudojadBlood} 0.7

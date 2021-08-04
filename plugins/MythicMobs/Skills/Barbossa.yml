@@ -1,0 +1,81 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+BarbossaSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &7HaHa! Zabawmy sie!"} @PlayersInRadius{r=20}
+  - delay 5
+  - summon{mob=Pirat7;amount=1;noise=3} @Self
+  - summon{mob=Pirat7;amount=1;noise=3} @Self
+  - summon{mob=Pirat7;amount=1;noise=3} @Self
+  - summon{mob=Pirat7;amount=1;noise=3} @Self
+BarbossaSummon1:
+  Skills:
+  - gcd{ticks=75}
+  - message{m="<mob.name><&co> &7Patrzcie, patrzcie..."} @PlayersInRadius{r=20}
+  - delay 5
+  - summon{mob=Pirat3;amount=1;noise=3} @Self
+  - summon{mob=Pirat4;amount=1;noise=3} @Self
+  - summon{mob=Pirat5;amount=1;noise=3} @Self
+  - delay 15
+  - message{m="<mob.name><&co> &7Umie sie bawic!"} @PlayersInRadius{r=20}
+  - delay 5
+  - message{m="<mob.name><&co> &7HaHaHa!"} @PlayersInRadius{r=20}
+  Conditions:
+  - offgcd
+BarbossaVelocity:
+  Skills:
+  - gcd{ticks=66}
+  - message{m="<mob.name><&co> &7Dorwe Cie!"} @PlayersInRadius{r=10}
+  - delay 5
+  - pull{velocity=4;to=true} @PIR{r=10}
+  - sound{s=entity.enderdragon.flap;v=10} @PIR{r=10}
+  - effect:particleline{particle=happyVillager;amount=1;fromOrigin=true;y=0.5} @PIR{r=10}
+  - effect:particlebox{particle=happyVillager;amount=200;radius=2;y=0.3} @self
+  - delay 1
+  - pull{velocity=4;to=true} @PIR{r=10}
+  - effect:particleline{particle=happyVillager;amount=1;fromOrigin=true;y=0.5} @PIR{r=10}
+  - delay 1
+  - pull{velocity=4;to=true} @PIR{r=10}
+  - effect:particleline{particle=happyVillager;amount=1;fromOrigin=true;y=0.5} @PIR{r=10}
+  - delay 1
+  - pull{velocity=4;to=true} @PIR{r=10}
+  - effect:particleline{particle=happyVillager;amount=1;fromOrigin=true;y=0.5} @PIR{r=10}
+  - delay 1
+  - pull{velocity=4;to=true} @PIR{r=10}
+  - effect:particleline{particle=happyVillager;amount=1;fromOrigin=true;y=0.5} @PIR{r=10}
+  - delay 1
+  - pull{velocity=4;to=true} @PIR{r=10}
+  - effect:particleline{particle=happyVillager;amount=1;fromOrigin=true;y=0.5} @PIR{r=10}
+  - delay 1
+  - pull{velocity=4;to=true} @PIR{r=10}
+  - effect:particleline{particle=happyVillager;amount=1;fromOrigin=true;y=0.5} @PIR{r=10}
+  Conditions:
+  - offgcd
+BarbossaPrison:
+  Skills:
+  - gcd{ticks=65}
+  - message{m="<mob.name><&co> &7Nie wymkniesz nam sie!"} @PlayersInRadius{r=15}
+  - delay 5
+  - prison{material=IRON_BLOCK;duration=200;breakable=true} @target
+  Conditions:
+  - offgcd
+BarbossaRally:
+  Skills:
+  - gcd{ticks=60}
+  - message{m="<mob.name><&co> &7Lapac go!"} @PlayersInRadius{r=30}
+  - rally{types=Pirat1,Pirat2,Pirat3,Pirat4,Pirat5,Pirat6,Pirat7,Pirat8;radius=30;ot=true} @target
+  Conditions:
+  - offgcd
+BarbossaHP:
+  Skills:
+  - message{m="<mob.name><&co> &7Spojrz na mnie! Poznaj mnie!"} @PlayersInRadius{r=15}
+  - delay 15
+  - effect:lightning @self
+  - disguise{d=SKELETON}
+  - delay 20
+  - message{m="<mob.name><&co> &7Zloto, ktore zrabowalismy..."} @PlayersInRadius{r=15}
+  - delay 10
+  - message{m="<mob.name><&co> &7Okazalo sie byc przeklete..."} @PlayersInRadius{r=15}
+  - delay 10
+  - message{m="<mob.name><&co> &7A teraz i my jestesmy rowniez przekleci..."} @PlayersInRadius{r=15}

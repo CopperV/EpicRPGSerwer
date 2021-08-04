@@ -1,0 +1,29 @@
+id: "paladyn_quest_6"                                
+name: "&bRaport dla Dargotha"                          
+zleceniodawca: "&a&lJasuo"                       
+lore:                                               
+  - "&aUdalo Ci sie pokonac Ortege."
+  - "&aIdz i pochwal sie tym osiagnieciem"
+  - "&4&lDargothowi"
+prize:                                    
+  - "xp: 210"
+  - "money: 700"
+  - "cmd: crazycrates give physical Zwykla 1 %player%"
+  - "bc: &7[&b&lEpicRPG&7] &aGracz &7%player% &aukonczyl watek &4&oBANDA ORTEGI&a. &6&lGRATULACJE!"
+require:                                            
+  - "level: 17"
+  - "quest: paladyn_quest_5"
+  - "klasa: &cWojownik"
+stopnie:
+  1:
+    talking: false
+    targets:
+      1:
+        id: "paladyn_quest_6_1_1"
+        type: "zagadaj"
+        targetName: "&4&lDargoth"
+        message: "Zdaj raport &4&lDargothowi: %stan%"
+        dialog:
+          - "&4&lDargoth&7: &aNo, no. Ladnie sie spisales."
+          - "&4&lDargoth&7: &aWlasciwie mozna powiedziec, ze sam zalatwiles &4&lOrtege"
+          - "&4&lDargoth&7: &aMysle, ze ta nagroda nie bedzie przesadna"

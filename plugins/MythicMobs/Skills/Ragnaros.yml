@@ -1,0 +1,318 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+RagnarosFire:
+  Skills:
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;y=0.2} @self
+  - effect:particlering{particle=largeexplode;radius=1.1;points=8;amount=1;y=0} @self
+  - effect:particlering{particle=largeexplode;radius=1.2;points=8;amount=1;y=-0.2} @self
+  - effect:particlering{particle=largeexplode;radius=1.3;points=8;amount=1;y=-0.4} @self
+  - effect:particlering{particle=largeexplode;radius=1.4;points=8;amount=1;y=-0.6} @self
+  - effect:particlering{particle=largeexplode;radius=1.5;points=8;amount=1;y=-0.8} @self
+  - effect:particlering{particle=largeexplode;radius=1.6;points=8;amount=1;y=-1} @self
+  - effect:particlering{particle=largeexplode;radius=1.7;points=8;amount=1;y=-1.2} @self
+  - effect:particlering{particle=largeexplode;radius=1.8;points=8;amount=1;y=-1.4} @self
+  - effect:particlering{particle=largeexplode;radius=1.9;points=8;amount=1;y=-1.6} @self
+  - effect:particlering{particle=largeexplode;radius=2;points=8;amount=1;y=-1.8} @self
+  - effect:particlering{particle=largeexplode;radius=2.1;points=8;amount=1;y=-2} @self
+  - effect:particlering{particle=largeexplode;radius=2.2;points=8;amount=1;y=-2.2} @self
+  - effect:particlering{particle=largeexplode;radius=2.3;points=8;amount=1;y=-2.4} @self
+RagnarosDamage:
+  Skills:
+  - CancelEvent
+  - damage{amount=180} @trigger
+RagnarosSpawn:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=140}
+  - delay 40
+  - sound{s=entity.wither.spawn;v=10} @self
+  - message{m="<mob.name><&co> &cNEDZNI SMIERTELNICY!"} @PlayersOnServer
+  - delay 20
+  - message{m="<mob.name><&co> &cJAK SMIECIE WKRACZAC W MOJE KROLESTWO?"} @PlayersOnServer
+  - delay 20
+  - sound{s=record.ward;volume=30} @self
+RagnarosAttack5:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=100}
+  - message{m="<mob.name><&co> &cOCZYSCI CIE OGIEN!"} @PIR{r=35}
+  - delay 20
+  - shootfireball{y=1;v=2;ps=true} @trigger
+  - delay 10
+  - shootfireball{y=1;v=2;ps=true} @target
+  - delay 10
+  - shootfireball{y=1;v=2;ps=true} @trigger
+RagnarosAttack3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=150}
+  - message{m="<mob.name><&co> &cOCZYSCI CIE OGIEN!"} @PIR{r=35}
+  - delay 20
+  - shootfireball{y=1;v=2;sml=true;ps=true} @trigger
+  - delay 10
+  - shootfireball{y=1;v=2;sml=true;ps=true} @target
+  - delay 10
+  - shootfireball{y=1;v=2;sml=true;ps=true} @trigger
+  - delay 10
+  - shootfireball{y=1;v=2;sml=true;ps=true} @target
+  - delay 10
+  - shootfireball{y=1;v=2;sml=true;ps=true} @trigger
+  - delay 10
+  - shootfireball{y=1;v=2;sml=true;ps=true} @PIR{r=10}
+  - delay 10
+  - shootfireball{y=1;v=2;sml=true;ps=true} @PIR{r=10}
+  - delay 10
+  - shootfireball{y=1;v=2;sml=true;ps=true} @PIR{r=10}
+RagnarosAttack2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=100}
+  - effect:particlesphere{particle=largeexplode;amount=100;radius=3;y=0.7} @self
+  - delay 20
+  - message{m="<mob.name><&co> &cGIN ROBAKU!"} @PIR{r=35}
+  - delay 20
+  - shootfireball{y=1;v=2;ps=true} @target
+RagnarosAttack1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=1200}
+  - effect:particlesphere{particle=reddust;amount=10;radius=1;y=0.7} @self
+  - delay 10
+  - effect:particlesphere{particle=reddust;amount=10;radius=1;y=0.7} @self
+  - effect:particlesphere{particle=reddust;amount=15;radius=2;y=0.7} @self
+  - delay 10
+  - effect:particlesphere{particle=reddust;amount=10;radius=1;y=0.7} @self
+  - effect:particlesphere{particle=reddust;amount=15;radius=2;y=0.7} @self
+  - effect:particlesphere{particle=reddust;amount=20;radius=3;y=0.7} @self
+  - message{m="<mob.name><&co> &cCZELUSC TO MOJE KROLESTWO!"} @PIR{r=35}
+  - delay 30
+  - effect:particlesphere{particle=reddust;amount=10;radius=1;y=0.7} @self
+  - effect:particlesphere{particle=reddust;amount=15;radius=2;y=0.7} @self
+  - effect:particlesphere{particle=reddust;amount=20;radius=3;y=0.7} @self
+  - message{m="<mob.name><&co> &cROZGNIOTE CIE JAK ROBAKA!"} @PIR{r=35}
+  - delay 10
+  - effect:particlesphere{particle=largeexplode;amount=10;radius=1;y=0.7} @self
+  - effect:particlesphere{particle=largeexplode;amount=15;radius=2;y=0.7} @self
+  - effect:particlesphere{particle=largeexplode;amount=20;radius=3;y=0.7} @self
+  - projectile{type=meteor;onTick=Meteor-Tick;onEnd=Meteor-End;v=40;i=1;hR=1;vR=1;syo=40;tyo=40;g=0.2;mr=50} @TargetLocation
+RagnarosAttack6:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=140}
+  - effect:particlesphere{particle=largeexplode;amount=100;radius=3;y=0.7} @self
+  - delay 20
+  - message{m="<mob.name><&co> &cGIN ROBAKU!"} @PIR{r=35}
+  - delay 20
+  - effect:particlesphere{particle=largeexplode;amount=100;radius=3;y=0.7} @self
+  - projectile{onTick=Bomb-Tick;onEnd=Bomb-End;v=20;i=1;hR=1;vR=1;mr=50} @TargetLocation
+  - delay 20
+  - effect:particlesphere{particle=largeexplode;amount=100;radius=3;y=0.7} @self
+  - projectile{onTick=Bomb-Tick;onEnd=Bomb-End;v=20;i=1;hR=1;vR=1;mr=50} @NearestPlayer{r=100}
+  - delay 20
+  - effect:particlesphere{particle=largeexplode;amount=100;radius=3;y=0.7} @self
+  - projectile{onTick=Bomb-Tick;onEnd=Bomb-End;onHit=Bomb-Hit;v=20;i=1;hR=1;vR=1;mr=50} @PIR{r=100}
+RagnarosAttack4:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=90}
+  - effect:particlesphere{particle=reddust;amount=10;radius=1;y=0.7} @self
+  - delay 10
+  - effect:particlesphere{particle=reddust;amount=10;radius=1;y=0.7} @self
+  - effect:particlesphere{particle=reddust;amount=15;radius=2;y=0.7} @self
+  - delay 10
+  - effect:particlesphere{particle=reddust;amount=10;radius=1;y=0.7} @self
+  - effect:particlesphere{particle=reddust;amount=15;radius=2;y=0.7} @self
+  - effect:particlesphere{particle=reddust;amount=20;radius=3;y=0.7} @self
+  - message{m="<mob.name><&co> &cPOSMAKUJ PLOMIENI SULFURONA!"} @PIR{r=35}
+  - delay 10
+  - effect:particlesphere{particle=largeexplode;amount=10;radius=1;y=0.7} @self
+  - effect:particlesphere{particle=largeexplode;amount=15;radius=2;y=0.7} @self
+  - effect:particlesphere{particle=largeexplode;amount=20;radius=3;y=0.7} @self
+  - projectile{onTick=Attack-Tick;onEnd=Attack-End;v=20;i=1;hR=2;vR=2;mr=50} @TargetLocation
+RagnarosDeath:
+  Skills:
+  - message{m="&b&lMacie 30 sekund na zebranie dropu!"} @PlayersInRadius{r=100}
+  - message{m="&b&lPo tym czasie zostaniecie przeteleportowani na spawn!"} @PlayersInRadius{r=100}
+  - message{m="&6&lRagnaros zostal pokonany!"} @PlayersOnServer
+  - message{m="&6&lProsze nie wchodzic do sanktuarium przez 30 sekund"} @PlayersOnServer
+  - delay 600
+  - command{c="mw move <target.name> F_RPG"} @PlayersInWorld
+Attack-Tick:
+  Skills:
+  - sound{s=entity.generic.explode} @origin
+  - effect:particles{particle=reddust;amount=10} @origin
+  - effect:particlesphere{particle=largeexplode;amount=15;radius=2} @origin
+Attack-End:
+  Skills:
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=0;points=4;amount=1} @origin
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=1;points=6;amount=1} @origin
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=2;points=8;amount=1} @origin
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=3;points=12;amount=1} @origin
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=4;points=16;amount=1} @origin
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=5;points=24;amount=1} @origin
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=6;points=32;amount=1} @origin
+  - damage{amount=110} @PlayersNearOrigin{r=6}
+  - ignite{ticks=500} @PlayersNearOrigin{r=6}
+  - throw{velocity=6;velocityY=11} @PlayersNearOrigin{r=6}
+Bomb-Hit:
+  Skills:
+  - damage{amount=140} @PlayersNearOrigin{r=2}
+  - throw{velocity=5;velocityY=15} @PlayersNearOrigin{r=2}
+  - delay 100
+  - summon{mob=Lava9;amount=1} @origin
+Bomb-Tick:
+  Skills:
+  - sound{s=block.fire.ambient;v=10} @origin
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+Bomb-End:
+  Skills:
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlesphere{particle=hugeexplosion;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - effect:particlesphere{particle=largeexplode;amount=5;radius=1} @origin
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlesphere{particle=hugeexplosion;amount=25;radius=6} @origin
+  - damage{amount=180} @PlayersNearOrigin{r=6}
+  - throw{velocity=15;velocityY=25} @PlayersNearOrigin{r=6}
+Meteor-Tick:
+  Skills:
+  - sound{s=entity.generic.explode} @origin
+  - effect:particles{particle=reddust;amount=10} @origin
+  - effect:particlesphere{particle=largeexplode;amount=10;radius=1} @origin
+Meteor-End:
+  Skills:
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=0;points=4;amount=1} @origin
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=1;points=6;amount=1} @origin
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=2;points=8;amount=1} @origin
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=3;points=12;amount=1} @origin
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=4;points=16;amount=1} @origin
+  - damage{amount=115} @PlayersNearOrigin{r=4}
+  - ignite{ticks=400} @PlayersNearOrigin{r=4}
+  - throw{velocity=10;velocityY=3} @PlayersNearOrigin{r=4}

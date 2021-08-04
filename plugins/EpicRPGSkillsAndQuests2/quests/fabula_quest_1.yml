@@ -1,0 +1,24 @@
+id: "fabula_quest_1"                                
+name: "&c&oDostrzezony"                          
+zleceniodawca: "&b&lCorristo"                       
+lore:                                               
+  - "&aZabijajac herszta pokazales, ze nie jestes"
+  - "&ajuz calkiem zielony."
+  - "&aMysle, ze zasluzyles na to, by spotkac sie"
+  - "&az &c&lAlexstrasza&a, ktora pelni obecnie obowiazki"
+  - "&azarzadcy od znikniecia Barona Geddona."
+prize:                                    
+  - "xp: 50"
+require:                                            
+  - "level: 10"
+  - "quest: 1_quest_9"
+stopnie:
+  1:
+    talking: false
+    message: "&e&lIgnatius&7: &aNie tak predko moj drogi. Z &c&lAlexstrasza &aspotkasz sie dopiero wtedy, jak Ja Ci na to pozwole. Zabicie Herszta Bandytow to zaden wysilek. Musisz pokazac, ze jestes godzien sie z Nia spotkac."    
+    targets:
+      1:
+        id: "fabula_quest_1_1_1"
+        type: "znajdz"
+        targetName: "castle_entry"
+        message: "Udaj sie do zamku, by porozmawiac z &c&lAlexstrasza &4(-103;14): %stan%"

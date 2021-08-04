@@ -1,0 +1,32 @@
+id: "p_quest_10"
+name: "&1Dziwna mikstura witalnosci"
+zleceniodawca: "&0Ignaz"
+lore:
+  - "&aOo, oo, to znowu ty!"
+  - "&aOdkrylem ostatnio zaskakujace wlasciwosci"
+  - "&apewnych skladnikow alchemicznych."
+  - "&aDzieki temu moge stworzyc miksture witalnosci."
+  - "&aPrzynies mi skladniki, a sowicie Ciebie wynagrodze."
+prize:
+  - "money: 160"
+  - "xp: 765"
+require:
+  - "level: 16"
+  - "quest: p_quest_9"
+stopnie:
+  1:
+    talking: true
+    message: "&0Ignaz&7: &aEureka. Doskonala robota mlodziencze. Dzieki twojej pomocy, wkrotce bede mogl wygladac tak samo mlodo jak ty. Jak to sie mowi? Wielki krok dla czlowieka, maly dla ludzkosci!"
+    targets:
+      1:
+        id: "p_quest_10_1_1"
+        type: "przynies"
+        targetName: "&eSerce mumii"
+        message: "Przynies szalonemu Ignazowi 15 serc mumii: %stan%"
+        ilosc: 15
+      2:
+        id: "p_quest_10_1_2"
+        type: "przynies"
+        targetName: "&2Jadowity kiel"
+        message: "Przynies szalonemu Ignazowi 10 jadowitych klow pajakow: %stan%"
+        ilosc: 10

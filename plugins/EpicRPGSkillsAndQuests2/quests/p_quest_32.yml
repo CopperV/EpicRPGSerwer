@@ -1,0 +1,49 @@
+id: "p_quest_32"                                
+name: "&3&oBadania Nowego Swiata"
+zleceniodawca: "&3&lRiordian"
+lore:                                               
+  - "&aTroche juz jestesmy na tym swiecie,"
+  - "&aa tak malo wciaz o nim wiemy."
+  - "&aPrzez wiekszosc czasu jestesmy"
+  - "&auwiezieni we wlasnym obozie."
+  - "&aGdybys przyniosl mi materialy do badan,"
+  - "&ato bylbym niesamowicie wdzieczny."
+prize:                                    
+  - "xp: 62000"
+  - "money: 350"
+require:                                            
+  - "level: 59"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "p_quest_32_1_1"
+        type: "przynies"
+        targetName: "&2Mozg zombie"
+        message: "Przynies 19 Mozgow Zombie: %stan%"
+        ilosc: 19
+      2:
+        id: "p_quest_32_1_2"
+        type: "przynies"
+        targetName: "&7&oStara kosc"
+        message: "Przynies 26 Starych Kosci: %stan%"
+        ilosc: 26
+      3:
+        id: "p_quest_32_1_3"
+        type: "przynies"
+        targetName: "&8Wybuchowy proch"
+        message: "Przynies 10 porcji Wybuchowego Prochu: %stan%"
+        ilosc: 10
+      4:
+        id: "p_quest_32_1_4"
+        type: "przynies"
+        targetName: "&7&oJajo pajaka"
+        message: "Przynies 6 Jaj Pajaka: %stan%"
+        ilosc: 6
+      5:
+        id: "p_quest_32_1_5"
+        type: "przynies"
+        targetName: "&3Czaszka tulacza"
+        message: "Przynies 4 Czaszki Tulacza: %stan%"
+        ilosc: 4

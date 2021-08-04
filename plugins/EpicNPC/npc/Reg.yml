@@ -1,0 +1,15 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&4Reg"
+  - "&7[&c&oASSASYN&7]"
+skinid: 2138784610
+location:
+  world: "F_RPG"
+  x: -702
+  y: 33.0
+  z: 390
+  yaw: 18
+  pitch: 5
+lookat: true

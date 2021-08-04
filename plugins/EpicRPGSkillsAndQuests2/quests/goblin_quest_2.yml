@@ -1,0 +1,32 @@
+id: "goblin_quest_2"                                
+name: "&6Kupieckie zloto"                          
+zleceniodawca: "&8Udar"                       
+lore:                                               
+  - "&aGobliny sa znane z tego, ze lubia krasc."
+  - "&aTo, jak czesto kupcy padaja ofiarami"
+  - "&anapadow goblinow przechodzi wszelkie wyobrazenia."
+  - "&aMoge z czystym sumieniem stwierdzic,"
+  - "&aze wieksz szkody kupcy ponosza"
+  - "&aw wyniku napadow tych krasnali."
+  - "&aPostaraj sie odzyskac troche ich zlota."
+prize:                                    
+  - "xp: 340"
+require:                                            
+  - "level: 6"
+  - "quest: goblin_quest_1"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "goblin_quest_2_1_1"
+        type: "przynies"
+        targetName: "&eGoblinie Zloto"
+        message: "Przynies 20 sztabek gobliniego zlota: %stan%"
+        ilosc: 20
+      2:
+        id: "goblin_quest_2_1_2"
+        type: "przynies"
+        targetName: "&6Skradzione Zloto"
+        message: "Przynies 7 sztuk skradzionego zlota: %stan%"
+        ilosc: 7

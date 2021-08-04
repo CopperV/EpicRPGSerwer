@@ -1,0 +1,17 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&7&lEredin"
+  - "&7[&6&lBIZNESMEN&7]"
+skinid: 2059590051
+location:
+  world: "F_RPG"
+  x: 762.5
+  y: 35
+  z: 209.5
+  yaw: 135
+  pitch: 0
+lookat: true
+commands:
+  - "cc open eredin %player%"

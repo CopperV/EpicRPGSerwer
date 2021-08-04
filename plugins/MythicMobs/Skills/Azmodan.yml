@@ -1,0 +1,79 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+
+AzmodanSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &9&oTwierdza Chaosu Waszym grobem..."} @PlayersInRadius{r=25}
+
+AzmodanSkill1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=60} @self
+  - message{m="<mob.name><&co> &9&oNasi Wojownicy stana sie Wasza zguba"} @PlayersInRadius{r=25}
+  - summon{type=AzmodanSummon;amount=2;radius=4} @self
+
+AzmodanSkill2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=190} @self
+  - message{m="<mob.name><&co> &9&oMoc Chaosu nie zna granic!"} @PlayersInRadius{r=25}
+  - summon{type=AzmodanMissile;amount=1;radius=0} @Location{c=-1814.5,84,1346.5,0,0}
+
+AzmodanSkill3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=60} @self
+  - message{m="<mob.name><&co> &9&oStad nie ma ucieczki!"} @PlayersInRadius{r=25}
+  - damage{a=160} @PIR{r=15}
+  - effect:lightning @PIR{r=15}
+
+
+Manifestacja_Skill2:
+  Conditions:
+  - hasaura ManifestacjaSkill2 false
+  Skills:
+  - skill{s=Manifestacja_Skill2_Effect} @PlayersInRadius{r=20;limit=1;sort=RANDOM}
+
+Manifestacja_Skill2_Effect:
+  Skills:
+  - Aura{auraName=ManifestacjaSkill2;duration=120} @self
+  - effect:particleline{particle=smoke;amount=20;speed=0.1;hS=0.75;vS=0.05;yt=1;ys=1}
+  - effect:particleline{particle=reddust;color=#8B008B;amount=10;speed=0.2;hS=0.25;vS=0.05;yt=1;ys=1}
+  - delay 120
+  - damage{amount=140} @Target
+  - damage{amount=165}
+  - teleport{spreadh=5;spreadv=0}
+
+
+AzmodanMissileSpawn:
+  Skills:
+  - totem{ch=100;oT=AzmodanMissile_TotemTick;oE=AzmodanMissile_TotemTickEnd;hR=2;vR=2;md=100;yo=1;hp=true;i=1} @self
+  - delay 220
+  - remove @self
+
+AzmodanMissile_TotemTick:
+  Skills:
+  - sound{s=block.fire.ambient;v=1;p=1} @origin
+  - effect:particlesphere{particle=smoke;amount=5;radius=1.25}
+  - effect:particlesphere{particle=reddust;color=#8B008B;amount=5;radius=1.25}
+
+AzmodanMissile_TotemTickEnd:
+  Skills:
+  - sound{s=entity.blaze.shoot;v=2;p=0.2} @origin
+  - missile{ot=AzmodanMissile_Tick;oH=AzmodanMissile_Hit;v=7;i=1;hR=1.5;vR=1.5;in=2;md=200;mr=50;sB=false} @PlayersInRadius{r=50;limit=3;sort=RANDOM}
+
+AzmodanMissile_Tick:
+  Skills:
+  - effect:particles{particle=reddust;color=#8B008B;amount=10;speed=0.1;hS=0.3;vS=0.3} @origin
+  - effect:particles{particle=smoke;amount=10;speed=0.1;hS=0.3;vS=0.3} @origin
+
+AzmodanMissile_Hit:
+  Skills:
+  - damage{a=190}
+  - effect:particles{particle=reddust;color=#8B008B;amount=25;speed=0.15;hS=0.2;vS=0.2;y=1} @origin
+  - effect:particles{particle=smoke;amount=25;speed=0.15;hS=0.2;vS=0.2;y=1} @origin
+  - effect:sound{s=entity.generic.explode;v=1;p=0.2} @origin

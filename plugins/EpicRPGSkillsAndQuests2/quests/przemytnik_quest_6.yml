@@ -1,0 +1,36 @@
+id: "przemytnik_quest_6"                                
+name: "&e&lOkazja bogactwa"                          
+zleceniodawca: "&7Cobryn"                       
+lore:                                               
+  - "&aJak sie okazalo, wiesc o piratach nad rzeka"
+  - "&arozniosla sie w zabojczym tempie."
+  - "&aWlasciwie, dzieki przypadkowi, staneli piraci"
+  - "&ana glownym celowniku wiekszosci frakcji na wyspie."
+  - "&aI to z dosyc prostego powodu..."
+  - "&aChodzi o skarby, z ktorymi sa kojarzeni."
+  - "&aSkarb to okazja do bogactwa."
+  - "&aChyba przyznasz mi racje, co nie?"
+prize:                                    
+  - "xp: 1115"
+  - "money: 200"
+  - "item: Zlota_Moneta 3"
+require:                                            
+  - "level: 19"
+  - "quest: przemytnik_quest_5"
+stopnie:
+  1:
+    talking: true
+    message: "&7Cobryn&7: &aNo i o to mi dokladnie chodzilo. Lada moment, a piraci pozaluja, ze tutaj przyplyneli..."
+    targets:
+      1:
+        id: "przemytnik_quest_6_1_1"
+        type: "przynies"
+        targetName: "&bPirackie klejnoty"
+        message: "Przynies 10 pirackich klejnotow: %stan%"
+        ilosc: 10
+      2:
+        id: "przemytnik_quest_6_1_2"
+        type: "przynies"
+        targetName: "&4Pirackie rubiny"
+        message: "Przynies 10 pirackich rubinow: %stan%"
+        ilosc: 10

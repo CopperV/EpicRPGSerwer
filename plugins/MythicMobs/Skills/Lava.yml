@@ -1,0 +1,101 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+Lava1Attack:
+  Skills:
+  - CancelEvent
+  - damage{a=94} @trigger
+Lava2Attack:
+  Skills:
+  - CancelEvent
+  - damage{a=99} @trigger
+Lava3Attack:
+  Skills:
+  - CancelEvent
+  - damage{a=105} @trigger
+Lava4Attack:
+  Skills:
+  - CancelEvent
+  - damage{a=110} @trigger
+Lava5Attack:
+  Skills:
+  - CancelEvent
+  - damage{a=116} @trigger
+Lava6Attack:
+  Skills:
+  - CancelEvent
+  - damage{a=121} @trigger
+Lava7Attack:
+  Skills:
+  - CancelEvent
+  - damage{a=127} @trigger
+Lava8Attack:
+  Skills:
+  - CancelEvent
+  - damage{a=132} @trigger
+LavaIgnite:
+  Skills:
+  - ignite{ticks=300} @trigger
+FuriatAttack:
+  Skills:
+  - CancelEvent
+  - damage{a=127} @trigger
+  - skill{s=LavaIgnite} 0.4 @trigger
+ZarzycielSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &7Sluze Wladcy Ognia"} @PlayersInRadius{r=8}
+ZarzycielAttack1:
+  Skills:
+  - CancelEvent
+  - damage{a=105} @trigger
+  - skill{s=LavaIgnite} 0.55 @trigger
+ZarzycielAttack2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=90}
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - delay 1
+  - shootfireball{y=1;v=1;sml=true;ps=true} @target
+  - delay 10
+  - shootfireball{y=1;v=1;sml=true;ps=true} @target
+  - delay 10
+  - shootfireball{y=1;v=1;sml=true;ps=true} @target

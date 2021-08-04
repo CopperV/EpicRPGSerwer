@@ -1,0 +1,20 @@
+name: "&4&lDeath"
+title: "&4&lDeath - quester"
+size: 9
+slots:
+  1:
+    item: "p_quest_8"
+  2:
+    item: "p_quest_14"
+  3:
+    item: "p_quest_15"
+  4:
+    item: "p_quest_19"
+  5:
+    item: "p_quest_17"
+  6:
+    item: "p_quest_23"
+  7:
+    item: "p_quest_24"
+  8:
+    item: "p_quest_37"

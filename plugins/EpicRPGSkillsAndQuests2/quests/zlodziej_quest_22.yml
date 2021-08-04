@@ -1,0 +1,35 @@
+id: "zlodziej_quest_22"                             
+name: "&8Pierscienie Cieni"                          
+zleceniodawca: "&7&lValeera"                       
+lore:                                               
+  - "&aCassia powrocila i zapewne latwo nie odda"
+  - "&aswojej pozycji."
+  - "&aLecz to nie oznacza dla mnie konca."
+  - "&aStworze nowa gildie, ktora bedzie"
+  - "&agromadzic najwiekszych skrytobojcow."
+  - "&aPotrzebuje jednak znaku rozpoznawczego."
+  - "&aPosluze sie pierscieniami, ktore mozna znalezc"
+  - "&ana nowym swiecie."
+  - "&aPrzynies mi je, a dam Ci wszystko, co mi zostalo."
+prize:                                    
+  - "xp: 125000"
+  - "money: 7000"
+require:                                            
+  - "level: 60"
+  - "quest: zlodziej_quest_18"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "zlodziej_quest_22_1_1"                     
+        type: "przynies"       
+        targetName: "&ePierscien Masjafu"
+        message: "Przynies Valeerze Pierscien Masjafu: %stan%"
+        ilosc: 1
+      2:
+        id: "zlodziej_quest_22_1_2"                     
+        type: "przynies"       
+        targetName: "&8&lPierscien Morgulu"
+        message: "Przynies Valeerze 9 Pierscieni Morgulu: %stan%"
+        ilosc: 9

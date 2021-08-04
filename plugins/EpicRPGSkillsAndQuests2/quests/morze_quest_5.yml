@@ -1,0 +1,31 @@
+id: "morze_quest_5"                                
+name: "&1&oSprzet nurka"                          
+zleceniodawca: "&4Nars"                       
+lore:                                               
+  - "&aObecnosc straznikow swiatynnych swiadczy o tym,"
+  - "&aze gdzies tutaj musi byc swiatynia Neptuloan."
+  - "&aNie chce Ciebie prosic o taka duperele."
+  - "&aSam ja znajde."
+  - "&aPotrzebuje jednak do tego sprzetu."
+prize:                                    
+  - "xp: 40000"
+  - "money: 500"
+require:                                            
+  - "level: 46"
+  - "quest: morze_quest_3"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "morze_quest_5_1_1"
+        type: "przynies"
+        targetName: "&9Buty koralowe"
+        message: "Przynies jedna pare butow koralowych: %stan%"
+        ilosc: 1
+      2:
+        id: "morze_quest_5_1_2"
+        type: "przynies"
+        targetName: "&bHelm nurka"
+        message: "Przynies jeden helm nurka: %stan%"
+        ilosc: 1

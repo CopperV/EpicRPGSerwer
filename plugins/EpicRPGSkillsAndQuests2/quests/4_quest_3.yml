@@ -1,0 +1,33 @@
+id: "4_quest_3"                                
+name: "&c&oInwazja orkow"                          
+zleceniodawca: "&4Reg"                       
+lore:                                               
+  - "&aOrkowie pojawili sie tutaj nagle, nikt nie jest"
+  - "&ado konca pewien skad."
+  - "&aRozbili u brzegu swoj oboz oraz zajeli pobliska wysepke"
+  - "&aczyniac z niej kwatere glowna."
+  - "&aWlasciwie tylko stamtad naplywaja orkowie..."
+  - "&aCaly czas nie wiemy ilu ich wlasciwie jest."
+  - "&eDlatego powinienes zaczac od powolnego wybijania ich."
+prize:                                    
+  - "xp: 4500"
+  - "money: 155"
+require:                                            
+  - "level: 31"
+  - "quest: 4_quest_2"
+stopnie:
+  1:
+    talking: true          
+    targets:
+      1:
+        id: "4_quest_3_1_1"                     
+        type: "zabij"       
+        targetName: "&2Ork"                      
+        message: "Zabij 40 Orkow: %stan%"
+        ilosc: 40
+      2:
+        id: "4_quest_3_1_2"                     
+        type: "zabij"       
+        targetName: "&cOrk wojownik"                      
+        message: "Zabij 15 Orkowych wojownikow: %stan%"
+        ilosc: 15

@@ -1,0 +1,16 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+SpiderAttack1:
+  Skills:
+  - potion{type=CONFUSION;duration=200;level=4} @trigger
+  - potion{type=POISON;duration=300;level=1} @trigger
+SpiderAttack2:
+  Skills:
+  - potion{type=HUNGER;duration=300;level=2} @trigger
+SpiderAttack3:
+  Skills:
+  - potion{type=SLOW;duration=100;level=1} @trigger
+SpiderAttack4:
+  Skills:
+  - potion{type=POISON;duration=100;level=3} @trigger

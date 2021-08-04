@@ -1,0 +1,51 @@
+id: "strzelec_quest_7"
+name: "&bZdrajca assasynow"
+zleceniodawca: "&2&lRonin"
+lore:
+  - "&aMy i assasyni z twierdzy mamy wiele wspolnych interesow,"
+  - "&awiec chyba nie dziwny jest fakt,"
+  - "&aze przejmujemy sie zdrada Nizara."
+  - "&aMusimy polozyc kres dzialan tego zbrodniarza."
+  - "&aI wlasnie w tym celu wyslemy Ciebie"
+  - "&ado &6&lRhobara&a."
+  - "&aMysle, ze nowe zadanie nie sprawi Ci zbyt"
+  - "&awielkich problemow zwazywszy na to,"
+  - "&aco zrobiles na poludniu."
+prize:
+  - "xp: 1000"
+require:
+  - "level: 35"
+  - "klasa: &2Mysliwy"
+  - "quest: strzelec_quest_6"
+  - "quest: pirat_quest_5"
+stopnie:
+  1:
+    talking: false
+    targets:
+      1:
+        id: "strzelec_quest_7_1_1"
+        type: "zagadaj"
+        targetName: "&6&lRhobar"
+        message: "Porozmawiaj z &6&lRhobarem: %stan%"
+        dialog:
+          - "%player%&7: &aPrzychodze od &2&lRonina&a, czas polozyc kres rzadom Nizara."
+          - "&6&lRhobar&7: &aCzas najwyzszy."
+          - "&6&lRhobar&7: &aPogadaj z &6Nefariusem&a."
+          - "&6&lRhobar&7: &aOn sie podjal tego zadania."
+          - "&6&lRhobar&7: &aPoza tym jemu najbardziej zalezalo na dorwaniu Nizara."
+  2:
+    talking: false
+    targets:
+      1:
+        id: "strzelec_quest_7_2_1"
+        type: "zagadaj"
+        targetName: "&6Nefarius"
+        message: "Porozmawiaj z &6Nefariusem: %stan%"
+        dialog:
+        - "%player%&7: &aJak sie miewaja sprawy z Nizarem..."
+        - "&6Nefarius&7: &aZartujesz sobie ze mnie, tak?"
+        - "&6Nefarius&7: &aNa niczym innym nie zalezy mi tak bardzo, jak na dorwaniu tego sukinkota."
+        - "&6Nefarius&7: &aNiestety, wszystkie znaki mi mowia, ze porwalem sie z motyka na slonce."
+        - "&6Nefarius&7: &aTen tchorz ukryl sie gdzies gleboko na tej kamiennej pustyni, a dodatkowo otoczyl siebie ogromna iloscia elitarnych assasynow."
+        - "&6Nefarius&7: &aNie sposob znalezc jego miejsca urzedowania, a co dopiero go dorwac."
+        - "&6Nefarius&7: &aMam jednak nadzieje, ze z Twoja pomoca sie to zmieni."

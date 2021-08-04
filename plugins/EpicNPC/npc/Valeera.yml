@@ -1,0 +1,17 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&8&lValeera"
+  - "&7[&8&lLOTR&7]"
+skinid: 1431838322
+location:
+  world: "F_RPG"
+  x: 8.5
+  y: 40
+  z: -64.5
+  yaw: 0
+  pitch: 0
+lookat: true
+state: CROUCHED
+hidequest: "zlodziej_quest_17"

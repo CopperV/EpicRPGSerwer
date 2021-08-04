@@ -1,0 +1,71 @@
+id: "fabula_quest_12"
+name: "&1&oOdbic port"                          
+zleceniodawca: "&e&lNers"
+lore:
+  - "&aTeraz, kiedy zdziesiatkowales piratow"
+  - "&ai stales sie ich postrachem,"
+  - "&ato mozemy zabierac sie za odbijanie portu!"
+  - "&aMusisz na poczatku rozeznac sie w sytuacji w porcie,"
+  - "&aa nastepnie wybic tylu piratow, ilu sie da."
+prize:                                    
+  - "xp: 15000"
+require:                                            
+  - "quest: fabula_quest_9"
+  - "quest: pirat_quest_5"
+  - "level: 30"
+stopnie:
+  1:
+    talking: false
+    message: "&r%player%&7: &bNo, to chyba miasto mam obcykane. Teraz pora zajac sie piratami..."
+    targets:
+      1:
+        id: "fabula_quest_12_1_1"
+        type: "znajdz"
+        targetName: "port1"
+        message: "Udaj sie do bramy glownej portu (374;978): %stan%"
+      2:
+        id: "fabula_quest_12_1_2"
+        type: "znajdz"
+        targetName: "port2"
+        message: "Odnajdz kwatery strazy portowej (360;986): %stan%"
+      3:
+        id: "fabula_quest_12_1_3"
+        type: "znajdz"
+        targetName: "port3"
+        message: "Odnajdz komende strazy portowej (385;989): %stan%"
+      4:
+        id: "fabula_quest_12_1_4"
+        type: "znajdz"
+        targetName: "port4"
+        message: "Odnajdz 2 portowe zajazdy (326;990): %stan%"
+      5:
+        id: "fabula_quest_12_1_5"
+        type: "znajdz"
+        targetName: "port5"
+        message: "Odnajdz glowny magazyn portowy (372;1030): %stan%"
+      6:
+        id: "fabula_quest_12_1_6"
+        type: "znajdz"
+        targetName: "port6"
+        message: "Odnajdz piracki statek zacumowany w porcie (373;1083): %stan%"
+  2:
+    talking: true
+    targets:
+      1:
+        id: "fabula_quest_12_2_1"
+        type: "zabij"
+        targetName: "&eBukanier"
+        message: "Zabij 15 bukanierow: %stan%"
+        ilosc: 15
+      2:
+        id: "fabula_quest_12_2_2"
+        type: "zabij"
+        targetName: "&cSilny pirat"
+        message: "Zabij 10 silnych piratow: %stan%"
+        ilosc: 10
+      3:
+        id: "fabula_quest_12_2_3"
+        type: "zabij"
+        targetName: "&6Korsarz"
+        message: "Zabij 35 korsarzy: %stan%"
+        ilosc: 35

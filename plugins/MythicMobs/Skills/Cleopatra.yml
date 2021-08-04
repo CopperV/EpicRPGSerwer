@@ -1,0 +1,107 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+KhardimonAttack:
+  Skills:
+  - CancelEvent
+  - damage{a=75} @trigger
+  - skill{s=LavaIgnite} 0.4 @trigger
+CleoSpawn:
+  Skills:
+  - delay 1
+  - effect:flames @self
+  - sound{s=entity.ghast.shoot} @PIR{r=20}
+  - pull{v=8;to=true} @PIR{r=20}
+  - delay 10
+  - effect:explosion @self
+  - throw{velocity=16;velocityY=22} @PlayersInRadius{r=20}
+  - delay 15
+  - suicide onTimer:10 1
+  - sound{s=record.far;v=10} @Self
+CleopatraSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &7Kto smie zaklucac moj spokoj?"} @PlayersInRadius{r=20}
+  - summon{mob=Cleo;amount=1;noise=0} @Self
+CleopatraSummon1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=70}
+  - message{m="<mob.name><&co> &7Starozytni powstana przeciw tobie!"} @PlayersInRadius{r=10}
+  - delay 10
+  - summon{mob=Egipt6;amount=1;noise=4} @PIR{r=10}
+  - summon{mob=Egipt6;amount=1;noise=4} @PIR{r=10}
+CleopatraSummon2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=70}
+  - message{m="<mob.name><&co> &7Kaplani, powstancie z grobow!"} @PlayersInRadius{r=10}
+  - delay 10
+  - summon{mob=Egipt4;amount=1;noise=1} @Self
+  - summon{mob=Egipt4;amount=1;noise=1} @Self
+  - summon{mob=Egipt4;amount=1;noise=1} @Self
+CleopatraAttack3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=70}
+  - message{m="<mob.name><&co> &7Naszego gniewu nie unikniecie"} @PlayersInRadius{r=20}
+  - delay 10
+  - summon{mob=Egipt4;amount=1;noise=4} @Self
+  - summon{mob=Egipt4;amount=1;noise=4} @Self
+  - summon{mob=Egipt6;amount=1;noise=4} @Self
+  - summon{mob=Egipt6;amount=1;noise=4} @Self
+CleopatraAttack1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=90}
+  - message{m="<mob.name><&co> &7Rownowaga musi powrocic!"} @PlayersInRadius{r=15}
+  - effect:particlesphere{particle=reddust;amount=300;radius=1.5;y=0.5} @self
+  - delay 10
+  - shootskull{y=30;v=2} @target
+  - delay 10
+  - shootskull{y=30;v=2} @target
+  - delay 10
+  - shootskull{y=30;v=2} @target
+CleopatraAttack2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=75}
+  - message{m="<mob.name><&co> &7Nie pokonacie najwyzszego kaplana!"} @PlayersInRadius{r=10}
+  - effect:particleline{particle=reddust;amount=10;fromOrigin=true} @PIR{r=10}
+  - delay 15
+  - ignite{ticks=400} @PIR{r=10}
+  - effect:flames @PIR{r=10}
+CleopatraAttack4:
+  Conditions:
+  - playerwithin{d=9} true
+  Skills:
+  - message{m="<mob.name><&co> &7Nedzni smiertelnicy"} @PlayersInRadius{r=10}
+  - delay 20
+  - skill{s=DeathSkill}
+DeathSkill:
+  Conditions:
+  - playerwithin{d=9} true
+  Skills:
+  - effect:particleline{particle=largesmoke;amount=10;fromOrigin=true} @PIR{r=9}
+  - effect:particlesphere{particle=largesmoke;amount=10;radius=2} @self
+  - effect:particlesphere{particle=largesmoke;amount=10;radius=2} @PIR{r=9}
+  - damage{a=60} @PIR{r=9}
+  - delay 20
+  - skill{s=DeathSkill}
+CleopatraDeath:
+  Skills:
+  - message{m="<mob.name><&co> &7Ach... Wybacz &7&lStonnosie&7..."} @PlayersInRadius{r=30}
+  - delay 20
+  - message{m="<mob.name><&co> &7Najwyzszy opiekun i tak was powstrzyma"} @PlayersInRadius{r=30}
+  - delay 20
+  - effect:particlesphere{particle=reddust;amount=300;radius=1.5;y=0.5} @self
+  - delay 10
+  - effect:explosion @self
+  - delay 10
+  - effect:explosion @trigger
+  - delay 10
+  - effect:explosion @PlayersInRadius{r=30}

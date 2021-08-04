@@ -1,0 +1,8 @@
+name: "&6&lSara"
+title: "&6&lSara - quester"
+size: 9
+slots:
+  1:
+    item: "zlecenie_epicboss"
+  2:
+    item: "zlecenie_useless"

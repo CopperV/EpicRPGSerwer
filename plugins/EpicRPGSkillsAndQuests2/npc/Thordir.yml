@@ -1,0 +1,6 @@
+name: "&9&lThordir"
+title: "&9&lThordir - quester"
+size: 9
+slots:
+  1:
+    item: "p_quest_31"

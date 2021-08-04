@@ -1,0 +1,15 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&1Kairo"
+  - "&7[&5NADWORNY MAG&7]"
+skinid: 1616400587
+location:
+  world: "F_RPG"
+  x: -138.5
+  y: 55.0
+  z: 41.5
+  yaw: 0
+  pitch: 45
+lookat: true

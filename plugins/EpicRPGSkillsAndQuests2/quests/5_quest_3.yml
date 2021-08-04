@@ -1,0 +1,28 @@
+id: "5_quest_3"                                
+name: "&3Niewinni osadnicy"                          
+zleceniodawca: "&b&lTyrael"                       
+lore:                                               
+  - "&aDo tej pory nie mamy pojecia"
+  - "&askad pojawilo sie tutaj to spaczenie."
+  - "&aJak widac, spowodowalo ono wiele zniszczen i..."
+  - "&acierpienia."
+  - "&aMieszkancy tego miasteczka niczym nie zawinili,"
+  - "&aa jednak zostali skazani na wieczna tulaczke."
+  - "&aW swych cierpieniach nie rozrozniaja"
+  - "&aswoich od wrogow."
+  - "&aMozna ulzyc im w tych meczarniach pokonujac ich."
+prize:                                    
+  - "xp: 39500"
+require:                                            
+  - "level: 42"
+  - "quest: 5_quest_2"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "5_quest_3_1_1"                     
+        type: "zabij"       
+        targetName: "&cSpaczona dusza"                      
+        message: "Pokonaj 23 spaczonych dusz: %stan%"
+        ilosc: 23

@@ -1,0 +1,38 @@
+id: "3_quest_10"                                
+name: "&4Bez ratunku"                          
+zleceniodawca: "&a&lJasuo"                       
+lore:                                               
+  - "&aNiestety, wyglada na to, ze nie uda nam sie uratowac"
+  - "&atych ludzi."
+  - "&aJedyna dla nich i dla nas nadzieja jest to,"
+  - "&aze w koncu uda nam sie ich wszystkich wybic."
+  - "&aNie mozna wyslac tam calej armii,"
+  - "&agdyz wystarczy jedno ugryzienie, by sie zarazic."
+  - "&aPotrzebuje Twojej pomocy w uwolnieniu tych ludzi."
+prize:                                    
+  - "xp: 9375"
+require:                                            
+  - "level: 29"
+  - "quest: 3_quest_9"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "3_quest_10_1_1"
+        type: "zabij"
+        targetName: "&cZarazony Gornik"
+        message: "Zabij 30 gornikow z wykopalisk: %stan%"
+        ilosc: 30
+      2:
+        id: "3_quest_10_1_2"
+        type: "zabij"
+        targetName: "&4Zarazony"
+        message: "Zabij 25 zarazonych z wykopalisk: %stan%"
+        ilosc: 25
+      3:
+        id: "3_quest_10_1_3"
+        type: "zabij"
+        targetName: "&c&lKlikacz"
+        message: "Zabij 15 klikaczy z wykopalisk: %stan%"
+        ilosc: 15

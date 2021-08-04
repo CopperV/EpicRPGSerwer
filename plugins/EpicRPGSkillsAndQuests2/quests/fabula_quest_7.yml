@@ -1,0 +1,114 @@
+id: "fabula_quest_7"                                
+name: "&5&oGrobowiec Khardimona"                          
+zleceniodawca: "&1Saturas"                       
+lore:                                               
+  - "&aZnalazlem cos, co moze nam sie przydac."
+  - "&aBudowniczowie z jakiegos powodu wybudowali dwa grobowce."
+  - "&aJeden tutaj, dla Quarhodrona, a drugia dla Khardimona."
+  - "&aGrobowiec Quarhodrona mial byc zmylka, dlatego postawiono"
+  - "&ago w tak oczywistym miejscu."
+  - "&aKhardimon byl najwyzszym kaplanem i wlasciwie najwazniejsza"
+  - "&aosoba w cywilizacji budowniczych."
+  - "&aNiestety, nie mamy pojecia, gdzie sie obecnie znajduje."
+  - "&aMozliwe, ze uda nam sie napotkac gdzies w pismach budowniczych."
+prize:                                    
+  - "xp: 20000"
+require:                                            
+  - "quest: fabula_quest_6"
+  - "level: 25"
+stopnie:
+  1:
+    talking: true
+    message: "&1Saturas&7: &aNo dobra, popatrzy, co my tutaj mamy... Tak, tak... O, chyba cos mam... Tutaj jest jakas wzmianka o Khardimonie. Rozkaz wybudowania grobowca na wschodzie wyspy... I jakies dziwne, niezrozumiale dla mnie inskrypcje... Dobra, idz i poszukaj tego grobowca na wschodzie. Jak znajdziesz, to wroc do mnie."
+    targets:
+      1:
+        id: "fabula_quest_7_1_1"
+        type: "zabij"
+        targetName: "&6&lKaplan budowniczych"
+        message: "Pokonaj 40 kaplanow budowniczych: %stan%"
+        ilosc: 40
+      2:
+        id: "fabula_quest_7_1_2"
+        type: "przynies"
+        targetName: "&rPisma budowniczych"
+        message: "Przynies 30 pism budowniczych: %stan%"
+        ilosc: 30
+  2:
+    talking: false
+    message: "&r%player%&7: &bHmm... To wyglada na grobowiec, ktorego szukalem. Inna lokalizacja, fauna, ale style sa podobne. Poza tym ta ogromna ilosc mumii. Trzeba bedzie to wszystko oczyscic..."
+    targets:
+      1:
+        id: "fabula_quest_7_2_1"
+        type: "znajdz"
+        targetName: "khardimon"
+        message: "Odnajdz grobowiec Khardimona gdzies na wschodzie wyspy: %stan%"
+  3:
+    talking: false
+    message: "&r%player%&7: &bNo dobra, grobowiec oczyszczony. Trzeba teraz porozmawiac z &1Saturasem&b."
+    targets:
+      1:
+        id: "fabula_quest_7_3_1"
+        type: "zabij"
+        targetName: "&4STAROZYTNA MUMIA"
+        message: "Pokonaj 30 starozytne mumie: %stan%"
+        ilosc: 30
+      2:
+        id: "fabula_quest_7_3_2"
+        type: "zabij"
+        targetName: "&2Goryl"
+        message: "Zabij 15 goryli z dzungli: %stan%"
+        ilosc: 15
+      3:
+        id: "fabula_quest_7_3_3"
+        type: "zabij"
+        targetName: "&3Wsciekla papuga"
+        message: "Zabij 15 papug z dzungli: %stan%"
+        ilosc: 15
+      4:
+        id: "fabula_quest_7_3_4"
+        type: "zabij"
+        targetName: "&8Pantera"
+        message: "Zabij 15 panter z dzungli: %stan%"
+        ilosc: 15
+  4:
+    talking: false
+    targets:
+      1:
+        id: "fabula_quest_7_4_1"
+        type: "zagadaj"
+        targetName: "&1Saturas"
+        message: "Porozmawiaj z Saturasem o odnalezionym grobowcu: %stan%"
+        dialog:
+          - "&r%player%&7: &bMiales racje, na wschodzie w dzungli, w poblizu kopalni znajduje sie grobowiec."
+          - "&r%player%&7: &bPelno jest tam mumii."
+          - "&r%player%&7: &bZaloze sie, ze jest to grobowiec Khardimona."
+          - "&1Saturas&7: &aW takim razie pozostaje Ci tylko tam pojsc i go pokonac."
+          - "&1Saturas&7: &aMam nadzieje, ze po jego pokonaniu wszystko wroci na swoje miejsce."
+          - "&1Saturas&7: &aDam Ci jednak pewna rade."
+          - "&1Saturas&7: &aNie lekcewaz go - byl on najpotezniejszych kaplanem i zarazem magii w starozytnych czasach."
+          - "&1Saturas&7: &aNajlepiej zrobisz zbierajac jakas druzyne i pokonujac go wspolnymi silami."
+  5:
+    talking: false
+    message: "&r%player%&7: &bCo on gada!? Stonnos!? Najwyzszy opiekun!? Trzeba o tym powiedziec &1Saturasowi&b."
+    targets:
+      1:
+        id: "fabula_quest_7_5_1"
+        type: "zabij"
+        targetName: "&b&lKhardimon - Najwyzszy kaplan - EPIC BOSS"
+        message: "Zbierz druzyne i pokonaj najwyzszego kaplana - Khardimona: %stan%"
+        ilosc: 1
+  6:
+    talking: false
+    targets:
+      1:
+        id: "fabula_quest_7_6_1"
+        type: "zagadaj"
+        targetName: "&1Saturas"
+        message: "Porozmawiaj z Saturasem: %stan%"
+        dialog:
+          - "&r%player%&7: &bKhardimon zostal pokonany, lecz cos wzbudzilo moje podejrzenia."
+          - "&r%player%&7: &bW swoich ostatnich slowa, jakie zdolal wypowiedziec, powiedzial cos o Stonnosie i najwyzszym opiekunie."
+          - "&1Saturas&7: &aDziwna sytuacja. Nigdy nie natrafilem na wzmianke o nim a takze o tym opiekunie..."
+          - "&1Saturas&7: &aPoza tym z niewiadomych przyczyn, budowniczowie zaprzestali na jakis czas atakow."
+          - "&1Saturas&7: &aCzesciowo pokonanie Khardimona spelnilo nasz cel, lecz nadal pozostaje jeden problem..."
+          - "&1Saturas&7: &aBudowniczowie skrywaja jeszcze wiele sekretow, o ktorych, zdaje sie, celowo nie wspomnieli w swoich zapiskach..."

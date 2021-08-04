@@ -1,0 +1,38 @@
+id: "2_quest_7"                                
+name: "&6&oKultura budowniczych"                          
+zleceniodawca: "&1Saturas"                       
+lore:                                               
+  - "&aOstatnie twoje zadanie nie pobieglo zbyt"
+  - "&abardzo po mojej mysli."
+  - "&aAle mam inne zadanie - rownie bardzo wymagajace."
+  - "&aBudowniczowie mieli swoich kaplanow,"
+  - "&aktorzy wyrozniali sie na tle spoleczenstwa wiedza, moca i madroscia."
+  - "&aJestem przekonany, ze mozna u nich znalezc jakies pisma,"
+  - "&aktore pomoga nam lepiej zrozumiec ich kulture."
+prize:                                    
+  - "xp: 2000"
+require:                                            
+  - "level: 16"
+  - "quest: 2_quest_6"
+stopnie:
+  1:
+    talking: true
+    message: "&1Saturas&7: &aMyslalem, ze juz nie wrocisz. Troche Ci to zajelo... W dodatku nie za duzo tych pism przyniosles. Dobra, niech ci juz bedzie - zobaczymy, co sie uda z tych pism wydedukowac"
+    targets:
+      1:
+        id: "2_quest_7_1_1"
+        type: "znajdz"
+        targetName: "wioska_budowniczych"
+        message: "Udaj sie do starej wioski budowniczych (-202;675): %stan%"
+      2:
+        id: "2_quest_7_1_2"
+        type: "zabij"
+        targetName: "&6&lKaplan budowniczych"
+        message: "Pokonaj 15 kaplanow budowniczych: %stan%"
+        ilosc: 15
+      3:
+        id: "2_quest_7_1_3"
+        type: "przynies"
+        targetName: "&rPisma budowniczych"
+        message: "Przynies 10 pism budowniczych: %stan%"
+        ilosc: 10

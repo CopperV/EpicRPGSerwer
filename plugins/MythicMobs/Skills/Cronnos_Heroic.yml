@@ -1,0 +1,137 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+Cronnos_H_Attack:
+  Skills:
+  - throw{velocity=19;velocityY=7}
+  - sound{s=entity.irongolem.attack;v=10;p=1} @self
+Cronnos_H_Spawn:
+  Skills:
+  - message{m="<mob.name><&co> &7Wykryto intruzuow..."} @PlayersInRadius{r=15}
+  - delay 40
+  - message{m="<mob.name><&co> &7Uruchamiam zabezpieczenia obronne!"} @PlayersInRadius{r=15}
+  - threat{amount=20} @NearestPlayer
+Cronnos_H_Skill_1:
+  Conditions:
+  - hasaura Cronnos_H_Skill false
+  Skills:
+  - Aura{auraName=Cronnos_H_Skill;duration=100} @self
+  - message{m="<mob.name><&co> &7Procedura pozbycia intruza - uruchomiona"} @PlayersInRadius{r=15}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bCronnos zaczal castowac Bombe Cronnosa!";d=100} @PIR{r=20}
+  - skill{s=Cronnos_H_EffectSkill} @RandomThreatTarget
+Cronnos_H_EffectSkill:
+  Skills:
+  - skill{s=Cronnos_H_EffectSkill_1_PB}
+  - delay 100
+  - summon{mob=Cronnos_H_Skill1Damage_H;amount=1;noise=0}
+  - threat{amount=-20} @PlayersInRadius{r=3}
+  - damage{amount=140;pkb=true}
+
+Cronnos_H_Skill_2:
+  Conditions:
+  - hasaura Cronnos_H_Skill false
+  Skills:
+  - Aura{auraName=Cronnos_H_Skill;duration=320} @self
+  - message{m="<mob.name><&co> &7Aktywacja tarczy ochronnej"} @PlayersInRadius{r=15}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bCronnos przygotowuje orbitalna tarcze!";d=100} @PIR{r=20}
+  - delay 100
+  - skill{s=Cronnos_H_Shield}
+
+
+Cronnos_H_Skill_3:
+  Skills:
+  - message{m="<mob.name><&co> &7Uruchamiam wsparcie wiezienne"} @PlayersInRadius{r=15}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bCronnos przygotowuje przyzwanie totemu!";d=100} @PIR{r=20}
+  - delay 100
+  - skill{s=Cronnos_H_Totem} @SelfLocation
+
+Cronnos_H_Totem:
+  Skills:
+  - totem{ch=15;oT=Cronnos_H_TotemTick;oH=Cronnos_H_TotemHit;oE=Cronnos_H_TotemEnd;oS=Cronnos_H_TotemStart;hR=4.5;vR=4.5;md=200;yo=1;hp=true}
+
+Cronnos_H_TotemTick:
+  Skills:
+  - sound{s=block.fire.ambient;v=1;p=1} @origin
+  - effect:particlesphere{particle=slime;amount=50;radius=2.25} @origin
+
+Cronnos_H_TotemHit:
+  Skills:
+  - damage{amount=145}
+  - throw{velocity=12;velocityY=5}
+  - potion{type=SLOW;duration=240;level=4}
+  - sound{s=entity.ghast.shoot;v=10;p=1}
+
+Cronnos_H_TotemEnd:
+  Skills:
+  - damage{amount=200} @PlayersNearOrigin{r=7}
+  - throw{velocity=12;velocityY=5} @PlayersNearOrigin{r=7}
+  - sound{s=entity.generic.explode;v=4;p=2} @Origin
+  - effect:particlesphere{particle=slime;amount=50;radius=1.25;speed=0.25} @Origin
+  - effect:particlesphere{particle=largesmoke;amount=50;radius=1.25;speed=0.25} @Origin
+
+Cronnos_H_TotemStart:
+  Skills:
+  - sound{s=entity.endermen.stare;v=4;p=1} @Origin
+  - effect:particlesphere{particle=happyVillager;amount=100;radius=2.25;s=0.25} @origin
+
+Cronnos_H_Shield:
+  Skills:
+  - orbital{onTick=Cronnos_H_Shield-Tick;onHit=Cronnos_H_Shield-Hit;points=43;interval=1;duration=400;charges=1;r=2;hr=1;rx=0.78;ry=0;oy=1} @self
+  - orbital{onTick=Cronnos_H_Shield-Tick;onHit=Cronnos_H_Shield-Hit;points=31;interval=1;duration=400;charges=1;r=2;hr=1;rx=-0.78;ry=0;oy=1} @self
+  - orbital{onTick=Cronnos_H_Shield-Tick;onHit=Cronnos_H_Shield-Hit;points=29;interval=1;duration=400;charges=1;r=2;hr=1;rx=0;ry=0;oy=1} @self
+  - orbital{onTick=Cronnos_H_Shield-Tick;onHit=Cronnos_H_Shield-Hit;points=37;interval=1;duration=400;charges=1;r=2;hr=1;rx=0;ry=0;rz=-1.57;oy=1} @self
+  - orbital{onTick=Cronnos_H_Shield-Tick;onHit=Cronnos_H_Shield-Hit;points=47;interval=1;duration=400;charges=1;r=4;hr=1;rx=0.78;ry=0;oy=1} @self
+  - orbital{onTick=Cronnos_H_Shield-Tick;onHit=Cronnos_H_Shield-Hit;points=53;interval=1;duration=400;charges=1;r=4;hr=1;rx=-0.78;ry=0;oy=1} @self
+  - orbital{onTick=Cronnos_H_Shield-Tick;onHit=Cronnos_H_Shield-Hit;points=59;interval=1;duration=400;charges=1;r=4;hr=1;rx=0;ry=0;oy=1} @self
+  - orbital{onTick=Cronnos_H_Shield-Tick;onHit=Cronnos_H_Shield-Hit;points=61;interval=1;duration=400;charges=1;r=4;hr=1;rx=0;ry=0;rz=-1.57;oy=1} @self
+Cronnos_H_Shield-Tick:
+  Skills:
+  - effect:particles{p=cloud;amount=10;speed=0;hS=0.05;vS=0.05} @origin
+Cronnos_H_Shield-Hit:
+  Skills:
+  - damage{amount=145} @PlayersNearOrigin{r=2.5}
+  - sound{s=entity.generic.explode;v=1;p=1} @Origin
+Cronnos_H_InvDamage:
+  Skills:
+  - delay 2
+  - damage{amount=180} @PlayersNearOrigin{r=6}
+  - effect:particles{particle=blockcrack_3_0;amount=100;hS=4.5;vS=0.7;speed=0.15;yOffset=0.75} @self
+  - effect:particles{particle=largesmoke;amount=100;hS=4.5;vS=0.7;speed=0.15;yOffset=0.75} @self
+  - potion{type=SLOW;duration=200;level=3} @PlayersNearOrigin{r=6}
+  - sound{s=entity.enderdragon.growl;v=1} @self
+  - delay 2
+  - remove @self
+Cronnos_H_EffectSkill_1_PB:
+  Skills:
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
+  - delay 10
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
+  - delay 10
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
+  - delay 10
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
+  - delay 10
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
+  - delay 10
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
+  - delay 10
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
+  - delay 10
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
+  - delay 10
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
+  - delay 10
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
+  - delay 10
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
+  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}

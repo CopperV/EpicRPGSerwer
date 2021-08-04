@@ -1,0 +1,46 @@
+id: "mag_quest_9"
+name: "&5&oPierwiastki zywiolow"
+zleceniodawca: "&8Xardas"
+lore:
+  - "&aZywiolaki wbrew pozorom sa bardzo poteznymi stworzeniami,"
+  - "&alecz ich moc zalezy w duzym stopniu od roznych okolicznosci."
+  - "&aTe tutaj sa dosyc slabe chociazby w porownaniu do tych,"
+  - "&aktorych mozna znalezc w kraterze Un'Goro na kontynencie."
+  - "&aTo sprawia, ze pozyskanie elementium z zywiolakow"
+  - "&astaje sie o niebo przyjemniejsze."
+  - "&aTak sie sklada, ze potrzebuje do pewnych badan tych elementium."
+prize:
+  - "xp: 24000"
+  - "money: 1200"
+require:
+  - "level: 37"
+  - "klasa: &5Mag"
+  - "quest: mag_quest_8"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "mag_quest_9_1_1"
+        type: "przynies"
+        targetName: "&rElementium Powietrza"
+        message: "Przynies 10 sztuk elementium powietrza: %stan%"
+        ilosc: 10
+      2:
+        id: "mag_quest_9_1_2"
+        type: "przynies"
+        targetName: "&7Elementium Skaly"
+        message: "Przynies 10 sztuk elementium skaly: %stan%"
+        ilosc: 10
+      3:
+        id: "mag_quest_9_1_3"
+        type: "przynies"
+        targetName: "&bElementium Wody"
+        message: "Przynies 10 sztuk elementium wody: %stan%"
+        ilosc: 10
+      4:
+        id: "mag_quest_9_1_4"
+        type: "przynies"
+        targetName: "&cElementium Ognia"
+        message: "Przynies 10 sztuk elementium ognia: %stan%"
+        ilosc: 10

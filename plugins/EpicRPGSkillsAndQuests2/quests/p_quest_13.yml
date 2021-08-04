@@ -1,0 +1,52 @@
+id: "p_quest_13"
+name: "&3Zamkowy alchemik"
+zleceniodawca: "&1Kairo"
+lore:
+  - "&aNo dobra, teraz moge Ci powiedziec"
+  - "&ao moim zadaniu od &c&lAlexstraszy&a."
+  - "&aMialem znalezc laboratorium znajdujace"
+  - "&asie na zamku, ktore Ty juz odnalazles."
+  - "&aTeraz musze znalezc wystarczajaco dobrego alchemika,"
+  - "&aktory moglby pracowac na zamku."
+  - "&aLatasz tak po calym swiecie..."
+  - "&aNie moglbys czasem znalezc kogos, kto by sie nadawal?"
+prize:
+  - "xp: 675"
+  - "money: 900"
+require:
+  - "level: 21"
+  - "quest: p_quest_11"
+stopnie:
+  1:
+    talking: false
+    message: "&r%player%&7: &bNo to znalazlem alchemika dla &1Kairo&b. Trzeba mu o tym powiedziec."
+    targets:
+      1:
+        id: "p_quest_13_1_1"
+        type: "zagadaj"
+        targetName: "&0Ignaz"
+        message: "Znajdz osobe godna na zostanie zamkowym alchemikiem: %stan%"
+        dialog:
+          - "&r%player%&7: &0Ignazie&b, Ty jestes dobrym alchemikiem - lepszego w zyciu nie widzialem."
+          - "&r%player%&7: &bMam dla Ciebie oferte pracy. Bylbys zainteresowany?"
+          - "&0Ignaz&7: &aA jaka to prace masz dla starego, poczciwego alchemika?"
+          - "&r%player%&7: &bNa zamku poszukuja kogos, kto by sie zaopiekowal ich laboratorium alchemicznym."
+          - "&0Ignaz&7: &aOch, zawsze o tym marzylem!"
+          - "&0Ignaz&7: &aJuz nie raz staralem sie o posade tam, ale Baron Geddon zawsze odrzucal moje prosby."
+          - "&0Ignaz&7: &aZupelnie bez powodu!"
+          - "&r%player%&7: &bTo swietnie. Szykuj sie na pierwsze zlecenie."
+  2:
+    talking: false
+    targets:
+      1:
+        id: "p_quest_13_2_1"
+        type: "zagadaj"
+        targetName: "&1Kairo"
+        message: "Pogadaj z &1Kairo: %stan%"
+        dialog:
+          - "&r%player%&7: &bZadanie wykonane - znalazlem dla Ciebie alchemika."
+          - "&1Kairo&7: &aTo swietnie. Moglbym wiedziec kogo znalazles?"
+          - "&r%player%&7: &bTo alchemik &0Ignaz&b. Mysle, ze nie dalo sie lepszego znalezc."
+          - "&1Kairo&7: &aKojarze go - jest dobrym alchemikiem, lecz czasem zdaje sie byc wariatem."
+          - "&1Kairo&7: &aMysle, ze w razie koniecznosci bedzie go latwo zmanipulowac."
+          - "&1Kairo&7: &aWykonales swoja robote. Bierz to zloto i idz swoja droga."

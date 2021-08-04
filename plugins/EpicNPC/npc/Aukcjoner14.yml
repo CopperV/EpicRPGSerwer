@@ -1,0 +1,17 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&6&lAukcjoner"
+  - "&7[&e&l$&a&lMARKET&e&l$&7]"
+skinid: 1255928613
+location:
+  world: "Map113"
+  x: 84.5
+  y: 65
+  z: 217.5
+  yaw: 0
+  pitch: 15
+lookat: true
+commands:
+  - "asPlayer: ah"

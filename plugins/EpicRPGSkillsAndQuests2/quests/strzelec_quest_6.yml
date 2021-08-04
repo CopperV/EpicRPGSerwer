@@ -1,0 +1,29 @@
+id: "strzelec_quest_6"                                
+name: "&bRaport dla Ronina"                          
+zleceniodawca: "&7&lSaro"                       
+lore:                                               
+  - "&aWykonales kawal dobrej roboty tylko po to,"
+  - "&aby odbudowac nasze relacje."
+  - "&aIdz predko i powiedzo tym &27lRoninowi&a."
+prize:                                    
+  - "xp: 210"
+  - "money: 700"
+  - "cmd: crazycrates give physical Zwykla 1 %player%"
+  - "bc: &7[&b&lEpicRPG&7] &aGracz &7%player% &aukonczyl watek &2&oSZEMRANE INTERESY&a. &6&lGRATULACJE!"
+require:                                            
+  - "level: 17"
+  - "quest: strzelec_quest_5"
+  - "klasa: &2Mysliwy"
+stopnie:
+  1:
+    talking: false
+    targets:
+      1:
+        id: "strzelec_quest_6_1_1"
+        type: "zagadaj"
+        targetName: "&2&lRonin"
+        message: "Udaj sie do &2&lRonina: %stan%"
+        dialog:
+          - "&r%player%&7: &bPrzekonalem przemytnikow do odbudowy relacji i wznowienia wspolpracy."
+          - "&2&lRonin&7: &aWspaniala wiadomosc. Wiedzialem, ze Ci sie uda!"
+          - "&2&lRonin&7: &aPrzyjmij ta skromna nagrode."

@@ -1,0 +1,299 @@
+Zbroja_Powietrza_Zd:
+  Id: 307
+  Display: '&r&lZbroja Powietrza'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &726'
+  - '&4- &8Mana: &7+15'
+  - '&4- &8Inteligencja: &7+5'
+  - '&4- &8Zdolnosci mysliwskie: &7+6'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c165'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      MovementSpeed: 0.1
+Zbroja_Powietrza_Int:
+  Id: 307
+  Display: '&r&lZbroja Powietrza'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &733'
+  - '&4- &8Mana: &7+8'
+  - '&4- &8Inteligencja: &7+12'
+  - '&4- &8Walka: &7-5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c172'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 4
+      MovementSpeed: 0.07
+Zbroja_Powietrza_Mana:
+  Id: 307
+  Display: '&r&lZbroja Powietrza'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &730'
+  - '&4- &8Mana: &7+22'
+  - '&4- &8Inteligencja: &7+3'
+  - '&4- &8Sila: &7-5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c341'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 4
+      MovementSpeed: 0.06
+Czaszka_Ognia_Int:
+  Id: 314
+  Display: '&c&lCzaszka Ognia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &726'
+  - '&4- &8Mana: &7+10'
+  - '&4- &8Inteligencja: &7+10'
+  - '&4- &8Sila: &7+10'
+  - '&4- &8Zdolnosci mysliwskie: &7-4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c50'
+  - '&4- &8Inteligencja: &c240'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 8
+      MovementSpeed: -0.02
+      KnockbackResistance: 0.03
+Kostur_Skaly_Int:
+  Id: 291
+  Display: '&7&lKostur Skaly'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &740'
+  - '&4- &8Sila: &7+10'
+  - '&4- &8Inteligencja: &7+8'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c189'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.03
+    offhand:
+      MovementSpeed: -0.04
+Kostur_Skaly_Mana:
+  Id: 291
+  Display: '&7&lKostur Skaly'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &733'
+  - '&4- &8Sila: &7+8'
+  - '&4- &8Inteligencja: &7+5'
+  - '&4- &8Mana: &7+10'
+  - '&4- &8Walka: &7-1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c358'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.03
+    offhand:
+      MovementSpeed: -0.04
+Zbroja_Elementium_Mana:
+  Id: 311
+  Display: '&r&lZ&1&lb&7&lr&c&lo&r&lj&1&la &7&lE&c&ll&r&le&1&lm&7&le&c&ln&r&lt&1&li&7&lu&c&lm'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &740'
+  - '&4- &8Mana: &7+40'
+  - '&4- &8Inteligencja: &7+5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c390'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 25
+      MovementSpeed: 0.03
+      KnockbackResistance: 0.1
+Zbroja_Elementium_Int:
+  Id: 311
+  Display: '&r&lZ&1&lb&7&lr&c&lo&r&lj&1&la &7&lE&c&ll&r&le&1&lm&7&le&c&ln&r&lt&1&li&7&lu&c&lm'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &747'
+  - '&4- &8Mana: &7+10'
+  - '&4- &8Inteligencja: &7+15'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c198'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 25
+      MovementSpeed: 0.04
+      KnockbackResistance: 0.1
+Zbroja_Kalimosa_Int:
+  Id: 311
+  Display: '&6&lZbroja Kalimosa'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &775'
+  - '&4- &8Mana: &7+45'
+  - '&4- &8Inteligencja: &7+50'
+  - '&4- &8Walka: &7+15'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c190'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 50
+      MovementSpeed: 0.1
+      KnockbackResistance: 0.1
+Zbroja_Kalimosa_Mana:
+  Id: 311
+  Display: '&6&lZbroja Kalimosa'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &765'
+  - '&4- &8Mana: &7+120'
+  - '&4- &8Inteligencja: &7+25'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Wytrzymalosc: &7+5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c375'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 50
+      MovementSpeed: 0.1
+      KnockbackResistance: 0.1
+Elementium_Wody:
+  Id: 351
+  Data: 12
+  Display: '&bElementium Wody'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Elementium_Ognia:
+  Id: 351
+  Data: 14
+  Display: '&cElementium Ognia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Elementium_Skaly:
+  Id: 351
+  Data: 8
+  Display: '&7Elementium Skaly'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Elementium_Powietrza:
+  Id: 351
+  Data: 7
+  Display: '&rElementium Powietrza'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Pierwiastek_Kalimosa:
+  Id: 406
+  Display: '&ePierwiastek Kalimosa'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Esencja_RPG:
+  Id: 406
+  Display: '&6&lEsencja RPG'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Plonaca_Czaszka:
+  Id: 397
+  Data: 1
+  Display: '&4Plonaca Czaszka'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+KalimosPaper:
+  Id: 339
+  Display: '&r&oZwoj teleportacji - zrodlo zywiolow'
+  Lore:
+  - ''
+  - '&aZwoj teleportacji do zrodla zywiolow,'
+  - '&askad wywodza sie wszystkie zywioly'
+  - '&atego swiata.'
+  - '&aJest to miejsce przebywania Kalimosa,'
+  - '&aEpicBossa.'
+  - ''
+  - '&eKalimos to pierwotny wladca zywiolow,'
+  - '&ewlada kazdym aspektem.'
+  - '&eJest juz stary i slaby, co jest jedyna'
+  - '&edobra wiadomoscia'

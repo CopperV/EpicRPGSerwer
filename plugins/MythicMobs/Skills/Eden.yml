@@ -1,0 +1,75 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+
+EdenSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &9&oIntruzi wkroczyli do naszego Sacrum!"} @PlayersInRadius{r=25}
+
+EdenProtection:
+  Conditions:
+  - mobsInRadius{types=EdenCrystal;amount=1to4;radius=100} true
+  Skills:
+  - heal{amount=1500} @self
+
+EdenSkill1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=60} @self
+  - message{m="<mob.name><&co> &9&oWas wszystkich pochlonie tutejsza prastara wiedza!"} @PlayersInRadius{r=25}
+  - summon{type=EdenBook;amount=3to6;radius=3} @self
+
+EdenSkill2:
+  Conditions:
+  - offgcd
+  - mobsInRadius{types=EdenCrystal;amount=1to4;radius=100} false
+  Skills:
+  - gcd{ticks=100} @self
+  - message{m="<mob.name><&co> &9&oMoc tych ksiag jest nieograniczona!"} @PlayersInRadius{r=25}
+  - summon{type=EdenCrystal;amount=1;radius=0} @Location{c=-1917.5,80,1341.5,0,0}
+  - summon{type=EdenCrystal;amount=1;radius=0} @Location{c=-1907.5,80,1341.5,0,0}
+  - summon{type=EdenCrystal;amount=1;radius=0} @Location{c=-1917.5,80,1351.5,0,0}
+  - summon{type=EdenCrystal;amount=1;radius=0} @Location{c=-1907.5,80,1351.5,0,0}
+
+EdenSkill3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=100} @self
+  - effect:particles{particle=slime;amount=25;speed=0.1;hS=0.4;vS=0.4} @self
+  - sound{s=entity.ghast.shoot;v=10;p=0.6} @self
+  - jump{velocity=2}
+  - delay 20
+  - leap{velocity=500} @PlayersInRadius{r=50;limit=1;sort=RANDOM}
+  - delay 10
+  - jump{velocity=-100}
+  - effect:particlesphere{particle=explode;amount=20;radius=4} @self
+  - sound{s=entity.generic.explode;v=6;p=0.2} @self
+  - damage{amount=180} @PIR{r=4}
+  - throw{velocity=15;velocityY=5} @PlayersInRadius{r=4}
+
+
+EdenCrystalDeath:
+  Skills:
+  - sound{s=entity.generic.explode;v=6} @self
+  - effect:particles{particle=hugeexplosion;amount=4;hS=0.2;vS=0.2} @self
+  - damage{a=155} @PIR{r=4}
+  - throw{velocity=11;velocityY=5} @PIR{r=4}
+  - remove @self
+
+EdenCrystalProjectile:
+  Skills:
+  - effect:sound{s=item.totem.use;v=4;p=0.1} @self
+  - projectile{onTick=EdenCrystalProjectile-Tick;onHit=EdenCrystalProjectile-End;v=7;i=1;hR=0.8;vR=0.8;mr=40;sB=false;sE=false} @PIR{r=35}
+
+EdenCrystalProjectile-Tick:
+  Skills:
+  - effect:particles{particle=enchantmenttable;amount=10;speed=0.2;hS=0.3;vS=0.3} @origin
+
+
+EdenCrystalProjectile-End:
+  Skills:
+  - sound{s=entity.firework.large_blast_far;v=4;p=0.2} @origin
+  - damage{amount=165}
+  - effect:particles{particle=enchantmenttable;amount=30;speed=0.15;hS=0.5;vS=0.5} @origin

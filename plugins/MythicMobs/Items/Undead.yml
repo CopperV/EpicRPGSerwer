@@ -1,0 +1,460 @@
+Czapka_Gornika_Str:
+  Id: 298
+  Display: '&2Czapka gornika'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &721'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Zrecznosc: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c85'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 2
+      MovementSpeed: 0.03
+Czapka_Gornika_Wytrz:
+  Id: 298
+  Display: '&2Czapka gornika'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &728'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Wytrzymalosc: &7+3'
+  - '&4- &8Zrecznosc: &7+1'
+  - '&4- &8Zdolnosci mysliwskie: &7+1'
+  - '&4- &8Mana: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c96'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 4
+      MovementSpeed: 0.01
+      KnockbackResistance: 0.01
+Spodnie_Kopacza_Zr:
+  Id: 300
+  Display: '&2Spodnie kopacza'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &719'
+  - '&4- &8Sila: &7+1'
+  - '&4- &8Zrecznosc: &7+6'
+  - '&4- &8Zdolnosci mysliwskie: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c98'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      MovementSpeed: 0.05
+      Health: 3
+Spodnie_Kopacza_Zd:
+  Id: 300
+  Display: '&2Spodnie kopacza'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &720'
+  - '&4- &8Zrecznosc: &7+2'
+  - '&4- &8Zdolnosci mysliwskie: &7+7'
+  - '&4- &8Inteligencja: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c104'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      MovementSpeed: 0.05
+      Health: 4
+Spodnie_Kopacza_Wytrz:
+  Id: 300
+  Display: '&2Spodnie kopacza'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &730'
+  - '&4- &8Sila: &7+1'
+  - '&4- &8Zrecznosc: &7+3'
+  - '&4- &8Wytrzymalosc: &7+4'
+  - '&4- &8Zdolnosci mysliwskie: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c113'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      MovementSpeed: 0.01
+      Health: 7
+Stare_Buty_Zr:
+  Id: 301
+  Display: '&7Stare buty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &713'
+  - '&4- &8Zrecznosc: &7+12'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c106'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      MovementSpeed: 0.08
+      Health: 3
+Stare_Buty_Wytrz:
+  Id: 301
+  Display: '&7Stare buty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &725'
+  - '&4- &8Zrecznosc: &7+4'
+  - '&4- &8Wytrzymalosc: &7+6'
+  - '&4- &8Zdolnosci mysliwskie: &7+2'
+  - '&4- &8Sila: &7-3'
+  - '&4- &8Walka: &7-1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c94'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      MovementSpeed: 0.03
+      KnockbackResistance: 0.02
+Stare_Buty_Str:
+  Id: 301
+  Display: '&7Stare buty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &719'
+  - '&4- &8Sila: &7+4'
+  - '&4- &8Wytrzymalosc: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c87'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      MovementSpeed: 0.04
+Przerdzewialy_Kilof_Str:
+  Id: 274
+  Display: '&7Przerdzewialy kilof'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &744'
+  - '&4- &8Sila: &7+8'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Zrecznosc: &7-4'
+  - '&4- &8Zdolnosci mysliwskie: &7-4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c116'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: -5
+      MovementSpeed: -0.05
+Proca_Gornicza_Zr:
+  Id: 261
+  Display: '&2Proca gornicza'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &732'
+  - '&4- &8Zrecznosc: &7+5'
+  - '&4- &8Walka: &7+6'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c114'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.07
+Proca_Gornicza_Zd:
+  Id: 261
+  Display: '&2Proca gornicza'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &735'
+  - '&4- &8Zrecznosc: &7+3'
+  - '&4- &8Zdolnosci mysliwskie: &7+5'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Wytrzymalosc: &7-6'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c127'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.09
+Lopata_Gornika_Str:
+  Id: 256
+  Display: '&7Lopata gornika'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &737'
+  - '&4- &8Sila: &7+3'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Zrecznosc: &7+3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c120'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.02
+      KnockbackResistance: 0.04
+Kilof_Kopacza_Str:
+  Id: 257
+  Display: '&7&lKilof kopacza'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &745'
+  - '&4- &8Sila: &7+12'
+  - '&4- &8Walka: &7+8'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c134'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 2
+Helm_Gornika_Wytrz:
+  Id: 302
+  Display: '&7Helm gornika'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &740'
+  - '&4- &8Sila: &7+3'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Wytrzymalosc: &7+5'
+  - '&4- &8Mana: &7+5'
+  - '&4- &8Zrecznosc: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c142'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 7
+      MovementSpeed: -0.04
+      KnockbackResistance: 0.04
+Helm_Straznika_Kopalni_Wytrz:
+  Id: 314
+  Display: '&cHelm straznika kopalni'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &751'
+  - '&4- &8Sila: &7+5'
+  - '&4- &8Walka: &7+7'
+  - '&4- &8Zrecznosc: &7+4'
+  - '&4- &8Wytrzymalosc: &7+8'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c155'
+  - '&4- &8Walka: &c5'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 10
+      MovementSpeed: -0.05
+      KnockbackResistance: 0.06
+Grzebien_Purchlaka_Zd:
+  Id: 261
+  Display: '&a&lGrzebien Purchlaka'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7140'
+  - '&4- &8Zdolnosci mysliwskie: &7+20'
+  - '&4- &8Walka: &7+20'
+  - '&4- &8Sila: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c135'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.1
+      KnockbackResistance: 0.4
+Zbroja_Magnata_Wytrz:
+  Id: 311
+  Display: '&e&lZbroja Gomeza'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &781'
+  - '&4- &8Sila: &7+5'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Zrecznosc: &7+10'
+  - '&4- &8Wytrzymalosc: &7+15'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c144'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 24
+      MovementSpeed: -0.12
+      KnockbackResistance: 0.15
+Zbroja_Magnata_Wytrz2:
+  Id: 312
+  Display: '&e&lPancerz Gomeza'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &770'
+  - '&4- &8Sila: &7+8'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Zrecznosc: &7+12'
+  - '&4- &8Wytrzymalosc: &7+18'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c135'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      Health: 18
+      MovementSpeed: -0.1
+      KnockbackResistance: 0.12
+Gniew_Innosa_Str:
+  Id: 283
+  Display: '&6&lGniew Innosa'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7140'
+  - '&4- &8Walka: &7+15'
+  - '&4- &8Sila: &7+30'
+  - '&4- &8Inteligencja: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c140'
+  Options:
+    Unbreakable: true
+Glowa_Zarazonego:
+  Id: 397
+  Data: 2
+  Display: '&2Glowa zarazonego'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Bakterie:
+  Id: 361
+  Display: '&2Bakterie'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Kiel_Klikacza:
+  Id: 318
+  Display: '&aKiel klikacza'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'

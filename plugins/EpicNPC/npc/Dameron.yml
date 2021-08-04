@@ -1,0 +1,17 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&aDameron"
+  - "&7[&e&oSTAJENNY&7]"
+skinid: 1945875393
+location:
+  world: "F_RPG"
+  x: 23.5
+  y: 43
+  z: 89.5
+  yaw: 0
+  pitch: 9
+lookat: true
+commands:
+  - "cc open dameron %player%"

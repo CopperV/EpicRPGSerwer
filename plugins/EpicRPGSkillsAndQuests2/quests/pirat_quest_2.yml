@@ -1,0 +1,30 @@
+id: "pirat_quest_2"                                
+name: "&cAtaki piratow"                          
+zleceniodawca: "&e&lNers"                       
+lore:                                               
+  - "&aPiracie sa tak liczni, ze z kazda chwila"
+  - "&astaja sie coraz bardziej smiali."
+  - "&aDochodzi ostatnio nawet do atakow na nasz oboz."
+  - "&aPokaz im, ze my tez potrafimy ugryzc."
+prize:                                    
+  - "xp: 2550"
+  - "money: 200"
+require:                                            
+  - "level: 25"
+  - "quest: pirat_quest_1"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "pirat_quest_2_1_1"
+        type: "zabij"
+        targetName: "&eBukanier"
+        message: "Zabij 35 bukanierow: %stan%"
+        ilosc: 35
+      2:
+        id: "pirat_quest_2_1_2"
+        type: "zabij"
+        targetName: "&cSilny pirat"
+        message: "Zabij 20 silnych piratow: %stan%"
+        ilosc: 20

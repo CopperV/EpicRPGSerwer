@@ -1,0 +1,1165 @@
+Egipska_Spodnica_Zr:
+  Id: 300
+  Display: '&eSpodnica budowniczych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &76'
+  - '&4- &8Zrecznosc: &7+10'
+  - '&4- &8Walka: &7+8'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c54'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      MovementSpeed: 0.1
+Egipska_Spodnica_Wytrz:
+  Id: 300
+  Display: '&eSpodnica budowniczych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &716'
+  - '&4- &8Zrecznosc: &7+6'
+  - '&4- &8Zdolnosci mysliwskie: &7+2'
+  - '&4- &8Walka: &7+3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c54'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      MovementSpeed: 0.05
+      Health: 1
+Kilof_Niewolnikow_Str:
+  Id: 274
+  Display: '&7Kilof Architekta'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &737'
+  - '&4- &8Sila: &7+4'
+  - '&4- &8Walka: &7-2'
+  - '&4- &8Zrecznosc: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c51'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.04
+      Health: 2
+Egipska_husta_Zr:
+  Id: 298
+  Display: '&eHusta budowniczych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &78'
+  - '&4- &8Zrecznosc: &7+10'
+  - '&4- &8Zdolnosci mysliwskie: &7+4'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Sila: &7-1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c46'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: 0.08
+      Health: 2
+Egipska_husta_Zd:
+  Id: 298
+  Display: '&eHusta budowniczych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &79'
+  - '&4- &8Zrecznosc: &7+4'
+  - '&4- &8Zdolnosci mysliwskie: &7+12'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c54'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: 0.09
+      Health: 1
+Egipska_husta_Int:
+  Id: 298
+  Display: '&eHusta budowniczych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &76'
+  - '&4- &8Inteligencja: &7+12'
+  - '&4- &8Mana: &7+10'
+  - '&4- &8Walka: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c52'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: 0.06
+      Health: 2
+Egipska_husta_Mana:
+  Id: 298
+  Display: '&eHusta budowniczych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &75'
+  - '&4- &8Mana: &7+25'
+  - '&4- &8Inteligencja: &7+5'
+  - '&4- &8Walka: &7+3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c98'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: 0.05
+      Health: 2
+Egipskie_Uzbrojenie_Str:
+  Id: 304
+  Display: '&7Uzbrojenie budowniczych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &717'
+  - '&4- &8Sila: &7+4'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Zrecznosc: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c54'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      MovementSpeed: -0.04
+      Health: 3
+      KnockbackResistance: 0.01
+Egipskie_Uzbrojenie_Wytrz:
+  Id: 304
+  Display: '&7Uzbrojenie budowniczych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &723'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Wytrzymalosc: &7+4'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Zdolnosci mysliwskie: &7-4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c53'
+  - '&4- &8Walka: &c2'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      MovementSpeed: -0.05
+      Health: 4
+      KnockbackResistance: 0.03
+Egipski_Luk_Zd:
+  Id: 261
+  Display: '&6Luk budowniczych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &731'
+  - '&4- &8Zdolnosci mysliwskie: &7+5'
+  - '&4- &8Walka: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c57'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.03
+Kostur_Kaplana_Int:
+  Id: 294
+  Display: '&bKostur kaplana'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &721'
+  - '&4- &8Mana: &7+5'
+  - '&4- &8Inteligencja: &7+8'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Zrecznosc: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c66'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      KnockbackResistance: 0.02
+    offhand:
+      Health: 2
+      MovementSpeed: 0.02
+Toga_Kaplanska_Int:
+  Id: 299
+  Display: '&bToga kaplanska'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &714'
+  - '&4- &8Mana: &7+8'
+  - '&4- &8Inteligencja: &7+6'
+  - '&4- &8Walka: &7-2'
+  - '&4- &8Sila: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c78'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 10
+      MovementSpeed: 0.01
+Toga_Kaplanska_Mana:
+  Id: 299
+  Display: '&bToga kaplanska'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &713'
+  - '&4- &8Mana: &7+17'
+  - '&4- &8Inteligencja: &7+3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c144'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 8
+      MovementSpeed: 0.03
+Kaplanska_Szata_Mana:
+  Id: 300
+  Display: '&bKaplanska szata'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &712'
+  - '&4- &8Mana: &7+13'
+  - '&4- &8Inteligencja: &7-2'
+  - '&4- &8Walka: &7-3'
+  - '&4- &8Zrecznosc: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c118'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      Health: 5
+      MovementSpeed: 0.01
+Sandaly_Zr:
+  Id: 301
+  Display: '&eSandaly'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &74'
+  - '&4- &8Zrecznosc: &7+12'
+  - '&4- &8Zdolnosci mysliwskie: &7+6'
+  - '&4- &8Walka: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c56'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      MovementSpeed: 0.12
+Sandaly_Str:
+  Id: 301
+  Display: '&eSandaly'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &78'
+  - '&4- &8Zrecznosc: &7+2'
+  - '&4- &8Zdolnosci mysliwskie: &7+2'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Walka: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c57'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      MovementSpeed: 0.06
+Sandaly_Wytrz:
+  Id: 301
+  Display: '&eSandaly'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &712'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Zrecznosc: &7+3'
+  - '&4- &8Zdolnosci mysliwskie: &7+3'
+  - '&4- &8Wytrzymalosc: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c60'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      MovementSpeed: 0.05
+      Health: 2
+      KnockbackResistance: 0.01
+Sandaly_Mana:
+  Id: 301
+  Display: '&eSandaly'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &75'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Zrecznosc: &7+2'
+  - '&4- &8Zdolnosci mysliwskie: &7+2'
+  - '&4- &8Mana: &7+7'
+  - '&4- &8Inteligencja: &7-1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c125'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      MovementSpeed: 0.12
+Kolczuga_Egipska_Wytrz:
+  Id: 303
+  Display: '&7Kolczuga budowniczych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &731'
+  - '&4- &8Sila: &7+1'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Wytrzymalosc: &7+6'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c49'
+  - '&4- &8Walka: &c10'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 5
+      MovementSpeed: -0.05
+      KnockbackResistance: 0.05
+Egipska_Wlocznia_Zr:
+  Id: 292
+  Display: '&eWlocznia budowniczych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &732'
+  - '&4- &8Sila: &7+1'
+  - '&4- &8Zrecznosc: &7+5'
+  - '&4- &8Walka: &7+4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c70'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.05
+    offhand:
+      MovementSpeed: 0.1
+Egipska_Wlocznia_Str:
+  Id: 292
+  Display: '&eWlocznia budowniczych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &736'
+  - '&4- &8Sila: &7+5'
+  - '&4- &8Walka: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c69'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.02
+Egipska_Wlocznia_Wytrz:
+  Id: 292
+  Display: '&eWlocznia budowniczych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &729'
+  - '&4- &8Sila: &7+1'
+  - '&4- &8Walka: &7+8'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c65'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: -1
+      MovementSpeed: 0.02
+    offhand:
+      MovementSpeed: 0.05
+      KnockbackResistance: 0.02
+Zdobiona_husta_Zr:
+  Id: 314
+  Display: '&6Zdobiona husta'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &713'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Zrecznosc: &7+8'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Zdolnosci mysliwskie: &7-1'
+  - '&4- &8Mana: &7-5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c71'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 4
+      MovementSpeed: -0.01
+Zdobiona_husta_Zd:
+  Id: 314
+  Display: '&6Zdobiona husta'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &714'
+  - '&4- &8Zrecznosc: &7+2'
+  - '&4- &8Zdolnosci mysliwskie: &7+7'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Inteligencja: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c76'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 3
+Zdobiona_husta_Int:
+  Id: 314
+  Display: '&6Zdobiona husta'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &710'
+  - '&4- &8Sila: &7+1'
+  - '&4- &8Inteligencja: &7+4'
+  - '&4- &8Mana: &7+5'
+  - '&4- &8Wytrzymalosc: &7+1'
+  - '&4- &8Walka: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c68'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 3
+      MovementSpeed: -0.04
+Dlugi_Luk_Zd:
+  Id: 261
+  Display: '&aDlugi luk'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &736'
+  - '&4- &8Zdolnosci mysliwskie: &7+8'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Zrecznosc: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c60'
+  - '&4- &8Walka: &c10'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.02
+    offhand:
+      Health: -1
+      MovementSpeed: 0.07
+Berlo_Kaplana_Int:
+  Id: 294
+  Display: '&6Berlo kaplana'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &726'
+  - '&4- &8Mana: &7+5'
+  - '&4- &8Inteligencja: &7+10'
+  - '&4- &8Sila: &7+4'
+  - '&4- &8Wytrzymalosc: &7+4'
+  - '&4- &8Walka: &7-10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c78'
+  Options:
+    Unbreakable: true
+Ozdobne_Sandaly_Zr:
+  Id: 317
+  Display: '&eOzdobne Sandaly'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &711'
+  - '&4- &8Zrecznosc: &7+7'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Wytrzymalosc: &7+1'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Zdolnosci mysliwskie: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c72'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      MovementSpeed: 0.01
+Ozdobne_Sandaly_Wytrz:
+  Id: 317
+  Display: '&eOzdobne Sandaly'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &720'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Wytrzymalosc: &7+4'
+  - '&4- &8Zrecznosc: &7-2'
+  - '&4- &8Sila: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c79'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      MovementSpeed: -0.05
+      Health: 2
+      KnockbackResistance: 0.01
+Ozdobne_Sandaly_Mana:
+  Id: 317
+  Display: '&eOzdobne Sandaly'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &710'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Mana: &7+9'
+  - '&4- &8Inteligencja: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c148'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      MovementSpeed: -0.01
+      Health: 1
+Egipska_Szata_Zr:
+  Id: 316
+  Display: '&eSzata budowniczych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &718'
+  - '&4- &8Zrecznosc: &7+4'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Zdolnosci mysliwskie: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c74'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      MovementSpeed: 0.01
+      Health: 4
+      KnockbackResistance: 0.02
+Egipska_Szata_Zd:
+  Id: 316
+  Display: '&eSzata budowniczych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &720'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Zdolnosci mysliwskie: &7+6'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Zrecznosc: &7-1'
+  - '&4- &8Sila: &7-1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c79'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      Health: 4
+      KnockbackResistance: 0.01
+Egipska_Szata_Str:
+  Id: 316
+  Display: '&eSzata budowniczych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &717'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Sila: &7+5'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Inteligencja: &7-2'
+  - '&4- &8Zrecznosc: &7-1'
+  - '&4- &8Zdolnosci mysliwskie: &7-1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c80'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      Health: 6
+      KnockbackResistance: 0.03
+      MovementSpeed: -0.04
+Zdobiona_Zbroja_Str:
+  Id: 315
+  Display: '&6Zdobiona zbroja'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &727'
+  - '&4- &8Sila: &7+9'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Zrecznosc: &7-3'
+  - '&4- &8Wytrzymalosc: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c84'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      MovementSpeed: -0.04
+      Health: 8
+Zdobiona_Zbroja_Wytrz:
+  Id: 315
+  Display: '&6Zdobiona zbroja'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &738'
+  - '&4- &8Wytrzymalosc: &7+6'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Zrecznosc: &7-3'
+  - '&4- &8Sila: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c91'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      MovementSpeed: -0.07
+      Health: 8
+      KnockbackResistance: 0.04
+Zdobiona_Zbroja_Zr:
+  Id: 315
+  Display: '&6Zdobiona zbroja'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &720'
+  - '&4- &8Walka: &7+7'
+  - '&4- &8Zrecznosc: &7+3'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Sila: &7-2'
+  - '&4- &8Zdolnosci mysliwskie: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c81'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      MovementSpeed: -0.01
+      Health: 7
+Nieprzecietna_Wlocznia_Zr:
+  Id: 294
+  Display: '&6Nieprzecietna wlocznia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &739'
+  - '&4- &8Zrecznosc: &7+4'
+  - '&4- &8Walka: &7+7'
+  - '&4- &8Sila: &7+3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c86'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.04
+    offhand:
+      MovementSpeed: 0.12
+Nieprzecietna_Wlocznia_Str:
+  Id: 294
+  Display: '&6Nieprzecietna wlocznia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &741'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Sila: &7+8'
+  - '&4- &8Zdolnosci mysliwskie: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c84'
+  - '&4- &8Walka: &c3'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.04
+Helm_Pradawnych_Int:
+  Id: 314
+  Display: '&bHelm pradawnych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &720'
+  - '&4- &8Mana: &7+8'
+  - '&4- &8Inteligencja: &7+10'
+  - '&4- &8Zrecznosc: &7-3'
+  - '&4- &8Zdolnosci mysliwskie: &7-4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c84'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 12
+      MovementSpeed: 0.05
+Helm_Pradawnych_Mana:
+  Id: 314
+  Display: '&bHelm pradawnych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &720'
+  - '&4- &8Mana: &7+28'
+  - '&4- &8Inteligencja: &7+4'
+  - '&4- &8Walka: &7-2'
+  - '&4- &8Zrecznosc: &7-5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c174'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 12
+      MovementSpeed: 0.06
+Nogawice_Legionisty_Wytrz:
+  Id: 308
+  Display: '&7Nogawice legionisty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &737'
+  - '&4- &8Sila: &7+3'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Wytrzymalosc: &7+6'
+  - '&4- &8Inteligencja: &7+3'
+  - '&4- &8Mana: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c97'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      Health: 10
+      MovementSpeed: -0.03
+      KnockbackResistance: 0.06
+Starozytna_Bron_Str:
+  Id: 292
+  Display: '&8Starozytna bron'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &745'
+  - '&4- &8Zrecznosc: &7+4'
+  - '&4- &8Sila: &7+8'
+  - '&4- &8Walka: &7+8'
+  - '&4- &8Zdolnosci mysliwskie: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c93'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: -5
+      MovementSpeed: 0.04
+    offhand:
+      Health: 5
+      MovementSpeed: -0.04
+Kostur_Ra_Int:
+  Id: 294
+  Display: '&6&lKostur Khardimona'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &770'
+  - '&4- &8Inteligencja: &7+15'
+  - '&4- &8Mana: &7+30'
+  - '&4- &8Walka: &7+4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c85'
+  Options:
+    Unbreakable: true
+Kostur_Ra_Mana:
+  Id: 294
+  Display: '&6&lKostur Khardimona'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &770'
+  - '&4- &8Inteligencja: &7+5'
+  - '&4- &8Mana: &7+50'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c180'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 2
+    offhand:
+      Health: 8
+      MovementSpeed: 0.08
+      KnockbackResistance: 0.08
+Sloneczna_Zbroja:
+  Id: 315
+  Display: '&e&lZbroja budowniczych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &768'
+  - '&4- &8Sila: &7+10'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Zrecznosc &7+10'
+  - '&4- &8Inteligencja &7+10'
+  - '&4- &8Mana &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c10'
+  - '&4- &8Wytrzymalosc: &c10'
+  - '&4- &8Walka: &c10'
+  - '&4- &8Zrecznosc: &c10'
+  - '&4- &8Zdolnosci mysliwskie: &c10'
+  - '&4- &8Mana: &c10'
+  - '&4- &8Inteligencja: &c10'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 16
+      MovementSpeed: -0.1
+      KnockbackResistance: 0.1
+Szept_Smierci_Zd:
+  Id: 261
+  Display: '&0&lSzept Smierci'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &797'
+  - '&4- &8Zdolnosci mysliwskie: &7+25'
+  - '&4- &8Walka: &7+15'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c85'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.1
+    offhand:
+      MovementSpeed: 0.1
+Ostrze_Smierci_Str:
+  Id: 283
+  Display: '&0&lOstrze Quarhodrona'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7105'
+  - '&4- &8Walka: &7+8'
+  - '&4- &8Zrecznosc: &7+8'
+  - '&4- &8Sila: &7+30'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c90'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: -4
+Ostrze_Smierci_Zr:
+  Id: 283
+  Display: '&0&lOstrze Quarhodrona'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &796'
+  - '&4- &8Walka: &7+20'
+  - '&4- &8Zrecznosc: &7+20'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c110'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.1
+Serce_Mumii:
+  Id: 399
+  Display: '&eSerce mumii'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Pustynny_Piach:
+  Id: 12
+  Display: '&ePustynny piach'
+Egipskie_Pergaminy:
+  Id: 339
+  Display: '&rPisma budowniczych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'

@@ -1,0 +1,25 @@
+id: "3_quest_9"                                
+name: "&a&oBadania zarazy"                          
+zleceniodawca: "&a&lJasuo"                       
+lore:                                               
+  - "&aUstalilismy stadia zarazy."
+  - "&aRaport wyslalismy natychmiastowo do &c&lAlexstraszy&a."
+  - "&aPrzyszla pora, by sprobowac odkryc lekarstwo"
+  - "&ana ta straszna zaraze."
+  - "&aPotrzeba nam ogromnej ilosci probek bakterii."
+prize:                                    
+  - "xp: 8250"
+require:                                            
+  - "level: 28"
+  - "quest: 3_quest_8"
+stopnie:
+  1:
+    talking: true
+    message: "&a&lJasuo&7: &aDobra robota. Teraz mozesz przez jakis czas zajac sie swoimi zajeciami. Badania chwile potrwaja."
+    targets:
+      1:
+        id: "3_quest_9_1_1"
+        type: "przynies"
+        targetName: "&2Bakterie"
+        message: "Przynies 96 probek bakterii: %stan%"
+        ilosc: 96

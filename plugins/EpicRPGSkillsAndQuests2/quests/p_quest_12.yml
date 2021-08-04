@@ -1,0 +1,25 @@
+id: "p_quest_12"
+name: "&2Historia o potworach i lowcach"
+zleceniodawca: "&8Zarkan"
+lore:
+  - "&aWidze, ze spogladasz na ta zbroje, co tutaj wisi..."
+  - "&aMoge Ci co nieco powiedziec o niej"
+  - "&aoraz o historii posiadaczy takich cacek."
+  - "&aOczywiscie, nie za darmo."
+  - "&aZrobie to... Powiedzmy... Za 5 zlotych monet."
+prize:
+  - "xp: 210"
+require:
+  - "level: 11"
+  - "quest: kon_quest_3"
+stopnie:
+  1:
+    talking: true
+    message: "&8Zarkan&7: &aNo to teraz sluchaj uwaznie. Jeszcze paredziesiat lat temu, na tym swiecie istnial fach, ktory zajmowal sie zabijaniem potworow. Nie robili tego za darmo - ich uslugi nie raz kosztowaly majatki. Nazywali siebie wiedzminami. Ich rynsztunek byl dosyc specyficzny - nie zalezalo im na ciezkich, plytowych zbrojach jakby sie moglo wydawac. Wiedzmin musial byc szybki i zwinny, zadawac caly czas celne uderzenia mieczem - zbroja nie mogla im w tym przeszkadzac. Oczywiscie, nie byli zwyklymi wojownikami - przechodzili przez wiele testow i mutacji zanim stali sie prawowitymi wiedzminami. Osobiscie mialem zaszczyt stworzyc pare takich zbroi dla tych lowcow. Kiedys wiedzminow bylo mnostwo, pochodzacych z roznych szkol. Z tego co slyszalem, paru ich sie nadal ostalo. Mozna ich podobno znalezc na kontynencie, a wsrod nich chyba najslynniejszego bialowlosego ;)"
+    targets:
+      1:
+        id: "p_quest_12_1_1"
+        type: "przynies"
+        targetName: "&6Zlota moneta"
+        message: "Przynies Zarkanowi 5 zlotych monet, by opowiedzial Ci historie: %stan%"
+        ilosc: 5

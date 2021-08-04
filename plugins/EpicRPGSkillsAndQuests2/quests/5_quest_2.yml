@@ -1,0 +1,72 @@
+id: "5_quest_2"                                
+name: "&cZasieg spaczenia"                          
+zleceniodawca: "&b&lTyrael"                       
+lore:                                               
+  - "&aZostalismy wezwani tutaj do opanowania"
+  - "&adziwnej sytuacji."
+  - "&aNie wiedzielismy do konca, w co sie pakujemy."
+  - "&aSpaczenie osiagnelo gigantyczne rozmiary,"
+  - "&alecz stad nie jestesmy w stanie oszacowac jak duze."
+  - "&aNa zachodzie na wybrzezu, w tym miasteczku"
+  - "&aznajduje sie latarnia morska."
+  - "&aWejdz na nia i oszacuj skale spaczenia."
+prize:                                    
+  - "xp: 34000"
+require:                                            
+  - "level: 41"
+  - "quest: 5_quest_1"
+stopnie:
+  1:
+    talking: false
+    message: "&r%player%&7: &bTo chyba ta latarnia, o ktorej mowil &b&lTyrael&b. Trzeba sie pozbyc troche towarzystwa."
+    targets:
+      1:
+        id: "5_quest_2_1_1"                     
+        type: "znajdz"       
+        targetName: "latarnia1"                      
+        message: "Udaj sie na wybrzeze na zachod i odnajdz latarnie (-478;-417): %stan%"
+  2:
+    talking: false
+    message: "&r%player%&7: &bDobra, latarnia czysta. Pora wspiac sie na gore."
+    targets:
+      1:
+        id: "5_quest_2_2_1"                     
+        type: "zabij"       
+        targetName: "&c&oSpaczony kyrian"                      
+        message: "Pokonaj 12 spaczonych kyrian: %stan%"
+        ilosc: 12
+      2:
+        id: "5_quest_2_2_2"                     
+        type: "zabij"       
+        targetName: "&4Mroczny Kyrian"                      
+        message: "Pokonaj 3 mrocznych kyrian: %stan%"
+        ilosc: 3
+  3:
+    talking: false
+    message: "&r%player%&7: &bCholera... Spaczenie siega od jednej przeleczy do drugiej i jeszcze porzadnie w morze. &b&lTyrael &bnie bedzie zadowolony..."
+    targets:
+      1:
+        id: "5_quest_2_3_1"                     
+        type: "znajdz"       
+        targetName: "latarnia2"                      
+        message: "Wejdz na szczyt latarnii: %stan%"
+  4:
+    talking: false
+    targets:
+      1:
+        id: "5_quest_2_4_1"                     
+        type: "zagadaj"       
+        targetName: "&b&lTyrael"                      
+        message: "Zdaj raport &b&lTyraelowi: %stan%"
+        dialog:
+          - "&b&lTyrael&7: &aI jak?"
+          - "&b&lTyrael&7: &aJak daleko siega spaczenie?"
+          - "&r%player%&7: &bZbyt dobrych wiesci nie mam."
+          - "&r%player%&7: &bTylko na ladzie siega od jednej przeleczy do drugiej."
+          - "&r%player%&7: &bCaly lad miedzy nimi znajduje sie pod wplywem spaczenia."
+          - "&r%player%&7: &bDodatkowo to spaczenie wychodzi dosyc gleboko w morze."
+          - "&r%player%&7: &bW wodzie poki co nic nie kontruluje jego rozprzestrzeniania sie."
+          - "&b&lTyrael&7: &aSytuacja jest znacznie powazniejsza niz nam sie wydawalo."
+          - "&b&lTyrael&7: &aZaczynam watpic w to czy jest jakas nadzieja dla tego miejsca."
+          - "&b&lTyrael&7: &aCholera..."
+          - "&b&lTyrael&7: &aCala ta wyspa zdaje sie byc przekleta..."

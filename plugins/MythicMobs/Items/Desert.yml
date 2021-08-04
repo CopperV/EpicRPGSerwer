@@ -1,0 +1,57 @@
+Rybik:
+  Id: 334
+  Display: '&eRybik'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Skora_Szakala:
+  Id: 334
+  Display: '&eSkora szakala'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Trup:
+  Id: 367
+  Display: '&rTrup'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Czaszka:
+  Id: 397
+  Display: '&7Czaszka'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Kosc:
+  Id: 352
+  Display: '&rKosc'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Kly_Szakala:
+  Id: 409
+  Display: '&7Kly szakala'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Starozytny_Luk_Zd:
+  Id: 261
+  Display: '&dStarozytny luk'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &742'
+  - '&4- &8Zdolnosci mysliwskie: &7+10'
+  - '&4- &8Walka: &7+5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c88'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.06

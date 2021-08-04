@@ -1,0 +1,26 @@
+id: "4_quest_15"                                
+name: "&e&oOrkowe odznaki"                          
+zleceniodawca: "&4Reg"                       
+lore:                                               
+  - "&aCzasem wsrod martwych orkow mozna znalezc"
+  - "&arozne ciekawe rzeczy."
+  - "&aJednymi z nich sa orkowe odznaki."
+  - "&aSa przyznawane orkom, ktorzy sie w czyms wyroznili."
+  - "&aPozyskanie takich odznak moglo by uchylic rabek tajemnicy"
+  - "&aodnosnie ich pochodzenia."
+prize:                                    
+  - "xp: 7775"
+  - "money: 360"
+require:                                            
+  - "level: 36"
+  - "quest: 4_quest_10"
+stopnie:
+  1:
+    talking: true  
+    targets:
+      1:
+        id: "4_quest_15_1_1"                     
+        type: "przynies"       
+        targetName: "&8Orkowa odznaka"                      
+        message: "Przynies 18 orkowych odznak: %stan%"
+        ilosc: 18

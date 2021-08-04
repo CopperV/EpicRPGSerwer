@@ -1,0 +1,42 @@
+id: "fabula_quest_6"                                
+name: "&4Gniew Quarhodrona"                          
+zleceniodawca: "&1Saturas"                       
+lore:                                               
+  - "&aCzegos sie ostatnio dowiedzialem."
+  - "&aW grobowcu, ktory znalazles pochowany jest"
+  - "&aQuarhodron..."
+  - "&aPoki co nie udalo mi sie zbyt wiele dowiedziec"
+  - "&ana jego temat."
+  - "&aZdaje sie, ze jezeli zostanie pokonany, to budowniczowie"
+  - "&apowroca do swych grobow."
+prize:                                    
+  - "xp: 5000"
+require:                                            
+  - "quest: fabula_quest_5"
+  - "level: 20"
+stopnie:
+  1:
+    talking: false
+    message: "&r%player%&7: &bChyba zrobione. Pora pojsc do &1Saturasa&b."    
+    targets:
+      1:
+        id: "fabula_quest_6_1_1"
+        type: "zabij"
+        targetName: "&3&lQuarhodron - BOSS"
+        message: "Pokonaj Quarhodrona z grobowca w ruinach budowniczych: %stan%"
+        ilosc: 1
+  2:
+    talking: false
+    targets:
+      1:
+        id: "fabula_quest_6_2_1"
+        type: "zagadaj"
+        targetName: "&1Saturas"
+        message: "Porozmawiaj z &1Saturasem: %stan%"
+        dialog:
+          - "&r%player%&7: &budalo sie, Quarhodron zostal pokonany."
+          - "&1Saturas&7: &aI nic to nie dalo."
+          - "&1Saturas&7: &aWrecz przeciwnie - ataki budowniczych sie wrecz nasilily."
+          - "&1Saturas&7: &aDaj czas - musze przemyslec kolejny ruch."
+          - "&1Saturas&7: &aJak sie &c&lAlexstrasza &adowie, co tu zaszlo,"
+          - "&1Saturas&7: &ato nam obu urwie glowy..."

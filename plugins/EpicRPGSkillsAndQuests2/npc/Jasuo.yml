@@ -1,0 +1,84 @@
+name: "&a&lJasuo"
+title: "&a&lJasuo - quester"
+size: 27
+slots:
+#  max: 150
+#  wymagania:
+#  - "klasa: &cMag"
+#  - "quest: quest1"
+  1:
+    item: "3_quest_2"
+  2:
+    item: "3_quest_3"
+  3:
+    item: "3_quest_4"
+  4:
+    item: "3_quest_5"
+  5:
+    item: "3_quest_6"
+  6:
+    item: "3_quest_7"
+  7:
+    item: "3_quest_8"
+  10:
+    item: "3_quest_9"
+  11:
+    item: "3_quest_10"
+  12:
+    item: "3_quest_11"
+  13:
+    item: "3_quest_12"
+  14:
+    item: "fabula_quest_14"
+  15:
+    item: "fabula_quest_15"
+  16:
+    item: "fabula_quest_16"
+  19:
+    item: "paladyn_quest_2"
+  20:
+    item: "paladyn_quest_3"
+  21:
+    item: "paladyn_quest_4"
+  22:
+    item: "paladyn_quest_5"
+  23:
+    item: "paladyn_quest_6"
+  24:
+    item: "zlecenie_jasuo"
+  8:
+    item: "Sila1"
+    max: 160
+    wymagania:
+    - "quest: paladyn_quest_2"
+    - "klasa: &cWojownik"
+  9:
+    item: "Sila5"
+    max: 160
+    wymagania:
+    - "quest: paladyn_quest_2"
+    - "klasa: &cWojownik"
+  17:
+    item: "Zdolnosci1"
+    max: 90
+    wymagania:
+    - "quest: paladyn_quest_2"
+    - "klasa: &cWojownik"
+  18:
+    item: "Zdolnosci5"
+    max: 90
+    wymagania:
+    - "quest: paladyn_quest_2"
+    - "klasa: &cWojownik"
+  26:
+    item: "Walka1"
+    max: 40
+    wymagania:
+    - "quest: paladyn_quest_2"
+    - "klasa: &cWojownik"
+  27:
+    item: "Walka2"
+    max: 40
+    wymagania:
+    - "quest: paladyn_quest_2"
+    - "klasa: &cWojownik"

@@ -1,0 +1,25 @@
+id: "p_quest_19"                                
+name: "&e&oSprzedane zycia"
+zleceniodawca: "&4&lDeath"
+lore:                                               
+  - "&aSprawa dosyc prosta."
+  - "&aAssasyni Nizara truduja sie w zabijaniu."
+  - "&aZaczeli przyjmowac nawet zlecenia"
+  - "&ana rozne znakomitosci."
+  - "&aChce sie dowiedziec, dla kogo mam gotowac miejsce"
+  - "&aw krolestwie smierci"
+prize:                                    
+  - "xp: 10000"
+  - "money: 150"
+require:                                            
+  - "level: 33"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "p_quest_19_1_1"
+        type: "przynies"
+        targetName: "&rZlecenie"
+        message: "Przynies 15 zlecen: %stan%"
+        ilosc: 15

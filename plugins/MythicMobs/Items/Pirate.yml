@@ -1,0 +1,1291 @@
+Lachy_Pirata_Zr:
+  Id: 300
+  Display: '&2Lachy pirata'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &712'
+  - '&4- &8Zrecznosc: &7+4'
+  - '&4- &8Walka: &7+4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c70'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      Health: 1
+      MovementSpeed: 0.06
+Lachy_Pirata_Zd:
+  Id: 300
+  Display: '&2Lachy pirata'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &714'
+  - '&4- &8Zdolnosci mysliwskie: &7+8'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Sila: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c76'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      MovementSpeed: 0.08
+Morskie_Buty_Zr:
+  Id: 301
+  Display: '&9Morskie buty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &78'
+  - '&4- &8Zrecznosc: &7+2'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Sila: &7+4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c64'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 2
+      MovementSpeed: 0.01
+Morskie_Buty_Str:
+  Id: 301
+  Display: '&9Morskie buty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &710'
+  - '&4- &8Sila: &7+8'
+  - '&4- &8Wytrzymalosc: &7+1'
+  - '&4- &8Zrecznosc: &7-1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c72'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 3
+      MovementSpeed: -0.05
+Morskie_Buty_Wytrz:
+  Id: 301
+  Display: '&9Morskie buty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &714'
+  - '&4- &8Wytrzymalosc: &7+4'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Sila: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c76'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 2
+      MovementSpeed: -0.05
+Pirackie_Ubranie_Zr:
+  Id: 299
+  Display: '&aPirackie ubranie'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &718'
+  - '&4- &8Zrecznosc: &7+6'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Zdolnosci mysliwskie: &7+2'
+  - '&4- &8Wytrzymalosc: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c88'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 4
+      MovementSpeed: 0.07
+Pirackie_Ubranie_Zd:
+  Id: 299
+  Display: '&aPirackie ubranie'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &719'
+  - '&4- &8Zrecznosc: &7+4'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Zdolnosci mysliwskie: &7+6'
+  - '&4- &8Sila: &7-1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c91'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 4
+      MovementSpeed: 0.06
+Pirackie_Ubranie_Wytrz:
+  Id: 299
+  Display: '&aPirackie ubranie'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &727'
+  - '&4- &8Wytrzymalosc &7+5'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Sila: &7+1'
+  - '&4- &8Zrecznosc: &7+1'
+  - '&4- &8Zdolnosci mysliwskie: &7-3'
+  - '&4- &8Inteligencja: &7-4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c95'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 6
+      MovementSpeed: 0.01
+      KnockbackResistance: 0.01
+Piracka_Zbroja_Wytrz:
+  Id: 304
+  Display: '&r&lPiracka zbroja'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &737'
+  - '&4- &8Sila: &7+3'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Wytrzymalosc: &7+7'
+  - '&4- &8Zrecznosc: &7-2'
+  - '&4- &8Zdolnosci mysliwskie: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c107'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      Health: 9
+      MovementSpeed: -0.04
+      KnockbackResistance: 0.05
+Buty_Z_Kolczuga_Str:
+  Id: 305
+  Display: '&8Buty z kolczuga'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &723'
+  - '&4- &8Sila: &7+6'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Zrecznosc: &7-2'
+  - '&4- &8Inteligencja: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c88'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 4
+      MovementSpeed: -0.03
+Buty_Z_Kolczuga_Wytrz:
+  Id: 305
+  Display: '&8Buty z kolczuga'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &730'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Wytrzymalosc: &7+3'
+  - '&4- &8Walka: &7+3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c99'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 3
+      MovementSpeed: -0.05
+      KnockbackResistance: 0.01
+Piracki_Kordelas_Zr:
+  Id: 267
+  Display: '&7Piracki kordelas'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &733'
+  - '&4- &8Zrecznosc: &7+4'
+  - '&4- &8Sila: &7+1'
+  - '&4- &8Walka: &7+7'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c77'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.05
+Piracki_Kordelas_Zd:
+  Id: 267
+  Display: '&7Piracki kordelas'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &729'
+  - '&4- &8Zrecznosc: &7+2'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Zdolnosci mysliwskie: &7+3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c84'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.04
+Piracki_Kordelas_Wytrz:
+  Id: 267
+  Display: '&7Piracki kordelas'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &720'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Wytrzymalosc: &7+4'
+  - '&4- &8Sila: &7+4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c81'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.04
+Tasak_Str:
+  Id: 258
+  Display: '&9Tasak'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &745'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Zrecznosc: &7-3'
+  - '&4- &8Zdolnosci mysliwskie: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c101' 
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.03
+    offhand:
+      KnockbackResistance: 0.01
+Piracki_Hak_Zr:
+  Id: 292
+  Display: '&8Piracki hak'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &727'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Zrecznosc: &7+2'
+  - '&4- &8Sila: &7-6'
+  - '&4- &8Zdolnosci mysliwskie: &7-3'
+  - '&4- &8Wytrzymalosc: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c76'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.03
+      Health: -6
+Piracka_Proca_Zr:
+  Id: 261
+  Display: '&aPiracka proca'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &717'
+  - '&4- &8Zrecznosc: &7+7'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Zdolnosci mysliwskie: &7-1'
+  - '&4- &8Wytrzymalosc: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c67'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.06
+    offhand:
+      MovementSpeed: 0.05
+Piracka_Proca_Zd:
+  Id: 261
+  Display: '&aPiracka proca'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &723'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Zdolnosci mysliwskie: &7+6'
+  - '&4- &8Wytrzymalosc: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c73'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.05
+    offhand:
+      MovementSpeed: 0.03
+Piracki_Pancerz_Wytrz:
+  Id: 307
+  Display: '&7Piracki pancerz'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &740'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Wytrzymalosc: &7+6'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c120'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 8
+      MovementSpeed: -0.05
+      KnockbackResistance: 0.03
+Piracki_Pancerz_Zd:
+  Id: 307
+  Display: '&7Piracki pancerz'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &728'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Zdolnosci mysliwskie: &7+4'
+  - '&4- &8Zrecznosc: &7+1'
+  - '&4- &8Mana: &7-5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c114'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 5
+      KnockbackResistance: 0.01
+Helm_Pirata_Str:
+  Id: 302
+  Display: '&7Helm pirata'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &725'
+  - '&4- &8Sila: &7+8'
+  - '&4- &8Wytrzymalosc: &7+3'
+  - '&4- &8Zrecznosc: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c98'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 5
+      MovementSpeed: -0.03
+      KnockbackResistance: 0.01
+Helm_Pirata_Wytrz:
+  Id: 302
+  Display: '&7Helm pirata'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &732'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Wytrzymalosc: &7+6'
+  - '&4- &8Mana: &7+5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c111'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 8
+      MovementSpeed: -0.04
+      KnockbackResistance: 0.02
+Pirackie_Ostrze_Zr:
+  Id: 293
+  Display: '&1Pirackie ostrze'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &772'
+  - '&4- &8Zrecznosc: &7+10'
+  - '&4- &8Walka: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c224'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: -5
+      MovementSpeed: 0.06
+    offhand:
+      Health: -50
+Pirackie_Ostrze_Int:
+  Id: 293
+  Display: '&1Pirackie ostrze'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &751'
+  - '&4- &8Walka: &7+8'
+  - '&4- &8Inteligencja: &7+8'
+  - '&4- &8Mana: &7+8'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c206'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: -5
+      MovementSpeed: 0.03
+    offhand:
+      Health: -50
+Pirackie_Ostrze_Mana:
+  Id: 293
+  Display: '&1Pirackie ostrze'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &748'
+  - '&4- &8Mana: &7+15'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Inteligencja: &7+6'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c410'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: -5
+      MovementSpeed: 0.03
+    offhand:
+      Health: -50
+Rapier_Zr:
+  Id: 267
+  Display: '&aRapier'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &737'
+  - '&4- &8Zrecznosc: &7+5'
+  - '&4- &8Walka: &7+8'
+  - '&4- &8Zdolnosci mysliwskie: &7+2'
+  - '&4- &8Wytrzymalosc: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c102'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.04
+Rebiczerep_Str:
+  Id: 258
+  Display: '&cRebiczerep'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &750'
+  - '&4- &8Sila: &7+3'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Zrecznosc: &7-4'
+  - '&4- &8Zdolnosci mysliwskie: &7-4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c112'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.03
+      KnockbackResistance: 0.01
+    offhand:
+      KnockbackResistance: 0.02
+Ciezka_Piracka_Zbroja_Wytrz:
+  Id: 304
+  Display: '&8&lCiezka piracka zbroja'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &739'
+  - '&4- &8Sila: &7+1'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Wytrzymalosc: &7+7'
+  - '&4- &8Zrecznosc: &7-2'
+  - '&4- &8Zdolnosci mysliwskie: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c141'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      Health: 10
+      MovementSpeed: -0.08
+      KnockbackResistance: 0.04
+Wzmocnione_Pirackie_Ubranie_Zr:
+  Id: 299
+  Display: '&a&lWzmocnione pirackie ubranie'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &722'
+  - '&4- &8Zrecznosc: &7+9'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Zdolnosci mysliwskie: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c110'
+  - '&4- &8Walka: &c5'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 7
+      MovementSpeed: 0.08
+      KnockbackResistance: 0.02
+Wzmocnione_Pirackie_Ubranie_Zd:
+  Id: 299
+  Display: '&a&lWzmocnione pirackie ubranie'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &723'
+  - '&4- &8Zdolnosci mysliwskie: &7+8'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Wytrzymalosc: &7+3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c129'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 7
+      MovementSpeed: 0.07
+Wzmocnione_Pirackie_Ubranie_Wytrz:
+  Id: 299
+  Display: '&a&lWzmocnione pirackie ubranie'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &733'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Wytrzymalosc: &7+4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c116'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 11
+      MovementSpeed: 0.03
+Luk_Abordazowy_Zd:
+  Id: 261
+  Display: '&2Luk abordazowy'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &739'
+  - '&4- &8Zrecznosc: &7+2'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Zdolnosci mysliwskie: &7+6'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c128'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.03
+    offhand:
+      MovementSpeed: 0.05
+      KnockbackResistance: 0.03
+Wysluzony_Piracki_Pancerz_Str:
+  Id: 307
+  Display: '&8Wysluzony piracki pancerz'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &735'
+  - '&4- &8Sila: &7+10'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Zrecznosc: &7-6'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c143'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 8
+      MovementSpeed: -0.05
+      KnockbackResistance: 0.04
+Wysluzony_Piracki_Pancerz_Wytrz:
+  Id: 307
+  Display: '&8Wysluzony piracki pancerz'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &745'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Wytrzymalosc: &7+8'
+  - '&4- &8Sila: &7-2'
+  - '&4- &8Zrecznosc: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c160'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 12
+      MovementSpeed: -0.07
+      KnockbackResistance: 0.06
+Przekleta_Piracka_Zbroja_Mana:
+  Id: 311
+  Display: '&1Przekleta piracka zbroja'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &745'
+  - '&4- &8Inteligencja: &7+6'
+  - '&4- &8Mana: &7+34'
+  - '&4- &8Walka: &7-5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c478'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 12
+      MovementSpeed: -0.03
+      KnockbackResistance: 0.04
+Przekleta_Piracka_Zbroja_Zr:
+  Id: 311
+  Display: '&1Przekleta piracka zbroja'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &750'
+  - '&4- &8Zrecznosc: &7+10'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Mana: &7+5'
+  - '&4- &8Zdolnosci mysliwskie: &7-6'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c239'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 14
+      MovementSpeed: 0.04
+      KnockbackResistance: 0.03
+Przekleta_Piracka_Zbroja_Wytrz:
+  Id: 311
+  Display: '&1Przekleta piracka zbroja'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &778'
+  - '&4- &8Zrecznosc: &7+3'
+  - '&4- &8Zdolnosci mysliwskie: &7+2'
+  - '&4- &8Wytrzymalosc: &7+7'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Sila: &7-3'
+  - '&4- &8Inteligencja: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c245'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 10
+      MovementSpeed: -0.05
+      KnockbackResistance: 0.1
+Przeklety_Piracki_Helm_Wytrz:
+  Id: 310
+  Display: '&1Przeklety piracki helm'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &757'
+  - '&4- &8Wytrzymalosc: &7+8'
+  - '&4- &8Inteligencja: &7+4'
+  - '&4- &8Mana: &7+8'
+  - '&4- &8Walka: &7-2'
+  - '&4- &8Sila: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c231'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 7
+      MovementSpeed: -0.04
+      KnockbackResistance: 0.08
+Przeklety_Piracki_Helm_Int:
+  Id: 310
+  Display: '&1Przeklety piracki helm'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &737'
+  - '&4- &8Mana: &7+12'
+  - '&4- &8Wytrzymalosc: &7+5'
+  - '&4- &8Inteligencja: &7+8'
+  - '&4- &8Zdolnosci mysliwskie: &7-5'
+  - '&4- &8Zrecznosc: &7-5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c217'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 9
+      MovementSpeed: 0.01
+      KnockbackResistance: 0.04
+Przeklety_Piracki_Helm_Str:
+  Id: 310
+  Display: '&1Przeklety piracki helm'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &741'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Sila: &7+6'
+  - '&4- &8Inteligencja: &7+2'
+  - '&4- &8Zdolnosci mysliwskie: &7-7'
+  - '&4- &8Zrecznosc: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c217'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: -5
+      MovementSpeed: 0.03
+      KnockbackResistance: 0.11
+Ostrze_Slugi_Mana:
+  Id: 293
+  Display: "&bOstrze slugi Davy'ego"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &745'
+  - '&4- &8Mana: &7+20'
+  - '&4- &8Inteligencja: &7+10'
+  - '&4- &8Walka: &7+5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c462'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.03
+    offhand:
+      MovementSpeed: 0.03
+Ostrze_Slugi_Zr:
+  Id: 293
+  Display: "&bOstrze slugi Davy'ego"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &775'
+  - '&4- &8Zrecznosc: &7+15'
+  - '&4- &8Walka: &7+15'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c241'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.05
+    offhand:
+      MovementSpeed: 0.04
+Dwureczny_Kordelas_Str:
+  Id: 267
+  Display: '&r&lDwureczny kordelas'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &760'
+  - '&4- &8Sila: &7+10'
+  - '&4- &8Walka: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c139'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.06
+    offhand:
+      MovementSpeed: -0.08
+Dwureczny_Kordelas_Wytrz:
+  Id: 267
+  Display: '&r&lDwureczny kordelas'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &748'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Wytrzymalosc: &7+4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c126'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.05
+    offhand:
+      MovementSpeed: -0.09
+Miecz_Mistrzowski_Zr:
+  Id: 276
+  Display: '&eMiecz mistrzowski'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &745'
+  - '&4- &8Zrecznosc: &7+15'
+  - '&4- &8Walka: &7+15'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c136'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.08
+Kusza_Abordazowa_Str:
+  Id: 261
+  Display: '&2Kusza abordazowa'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &753'
+  - '&4- &8Sila: &7+8'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Wytrzymalosc: &7-3'
+  - '&4- &8Zrecznosc: &7-3'
+  - '&4- &8Zdolnosci mysliwskie: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c144'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.05
+    offhand:
+      MovementSpeed: -0.05
+Kusza_Abordazowa_Zd:
+  Id: 261
+  Display: '&2Kusza abordazowa'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &756'
+  - '&4- &8Zrecznosc: &7+5'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Zdolnosci mysliwskie: &7+8'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c152'
+  Options:
+    Unbreakable: true
+Ubranie_Kapitana_Zr:
+  Id: 299
+  Display: '&cUbranie kapitana'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &729'
+  - '&4- &8Zrecznosc: &7+12'
+  - '&4- &8Walka: &7+12'
+  - '&4- &8Sila: &7-4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c143'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 10
+      MovementSpeed: 0.07
+Ubranie_Kapitana_Zd:
+  Id: 299
+  Display: '&cUbranie kapitana'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &730'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Zdolnosci mysliwskie: &7+14'
+  - '&4- &8Sila: &7-4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c149'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 8
+      MovementSpeed: 0.06
+Ubranie_Kapitana_Wytrz:
+  Id: 299
+  Display: '&cUbranie kapitana'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &747'
+  - '&4- &8Zrecznosc: &7+5'
+  - '&4- &8Wytrzymalosc: &7+10'
+  - '&4- &8Walka: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c155'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 16
+      MovementSpeed: 0.01
+      KnockbackResistance: 0.03
+Helm_Nurka:
+  Id: 310
+  Display: '&bHelm nurka'
+  Enchantments:
+  - OXYGEN:1
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &720'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 15
+      MovementSpeed: 0.05
+      KnockbackResistance: 0.1
+Ostrze_Czarnobrodego_Zr:
+  Id: 267
+  Display: '&6&lOstrze Czarnobrodego'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7160'
+  - '&4- &8Zrecznosc: &7+30'
+  - '&4- &8Walka: &7+30'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c135'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.15
+    offhand:
+      MovementSpeed: 0.15
+LPalasz_Zr:
+  Id: 276
+  Display: "&4&lPalasz Davy'ego"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7190'
+  - '&4- &8Zrecznosc: &7+75'
+  - '&4- &8Zdolnosci mysliwskie: &7+25'
+  - '&4- &8Walka: &7+30'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c138'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.2
+      KnockbackResistance: 0.15
+Pirackie_Klejnoty:
+  Id: 264
+  Display: '&bPirackie klejnoty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Pirackie_Rubiny:
+  Id: 388
+  Display: '&4Pirackie rubiny'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Przeklete_Zloto:
+  Id: 266
+  Display: '&cPrzeklete zloto'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Pyl_Przekletego_Pirata:
+  Id: 337
+  Display: '&7Pyl przekletego pirata'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'

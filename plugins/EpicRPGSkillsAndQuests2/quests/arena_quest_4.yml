@@ -1,0 +1,29 @@
+id: "arena_quest_4"                                
+name: "&cWielki przeciwni, wielki honor!"                          
+zleceniodawca: "&eAlwin"                       
+lore:                                               
+  - "&aByles juz na spaczonych ziemiach?"
+  - "&aZapewne wiesz jakie scierwo sie tam zaleglo."
+  - "&aPrzezycie tam graniczy praktycznie z cudem."
+  - "&aA tak sie sklada, ze na arenie pojawili sie"
+  - "&aostatnio lowcy z tamtych ziem."
+  - "&aO panie, gdybys ich widzial."
+  - "&aJezeli ich pokonasz, to mozesz sie uwazac"
+  - "&aza prawdziwego mistrza areny."
+prize:                                    
+  - "xp: 5000"
+  - "money: 2500"
+require:                                            
+  - "level: 41"
+  - "quest: arena_quest_3"
+stopnie:
+  1:
+    talking: true
+    message: "&eAlwin&7: &aNo nie wierze. Widze, ze mamy tutaj prawdziwego mistrza walki! Moje gratulacje!"
+    targets:
+      1:
+        id: "arena_quest_4_1_1"
+        type: "player"
+        level: 40
+        message: "Pokonaj 7 graczy na poziomie przynajmniej 40: %stan%"
+        ilosc: 7

@@ -1,0 +1,46 @@
+id: "prolog_quest_3"                                
+name: "&cRzeznik"                          
+zleceniodawca: "&b&lCorristo"                       
+lore:                                               
+  - "&aW koncu dotarles..."
+  - "&aPo przybyciu okazalo sie, ze &a&oArcholos"
+  - "&apopadla w jeszcze wieksze tarapaty"
+  - "&aniz opisal to Baron Archos."
+  - "&aWkrotce sie przekonasz..."
+  - "&aNie mniej jednak, musisz jakos zaczac"
+  - "&aswoja przygode, trening."
+  - "&aNa poczatek pokaz, ze potrafisz w razie"
+  - "&aczego zabic!"
+prize:                                    
+  - "xp: 100"
+require:                                            
+  - "level: 2"
+  - "quest: prolog_quest_2"
+stopnie:                                            
+  1:
+    talking: true                    
+    targets:
+      1:
+        id: "prolog_quest_3_1_1"
+        type: "zabij"
+        targetName: "&dSwinka"
+        message: "Zarznij 5 swin: %stan%"
+        ilosc: 5
+      2:
+        id: "prolog_quest_3_1_2"                     
+        type: "zabij"       
+        targetName: "&rKrowa"                      
+        message: "Zabij 5 krow: %stan%"                    
+        ilosc: 5
+      3:
+        id: "prolog_quest_3_1_3"                     
+        type: "zabij"       
+        targetName: "&7Owca nizinna"                      
+        message: "Zabij 8 owieczek: %stan%"                    
+        ilosc: 8
+      4:
+        id: "prolog_quest_3_1_4"                     
+        type: "zabij"       
+        targetName: "&rHodowlana kura"                      
+        message: "Zabij 10 kur hodowlanych: %stan%"                    
+        ilosc: 10

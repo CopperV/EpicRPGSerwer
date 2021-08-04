@@ -1,0 +1,7466 @@
+Wilk:
+  Type: wolf
+  Display: '&2Dziki wilk'
+  Health: 150
+  Damage: 25
+  Faction: Wilki
+  AIGoalSelectors:
+  - 0 clear
+  - 1 leapattarget
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  - 3 SpecificFaction Bandyci
+  - 3 SpecificFaction Gobliny
+  Drops:
+  - Skora_Wilka 1 0.35
+  - Kly_Wilka 1 0.25
+  - Wilczy_Kiel_Zr 1 0.06
+  - Wilczy_Kiel_Zd 1 0.06
+  - Kiel_Zr 1 0.03
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    Angry: true
+    PreventRandomEquipment: true
+    MovementSpeed: 0.34
+    Tameable: false
+WilkSummon:
+  Type: Zombie
+  Display: '&2Dziki wilk'
+  Health: 150
+  Damage: 25
+  Faction: Wilki
+  Disguise:
+    Type: wolf
+  AIGoalSelectors:
+  - 0 clear
+  - 1 leapattarget
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  - 3 SpecificFaction Bandyci
+  - 3 SpecificFaction Gobliny
+  Drops:
+  - Skora_Wilka 1 0.35
+  - Kly_Wilka 1 0.25
+  - Wilczy_Kiel_Zr 1 0.06
+  - Wilczy_Kiel_Zd 1 0.06
+  - Kiel_Zr 1 0.03
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    Angry: true
+    PreventRandomEquipment: true
+    MovementSpeed: 0.34
+    Tameable: false
+    PreventSunburn: true
+  Equipment:
+  - B4:4
+Alfa:
+  Type: wolf
+  Display: '&c&lSamiec ALFA - BOSS'
+  Health: 3000
+  Damage: 40
+  Faction: Wilki
+  BossBar:
+    Enabled: true
+    Title: '&2==] &c&lSamiec ALFA &8< &c<caster.hp> &4❤ &8> &2[=='
+    Color: GREEN
+    Range: 50
+    Style: SOLID
+  AIGoalSelectors:
+  - 0 clear
+  - 1 leapattarget
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  - 3 SpecificFaction Bandyci
+  - 3 SpecificFaction Gobliny
+  Drops:
+  - Skora_Wilka 1 1
+  - Kly_Wilka 1 1
+  - Wilczy_Kiel_Zr 1 0.15
+  - Wilczy_Kiel_Zd 1 0.15
+  - Kiel_Zr 1 0.1
+  - Szczaw_Krolewski 1 0.05
+  Skills:
+  - randomskill{skills=AlfaSummon,AlfaTp} ~onDamaged 0.15
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    Angry: true
+    MovementSpeed: 0.35
+#################################################################################
+Bandit1:
+  Type: Zombie
+  Display: '&cRabus'
+  Health: 90
+  Damage: 22
+  Faction: Bandyci
+  Disguise:
+    Type: player
+    Skin: Tyrion
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 1 randomstroll
+  - 2 randomlookaround
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Wilki
+  - 3 SpecificFaction Gobliny
+  Drops:
+  - Bandit_1_Weapon_1
+  - Bandit_1_Armor
+  - Zloto 1 0.5
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+#  Skills:
+#  - command{delay=1;c="mmdisguise <mob.l.w> <mob.uuid> player tyrion"} @self ~onSpawn
+  Options:
+    AlwaysShowName: true
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.28
+    PreventSunburn: true
+  Equipment:
+  - B1:0
+  - Skorzana_Tunika_Zr:3
+  - B4:4
+Bandit2:
+  Type: Skeleton
+  Display: '&cRabus'
+  Health: 105
+  Damage: 11
+  Faction: Bandyci
+  Disguise:
+    Type: player
+    Skin: Tyrion
+  AIGoalSelectors:
+  - 0 clear
+  - 1 arrowattack
+  - 1 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Wilki
+  - 3 SpecificFaction Gobliny
+  Drops:
+  - Strzala 1 0.7
+  - Zloto 1 0.5
+  - Bandit_1_Armor
+  - Bandit_1_Weapon_2
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+#  Skills:
+#  - command{delay=1;c="mmdisguise <mob.l.w> <mob.uuid> player tyrion"} @self ~onSpawn
+  Options:
+    AlwaysShowName: true
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.3
+    PreventSunburn: true
+  Equipment:
+  - Luk_Bandit2:0
+  - Skorzana_Tunika_Zr:3
+  - B4:4
+Bandit3:
+  Type: Zombie
+  Display: '&cKieszonkowiec'
+  Health: 80
+  Damage: 32
+  Faction: Bandyci
+  Disguise:
+    Type: player
+    Skin: Tyrion
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  - 3 SpecificFaction Wilki
+  - 3 SpecificFaction Gobliny
+  Drops:
+  - Bandit_2_Armor
+  - Zloto 1 0.8
+  - Scyzoryk_Zr 1 0.15
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+#  Skills:
+#  - command{delay=1;c="mmdisguise <mob.l.w> <mob.uuid> player tyrion"} @self ~onSpawn
+  Options:
+    AlwaysShowName: true
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.36
+    PreventSunburn: true
+  Equipment:
+  - Skorzana_Tunika_Zr:3
+  - B4:4
+  - B5:0
+  - Skorzane_Spodnie_Zr:2
+Bandit4:
+  Type: Zombie
+  Display: '&4Bandyta'
+  Health: 185
+  Damage: 28
+  Faction: Bandyci
+  Disguise:
+    Type: player
+    Skin: Tyrion
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  - 3 SpecificFaction Wilki
+  - 3 SpecificFaction Gobliny
+  Drops:
+  - Zloto 1-2 0.7
+  - Bandit_3_Weapon_1
+  - Bandit_3_Armor
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+#  Skills:
+#  - command{delay=1;c="mmdisguise <mob.l.w> <mob.uuid> player tyrion"} @self ~onSpawn
+  Options:
+    AlwaysShowName: true
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.27
+    KnockbackResistance: 0.29
+    PreventSunburn: true
+  Equipment:
+  - Zbroja_Bandyty_Str:3
+  - B7:0
+  - Egipska_husta_Zr:4
+Bandit5:
+  Type: Skeleton
+  Display: '&4Bandyta'
+  Health: 200
+  Damage: 15
+  Faction: Bandyci
+  Disguise:
+    Type: player
+    Skin: Tyrion
+  AIGoalSelectors:
+  - 0 clear
+  - 1 arrowattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  - 3 SpecificFaction Wilki
+  - 3 SpecificFaction Gobliny
+  Drops:
+  - Strzala 1-3 0.75
+  - Zloto 1-2 0.7
+  - Bandit_3_Weapon_2
+  - Bandit_3_Armor
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+#  Skills:
+#  - command{delay=1;c="mmdisguise <mob.l.w> <mob.uuid> player tyrion"} @self ~onSpawn
+  Options:
+    AlwaysShowName: true
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.33
+    KnockbackResistance: 0.3
+    PreventSunburn: true
+  Equipment:
+  - Zbroja_Bandyty_Str:3
+  - Egipska_husta_Zr:4
+  - Luk_Bandit5:0
+Bandit6:
+  Type: Zombie
+  Display: '&4Bandyta'
+  Health: 165
+  Damage: 35
+  Faction: Bandyci
+  Disguise:
+    Type: player
+    Skin: Tyrion
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  - 3 SpecificFaction Wilki
+  - 3 SpecificFaction Gobliny
+  Drops:
+  - Zloto 1-2 0.7
+  - Bandit_3_Weapon_3
+  - Bandit_3_Armor
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+#  Skills:
+#  - command{delay=1;c="mmdisguise <mob.l.w> <mob.uuid> player tyrion"} @self ~onSpawn
+  Options:
+    AlwaysShowName: true
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.24
+    KnockbackResistance: 0.3
+    PreventSunburn: true
+  Equipment:
+  - B9:0
+  - Zbroja_Bandyty_Str:3
+  - Egipska_husta_Zr:4
+Bandit7:
+  Type: Zombie
+  Display: '&4Bandzior Ortegi'
+  Health: 225
+  Damage: 40
+  Faction: Bandyci
+  Disguise:
+    Type: player
+    Skin: Tyrion
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  - 3 SpecificFaction Wilki
+  - 3 SpecificFaction Gobliny
+  Drops:
+  - Zloto 1-3 0.7
+  - Bandit_3_Weapon_3
+  - Bandit_3_Armor
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+#  Skills:
+#  - command{delay=1;c="mmdisguise <mob.l.w> <mob.uuid> player tyrion"} @self ~onSpawn
+  Options:
+    AlwaysShowName: true
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.26
+    KnockbackResistance: 0.5
+    PreventSunburn: true
+  Equipment:
+  - B9:0
+  - Zbroja_Bandyty_Str:3
+  - Egipska_husta_Zr:4
+Herszt:
+  Type: Zombie
+  Display: '&c&lHerszt Bandytow - BOSS'
+  Health: 3500
+  Damage: 44
+  Faction: Bandyci
+  Disguise:
+    Type: player
+    Skin: otrygg
+  BossBar:
+    Enabled: true
+    Title: '&e==] &c&lHerszt Bandytow &8< &c<caster.hp> &4❤ &8> &e[=='
+    Color: YELLOW
+    Range: 50
+    Style: SOLID
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  - 3 SpecificFaction Wilki
+  - 3 SpecificFaction Gobliny
+  Drops:
+  - Zloto 1-15 0.93
+  - Bandit_Boss_1
+  - Szczaw_Krolewski 1 0.05
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+#  - command{delay=1;c="mmdisguise <mob.l.w> <mob.uuid> player otrygg"} @self ~onSpawn
+  - randomskill{skills=HersztSummon1,HersztSummon2,HersztAttack} ~onDamaged 0.15
+  - skill{s=HersztArmy} ~onDamaged =10% 1
+  Options:
+    AlwaysShowName: true
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.3
+    KnockbackResistance: 0.5
+    PreventSunburn: true
+  Equipment:
+  - Egipska_husta_Zr:4
+  - Zbroja_Bandyty_Str:3
+  - Skorzane_Spodnie_Zr:2
+  - B7:0
+Ortega:
+  Type: Zombie
+  Display: '&4&lORTEGA - BOSS'
+  Health: 6500
+  Damage: 56
+  Faction: Bandyci
+  Disguise:
+    Type: player
+    Skin: otrygg
+  BossBar:
+    Enabled: true
+    Title: '&c==] &4&lOrtega &8< &c<caster.hp> &4❤ &8> &c[=='
+    Color: RED
+    Range: 50
+    Style: SOLID
+  DamageModifiers:
+  - FALL 1
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  - 3 SpecificFaction Wilki
+  - 3 SpecificFaction Gobliny
+  - 3 SpecificFaction Spiders
+  Drops:
+  - Zloto 10-30 1
+  - Bandit_Boss_2
+  - Zbroja_Ortegi_Wytrz 1 0.12
+  - Topor_Ortegi_Str 1 0.01
+  - Szczaw_Krolewski 1 0.05
+  Skills:
+#  - command{delay=1;c="mmdisguise <mob.l.w> <mob.uuid> player otrygg"} @self ~onSpawn
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=OrtegaSpawn} ~onSpawn 1
+  - randomskill{skills=OrtegaSummon1,OrtegaSummon2} ~onDamaged 0.1
+  - skill{s=OrtegaAttack} ~onTimer:20 0.1
+  - skill{s=OrtegaSummon3} ~onDamaged =20% 1
+  Options:
+    AlwaysShowName: true
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.33
+    KnockbackResistance: 0.7
+    PreventSunburn: true
+  Equipment:
+  - Ortega1:0
+  - B4:4
+  - Zbroja_Ortegi_Wytrz:3
+  - Zlote_Nogawice_Zr:2
+  - Szmaragdowe_Buty_Zr:1
+#################################################################################
+GoblinS:
+  Type: Zombie
+  Display: '&a&oGoblini Szaman'
+  Health: 135
+  Damage: 1
+  Faction: Gobliny
+  Disguise:
+    Type: babyZombie
+  AIGoalSelectors:
+  - 0 clear
+  - 1 randomlookaround
+  - 1 meleeattack
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Wilki
+  - 3 SpecificFaction Bandyci
+  Options:
+    AlwaysShowName: true
+    FollowRange: 40
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.26
+    PreventSunburn: true
+  Equipment:
+  - G1:4
+  - OgnistaStrzala:0
+  Skills:
+  - skill{s=GoblinSAttack1} ~onTimer:20 0.07 @target
+  - randomskill{skills=GoblinSAttack1,GoblinSAttack2} ~onDamaged 0.1
+  - skill{s=GoblinAttack3;sync=true} ~onAttack 1
+  - skill{s=MobRemove} ~onTimer:100
+  Drops:
+  - GoblinS_Runes
+  - GoblinS_Weapon
+  - Ziele_lecznicze 1 0.05
+  - Rdest_polny 1 0.15
+LGoblin1:
+  Type: ZOMBIE
+  Display: '&aMlody Goblin'
+  Health: 85
+  Damage: 16
+  Faction: Gobliny
+  Disguise:
+    Type: babyZombie
+  AIGoalSelectors:
+  - 0 clear
+  - 1 randomlookaround
+  - 1 meleeattack
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Wilki
+  - 3 SpecificFaction Bandyci
+  Drops:
+  - LGoblin_1_Weapon_1
+  - Skradzione_Zloto 1 0.1
+  - Goblinie_Zloto 1 0.3
+  - LGoblin_1_Armor
+  - Ziele_lecznicze 1 0.05
+  - Rdest_polny 1 0.15
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.29
+    PreventSunburn: true
+  Equipment:
+  - G1:4
+  - B1:0
+LGoblin2:
+  Type: Skeleton
+  Display: '&aMlody Goblin'
+  Health: 95
+  Damage: 8
+  Faction: Gobliny
+  Disguise:
+    Type: babyZombie
+  AIGoalSelectors:
+  - 0 clear
+  - 1 randomlookaround
+  - 1 arrowattack
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Wilki
+  - 3 SpecificFaction Bandyci
+  Drops:
+  - Strzala 1 0.4
+  - Proca_Zd 1 0.16
+  - Skradzione_Zloto 1 0.1
+  - Goblinie_Zloto 1 0.3
+  - LGoblin_1_Armor
+  - Ziele_lecznicze 1 0.05
+  - Rdest_polny 1 0.15
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.29
+    PreventSunburn: true
+  Equipment:
+  - G1:4
+  - Luk_LGoblin2:0
+LGoblin3:
+  Type: ZOMBIE
+  Display: '&aMlody Goblin'
+  Health: 75
+  Damage: 20
+  Faction: Gobliny
+  Disguise:
+    Type: babyZombie
+  AIGoalSelectors:
+  - 0 clear
+  - 1 randomlookaround
+  - 1 meleeattack
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Wilki
+  - 3 SpecificFaction Bandyci
+  Drops:
+  - Kilof_Goblina_Str 1 0.16
+  - Skradzione_Zloto 1 0.1
+  - Goblinie_Zloto 1 0.3
+  - LGoblin_1_Armor
+  - Ziele_lecznicze 1 0.05
+  - Rdest_polny 1 0.15
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 20
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.29
+    PreventSunburn: true
+  Equipment:
+  - G1:4
+  - G5:0
+LGoblinK:
+  Type: Zombie
+  Display: '&a&lGoblin Junior - BOSS'
+  Health: 2500
+  Damage: 60
+  Faction: Gobliny
+  BossBar:
+    Enabled: true
+    Title: '&2==] &a&lGoblin Junior &8< &c<caster.hp> &4❤ &8> &2[=='
+    Color: GREEN
+    Range: 50
+    Style: SOLID
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  - 3 SpecificFaction Wilki
+  - 3 SpecificFaction Bandyci
+  Drops:
+  - Skradzione_Zloto 4-10 1
+  - Goblinie_Zloto 5-20 1
+  - Ziele_lecznicze 1-5
+  - Rdest_polny 4-10
+  - Goblinska_jagoda 1 0.01
+  - Goblinie_ziele 1 0.01
+  - Szczaw_Krolewski 1 0.05
+  Skills:
+  - skill{s=GoblinPull} ~onTimer:10 0.01
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 20
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.2
+    KnockbackResistance: 0.75
+    PreventSunburn: true
+  Equipment:
+  - G1:0
+  - G8:4
+Goblin1:
+  Type: Zombie
+  Display: '&aGoblin'
+  Health: 100
+  Damage: 21
+  Faction: Gobliny
+  AIGoalSelectors:
+  - 0 clear
+  - 1 randomlookaround
+  - 1 meleeattack
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Wilki
+  - 3 SpecificFaction Bandyci
+  Drops:
+  - LGoblin_1_Weapon_1
+  - Skradzione_Zloto 1 0.15
+  - Goblinie_Zloto 1 0.4
+  - LGoblin_1_Armor
+  - Ziele_lecznicze 1 0.1
+  - Rdest_polny 1 0.2
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.34
+    PreventSunburn: true
+  Equipment:
+  - G1:4
+  - B1:0
+Goblin2:
+  Type: Skeleton
+  Display: '&aGoblin'
+  Health: 115
+  Damage: 10
+  Faction: Gobliny
+  Disguise:
+    Type: Zombie
+  AIGoalSelectors:
+  - 0 clear
+  - 1 randomlookaround
+  - 1 arrowattack
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Wilki
+  - 3 SpecificFaction Bandyci
+  Drops:
+  - Strzala 1 0.55
+  - Proca_Zd 1 0.16
+  - Skradzione_Zloto 1 0.15
+  - Goblinie_Zloto 1 0.4
+  - LGoblin_1_Armor
+  - Ziele_lecznicze 1 0.1
+  - Rdest_polny 1 0.2
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.37
+    PreventSunburn: true
+  Equipment:
+  - G1:4
+  - Luk_Goblin2:0
+Goblin5:
+  Type: Zombie
+  Display: '&2Goblin Berserker'
+  Health: 155
+  Damage: 23
+  Faction: Gobliny
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Wilki
+  - 3 SpecificFaction Bandyci
+  Drops:
+  - Goblin_2_Armor
+  - Goblin_2_Weapon_2
+  - Skradzione_Zloto 1 0.3
+  - Goblinie_Zloto 1 0.7
+  - Ziele_lecznicze 1 0.15
+  - Rdest_polny 1 0.25
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.32
+    PreventSunburn: true
+  Equipment:
+  - G1:4
+  - G3:0
+  - B2:3
+Goblin4:
+  Type: Zombie
+  Display: '&2Goblin Berserker'
+  Health: 115
+  Damage: 30
+  Faction: Gobliny
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Wilki
+  - 3 SpecificFaction Bandyci
+  Drops:
+  - Goblin_2_Armor
+  - Goblini_Toporek_Str 1 0.2
+  - Skradzione_Zloto 1 0.3
+  - Goblinie_Zloto 1 0.7
+  - Ziele_lecznicze 1 0.15
+  - Rdest_polny 1 0.25
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 20
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.28
+    PreventSunburn: true
+  Equipment:
+  - G1:4
+  - G4:0
+  - B2:3
+Goblin3:
+  Type: Zombie
+  Display: '&aGoblin'
+  Health: 80
+  Damage: 24
+  Faction: Gobliny
+  AIGoalSelectors:
+  - 0 clear
+  - 1 randomlookaround
+  - 1 meleeattack
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Wilki
+  - 3 SpecificFaction Bandyci
+  Drops:
+  - Kilof_Goblina_Str 1 0.12
+  - Skradzione_Zloto 1 0.15
+  - Goblinie_Zloto 1 0.4
+  - LGoblin_1_Armor
+  - Ziele_lecznicze 1 0.1
+  - Rdest_polny 1 0.2
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 20
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.3
+    PreventSunburn: true
+  Equipment:
+  - G1:4
+  - G5:0
+Goblin6:
+  Type: Skeleton
+  Display: '&2Goblin Berserker'
+  Health: 170
+  Damage: 13
+  Faction: Gobliny
+  Disguise:
+    Type: Zombie
+  AIGoalSelectors:
+  - 0 clear
+  - 1 arrowattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Wilki
+  - 3 SpecificFaction Bandyci
+  Drops:
+  - Strzala 1 0.8
+  - Goblin_2_Armor
+  - Goblin_2_Weapon_1
+  - Skradzione_Zloto 1 0.3
+  - Goblinie_Zloto 1 0.7
+  - Ziele_lecznicze 1 0.15
+  - Rdest_polny 1 0.25
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 20
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.37
+    PreventSunburn: true
+  Equipment:
+  - G1:4
+  - B2:3
+  - Luk_Goblin6:0
+Goblin7:
+  Type: Skeleton
+  Display: '&a&lGoblini wojownik'
+  Health: 210
+  Damage: 15
+  Faction: Gobliny
+  Disguise:
+    Type: Zombie
+  AIGoalSelectors:
+  - 0 clear
+  - 1 arrowattack
+  - 1 leapattarget
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  - 3 SpecificFaction Wilki
+  - 3 SpecificFaction Bandyci
+  Drops:
+  - Strzala 1 1
+  - Goblin_3_Armor
+  - Goblin_3_Weapon_1
+  - Skradzione_Zloto 1 0.7
+  - Goblinie_Zloto 1-2 0.9
+  - Ziele_lecznicze 1 0.2
+  - Rdest_polny 1 0.3
+  - Goblinska_jagoda 1 0.005
+  - Goblinie_ziele 1 0.005
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 20
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.38
+    PreventSunburn: true
+  Equipment:
+  - G1:4
+  - B2:3
+  - Luk_Goblin7:0
+  - B6:2
+Goblin8:
+  Type: Zombie
+  Display: '&a&lGoblini wojownik'
+  Health: 145
+  Damage: 34
+  Faction: Gobliny
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 1 leapattarget
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  - 3 SpecificFaction Wilki
+  - 3 SpecificFaction Bandyci
+  Drops:
+  - Goblin_3_Armor
+  - Goblin_3_Weapon_2
+  - Skradzione_Zloto 1 0.7
+  - Goblinie_Zloto 1-2 0.9
+  - Ziele_lecznicze 1 0.2
+  - Rdest_polny 1 0.3
+  - Goblinska_jagoda 1 0.005
+  - Goblinie_ziele 1 0.005
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 20
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.29
+    PreventSunburn: true
+  Equipment:
+  - G1:4
+  - B2:3
+  - G6:0
+  - B6:2
+Goblin9:
+  Type: Zombie
+  Display: '&a&lGoblini wojownik'
+  Health: 195
+  Damage: 29
+  Faction: Gobliny
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 1 leapattarget
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  - 3 SpecificFaction Wilki
+  - 3 SpecificFaction Bandyci
+  Drops:
+  - Goblin_3_Armor
+  - Goblini_Miecz_Zr 1 0.06
+  - Skradzione_Zloto 1 0.7
+  - Goblinie_Zloto 1-2 0.9
+  - Ziele_lecznicze 1 0.2
+  - Rdest_polny 1 0.3
+  - Goblinska_jagoda 1 0.005
+  - Goblinie_ziele 1 0.005
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 20
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.33
+    PreventSunburn: true
+  Equipment:
+  - G1:4
+  - B2:3
+  - G7:0
+  - B6:2
+GoblinK:
+  Type: Zombie
+  Display: '&cGoblini Krol - BOSS'
+  Health: 10000
+  Damage: 120
+  Faction: Gobliny
+  BossBar:
+    Enabled: true
+    Title: '&6==] &c&lGoblini Krol &8< &c<caster.hp> &4❤ &8> &6[=='
+    Color: RED
+    Range: 50
+    Style: SOLID
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 1 leapattarget
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  - 3 SpecificFaction Wilki
+  - 3 SpecificFaction Bandyci
+  Drops:
+  - Skradzione_Zloto 4-10 1
+  - Goblinie_Zloto 5-20 1
+  - Goblin_Boss_1
+  - Ziele_lecznicze 5-10
+  - Rdest_polny 10-25
+  - Goblinska_jagoda 1 0.05
+  - Goblinie_ziele 1 0.05
+  - Szczaw_Krolewski 1 0.05
+  Skills:
+  - randomskill{skills=GoblinSummon1,GoblinSummon2,GoblinSummon3,GoblinThrow} ~onDamaged 0.05
+  - skill{s=GoblinPull} ~onTimer:20 0.02
+  - skill{s=GoblinSummon4} ~onDamaged =20% 1
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 20
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.15
+    KnockbackResistance: 1
+    PreventSunburn: true
+  Equipment:
+  - G1:0
+  - G8:4
+#################################################################################
+Rybik:
+  Type: SILVERFISH
+  Display: '&eRybik piaskowy'
+  Health: 240
+  Damage: 45
+  Faction: Wilki
+  AIGoalSelectors:
+  - 0 clear
+  - 1 leapattarget
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  - 3 SpecificFaction Egipt
+  - 3 SpecificFaction Pirates
+  - 3 SpecificFaction Gobliny
+  Drops:
+  - Rybik 1 0.33
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 25
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.25
+Szakal:
+  Type: wolf
+  Display: '&e&lSzakal'
+  Health: 325
+  Damage: 54
+  Faction: Wilki
+  AIGoalSelectors:
+  - 0 clear
+  - 1 leapattarget
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  - 3 SpecificFaction Egipt
+  - 3 SpecificFaction Pirates
+  - 3 SpecificFaction Gobliny
+  Drops:
+  - Skora_Szakala 1 0.4
+  - Kly_Szakala 1 0.25
+  - Trup 1 0.4
+  - Czaszka 1 0.25
+  - Kosc 1 0.8
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 25
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.3
+    Angry: true
+SzakalSummon:
+  Type: Zombie
+  Display: '&e&lSzakal'
+  Health: 325
+  Damage: 54
+  Faction: Wilki
+  AIGoalSelectors:
+  - 0 clear
+  - 1 leapattarget
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  - 3 SpecificFaction Egipt
+  - 3 SpecificFaction Pirates
+  - 3 SpecificFaction Gobliny
+  Drops:
+  - Skora_Szakala 1 0.4
+  - Kly_Szakala 1 0.25
+  - Trup 1 0.4
+  - Czaszka 1 0.25
+  - Kosc 1 0.8
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Disguise:
+    Type: wolf
+  Options:
+    AlwaysShowName: true
+    FollowRange: 25
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.3
+    Angry: true
+    PreventSunburn: true
+  Equipment:
+  - B4:4
+Ludojad:
+  Type: wolf
+  Display: '&c&lSzakal Ludojad - BOSS'
+  Health: 7500
+  Damage: 70
+  Faction: Wilki
+  BossBar:
+    Enabled: true
+    Title: '&6==] &c&lSzakal Ludojad &8< &c<caster.hp> &4❤ &8> &6[=='
+    Color: YELLOW
+    Range: 50
+    Style: SOLID
+  AIGoalSelectors:
+  - 0 clear
+  - 1 leapattarget
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  - 3 SpecificFaction Egipt
+  - 3 SpecificFaction Pirates
+  - 3 SpecificFaction Gobliny
+  Drops:
+  - Skora_Szakala 1 0.9
+  - Kly_Szakala 1 0.5
+  - Trup 1 0.7
+  - Czaszka 1 0.5
+  - Kosc 1-5 1
+  - Starozytny_Luk_Zd 1 0.08
+  - Szczaw_Krolewski 1 0.05
+  - Dragrot 1 0.03
+  Skills:
+  - skill{s=LudojadSpawn} ~onSpawn 1
+  - randomskill{skills=LudojadSummon1,LudojadSummon2} ~onDamaged 0.08
+  - skill{s=LudojadBlood} ~onAttack 0.1
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 25
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.33
+    Angry: true
+    KnockbackResistance: 0.5
+#################################################################################
+Egipt1:
+  Type: Zombie
+  Display: '&6Wojownik budowniczych'
+  Health: 390
+  Damage: 53
+  Faction: Egipt
+  Disguise:
+    Type: player
+    Skin: ImmortalPharaoh7
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 opendoors
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Egipt
+  - 3 SpecificFaction Jungle
+  Drops:
+  - Pustynny_Piach 1 0.9
+  - Egipskie_Pergaminy 1 0.3
+  - Egipt_1_Armor
+  - Egipt_1_Weapon
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 25
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.31
+    KnockbackResistance: 0.15
+    Silent: true
+    PreventSunburn: true
+  Equipment:
+  - Egipska_husta_Zr:4
+  - Kolczuga_Egipska_Wytrz:3
+  - E3:0
+Egipt2:
+  Type: Zombie
+  Display: '&6Architekt budowniczych'
+  Health: 310
+  Damage: 64
+  Faction: Egipt
+  Disguise:
+    Type: player
+    Skin: ImmortalPharaoh7
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 opendoors
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Egipt
+  - 3 SpecificFaction Jungle
+  Drops:
+  - Pustynny_Piach 1 0.9
+  - Egipskie_Pergaminy 1 0.3
+  - Egipt_2_Armor
+  - Kilof_Niewolnikow_Str 1 0.15
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 25
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.26
+    KnockbackResistance: 0.3
+    Silent: true
+    PreventSunburn: true
+  Equipment:
+  - Zdobiona_husta_Zr:4
+  - Egipska_Szata_Str:2
+  - E6:0
+Egipt3:
+  Type: Skeleton
+  Display: '&6Strzelec budowniczych'
+  Health: 425
+  Damage: 28
+  Faction: Egipt
+  Disguise:
+    Type: player
+    Skin: ImmortalPharaoh7
+  AIGoalSelectors:
+  - 0 clear
+  - 1 arrowattack
+  - 2 opendoors
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Egipt
+  - 3 SpecificFaction Jungle
+  Drops:
+  - Strzala 1-3 0.85
+  - Pustynny_Piach 1 0.9
+  - Egipskie_Pergaminy 1 0.3
+  - Egipt_3_Armor
+  - Egipt_3_Weapon
+  - WyostrzoneZmysly 1 0.07
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 25
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.33
+    KnockbackResistance: 0.1
+    Silent: true
+    PreventSunburn: true
+  Equipment:
+  - Egipska_husta_Int:4
+  - Luk_Egipt3:0
+  - Egipska_Szata_Zr:2
+Egipt4:
+  Type: WITHER_SKELETON
+  Display: '&6&lKaplan budowniczych'
+  Health: 370
+  Damage: 45
+  Faction: Egipt
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 opendoors
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  - 3 SpecificFaction Egipt
+  - 3 SpecificFaction Jungle
+  Drops:
+  - Pustynny_Piach 1-4 0.4
+  - Egipskie_Pergaminy 1-4 0.8
+  - Egipt_4_Armor
+  - Egipt_4_Weapon
+  - Egipt_4_Runes
+  - Ziolo_many 1 0.15
+  Skills:
+  - randomskill{skills=Egipt4Attack1,Egipt4Attack2,Egipt4Attack3} ~onDamaged 0.05
+  - randomskill{skills=Egipt4Attack1,Egipt4Attack2,Egipt4Attack3} ~onAttack 0.25
+  - skill{s=Egipt4Summon} ~onDamaged 0.05
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 25
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.22
+    KnockbackResistance: 0.4
+  Equipment:
+  - Helm_Pradawnych_Int:4
+  - Toga_Kaplanska_Int:3
+  - Kaplanska_Szata_Mana:2
+  - Ozdobne_Sandaly_Zr:1
+  - E5:0
+Egipt5:
+  Type: HUSK
+  Display: '&4MUMIA'
+  Health: 600
+  Damage: 77
+  Disguise:
+  Faction: Egipt
+  Disguise:
+    Type: player
+    Skin: mummy
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 breakdoors
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Egipt
+  - 3 SpecificFaction Jungle
+  Drops:
+  - Serce_Mumii 1 0.3
+  - Pustynny_Piach 1-6 0.95
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 25
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.17
+    KnockbackResistance: 1
+  Equipment:
+  - B4:4
+Egipt6:
+  Type: HUSK
+  Display: '&4STAROZYTNA MUMIA'
+  Health: 750
+  Damage: 91
+  Faction: Egipt
+  Disguise:
+    Type: player
+    Skin: the_living_mummy
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 breakdoors
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Egipt
+  - 3 SpecificFaction Jungle
+  Drops:
+  - Serce_Mumii 1 0.6
+  - Pustynny_Piach 1-7 0.99
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 25
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.23
+    KnockbackResistance: 1
+  Equipment:
+  - B4:4
+Ra:
+  Type: Zombie
+  Display: '&3&lQuarhodron - BOSS'
+  Health: 8500
+  Damage: 85
+  Faction: Egipt
+  Disguise:
+    Type: player
+    Skin: dragon_priest
+  BossBar:
+    Enabled: true
+    Title: '&9==] &3&lQuarhordon &8< &c<caster.hp> &4❤ &8> &9[=='
+    Color: RED
+    Range: 50
+    Style: SEGMENTED_6
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Egipt
+  - 3 SpecificFaction Jungle
+  Drops:
+  - Pustynny_Piach 5-10 1
+  - Egipskie_Pergaminy 3-7 1
+  - Egipt_Boss_1
+  - Egipt_Boss_4
+  - Sloneczna_Zbroja 1 0.01
+  - Szczaw_Krolewski 1 0.05
+  Skills:
+  - skill{s=RaSpawn} ~onSpawn 1
+  - randomskill{skills=RaSummon1,RaSummon2} ~onDamaged 0.08
+  - randomskill{skills=RaAttack1,ReAttack2,ReAttack3} ~onTimer:20 0.08
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 25
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.25
+    KnockbackResistance: 0.9
+    PreventSunburn: true
+  Equipment:
+  #- G1:4
+  #- E11:2
+  #- E12:0
+  #- Ortega2:3
+  #- Ortega4:1
+  - B4:4
+  - Orkowy_Pancerz_Wojenny_Wytrz:3
+  - Pancerz_Orka_Wytrz:2
+  - Buty_Wojenne_Str:1
+  - O13:0
+Cleopatra:
+  Type: Blaze
+  Display: '&b&lKhardimon - Najwyzszy kaplan - EPIC BOSS'
+  Health: 33333
+  Damage: 90
+  Faction: Egipt
+  Modules:
+    ThreatTable: true
+  Disguise:
+    Type: player
+    Skin: dodopriester
+  BossBar:
+    Enabled: true
+    Title: '&5==] &b&lKhardimon &8< &c<caster.hp> &4❤ &8> &5[=='
+    Color: RED
+    Range: 100
+    Style: SEGMENTED_10
+  Drops:
+  - Egipt_Boss_3
+  - Egipt_Boss_2
+  - Szept_Smierci_Zd 1 0.02
+  - UkazanieSmierci 1 0.01
+  - Ziolo_many 1-32
+  - Szczaw_Krolewski 1 0.1
+  Skills:
+  - skill{s=KhardimonAttack;sync=true} ~onAttack 1
+  - skill{s=CleopatraSpawn} ~onSpawn 1
+  - randomskill{skills=CleopatraAttack3,CleopatraAttack1,CleopatraAttack2} ~onTimer:40 0.07
+  - randomskill{skills=CleopatraSummon1,CleopatraSummon2} ~onDamaged 0.1
+  - skill{s=CleopatraAttack4} ~onTimer:20 0.07
+  - skill{s=CleopatraAttack4} ~onDamaged 0.12
+  - skill{s=CleopatraDeath} ~onDeath 1
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 25
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.33
+    KnockbackResistance: 1
+  Equipment:
+  - B4:4
+  - Kostur_Ra_Mana:0
+Cleo:
+  Type: Villager
+  Display: ''
+  Health: 10
+  Damage: 60
+  Disguise:
+    Invisible: true
+    Type: villager
+  Skills:
+  - skill{s=CleoSpawn} ~onSpawn 1
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    HasTrades: false
+#    Invincible: true
+    PreventSunburn: true
+#################################################################################
+Zombie1:
+  Type: Zombie
+  Display: '&3Zombie'
+  Health: 650
+  Damage: 74
+  Faction: Undead
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Jungle
+  Drops:
+  - Resztki 1 0.25
+  - Glowa_Zombie 1 0.5
+  - Bagienne_Ziele 1 0.005
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.23
+    KnockbackResistance: 0.5
+    PreventSunburn: true
+  Equipment:
+  - B4:4
+Zombie2:
+  Type: BABY_ZOMBIE
+  Display: '&2Husk minion'
+  Health: 100
+  Damage: 20
+  Faction: Undead
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Jungle
+  Skills:
+  - skill{s=HuskCopySummon} ~onDamaged 0.15
+  - heal{amount=1} @self ~onTimer:20 1
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.4
+    PreventSunburn: true
+  Equipment:
+  - B4:4
+Zombie3:
+  Type: Zombie
+  Display: '&2&lHUSK - miniBOSS'
+  Health: 2500
+  Damage: 94
+  Faction: Undead
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Jungle
+  Drops:
+  - Resztki 1 0.8
+  - Glowa_Zombie 1 1
+  - Mieso_Huska 1 0.6
+  - SmiercOzywiencom 1 0.12
+  - Bagienne_Ziele 1 0.015
+  Skills:
+  - skill{s=HuskMinionSummon} ~onDamaged 0.1
+  - heal{amount=2} @self ~onTimer:20 1
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.23
+    KnockbackResistance: 0.75
+    PreventSunburn: true
+  Equipment:
+  - B4:4
+Zombie4:
+  Type: Zombie
+  Display: '&4&lGIANT HUSK - BOSS'
+  Health: 25000
+  Damage: 150
+  Faction: Undead
+  BossBar:
+    Enabled: true
+    Title: '&2==] &4&lGIANT HUSK &8< &c<caster.hp> &4❤ &8> &2[=='
+    Color: GREEN
+    Range: 50
+    Style: SOLID
+  Disguise:
+    Type: Giant
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Jungle
+  Drops:
+  - Resztki 1-10 1
+  - Mieso_Huska 1-10 1
+  - SmiercOzywiencom 1 0.41
+  - Bagienne_Ziele 1 0.03
+  - Szczaw_Krolewski 1 0.05
+  Skills:
+  - skill{s=HuskSummon} ~onDamaged 0.03
+  - heal{amount=5} @self ~onTimer:20 1
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 50
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.2
+    KnockbackResistance: 1
+    PreventSunburn: true
+  Equipment:
+  - B4:4
+#################################################################################
+Zaraza1:
+  Type: Zombie
+  Display: '&cZarazony Gornik'
+  Health: 400
+  Damage: 69
+  Faction: Undead
+  AIGoalSelectors:
+  - 0 clear
+  - 1 randomstroll
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Jungle
+  - 3 SpecificFaction Bandyci
+  Drops:
+  - Bakterie 1 0.5
+  - Zaraza_1_Armor
+  - Zaraza_1_Weapon
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.28
+    KnockbackResistance: 0.2
+    PreventSunburn: true
+  Equipment:
+  - E1:4
+  - B6:2
+  - E9:1
+  - Z1:0
+Zaraza2:
+  Type: Zombie
+  Display: '&cZarazony Gornik'
+  Health: 485
+  Damage: 59
+  Faction: Undead
+  AIGoalSelectors:
+  - 0 clear
+  - 1 randomstroll
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Jungle
+  - 3 SpecificFaction Bandyci
+  Drops:
+  - Bakterie 1 0.5
+  - Zaraza_1_Armor
+  - Lopata_Gornika_Str 1 0.11
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.32
+    PreventSunburn: true
+  Equipment:
+  - E1:4
+  - B6:2
+  - E9:1
+  - Z2:0
+Zaraza3:
+  Type: Skeleton
+  Display: '&cZarazony Gornik'
+  Health: 500
+  Damage: 31
+  Faction: Undead
+  Disguise:
+    Type: Zombie
+  AIGoalSelectors:
+  - 0 clear
+  - 1 randomstroll
+  - 1 arrowattack
+  - 2 randomlookaround
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Jungle
+  - 3 SpecificFaction Bandyci
+  Drops:
+  - Strzala 2 1
+  - Bakterie 1 0.5
+  - Zaraza_1_Armor
+  - Zaraza_3_Weapon
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.33
+    PreventSunburn: true
+  Equipment:
+  - E1:4
+  - B6:2
+  - E9:1
+  - Luk_Zaraza3:0
+Mud:
+  Type: Zombie
+  Display: '&2Mud'
+  Health: 700
+  Damage: 1
+  Faction: Undead
+  AIGoalSelectors:
+  - 0 clear
+  - 1 randomstroll
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Jungle
+  - 3 SpecificFaction Bandyci
+  Skills:
+  - skill{s=MudAttack} ~onAttack 1
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.32
+    PreventSunburn: true
+  Equipment:
+  - B4:4
+Zaraza4:
+  Type: Husk
+  Display: '&4Zarazony'
+  Health: 450
+  Damage: 59
+  Faction: Undead
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 1 randomstroll
+  - 2 randomlookaround
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Jungle
+  - 3 SpecificFaction Bandyci
+  Drops:
+  - Glowa_Zarazonego 1 0.4
+  - Bakterie 1-3 0.8
+  - Bagienne_Ziele 1 0.01
+  Skills:
+  - skill{s=ZarazaAttack1} ~onAttack 1
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.36
+    KnockbackResistance: 0.6
+  Equipment:
+  - B4:4
+Zaraza5:
+  Type: Husk
+  Display: '&c&lKlikacz'
+  Health: 250
+  Damage: 82
+  Faction: Undead
+  AIGoalSelectors:
+  - 0 clear
+  - 1 randomstroll
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  - 3 SpecificFaction Jungle
+  - 3 SpecificFaction Bandyci
+  Skills:
+  - skill{s=ZarazaAttack2} ~onAttack 1
+  - skill{s=MobRemove} ~onTimer:100
+  Drops:
+  - Bakterie 3 1
+  - Kiel_Klikacza 1 0.35
+  - Bagienne_Ziele 1 0.015
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.38
+    KnockbackResistance: 0.2
+  Equipment:
+  - B4:4
+Purchlak:
+  Type: Husk
+  Display: '&4&lPurchlak - BOSS'
+  Health: 12500
+  Damage: 135
+  Faction: Undead
+  BossBar:
+    Enabled: true
+    Title: '&a==] &4&lPurchlak &8< &c<caster.hp> &4❤ &8> &a[=='
+    Color: YELLOW
+    Range: 50
+    Style: SOLID
+  DamageModifiers:
+  - FALL 1
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 1 randomstroll
+  - 2 randomlookaround
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Jungle
+  - 3 SpecificFaction Bandyci
+  Drops:
+  - Grzebien_Purchlaka_Zd 1 0.01
+  - Bakterie 5-15 1
+  - Bagienne_Ziele 1 0.05
+  - Szczaw_Krolewski 1 0.05
+  Skills:
+  - skill{s=PurchlakAttack1} ~onTimer:100 1
+  - skill{s=PurchlakAttack2} ~onAttack 1
+  - skill{s=PurchlakAttack3} ~onTimer:40 0.2
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 60
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.2
+    KnockbackResistance: 1
+  Equipment:
+  - B4:4
+Gomez:
+  Type: Zombie
+  Display: '&6&lGomez - Straznik Kopalni - BOSS'
+  Health: 13000
+  Damage: 95
+  Faction: Undead
+  Disguise:
+    Type: player
+    Skin: corristo
+  BossBar:
+    Enabled: true
+    Title: '&c==] &6&lGomez - Straznik Kopalni &8< &c<caster.hp> &4❤ &8> &c[=='
+    Color: RED
+    Range: 50
+    Style: SEGMENTED_6
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 1 randomstroll
+  - 2 randomlookaround
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Jungle
+  - 3 SpecificFaction Bandyci
+  Drops:
+  - Bakterie 1-10 1
+  - Helm_Straznika_Kopalni_Wytrz 1 0.15
+  - Zbroja_Magnata_Wytrz 1 0.01
+  - Zbroja_Magnata_Wytrz2 1 0.01
+  - Gniew_Innosa_Str 1 0.01
+  - Szczaw_Krolewski 1 0.05
+  Skills:
+  - randomskill{skills=GomezSummon} ~onDamaged 0.08
+  - randomskill{skills=GomezTp,GomezAttack1} ~onTimer:20 0.15
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 40
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.3
+    KnockbackResistance: 1
+  Equipment:
+  - G8:4
+  - Z3:3
+  - E11:2
+  - Z4:1
+  - Z5:0
+#################################################################################
+Warg:
+  Type: wolf
+  Display: '&cWarg'
+  Health: 825
+  Damage: 80
+  Faction: Wilki
+  AIGoalSelectors:
+  - 0 clear
+  - 1 leapattarget
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  - 3 SpecificFaction Murders
+  - 3 SpecificFaction Ass
+  Drops:
+  - Skora_Warga 1 0.7
+  - Kiel_Warga 1-2 0.5
+  - Psia_Kosc 1 0.45
+  - Orkowa_Smycz 1 0.25
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 35
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.37
+    KnockbackResistance: 0.3
+    Angry: true
+WargGeneral:
+  Type: Zombie
+  Display: '&4Warg Orkowego Generala'
+  Health: 1100
+  Damage: 80
+  Faction: Orcs
+  AIGoalSelectors:
+  - 0 clear
+  - 1 leapattarget
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  - 3 SpecificFaction Murders
+  - 3 SpecificFaction Ass
+  Drops:
+  - Skora_Warga 1 1
+  - Kiel_Warga 1-4 0.8
+  - Psia_Kosc 1-4 0.7
+  - Orkowa_Smycz 1 1
+  Disguise:
+    Type: wolf
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 35
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.4
+    KnockbackResistance: 0.9
+    Angry: true
+    PreventSunburn: true
+  Equipment:
+  - B4:4
+WargSummon:
+  Type: Zombie
+  Display: '&cWarg'
+  Health: 825
+  Damage: 80
+  Faction: Wilki
+  Disguise:
+    Type: wolf
+  AIGoalSelectors:
+  - 0 clear
+  - 1 leapattarget
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  - 3 SpecificFaction Murders
+  - 3 SpecificFaction Ass
+  Disguise:
+    Type: wolf
+  Drops:
+  - Skora_Warga 1 0.7
+  - Kiel_Warga 1-2 0.5
+  - Psia_Kosc 1 0.45
+  - Orkowa_Smycz 1 0.25
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 35
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.37
+    KnockbackResistance: 0.3
+    Angry: true
+    PreventSunburn: true
+  Equipment:
+  - B4:4
+PiesSummon:
+  Type: Zombie
+  Display: '&4Orkowy Pies'
+  Health: 940
+  Damage: 94
+  Faction: Orcs
+  AIGoalSelectors:
+  - 0 clear
+  - 1 leapattarget
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  - 3 SpecificFaction Murders
+  - 3 SpecificFaction Ass
+  Disguise:
+    Type: wolf
+  Drops:
+  - Skora_Warga 1 0.85
+  - Kiel_Warga 1-3 0.6
+  - Psia_Kosc 1-2 0.55
+  - Orkowa_Smycz 1 0.1
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 35
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.35
+    KnockbackResistance: 0.45
+    Angry: true
+    PreventSunburn: true
+  Equipment:
+  - B4:4
+Pies:
+  Type: wolf
+  Display: '&4Orkowy Pies'
+  Health: 940
+  Damage: 94
+  Faction: Orcs
+  AIGoalSelectors:
+  - 0 clear
+  - 1 leapattarget
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  - 3 SpecificFaction Murders
+  - 3 SpecificFaction Ass
+  Drops:
+  - Skora_Warga 1 0.85
+  - Kiel_Warga 1-3 0.6
+  - Psia_Kosc 1-2 0.55
+  - Orkowa_Smycz 1 0.1
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 35
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.35
+    KnockbackResistance: 0.45
+    Angry: true
+Alfa_Warg:
+  Type: zombie
+  Display: '&c&lSamiec ALFA - BOSS'
+  Health: 3000
+  Damage: 40
+  Faction: Wilki
+  BossBar:
+    Enabled: true
+    Title: '&2==] &c&lSamiec ALFA &8< &c<caster.hp> &4❤ &8> &2[=='
+    Color: GREEN
+    Range: 50
+    Style: SOLID
+  AIGoalSelectors:
+  - 0 clear
+  - 1 leapattarget
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  - 3 SpecificFaction Bandyci
+  - 3 SpecificFaction Gobliny
+  Disguise:
+    Type: wolf
+  Skills:
+  - randomskill{skills=AlfaSummon,AlfaTp} ~onDamaged 0.15
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    Angry: true
+    MovementSpeed: 0.35
+    PreventSunburn: true
+  Equipment:
+  - B4:4
+Ludojad_Warg:
+  Type: zombie
+  Display: '&c&lSzakal Ludojad - BOSS'
+  Health: 7500
+  Damage: 70
+  Faction: Wilki
+  BossBar:
+    Enabled: true
+    Title: '&4==] &c&lSzakal Ludojad &8< &c<caster.hp> &4❤ &8> &4[=='
+    Color: YELLOW
+    Range: 50
+    Style: SOLID
+  Disguise:
+    Type: wolf
+  AIGoalSelectors:
+  - 0 clear
+  - 1 leapattarget
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  - 3 SpecificFaction Egipt
+  - 3 SpecificFaction Pirates
+  - 3 SpecificFaction Gobliny
+  Skills:
+  - skill{s=LudojadSpawn} ~onSpawn 1
+  - randomskill{skills=LudojadSummon1,LudojadSummon2} ~onDamaged 0.08
+  - skill{s=LudojadBlood} ~onAttack 0.1
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 25
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.33
+    Angry: true
+    KnockbackResistance: 0.5
+    PreventSunburn: true
+  Equipment:
+  - B4:4
+WargKana:
+  Type: wolf
+  Display: '&c&lTserebus - warg Kana - BOSS'
+  Health: 17600
+  Damage: 100
+  Faction: Orcs
+  BossBar:
+    Enabled: true
+    Title: '&4==] &c&lTserebus - warg Kana &8< &c<caster.hp> &4❤ &8> &4[=='
+    Color: RED
+    Range: 50
+    Style: SEGMENTED_6
+  AIGoalSelectors:
+  - 0 clear
+  - 1 leapattarget
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  - 3 SpecificFaction Murders
+  - 3 SpecificFaction Ass
+  Drops:
+  - Skora_Tserebusa 1 1
+  - Kiel_Tserebusa 1 1
+  - Psia_Kosc 1-15 1
+  - Orkowa_Smycz 1 1
+  - Szczaw_Krolewski 1 0.05
+  Skills:
+  - skill{s=TserebusSpawn} ~onSpawn 1
+  - randomskill{skills=TserebusSummon1,TserebusSummon2,TserebusSummon3,TserebusSummon6} ~onDamaged 0.2
+  - randomskill{skills=TserebusSummon4,TserebusSummon5} ~onDamaged <25% 0.15
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 80
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.34
+    KnockbackResistance: 0.99
+    Angry: true
+#################################################################################
+Ork1:
+  Type: pigzombie
+  Display: '&2Ork'
+  Health: 650
+  Damage: 83
+  Faction: Orcs
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Murders
+  - 3 SpecificFaction Ass
+  Drops:
+  - Skora_Warga 1 0.15
+  - Orc_1_Weapon_1
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 35
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.27
+    KnockbackResistance: 0.9
+  Equipment:
+  - Orkowy_Helm_Str:4
+  - O5:0
+Ork2:
+  Type: pigzombie
+  Display: '&2Ork'
+  Health: 775
+  Damage: 61
+  Faction: Orcs
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Murders
+  - 3 SpecificFaction Ass
+  Drops:
+  - Skora_Warga 1 0.15
+  - Orc_1_Weapon_2
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 35
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.3
+    KnockbackResistance: 0.6
+  Equipment:
+  - Orkowy_Helm_Str:4
+  - O3:0
+Ork3:
+  Type: Skeleton
+  Display: '&2Ork'
+  Health: 720
+  Damage: 39
+  Faction: Orcs
+  Disguise:
+    Type: pigzombie
+  AIGoalSelectors:
+  - 0 clear
+  - 1 arrowattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Murders
+  - 3 SpecificFaction Ass
+  Drops:
+  - Strzala 4 0.33
+  - Skora_Warga 1 0.15
+  - Orc_1_Weapon_3
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 35
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.28
+    KnockbackResistance: 0.8
+    PreventSunburn: true
+  Equipment:
+  - Orkowy_Helm_Str:4
+  - Luk_Ork3:0
+Ork4:
+  Type: pigzombie
+  Display: '&cOrk wojownik'
+  Health: 800
+  Damage: 93
+  Faction: Orcs
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Murders
+  - 3 SpecificFaction Ass
+  Drops:
+  - Orkowa_Odznaka 1 0.1
+  - Skora_Szakala 1 0.1
+  - Skora_Warga 1 0.25
+  - Orc_2_Armor
+  - Orc_2_Weapon_1
+  - Trans 1 0.06
+  - Ziele_pancerza 1 0.005
+  - Dragrot 1 0.005
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 35
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.25
+    KnockbackResistance: 0.95
+  Equipment:
+  - O2:0
+  - Orkowa_Zbroja_Str:3
+  - Orkowy_Helm_Str:4
+Ork5:
+  Type: pigzombie
+  Display: '&cOrk wojownik'
+  Health: 920
+  Damage: 78
+  Faction: Orcs
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Murders
+  - 3 SpecificFaction Ass
+  Drops:
+  - Orkowa_Odznaka 1 0.1
+  - Skora_Szakala 1 0.1
+  - Skora_Warga 1 0.25
+  - Orc_2_Armor
+  - Orc_2_Weapon_2
+  - Trans 1 0.06
+  - Ziele_pancerza 1 0.005
+  - Dragrot 1 0.005
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 35
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.3
+    KnockbackResistance: 0.65
+  Equipment:
+  - O8:0
+  - Orkowa_Zbroja_Str:3
+  - Orkowy_Helm_Str:4
+Ork6:
+  Type: Skeleton
+  Display: '&cOrk wojownik'
+  Health: 875
+  Damage: 44
+  Faction: Orcs
+  Disguise:
+    Type: pigzombie
+  AIGoalSelectors:
+  - 0 clear
+  - 1 arrowattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Murders
+  - 3 SpecificFaction Ass
+  Drops:
+  - Strzala 1-3 1
+  - Orkowa_Odznaka 1 0.1
+  - Skora_Szakala 1 0.1
+  - Skora_Warga 1 0.25
+  - Orc_2_Armor
+  - Orc_2_Weapon_3
+  - Ziele_pancerza 1 0.005
+  - Dragrot 1 0.005
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 35
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.26
+    KnockbackResistance: 0.85
+    PreventSunburn: true
+  Equipment:
+  - Luk_Ork6:0
+  - Orkowa_Zbroja_Str:3
+  - Orkowy_Helm_Str:4
+Ork7:
+  Type: pigZombie
+  Display: '&a&lOrkowy Szaman'
+  Health: 860
+  Damage: 1
+  Faction: Orcs
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  - 3 SpecificFaction Murders
+  - 3 SpecificFaction Ass
+  Drops:
+  - Skora_Szakala 1 0.25
+  - Skora_Warga 1 0.3
+  - Dragrot 1 0.005
+  - Amulet_Orkow 1 0.3
+  - Orc_2_OSA
+  - Orc_2_OSW
+  - Orc_2_Runes
+  - Ziolo_many 1 0.2
+  - Rdest_polny 1 0.5
+  - Ognista_jagoda 1 0.005
+  Skills:
+  - randomskill{skills=SzamanAttack2,SzamanAttack1} ~onTimer:15 0.14
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=SzamanDamage;sync=true} ~onAttack 1
+  Options:
+    AlwaysShowName: true
+    FollowRange: 35
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.23
+    KnockbackResistance: 0.5
+  Equipment:
+  - Orkowy_Helm_Str:4
+  - O9:0
+  - Orkowa_Toga_Mana:3
+  - Szamanska_Szata_Int:2
+  - Zaklete_Buty_Mana:1
+Ork8:
+  Type: pigzombie
+  Display: '&c&lElitarny Ork Wojownik'
+  Health: 1010
+  Damage: 101
+  Faction: Orcs
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  - 3 SpecificFaction Murders
+  - 3 SpecificFaction Ass
+  Drops:
+  - Trans 1 0.06
+  - Orkowa_Odznaka 1 0.65
+  - Skora_Wilka 1 0.15
+  - Skora_Szakala 1 0.25
+  - Skora_Warga 1 0.35
+  - Orc_3_Armor
+  - Orc_3_Weapon_1
+  - Ziele_pancerza 1 0.01
+  - Dragrot 1 0.01
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 35
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.26
+    KnockbackResistance: 0.95
+  Equipment:
+  - B4:4
+  - Orkowy_Pancerz_Wojenny_Wytrz:3
+  - Pancerz_Orka_Wytrz:2
+  - Buty_Wojenne_Str:1
+  - O13:0
+Ork9:
+  Type: Skeleton
+  Display: '&c&lElitarny Ork Wojownik'
+  Health: 1070
+  Damage: 49
+  Faction: Orcs
+  Disguise:
+    Type: pigzombie
+  AIGoalSelectors:
+  - 0 clear
+  - 1 arrowattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  - 3 SpecificFaction Murders
+  - 3 SpecificFaction Ass
+  Drops:
+  - Strzala 1-8 0.45
+  - Orkowa_Odznaka 1 0.65
+  - Skora_Wilka 1 0.15
+  - Skora_Szakala 1 0.25
+  - Skora_Warga 1 0.35
+  - Orc_3_Armor
+  - Orc_3_Weapon_2
+  - Ziele_pancerza 1 0.01
+  - Dragrot 1 0.01
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 35
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.28
+    KnockbackResistance: 0.85
+    PreventSunburn: true
+  Equipment:
+  - B4:4
+  - Orkowy_Pancerz_Wojenny_Wytrz:3
+  - Pancerz_Orka_Wytrz:2
+  - Buty_Wojenne_Str:1
+  - Luk_Ork9:0
+Ork10:
+  Type: pigzombie
+  Display: '&2&lGorski ork'
+  Health: 780
+  Damage: 97
+  Faction: Orcs
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 opendoors
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  - 2 SpecificFaction Murders
+  - 2 SpecificFaction Ass
+  Drops:
+  - Trans 1 0.06
+  - Orkowa_Odznaka 1 0.25
+  - Orc_2_GOW
+  - Pancerz_Gorskiego_Orka_Wytrz 1 0.13
+  - Ziele_pancerza 1 0.005
+  - Dragrot 1 0.01
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 35
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.3
+    KnockbackResistance: 1
+  Equipment:
+  - B4:4
+  - Pancerz_Gorskiego_Orka_Wytrz:3
+  - O5:0
+Ork11:
+  Type: pigZombie
+  Display: '&a&lGorski Szaman'
+  Health: 765
+  Damage: 1
+  Faction: Orcs
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 opendoors
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  - 3 SpecificFaction Murders
+  - 3 SpecificFaction Ass
+  Drops:
+  - Dragrot 1 0.005
+  - Amulet_Orkow 1 0.2
+  - Orc_2_OSW
+  - Orc_2_GSA
+  - Orc_2_GRunes
+  - Ziolo_many 1 0.2
+  - Rdest_polny 1 0.5
+  - Ognista_jagoda 1 0.005
+  Skills:
+  - randomskill{skills=SzamanAttack1} ~onTimer:15 0.1
+  - skill{s=Szaman2Damage;sync=true} ~onAttack 1
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 35
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.3
+    KnockbackResistance: 0.33
+  Equipment:
+  - B4:4
+  - Grachtnakk_Int:0
+  - Orkowa_Toga_Mana:3
+General:
+  Type: pigZombie
+  Display: '&4&lOrkowy General - BOSS'
+  Health: 17500
+  Damage: 105
+  Faction: Orcs
+  BossBar:
+    Enabled: true
+    Title: '&8==] &4&lOrkowy General &8< &c<caster.hp> &4❤ &8> &8[=='
+    Color: YELLOW
+    Range: 50
+    Style: SOLID
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 SpecificFaction Murders
+  - 3 SpecificFaction Ass
+  Drops:
+  - Skora_Wilka 8-15 1
+  - Skora_Szakala 5-10 1
+  - Skora_Warga 4-8 1
+  - Orc_Boss_1
+  - Trans 1 0.23
+  - Dragrot 1 0.06
+  - Ziele_pancerza 1 0.06
+  - Szczaw_Krolewski 1 0.05
+  Skills:
+  - skill{s=GeneralSpawn} ~onSpawn 1
+  - randomskill{skills=GeneralSummon1,GeneralSummon3,GeneralRally,GeneralSummon4,GeneralSummon2} ~onDamaged 0.05
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 60
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.31
+    KnockbackResistance: 0.95
+  Equipment:
+  - B4:4
+  - Pancerz_Generala_Wytrz:2
+  - Buty_Generala_Wytrz:1
+  - Zbroja_Generala_Wytrz:3
+  - O13:0
+Grok:
+  Type: pigZombie
+  Display: '&a&lGrok - najwyzszy szaman - BOSS'
+  Health: 18888
+  Damage: 1
+  Faction: Orcs
+  BossBar:
+    Enabled: true
+    Title: '&d==] &a&lGrok - najwyzszy szaman &8< &c<caster.hp> &4❤ &8> &d[=='
+    Color: PURPLE
+    Range: 50
+    Style: SEGMENTED_6
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  - 3 SpecificFaction Murders
+  - 3 SpecificFaction Ass
+  Drops:
+  - Skora_Wilka 1 1
+  - Skora_Szakala 1 1
+  - Skora_Warga 1 1
+  - Amulet_Orkow 1 0.8
+  - Orc_Boss_2
+  - MalaBlyskawica 1 0.62
+  - Pirokineza 1 0.53
+  - Haduoken 1 0.44
+  - Blyskawica 1 0.35
+  - KulaOgnia 1 0.08
+  - Ziele_lecznicze 10-25
+  - Ziolo_many 10-25
+  - Zebate_ziele 5-15
+  - Rdest_polny 16-48
+  - Orc_Boss_3
+  - Szczaw_Krolewski 1 0.05
+  Options:
+    AlwaysShowName: true
+    FollowRange: 50
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.32
+    KnockbackResistance: 0.6
+  Equipment:
+  - B4:4
+  - Boss1:3
+  - Boss2:2
+  - Boss3:1
+  - UderzenieCienia:0
+  Skills:
+  - skill{s=GrokSpawn} ~onSpawn 1
+  - skill{s=GrokAttack;sync=true} ~onAttack 1
+  - randomskill{skills=GrokAttack3,GrokAttack2,GrokAttack1} ~onTimer:20 0.1
+  - randomskill{skills=GrokSummon1,GrokSummon2,GrokSummon3} ~onDamaged 0.1
+  - skill{s=MobRemove} ~onTimer:100
+Kan:
+  Type: pigZombie
+  Display: '&6&lNaczelny Orkow - Kan - BOSS'
+  Health: 21000
+  Damage: 110
+  Faction: Orcs
+  BossBar:
+    Enabled: true
+    Title: '&e==] &6&lNaczelny Orkow - Kan &8< &c<caster.hp> &4❤ &8> &e[=='
+    Color: RED
+    Range: 60
+    Style: SEGMENTED_6
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  - 2 SpecificFaction Murders
+  - 2 SpecificFaction Ass
+  Drops:
+  - Skora_Wilka 10-20 1
+  - Skora_Szakala 8-15 1
+  - Skora_Warga 6-10 1
+  - Trans 1 0.26
+  - Zbroja_Naczelnika_Wytrz 1 0.01
+  - Gniew_Beliara_Str 1 0.01
+  - Dragrot 1 0.05
+  - Ziele_pancerza 1 0.05
+  - Szczaw_Krolewski 1 0.05
+  Skills:
+  - skill{s=KanSpawn} ~onSpawn 1
+  - skill{s=KanMount} ~onTimer:20 1
+  - randomskill{skills=KanAttack1} ~onTimer:30 0.05
+  - randomskill{skills=KanSummon1,KanSummon2,KanSummon3} ~onDamaged 0.05
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 100
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.3
+    KnockbackResistance: 1
+  Equipment:
+  - B4:4
+  - Zbroja_Naczelnika_Wytrz:3
+  - O15:2
+  - O16:1
+  - O17:0
+#################################################################################
+Assasyn1:
+  Type: Zombie
+  Display: '&cAssasyn'
+  Health: 680
+  Damage: 67
+  Faction: Murders
+  Disguise:
+    Type: player
+    Skin: nefarius
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 opendoors
+  - 2 closedoors
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  - 2 SpecificFaction Orcs
+  - 2 SpecificFaction Wilki
+  - 2 SpecificFaction Ass
+  Drops:
+  - Nielegalne_Zloto 1 0.55
+  - Niewolnicza_Lina 1 0.2
+  - Assasin_1_Armor
+  - Assasin_1_Weapon_1
+  - Zebate_ziele 1 0.05
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 35
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.35
+    PreventSunburn: true
+  Equipment:
+  - B4:4
+  - O10:3
+  - O11:2
+  - O12:1
+  - A1:0
+Assasyn2:
+  Type: Skeleton
+  Display: '&cAssasyn'
+  Health: 740
+  Damage: 41
+  Faction: Murders
+  Disguise:
+    Type: player
+    Skin: nefarius
+  AIGoalSelectors:
+  - 0 clear
+  - 1 arrowattack
+  - 2 opendoors
+  - 2 closedoors
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  - 2 SpecificFaction Orcs
+  - 2 SpecificFaction Wilki
+  - 2 SpecificFaction Ass
+  Drops:
+  - Strzala 1-4 0.9
+  - Nielegalne_Zloto 1 0.55
+  - Niewolnicza_Lina 1 0.2
+  - Assasin_1_Armor
+  - Luk_Assasyna_Zd 1 0.15
+  - WyostrzoneZmysly 1 0.07
+  - Zebate_ziele 1 0.05
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 35
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.36
+    PreventSunburn: true
+  Equipment:
+  - B4:4
+  - O10:3
+  - O11:2
+  - O12:1
+  - Luk_Assasyn2:0
+Assasyn3:
+  Type: Zombie
+  Display: '&4Assasyn - morderca'
+  Health: 715
+  Damage: 97
+  Faction: Murders
+  Disguise:
+    Type: player
+    Skin: nefarius
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 opendoors
+  - 2 closedoors
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  - 2 SpecificFaction Orcs
+  - 2 SpecificFaction Wilki
+  - 2 SpecificFaction Ass
+  Drops:
+  - Zlecenie 1 0.4
+  - Nielegalne_Zloto 1 0.85
+  - Niewolnicza_Lina 1 0.6
+  - Assasin_2_Armor
+  - Assasin_2_Weapon_1
+  - Zebate_ziele 1 0.08
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 35
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.37
+    PreventSunburn: true
+  Equipment:
+  - B4:4
+  - A3:3
+  - O11:2
+  - O12:1
+  - O8:0
+Assasyn4:
+  Type: Skeleton
+  Display: '&4Assasyn - morderca'
+  Health: 770
+  Damage: 47
+  Faction: Murders
+  Disguise:
+    Type: player
+    Skin: nefarius
+  AIGoalSelectors:
+  - 0 clear
+  - 1 arrowattack
+  - 2 opendoors
+  - 2 closedoors
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  - 2 SpecificFaction Orcs
+  - 2 SpecificFaction Wilki
+  - 2 SpecificFaction Ass
+  Drops:
+  - Strzala 3 0.75
+  - Zlecenie 1 0.4
+  - Nielegalne_Zloto 1 0.85
+  - Niewolnicza_Lina 1 0.6
+  - Assasin_2_Armor
+  - Assasin_2_Weapon_2
+  - WyostrzoneZmysly 1 0.08
+  - Zebate_ziele 1 0.08
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 35
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.4
+    PreventSunburn: true
+  Equipment:
+  - B4:4
+  - A3:3
+  - O11:2
+  - O12:1
+  - Luk_Assasyn4:0
+Assasyn5:
+  Type: Zombie
+  Display: '&0&lCzarny Mag'
+  Health: 890
+  Damage: 1
+  Faction: Murders
+  Disguise:
+    Type: player
+    Skin: nefarius
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 opendoors
+  - 2 closedoors
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  - 2 SpecificFaction Orcs
+  - 2 SpecificFaction Wilki
+  - 2 SpecificFaction Ass
+  Drops:
+  - Ksiega_Czarnej_Magii 1 0.2
+  - Kamien_Runiczny 1 0.45
+  - Nielegalne_Zloto 1-3 0.4
+  - Niewolnicza_Lina 1 0.1
+  - Assasin_2_CMA
+  - Assasin_2_Runes
+  - Ziolo_many 1 0.2
+  - Zebate_ziele 1 0.2
+  - Rdest_polny 1 0.5
+  - Ognista_jagoda 1 0.005
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=AssasynDamage;sync=true} ~onAttack 1
+  - randomskill{skills=AssasynAttack1,AssasynAttack2} ~onTimer:20 0.1
+  Options:
+    AlwaysShowName: true
+    FollowRange: 35
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.36
+    KnockbackResistance: 0.6
+    PreventSunburn: true
+  Equipment:
+  - A5:4
+  - A3:3
+  - A6:2
+  - A7:1
+  - A8:0
+Assasyn6:
+  Type: Zombie
+  Display: '&4&lElitarny Assasyn'
+  Health: 915
+  Damage: 97
+  Faction: Murders
+  Disguise:
+    Type: player
+    Skin: nefarius
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 opendoors
+  - 2 closedoors
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  - 2 SpecificFaction Orcs
+  - 2 SpecificFaction Wilki
+  - 2 SpecificFaction Ass
+  Drops:
+  - Zlecenie 1-2 0.65
+  - Nielegalne_Zloto 1-3 0.65
+  - Niewolnicza_Lina 1 0.8
+  - Assasin_3_Armor
+  - Assasin_3_Weapon_1
+  - Zebate_ziele 1 0.1
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 35
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.39
+    KnockbackResistance: 0.25
+    PreventSunburn: true
+  Equipment:
+  - O7:4
+  - O10:3
+  - A6:2
+  - Z4:1
+  - A9:0
+Assasyn7:
+  Type: Skeleton
+  Display: '&4&lElitarny Assasyn'
+  Health: 990
+  Damage: 53
+  Faction: Murders
+  Disguise:
+    Type: player
+    Skin: nefarius
+  AIGoalSelectors:
+  - 0 clear
+  - 1 arrowattack
+  - 2 opendoors
+  - 2 closedoors
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  - 2 SpecificFaction Orcs
+  - 2 SpecificFaction Wilki
+  - 2 SpecificFaction Ass
+  Drops:
+  - Strzala 1-4 1
+  - Zlecenie 1-2 0.65
+  - Nielegalne_Zloto 1-3 0.65
+  - Niewolnicza_Lina 1 0.8
+  - Assasin_3_Armor
+  - Assasin_3_Weapon_2
+  - WyostrzoneZmysly 1 0.09
+  - Zebate_ziele 1 0.1
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 35
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.39
+    KnockbackResistance: 0.25
+    PreventSunburn: true
+  Equipment:
+  - O7:4
+  - O10:3
+  - A6:2
+  - Z4:1
+  - Luk_Assasyn7:0
+Assasyn8:
+  Type: Zombie
+  Display: '&bAssasyn straznik'
+  Health: 1200
+  Damage: 100
+  Faction: Ass
+  Disguise:
+    Type: player
+    Skin: nefarius
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 opendoors
+  - 2 closedoors
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 SpecificFaction Orcs
+  - 2 SpecificFaction Wilki
+  - 2 SpecificFaction Murders
+  Options:
+    AlwaysShowName: true
+    FollowRange: 35
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.44
+    KnockbackResistance: 0.25
+    PreventSunburn: true
+  Equipment:
+  - B4:4
+  - B2:3
+  - O11:2
+  - O12:1
+  - O8:0
+Assasyn9:
+  Type: Skeleton
+  Display: '&bAssasyn straznik'
+  Health: 1500
+  Damage: 55
+  Faction: Ass
+  Disguise:
+    Type: player
+    Skin: nefarius
+  AIGoalSelectors:
+  - 0 clear
+  - 1 arrowattack
+  - 2 opendoors
+  - 2 closedoors
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 SpecificFaction Orcs
+  - 2 SpecificFaction Wilki
+  - 2 SpecificFaction Murders
+  Options:
+    AlwaysShowName: true
+    FollowRange: 35
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.54
+    KnockbackResistance: 0.25
+    Silent: true
+    PreventSunburn: true
+  Equipment:
+  - B4:4
+  - B2:3
+  - O11:2
+  - O12:1
+  - Luk_Assasyn9:0
+StrazNizara1:
+  Type: Zombie
+  Display: '&e&lStraz Nizara'
+  Health: 925
+  Damage: 98
+  Faction: Murders
+  Disguise:
+    Type: player
+    Skin: nefarius
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 opendoors
+  - 2 closedoors
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  - 2 SpecificFaction Orcs
+  - 2 SpecificFaction Wilki
+  - 2 SpecificFaction Ass
+  Drops:
+  - Zlecenie 1-2 0.65
+  - Nielegalne_Zloto 1-3 0.65
+  - Niewolnicza_Lina 1 0.8
+  - Assasin_3_Armor
+  - Assasin_3_Weapon_1
+  - Zebate_ziele 1 0.1
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 35
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.4
+    KnockbackResistance: 0.35
+    PreventSunburn: true
+  Equipment:
+  - Helm_Z_Magicznej_Rudy:4
+  - Zbroja_Z_Magicznej_Rudy:3
+  - Nogawice_Z_Magicznej_Rudy:2
+  - Buty_Z_Magicznej_Rudy:1
+  - A9:0
+StrazNizara2:
+  Type: Skeleton
+  Display: '&e&lStraz Nizara'
+  Health: 1000
+  Damage: 55
+  Faction: Murders
+  Disguise:
+    Type: player
+    Skin: nefarius
+  AIGoalSelectors:
+  - 0 clear
+  - 1 arrowattack
+  - 2 opendoors
+  - 2 closedoors
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  - 2 SpecificFaction Orcs
+  - 2 SpecificFaction Wilki
+  - 2 SpecificFaction Ass
+  Drops:
+  - Strzala 1-4 1
+  - Zlecenie 1-2 0.65
+  - Nielegalne_Zloto 1-3 0.65
+  - Niewolnicza_Lina 1 0.8
+  - Assasin_3_Armor
+  - Assasin_3_Weapon_2
+  - WyostrzoneZmysly 1 0.09
+  - Zebate_ziele 1 0.1
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 35
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.41
+    KnockbackResistance: 0.35
+    PreventSunburn: true
+  Equipment:
+  - Helm_Z_Magicznej_Rudy:4
+  - Zbroja_Z_Magicznej_Rudy:3
+  - Nogawice_Z_Magicznej_Rudy:2
+  - Buty_Z_Magicznej_Rudy:1
+  - Luk_StrazNizara2:0
+Nizar:
+  Type: Skeleton
+  Display: '&e&lNizar - pierwszy z Assasynow - BOSS'
+  Health: 19000
+  Damage: 104
+  Faction: Murders
+  Disguise:
+    Type: player
+    Skin: hassan
+  BossBar:
+    Enabled: true
+    Title: '&a==] &e&lNizar - pierwszy z Assasynow &8< &c<caster.hp> &4❤ &8> &a[=='
+    Color: YELLOW
+    Range: 50
+    Style: SOLID
+  AIGoalSelectors:
+  - 0 clear
+  - 1 arrowattack
+  - 2 opendoors
+  - 2 closedoors
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  - 2 SpecificFaction Orcs
+  - 2 SpecificFaction Wilki
+  - 2 SpecificFaction Ass
+  Drops:
+  - Strzala 64 1
+  - Zlecenie 16-33 1
+  - Nielegalne_Zloto 18-40 1
+  - Niewolnicza_Lina 1-10 1
+  - Assasin_Boss_1
+  - Assasin_Boss_2
+  - WyostrzoneZmysly 1 0.32
+  - Zebate_ziele 1-3
+  - Szczaw_Krolewski 1 0.05
+  Skills:
+#  - damage{a=104} ~onAttack
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=NizarSpawn} ~onSpawn 1
+  - skill{s=NizarToMelle} ~onDamaged =80%
+  - skill{s=NizarToMelle} ~onDamaged =60%
+  - skill{s=NizarToMelle} ~onDamaged =40%
+  - skill{s=NizarToMelle} ~onDamaged =20%
+  - skill{s=NizarToBow} ~onDamaged
+  - randomskill{skills=NizarArrow1,NizarArrow2,NizarArrow3,NizarArrow4} ~onAttack 0.2
+  - randomskill{skills=NizarSummon1,NizarSummon2,NizarSummon3,NizarSummon4} ~onDamaged 0.06
+  Options:
+    AlwaysShowName: true
+    FollowRange: 35
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.45
+    KnockbackResistance: 0.99
+    PreventSunburn: true
+  Equipment:
+  - Luk_Nizar:0
+  - O7:4
+  - Ortega2:3
+  - O15:2
+  - O16:1
+#################################################################################
+Lava1:
+  Type: MAGMA_CUBE
+  Display: '&cZywiolak Ognia'
+  Health: 960
+  Damage: 1
+  Faction: Lava
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  - 2 SpecificFaction Ass
+  - 2 SpecificFaction Aniol
+  Drops:
+  - Ziolo_many 0.25
+  - Ognisty_korzen 0.001
+  - Ognista_jagoda 0.001
+  - Lava_1_Runes
+  - Serce_Zywiolaka 1 0.2
+  Skills:
+  - skill{s=Lava1Attack;sync=true} ~onAttack
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 40
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    PreventSlimeSplit: true
+    Size: 1
+Lava2:
+  Type: MAGMA_CUBE
+  Display: '&cZywiolak Ognia'
+  Health: 1080
+  Damage: 1
+  Faction: Lava
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  - 2 SpecificFaction Ass
+  - 2 SpecificFaction Aniol
+  Drops:
+  - Lava_1_Runes
+  - Serce_Zywiolaka 1 0.3
+  - Ziolo_many 1 0.25
+  - Ognisty_korzen 1 0.002
+  - Ognista_jagoda 1 0.002
+  Skills:
+  - skill{s=Lava2Attack;sync=true} ~onAttack
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 40
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    PreventSlimeSplit: true
+    Size: 2
+Lava3:
+  Type: MAGMA_CUBE
+  Display: '&cZywiolak Ognia'
+  Health: 1200
+  Damage: 1
+  Faction: Lava
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  - 2 SpecificFaction Ass
+  - 2 SpecificFaction Aniol
+  Drops:
+  - Lava_1_Runes
+  - Serce_Zywiolaka 1 0.4
+  - Ziolo_many 1 0.25
+  - Ognisty_korzen 1 0.003
+  - Ognista_jagoda 1 0.003
+  Skills:
+  - skill{s=Lava3Attack;sync=true} ~onAttack
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 40
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    PreventSlimeSplit: true
+    Size: 3
+Lava4:
+  Type: MAGMA_CUBE
+  Display: '&cZywiolak Ognia'
+  Health: 1320
+  Damage: 1
+  Faction: Lava
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  - 2 SpecificFaction Ass
+  - 2 SpecificFaction Aniol
+  Drops:
+  - Lava_1_Runes
+  - Serce_Zywiolaka 1 0.5
+  - Ziolo_many 1 0.25
+  - Ognisty_korzen 1 0.004
+  - Ognista_jagoda 1 0.004
+  Skills:
+  - skill{s=Lava4Attack;sync=true} ~onAttack
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 40
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    PreventSlimeSplit: true
+    Size: 4
+Lava5:
+  Type: MAGMA_CUBE
+  Display: '&cZywiolak Ognia'
+  Health: 1440
+  Damage: 1
+  Faction: Lava
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  - 2 SpecificFaction Ass
+  - 2 SpecificFaction Aniol
+  Drops:
+  - Lava_1_Runes
+  - Serce_Zywiolaka 1 0.6
+  - Ziolo_many 1 0.25
+  - Ognisty_korzen 1 0.005
+  - Ognista_jagoda 1 0.005
+  Skills:
+  - skill{s=Lava5Attack;sync=true} ~onAttack
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 40
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    PreventSlimeSplit: true
+    Size: 5
+Lava6:
+  Type: MAGMA_CUBE
+  Display: '&cZywiolak Ognia'
+  Health: 1560
+  Damage: 1
+  Faction: Lava
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  - 2 SpecificFaction Ass
+  - 2 SpecificFaction Aniol
+  Drops:
+  - Lava_1_Runes
+  - Serce_Zywiolaka 1 0.7
+  - Ziolo_many 1 0.25
+  - Ognisty_korzen 1 0.006
+  - Ognista_jagoda 1 0.006
+  Skills:
+  - skill{s=Lava6Attack;sync=true} ~onAttack
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 40
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    PreventSlimeSplit: true
+    Size: 6
+Lava7:
+  Type: MAGMA_CUBE
+  Display: '&cZywiolak Ognia'
+  Health: 1680
+  Damage: 1
+  Faction: Lava
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  - 2 SpecificFaction Ass
+  - 2 SpecificFaction Aniol
+  Drops:
+  - Lava_1_Runes
+  - Serce_Zywiolaka 1 0.8
+  - Ziolo_many 1 0.25
+  - Ognisty_korzen 1 0.007
+  - Ognista_jagoda 1 0.007
+  Skills:
+  - skill{s=Lava7Attack;sync=true} ~onAttack
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 40
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    PreventSlimeSplit: true
+    Size: 7
+Lava8:
+  Type: MAGMA_CUBE
+  Display: '&cZywiolak Ognia'
+  Health: 1800
+  Damage: 1
+  Faction: Lava
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  - 2 SpecificFaction Ass
+  - 2 SpecificFaction Aniol
+  Drops:
+  - Lava_1_Runes
+  - Serce_Zywiolaka 1 0.9
+  - Ziolo_many 1 0.25
+  - Ognisty_korzen 1 0.008
+  - Ognista_jagoda 1 0.008
+  Skills:
+  - skill{s=Lava8Attack;sync=true} ~onAttack
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 40
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    PreventSlimeSplit: true
+    Size: 8
+Lava9:
+  Type: Zombie
+  Display: '&4Zarzyciel'
+  Health: 2160
+  Damage: 1
+  Faction: Lava
+  Disguise:
+    Type: player
+    Skin: fire
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  - 2 SpecificFaction Ass
+  - 2 SpecificFaction Aniol
+  Drops:
+  - Lava_2_Weapon_1
+  - Piekielna_Galaz 1 0.4
+  - Lava_1_Runes
+  - Ziolo_many 1 0.25
+  - Ognisty_korzen 1 0.005
+  - Ognista_jagoda 1 0.005
+  Skills:
+  - skill{s=ZarzycielSpawn} ~onSpawn 1
+  - skill{s=ZarzycielAttack1;sync=true} ~onAttack 1
+  - skill{s=ZarzycielAttack2} ~onTimer:40 0.08
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 40
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.29
+    KnockbackResistance: 0.75
+    Angry: true
+    PreventSunburn: true
+  Equipment:
+  - L1:0
+  - B4:4
+Lava10:
+  Type: BLAZE
+  Display: '&c&lWulkaniczny Furiat'
+  Health: 1560
+  Damage: 127
+  Faction: Lava
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  - 2 SpecificFaction Ass
+  - 2 SpecificFaction Aniol
+  Drops:
+  - Serce_Zywiolaka 1 0.65
+  - Lava_1_Runes
+  - Lava_2_Weapon_2
+  - Ziolo_many 1 0.25
+  - Ognisty_korzen 1 0.008
+  - Ognista_jagoda 1 0.008
+  Skills:
+  - skill{s=FuriatAttack;sync=true} ~onAttack 1
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 40
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+Lava11:
+  Type: Zombie
+  Display: '&4&lWulkaniczny Olbrzym'
+  Health: 6000
+  Damage: 154
+  Faction: Lava
+  Disguise:
+    Type: Giant
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 breakdoors
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  - 2 SpecificFaction Ass
+  - 2 SpecificFaction Aniol
+  Drops:
+  - Serce_Wulkanicznego_Olbrzyma 1 1
+  - Lava_1_Runes
+  - Ognisty_korzen 1 0.02
+  - Ognista_jagoda 1 0.02
+  - Ziele_pancerza 1 0.02
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 40
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.27
+    KnockbackResistance: 1
+    PreventSunburn: true
+  Equipment:
+  - B4:4
+Baron:
+  Type: BLAZE
+  Display: '&6&lBaron Geddon - BOSS'
+  Health: 28000
+  Damage: 165
+  Faction: Lava
+  Modules:
+    ThreatTable: true
+  Disguise:
+    Type: player
+    Skin: baron_geddon
+  BossBar:
+    Enabled: true
+    Title: '&4==] &6&lBaron Geddon - BOSS &8< &c<caster.hp> &4❤ &8> &4[=='
+    Color: RED
+    Range: 60
+    Style: SEGMENTED_10
+  Drops:
+  - Lava_Boss_1
+  - Spojrzenie_Barona_Zd 1 0.01
+  - Serce_Zywiolaka 1 1
+  - Ziolo_many 1-10
+  - Ognisty_korzen 1 0.06
+  - Ognista_jagoda 1 0.06
+  - Szczaw_Krolewski 1 0.05
+  Skills:
+  - skill{s=BaronSpawn} ~onSpawn 1
+  - randomskill{skills=BaronSummon1,BaronSummon3,BaronSummon2,BaronSummon4,BaronSummon5,BaronSummon6} ~onDamaged 0.07
+  - skill{s=BaronTp} ~onDamaged 0.15
+  - randomskill{skills=BaronAttack1,BaronAttack2} ~onTimer:30 0.07
+  - skill{s=BaronAttack3;sync=true} ~onAttack 1
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 50
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    KnockbackResistance: 1
+Majordomus:
+  Type: PIG_ZOMBIE
+  Display: '&4&lMajordomus Egzekutus - BOSS'
+  Health: 24000
+  Damage: 1
+  Faction: Lava
+  Disguise:
+    Type: player
+    Skin: moloch154
+  BossBar:
+    Enabled: true
+    Title: '&c==] &4&lMajordomus Egzekutus &8< &c<caster.hp> &4❤ &8> &c[=='
+    Color: RED
+    Range: 50
+    Style: SOLID
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  - 2 SpecificFaction Ass
+  - 2 SpecificFaction Aniol
+  Drops:
+  - Piekielna_Galaz 1-5 1
+  - Lava_Boss_2
+  - Kostur_Majordomusa_Mana 1 0.01
+  - Serce_Zywiolaka 1 1
+  - Ziolo_many 1-7
+  - Ognisty_korzen 1 0.05
+  - Ognista_jagoda 1 0.05
+  - Szczaw_Krolewski 1 0.05
+  Skills:
+  - skill{s=MajordomusSpawn} ~onSpawn 1
+  - skill{s=MajordomusSpawn2} ~onSpawn 1
+  - skill{s=MajordomusDeath} ~onDeath 1
+  - skill{s=MajordomusDamage;sync=true} ~onAttack 1
+  - randomskill{skills=MajordomusAttack1,MajordomusAttack2,MajordomusSummon1} ~onTimer:60 0.07
+  - randomskill{skills=MajordomusSummon1} ~onDamaged 0.15
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 120
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.33
+    KnockbackResistance: 0.5
+    Angry: true
+  Equipment:
+  - L2:0
+Ragnaros:
+  Type: BLAZE
+  Display: '&6&lRAGNAROS - Wladca Ognia - EPIC BOSS'
+  Health: 75000
+  Damage: 200
+  Modules:
+    ThreatTable: true
+  BossBar:
+    Enabled: true
+    Title: '&4==] &6&lRAGNAROS - Wladca Ognia &8< &c<caster.hp> &4❤ &8> &4[=='
+    Color: RED
+    Range: 150
+    Style: SEGMENTED_20
+  Faction: Lava
+  Disguise:
+    Type: Wither
+    ModifyBoundingBox: true
+  Drops:
+  - Lava_EpicBoss
+  - Gem_HP1 1 0.01
+  - Serce_Zywiolaka 1 1
+  - Sulfuron_Str 1 0.02
+  - Ognisty_korzen 1 0.2
+  - Ognista_jagoda 1 0.2
+  - Szczaw_Krolewski 1 0.1
+  Skills:
+  - skill{s=RagnarosDamage;sync=true} ~onAttack 1
+  - skill{s=RagnarosSpawn} ~onSpawn 1
+  - skill{s=RagnarosDeath} ~onDeath 1
+#  - skill{s=RagnarosAttack1} ~onDamaged 0.3 
+  - randomskill{skills=RagnarosAttack1,RagnarosAttack2,RagnarosAttack3,RagnarosAttack4,RagnarosAttack5,RagnarosAttack6} ~onDamaged 0.1
+  - randomskill{skills=RagnarosAttack1,RagnarosAttack2,RagnarosAttack3,RagnarosAttack4,RagnarosAttack5,RagnarosAttack6} ~onTimer:30 0.11
+  - skill{s=RagnarosFire} ~onTimer:5 1
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 100
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    KnockbackResistance: 1
+#################################################################################
+Aniol1:
+  Type: ZOMBIE
+  Display: '&cSpaczona dusza'
+  Health: 1225
+  Damage: 109
+  Faction: Aniol
+  Disguise:
+    Type: player
+    Skin: nefarius
+    Invisible: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  - 2 SpecificFaction Ass
+  - 2 SpecificFaction Lava
+  Drops:
+  - Upadla_Dusza 1 0.45
+  - Angel_1_Runes
+  - Angel_1_Armor
+  - Angel_1_Weapon_1
+  Skills:
+  - skill{s=hurtPlayer} ~onDamaged 1
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 40
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.28
+    KnockbackResistance: 0.8
+    Angry: true
+    Silent: true
+  Equipment:
+  - Helm_Upadlego_Zr:4
+  - Zbroja_Upadlego_Str:3
+  - Kolczuga_Upadlego_Str:2
+  - Buty_Upadlego_Zr:1
+  - A9:0
+Aniol2:
+  Type: Skeleton
+  Display: '&cSpaczona dusza'
+  Health: 1430
+  Damage: 60
+  Faction: Aniol
+  Disguise:
+    Type: player
+    Skin: nefarius
+    Invisible: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 arrowattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  - 2 SpecificFaction Ass
+  - 2 SpecificFaction Lava
+  Drops:
+  - Strzala 2-5 0.55
+  - Upadla_Dusza 1 0.45
+  - Angel_1_Runes
+  - Angel_1_Armor
+  - Luk_Upadlego_Zd 1 0.17
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 40
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.32
+    KnockbackResistance: 0.7
+    PreventSunburn: true
+  Equipment:
+  - Helm_Upadlego_Zr:4
+  - Zbroja_Upadlego_Str:3
+  - Kolczuga_Upadlego_Str:2
+  - Buty_Upadlego_Zr:1
+  - Luk_Aniol2:0
+Aniol3:
+  Type: Skeleton
+  Display: '&c&oSpaczony kyrian'
+  Health: 1530
+  Damage: 122
+  Faction: Aniol
+  Disguise:
+    Type: player
+    Skin: nefarius
+    Invisible: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  - 2 SpecificFaction Ass
+  - 2 SpecificFaction Lava
+  Drops:
+  - Strzala 3 1
+  - Upadla_Dusza 1 0.6
+  - Angel_1_Runes
+  - Czastka_Upadlego 1 0.25
+  - Anielski_Pergamin 1 0.15
+  - Angel_2_Weapon_1
+  - Angel_2_Armor
+  - Ziolo_many 1 0.25
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 40
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.3
+    KnockbackResistance: 0.9
+    PreventSunburn: true
+  Equipment:
+  - O1:4
+  - Elytra:3
+  - A9:0
+Aniol4:
+  Type: Skeleton
+  Display: '&c&oSpaczony kyrian'
+  Health: 1680
+  Damage: 62
+  Faction: Aniol
+  Disguise:
+    Type: player
+    Skin: nefarius
+    Invisible: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 arrowattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  - 2 SpecificFaction Ass
+  - 2 SpecificFaction Lava
+  Drops:
+  - Upadla_Dusza 1 0.6
+  - Angel_1_Runes
+  - Czastka_Upadlego 1 0.25
+  - Anielski_Pergamin 1 0.15
+  - Angel_2_Armor
+  - Angel_2_Weapon_2
+  - Ziolo_many 1 0.25
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=hurtPlayer} ~onDamaged 1
+  Options:
+    AlwaysShowName: true
+    FollowRange: 40
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.34
+    KnockbackResistance: 0.8
+    Silent: true
+    PreventSunburn: true
+  Equipment:
+  - O1:4
+  - Elytra:3
+  - Luk_Aniol4:0
+Aniol5:
+  Type: Zombie
+  Display: '&4Mroczny Kyrian'
+  Health: 1800
+  Damage: 138
+  Faction: Aniol
+  Disguise:
+    Type: player
+    Skin: nefarius
+    Invisible: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  - 2 SpecificFaction Ass
+  - 2 SpecificFaction Lava
+  Drops:
+  - Upadla_Dusza 1 0.8
+  - Angel_1_Runes
+  - Czastka_Upadlego 1 0.45
+  - Anielski_Pergamin 1 0.3
+  - Angel_3_Armor
+  - Angel_3_Weapon_1
+  - Ziolo_many 1 0.25
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 40
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.31
+    KnockbackResistance: 1
+    PreventSunburn: true
+  Equipment:
+  - O9:4
+  - Elytra:3
+  - O2:0
+Aniol6:
+  Type: Skeleton
+  Display: '&4Mroczny Kyrian'
+  Health: 2100
+  Damage: 66
+  Faction: Aniol
+  Disguise:
+    Type: player
+    Skin: nefarius
+    Invisible: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 arrowattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  - 2 SpecificFaction Ass
+  - 2 SpecificFaction Lava
+  Drops:
+  - Strzala 3-5 0.8
+  - Upadla_Dusza 1 0.8
+  - Angel_1_Runes
+  - Czastka_Upadlego 1 0.45
+  - Anielski_Pergamin 1 0.3
+  - Angel_3_Armor
+  - Angel_3_Weapon_2
+  - Ziolo_many 1 0.25
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 40
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.35
+    KnockbackResistance: 1
+    PreventSunburn: true
+  Equipment:
+  - O9:4
+  - Elytra:3
+  - Luk_Aniol6:0
+Nefarian1:
+  Type: ZOMBIE
+  Display: '&6&lLord Victor Nefarius - EPIC BOSS'
+  Health: 15000
+  Damage: 120
+  Faction: Aniol
+  Disguise:
+    Type: player
+    Skin: lordnefarian
+  BossBar:
+    Enabled: true
+    Title: '&e==] &6&lLord Victor Nefarius &8< &c<caster.hp> &4❤ &8> &e[=='
+    Color: RED
+    Range: 150
+    Style: SEGMENTED_10
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  - 2 SpecificFaction Ass
+  - 2 SpecificFaction Lava
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=Nefarian1Spawn} ~onSpawn 1
+  - skill{s=Nefarian1Spawn2} ~onSpawn 1
+  - skill{s=NefarianPhase} ~onDeath 1
+  - randomskill{skills=Nefarian1Summon1,Nefarian1Attack1,Nefarian1Summon2,Nefarian1Summon3} ~onDamaged 0.05
+  Options:
+    AlwaysShowName: true
+    FollowRange: 100
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.3
+    KnockbackResistance: 1
+    PreventSunburn: true
+  Equipment:
+  - B4:4
+  - Gniew_Beliara_Str:0
+Nefarian2:
+  Type: ENDER_DRAGON
+  Display: '&4&lNefarian - Syn Nelthariona - EPIC BOSS'
+  Health: 75000
+  Damage: 150
+  Faction: Aniol
+  BossBar:
+    Enabled: true
+    Title: '&6==] &4&lNefarian - Syn Nelthariona &8< &c<caster.hp> &4❤ &8> &6[=='
+    Color: RED
+    Range: 250
+    Style: SEGMENTED_20
+#  AIGoalSelectors:
+#  - 0 clear
+#  - 1 meleeattack
+#  - 2 randomlookaround
+#  - 3 randomstroll
+#  AITargetSelectors:
+#  - 0 clear
+#  - 1 players
+#  - 2 attacker
+#  - 3 OtherFactionMonsters
+#  - 4 OtherFaction
+  Drops:
+  - Upadla_Dusza 64 1
+  - Smocza_Zguba_Str 1 0.02
+  - Smoczy_Luk_Zd 1 0.02
+  - Smoczy_Ziew_Int 1 0.02
+  - Ziolo_many 16-48
+  - Szczaw_Krolewski 1 0.1
+  - Gem_Speed1 1 0.01
+  Skills:
+  - skill{s=Nefarian2Spawn} ~onSpawn 1
+  - skill{s=NefarianDeath} ~onDeath 1
+  - randomskill{skills=Nefarian2Attack1,Nefarian2Attack2,Nefarian2Attack3} ~onTimer:60 1
+  - randomskill{skills=NefarianRemove} ~onTimer:60 1
+  - randomskill{skills=Nefarian2Attack1Close,Nefarian2Attack2Close,Nefarian2Attack3Close} ~onTimer:60 1
+  Options:
+    AlwaysShowName: true
+    FollowRange: 100
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    KnockbackResistance: 1
+    Despawn: true
+#################################################################################
+Guardian1:
+  Type: Guardian
+  Display: '&9Straznik wod'
+  Health: 900
+  Damage: 63
+  Faction: Guardians
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  Drops:
+  - Guardian_1_Runes
+  - Guardian_1_Armor
+  - Morski_Skarb 1 0.15
+  - Sol 1 0.7
+  - Sol_Morska 1 0.55
+  - Akwamaryn 1 0.35
+  - Ziolo_many 1 0.2
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 50
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+Guardian2:
+  Type: ELDER_GUARDIAN
+  Display: '&bStraznik Swiatynny'
+  Health: 1450
+  Damage: 74
+  Faction: Guardians
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  Drops:
+  - Guardian_1_Runes
+  - Guardian_1_Armor
+  - Morski_Skarb 1 0.3
+  - Sol 1 1
+  - Sol_Morska 1 0.8
+  - Akwamaryn 1 0.5
+  - Ziolo_many 1 0.25
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 50
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    Glowing: true
+    KnockbackResistance: 0.5
+Guardian3:
+  Type: ELDER_GUARDIAN
+  Display: '&b&lNeptulon - Wladca Wod - BOSS'
+  Health: 18000
+  Damage: 77
+  Faction: Guardians
+  Disguise:
+    Type: player
+    Skin: ouros
+  BossBar:
+    Enabled: true
+    Title: '&1==] &b&lNeptulon - Wladca Wod &8< &c<caster.hp> &4❤ &8> &1[=='
+    Color: BLUE
+    Range: 60
+    Style: SEGMENTED_10
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  Drops:
+  - Guardian_Boss_1
+  - Guardian_Boss_2
+  - Morski_Skarb 1 1
+  - Sol 1-10 1
+  - Sol_Morska 1-6 1
+  - Akwamaryn 1-3 1
+  - Guardian_Boss_3
+  - Ziolo_many 3-11
+  - Szczaw_Krolewski 1 0.05
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=NeptulonSpawn} ~onSpawn 1
+  - randomskill{skills=NeptulonAttack1,NeptulonAttack2,NeptulonAttack3} ~onAttack 0.1
+  - randomskill{skills=NeptulonAttack4,NeptulonSummon1,NeptulonSummon2} ~onDamaged 0.07
+  Options:
+    AlwaysShowName: true
+    FollowRange: 100
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    Glowing: true
+    KnockbackResistance: 1
+#################################################################################
+Pirat1:
+  Type: Zombie
+  Display: '&eBukanier'
+  Health: 300
+  Damage: 51
+  Faction: Pirates
+  Disguise:
+    Type: player
+    Skin: ciderpirate
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 3 opendoors
+  - 3 closedoors
+  - 3 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  - 2 SpecificFaction Gobliny
+  - 2 SpecificFaction Bandyci
+  - 2 SpecificFaction Jungle
+  - 2 SpecificFaction Wilki
+  Drops:
+  - Pirackie_Klejnoty 1 0.4
+  - Pirackie_Rubiny 1 0.4
+  - Pirate_1_Armor
+  - Pirate_1_Weapon_1
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.3
+    PreventSunburn: true
+  Equipment:
+  - B4:4
+  - O11:2
+  - O12:1
+  - B7:0
+Pirat2:
+  Type: Skeleton
+  Display: '&eBukanier'
+  Health: 370
+  Damage: 29
+  Faction: Pirates
+  Disguise:
+    Type: player
+    Skin: ciderpirate
+  AIGoalSelectors:
+  - 0 clear
+  - 1 arrowattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 3 opendoors
+  - 3 closedoors
+  - 3 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  - 2 SpecificFaction Gobliny
+  - 2 SpecificFaction Bandyci
+  - 2 SpecificFaction Jungle
+  - 2 SpecificFaction Wilki
+  Drops:
+  - Strzala 1-2 0.75
+  - Pirackie_Klejnoty 1 0.4
+  - Pirackie_Rubiny 1 0.4
+  - Pirate_1_Armor
+  - Pirate_1_Weapon_2
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.3
+    PreventSunburn: true
+  Equipment:
+  - B4:4
+  - O11:2
+  - O12:1
+  - Luk_Pirat2:0
+Pirat3:
+  Type: Zombie
+  Display: '&cSilny pirat'
+  Health: 515
+  Damage: 58
+  Faction: Pirates
+  Disguise:
+    Type: player
+    Skin: ciderpirate
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 3 opendoors
+  - 3 closedoors
+  - 3 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  - 2 SpecificFaction Gobliny
+  - 2 SpecificFaction Bandyci
+  - 2 SpecificFaction Jungle
+  - 2 SpecificFaction Wilki
+  Drops:
+  - Pirackie_Klejnoty 1-2 0.7
+  - Pirackie_Rubiny 1-2 0.7
+  - Pirate_2_Armor
+  - Piracki_Hak_Zr 1 0.13
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.35
+    PreventSunburn: true
+  Equipment:
+  - B4:4
+  - O10:3
+  - A6:2
+  - A7:1
+  - A1:0
+Pirat4:
+  Type: Zombie
+  Display: '&cSilny pirat'
+  Health: 410
+  Damage: 79
+  Faction: Pirates
+  Disguise:
+    Type: player
+    Skin: ciderpirate
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 3 opendoors
+  - 3 closedoors
+  - 3 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  - 2 SpecificFaction Gobliny
+  - 2 SpecificFaction Bandyci
+  - 2 SpecificFaction Jungle
+  - 2 SpecificFaction Wilki
+  Drops:
+  - Pirackie_Klejnoty 1-2 0.7
+  - Pirackie_Rubiny 1-2 0.7
+  - Pirate_2_Armor
+  - Pirate_2_Weapon_1
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.26
+    PreventSunburn: true
+  Equipment:
+  - B4:4
+  - O10:3
+  - A6:2
+  - A7:1
+  - O5:0
+Pirat5:
+  Type: Zombie
+  Display: '&cSilny pirat'
+  Health: 495
+  Damage: 64
+  Faction: Pirates
+  Disguise:
+    Type: player
+    Skin: ciderpirate
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 3 opendoors
+  - 3 closedoors
+  - 3 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  - 2 SpecificFaction Gobliny
+  - 2 SpecificFaction Bandyci
+  - 2 SpecificFaction Jungle
+  - 2 SpecificFaction Wilki
+  Drops:
+  - Pirackie_Klejnoty 1-2 0.7
+  - Pirackie_Rubiny 1-2 0.7
+  - Pirate_2_Armor
+  - Pirate_2_Weapon_2
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.31
+    PreventSunburn: true
+  Equipment:
+  - B4:4
+  - O10:3
+  - A6:2
+  - A7:1
+  - O8:0
+Pirat6:
+  Type: Skeleton
+  Display: '&cSilny pirat'
+  Health: 540
+  Damage: 33
+  Faction: Pirates
+  Disguise:
+    Type: player
+    Skin: ciderpirate
+  AIGoalSelectors:
+  - 0 clear
+  - 1 arrowattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 3 opendoors
+  - 3 closedoors
+  - 3 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  - 2 SpecificFaction Gobliny
+  - 2 SpecificFaction Bandyci
+  - 2 SpecificFaction Jungle
+  - 2 SpecificFaction Wilki
+  Drops:
+  - Strzala 1-3 0.65
+  - Pirackie_Klejnoty 1-2 0.7
+  - Pirackie_Rubiny 1-2 0.7
+  - Pirate_2_Armor
+  - Luk_Abordazowy_Zd 1 0.08
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.28
+    PreventSunburn: true
+  Equipment:
+  - B4:4
+  - O10:3
+  - A6:2
+  - A7:1
+  - Luk_Pirat6:0
+Pirat7:
+  Type: Zombie
+  Display: '&6Korsarz'
+  Health: 700
+  Damage: 75
+  Faction: Pirates
+  Disguise:
+    Type: player
+    Skin: ciderpirate
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 3 opendoors
+  - 3 closedoors
+  - 3 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  - 2 SpecificFaction Gobliny
+  - 2 SpecificFaction Bandyci
+  - 2 SpecificFaction Jungle
+  - 2 SpecificFaction Wilki
+  Drops:
+  - Pirackie_Klejnoty 2 1
+  - Pirackie_Rubiny 2 1
+  - Pirate_3_Armor
+  - Miecz_Mistrzowski_Zr 1 0.03
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.34
+    KnockbackResistance: 0.6
+    PreventSunburn: true
+  Equipment:
+  - A5:4
+  - O6:3
+  - A6:2
+  - A7:1
+  - O13:0
+Pirat8:
+  Type: Skeleton
+  Display: '&6Korsarz'
+  Health: 700
+  Damage: 36
+  Faction: Pirates
+  Disguise:
+    Type: player
+    Skin: ciderpirate
+  AIGoalSelectors:
+  - 0 clear
+  - 1 arrowattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 3 opendoors
+  - 3 closedoors
+  - 3 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  - 2 SpecificFaction Gobliny
+  - 2 SpecificFaction Bandyci
+  - 2 SpecificFaction Jungle
+  - 2 SpecificFaction Wilki
+  Drops:
+  - Strzala 2-3 0.8
+  - Pirackie_Klejnoty 2 1
+  - Pirackie_Rubiny 2 1
+  - Pirate_3_Armor
+  - Pirate_3_Weapon_1
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.34
+    KnockbackResistance: 0.6
+    PreventSunburn: true
+  Equipment:
+  - A5:4
+  - O6:3
+  - A6:2
+  - A7:1
+  - Luk_Pirat8:0
+Pirat9:
+  Type: Enderman
+  Display: '&3Przeklety Pirat'
+  Health: 1333
+  Damage: 97
+  Faction: Pirates
+  Disguise:
+    Type: player
+    Skin: ciderpirate
+    Invisible: true
+    ModifyBoundingBox: true
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  - 2 SpecificFaction Gobliny
+  - 2 SpecificFaction Bandyci
+  - 2 SpecificFaction Jungle
+  - 2 SpecificFaction Wilki
+  Drops:
+  - Przeklete_Zloto 1-2 0.66
+  - Pyl_Przekletego_Pirata 1 0.4
+  - Pirate_4_Armor
+  - Pirate_4_Weapon
+  - Helm_Nurka 1 0.05
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=hurtPlayer} ~onDamaged 1
+  Options:
+    AlwaysShowName: true
+    FollowRange: 50
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.3
+    KnockbackResistance: 1
+    Silent: true
+  Equipment:
+  - P1:4
+  - Z3:3
+  - A11:0
+Pirat10:
+  Type: Villager
+#  Display: ''
+  Health: 10000
+  Damage: 0
+  Disguise:
+    Type: villager
+#    Skin: ciderpirate
+    Invisible: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 3 randomstroll
+  - 4 opendoors
+  - 5 closedoors
+  - 6 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 OtherFactionMonsters
+  - 4 OtherFaction
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=Pirat10Tornado} ~onTimer:10 1
+  - skill{s=Pirat10Attack} ~onTimer:5 1
+#  - skill{s=Pirat10Death} ~onTimer:600 1
+  - skill{s=Pirat10Death} ~onSpawn
+  - healpercent{m=1} @self ~onDamaged
+  Options:
+    AlwaysShowName: false
+    FollowRange: 100
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: false
+    MovementSpeed: 0.28
+    KnockbackResistance: 1
+    HasTrades: false
+#    Invincible: true
+    Silent: true
+  Equipment:
+  - P2:4
+Barbossa:
+  Type: Zombie
+  Display: '&6&lBarbossa - BOSS'
+  Health: 10000
+  Damage: 100
+  Faction: Pirates
+  Disguise:
+    Type: player
+    Skin: crazypirate0
+  BossBar:
+    Enabled: true
+    Title: '&e==] &6&lBarbossa &8< &c<caster.hp> &4❤ &8> &e[=='
+    Color: YELLOW
+    Range: 50
+    Style: SOLID
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 3 opendoors
+  - 3 closedoors
+  - 3 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  - 2 SpecificFaction Gobliny
+  - 2 SpecificFaction Bandyci
+  - 2 SpecificFaction Jungle
+  - 2 SpecificFaction Wilki
+  Drops:
+  - Pirackie_Klejnoty 5-20 1
+  - Pirackie_Rubiny 5-20 1
+  - Przeklete_Zloto 5-20 1
+  - Pirate_Boss_1
+  - Ostrze_Czarnobrodego_Zr 1 0.01
+  - Szczaw_Krolewski 1 0.05
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=BarbossaSpawn} ~onSpawn 1
+  - skill{s=BarbossaHP} ~onDamaged =25%
+  - randomskill{skills=BarbossaSummon1,BarbossaRally} ~onDamaged 0.1
+  - randomskill{skills=BarbossaVelocity,BarbossaPrison,BarbossaRally} ~onTimer:50 0.11
+  Options:
+    Despawn: false
+    AlwaysShowName: true
+    FollowRange: 130
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.31
+    KnockbackResistance: 0.8
+    PreventSunburn: true
+  Equipment:
+  - B4:4
+  - O10:3
+  - O11:2
+  - O12:1
+  - O8:0
+DavyJones:
+  Type: Enderman
+  Display: '&4&lDavy Jones - BOSS'
+  Health: 22500
+  Damage: 100
+  Faction: Pirates
+  Disguise:
+    Type: player
+    Skin: greg414
+  BossBar:
+    Enabled: true
+    Title: '&9==] &4&lDavy Jones &8< &c<caster.hp> &4❤ &8> &9[=='
+    Color: BLUE
+    Range: 60
+    Style: SEGMENTED_6
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  - 2 SpecificFaction Gobliny
+  - 2 SpecificFaction Bandyci
+  - 2 SpecificFaction Jungle
+  - 2 SpecificFaction Wilki
+  Drops:
+  - Przeklete_Zloto 5-20 1
+  - LPalasz_Zr 1 0.01
+  - Szczaw_Krolewski 1 0.05
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - randomskill{skills=DavyAttack1,DavyAttack2,DavySummon1} ~onDamaged 0.07
+  - skill{s=DavySpawn} ~onSpawn 1
+  - skill{s=DavyDeath} ~onDeath 1
+  Options:
+    AlwaysShowName: true
+    FollowRange: 150
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.34
+    KnockbackResistance: 1
+  Equipment:
+  - B4:4
+  - O13:0
+#################################################################################
+Zywiolak1:
+  Type: Enderman
+  Display: '&3Zywiolak powietrza'
+  Health: 550
+  Damage: 84
+  Faction: Elementals
+  Disguise:
+    Type: player
+    Skin: davyjones
+    Invisible: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  - 2 SpecificFaction Wilki
+  - 2 SpecificFaction Bandyci
+  - 2 SpecificFaction Pirates
+  Drops:
+  - Elemental_1_Runes
+  - Elemental_1_Armor
+  - Elementium_Powietrza 1 0.65
+  - Ziolo_many 1 0.2
+  - Serce_Zywiolaka 1 0.15
+  Options:
+    AlwaysShowName: true
+    FollowRange: 35
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.37
+    Silent: true
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=hurtPlayer} ~onDamaged 1
+  - effect:particles{p=cloud;a=50;hs=0.1;vs=0.5;y=0.3} @self ~onTimer:5
+  - skill{s=AirAttack} ~onAttack 1
+  Equipment:
+  - O7:4
+  - O6:3
+Zywiolak2:
+  Type: MAGMA_CUBE
+  Display: '&cZywiolak skaly'
+  Health: 1045
+  Damage: 1
+  Faction: Elementals
+  Disguise:
+    Type: player
+    Skin: fire
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  - 2 SpecificFaction Wilki
+  - 2 SpecificFaction Bandyci
+  - 2 SpecificFaction Pirates
+  Drops:
+  - Elemental_2_Runes
+  - Elemental_2_Weapon
+  - Elementium_Skaly 1 0.65
+  - Ziolo_many 1 0.2
+  - Ziele_pancerza 1 0.01
+  - Serce_Zywiolaka 1 0.15
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=StoneAttack} ~onTimer:30 0.05
+  - skill{s=Stone2Attack;sync=true} ~onAttack 
+#  - damage{a=75} @trigger ~onAttack
+  Options:
+    AlwaysShowName: true
+    FollowRange: 35
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    PreventSlimeSplit: true
+    Size: 4
+    KnockbackResistance: 1
+Zywiolak3:
+  Type: Guardian
+  Display: '&bZywiolak wody'
+  Health: 840
+  Damage: 62
+  Faction: Elementals
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  - 2 SpecificFaction Wilki
+  - 2 SpecificFaction Bandyci
+  - 2 SpecificFaction Pirates
+  Drops:
+  - Elemental_3_Runes
+  - Helm_Nurka 1 0.03
+  - Elementium_Wody 1 0.65
+  - Ziolo_many 1 0.2
+  - Serce_Zywiolaka 1 0.15
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=WaterAttack} ~onTimer:30 0.07
+  Options:
+    AlwaysShowName: true
+    FollowRange: 35
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+Zywiolak4:
+  Type: BLAZE
+  Display: '&4Zywiolak ognia'
+  Health: 910
+  Damage: 101
+  Faction: Elementals
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  - 2 SpecificFaction Wilki
+  - 2 SpecificFaction Bandyci
+  - 2 SpecificFaction Pirates
+  Drops:
+  - Czaszka_Ognia_Int 1 0.16
+  - Elemental_4_Runes
+  - Elementium_Ognia 1 0.65
+  - Ziolo_many 0.2
+  - Ognisty_korzen 1 0.005
+  - Ognista_jagoda 1 0.005
+  - Serce_Zywiolaka 1 0.15
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=FireAttack;sync=true} ~onAttack 1
+  Options:
+    AlwaysShowName: true
+    FollowRange: 35
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    KnockbackResistance: 1
+Zywiolak5:
+  Type: Zombie
+  Display: '&6Sluga Kalimosa'
+  Health: 1010
+  Damage: 101
+  Faction: Elementals
+  Disguise:
+    Type: player
+    Skin: davyjones
+    Invisible: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  - 2 SpecificFaction Wilki
+  - 2 SpecificFaction Bandyci
+  - 2 SpecificFaction Pirates
+  - Serce_Zywiolaka 1 0.25
+  Drops:
+  - Leczenie 1 0.02
+  - Elemental_5_Armor
+  - Pierwiastek_Kalimosa 1 0.5
+  - Ziolo_many 1 0.25
+  - Ognisty_korzen 1 0.01
+  - Ognista_jagoda 1 0.01
+  Options:
+    AlwaysShowName: true
+    FollowRange: 35
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    KnockbackResistance: 0.75
+    MovementSpeed: 0.3
+    Silent: true
+    PreventSunburn: true
+  Equipment:
+  - O9:4
+  - Z3:3
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=hurtPlayer} ~onDamaged 1
+  - effect:particles{p=cloud;a=50;hs=0.1;vs=0.4;y=0.3} @self ~onTimer:5
+  - effect:particlebox{particle=flame;amount=30;radius=0.35;y=0.9} @self ~onTimer:5
+  - effect:particles{particle=dripWater;amount=50;vs=0.01;hs=0.5} @self ~onTimer:5
+  - randomskill{skills=AirAttack,FireAttack;sync=true} ~onAttack 1
+  - randomskill{skills=StoneAttack,WaterAttack} ~onTimer:30 0.05
+Spherus:
+  Type: Blaze
+  Display: '&5&lSpherus Magna - BOSS'
+  Health: 20000
+  Damage: 95
+  Faction: Elementals
+  Disguise:
+    Type: player
+    Skin: davyjones
+    Invisible: true
+    ModifyBoundingBox: true
+  BossBar:
+    Enabled: true
+    Title: '&d==] &5&lSpherus Magna &8< &c<caster.hp> &4❤ &8> &d[=='
+    Color: PURPLE
+    Range: 60
+    Style: SEGMENTED_6
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  - 2 SpecificFaction Wilki
+  - 2 SpecificFaction Bandyci
+  - 2 SpecificFaction Pirates
+  Drops:
+  - Pierwiastek_Kalimosa 1-64 1
+  - Ziolo_many 1-10
+  - Ognista_jagoda 1 0.05
+  - Ognisty_korzen 1 0.05
+  - Szczaw_Krolewski 1 0.05
+  - Serce_Zywiolaka 1 1
+  Equipment:
+  - O9:4
+  Options:
+    AlwaysShowName: true
+    FollowRange: 50
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    KnockbackResistance: 1
+    Silent: true
+  Skills:
+  - skill{s=KalimosRemove} ~onTimer:100
+  - effect:particlebox{particle=flame;amount=10;radius=0.75;y=1} @self ~onTimer:5
+  - effect:particlebox{particle=happyVillager;amount=10;radius=0.75;y=1} @self ~onTimer:5
+  - effect:particlebox{particle=explode;amount=10;radius=0.75;y=1} @self ~onTimer:5
+  - effect:particlebox{particle=snowballpoof;amount=10;radius=0.75;y=1} @self ~onTimer:5
+  - sound{s=entity.blaze.hurt} @self ~onDamaged 
+  - sound{s=entity.blaze.death} @self ~onDeath
+  - sound{s=entity.blaze.ambient} @self ~onTimer:100 
+  - randomskill{skills=SpherusAttack1,SpherusAttack2,SpherusAttack3,SpherusAttack4,SpherusAttack5,SpherusSummon1,SpherusSummon2} ~onTimer:20 0.08
+Kalimos:
+  Type: HUSK
+  Display: '&6&lKalimos - Pierwotny Wladca - EPIC BOSS'
+  Health: 47500
+  Damage: 1
+  Faction: Elementals
+  Modules:
+    ThreatTable: true
+  Disguise:
+    Type: player
+    Skin: davyjones
+    Invisible: true
+  BossBar:
+    Enabled: true
+    Title: '&5==] &6&lKalimos - Pierwotny Wladca &8< &c<caster.hp> &4❤ &8> &5[=='
+    Color: RED
+    Range: 120
+    Style: SEGMENTED_12
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  Drops:
+  - DeszczOgnia 1 0.02
+  - Grom 1 0.02
+  - Gem_KnockBack1 1 0.01
+  - Elemental_Boss_1
+  - Elemental_Boss_2
+  - Pierwiastek_Kalimosa 1-64 1
+  - Ziolo_many 12-40
+  - Ognista_jagoda 1 0.15
+  - Ognisty_korzen 1 0.15
+  - Szczaw_Krolewski 1 0.1
+  - Serce_Zywiolaka 1 1
+  Options:
+    AlwaysShowName: true
+    FollowRange: 35
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    KnockbackResistance: 1
+    MovementSpeed: 0.3
+    Silent: true
+  Equipment:
+  - O9:4
+  - Z3:3
+  Skills:
+#  - skill{s=KalimosTiming} ~onTimer:20
+  - skill{s=MobRemove} ~onTimer:200
+#  - skill{s=KalimosAttack} ~onAttack
+  - skill{s=hurtPlayer} ~onDamaged 1
+  - skill{s=KalimosWaterAttack} ~onTimer:400
+  - skill{s=WaterEffect} @self ~onTimer:5
+  - skill{s=WaterDebuff} ~onDamaged
+  - effect:particlebox{particle=flame;amount=30;radius=0.33;y=0.85} @self ~onTimer:5
+  - effect:particles{p=cloud;a=50;hs=0.2;vs=0.4;y=0.3} @self ~onTimer:5
+  - effect:particles{particle=dripWater;amount=50;vs=0.01;hs=0.5} @self ~onTimer:5
+#  - randomskill{skills=KalimosAttack1,KalimosAttack2,KalimosAttack3,KalimosSummon} ~onDamaged 0.04
+  - randomskill{skills=KalimosAirAttack,KalimosFireAttack,KalimosWaterAttack} ~onTimer:40 0.12
+  - randomskill{skills=KalimosSummon} ~onDamaged 0.08
+  - skill{s=KalimosSpawn} ~onSpawn 1
+  - skill{s=KalimosDeath} ~onDeath 1
+#################################################################################
+Spider1:
+  Type: CAVE_SPIDER
+  Display: '&2Pajak lesny'
+  Health: 190
+  Damage: 30
+  Faction: Spiders
+  Drops:
+  - Trujacy_Kiel_Zr 1 0.08
+  - Pajecza_Siec 1 0.25
+  - Oko_Pajaka 1 0.3
+  - Pajecza_Zuwaczka 1 0.35
+  - Jadowity_Kiel 1 0.25
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  - 2 SpecificFaction Bandyci
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - randomskill{skills=SpiderAttack1,SpiderAttack2,SpiderAttack3,SpiderAttack4} ~onAttack 0.5
+  Options:
+    AlwaysShowName: true
+    FollowRange: 50
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    KnockbackResistance: 0
+    MovementSpeed: 0.29
+Spider2:
+  Type: SPIDER
+  Display: '&cCzarna wdowa'
+  Health: 290
+  Damage: 40
+  Faction: Spiders
+  Drops:
+  - Trujacy_Kiel_Zr 1 0.11
+  - Galka_Wdowy 1 0.4
+  - Pajecza_Zuwaczka 1 0.45
+  - Jadowity_Kiel 1 0.15
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  - 2 SpecificFaction Bandyci
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - randomskill{skills=SpiderAttack1,SpiderAttack2,SpiderAttack3,SpiderAttack4} ~onAttack 0.25
+  Options:
+    AlwaysShowName: true
+    FollowRange: 50
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    KnockbackResistance: 0.6
+    MovementSpeed: 0.24
+Maexxna:
+  Type: SPIDER
+  Display: '&2&lMaexxna - Krolowa Pajeczakow - BOSS'
+  Health: 5000
+  Damage: 45
+  BossBar:
+    Enabled: true
+    Title: '&a==] &2&lMaexxna &8< &c<caster.hp> &4❤ &8> &a[=='
+    Color: GREEN
+    Range: 50
+    Style: SOLID
+  Faction: Spiders
+  Drops:
+  - Trujacy_Kiel_Zr 1 0.25
+  - Pajecza_Siec 1 1
+  - Oko_Pajaka 1 0.5
+  - Galka_Wdowy 1 0.5
+  - Pajecza_Zuwaczka 1 0.5
+  - Jadowity_Kiel 1 0.5
+  - Kiel_Maexxny_Zr 1 0.07
+  - Kiel_Maexxny_Int 1 0.07
+  - Kiel_Maexxny_Mana 1 0.07
+  - Osmiook_Mana 1 0.08
+  - Helm_Poszukiwacza_Przygod_Zd 1 0.01
+  - Nimrod_Zd 1 0.01
+  - Szczaw_Krolewski 1 0.05
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  - 2 SpecificFaction Bandyci
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - randomskill{skills=SpiderAttack1,SpiderAttack2,SpiderAttack3,SpiderAttack4} ~onAttack 1
+  - randomskill{skills=MaexxnaSummon1} ~onDamaged 0.08
+  - randomskill{skills=MaexxnaAttack1,MaexxnaAttack2} ~onTimer:20 0.08
+  Options:
+    AlwaysShowName: true
+    FollowRange: 50
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    KnockbackResistance: 1
+#################################################################################
+Saturas:
+  Type: ZOMBIE
+  Display: '&1Saturas Nieufny - BOSS'
+  Health: 6500
+  Damage: 50
+  Disguise:
+    Type: player
+    Skin: saturas
+  BossBar:
+    Enabled: true
+    Title: '&b==] &1Saturas Nieufny &8< &c<caster.hp> &4❤ &8> &b[=='
+    Color: BLUE
+    Range: 50
+    Style: SOLID
+  Drops:
+  - Ziolo_many 1-5
+  - Szczaw_Krolewski 1 0.05
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - effect:particles{particle=portal;amount=10000;hS=10;vS=3;speed=5;yOffset=2} @self ~onTimer:40
+  - skill{s=SaturasSpawn} ~onSpawn 1
+  - skill{s=SaturasDeath} ~onDeath 1
+  - randomskill{skills=SaturasAttack1,SaturasAttack2,SaturasAttack3} ~onTimer:20 0.15
+  Options:
+    AlwaysShowName: true
+    FollowRange: 70
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.3
+    KnockbackResistance: 1
+    PreventJockeyMounts: true
+  Equipment:
+  - B4:4
+Duch1:
+  Type: Enderman
+  Display: "&3Duch straznika"
+  Health: 120
+  Damage: 28
+  Disguise:
+    Type: player
+    Skin: saturas
+    Invisible: true
+  Faction: Guard
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  Options:
+    AlwaysShowName: true
+    FollowRange: 50
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.28
+    KnockbackResistance: 0.25
+    PreventSunburn: true
+  Equipment:
+  - O1:4
+  - Straz_Miejska1:3
+  - Straz_Miejska2:2
+  - Straz_Miejska3:1
+  - Straz_Miejska4:0
+Duch2:
+  Type: Zombie
+  Display: "&cDuch zmutowanego wojownika"
+  Health: 250
+  Damage: 36
+  Disguise:
+    Type: player
+    Skin: saturas
+    Invisible: true
+  Faction: Guard
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  BossBar:
+    Enabled: true
+    Title: '&cDuch zmutowanego wojownika'
+    Color: BLUE
+    Range: 50
+    Style: SOLID
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  Options:
+    AlwaysShowName: true
+    FollowRange: 50
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.3
+    KnockbackResistance: 0.85
+    PreventSunburn: true
+    PreventSunburn: true
+  Equipment:
+  - Helm_Najemnika:4
+  - Zbroja_Najemnika:3
+  - Spodnie_Najemnika:2
+  - Buty_Najemnika:1
+  - Rubinowe_Ostrze:0
+Duch3:
+  Type: Zombie
+  Display: "&8Przeklety Duch z Wiezy Mgiel"
+  Health: 5000
+  Damage: 160
+  Disguise:
+    Type: player
+    Skin: saturas
+    Invisible: true
+  Faction: Guard
+  Skills:
+  - potion{type=BLINDNESS;duration=100;level=4} @PIR{r=17} ~onTimer:80
+  - potion{type=BLINDNESS;duration=100;level=4} @PIR{r=17} ~onSpawn
+  - skill{s=Rukhar_Crit;sync=true} ~onAttack 0.2
+  - skill{s=MobRemove} ~onTimer:100
+  BossBar:
+    Enabled: true
+    Title: '&8Przeklety Duch z Wiezy Mgiel'
+    Color: WHITE
+    Range: 50
+    Style: SOLID
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  Drops:
+  - DuchChest 1
+  Options:
+    AlwaysShowName: true
+    FollowRange: 50
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.34
+    KnockbackResistance: 0.85
+    PreventSunburn: true
+    PreventSunburn: true
+  Equipment:
+  - Helm_Najemnika:4
+  - Zbroja_Najemnika:3
+  - Spodnie_Najemnika:2
+  - Buty_Najemnika:1
+  - Rubinowe_Ostrze:0
+Rukhar:
+  Type: zombie
+  Display: "&c&oRukhar - Straznik Konwoju"
+  Health: 3500
+  Damage: 145
+  Disguise:
+    Type: player
+    Skin: Xardsa
+  Faction: Guard
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=Rukhar_Crit;sync=true} ~onAttack 0.1
+  - skill{s=RukharSpawn} ~onSpawn
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  Drops:
+  - RukharChest 1
+  Options:
+    AlwaysShowName: true
+    FollowRange: 50
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.34
+    KnockbackResistance: 0.85
+    PreventSunburn: true
+  Equipment:
+  - Straz_Miejska1:3
+  - Straz_Miejska2:2
+  - Straz_Miejska3:1
+  - Straz_Miejska4:0
+Straznik_Wiezienia:
+  Type: zombie
+  Display: "&7Straz Wiezienia"
+  Health: 4000
+  Damage: 155
+  Disguise:
+    Type: player
+    Skin: Tyrion
+  Faction: Guard
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=Straznik_Wiezienia_Spawn} ~onSpawn
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  Options:
+    AlwaysShowName: true
+    FollowRange: 50
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.3
+    KnockbackResistance: 1
+    PreventSunburn: true
+  Equipment:
+  - Straz_Miejska1:3
+  - Straz_Miejska2:2
+  - Straz_Miejska3:1
+  - Straz_Miejska4:0
+Golem:
+  Type: zombie
+  Display: "&7Kamienny golem"
+  Health: 650
+  Damage: 70
+  Faction: Alchemy
+  Disguise:
+    Type: IRON_GOLEM
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Skills:
+  - skill{s=GolemAttack} ~onAttack 1
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 10
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.3
+    KnockbackResistance: 1
+    PreventSunburn: true
+Alchemik:
+  Type: witch
+  Display: "&3Zaginiony alchemik"
+  Health: 400
+  Damage: 90
+  Faction: Alchemy
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  BossBar:
+    Enabled: true
+    Title: '&3Zaginiony alchemik'
+    Color: BLUE
+    Range: 50
+    Style: SOLID
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=AlchemikAttack} ~onTimer:40 0.15
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.35
+    KnockbackResistance: 0.5
+    PreventSunburn: true
+Straznik:
+  Type: zombie
+  Display: "&c&oStraznik Skarbca"
+  Health: 3000
+  Damage: 95
+  Faction: Guard
+  BossBar:
+    Enabled: true
+    Title: '&d==] &c&oStraznik Skarbca'
+    Color: RED
+    Range: 50
+    Style: SOLID
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Disguise:
+    Type: player
+    Skin: GoldenSoldier
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.27
+    KnockbackResistance: 1
+    PreventSunburn: true
+  Equipment:
+  - Dobry_Miecz_Magiczny:0
+  - Tarcza:OFFHAND
+  Drops:
+  - Szkatulka 1 1
+  - Rubinowe_Ostrze2 1 0.15
+Kolos:
+  Type: zombie
+  Display: "&4&lKolos Geddona"
+  Health: 4000
+  Damage: 135
+  Faction: Lava
+  Disguise:
+    Type: IRON_GOLEM
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 1 players
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=KolosAttack2} ~onAttack 1
+  - effect:particles{particle=flame;amount=35;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75} @self ~onTimer:20
+  - effect:particles{particle=flame;amount=35;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5} @self ~onTimer:20
+  - skill{s=KolosAttack1} ~onTimer:20 0.07
+  Options:
+    AlwaysShowName: true
+    FollowRange: 10
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.28
+    KnockbackResistance: 1
+    PreventSunburn: true
+Niewola1:
+  Type: zombie
+  Display: "&c&lZniewolony Wojownik"
+  Health: 1550
+  Damage: 111
+  Faction: Lava
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  Disguise:
+    Type: player
+    Skin: db3005
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - effect:particles{particle=flame;amount=35;hS=0.5;vS=0.5;speed=0.05;yOffset=1} @self ~onTimer:10
+  - randomskill{skills=NiewolaSay1,NiewolaSay2,NiewolaSay3} ~onTimer:40 0.05
+  - skill{s=NiewolaAttack1} ~onTimer:20 0.1
+  - skill{s=NiewolaDeath} ~onDeath
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.3
+    KnockbackResistance: 0.95
+    PreventSunburn: true
+  Equipment:
+  - Miecz_Poltorareczny:0
+  - Miecz_Poltorareczny:OFFHAND
+Niewola2:
+  Type: zombie
+  Display: "&c&oZniewolony Mag"
+  Health: 1100
+  Damage: 103
+  Faction: Lava
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  Disguise:
+    Type: player
+    Skin: Ryan5ft3
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - effect:particles{particle=flame;amount=35;hS=0.5;vS=0.5;speed=0.05;yOffset=1} @self ~onTimer:10
+  - randomskill{skills=NiewolaSay1,NiewolaSay2,NiewolaSay3} ~onTimer:40 0.05
+  - randomskill{skills=NiewolaAttack2,NiewolaAttack3} ~onTimer:20 0.1
+  - skill{s=NiewolaDeath} ~onDeath
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.27
+    KnockbackResistance: 0.8
+    PreventSunburn: true
+  Equipment:
+  - KulaOgnia:0
+Niewola3:
+  Type: husk
+  Display: "&7&oDziwne stworzenie"
+  Health: 2000
+  Damage: 130
+  Faction: Lava
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - effect:particles{particle=flame;amount=20;hS=0.5;vS=0.5;speed=0.1;yOffset=1} @self ~onTimer:5
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.18
+    KnockbackResistance: 1
+    PreventSunburn: true
+  Equipment:
+  - Spodnie_Kopacza_Wytrz:2
+  Drops:
+  - Szczatki 1 1
+Niewola4:
+  Type: zombie
+  Display: " "
+  Health: 100000
+  Damage: 1
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  Disguise:
+    Type: player
+    Skin: darkdemonangel15
+  Options:
+    AlwaysShowName: false
+    Collidable: false
+    KnockbackResistance: 1
+    MovementSpeed: 0.23
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    Silent: true
+  Skills:
+#  - suicide ~onTimer:20 1
+  - skill{s=MobRemove} ~onTimer:100
+  - healpercent{m=1} @self ~onDamaged
+  - skill{s=KragNiewola4Spawn1} ~onSpawn
+  - skill{s=KragNiewola4Spawn2} ~onSpawn
+Niewola5:
+  Type: blaze
+  Display: "&oPrzywolany Matteo"
+  Health: 2500
+  Damage: 105
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  Disguise:
+    Type: player
+    Skin: darkdemonangel15
+  Options:
+    AlwaysShowName: true
+    Collidable: true
+#    Invincible: true
+    KnockbackResistance: 1
+    MovementSpeed: 0.23
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=KragNiewola5Spawn} ~onSpawn
+  - randomskill{skills=NiewolaSay1,NiewolaSay2,NiewolaSay3} ~onTimer:20 0.1
+  - summon{type=Niewola6;amount=1} @Location{c=15.5,33,-85.5} ~onDeath
+  - skill{s=NiewolaDeath} ~onDeath
+#  - suicide ~onTimer:20 1
+#  - healpercent{m=1} @self ~onDamaged
+Niewola6:
+  Type: zombie
+  Display: " "
+  Health: 100000
+  Damage: 1
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  Disguise:
+    Type: player
+    Skin: darkdemonangel15
+  Options:
+    AlwaysShowName: false
+    Collidable: false
+    KnockbackResistance: 1
+    MovementSpeed: 0.23
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    Silent: true
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=KragNiewola6Spawn} ~onSpawn
+  - healpercent{m=1} @self ~onDamaged
+Niewola7:
+  Type: blaze
+  Display: "&oPrzywolany Gall"
+  Health: 4000
+  Damage: 125
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  Disguise:
+    Type: player
+    Skin: darkdemonangel15
+  Options:
+    AlwaysShowName: true
+    Collidable: true
+#    Invincible: true
+    KnockbackResistance: 1
+    MovementSpeed: 0.23
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - randomskill{skills=NiewolaSay1,NiewolaSay2,NiewolaSay3} ~onTimer:20 0.1
+  - skill{s=KragNiewola5Spawn} ~onSpawn
+  - command{c="spawn <target.name>";op} @trigger ~onDeath
+  - skill{s=NiewolaDeath} ~onDeath
+#  - suicide ~onTimer:20 1
+#  - healpercent{m=1} @self ~onDamaged
+Warlord:
+  Type: wither
+  Display: "&4&lEnderwarlord"
+  Health: 1000
+  Damage: 1
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  Disguise:
+    Type: player
+    Skin: enderwarlord
+  Drops:
+  - Esencja_RPG 1 0.15
+  Options:
+    AlwaysShowName: true
+    Collidable: true
+#    Invincible: true
+    KnockbackResistance: 1
+    MovementSpeed: 0.23
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=WarlordAttack;sync=true} ~onAttack
+#  - damage{a=85} @trigger ~onAttack
+Banan1:
+  Type: zombie
+  Display: "&6&lBananowy potwor"
+  Health: 1500
+  Damage: 105
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  Disguise:
+    Type: player
+    Skin: szybkibanan
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Drops:
+  - Esencja_RPG 1 0.15
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    ShowHealth: true
+    MovementSpeed: 0.33
+    KnockbackResistance: 0.9
+  Equipment:
+  - B4:4
+WarlordSlayer:
+  Type: wither
+  Display: "&4&lWarlodSlayer - BOSS"
+  Health: 20000
+  Damage: 1
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  Disguise:
+    Type: player
+    Skin: Zovaal
+  Drops:
+  - Esencja_RPG 1-20
+  Options:
+    AlwaysShowName: true
+    Collidable: true
+    KnockbackResistance: 1
+    MovementSpeed: 0.23
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    KnockbackResistance: 0.2
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=SlayerAttack;sync=true} ~onAttack
+#  - damage{a=95} @trigger ~onAttack
+  - skill{s=MeteorShield} @self ~onSpawn
+Szkodnik:
+  Type: vex
+  Display: "&7Szkodnik"
+  Health: 200
+  Damage: 30
+  Faction: Szkodnik
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    PreventSunburn: true
+Goryl:
+  Type: ZOMBIE
+  Display: '&2Goryl'
+  Health: 650
+  Damage: 70
+  Disguise:
+    Type: player
+    Skin: KingKong
+  Faction: Jungle
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  - 2 SpecificFaction Bandyci
+  - 2 SpecificFaction Egipt
+  - 2 SpecificFaction Undead
+  Drops:
+  - Ziele_pancerza 1 0.005
+  Skills:
+  - sound{s=entity.zombie_pig.hurt} @self ~onDamaged 
+  - sound{s=entity.zombie_pig.death} @self ~onDeath
+  - skill{s=GorylAttack} ~onTimer:40 0.12
+  - skill{s=GorylAttack2} ~onAttack 0.25
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    ShowHealth: true
+    MovementSpeed: 0.28
+    KnockbackResistance: 1
+    Silent: true
+  Equipment:
+  - B4:4
+Papuga:
+  Type: PARROT
+  Display: '&3Wsciekla papuga'
+  Health: 350
+  Damage: 55
+#  Disguise:
+#    Type: parrot
+  Faction: Jungle
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  - 2 SpecificFaction Bandyci
+  - 2 SpecificFaction Egipt
+  - 2 SpecificFaction Undead
+  Skills:
+  - skill{s=Zakazenie} ~onAttack 0.2
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 40
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    ShowHealth: true
+    MovementSpeed: 0.45
+    KnockbackResistance: 0.1
+Pantera:
+  Type: OCELOT
+  Display: '&8Pantera'
+  Health: 480
+  Damage: 80
+#  Disguise:
+#    Type: parrot
+  Faction: Jungle
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  - 2 SpecificFaction Bandyci
+  - 2 SpecificFaction Egipt
+  - 2 SpecificFaction Undead
+  Skills:
+  - skill{s=Krwawienie} ~onAttack 0.15
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 50
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    ShowHealth: true
+    MovementSpeed: 0.43
+    KnockbackResistance: 0.1
+#################################################################################
+Swinia:
+  Type: pig
+  Health: 20
+  Display: '&dSwinka'
+  Drops:
+  - Schab 1-3 1
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+Krowa:
+  Type: cow
+  Health: 30
+  Display: '&rKrowa'
+  Drops:
+  - Wolowina 1-3 1
+  - Skora1 1 0.5
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+Kura:
+  Type: chicken
+  Health: 5
+  Display: '&rHodowlana kura'
+  Drops:
+  - Kurczak 1 1
+  - Pioro 1-5 0.3
+  Options:
+    PreventOtherDrops: true
+  Skills:
+#  - command{c="sbgive <target.name> Mroczna_Pieczec 1"} @trigger ~onDeath
+  - skill{s=MobRemove} ~onTimer:100
+Owca:
+  Type: Sheep
+  Health: 15
+  Display: '&7Owca nizinna'
+  Drops:
+  - Baranina 1-4 1
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+Pasterz:
+  Type: Zombie
+  Health: 200
+  Display: '&7&lPasterz owiec'
+  Damage: 20
+  Disguise:
+    Type: player
+    Skin: Shepherd_CZ
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 lookatplayers
+  - 3 randomlookaround
+  - 3 randomstroll
+  - 3 float
+  - 3 opendoors
+  - 3 closedoors
+  AITargetSelectors:
+  - 0 clear
+  - 1 SpecificFaction [Bandyci]
+  - 2 SpecificFaction [Pirates]
+  - 3 attacker
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.3
+    PreventSunburn: true
+  Equipment:
+  - B4:4
+  - Laska_Pasterska:0
+  Drops:
+  - Laska_Pasterska 1 0.08
+Farmer:
+  Type: Zombie
+  Health: 100
+  Display: '&eFarmer'
+  Disguise:
+    Type: player
+    Skin: gothic12d
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  AIGoalSelectors:
+  - 0 clear
+  - 1 avoidzombies
+  - 2 lookatplayers
+  - 3 randomlookaround
+  - 3 randomstroll
+  - 3 float
+  - 3 opendoors
+  - 3 closedoors
+  AITargetSelectors:
+  - 0 clear
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.32
+    PreventSunburn: true
+  Equipment:
+  - B4:4
+  - Laska_Pasterska:0
+  Drops:
+  - Czapka_Farmera 1 0.08
+#################################################################################
+Kukla_Trening:
+  Type: Sheep
+  Display: "&b&oManekin treningowy"
+  Health: 1000000
+  Disguise:
+    Type: armorstand
+  AIGoalSelectors:
+  - 0 clear
+  Equipment:
+  - Kukla_Head:4
+  - Skorzana_Zbroja:3  
+  Options:
+    AlwaysShowName: true
+    KnockbackResistance: 1
+    MovementSpeed: 0
+    NoAI: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    Silent: true
+    Despawn: true
+  Skills:
+#  - skill{s=KuklaInfo} ~onDamaged
+  - healpercent{m=1} @self ~onTimer:1200
+  - skill{s=MobRemove} ~onTimer:100
+Kukla_N:
+  Type: Sheep
+  Display: "&2Kukla treningowa"
+  Health: 1
+  Disguise:
+    Type: armorstand
+  Options:
+    AlwaysShowName: true
+    KnockbackResistance: 1
+    MovementSpeed: 0
+    NoAI: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    Silent: true
+    Despawn: true
+  AIGoalSelectors:
+  - 0 clear
+  Equipment:
+  - Kukla_Head:4
+  - Skorzana_Zbroja:3
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+Kukla_S:
+  Type: Sheep
+  Display: "&2Kukla treningowa"
+  Health: 1
+  Disguise:
+    Type: armorstand
+  Options:
+    AlwaysShowName: true
+    KnockbackResistance: 1
+    MovementSpeed: 0
+    NoAI: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    Silent: true
+    Despawn: true
+  AIGoalSelectors:
+  - 0 clear
+  Equipment:
+  - Kukla_Head:4
+  - Skorzana_Zbroja:3
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+Tarcza:
+  Type: Sheep
+  Display: "&aTarcza Strzelecka"
+  Health: 1
+  Disguise:
+    Type: armorstand
+  Options:
+    AlwaysShowName: true
+    KnockbackResistance: 1
+    MovementSpeed: 0
+    NoAI: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    Silent: true
+    Despawn: true
+  AIGoalSelectors:
+  - 0 clear
+  Equipment:
+  - Kukla_Head:4
+  - Skorzana_Zbroja:3
+  - Tarcza:5
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+ManekinRuniczny:
+  Type: Sheep
+  Display: "&9&oManekin runiczny"
+  Health: 1
+  Disguise:
+    Type: armorstand
+  Options:
+    AlwaysShowName: true
+    KnockbackResistance: 1
+    MovementSpeed: 0
+    NoAI: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    Silent: true
+    Despawn: true
+  AIGoalSelectors:
+  - 0 clear
+  Equipment:
+  - Kukla_Head:4
+  - Skorzana_Zbroja:3
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+Rekrut:
+  Type: Zombie
+  Display: '&a&oRekrut'
+  Health: 50
+  Damage: 5
+  Disguise:
+    Type: player
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 1 randomstroll
+  - 2 randomlookaround
+  - 2 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+#  Skills:
+#  - command{delay=1;c="mmdisguise <mob.l.w> <mob.uuid> player tyrion"} @self ~onSpawn
+  Options:
+    AlwaysShowName: true
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.28
+    PreventSunburn: true
+  Equipment:
+  - B1:0
+  - B4:4
+Szczur:
+  Type: Silverfish
+  Display: "&7Szczur pokladowy"
+  Health: 10
+  Damage: 0
+  Options:
+    FollowRange: 30
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.15
+    PreventSunburn: true
+    PreventBlockInfection: true
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+TestMob:
+  Type: Zombie
+  Display: "&7Mob testowy"
+  Health: 10000000
+  Damage: 200
+  BossBar:
+    Enabled: true
+    Title: '&7TestMob'
+    Color: GREEN
+    Range: 50
+    Style: SOLID
+  Options:
+    PreventSunburn: true
+    MovementSpeed: 0.01
+    Despawn: true
+  Skills:
+  - skill{s=testSkillDmg;sync=true} ~onDamaged
+  - skill{s=testSkillDmg2;sync=true} ~onAttack
+#  - skill{s=ChainsTest} @Trigger ~onDamaged 0.5
+#################################################################################
+MrGold:
+  Type: Zombie
+  Display: "&e&lGoldin King"
+  Health: 75000
+  Damage: 40
+  BossBar:
+    Enabled: true
+    Title: '&6==] &e&lGoldin King &8< &c<caster.hp> &4❤ &8> &6[=='
+    Color: YELLOW
+    Range: 50
+    Style: SEGMENTED_20
+  Disguise:
+    Type: player
+    Skin: AAGoldenGaming
+  Options:
+    AlwaysShowName: true
+    FollowRange: 100
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.31
+    KnockbackResistance: 0.6
+    PreventSunburn: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Skills:
+  - skill{s=GoldDrop} ~onDamaged
+  - skill{s=GoldSummon} ~onDamaged 0.05
+  Equipment:
+  - B4:4
+MrGoldMinion:
+  Type: Zombie
+  Display: "&e&lGoldin Minion"
+  Health: 150
+  Damage: 15
+  Options:
+    AlwaysShowName: true
+    FollowRange: 100
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.3
+    PreventSunburn: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Disguise:
+    Type: babyZombie
+  Equipment:
+  - G1:4
+  Drops:
+  - Zlota_Moneta 1 0.75

@@ -1,0 +1,6 @@
+name: "&e&lTirion Fordring"
+title: "&e&lTirion Fordring - dowodca"
+size: 9
+slots:
+  1:
+    item: "p_quest_34"

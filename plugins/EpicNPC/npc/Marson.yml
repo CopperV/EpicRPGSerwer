@@ -1,0 +1,16 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&5Marson"
+  - "&7[&dZAMKOWA DAMA&7]"
+skinid: 633022241
+location:
+  world: "F_RPG"
+  x: -138
+  y: 41.5
+  z: -4.5
+  yaw: -60
+  pitch: 4
+lookat: true
+state: CROUCHED

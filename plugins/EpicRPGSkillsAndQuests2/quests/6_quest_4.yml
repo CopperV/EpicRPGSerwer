@@ -1,0 +1,32 @@
+id: "6_quest_4"                                
+name: "&cLokalne zagrozenie II"                          
+zleceniodawca: "&a&oCassia"                       
+lore:                                               
+  - "&aJak juz wspomnialam,"
+  - "&ajestesmy w czarnej dupie."
+  - "&aNasza pozycja jest beznadziejna,"
+  - "&awszedzie jestesmy otoczeni."
+  - "&aPomoz nam sie pozbyc tego cholerstwa,"
+  - "&ato bedziemy miec minimalny procent szans"
+  - "&ana to, ze stad wyjdziemy."
+prize:                                    
+  - "xp: 98500"
+require:                                            
+  - "level: 51"
+  - "quest: 6_quest_3"
+stopnie:
+  1:
+    talking: true                    
+    targets:
+      1:
+        id: "6_quest_4_1_1"                     
+        type: "zabij"       
+        targetName: "&eJockey"
+        message: "Zabij 12 Jockey: %stan%"
+        ilosc: 12
+      2:
+        id: "6_quest_4_1_2"                     
+        type: "zabij"       
+        targetName: "&5Wiedzma"
+        message: "Zabij 18 Wiedzm: %stan%"
+        ilosc: 18

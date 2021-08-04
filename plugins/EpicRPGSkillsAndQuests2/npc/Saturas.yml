@@ -1,0 +1,72 @@
+name: "&1Saturas"
+title: "&1Saturas - general"
+size: 27
+slots:
+  1:
+    item: "2_quest_2"
+  2:
+    item: "2_quest_3"
+#  max: 150
+#  wymagania:
+#  - "klasa: &cMag"
+#  - "2_quest_: 2_quest_1"
+  3:
+    item: "2_quest_4"
+  4:
+    item: "2_quest_5"
+  5:
+    item: "2_quest_6"
+  6:
+    item: "2_quest_7"
+  10:
+    item: "2_quest_8"
+  11:
+    item: "2_quest_9"
+  12:
+    item: "2_quest_10"
+  13:
+    item: "2_quest_11"
+  14:
+    item: "2_quest_12"
+  15:
+    item: "zlecenie_saturas"
+  19:
+    item: "fabula_quest_4"
+  20:
+    item: "fabula_quest_5"
+  21:
+    item: "fabula_quest_6"
+  22:
+    item: "fabula_quest_7"
+  23:
+    item: "fabula_quest_8"
+#22:
+#  slot: 22
+#  item: "fabula_quest_8"
+#23:
+#  slot: 23
+#  item: "p_quest58"
+#24:
+#  slot: 24
+#  item: "p_quest67"
+  8:
+    item: "Walka1"
+    max: 15
+    wymagania:
+    - "quest: 2_quest_5"
+  9:
+    slot: 9
+    item: "Walka2"
+    max: 15
+    wymagania:
+    - "quest: 2_quest_5"
+  17:
+    item: "Mana1"
+    max: 170
+    wymagania:
+    - "quest: 2_quest_5"
+  18:
+    item: "Mana5"
+    max: 170
+    wymagania:
+    - "quest: 2_quest_5"

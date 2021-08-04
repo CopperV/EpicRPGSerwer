@@ -1,0 +1,14 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&a&oAlex"
+skinid: 420928
+location:
+  world: "Map113"
+  x: 364.5
+  y: 64.0
+  z: 142.5
+  yaw: 70
+  pitch: 6
+lookat: true

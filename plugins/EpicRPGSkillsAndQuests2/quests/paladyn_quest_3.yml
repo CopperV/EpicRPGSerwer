@@ -1,0 +1,68 @@
+id: "paladyn_quest_3"                                
+name: "&7&oDozbroic zbrojownie"                          
+zleceniodawca: "&a&lJasuo"                       
+lore:                                               
+  - "&aNasza zbrojownia zaczyna swiecic pustkami,"
+  - "&anatomiast te swinie caly czas plawia sie"
+  - "&aw uzbrojeniu."
+  - "&aPotrzebujemy uzupelnic nasze zapasy,"
+  - "&aa Ortege trzeba oslabiac"
+prize:                                    
+  - "xp: 680"
+  - "money: 200"
+require:                                            
+  - "level: 13"
+  - "quest: paladyn_quest_2"
+  - "klasa: &cWojownik"
+stopnie:
+  1:
+    talking: true                 
+    targets:
+      1:
+        id: "paladyn_quest_3_1_1"                     
+        type: "przynies"       
+        targetName: "&cSzmaragdowe Buty"                      
+        message: "Przynies 2 pary szmaragdowych butow: %stan%"
+        ilosc: 2
+      2:
+        id: "paladyn_quest_3_1_2"                     
+        type: "przynies"       
+        targetName: "&eZlote Nogawice"                      
+        message: "Przyneis 2 pary zlotych nogawic: %stan%"
+        ilosc: 2
+      3:
+        id: "paladyn_quest_3_1_3"
+        type: "przynies"
+        targetName: "&7Zbroja Bandyty"
+        message: "Przynies 2 zbroje bandyty: %stan%"
+        ilosc: 2
+      4:
+        id: "paladyn_quest_3_1_4"
+        type: "przynies"
+        targetName: "&cKusza bandyty"
+        message: "Przynies 1 bandycka kusze: %stan%"
+        ilosc: 1
+      5:
+        id: "paladyn_quest_3_1_5"
+        type: "przynies"
+        targetName: "&cPalasz bandytow"
+        message: "Przynies 2 palasze bandytow: %stan%"
+        ilosc: 2
+      6:
+        id: "paladyn_quest_3_1_6"
+        type: "przynies"
+        targetName: "&7Stary Topor"
+        message: "Przynies 2 stare topory: %stan%"
+        ilosc: 2
+      7:
+        id: "paladyn_quest_3_1_7"
+        type: "przynies"
+        targetName: "&aLuk kompozytowy"
+        message: "Przynies 3 luki kompozytowe: %stan%"
+        ilosc: 3
+      8:
+        id: "paladyn_quest_3_1_8"
+        type: "przynies"
+        targetName: "&rSztylet"
+        message: "Przynies 3 sztylety: %stan%"
+        ilosc: 3

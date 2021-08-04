@@ -1,0 +1,42 @@
+id: "fabula_quest_4"                                
+name: "&1Przebudzenie budowniczych"                          
+zleceniodawca: "&1Saturas"                       
+lore:                                               
+  - "&aDo tej pory udalo nam sie ustalic,"
+  - "&aze budowniczowie przebudzili sie calkiem niedawno."
+  - "&aMialo to miejsce na okolo trzy miesiace"
+  - "&aprzed wyslaniem listu Geddona do krola."
+  - "&aPrzeszukalem juz tak wiele,"
+  - "&alecz sekret tego, dlaczego sie przebudzili"
+  - "&aoraz jak ich odwolac ze swiata zyjacych"
+  - "&apozostaje nadal zagadka."
+  - "&aPrzynies mi wszystko co znajdziesz - doslownie wszystko"
+  - "&amoze zawierac odpowiedz na nasze pytania."
+prize:                                    
+  - "xp: 3000"
+require:                                            
+  - "quest: fabula_quest_3"
+  - "level: 15"
+stopnie:
+  1:
+    talking: true
+    message: "&1Saturas&7: &aNo dobra, zobaczmy, co mi sie uda z tego wyczytac..."    
+    targets:
+      1:
+        id: "fabula_quest_4_1_1"
+        type: "przynies"
+        targetName: "&eSerce mumii"
+        message: "Przynies 20 serc mumii: %stan%"
+        ilosc: 20
+      2:
+        id: "fabula_quest_4_1_2"
+        type: "przynies"
+        targetName: "&ePustynny piach"
+        message: "Przynies 50 porcji pustynnego piachu: %stan%"
+        ilosc: 50
+      3:
+        id: "fabula_quest_4_1_3"
+        type: "przynies"
+        targetName: "&rPisma budowniczych"
+        message: "Przynies 30 pism budowniczych: %stan%"
+        ilosc: 30

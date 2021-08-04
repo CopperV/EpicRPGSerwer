@@ -1,0 +1,113 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+
+EnderSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &9&oStoisz wlasnie przed prawdziwym magiem pustki. Okaz szacunek."} @PlayersInRadius{r=25}
+
+EnderSkill1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=100} @self
+  - message{m="<mob.name><&co> &9&oTwoj umysl jest slaby. Wlasciwie, juz go nie ma..."} @PlayersInRadius{r=25}
+  - delay 40
+  - blackscreen{d=14} @PIR{r=20}
+  - summon{type=EnderSummon;amount=4;radius=3;itt=true} @self
+  - teleport{spreadh=3;spreadv=0} @self
+  - sound{s=entity.endermen.hurt;v=2;p=0.3} @self
+
+EnderSkill2:
+  Conditions:
+  - offgcd
+#  - mobsInRadius{types=EnderCrystal;amount=1to4;radius=100} false
+  Skills:
+  - message{m="<mob.name><&co> &9&oTo miejsce przepelnia Magia Pustki"} @PlayersInRadius{r=25}
+  - summon{type=EnderEndermite;amount=3;radius=3;itt=true} @self
+  - gcd{ticks=300} @self
+  - delay 300
+  - skill{s=EnderSkill2_Effect1}
+  - skill{s=EnderSkill2_Effect2}
+  - skill{s=EnderSkill2_Effect3}
+  - skill{s=EnderSkill2_Effect4}
+
+EnderSkill2_Effect1:
+  Conditions:
+  - mobsInRadius{types=EnderEndermite;amount=1;radius=20} true
+  - mobsInRadius{types=EnderEndermite;amount=2;radius=20} false
+  - mobsInRadius{types=EnderEndermite;amount=3;radius=20} false
+  - mobsInRadius{types=EnderEndermite;amount=4;radius=20} false
+  Skills:
+  - message{m="<mob.name><&co> &9&oSlabo..."} @PlayersInRadius{r=25}
+  - effect:particles{particle=reddust;amount=20;hS=0.3;vS=0.3;speed=0.1;y=1} @self
+  - effect:particles{particle=reddust;amount=10;hS=0.1;vS=0.1;speed=0.1;y=0.1} @MIR{r=20;t=EnderEndermite}
+  - sound{s=entity.endermen.scream;v=3;p=0.25} @self
+  - remove @MIR{r=20;t=EnderEndermite}
+  - heal{amount=3000} @self
+
+EnderSkill2_Effect2:
+  Conditions:
+  - mobsInRadius{types=EnderEndermite;amount=1;radius=20} false
+  - mobsInRadius{types=EnderEndermite;amount=2;radius=20} true
+  - mobsInRadius{types=EnderEndermite;amount=3;radius=20} false
+  - mobsInRadius{types=EnderEndermite;amount=4;radius=20} false
+  Skills:
+  - message{m="<mob.name><&co> &9&oWalczysz ze mna, a szczurom nawet oporu nie potrafisz stawic!"} @PlayersInRadius{r=25}
+  - effect:particles{particle=reddust;amount=20;hS=0.3;vS=0.3;speed=0.1;y=1} @self
+  - effect:particles{particle=reddust;amount=10;hS=0.1;vS=0.1;speed=0.1;y=0.1} @MIR{r=20;t=EnderEndermite}
+  - sound{s=entity.endermen.scream;v=3;p=0.25} @self
+  - remove @MIR{r=20;t=EnderEndermite}
+  - heal{amount=6000} @self
+
+EnderSkill2_Effect3:
+  Conditions:
+  - mobsInRadius{types=EnderEndermite;amount=1;radius=20} false
+  - mobsInRadius{types=EnderEndermite;amount=2;radius=20} false
+  - mobsInRadius{types=EnderEndermite;amount=3;radius=20} true
+  - mobsInRadius{types=EnderEndermite;amount=4;radius=20} false
+  Skills:
+  - message{m="<mob.name><&co> &9&oTaki wojownik a nawet szczurow wytepic nie umie..."} @PlayersInRadius{r=25}
+  - effect:particles{particle=reddust;amount=20;hS=0.3;vS=0.3;speed=0.1;y=1} @self
+  - effect:particles{particle=reddust;amount=10;hS=0.1;vS=0.1;speed=0.1;y=0.1} @MIR{r=20;t=EnderEndermite}
+  - sound{s=entity.endermen.scream;v=3;p=0.25} @self
+  - remove @MIR{r=20;t=EnderEndermite}
+  - heal{amount=9000} @self
+
+EnderSkill2_Effect4:
+  Conditions:
+  - mobsInRadius{types=EnderEndermite;amount=1;radius=20} false
+  - mobsInRadius{types=EnderEndermite;amount=2;radius=20} false
+  - mobsInRadius{types=EnderEndermite;amount=3;radius=20} false
+  - mobsInRadius{types=EnderEndermite;amount=4;radius=20} true
+  Skills:
+  - message{m="<mob.name><&co> &9&oPrzynosisz hanbe swoim ludziom!"} @PlayersInRadius{r=25}
+  - effect:particles{particle=reddust;amount=20;hS=0.3;vS=0.3;speed=0.1;y=1} @self
+  - effect:particles{particle=reddust;amount=10;hS=0.1;vS=0.1;speed=0.1;y=0.1} @MIR{r=20;t=EnderEndermite}
+  - sound{s=entity.endermen.scream;v=3;p=0.25} @self
+  - remove @MIR{r=20;t=EnderEndermite}
+  - heal{amount=12000} @self
+
+EnderSkill3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=160} @self
+  - message{m="<mob.name><&co> &9&oTa Moc... Pochlonie... Was wszystkich!"} @PlayersInRadius{r=25}
+  - stun{d=39} @self
+  - delay 40
+  - effect:particles{particle=largesmoke;amount=20;hS=0.45;vS=0.45;speed=0.15;y=0.5} @self
+  - sound{s=entity.generic.extinguish_fire;v=2;p=0.2} @self
+  - potion{type=SPEED;duration=60;level=2} @self
+  - Aura{auraName=EnderSkill3_Attack;duration=60} @self
+
+
+EnderSkill3_AttackEffect:
+  Conditions:
+  - hasaura EnderSkill3_Attack true
+  Skills:
+  - potion{type=BLINDNESS;duration=140;level=2}
+  - potion{type=CONFUSION;duration=140;level=2}
+  - potion{type=WITHER;duration=140;level=2}
+  - potion{type=HUNGER;duration=140;level=2}
+  - sound{s=entity.generic.explode;v=2;p=1.5} @self

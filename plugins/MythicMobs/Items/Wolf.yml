@@ -1,0 +1,77 @@
+Skora_Wilka:
+  Id: 334
+  Display: '&rSkora Wilka'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Kly_Wilka:
+  Id: 410
+  Display: '&3Kly Wilka'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Wilczy_Kiel_Zr:
+  Id: 272
+  Display: '&7Wilczy Kiel'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &720'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Zrecznosc: &7+5'
+  - '&4- &8Sila: &7-1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c36'
+  Options:
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      MovementSpeed: 0.02
+Wilczy_Kiel_Zd:
+  Id: 272
+  Display: '&7Wilczy Kiel'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &716'
+  - '&4- &8Zrecznosc: &7+1'
+  - '&4- &8Zdolnosci mysliwskie: &7+3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c27'
+  Options:
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      MovementSpeed: 0.03
+Kiel_Zr:
+  Id: 272
+  Display: '&7&lKiel'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &729'
+  - '&4- &8Zrecznosc: &7+6'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Zdolnosci mysliwskie: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c53'
+  Options:
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      MovementSpeed: 0.04

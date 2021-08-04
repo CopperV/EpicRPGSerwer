@@ -1,0 +1,35 @@
+name: "&3&lRiordian"
+title: "&3&lRiordian - quester"
+size: 18
+slots:
+  1:
+    item: "p_quest_32"
+  2:
+    item: "p_quest_33"
+  3:
+    item: "p_quest_36"
+  8:
+    item: "Inteligencja1"
+    max: 140
+    wymagania:
+      - "quest: p_quest_32"
+  9:
+    item: "Inteligencja5"
+    max: 140
+    wymagania:
+      - "quest: p_quest_32"
+  16:
+    item: "skill_arrows"
+    wymagania:
+      - "quest: p_quest_33"
+      - "klasa: &2Mysliwy"
+  17:
+    item: "skill_manareg"
+    wymagania:
+      - "quest: p_quest_33"
+      - "klasa: &5Mag"
+  18:
+    item: "skill_hungerless"
+    wymagania:
+      - "quest: p_quest_33"
+      - "klasa: &cWojownik"

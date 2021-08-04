@@ -1,0 +1,32 @@
+id: "6_quest_8"                                
+name: "&8&lMroczne pieczecie"                          
+zleceniodawca: "&3&lSteve"                       
+lore:                                               
+  - "&aNull dowiedzial sie, co zamierzamy"
+  - "&ai wyslal tutaj najlepszych swoich zolnierzy."
+  - "&aMaja przy sobie cos ciekawego - mroczna pieczec."
+  - "&aIch moc nie jest jeszcze okielznana - badamy ja."
+  - "&aJestesmy chetni je wymienic na gemy."
+  - "&aPozyskanie ich jest dosyc ciezkie."
+  - "&aZazwyczaj po smierci posiadacza"
+  - "&apieczecie znikaja, wyparowuja."
+  - "&aNa poczatek przynies mi jedna taka."
+prize:                                    
+  - "xp: 150000"
+  - "money: 15000"
+  - "item: Gem_KnockBack1"
+  - "bc: &7[&b&lEpicRPG&7] &aGracz &7%player% &aukonczyl watek &3&lNowa Era - Nowy Swiat&a. &6&lGRATULACJE!"
+  - "cmd: rta add %player% 16"
+require:                                            
+  - "level: 55"
+  - "quest: 6_quest_7"
+stopnie:
+  1:
+    talking: false                 
+    targets:
+      1:
+        id: "6_quest_8_1_1"                     
+        type: "przynies"       
+        targetName: "&8&oMroczna pieczec"
+        message: "Przynies Mroczna Pieczec: %stan%"
+        ilosc: 1

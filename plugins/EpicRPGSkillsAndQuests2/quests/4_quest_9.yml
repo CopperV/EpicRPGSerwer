@@ -1,0 +1,30 @@
+id: "4_quest_9"                                
+name: "&aTrofea mysliwskie I"                          
+zleceniodawca: "&eHassan"                       
+lore:                                               
+  - "&aPora troche Ciebie zmotywowac do polowania na wargi."
+  - "&aTrofea tych psiowatych sa sporo warte na rynku."
+  - "&aInnymi slowy zadanie masz takie:"
+  - "&aprzyniesiesz troche ich trofeow, a ja Ci za nie zaplace."
+prize:                                    
+  - "xp: 5150"
+  - "money: 350"
+require:                                            
+  - "level: 33"
+  - "quest: 4_quest_5"
+stopnie:
+  1:
+    talking: true          
+    targets:
+      1:
+        id: "4_quest_9_1_1"                     
+        type: "przynies"       
+        targetName: "&cSkora warga"                      
+        message: "Przynies 23 skor warga: %stan%"
+        ilosc: 23
+      2:
+        id: "4_quest_9_1_2"                     
+        type: "przynies"       
+        targetName: "&cKiel warga"                      
+        message: "Przynies 17 klow warga: %stan%"
+        ilosc: 17

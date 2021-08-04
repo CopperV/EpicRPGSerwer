@@ -1,0 +1,58 @@
+id: "1_quest_6"                                
+name: "&7Zapasy broni"                          
+zleceniodawca: "&8&lRangar"                       
+lore:                                               
+  - "&aObecnie bandyci sa uzbrojeni po zeby."
+  - "&aPrzydalo by nam sie troche ich arsenalu."
+  - "&aPrzynies go nam troche."
+prize:                                    
+  - "xp: 1060"
+require:                                            
+  - "level: 8"
+  - "quest: 1_quest_5"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "1_quest_6_1_1"
+        type: "przynies"
+        targetName: "&aProsty luk"
+        message: "przynies 3 proste luki: %stan%"
+        ilosc: 3
+      2:
+        id: "1_quest_6_1_2"
+        type: "przynies"
+        targetName: "&7Scyzoryk"
+        message: "przynies 4 scyzoryki kieszonkowcow: %stan%"
+        ilosc: 4
+      3:
+        id: "1_quest_6_1_3"
+        type: "przynies"
+        targetName: "&rSztylet"
+        message: "przynies 2 sztylety: %stan%"
+        ilosc: 2
+      4:
+        id: "1_quest_6_1_4"
+        type: "przynies"
+        targetName: "&aLuk kompozytowy"
+        message: "przynies 1 luk kompozytowy: %stan%"
+        ilosc: 1
+      5:
+        id: "1_quest_6_1_5"
+        type: "przynies"
+        targetName: "&7Stary Topor"
+        message: "przynies 2 stare topory: %stan%"
+        ilosc: 2
+      6:
+        id: "1_quest_6_1_6"
+        type: "przynies"
+        targetName: "&cPalasz bandytow"
+        message: "przynies 1 palasz bandytow: %stan%"
+        ilosc: 1
+      7:
+        id: "1_quest_6_1_7"
+        type: "przynies"
+        targetName: "&cKusza bandyty"
+        message: "przynies 1 kusze bandyty: %stan%"
+        ilosc: 1

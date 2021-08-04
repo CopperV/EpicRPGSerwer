@@ -1,0 +1,35 @@
+id: "paladyn_quest_15"                                
+name: "&8Artefakty pustki"                          
+zleceniodawca: "&3&lSteve"                       
+lore:                                               
+  - "&aJezdzcy Nulla maja przy sobie"
+  - "&awiele ciekawych rzeczy,"
+  - "&aa sami sa wrecz przepelnieni magia pustki."
+  - "&aPrawda jest taka, ze do tej pory nie wiemy"
+  - "&aza wiele o tej magii."
+  - "&aArtefakty zdobyte z tych jezdzcow"
+  - "&amoglyby nam pomoc nieco lepiej zrozumiec"
+  - "&anature oraz zrodlo ich mocy."
+prize:                                    
+  - "xp: 53000"
+  - "money: 500"
+require:                                            
+  - "level: 54"
+  - "klasa: &cWojownik"
+  - "quest: paladyn_quest_14"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "paladyn_quest_15_1_1"
+        type: "przynies"
+        targetName: "&7&oGlowa jezdzca"
+        message: "Przynies 15 glow jezdzca: %stan%"
+        ilosc: 15
+      2:
+        id: "paladyn_quest_15_1_2"
+        type: "przynies"
+        targetName: "&8&lPierscien Morgulu"
+        message: "Przynies 5 pierscieni Morgulu: %stan%"
+        ilosc: 5

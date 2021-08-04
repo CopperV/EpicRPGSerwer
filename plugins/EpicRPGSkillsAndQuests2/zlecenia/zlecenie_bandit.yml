@@ -1,0 +1,115 @@
+id: "zlecenie_bandit"                                
+name: "&e&oReka sprawiedliwosci"
+zleceniodawca: "&8&lRangar"                       
+lore:                                               
+  - "&aUdalo Ci sie pokonac bandytow,"
+  - "&aale do przywrocenia spokoju w tym"
+  - "&alesie, na tym trakcie czeka nas"
+  - "&adluga i wyboista droga."
+  - "&aSamemu moze mi sie nie udac."
+  - "&aMam nadzieje, ze mi pomozesz."
+  - "&aCzeka Ciebie sowita nagroda"
+prize:                                    
+  - "xp: 730"
+  - "money: 110"
+require:                                            
+  - "level: 10"
+  - "quest: 1_quest_8"
+etapy: 3
+stopnie:
+  1:
+    targets:
+      1:
+        id: "zlecenie_bandit_1_1"
+        type: "zabij"
+        targetName: "&c&lHerszt Bandytow - BOSS"
+        message: "Zabij kolejnego herszta bandytow: %stan%"
+        ilosc: 1
+  2:
+    targets:
+      1:
+        id: "zlecenie_bandit_2_1"
+        type: "zabij"
+        targetName: "&cRabus"
+        message: "Zabij 40 rabusiow: %stan%"
+        ilosc: 40
+  3:
+    targets:
+      1:
+        id: "zlecenie_bandit_3_1"
+        type: "zabij"
+        targetName: "&cRabus"
+        message: "Zabij 25 rabusiow: %stan%"
+        ilosc: 25
+      2:
+        id: "zlecenie_bandit_3_2"
+        type: "zabij"
+        targetName: "&cKieszonkowiec"
+        message: "Zabij 15 kieszonkowcow: %stan%"
+        ilosc: 15
+  4:
+    targets:
+      1:
+        id: "zlecenie_bandit_4_1"
+        type: "zabij"
+        targetName: "&cKieszonkowiec"
+        message: "Zabij 30 kieszonkowcow: %stan%"
+        ilosc: 30
+  5:
+    targets:
+      1:
+        id: "zlecenie_bandit_5_1"
+        type: "zabij"
+        targetName: "&4Bandyta"
+        message: "Zabij 20 bandytow: %stan%"
+        ilosc: 20
+  6:
+    targets:
+      1:
+        id: "zlecenie_bandit_6_1"
+        type: "zabij"
+        targetName: "&4Bandzior Ortegi"
+        message: "Zabij 10 bandziorow Ortegi: %stan%"
+        ilosc: 10
+  7:
+    targets:
+      1:
+        id: "zlecenie_bandit_7_1"
+        type: "zabij"
+        targetName: "&cRabus"
+        message: "Zabij 15 Rabusiow: %stan%"
+        ilosc: 15
+      2:
+        id: "zlecenie_bandit_7_2"
+        type: "zabij"
+        targetName: "&cKieszonkowiec"
+        message: "Zabij 15 kieszonkowcow: %stan%"
+        ilosc: 15
+      3:
+        id: "zlecenie_bandit_7_3"
+        type: "zabij"
+        targetName: "&4Bandyta"
+        message: "Zabij 8 bandytow: %stan%"
+        ilosc: 8
+  8:
+    targets:
+      1:
+        id: "zlecenie_bandit_8_1"
+        type: "przynies"
+        targetName: "&6Zloto"
+        message: "Przynies 30 sztabek bandyckiego zlota: %stan%"
+        ilosc: 30
+  9:
+    targets:
+      1:
+        id: "zlecenie_bandit_9_1"
+        type: "przynies"
+        targetName: "&6Zloto"
+        message: "Przynies 15 sztabek bandyckiego zlota: %stan%"
+        ilosc: 15
+      2:
+        id: "zlecenie_bandit_9_2"
+        type: "zabij"
+        targetName: "&cKieszonkowiec"
+        message: "Zabij 20 kieszonkowcow: %stan%"
+        ilosc: 20

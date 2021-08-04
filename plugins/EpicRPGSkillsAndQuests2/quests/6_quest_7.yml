@@ -1,0 +1,35 @@
+id: "6_quest_7"                                
+name: "&8&oZolnierze pustki"                          
+zleceniodawca: "&3&lSteve"                       
+lore:                                               
+  - "&aOsadnicy wyzwoleni z klatwy."
+  - "&aPotrzeba sie zajac jeszcze jezdzcami."
+  - "&aNull osobiscie postaral sie o zabezpieczenie miasta."
+  - "&aWyslal tam caly pluton swoich jezdzcow."
+  - "&aTrzeba sie ich pozbyc, jezeli zamierzamy Nulla"
+  - "&azaatakowac z zaskoczenia."
+  - "&aRuszaj!"
+  - "&aNie mamy czasu do stracenia"
+prize:                                    
+  - "xp: 120000"
+require:                                            
+  - "level: 54"
+  - "quest: 6_quest_6"
+stopnie:
+  1:
+    talking: false                 
+    targets:
+      1:
+        id: "6_quest_7_1_1"                     
+        type: "znajdz"       
+        targetName: "exp50_city"
+        message: "Udaj sie do przekletego miasta (284 ; 362): %stan%"
+  2:
+    talking: true                  
+    targets:
+      1:
+        id: "6_quest_7_2_1"                     
+        type: "zabij"       
+        targetName: "&3&oJezdziec"
+        message: "Zabij 30 jezdzcow: %stan%"
+        ilosc: 30

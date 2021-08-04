@@ -1,0 +1,73 @@
+id: "fabula_quest_5"                                
+name: "&c&lAtaki budowniczych"                          
+zleceniodawca: "&1Saturas"                       
+lore:                                               
+  - "&aOstatnimi czasy, na nasz oboz napadaja budowniczowie."
+  - "&aCos ich sprowokowalo."
+  - "&aBedzie sie trzeba tym zajac."
+  - "&aDodatkowo odkrylem w jednym z pism wzmianke"
+  - "&ao mozliwosci powrotu na ten swiat budowniczych."
+  - "&aPisze w nim, ze sekret spoczywa w grobowcu najwyzszego."
+  - "&aPowiem ci wiec, co masz zrobic."
+  - "&aNa poczatek pokonasz tych uciazliwych budowniczych."
+  - "&aNastepnie odnajdziesz ten grobowiec."
+  - "&aPodejrzewam, ze jest on gdzies tutaj na pustyni."
+prize:                                    
+  - "xp: 4000"
+require:                                            
+  - "quest: fabula_quest_4"
+  - "level: 19"
+stopnie:
+  1:
+    talking: false
+    message: "&r%player%&7: &bNo dobra, to teraz pora odnalezc ten grobowiec... Gdziez on moze byc?"    
+    targets:
+      1:
+        id: "fabula_quest_5_1_1"
+        type: "zabij"
+        targetName: "&6Architekt budowniczych"
+        message: "Pokonaj 25 architektow budowniczych: %stan%"
+        ilosc: 25
+      2:
+        id: "fabula_quest_5_1_2"
+        type: "zabij"
+        targetName: "&6Wojownik budowniczych"
+        message: "Pokonaj 25 wojownikow budowniczych: %stan%"
+        ilosc: 25
+      3:
+        id: "fabula_quest_5_1_3"
+        type: "zabij"
+        targetName: "&6Strzelec budowniczych"
+        message: "Pokonaj 25 strzelcow budowniczych: %stan%"
+        ilosc: 25
+  2:
+    talking: false
+    message: "&r%player%&7: &bWydaje mi sie, ze ten ogromny budynek posrodku ruin budowniczych to grobowiec, o ktorym mowil &1Saturas&a. Trzeba mu o tym powiedziec."
+    targets:
+      1:
+        id: "fabula_quest_5_2_1"
+        type: "znajdz"
+        targetName: "ruiny_budowniczych"
+        message: "Odnajdz na pustyni grobowiec najwyzszego (-257;309): %stan%"
+  3:
+    talking: false
+    targets:
+      1:
+        id: "fabula_quest_5_3_1"
+        type: "zagadaj"
+        targetName: "&1Saturas"
+        message: "Porozmawiaj o odkryciu grobowca z &1Saturasem: %stan%"
+        dialog:
+          - "&r%player%&7: &bZdaje sie, ze ogromna budowla w centrum ruin budowniczych to grobowiec najwyzszego."
+          - "&r%player%&7: &bRoi sie tam od mumii."
+          - "&1Saturas&7: &aTo ciekawe..."
+          - "&1Saturas&7: &aPozwolisz, ze wykorzystam ciebie do jeszcze jednej rzeczy. Potrzebuje troche serc mumii do dalszych badan."
+  4:
+    talking: true
+    targets:
+      1:
+        id: "fabula_quest_5_4_1"
+        type: "przynies"
+        targetName: "&eSerce mumii"
+        message: "Przynies 15 serc mumii: %stan%"
+        ilosc: 15

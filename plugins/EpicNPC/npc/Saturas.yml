@@ -1,0 +1,15 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&1Saturas"
+  - "&7[&9&lMistrz Wody&7]"
+skinid: 1455228356
+location:
+  world: "F_RPG"
+  x: -11.0
+  y: 37.0
+  z: 557
+  yaw: -96.5
+  pitch: 1.5
+lookat: true

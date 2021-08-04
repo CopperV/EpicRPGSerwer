@@ -1,0 +1,30 @@
+id: "paladyn_quest_16"                                
+name: "&8&lJezdziec pustki"                          
+zleceniodawca: "&3&lSteve"                       
+lore:                                               
+  - "&aWszyscy jezdzcy w miescie"
+  - "&asa pod bezposrednimi rozkazami"
+  - "&ainnego jezdzca,"
+  - "&aktory potrafi korzystac z magii pustki."
+  - "&aNalezy go zneutralizowac"
+  - "&ajezeli chcemy odbic miasto."
+prize:                                    
+  - "xp: 75000"
+  - "money: 2500"
+  - "cmd: crazycrates give physical Rzadka 2 %player%"
+  - "bc: &7[&b&lEpicRPG&7] &aGracz &7%player% &aukonczyl watek &8&oWojownicy pustki&a. &6&lGRATULACJE!"
+  - "item: Gem_Wojownik"
+require:                                            
+  - "level: 55"
+  - "klasa: &cWojownik"
+  - "quest: paladyn_quest_15"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "paladyn_quest_16_1_1"
+        type: "zabij"
+        targetName: "&8&lJezdziec Pustki - BOSS"
+        message: "Odnajdz w miescie jezdzca pustki i go pokonaj: %stan%"
+        ilosc: 1

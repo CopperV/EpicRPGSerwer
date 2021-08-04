@@ -1,0 +1,53 @@
+id: "paladyn_quest_7"
+name: "&bOrkowie do bitki"
+zleceniodawca: "&4&lDargoth"
+lore:
+  - "&aSlyszalem, co zrobiles w porcie."
+  - "&aStales sie postrachem piratow..."
+  - "&aW zwiazku z tym mam dla Ciebie"
+  - "&aniezwykle odpowiedzialne zadanie."
+  - "&aJeden Bog wie skad orkowie nagle"
+  - "&aznalezli sie na naszej wyspie."
+  - "&aSa niezwykle agresywni i gotowi"
+  - "&ado kazdej bitki."
+  - "&aMysle, ze dla takiego wojownika jak ty"
+  - "&ato bedzie idealne wyzwanie."
+  - "&aUdaj sie do &6&lRhobara&a,"
+  - "&aon Ci wszystko wytlumaczy."
+prize:
+  - "xp: 1000"
+require:
+  - "level: 35"
+  - "klasa: &cWojownik"
+  - "quest: paladyn_quest_6"
+  - "quest: pirat_quest_5"
+stopnie:
+  1:
+    talking: false
+    targets:
+      1:
+        id: "paladyn_quest_7_1_1"
+        type: "zagadaj"
+        targetName: "&6&lRhobar"
+        message: "Udaj sie na rozmowe do &6&lRhobara: %stan%"
+        dialog:
+          - "%player%&7: &aPrzysyla mnie &4&lDargoth &a..."
+          - "&6&lRhobar&7: &aNie musisz juz nic wiecej mowic."
+          - "&6&lRhobar&7: &aUdaj sie do &4Rega&a."
+          - "&6&lRhobar&7: &aTo wlasnie jemu powierzylem dowodztwo w sprawie orkow."
+  2:
+    talking: false
+    targets:
+      1:
+        id: "paladyn_quest_7_2_1"
+        type: "zagadaj"
+        targetName: "&4Reg"
+        message: "Porozmawiaj z &4Regiem: %stan%"
+        dialog:
+          - "&4Reg&7: &aOoo, ty pewnie jestes &r%player% &a- pogromca piratow."
+          - "&4Reg&7: &aDostalem juz wiadomosc od naszego wladcy i twojego przelozonego."
+          - "&4Reg&7: &aMamy za zadanie zapolowac na prawdziwa orkowa szyche."
+          - "&4Reg&7: &aUkryl sie ten lajdak na pobliskiej wyspie, a my nie mamy zadnego okretu."
+          - "&4Reg&7: &aDodatkowo w porcie tocza sie obecnie walki."
+          - "&4Reg&7: &aBedzie ciezko go dorwac."
+          - "&4Reg&7: &aKto ma to zrobic jak nie my?"

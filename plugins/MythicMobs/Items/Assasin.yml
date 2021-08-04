@@ -1,0 +1,1258 @@
+Zbroja_Assasyna_Zr:
+  Id: 299
+  Display: '&cZbroja assasyna'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &725'
+  - '&4- &8Zrecznosc: &7+10'
+  - '&4- &8Walka: &7+7'
+  - '&4- &8Sila: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c164'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 8
+      MovementSpeed: 0.07
+Zbroja_Assasyna_Zd:
+  Id: 299
+  Display: '&cZbroja assasyna'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &727'
+  - '&4- &8Zrecznosc: &7+4'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Zdolnosci mysliwskie: &7+6'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c160'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 8
+      MovementSpeed: 0.06
+Zbroja_Assasyna_Wytrz:
+  Id: 299
+  Display: '&cZbroja assasyna'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &740'
+  - '&4- &8Zrecznosc: &7+4'
+  - '&4- &8Zdolnosci mysliwskie: &7+3'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Sila: &7-1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c169'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 10
+      MovementSpeed: 0.02
+Spodnica_Mordercy_Zr:
+  Id: 300
+  Display: '&4Spodnica mordercy'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &726'
+  - '&4- &8Walka: &7+9'
+  - '&4- &8Zrecznosc: &7+3'
+  - '&4- &8Inteligencja: &7-2'
+  - '&4- &8Sila: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c163'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      Health: 6
+      MovementSpeed: 0.08
+Spodnica_Mordercy_Zd:
+  Id: 300
+  Display: '&4Spodnica mordercy'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &728'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Zrecznosc: &7+2'
+  - '&4- &8Zdolnosci mysliwskie: &7+6'
+  - '&4- &8Inteligencja: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c157'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      Health: 6
+      MovementSpeed: 0.07
+Spodnica_Mordercy_Wytrz:
+  Id: 300
+  Display: '&4Spodnica mordercy'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &738'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Zrecznosc: &7+3'
+  - '&4- &8Zdolnosci mysliwskie: &7+2'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Inteligencja: &7-3'
+  - '&4- &8Sila: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c165'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      Health: 8
+      MovementSpeed: 0.03
+Luk_Assasyna_Zd:
+  Id: 261
+  Display: '&cLuk assasyna'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &750'
+  - '&4- &8Zrecznosc: &7+1'
+  - '&4- &8Walka: &7+7'
+  - '&4- &8Zdolnosci mysliwskie: &7+5'
+  - '&4- &8Wytrzymalosc: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c161'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.05
+    offhand:
+      MovementSpeed: 0.02
+Toga_Assasyna_Str:
+  Id: 304
+  Display: '&7Toga assasyna'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &734'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Zrecznosc: &7+3'
+  - '&4- &8Sila: &7+4'
+  - '&4- &8Zdolnosci mysliwskie: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c159'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      Health: 5
+      MovementSpeed: 0.02
+      KnockbackResistance: 0.01
+Toga_Assasyna_Wytrz:
+  Id: 304
+  Display: '&7Toga assasyna'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &742'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Zrecznosc: &7+5'
+  - '&4- &8Sila: &7+3'
+  - '&4- &8Wytrzymalosc: &7+4'
+  - '&4- &8Zdolnosci mysliwskie: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c168'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      Health: 7
+      MovementSpeed: 0.01
+      KnockbackResistance: 0.03
+Sandaly_Pustynne_Zr:
+  Id: 301
+  Display: '&eSandaly pustynne'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &718'
+  - '&4- &8Zrecznosc: &7+10'
+  - '&4- &8Walka: &7+7'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c162'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      MovementSpeed: 0.1
+Sandaly_Pustynne_Wytrz:
+  Id: 301
+  Display: '&eSandaly pustynne'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &731'
+  - '&4- &8Zrecznosc: &7+6'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Wytrzymalosc: &7+3'
+  - '&4- &8Zdolnosci mysliwskie: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c166'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 1
+      MovementSpeed: 0.02
+      KnockbackResistance: 0.02
+Sandaly_Pustynne_Str:
+  Id: 301
+  Display: '&eSandaly pustynne'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &722'
+  - '&4- &8Zrecznosc: &7+3'
+  - '&4- &8Walka: &7+7'
+  - '&4- &8Sila: &7+3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c157'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 1
+      MovementSpeed: 0.01
+Sandaly_Pustynne_Mana:
+  Id: 301
+  Display: '&eSandaly pustynne'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &715'
+  - '&4- &8Zrecznosc: &7+3'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Mana: &7+15'
+  - '&4- &8Inteligencja: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c308'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 4
+      MovementSpeed: 0.04
+Sandaly_Pustynne_Int:
+  Id: 301
+  Display: '&eSandaly pustynne'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &717'
+  - '&4- &8Zrecznosc: &7+2'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Mana: &7+5'
+  - '&4- &8Inteligencja: &7+5'
+  - '&4- &8Zdolnosci mysliwskie: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c159'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 4
+      MovementSpeed: 0.04
+Assasynska_Wlocznia_Zr:
+  Id: 292
+  Display: '&cAssasynska wlocznia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &746'
+  - '&4- &8Walka: &7+9'
+  - '&4- &8Zrecznosc: &7+5'
+  - '&4- &8Zdolnosci mysliwskie: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c166'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.06
+    offhand:
+      MovementSpeed: 0.06
+Assasynska_Wlocznia_Str:
+  Id: 292
+  Display: '&cAssasynska wlocznia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &749'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Sila: &7+1'
+  - '&4- &8Zrecznosc: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c157'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.01
+Assasynska_Wlocznia_Wytrz:
+  Id: 292
+  Display: '&cAssasynska wlocznia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &732'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Zrecznosc: &7+3'
+  - '&4- &8Wytrzymalosc: &7+3'
+  - '&4- &8Zdolnosci mysliwskie: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c152'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.05
+Assasynska_Wlocznia_Zd:
+  Id: 292
+  Display: '&cAssasynska wlocznia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &741'
+  - '&4- &8Walka: &7+7'
+  - '&4- &8Zrecznosc: &7+2'
+  - '&4- &8Zdolnosci mysliwskie: &7+6'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c164'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.05
+Buty_Czarnego_Maga_Mana:
+  Id: 305
+  Display: '&0Buty czarnego maga'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &722'
+  - '&4- &8Mana: &7+24'
+  - '&4- &8Inteligencja: &7-5'
+  - '&4- &8Walka: &7-1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c347'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      MovementSpeed: -0.03
+      Health: 5
+Buty_Czarnego_Maga_Int:
+  Id: 305
+  Display: '&0Buty czarnego maga'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &724'
+  - '&4- &8Mana: &7-8'
+  - '&4- &8Inteligencja: &7+11'
+  - '&4- &8Zrecznosc: &7-1'
+  - '&4- &8Sila: &7-1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c179'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      MovementSpeed: -0.04
+      Health: 6
+Zbroja_Assasyna2_Str:
+  Id: 303
+  Display: '&7Zbroja assasyna'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &735'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Sila: &7+4'
+  - '&4- &8Wytrzymalosc: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c172'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 9
+      MovementSpeed: -0.05
+      KnockbackResistance: 0.05
+Zbroja_Assasyna2_Wytrz:
+  Id: 303
+  Display: '&7Zbroja assasyna'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &746'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Zrecznosc: &7+2'
+  - '&4- &8Wytrzymalosc: &7+6'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c183'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 11
+      MovementSpeed: -0.05
+      KnockbackResistance: 0.08
+Buty_Legionisty_Zr:
+  Id: 309
+  Display: '&7Buty legionisty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &721'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Zrecznosc: &7+6'
+  - '&4- &8Zdolnosci mysliwskie: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c166'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 6
+      MovementSpeed: 0.06
+Buty_Legionisty_Zd:
+  Id: 309
+  Display: '&7Buty legionisty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &723'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Zrecznosc: &7+3'
+  - '&4- &8Zdolnosci mysliwskie: &7+7'
+  - '&4- &8Inteligencja: &7+1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c167'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 4
+      MovementSpeed: 0.04
+Buty_Legionisty_Wytrz:
+  Id: 309
+  Display: '&7Buty legionisty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &733'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Zrecznosc: &7+2'
+  - '&4- &8Zdolnosci mysliwskie: &7+2'
+  - '&4- &8Wytrzymalosc: &7+5'
+  - '&4- &8Inteligencja: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c172'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 7
+      MovementSpeed: 0.01
+Skradziona_Zbroja_Zr:
+  Id: 315
+  Display: '&6Skradziona zbroja'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &736'
+  - '&4- &8Walka: &7+8'
+  - '&4- &8Sila: &7+1'
+  - '&4- &8Zrecznosc: &7+5'
+  - '&4- &8Mana: &7+5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c180'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 12
+      MovementSpeed: 0.08
+      KnockbackResistance: 0.03
+Skradziona_Zbroja_Wytrz:
+  Id: 315
+  Display: '&6Skradziona zbroja'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &755'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Zrecznosc: &7+4'
+  - '&4- &8Zdolnosci mysliwskie: &7+2'
+  - '&4- &8Wytrzymalosc: &7+6'
+  - '&4- &8Inteligencja: &7+1'
+  - '&4- &8Mana: &7+8'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c192'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 15
+      MovementSpeed: 0.02
+      KnockbackResistance: 0.03
+Zatrute_Ostrze_Zr:
+  Id: 267
+  Display: '&2Zatrute ostrze'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &750'
+  - '&4- &8Walka: &7+20'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c181'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.12
+      Health: -10
+Miecz_Assasyna_Zr:
+  Id: 267
+  Display: '&4Miecz assasyna'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &756'
+  - '&4- &8Zrecznosc: &7+15'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Inteligencja: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c186'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.08
+Miecz_Assasyna_Str:
+  Id: 267
+  Display: '&4Miecz assasyna'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &759'
+  - '&4- &8Zrecznosc: &7+6'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Sila: &7+6'
+  - '&4- &8Zdolnosci mysliwskie: &7+4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c188'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.02
+Pancerz_Assasyna_Wytrz:
+  Id: 303
+  Display: '&7Pancerz assasyna'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &757'
+  - '&4- &8Sila: &7+1'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Zrecznosc: &7+2'
+  - '&4- &8Wytrzymalosc: &7+8'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c191'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 12
+      MovementSpeed: 0.01
+      KnockbackResistance: 0.01
+Luk_Mordercy_Zd:
+  Id: 261
+  Display: '&4Luk mordercy'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &759'
+  - '&4- &8Walka: &7+8'
+  - '&4- &8Zrecznosc: &7+2'
+  - '&4- &8Zdolnosci mysliwskie: &7+8'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c190'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.06
+Czarna_Toga_Mana:
+  Id: 303
+  Display: '&0Czarna toga'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &732'
+  - '&4- &8Mana: &7+35'
+  - '&4- &8Inteligencja: &7-8'
+  - '&4- &8Walka: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c360'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 10
+      MovementSpeed: -0.03
+      KnockbackResistance: 0.02
+Czarna_Toga_Int:
+  Id: 303
+  Display: '&0Czarna toga'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &735'
+  - '&4- &8Mana: &7-10'
+  - '&4- &8Inteligencja: &7+15'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Sila: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c182'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 10
+      MovementSpeed: -0.03
+      KnockbackResistance: 0.02
+Kaptur_Czarnej_Magii_Mana:
+  Id: 302
+  Display: '&5Kaptur czarnej magii'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &723'
+  - '&4- &8Mana: &7+20'
+  - '&4- &8Inteligencja: &7+6'
+  - '&4- &8Walka: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c342'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 8
+      KnockbackResistance: 0.01
+      MovementSpeed: 0.04
+Wzmocniona_Wlocznia_Assasyna_Zr:
+  Id: 293
+  Display: '&bWzmocniona wlocznia assasyna'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &760'
+  - '&4- &8Walka: &7+11'
+  - '&4- &8Zrecznosc: &7+3'
+  - '&4- &8Zdolnosci mysliwskie: &7+1'
+  - '&4- &8Wytrzymalosc: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c189'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.09
+    offhand:
+      MovementSpeed: 0.09
+Wzmocniona_Wlocznia_Assasyna_Str:
+  Id: 293
+  Display: '&bWzmocniona wlocznia assasyna'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &765'
+  - '&4- &8Walka: &7+9'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Wytrzymalosc: &7-1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c188'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.04
+Kusza_Mordercy_Str:
+  Id: 261
+  Display: '&4Kusza mordercy'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &759'
+  - '&4- &8Zrecznosc: &7+3'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Sila: &7+3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c193'
+  Options:
+    Unbreakable: true
+Zdobione_Nogawice_Str:
+  Id: 312
+  Display: '&b&lZdobione nogawice'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &744'
+  - '&4- &8Zrecznosc: &7+3'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Sila: &7+7'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c197'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      Health: 11
+      MovementSpeed: 0.01
+      KnockbackResistance: 0.01
+Zdobione_Nogawice_Zr:
+  Id: 312
+  Display: '&b&lZdobione nogawice'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &737'
+  - '&4- &8Zrecznosc: &7+10'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Zdolnosci mysliwskie: &7+3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c206'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      Health: 8
+      MovementSpeed: 0.15
+Zdobione_Nogawice_Wytrz:
+  Id: 312
+  Display: '&b&lZdobione nogawice'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &757'
+  - '&4- &8Zrecznosc: &7+5'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Wytrzymalosc: &7+8'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c202'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      KnockbackResistance: 0.04
+      Health: 15
+      MovementSpeed: 0.06
+Egzekutor_Str:
+  Id: 293
+  Display: '&c&lEgzekutor'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &775'
+  - '&4- &8Walka: &7+15'
+  - '&4- &8Zrecznosc: &7+5'
+  - '&4- &8Sila: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c198'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.05
+Zabojca_Niewinnych_Zd:
+  Id: 261
+  Display: '&4&lZabojca niewinnych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &780'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Zrecznosc: &7+6'
+  - '&4- &8Zdolnosci mysliwskie: &7+14'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c206'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.08
+Buty_Pielgrzyma_Zr:
+  Id: 313
+  Display: '&aButy pielgrzyma'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &736'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Zrecznosc: &7+10'
+  - '&4- &8Zdolnosci mysliwskie: &7+3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c202'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 8
+      KnockbackResistance: 0.01
+      MovementSpeed: 0.12
+Buty_Pielgrzyma_Zd:
+  Id: 313
+  Display: '&aButy pielgrzyma'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &736'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Zrecznosc: &7+4'
+  - '&4- &8Zdolnosci mysliwskie: &7+9'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c199'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 8
+      KnockbackResistance: 0.01
+      MovementSpeed: 0.1
+Buty_Pielgrzyma_Wytrz:
+  Id: 313
+  Display: '&aButy pielgrzyma'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &755'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Sila: &7+3'
+  - '&4- &8Zrecznosc: &7+3'
+  - '&4- &8Zdolnosci mysliwskie: &7+3'
+  - '&4- &8Wytrzymalosc: &7+9'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c210'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 15
+      MovementSpeed: 0.01
+      KnockbackResistance: 0.03
+Buty_Pielgrzyma_Mana:
+  Id: 313
+  Display: '&aButy pielgrzyma'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &732'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Zdolnosci mysliwskie: &7+4'
+  - '&4- &8Mana: &7+20'
+  - '&4- &8Inteligencja: &7+4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c387'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 18
+      MovementSpeed: 0.05
+Buty_Pielgrzyma_Int:
+  Id: 313
+  Display: '&aButy pielgrzyma'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &734'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Zrecznosc: &7+3'
+  - '&4- &8Inteligencja: &7+11'
+  - '&4- &8Mana: &7+9'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c193'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 18
+      MovementSpeed: 0.05
+LukL_Zd:
+  Id: 261
+  Display: '&6&lLoquela morti'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7150'
+  - '&4- &8Walka: &7+40'
+  - '&4- &8Zdolnosci mysliwskie: &7+30'
+  - '&4- &8Zrecznosc: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c180'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.12
+    offhand:
+      MovementSpeed: 0.06
+BronL_Str:
+  Id: 293
+  Display: '&4&lImperium mortis'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &760'
+  - '&4- &8Walka: &7+50'
+  - '&4- &8Sila: &7+50'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c170'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.05
+BronL_Zr:
+  Id: 293
+  Display: '&4&lImperium mortis'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &750'
+  - '&4- &8Walka: &7+100'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c175'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.12
+BronL_Wytrz:
+  Id: 293
+  Display: '&4&lImperium mortis'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &740'
+  - '&4- &8Walka: &7+60'
+  - '&4- &8Sila: &7+10'
+  - '&4- &8Inteligencja: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c165'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.02
+      KnockbackResistance: 0.05
+Ksiega_Czarnej_Magii:
+  Id: 340
+  Display: '&5Ksiega czarnej magii'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Nielegalne_Zloto:
+  Id: 371
+  Display: '&cNielegalne zloto'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Niewolnicza_Lina:
+  Id: 420
+  Display: '&7Niewolnicza lina'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Zlecenie:
+  Id: 339
+  Display: '&rZlecenie'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Kamien_Runiczny:
+  Id: 263
+  Data: 1
+  Display: '&0Kamien runiczny'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'

@@ -1,0 +1,31 @@
+id: "4_quest_23"
+name: "&6&oWezwanie krola"
+zleceniodawca: "&6&lRhobar"
+lore:
+  - "&aWykonales tutaj kawal dobrej roboty."
+  - "&aW koncu na Ciebie zwrocil uwage sam &6&lRhobar&a."
+  - "&aIdz do niego, nie kaz mu nie siebie dlugo czekac."
+prize:
+  - "xp: 500"
+require:
+  - "level: 38"
+  - "quest: 4_quest_22"
+  - "quest: 4_quest_21"
+  - "quest: 4_quest_20"
+  - "quest: 4_quest_19"
+  - "quest: 4_quest_17"
+stopnie:
+  1:
+    talking: true   
+    targets:
+      1:
+        id: "4_quest_23_1_1"                     
+        type: "zagadaj"       
+        targetName: "&6&lRhobar"                      
+        message: "Porozmawiaj z oczekujacym Ciebie &6&lRhobarem: %stan%"
+        #ilosc: 25
+        dialog:
+          - "&6&lRhobar&7: &aW koncu zjawiles sie obcy."
+          - "&6&lRhobar&7: &aSluchaj uwaznie i przygotuj sie."
+          - "&6&lRhobar&7: &aPokazales w ciagu ostatnich dni, ze na wiele Ciebie stac."
+          - "&6&lRhobar&7: &aWysylam Ciebie na front do walki z naszymi przeciwnikami."

@@ -1,0 +1,25 @@
+id: "pirat_quest_4"                                
+name: "&6Korsarze"                          
+zleceniodawca: "&e&lNers"                       
+lore:                                               
+  - "&aJeszcze pozostala ostatnia rzecz,"
+  - "&aby calkowicie zasiac strach w oczach piratow."
+  - "&aKorsarze, to piraci, z ktorymi lepiej nie zadzierac."
+  - "&aSamodzielnie mogli by ubic tuzin wojownikow."
+  - "&aZabijajac ich pokazesz, ze nie maja juz tutaj czego szukac."
+prize:                                    
+  - "xp: 3600"
+require:                                            
+  - "level: 29"
+  - "quest: pirat_quest_3"
+stopnie:
+  1:
+    talking: true
+    message: "&e&lNers&7: &aLadnie dales popalic piratom. Raczej na chwile obecna juz niczego dla Ciebie miec nie bede..."
+    targets:
+      1:
+        id: "pirat_quest_4_1_1"
+        type: "zabij"
+        targetName: "&6Korsarz"
+        message: "Zabij 20 korsarzy: %stan%"
+        ilosc: 20

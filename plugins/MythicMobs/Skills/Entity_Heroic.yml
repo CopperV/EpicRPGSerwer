@@ -1,0 +1,482 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+Entity_H_Spawn:
+  Skills:
+  - message{m="<mob.name><&co> &c&oW koncu przybyliscie!"} @PlayersInRadius{r=30}
+  - delay 20
+  - message{m="<mob.name><&co> &c&oTroche dlugo Wam to zajelo..."} @PlayersInRadius{r=30}
+  - threat{amount=30} @PIR{r=20}
+  - delay 20
+  - summon{mob=EntitySphereAdd_H;amount=1} @Location{c=-566.5,51,93.5}
+
+Entity_H_End:
+  Skills:
+  - message{m="<mob.name><&co> &c&oMoja smierc to dopiero poczatek..."} @PlayersInRadius{r=30}
+  - delay 20
+  - remove @MobsInRadius{r=80;t=EntitySphereAdd_H}
+  - remove @MobsInRadius{r=80;t=Entity303Summon_H}
+  - delay 10
+  - command{c="mm m kill Entity303_H"} @self
+  - command{c="mm m kill EntitySphereAdd_H"} @self
+  - command{c="mm m kill Entity303Summon_H"} @self
+  - delay 10
+  - command{c="killall all dungeon1_heroic"} @self
+  - command{c="killall named dungeon1_heroic"} @self
+
+Entity_H_Skill_1:
+  Conditions:
+  - hasaura Entity_H_Skill false
+  Skills:
+  - Aura{auraName=Entity_H_Skill;duration=120} @self
+  - message{m="<mob.name><&co> &c&oJak chcecie mnie pokonac, skoro bezmyslnie mnie atakujecie?!"} @PlayersInRadius{r=25}
+  - stun{d=100} @self
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bEntity303 przygotowuje pociski sferyczne";d=100} @PIR{r=40}
+  - delay 100
+  - skill{s=Entity_H_Skill_1_Effect} @RandomThreatTarget
+
+Entity_H_Skill_2:
+  Conditions:
+  - hasaura Entity_H_Skill false
+  Skills:
+  - Aura{auraName=Entity_H_Skill;duration=120} @self
+  - message{m="<mob.name><&co> &c&oZalosne..."} @PlayersInRadius{r=25}
+  - stun{d=100} @self
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bEntity303 przygotowuje chaotyczna tarcze";d=100} @PIR{r=40}
+  - delay 100
+  - skill{s=Entity_H_Skill_2_Effect} @Self
+
+Entity_H_Skill_3:
+  Conditions:
+  - hasaura Entity_H_Skill false
+  Skills:
+  - Aura{auraName=Entity_H_Skill;duration=120} @self
+  - message{m="<mob.name><&co> &c&oWasz swiat w koncu ulegnie prze moim Pane. Nie powstrzymacie tego!"} @PlayersInRadius{r=25}
+  - stun{d=100} @self
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bEntity303 przygotowuje Wole Entity";d=100} @PIR{r=40}
+  - delay 100
+  - skill{s=Entity_H_Skill_3_Effect_1} @Self
+  - skill{s=Entity_H_Skill_3_Effect_2} @Self
+
+Entity_H_Skill_4:
+  Conditions:
+  - hasaura Entity_H_Skill false
+  Skills:
+  - Aura{auraName=Entity_H_Skill;duration=120} @self
+  - message{m="<mob.name><&co> &c&oWasze przywiazanie stanie sie wasza zguba. Wszystko ulegnie przed nasza potega!"} @PlayersInRadius{r=25}
+  - stun{d=100} @self
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bEntity303 przygotowuje Koronatity";d=100} @PIR{r=40}
+  - delay 100
+  - skill{s=Entity_H_Skill_4_Effect} @Self
+
+Entity_H_Skill_5:
+  Conditions:
+  - hasaura Entity_H_Skill false
+  Skills:
+  - Aura{auraName=Entity_H_Skill;duration=120} @self
+  - message{m="<mob.name><&co> &c&oWasz opor jest daremny!"} @PlayersInRadius{r=25}
+  - stun{d=100} @self
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bEntity303 przygotowuje Wzrok Pustki";d=100} @PIR{r=40}
+  - delay 100
+  - skill{s=Entity_H_Skill_5_Effect} @SelfLocation
+
+SphereCheck_H:
+  Conditions:
+  - mobsInRadius{types=Entity303_H;amount=1;radius=80} false
+  Skills:
+  - remove @self
+
+SphereSkill_H_1:
+  Conditions:
+  - playernotwithin{d=55} true
+  - hasaura SphereKilling false
+  Skills:
+  - Aura{auraName=SphereKilling;duration=40} @self
+  - effect:bloodyScreen{d=100} @PIR{r=150}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bSfera koniunkcji przygotowuje Sferyczny Szal";d=100} @PIR{r=150}
+  - delay 100
+  - skill{s=SphereSkill_H_1_Effect_1} @Self
+  - skill{s=SphereSkill_H_1_Effect_2} @Self
+
+SphereSkill_H_2:
+  Conditions:
+  - hasaura SphereSkill_H false
+  Skills:
+  - Aura{auraName=SphereSkill_H;duration=350} @self
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bSfera koniunkcji przygotowuje Pociski sferyczne";d=100} @PIR{r=150}
+  - delay 100
+  - skill{s=SphereSkill_H_2_Effect} @Self
+
+SphereSkill_H_3:
+  Conditions:
+  - hasaura SphereSkill_H false
+  Skills:
+  - Aura{auraName=SphereSkill_H;duration=120} @self
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bSfera koniunkcji przygotowuje Slowo Pustki";d=100} @PIR{r=150}
+  - delay 100
+  - skill{s=SphereSkill_H_3_Effect} @Self
+
+
+SphereSkill_H_4:
+  Conditions:
+  - hasaura SphereSkill_H false
+  Skills:
+  - Aura{auraName=SphereSkill_H;duration=120} @self
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bSfera koniunkcji przygotowuje Szczeline";d=100} @PIR{r=150}
+  - skill{s=SphereSkill_H_4_Effect} @PLIR{r=80;limit=1;sort=RANDOM}
+
+
+SphereSkill_H_5:
+  Conditions:
+  - hasaura SphereSkill_H false
+  Skills:
+  - Aura{auraName=SphereSkill_H;duration=450} @self
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bSfera koniunkcji przygotowuje Szal Pustki";d=100} @PIR{r=150}
+  - delay 100
+  - skill{s=SphereSkill_H_5_Effect}
+
+SphereEnd_H:
+  Conditions:
+  - mobsInRadius{types=Entity303_H;radius=125;amount=1} false
+  Skills:
+#  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&6&lTest Sfery";d=100} @PIR{r=150}
+  - remove @self
+
+
+SphereSkill_H_5_Effect:
+  Skills:
+  - projectile{type=meteor;onTick=SphereSkill_H_5_Effect_Tick;onHit=SphereSkill_H_5_Effect_Hit;onEnd=SphereSkill_H_5_Effect_End;v=40;i=1;hR=2;vR=1;syo=40;tyo=40;g=0.2;mr=50} @PLIR{r=35}
+
+SphereSkill_H_2_Signal:
+  Skills:
+  - signal{s=SPHERE_SIGNAL_2} @MobsInRadius{r=70;t=EntitySphereAdd_H}
+
+SphereSkill_H_3_Signal:
+  Skills:
+  - signal{s=SPHERE_SIGNAL_3} @MobsInRadius{r=70;t=EntitySphereAdd_H}
+
+SphereSkill_H_4_Signal:
+  Skills:
+  - signal{s=SPHERE_SIGNAL_4} @MobsInRadius{r=70;t=EntitySphereAdd_H}
+
+SphereSkill_H_5_Signal:
+  Skills:
+  - signal{s=SPHERE_SIGNAL_5} @MobsInRadius{r=70;t=EntitySphereAdd_H}
+
+SphereSkill_H_5_Effect_Tick:
+  Skills:
+  - sound{s=Entity.endermen.teleport;v=5;p=1.75} @origin
+  - effect:particles{particle=reddust;color=#8B008B;amount=5;speed=0.05;hS=0.3;vS=0.1} @origin
+  - effect:particles{particle=smoke;amount=5;speed=0.05;hS=0.7;vS=0.1} @origin
+
+SphereSkill_H_5_Effect_Hit:
+  Skills:
+  - sound{s=Entity.endermen.hurt;v=10;p=0.7} @origin
+  - damage{amount=160}
+  - potion{type=BLINDNESS;duration=160;level=4}
+
+SphereSkill_H_5_Effect_End:
+  Skills:
+  - sound{s=Entity.endermen.hurt;v=10;p=0.7} @PlayersNearOrigin{r=20}
+  - effect:particlering{particle=reddust;color=#8B008B;radius=0;points=4;amount=5;speed=0.05;hS=0.3;vS=0.1} @origin
+  - effect:particlering{particle=smoke;radius=0;points=4;amount=5;speed=0.05;hS=0.7;vS=0.1} @origin
+  - delay 2
+  - sound{s=Entity.endermen.hurt;v=10;p=0.7} @PlayersNearOrigin{r=20}
+  - effect:particlering{particle=reddust;color=#8B008B;radius=1;points=8;amount=5;speed=0.05;hS=0.3;vS=0.1} @origin
+  - effect:particlering{particle=smoke;radius=1;points=8;amount=5;speed=0.05;hS=0.7;vS=0.1} @origin
+  - delay 2
+  - sound{s=Entity.endermen.hurt;v=10;p=0.7} @PlayersNearOrigin{r=20}
+  - effect:particlering{particle=reddust;color=#8B008B;radius=2;points=12;amount=5;speed=0.05;hS=0.3;vS=0.1} @origin
+  - effect:particlering{particle=smoke;radius=2;points=12;amount=5;speed=0.05;hS=0.7;vS=0.1} @origin
+  - delay 2
+  - sound{s=Entity.endermen.hurt;v=10;p=0.7} @PlayersNearOrigin{r=20}
+  - effect:particlering{particle=reddust;color=#8B008B;radius=3;points=16;amount=5;speed=0.05;hS=0.3;vS=0.1} @origin
+  - effect:particlering{particle=smoke;radius=3;points=16;amount=5;speed=0.05;hS=0.7;vS=0.1} @origin
+  - delay 2
+  - sound{s=Entity.endermen.hurt;v=10;p=0.7} @PlayersNearOrigin{r=20}
+  - effect:particlering{particle=reddust;color=#8B008B;radius=4;points=20;amount=5;speed=0.05;hS=0.3;vS=0.1} @origin
+  - effect:particlering{particle=smoke;radius=4;points=20;amount=5;speed=0.05;hS=0.7;vS=0.1} @origin
+  - delay 2
+  - sound{s=Entity.endermen.hurt;v=10;p=0.7} @PlayersNearOrigin{r=20}
+  - effect:particlering{particle=reddust;color=#8B008B;radius=5;points=24;amount=5;speed=0.05;hS=0.3;vS=0.1} @origin
+  - effect:particlering{particle=smoke;radius=5;points=24;amount=5;speed=0.05;hS=0.7;vS=0.1} @origin
+  - delay 2
+  - sound{s=Entity.endermen.hurt;v=10;p=0.7} @PlayersNearOrigin{r=20}
+  - effect:particlering{particle=reddust;color=#8B008B;radius=6;points=28;amount=5;speed=0.05;hS=0.3;vS=0.1} @origin
+  - effect:particlering{particle=smoke;radius=6;points=28;amount=5;speed=0.05;hS=0.7;vS=0.1} @origin
+  - delay 2
+  - sound{s=Entity.endermen.hurt;v=10;p=0.7} @PlayersNearOrigin{r=20}
+  - effect:particlering{particle=reddust;color=#8B008B;radius=7;points=32;amount=5;speed=0.05;hS=0.3;vS=0.1} @origin
+  - effect:particlering{particle=smoke;radius=7;points=32;amount=5;speed=0.05;hS=0.7;vS=0.1} @origin
+  - damage{amount=250} @PlayersNearOrigin{r=8}
+  - potion{type=BLINDNESS;duration=200;level=4} @PlayersNearOrigin{r=8}
+SphereSkill_H_4_Effect:
+  Skills:
+  - sound{s=Entity.endermen.hurt;v=1;p=0.5}
+  - effect:particlesphere{particle=flame;amount=10;radius=2;y=1}
+  - effect:particlesphere{particle=smoke;amount=10;radius=2;y=1}
+  - delay 10
+  - effect:particlesphere{particle=flame;amount=10;radius=2;y=1}
+  - effect:particlesphere{particle=smoke;amount=10;radius=2;y=1}
+  - delay 10
+  - effect:particlesphere{particle=flame;amount=10;radius=2;y=1}
+  - effect:particlesphere{particle=smoke;amount=10;radius=2;y=1}
+  - delay 10
+  - effect:particlesphere{particle=flame;amount=10;radius=2;y=1}
+  - effect:particlesphere{particle=smoke;amount=10;radius=2;y=1}
+  - delay 10
+  - effect:particlesphere{particle=flame;amount=10;radius=2;y=1}
+  - effect:particlesphere{particle=smoke;amount=10;radius=2;y=1}
+  - delay 10
+  - effect:particlesphere{particle=flame;amount=10;radius=2;y=1}
+  - effect:particlesphere{particle=smoke;amount=10;radius=2;y=1}
+  - delay 10
+  - effect:particlesphere{particle=flame;amount=10;radius=2;y=1}
+  - effect:particlesphere{particle=smoke;amount=10;radius=2;y=1}
+  - delay 10
+  - effect:particlesphere{particle=flame;amount=10;radius=2;y=1}
+  - effect:particlesphere{particle=smoke;amount=10;radius=2;y=1}
+  - delay 10
+  - effect:particlesphere{particle=flame;amount=10;radius=2;y=1}
+  - effect:particlesphere{particle=smoke;amount=10;radius=2;y=1}
+  - delay 10
+  - effect:particlesphere{particle=flame;amount=10;radius=2;y=1}
+  - effect:particlesphere{particle=smoke;amount=10;radius=2;y=1}
+  - delay 10
+  - totem{ch=2;oT=SphereSkill_H_4_Effect_Tick;oH=SphereSkill_H_4_Effect_Hit;hR=3.5;vR=3.5;md=400;yo=1;hp=true;i=1}
+
+SphereSkill_H_4_Effect_Tick:
+  Skills:
+  - sound{s=block.fire.ambient;v=1;p=1} @origin
+  - effect:particlesphere{particle=smoke;amount=5;radius=1.25}
+  - effect:particlesphere{particle=reddust;color=#8B008B;amount=5;radius=1.25}
+
+SphereSkill_H_4_Effect_Hit:
+  Skills:
+  - sound{s=Entity.endermen.hurt;v=1;p=0.1}
+  - damage{amount=190}
+  - throw{velocity=7;velocityY=3}
+  - potion{type=BLINDNESS;duration=200;level=4}
+  - summon{mob=Entity303Summon_H;amount=2;radius=4}
+
+Manifestacja_Skill_H:
+  Conditions:
+  - hasaura ManifestacjaSkill false
+  Skills:
+  - skill{s=Manifestacja_Skill_H_Effect} @PlayersInRadius{r=20;limit=1;sort=RANDOM}
+
+Manifestacja_Skill_H_Effect:
+  Skills:
+  - Aura{auraName=ManifestacjaSkill;duration=120} @self
+  - effect:particleline{particle=smoke;amount=20;speed=0.1;hS=0.75;vS=0.05;yt=1;ys=1}
+  - effect:particleline{particle=reddust;color=#8B008B;amount=10;speed=0.2;hS=0.25;vS=0.05;yt=1;ys=1}
+  - delay 120
+  - damage{amount=140} @Target
+  - damage{amount=180}
+  - teleport{spreadh=5;spreadv=0}
+
+SphereSkill_H_3_Effect:
+  Skills:
+  - chain{b=10;d=5;bounceRadius=20;onBounce=SphereSkill_H_3_Effect_Bounce} @NearestPlayer{r=60}
+  - sound{s=Entity.endermen.teleport;v=10;p=0.25}
+
+SphereSkill_H_3_Effect_Bounce:
+  Skills:
+  - damage{amount=170}
+  - effect:particleline{particle=smoke;amount=20;fromOrigin=true;speed=0.1;hS=0.25;vS=0.05;ys=1;yt=1}
+  - effect:particleline{particle=blockcrack_22;amount=10;fromOrigin=true;speed=0.1;hS=0.05;vS=0.05;ys=1;yt=1}
+  - potion{type=BLINDNESS;duration=200;level=1}
+  - summon{mob=Entity303Summon_H;amount=1;noise=3}
+  - sound{s=Entity.endermen.hurt;v=1;p=1.25}
+
+SphereSkill_H_2_Effect:
+  Skills:
+  - sound{s=Entity.cat.hiss;v=10;p=0.01} @self
+  - projectile{onTick=SphereSkill_H_2_Effect_Tick;onHit=SphereSkill_H_2_Effect_Hit;v=12;i=1;hR=1.5;vR=1;mr=50;sB=false} @PlayersInRadius{r=80;limit=4;sort=RANDOM}
+  - delay 60
+  - projectile{onTick=SphereSkill_H_2_Effect_Tick;onHit=SphereSkill_H_2_Effect_Hit;v=12;i=1;hR=1.5;vR=1;mr=50;sB=false} @PlayersInRadius{r=80;limit=4;sort=RANDOM}
+  - delay 60
+  - projectile{onTick=SphereSkill_H_2_Effect_Tick;onHit=SphereSkill_H_2_Effect_Hit;v=12;i=1;hR=1.5;vR=1;mr=50;sB=false} @PlayersInRadius{r=80;limit=4;sort=RANDOM}
+  - delay 60
+  - projectile{onTick=SphereSkill_H_2_Effect_Tick;onHit=SphereSkill_H_2_Effect_Hit;v=12;i=1;hR=1.5;vR=1;mr=50;sB=false} @PlayersInRadius{r=80;limit=4;sort=RANDOM}
+  - delay 60
+  - projectile{onTick=SphereSkill_H_2_Effect_Tick;onHit=SphereSkill_H_2_Effect_Hit;v=12;i=1;hR=1.5;vR=1;mr=50;sB=false} @PlayersInRadius{r=80;limit=4;sort=RANDOM}
+
+SphereSkill_H_2_Effect_Tick:
+  Skills:
+  - effect:particles{particle=blockcrack_80;amount=5;speed=0.05;hS=0.3;vS=0.1} @origin
+  - effect:particles{particle=blockcrack_22;amount=5;speed=0.05;hS=0.7;vS=0.1} @origin
+  - effect:particles{particle=smoke;amount=10;speed=0.05;hS=1;vS=0.1} @origin
+
+SphereSkill_H_2_Effect_Hit:
+  Skills:
+  - damage{amount=260}
+  - potion{type=BLINDNESS;duration=200;level=1}
+  - sound{s=Entity.blaze.shoot;v=2;p=0.2} @Origin
+
+SphereSkill_H_1_Effect_1:
+  Conditions:
+  - playernotwithin{d=40} true
+  Skills:
+  - effect:particleline{particle=blockcrack_80;amount=5;fromOrigin=true;speed=0.1;hS=0.05;vS=0.05;ys=1;yt=1} @PIR{r=150}
+  - effect:particleline{particle=blockcrack_22;amount=5;fromOrigin=true;speed=0.1;hS=0.1;vS=0.05;ys=1;yt=1} @PIR{r=150}
+  - effect:particleline{particle=smoke;amount=5;fromOrigin=true;speed=0.1;hS=0.2;vS=0.05;ys=1;yt=1} @PIR{r=150}
+  - sound{s=Entity.blaze.hurt;v=10;p=1.5} @self
+  - delay 10
+  - damage{amount=50000} @PIR{r=150}
+  
+SphereSkill_H_1_Effect_2:
+  Conditions:
+  - playerwithin{d=40} true
+  Skills:
+  - sendtitle{title="&4&lUwaga!";subtitle="&bSfera koniunkcji anulowala Sferyczny Szal";d=100} @PIR{r=150}
+
+Entity_H_Skill_5_Effect:
+  Skills:
+  - sound{s=Entity.generic.explode;v=10;p=0.01} @self
+  - effect:particlering{particle=blockcrack_87;radius=1;points=6;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=blockcrack_87;radius=2;points=10;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=blockcrack_87;radius=3;points=14;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=blockcrack_87;radius=4;points=18;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=blockcrack_87;radius=5;points=22;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=blockcrack_87;radius=6;points=26;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=blockcrack_87;radius=7;points=30;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=blockcrack_87;radius=8;points=34;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=blockcrack_87;radius=9;points=38;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=blockcrack_87;radius=10;points=42;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=blockcrack_87;radius=11;points=46;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=blockcrack_87;radius=12;points=50;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=blockcrack_87;radius=13;points=54;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=blockcrack_87;radius=14;points=58;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=blockcrack_87;radius=15;points=62;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=blockcrack_87;radius=16;points=66;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=blockcrack_87;radius=17;points=70;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - damage{a=290} @PIR{r=17}
+  - potion{type=BLINDNESS;duration=300;level=3} @PIR{r=17}
+  - sound{s=Entity.generic.explode;v=10;p=0.01} @PIR{r=17}
+
+Entity_H_Skill_4_Effect:
+  Skills:
+  - chain{b=10;d=5;bounceRadius=15;onBounce=Entity_H_Skill_4_Effect_Bounce} @NearestPlayer{r=20}
+
+Entity_H_Skill_4_Effect_Bounce:
+  Skills:
+  - damage{amount=180}
+  - effect:particleline{particle=smoke;amount=20;fromOrigin=true;speed=0.1;hS=0.25;vS=0.05;ys=1;yt=1}
+  - effect:particleline{particle=blockcrack_80;amount=10;fromOrigin=true;speed=0.1;hS=0.05;vS=0.05;ys=1;yt=1}
+  - stun{d=200}
+  - potion{type=CONFUSION;duration=200;level=1}
+  - orbital{onTick=Entity_H_Prison-Tick;points=29;interval=1;duration=200;charges=1;r=1;hr=1;rx=0.78;ry=0;oy=1;hp=false}
+  - orbital{onTick=Entity_H_Prison-Tick;points=23;interval=1;duration=200;charges=1;r=1;hr=1;rx=-0.78;ry=0;oy=1;hp=false}
+
+Entity_H_Prison-Tick:
+  Skills:
+  - effect:particles{p=blockcrack_80;amount=10;speed=0;hS=0.05;vS=0.05} @origin
+
+Entity_H_Skill_3_Effect_1:
+  Conditions:
+  - playerwithin{d=10} true
+  Skills:
+  - message{m="<mob.name><&co> &c&oPoswiecennie godne uwagi..."} @PlayersInRadius{r=25}
+  - skill{s=Entity_H_Skill_3_Effect_1_Effect} @NearestPlayer{r=10}
+  - sound{s=Entity.ghast.scream;v=5;p=0.1}
+
+Entity_H_Skill_3_Effect_1_Effect:
+  Skills:
+  - damage{amount=400}
+  - stun{d=200}
+  - effect:spin{duration=200;velocity=40}
+  - potion{type=SLOW;duration=200;level=3}
+  - potion{type=BLINDNESS;duration=200;level=3}
+  - potion{type=CONFUSION;duration=200;level=3}
+  - effect:particleline{particle=smoke;amount=20;fromOrigin=true;speed=0.1;hS=0.05;vS=0.05}
+  - effect:particleline{particle=flame;amount=20;fromOrigin=true;speed=0.1;hS=0.05;vS=0.05}
+  
+
+Entity_H_Skill_3_Effect_2:
+  Conditions:
+  - playerwithin{d=10} false
+  Skills:
+  - message{m="<mob.name><&co> &c&oCos brak ikry widze... Cienko!"} @PlayersInRadius{r=25}
+  - skill{s=Entity_H_Skill_3_Effect_2_Effect} @PIR{r=50}
+  - sound{s=Entity.enderdragon.ambient;v=10;p=0.5}
+  - effect:particleline{particle=smoke;amount=20;fromOrigin=true;speed=0.1;hS=0.05;vS=0.05}
+  - effect:particleline{particle=happyVillager;amount=20;fromOrigin=true;speed=0.1;hS=0.05;vS=0.05}
+  
+
+Entity_H_Skill_3_Effect_2_Effect:
+  Skills:
+  - damage{amount=150}
+  - heal{amount=10000} @self
+
+Entity_H_Skill_1_Effect:
+  Skills:
+  - sound{s=Entity.cat.hiss;v=10;p=0.01} @self
+  - projectile{onTick=Entity_H_Skill_1_Effect_Tick;onHit=Entity_H_Skill_1_Effect_Hit;v=13;i=1;hR=1.5;vR=1;mr=30;sB=false} @PIR{r=25}
+
+Entity_H_Skill_1_Effect_Tick:
+  Skills:
+  - effect:particles{particle=blockcrack_80;amount=10;speed=0.1;hS=0.5;vS=0.1} @origin
+  - effect:particles{particle=largesmoke;amount=15;speed=0.05;hS=1;vS=0.1} @origin
+
+Entity_H_Skill_1_Effect_Hit:
+  Skills:
+  - damage{amount=260}
+  - potion{type=BLINDNESS;duration=100;level=1}
+  - sound{s=Entity.blaze.shoot;v=2;p=0.2} @Origin
+
+Entity_H_Skill_2_Effect:
+  Skills:
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=19;interval=1;duration=400;charges=10;r=2;hr=1;rx=0;ry=0;oy=1}
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=31;interval=1;duration=400;charges=10;r=2;hr=1;rx=3.14;ry=0;oy=1}
+  - sound{s=Entity.ghast.hurt;v=5} @self
+  - delay 100
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=49;interval=1;duration=300;charges=10;r=3.5;hr=1;rx=1.27;ry=0;oy=1}
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=49;interval=1;duration=300;charges=10;r=3.5;hr=1;rx=1.27;ry=0.78;oy=1}
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=49;interval=1;duration=300;charges=10;r=3.5;hr=1;rx=1.27;ry=1.27;oy=1}
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=49;interval=1;duration=300;charges=10;r=3.5;hr=1;rx=1.27;ry=2.36;oy=1}
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=49;interval=1;duration=300;charges=10;r=3.5;hr=1;rx=1.27;ry=3.14;oy=1}
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=49;interval=1;duration=300;charges=10;r=3.5;hr=1;rx=1.27;ry=3.93;oy=1}
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=49;interval=1;duration=300;charges=10;r=3.5;hr=1;rx=1.27;ry=4.71;oy=1}
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=49;interval=1;duration=300;charges=10;r=3.5;hr=1;rx=1.27;ry=5.5;oy=1}
+  - sound{s=Entity.ghast.hurt;v=5;p=0.5} @self
+  - delay 100
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=43;interval=1;duration=200;charges=10;r=5;hr=1;rx=1.1;ry=0.2;rz=0.1;oy=1}
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=67;interval=1;duration=200;charges=10;r=5;hr=1;rx=0.7;ry=0.8;rz=1.4;oy=1}
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=47;interval=1;duration=200;charges=10;r=5;hr=1;rx=1.32;ry=1.4;rz=1.22;oy=1}
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=71;interval=1;duration=200;charges=10;r=5;hr=1;rx=3.1;ry=0.79;rz=3.42;oy=1}
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=53;interval=1;duration=200;charges=10;r=5;hr=1;rx=2.13;ry=1.99;rz=0.56;oy=1}
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=61;interval=1;duration=200;charges=10;r=5;hr=1;rx=4.4;ry=2.24;rz=1.84;oy=1}
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=79;interval=1;duration=200;charges=10;r=5;hr=1;rx=3.51;ry=1.81;rz=0.77;oy=1}
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=41;interval=1;duration=200;charges=10;r=5;hr=1;rx=0.3;ry=0.12;rz=0.84;oy=1}
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=59;interval=1;duration=200;charges=10;r=5;hr=1;rx=2.87;ry=3.21;rz=1.23;oy=1}
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=73;interval=1;duration=200;charges=10;r=5;hr=1;rx=3.87;ry=1.5;rz=0.06;oy=1}
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=83;interval=1;duration=200;charges=10;r=5;hr=1;rx=0.94;ry=2.22;rz=3.33;oy=1}
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=89;interval=1;duration=200;charges=10;r=5;hr=1;rx=4.1;ry=2.25;rz=1.54;oy=1}
+  - sound{s=Entity.ghast.hurt;v=5;p=0.1} @self
+  - delay 100
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=91;interval=1;duration=100;charges=10;r=6.5;hr=1;rx=2.5;ry=2.5;rz=0.7;oy=1}
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=97;interval=1;duration=100;charges=10;r=6.5;hr=1;rx=0.1;ry=0.9;rz=1.94;oy=1}
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=101;interval=1;duration=100;charges=10;r=6.5;hr=1;rx=0.51;ry=1.9;rz=2.11;oy=1}
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=71;interval=1;duration=100;charges=10;r=6.5;hr=1;rx=3.7;ry=0.5;rz=2.43;oy=1}
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=53;interval=1;duration=100;charges=10;r=6.5;hr=1;rx=4.1;ry=1.44;rz=1.12;oy=1}
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=61;interval=1;duration=100;charges=10;r=6.5;hr=1;rx=3.05;ry=2.39;rz=1.03;oy=1}
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=79;interval=1;duration=100;charges=10;r=6.5;hr=1;rx=3.146;ry=2.22;rz=0.7;oy=1}
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=41;interval=1;duration=100;charges=10;r=6.5;hr=1;rx=0.1;ry=0.1;rz=0.4;oy=1}
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=59;interval=1;duration=100;charges=10;r=6.5;hr=1;rx=3.02;ry=4.51;rz=1.3;oy=1}
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=73;interval=1;duration=100;charges=10;r=6.5;hr=1;rx=4.58;ry=5.2;rz=1.6;oy=1}
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=83;interval=1;duration=100;charges=10;r=6.5;hr=1;rx=1.01;ry=2.29;rz=4.32;oy=1}
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=89;interval=1;duration=100;charges=10;r=6.5;hr=1;rx=4.75;ry=6.3;rz=1.45;oy=1}
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=89;interval=1;duration=100;charges=10;r=6.5;hr=1;rx=1.23;ry=0.53;rz=2.5;oy=1}
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=89;interval=1;duration=100;charges=10;r=6.5;hr=1;rx=2.34;ry=0.01;rz=1.03;oy=1}
+  - orbital{onTick=Entity_H_Skill_2_Effect-Tick;onHit=Entity_H_Skill_2_Effect-Hit;points=89;interval=1;duration=100;charges=10;r=6.5;hr=1;rx=3.45;ry=0.15;rz=0.1;oy=1}
+  - sound{s=entity.illusion_illager.ambient;v=10;p=0.01} @self
+
+Entity_H_Skill_2_Effect-Tick:
+  Skills:
+  - effect:particles{particle=cloud;amount=10;speed=0.01;hS=0.5;vS=0.05} @origin
+Entity_H_Skill_2_Effect-Hit:
+  Skills:
+  - damage{amount=260} @PlayersNearOrigin{r=1.5}
+  - throw{velocity=25;velocityY=8} @PlayersNearOrigin{r=1.5}
+  - sound{s=Entity.blaze.shoot;v=5} @Origin

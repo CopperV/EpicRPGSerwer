@@ -1,0 +1,17 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&2&lOdin"
+  - "&7[&6&lBIZNESMEN&7]"
+skinid: 1476943680
+location:
+  world: "F_RPG"
+  x: -702
+  y: 33
+  z: 373
+  yaw: 115
+  pitch: 10
+lookat: true
+commands:
+  - "cc open odin %player%"

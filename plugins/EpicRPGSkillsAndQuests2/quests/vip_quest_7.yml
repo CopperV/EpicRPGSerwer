@@ -1,0 +1,30 @@
+id: "vip_quest_7"                                
+name: "&6&lHandel zleceniami"                          
+zleceniodawca: "&6&lGustav"                       
+lore:                                               
+  - "&aWzbogacac sie mozna na rozne sposoby."
+  - "&aMozna probowac rozwijac swoje skrzydla poprzez"
+  - "&alegalny i uczciwy biznes."
+  - "&aJednak Ciebie interesuje chyba szybki i latwy zarobek..."
+  - "&aNizar upodlil siebie i swoja frakcje przyjmujac"
+  - "&arozne zlecenie, glownie zabojstwa."
+  - "&aWiele roznych rozmaitosci moglo by zaplacic"
+  - "&afortunke za takie zlecenia."
+  - "&aWydaje mi sie, ze mozna na tym szybko i latwo zarobic :)"
+prize:                                    
+  - "xp: 2000"
+  - "money: 5000"
+  - "item: Zlota_Moneta 5"
+require:                                            
+  - "level: 38"
+  - "ranga: magnat"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "vip_quest_7_1_1"
+        type: "przynies"
+        targetName: "&rZlecenie"
+        message: "Przynies 50 zlecen: %stan%"
+        ilosc: 50

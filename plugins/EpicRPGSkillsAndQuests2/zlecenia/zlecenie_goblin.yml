@@ -1,0 +1,122 @@
+id: "zlecenie_goblin"                                
+name: "&a&oDobry goblin, to martwy goblin"
+zleceniodawca: "&8Udar"                       
+lore:                                               
+  - "&aZabicie gobliniego krola moze cos dalo,"
+  - "&aale niektorzy do tej pory borykaja sie"
+  - "&az plaga goblinow."
+  - "&aPo prostu nie wyrabiam."
+  - "&aJezeli mi pomozesz, hojnie Ciebie"
+  - "&awynagrodze."
+prize:                                    
+  - "xp: 710"
+  - "money: 95"
+require:                                            
+  - "level: 9"
+  - "quest: goblin_quest_5"
+etapy: 3
+stopnie:
+  1:
+    targets:
+      1:
+        id: "zlecenie_goblin_1_1"
+        type: "zabij"
+        targetName: "&cGoblini Krol - BOSS"
+        message: "Pokonaj gobliniego krola: %stan%"
+        ilosc: 1
+  2:
+    targets:
+      1:
+        id: "zlecenie_goblin_2_1"
+        type: "zabij"
+        targetName: "&aMlody Goblin"
+        message: "Zabij 45 mlodych goblinow: %stan%"
+        ilosc: 45
+  3:
+    targets:
+      1:
+        id: "zlecenie_goblin_3_1"
+        type: "zabij"
+        targetName: "&aMlody Goblin"
+        message: "Zabij 20 mlodych goblinow: %stan%"
+        ilosc: 20
+      2:
+        id: "zlecenie_goblin_3_2"
+        type: "zabij"
+        targetName: "&a&lGoblin Junior - BOSS"
+        message: "Pokonaj goblina juniora: %stan%"
+        ilosc: 1
+  4:
+    targets:
+      1:
+        id: "zlecenie_goblin_4_1"
+        type: "zabij"
+        targetName: "&aGoblin"
+        message: "Zabij 35 goblinow: %stan%"
+        ilosc: 35
+  5:
+    targets:
+      1:
+        id: "zlecenie_goblin_5_1"
+        type: "zabij"
+        targetName: "&2Goblin Berserker"
+        message: "Zabij 25 goblinich berserkerow: %stan%"
+        ilosc: 25
+  6:
+    targets:
+      1:
+        id: "zlecenie_goblin_6_1"
+        type: "zabij"
+        targetName: "&a&lGoblini wojownik"
+        message: "Zabij 15 goblinich wojownikow: %stan%"
+        ilosc: 15
+  7:
+    targets:
+      1:
+        id: "zlecenie_goblin_7_1"
+        type: "zabij"
+        targetName: "&aGoblin"
+        message: "Zabij 10 goblinow: %stan%"
+        ilosc: 10
+      2:
+        id: "zlecenie_goblin_7_2"
+        type: "zabij"
+        targetName: "&2Goblin Berserker"
+        message: "Zabij 10 goblinich berserkerow: %stan%"
+        ilosc: 10
+      3:
+        id: "zlecenie_goblin_7_3"
+        type: "zabij"
+        targetName: "&a&lGoblini wojownik"
+        message: "Zabij 10 goblinich wojownikow: %stan%"
+        ilosc: 10
+  8:
+    targets:
+      1:
+        id: "zlecenie_goblin_8_1"
+        type: "przynies"
+        targetName: "&6Skradzione Zloto"
+        message: "Przynies 20 blokow skradzionego zlota: %stan%"
+        ilosc: 20
+  9:
+    targets:
+      1:
+        id: "zlecenie_goblin_9_1"
+        type: "przynies"
+        targetName: "&eGoblinie Zloto"
+        message: "Przynies 30 sztuk gobliniego zlota: %stan%"
+        ilosc: 30
+  10:
+    targets:
+      1:
+        id: "zlecenie_goblin_10_1"
+        type: "przynies"
+        targetName: "&eGoblinie Zloto"
+        message: "Przynies 20 sztuk gobliniego zlota: %stan%"
+        ilosc: 20
+      2:
+        id: "zlecenie_goblin_10_2"
+        type: "przynies"
+        targetName: "&6Skradzione Zloto"
+        message: "Przynies 10 blokow skradzionego zlota: %stan%"
+        ilosc: 10

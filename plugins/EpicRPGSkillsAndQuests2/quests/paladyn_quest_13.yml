@@ -1,0 +1,31 @@
+id: "paladyn_quest_13"                                
+name: "&cOfiary pustki"                          
+zleceniodawca: "&3&lSteve"                       
+lore:                                               
+  - "&aNie wszyscy tutaj sa w sluzbie Herobrine."
+  - "&aWiele z nich to tylko ofiary"
+  - "&atego tyrana,"
+  - "&aktorzy utracili wole wiele lat temu."
+  - "&aNalezy uwolnic ich od tego cierpienia!"
+prize:                                    
+  - "xp: 45750"
+  - "money: 600"
+require:                                            
+  - "level: 52"
+  - "klasa: &cWojownik"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "paladyn_quest_13_1_1"
+        type: "zabij"
+        targetName: "&2&oZombie"
+        message: "Zabij 17 Zombie: %stan%"
+        ilosc: 17
+      2:
+        id: "paladyn_quest_13_1_2"
+        type: "zabij"
+        targetName: "&a&oZombie - Osadnik"
+        message: "Zabij 28 Zombie - Osadnikow: %stan%"
+        ilosc: 28

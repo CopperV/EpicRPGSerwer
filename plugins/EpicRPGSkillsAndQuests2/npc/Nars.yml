@@ -1,0 +1,38 @@
+name: "&4Nars"
+title: "&4Nars - quester"
+size: 18
+slots:
+  1:
+    item: "morze_quest_3"
+  2:
+    item: "morze_quest_5"
+  3:
+    item: "morze_quest_7"
+  4:
+    item: "morze_quest_9"
+  5:
+    item: "morze_quest_10"
+  8:
+    item: "Wytrzymalosc1"
+    max: 200
+    wymagania:
+      - "quest: morze_quest_5"
+      - "klasa: &cWojownik"
+  9:
+    item: "Wytrzymalosc5"
+    max: 200
+    wymagania:
+      - "quest: morze_quest_5"
+      - "klasa: &cWojownik"
+  17:
+    item: "Sila1"
+    max: 295
+    wymagania:
+      - "quest: morze_quest_5"
+      - "klasa: &cWojownik"
+  18:
+    item: "Sila5"
+    max: 295
+    wymagania:
+      - "quest: morze_quest_5"
+      - "klasa: &cWojownik"

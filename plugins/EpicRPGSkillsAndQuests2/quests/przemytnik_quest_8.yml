@@ -1,0 +1,27 @@
+id: "przemytnik_quest_8"                                
+name: "&6Dlug podatkowy"                          
+zleceniodawca: "&e&lUthar"                       
+lore:                                               
+  - "&aPewnie chcesz wiedziec, czego bede wymagac,"
+  - "&aby zaczac wspolprace z przemytnikami."
+  - "&aOstatnio nie do konca wywiazalem sie"
+  - "&az zaplata podatku."
+  - "&aMowiac krotko - mam dlug, ktory musze"
+  - "&ajak najszybciej uregulowac."
+  - "&aPotrzebuje 30 zlotych monet."
+prize:                                    
+  - "xp: 1875"
+require:                                            
+  - "level: 24"
+  - "quest: przemytnik_quest_7"
+stopnie:
+  1:
+    talking: true
+    message: "&e&lUthar&7: &aDziekuje Ci za Twoja dobroc. Powiedz swoim przelozonym, ze podejme sie z nimi wspolpracy"
+    targets:
+      1:
+        id: "przemytnik_quest_8_1_1"
+        type: "przynies"
+        targetName: "&6Zlota moneta"
+        message: "Daj Utharowi 30 zlotych monet na splate dlugu: %stan%"
+        ilosc: 30

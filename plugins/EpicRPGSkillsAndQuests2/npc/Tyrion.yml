@@ -1,0 +1,14 @@
+name: "&aTyrion"
+title: "&aTyrion - dowodca"
+size: 9
+slots:
+  8:
+    item: "Walka1"
+    max: 85
+    wymagania:
+      - "klasa: &2Mysliwy"
+  9:
+    item: "Walka2"
+    max: 85
+    wymagania:
+      - "klasa: &2Mysliwy"

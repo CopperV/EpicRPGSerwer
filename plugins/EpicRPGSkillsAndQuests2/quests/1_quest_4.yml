@@ -1,0 +1,26 @@
+id: "1_quest_4"                                
+name: "&bNapadniete wozy"                          
+zleceniodawca: "&8&lRangar"                       
+lore:                                               
+  - "&aOstatnio napadnieto bardzo wplywowego kupca."
+  - "&aZamiast radowac sie, ze uszedl z zyciem,"
+  - "&ato zaczal nas oskarzac, ze to nasza wina,"
+  - "&aze na niego napadnieto."
+  - "&aTrzeba odzyskac choc odrobine jego majatku,"
+  - "&aby nie robil zadnych problemow."
+prize:                                    
+  - "xp: 785"
+require:                                            
+  - "level: 6"
+  - "quest: 1_quest_3"
+stopnie:
+  1:
+    talking: true
+    message: "&8&lRangar&7: &aTo powinno na spokojnie pokryc ego tego kupca"
+    targets:
+      1:
+        id: "1_quest_4_1_1"
+        type: "przynies"
+        targetName: "&6Zloto"
+        message: "Przynies 18 sztabek zlota bandytow: %stan%"
+        ilosc: 18

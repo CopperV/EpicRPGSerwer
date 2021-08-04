@@ -1,0 +1,2315 @@
+Azmodan:
+  Type: zombie
+  Display: "&c&lAzmodan - BOSS"
+  Health: 48000
+  Damage: 175
+  Modules:
+    ThreatTable: true
+  BossBar:
+    Enabled: true
+    Title: '&2==] &c&lAzmodan &8< &c<caster.hp> &4❤ &8> &2[=='
+    Color: RED
+    Range: 20
+    Style: SEGMENTED_10
+  Disguise:
+    Type: player
+    Skin: Azmodan_0
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=AzmodanSpawn} ~onSpawn
+  - randomskill{skills=AzmodanSkill2,AzmodanSkill1,AzmodanSkill3} ~onDamaged 0.15
+  - command{c="sbgive <trigger.name> Mroczna_Pieczec 1"} @trigger ~onDeath
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.3
+    KnockbackResistance: 0.9
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - B4:4
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  Drops:
+  - Szczaw_Krolewski 1 0.05
+AzmodanSummon:
+  Type: zombie
+  Health: 3250
+  Damage: 160
+  Display: "&5&oSlowo pustki"
+  Disguise:
+    Type: player
+    Skin: EmperiumVoid
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    Despawn: true
+    FollowRange: 100
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.33
+    KnockbackResistance: 0.35
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Skills:
+  - skill{s=Manifestacja_Skill2} ~onTimer:40 0.1
+  - threat{amount=-5} ~onDamaged
+  - skill{s=MobRemove} ~onTimer:100
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  Equipment:
+  - B4:4
+AzmodanMissile:
+  Type: villager
+  Health: 10000
+  Damage: 0
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=AzmodanMissileSpawn} ~onSpawn
+  Options:
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    Invincible: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    HasTrades: false
+  Disguise:
+    Type: villager
+    Invisible: true
+Mefisto:
+  Type: zombie
+  Display: "&3&lMefisto - BOSS"
+  Health: 41500
+  Damage: 190
+  Faction: Mefisto
+  Modules:
+    ThreatTable: true
+  BossBar:
+    Enabled: true
+    Title: '&5==] &3&lMefisto &8< &c<caster.hp> &4❤ &8> &5[=='
+    Color: BLUE
+    Range: 20
+    Style: SEGMENTED_10
+  Disguise:
+    Type: player
+    Skin: Mefisto31
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=MefistoSpawn} ~onSpawn
+  - randomskill{skills=MefistoSkill2,MefistoSkill1,MefistoSkill3} ~onDamaged 0.15
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.34
+    KnockbackResistance: 1
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - B4:4
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  Drops:
+  - Szczaw_Krolewski 1 0.05
+MefistoSummon:
+  Type: zombie
+  Display: "&8&oUtrapiona dusza - BOSS"
+  Health: 1250
+  Damage: 140
+  Modules:
+    ThreatTable: true
+  Disguise:
+    Type: player
+    Skin: PenguinGolem
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=UtrapionaDusza_Skill1} ~onTimer:60
+  Faction: Mefisto
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.34
+    KnockbackResistance: 1
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - B4:4
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  Drops:
+  - Szczaw_Krolewski 1 0.05
+MefistoProjectile:
+  Type: villager
+  Health: 10000
+  Damage: 0
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=TormentMefisto_Skill1} ~onSpawn
+  Options:
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    Invincible: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    HasTrades: false
+  Disguise:
+    Type: villager
+    Invisible: true
+Eden:
+  Type: zombie
+  Display: "&9&lEden - BOSS"
+  Health: 40000
+  Damage: 210
+  Modules:
+    ThreatTable: true
+  BossBar:
+    Enabled: true
+    Title: '&5==] &9&lEden &8< &c<caster.hp> &4❤ &8> &5[=='
+    Color: BLUE
+    Range: 20
+    Style: SEGMENTED_10
+  Disguise:
+    Type: player
+    Skin: eden441
+  Skills:
+  - skill{s=EdenSpawn} ~onSpawn
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=EdenProtection} ~onDamaged
+  - randomskill{skills=EdenSkill1,EdenSkill2,EdenSkill3} ~onDamaged 0.15
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.33
+    KnockbackResistance: 0.65
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - B4:4
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  Drops:
+  - Szczaw_Krolewski 1 0.05
+EdenBook:
+  Type: zombie
+  Display: "&5Zakleta ksiazka"
+  Health: 1200
+  Damage: 140
+  Skills:
+  - effect:particles{particle=enchantmenttable;amount=20;speed=0.2;hS=0.4;vS=0.4;y=1.8} @self ~onTimer:5
+  - effect:sound{s=entity.enderdragon.flap;v=1;p=1.5} ~onDamaged
+  - effect:sound{s=entity.enderdragon.flap;v=1;p=0.5} ~onDeath
+  - potion{type=BLINDNESS;duration=100;level=2} ~onAttack
+  - skill{s=MobRemove} ~onTimer:100
+#  - skill{s=TormentMefisto_Skill1} ~onSpawn
+  Options:
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    PreventSunburn: true
+    KnockbackResistance: 0.1
+    KnockbackResistance: 0.35
+  Equipment:
+  - BookHeadMob:4
+  Disguise:
+    Type: player
+    Skin: nefarius
+    Invisible: true
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+EdenCrystal:
+  Type: sheep
+  Display: "&5Krysztal Edena"
+  Health: 1500
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  Skills:
+  - effect:particles{particle=enchantmenttable;amount=40;speed=0.3;hS=0.7;vS=0.7;y=0.4} @self ~onTimer:5
+  - effect:sound{s=item.totem.use;v=2;p=0.4} ~onDamaged
+  - skill{s=EdenCrystalDeath} ~onDeath
+  - skill{s=EdenCrystalProjectile} ~onTimer:80
+  - skill{s=MobRemove} ~onTimer:100
+  - stun{d=4000} @self ~onTimer:4000
+  Options:
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    HasTrades: false
+    Collidable: false
+  Disguise:
+    Type: ender_crystal
+Ender:
+  Type: zombie
+  Display: "&5&lEnder - BOSS"
+  Health: 37500
+  Damage: 200
+  Modules:
+    ThreatTable: true
+  BossBar:
+    Enabled: true
+    Title: '&c==] &5&lEnder &8< &c<caster.hp> &4❤ &8> &c[=='
+    Color: Purple
+    Range: 20
+    Style: SEGMENTED_10
+  Disguise:
+    Type: player
+    Skin: BBFR_Deathwing
+  Skills:
+  - skill{s=EnderSpawn} ~onSpawn
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=EnderSkill3_AttackEffect} ~onAttack
+  - randomskill{skills=EnderSkill3,EnderSkill1,EnderSkill2} ~onDamaged 0.15
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.4
+    KnockbackResistance: 0.4
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - B4:4
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  Drops:
+  - Szczaw_Krolewski 1 0.05
+EnderSummon:
+  Type: zombie
+  Display: "&5Ender - BOSS"
+  Health: 2000
+  Damage: 200
+  Modules:
+    ThreatTable: true
+  Disguise:
+    Type: player
+    Skin: BBFR_Deathwing
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.4
+    KnockbackResistance: 0.4
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - B4:4
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+EnderEndermite:
+  Type: endermite
+  Display: "&5Szczur Pustki"
+  Health: 1200
+  Damage: 150
+  Modules:
+    ThreatTable: true
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.32
+    KnockbackResistance: 0
+    PreventSunburn: true
+Ur-Vatah:
+  Type: zombie
+  Display: "&4&lUr-Vatah - BOSS"
+  Health: 55555
+  Damage: 170
+  Modules:
+    ThreatTable: true
+  BossBar:
+    Enabled: true
+    Title: '&7==] &4&lUr-Vatah &8< &c<caster.hp> &4❤ &8> &7[=='
+    Color: RED
+    Range: 20
+    Style: SEGMENTED_10
+  Disguise:
+    Type: player
+    Skin: Varok_Saurfang_
+  Skills:
+  - skill{s=UrVatahSpawn} ~onSpawn
+  - randomskill{skills=UrVatahSkill3,UrVatahSkill2,UrVatahSkill1} ~onDamaged 0.15
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.29
+    KnockbackResistance: 1
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - B4:4
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  Drops:
+  - Szczaw_Krolewski 1 0.05
+Ur-VatahSummon:
+  Type: zombie
+  Display: "&b&oStraznik Sanktuarium"
+  Health: 4500
+  Damage: 160
+  Modules:
+    ThreatTable: true
+  Disguise:
+    Type: player
+    Skin: IvenAries
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.31
+    KnockbackResistance: 1
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - B4:4
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+Ur-VatahSystem:
+  Type: villager
+  Health: 10000
+  Damage: 0
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=Ur-VatahSystem_Particles} ~onTimer:10
+  - skill{s=Ur-VatahSystem_Projectile} ~onTimer:60
+  - skill{s=Ur-VatahSystem_Spawn} ~onSpawn
+  Options:
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    Invincible: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    HasTrades: false
+  Disguise:
+    Type: villager
+    Invisible: true
+Dakat:
+  Type: zombie
+  Display: "&8&lDakat - BOSS"
+  Health: 50000
+  Damage: 185
+  Modules:
+    ThreatTable: true
+  BossBar:
+    Enabled: true
+    Title: '&3==] &8&lDakat &8< &c<caster.hp> &4❤ &8> &3[=='
+    Color: WHITE
+    Range: 20
+    Style: SEGMENTED_10
+  Disguise:
+    Type: player
+    Skin: SphexGuldan
+  Skills:
+  - skill{s=DakatSpawn} ~onSpawn
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=DakatSkill3_Defense} ~onDamaged
+  - skill{s=DakatSkill2_AttackEffect;sync=true} ~onAttack
+  - skill{s=DakatSkill2_AttackParticles} ~onTimer:5
+  - randomskill{skills=DakatSkill2,DakatSkill1,DakatSkill3} ~onDamaged 0.15
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.31
+    KnockbackResistance: 0.8
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - B4:4
+  - Mithrilowe_Ostrze:0
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  Drops:
+  - Szczaw_Krolewski 1 0.05
+DakatSummon:
+  Type: skeleton
+  Display: "&7Szkielet Wojownik"
+  Health: 2750
+  Damage: 170
+  Modules:
+    ThreatTable: true
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.31
+    KnockbackResistance: 0.8
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - IRON_SWORD:0
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+Kadar:
+  Type: zombie
+  Display: "&8&lKadar - BOSS"
+  Health: 50000
+  Damage: 185
+  Modules:
+    ThreatTable: true
+  BossBar:
+    Enabled: true
+    Title: '&3==] &8&lKadar &8< &c<caster.hp> &4❤ &8> &3[=='
+    Color: WHITE
+    Range: 20
+    Style: SEGMENTED_10
+  Disguise:
+    Type: player
+    Skin: deathwing54321
+  Skills:
+  - skill{s=KadarSpawn} ~onSpawn
+  - skill{s=MobRemove} ~onTimer:100
+  - randomskill{skills=KadarSkill1,KadarSkill2,KadarSkill3} ~onDamaged 0.15
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.31
+    KnockbackResistance: 0.8
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - B4:4
+  - Godendar:0
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  Drops:
+  - Szczaw_Krolewski 1 0.05
+KadarSummon:
+  Type: zombie
+  Display: "&c&lPlomyk Pustki"
+  Health: 1500
+  Damage: 260
+  Modules:
+    ThreatTable: true
+  Skills:
+  - ignite{ticks=100} @trigger ~onAttack
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.34
+    KnockbackResistance: 1
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  Disguise:
+    Type: blaze
+Senga:
+  Type: zombie
+  Display: "&8&lSenga - BOSS"
+  Health: 50000
+  Damage: 185
+  Modules:
+    ThreatTable: true
+  BossBar:
+    Enabled: true
+    Title: '&3==] &8&lSenga &8< &c<caster.hp> &4❤ &8> &3[=='
+    Color: WHITE
+    Range: 20
+    Style: SEGMENTED_10
+  Disguise:
+    Type: player
+    Skin: deathwingaa
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=SengaSkill2_Particles} ~onTimer:5
+  - skill{s=SengaSpawn} ~onSpawn
+  - randomskill{skills=SengaSkill1,SengaSkill3} ~onDamaged 0.15
+  - skill{s=SengaSkill1_Defense} ~onDamaged
+  - skill{s=SengaSkill2_Defense} ~onDamaged
+  - skill{s=SengaSkill2} ~onDamaged =80%
+  - skill{s=SengaSkill2} ~onDamaged =60%
+  - skill{s=SengaSkill2} ~onDamaged =40%
+  - skill{s=SengaSkill2} ~onDamaged =20%
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.31
+    KnockbackResistance: 0.8
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - B4:4
+  - Dobry_Miecz_Magiczny_Mob:0
+  - SengaShield:OFFHAND
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  Drops:
+  - Szczaw_Krolewski 1 0.05
+SengaSummon:
+  Type: skeleton
+  Display: "&8Pan Cienia"
+  Health: 5000
+  Damage: 185
+  Modules:
+    ThreatTable: true
+  Skills:
+  - skill{s=SengaSummonSkill_AttackEffect;sync=true} ~onAttack
+  - skill{s=SengaSummonSkill_AttackParticles} ~onTimer:5
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=SengaSummonSkill} ~onDamaged 0.1
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.31
+    KnockbackResistance: 0.8
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - IRON_SWORD:0
+  - IRON_HELMET:4
+  - IRON_CHESTPLATE:3
+  - IRON_LEGGINGS:2
+  - IRON_BOOTS:1
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+Surtur:
+  Type: zombie
+  Display: "&4&lSurtur - BOSS"
+  Health: 65000
+  Damage: 230
+  Modules:
+    ThreatTable: true
+  BossBar:
+    Enabled: true
+    Title: '&c==] &4&lSurtur &8< &c<caster.hp> &4❤ &8> &c[=='
+    Color: RED
+    Range: 20
+    Style: SEGMENTED_12
+  Disguise:
+    Type: player
+    Skin: deathwing909
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=SurturSpawn} ~onSpawn
+  - randomskill{skills=SurturSkill2,SurturSkill1,SurturSkill3} ~onDamaged 0.15
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.26
+    KnockbackResistance: 1
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - B4:4
+  - Ostrze_Morgulu:0
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  Drops:
+  - Szczaw_Krolewski 1 0.05
+SurturTornado:
+  Type: Villager
+  Health: 10000
+  Damage: 0
+  Disguise:
+    Type: villager
+    Invisible: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 3 randomstroll
+  - 4 opendoors
+  - 5 closedoors
+  - 6 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 OtherFactionMonsters
+  - 4 OtherFaction
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=SurturTornado} ~onTimer:10 1
+  - skill{s=SurturAttack} ~onTimer:5 1
+  - skill{s=SurturDeath} ~onSpawn
+  - healpercent{m=1} @self ~onDamaged
+  Options:
+    AlwaysShowName: false
+    FollowRange: 100
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: false
+    MovementSpeed: 0.35
+    KnockbackResistance: 1
+    HasTrades: false
+#    Invincible: true
+    Silent: true
+SurturMeteor:
+  Type: villager
+  Health: 10000
+  Damage: 0
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=SurturMeteorSpawn} ~onSpawn
+  Options:
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    Invincible: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    HasTrades: false
+  Disguise:
+    Type: villager
+    Invisible: true
+Avabyul:
+  Type: zombie
+  Display: "&8&lAvabyul - BOSS"
+  Health: 42000
+  Damage: 220
+  Modules:
+    ThreatTable: true
+  BossBar:
+    Enabled: true
+    Title: '&0==] &8&lAvabyul &8< &c<caster.hp> &4❤ &8> &0[=='
+    Color: WHITE
+    Range: 20
+    Style: SEGMENTED_10
+  Disguise:
+    Type: player
+    Skin: BellaDimitrescu
+  Skills:
+  - skill{s=AvabyulSpawn} ~onSpawn
+  - randomskill{skills=AvabyulSkill2,AvabyulSkill1,AvabyulSkill3} ~onDamaged 0.15
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.38
+    KnockbackResistance: 0.4
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - B4:4
+  - Inkwizytor_Mob:0
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  Drops:
+  - Szczaw_Krolewski 1 0.05
+AvabyulPortal:
+  Type: sheep
+  Display: "&5Portal Beliara"
+  Health: 3500
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  Skills:
+  - effect:particles{particle=largesmoke;amount=20;speed=0.1;hS=0.2;vS=0.2;y=5} @self ~onTimer:5
+  - effect:sound{s=item.totem.use;v=2;p=0.6} ~onDamaged
+  - skill{s=AvabyulPortalDeath} ~onDeath
+  - summon{type=AvabyulSummon;amount=1} @Forward{f=0;y=5} ~onTimer:100
+  - skill{s=MobRemove} ~onTimer:100
+  - stun{d=4000;stopai=true;facing=false} @self ~onTimer:4000
+  Options:
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    HasTrades: false
+    Collidable: false
+  Disguise:
+    Type: ender_crystal
+AvabyulSummon:
+  Type: zombie
+  Display: "&5Pomiot Beliara"
+  Health: 2000
+  Damage: 180
+  Modules:
+    ThreatTable: true
+  Disguise:
+    Type: zombie
+    Invisible: true
+  Skills:
+  - effect:particles{particle=largesmoke;amount=10;speed=0.05;hS=0.3;vS=0.3;y=1.5} ~onTimer:5 @self
+  - sound{s=entity.blaze.hurt;v=1;p=0.5} @self ~onDamaged 
+  - sound{s=entity.blaze.death;v=1;p=0.5} @self ~onDeath
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.34
+    KnockbackResistance: 1
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    Silent: true
+  Equipment:
+  - O9:4
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+AvabyulProjectile:
+  Type: villager
+  Health: 10000
+  Damage: 0
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=AvabyulProjectile_Skill1} ~onSpawn
+  Options:
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    Invincible: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    HasTrades: false
+  Disguise:
+    Type: villager
+    Invisible: true
+Golem_Pustki:
+  Type: zombie
+  Display: "&8&lGolem Pustki - BOSS"
+  Health: 70000
+  Damage: 190
+  Modules:
+    ThreatTable: true
+  BossBar:
+    Enabled: true
+    Title: '&0==] &8&lGolem Pustki &8< &c<caster.hp> &4❤ &8> &0[=='
+    Color: WHITE
+    Range: 20
+    Style: SEGMENTED_12
+  Disguise:
+    Type: IRON_GOLEM
+  Skills:
+  - skill{s=Golem_PustkiSpawn} ~onSpawn
+  - randomskill{skills=Golem_PustkiSkill2,Golem_PustkiSkill3,Golem_PustkiSkill1} ~onDamaged 0.15
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.25
+    KnockbackResistance: 1
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - B4:4
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  Drops:
+  - Szczaw_Krolewski 1 0.05
+Golem_Pustki_Rock:
+  Type: villager
+  Health: 10000
+  Damage: 0
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=Golem_Pustki_RockSpawn} ~onSpawn
+  Options:
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    Invincible: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    HasTrades: false
+  Disguise:
+    Type: villager
+    Invisible: true
+Golem_PustkiSzczelina:
+  Type: villager
+  Health: 10000
+  Damage: 0
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=Golem_PustkiSzczelina_Particles} ~onTimer:10
+  - skill{s=Golem_PustkiSzczelina_Projectile} ~onTimer:40
+  - skill{s=Golem_PustkiSzczelina_Spawn} ~onSpawn
+  Options:
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    Invincible: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    HasTrades: false
+  Disguise:
+    Type: villager
+    Invisible: true
+Chel_Drak:
+  Type: zombie
+  Display: "&7&lChel Drak - BOSS"
+  Health: 49000
+  Damage: 200
+  Modules:
+    ThreatTable: true
+  BossBar:
+    Enabled: true
+    Title: '&4==] &7&lChel Drak &8< &c<caster.hp> &4❤ &8> &4[=='
+    Color: WHITE
+    Range: 20
+    Style: SEGMENTED_10
+  Disguise:
+    Type: player
+    Skin: Yaac_The_Great
+  Skills:
+  - skill{s=Chel_Drak_Spawn} ~onSpawn
+  - skill{s=Chel_Drak_End} ~onDeath
+  - skill{s=Chel_Drak_End} ~onDespawn
+  - randomskill{skills=Chel_Drak_Skill2,Chel_Drak_Skill1,Chel_Drak_Skill3} ~onDamaged 0.15
+  - skill{s=Chel_Drak_Skill3_AttackEffect;sync=true} ~onAttack
+  - skill{s=Chel_Drak_Skill3_AttackParticles} ~onTimer:5
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.28
+    KnockbackResistance: 1
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - B4:4
+  - Aleor:0
+  - Aleor:OFFHAND
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  Drops:
+  - Szczaw_Krolewski 1 0.05
+Chel_Drak_Herobrine:
+  Type: villager
+  Display: "&9&lHerobrine - Legendary Boss"
+  Health: 400000
+  Damage: 0
+  BossBar:
+    Enabled: true
+    Title: '&9==] &3&lHEROBRINE &8< &c<caster.hp> &4❤ &8> &9[=='
+    Color: BLUE
+    Range: 50
+    Style: SEGMENTED_20
+    CreateFog: true
+    DarkenSky: true
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  Options:
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    Invincible: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    HasTrades: false
+  Disguise:
+    Type: player
+    Skin: Conner_Herobrine
+    Sneaking: true
+  Skills:
+  - skill{s=Chel_Drak_Herobrine_Spawn} ~onSpawn
+  - skill{s=Chel_Drak_Herobrine_Check} ~onTimer:20
+  - skill{s=Chel_Drak_HerobrineSkill1} ~onSignal:HERO_CHEL_SKILL_1
+  - skill{s=Chel_Drak_HerobrineSkill2} ~onSignal:HERO_CHEL_SKILL_2
+  - skill{s=Chel_Drak_HerobrineSkill3} ~onSignal:HERO_CHEL_SKILL_3
+  - skill{s=MobRemove} ~onTimer:100
+Chel_Drak_Summon:
+  Type: zombie
+  Display: "&5Cien Pustki"
+  Health: 4250
+  Damage: 165
+  Modules:
+    ThreatTable: true
+  Disguise:
+    Type: player
+    Skin: nefarius
+    Invisible: true
+  Skills:
+  - effect:particles{particle=largesmoke;amount=15;speed=0.05;hS=0.3;vS=0.75;y=1} ~onTimer:5 @self
+  - sound{s=entity.blaze.hurt;v=1;p=0.5} @self ~onDamaged 
+  - sound{s=entity.blaze.death;v=1;p=0.5} @self ~onDeath
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.37
+    KnockbackResistance: 1
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    Silent: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+Chel_Drak_Herobrine_Target:
+  Type: Villager
+  Health: 10000
+  Damage: 0
+  Disguise:
+    Type: villager
+    Invisible: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 3 randomstroll
+  - 4 opendoors
+  - 5 closedoors
+  - 6 float
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+  - 3 OtherFactionMonsters
+  - 4 OtherFaction
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=Chel_Drak_Herobrine_Target_Spawn} ~onSpawn
+  Options:
+    AlwaysShowName: false
+    FollowRange: 100
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: false
+    MovementSpeed: 0.35
+    KnockbackResistance: 1
+    HasTrades: false
+#    Invincible: true
+    Silent: true
+Tiamant:
+  Type: zombie
+  Display: "&2&lTiamant - BOSS"
+  Health: 38000
+  Damage: 210
+  Modules:
+    ThreatTable: true
+  BossBar:
+    Enabled: true
+    Title: '&a==] &2&lTiamant &8< &c<caster.hp> &4❤ &8> &a[=='
+    Color: GREEN
+    Range: 20
+    Style: SEGMENTED_10
+  Disguise:
+    Type: player
+    Skin: Tarantula
+  Skills:
+  - skill{s=TiamantSpawn} ~onSpawn
+  - randomskill{skills=TiamantSkill2,TiamantSkill1,TiamantSkill3} ~onDamaged 0.15
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.36
+    KnockbackResistance: 0.6
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - B4:4
+  - Katana:0
+  - Katana:OFFHAND
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  Drops:
+  - Szczaw_Krolewski 1 0.05
+TiamantSummon:
+  Type: zombie
+  Display: "&5Assasyn Pustki"
+  Health: 2200
+  Damage: 170
+  Modules:
+    ThreatTable: true
+  Disguise:
+    Type: player
+    Skin: nefarius
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.38
+    KnockbackResistance: 1
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - B4:4
+  - Katana:0
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+Osair:
+  Type: zombie
+  Display: "&2&lOsair - BOSS"
+  Health: 40000
+  Damage: 190
+  Modules:
+    ThreatTable: true
+  BossBar:
+    Enabled: true
+    Title: '&a==] &2&lOsair &8< &c<caster.hp> &4❤ &8> &a[=='
+    Color: GREEN
+    Range: 20
+    Style: SEGMENTED_10
+  Disguise:
+    Type: player
+    Skin: Deathwyng
+  Skills:
+  - skill{s=OsairSpawn} ~onSpawn
+  - skill{s=OsairSkill2_Defense} ~onDamaged
+  - skill{s=OsairSkill_AttackEffect;sync=true} ~onAttack
+  - randomskill{skills=OsairSkill1,OsairSkill2,OsairSkill3} ~onDamaged 0.15
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=OsairSkill_AttackParticles} ~onTimer:5
+  - skill{s=OsairSkill_AttackPotion} ~onTimer:50
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.34
+    KnockbackResistance: 0.8
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - B4:4
+  - Katana:0
+  - Katana:OFFHAND
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  Drops:
+  - Szczaw_Krolewski 1 0.05
+OsairSummon:
+  Type: zombie
+  Display: "&5Cien Masjafu"
+  Health: 2000
+  Damage: 190
+  Modules:
+    ThreatTable: true
+  Disguise:
+    Type: player
+    Skin: DarkAssasine
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.38
+    KnockbackResistance: 1
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - B4:4
+  - Katana:0
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+Nrozas:
+  Type: zombie
+  Display: "&2&lNrozas - BOSS"
+  Health: 30000
+  Damage: 270
+  Modules:
+    ThreatTable: true
+  BossBar:
+    Enabled: true
+    Title: '&5==] &2&lNrozas &8< &c<caster.hp> &4❤ &8> &5[=='
+    Color: GREEN
+    Range: 20
+    Style: SEGMENTED_10
+  Disguise:
+    Type: player
+    Skin: enderwolf700
+  Skills:
+  - skill{s=NrozasSpawn} ~onSpawn
+  - randomskill{skills=NrozasSkill1,NrozasSkill2,NrozasSkill3} ~onDamaged 0.15
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.28
+    KnockbackResistance: 0.3
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - B4:4
+  - Katana:0
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  Drops:
+  - Szczaw_Krolewski 1 0.05
+NrozasDragon:
+  Type: silverfish
+  Health: 10000
+  Damage: 0
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=NrozasProjectileSpawn} ~onSpawn
+  Options:
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    Invincible: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    HasTrades: false
+  Disguise:
+    Type: villager
+    Invisible: true
+NrozasCrystal:
+  Type: sheep
+  Display: "&5Krysztal Nrozasa"
+  Health: 10000
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  Skills:
+  - skill{s=NrozasCrystalSpawn} ~onSpawn
+  - skill{s=NrozasCrystalProjectile} ~onTimer:20
+  - skill{s=MobRemove} ~onTimer:100
+  - stun{d=4000} @self ~onTimer:4000
+  Options:
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    Invincible: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    HasTrades: false
+    Collidable: false
+  Disguise:
+    Type: villager
+    Invisible: true
+NrozasSummon:
+  Type: zombie
+  Display: "&5Eksperyment Nrozasa"
+  Health: 1900
+  Damage: 200
+  Modules:
+    ThreatTable: true
+  Disguise:
+    Type: zombie
+    Invisible: true
+  Skills:
+  - effect:particles{particle=largesmoke;amount=10;speed=0.03;hS=0.2;vS=0.4;y=1} ~onTimer:5 @self
+  - sound{s=entity.blaze.hurt;v=1;p=0.5} @self ~onDamaged 
+  - sound{s=entity.blaze.death;v=1;p=0.5} @self ~onDeath
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.31
+    KnockbackResistance: 1
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    Silent: true
+  Equipment:
+  - IRON_HELMET:4
+  - IRON_CHESTPLATE:3
+  - IRON_LEGGINGS:2
+  - IRON_BOOTS:1
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+Haniar:
+  Type: zombie
+  Display: "&2&lHaniar - BOSS"
+  Health: 42750
+  Damage: 200
+  Modules:
+    ThreatTable: true
+  BossBar:
+    Enabled: true
+    Title: '&a==] &2&lHaniar &8< &c<caster.hp> &4❤ &8> &a[=='
+    Color: GREEN
+    Range: 20
+    Style: SEGMENTED_10
+  Disguise:
+    Type: player
+    Skin: Blacktiamant
+  Skills:
+  - skill{s=HaniarSpawn} ~onSpawn
+  - randomskill{skills=HaniarSkill2,HaniarSkill3} ~onDamaged 0.15
+  - skill{s=HaniarSkill1} ~onDamaged =80%
+  - skill{s=HaniarSkill1} ~onDamaged =50%
+  - skill{s=HaniarSkill1} ~onDamaged =20%
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.38
+    KnockbackResistance: 0.85
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - B4:4
+  - Katana:0
+  - Katana:OFFHAND
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  Drops:
+  - Szczaw_Krolewski 1 0.05
+HaniarSummon2:
+  Type: villager
+  Health: 10000
+  Damage: 0
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=HaniarSummon2_Skill} ~onSpawn
+  Options:
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    Invincible: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    HasTrades: false
+  Disguise:
+    Type: villager
+    Invisible: true
+HaniarSummon:
+  Type: zombie
+  Display: "&5Rada Masjafu"
+  Health: 3500
+  Damage: 180
+  Modules:
+    ThreatTable: true
+  Disguise:
+    Type: player
+    Skin: enderassasin999
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.36
+    KnockbackResistance: 1
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - B4:4
+  - Katana:0
+  - Katana:OFFHAND
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+Oriana:
+  Type: zombie
+  Display: "&c&lOriana - BOSS"
+  Health: 23000
+  Damage: 250
+  Modules:
+    ThreatTable: true
+  BossBar:
+    Enabled: true
+    Title: '&4==] &c&lOriana &8< &c<caster.hp> &4❤ &8> &4[=='
+    Color: RED
+    Range: 20
+    Style: SEGMENTED_6
+  Disguise:
+    Type: player
+    Skin: InoxPL
+  Skills:
+  - skill{s=OrianaSpawn} ~onSpawn
+  - randomskill{skills=OrianaSkill1,OrianaSkill3} ~onDamaged 0.15
+  - randomskill{skills=OrianaSkill2} ~onAttack
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.42
+    KnockbackResistance: 0.5
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - B4:4
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  Drops:
+  - Szczaw_Krolewski 1 0.05
+OrianaBat:
+  Type: parrot
+  Display: "&5Nietoperzy Wampir"
+  Health: 750
+  Damage: 1
+  Disguise:
+    Type: bat
+  Modules:
+    ThreatTable: true
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=OrianaBat_Mount} ~onTimer:5
+  - skill{s=OrianaBat_Damage} ~onTimer:10
+  - skill{s=OrianaBat_Dismount} ~onDamaged
+  - leap{velocity=60} @NearestPlayer{r=25} ~onTimer:10
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.9
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 3 randomstroll
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 2 attacker
+Antramentor:
+  Type: zombie
+  Display: "&7&lAntramentor - BOSS"
+  Health: 75000
+  Damage: 180
+  Modules:
+    ThreatTable: true
+  BossBar:
+    Enabled: true
+    Title: '&e==] &7&lAntramentor &8< &c<caster.hp> &4❤ &8> &e[=='
+    Color: WHITE
+    Range: 20
+    Style: SEGMENTED_12
+  Disguise:
+    Type: IRON_GOLEM
+  Skills:
+  - skill{s=AntramentorSpawn} ~onSpawn
+  - randomskill{skills=AntramentorSkill1,AntramentorSkill2,AntramentorSkill3} ~onDamaged 0.15
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.32
+    KnockbackResistance: 1
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - B4:4
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  Drops:
+  - Szczaw_Krolewski 1 0.05
+Antramentor_Rock:
+  Type: villager
+  Health: 10000
+  Damage: 0
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=Antramentor_RockSpawn} ~onSpawn
+  Options:
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    Invincible: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    HasTrades: false
+  Disguise:
+    Type: villager
+    Invisible: true
+AntramentorSummon:
+  Type: zombie
+  Display: "&5Pomiot Pustki"
+  Health: 2700
+  Damage: 180
+  Modules:
+    ThreatTable: true
+  Disguise:
+    Type: zombie
+    Invisible: true
+  Skills:
+  - effect:particles{particle=largesmoke;amount=10;speed=0.03;hS=0.2;vS=0.4;y=1} ~onTimer:5 @self
+  - sound{s=entity.blaze.hurt;v=1;p=0.5} @self ~onDamaged 
+  - sound{s=entity.blaze.death;v=1;p=0.5} @self ~onDeath
+  - heal{amount=200} @MIR{r=50;t=Antramentor} ~onAttack
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.34
+    KnockbackResistance: 1
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    Silent: true
+  Equipment:
+  - O9:4
+  - IRON_CHESTPLATE:3
+  - IRON_LEGGINGS:2
+  - IRON_BOOTS:1
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+AntramentorMissile:
+  Type: sheep
+  Display: "&5Krysztal Nrozasa"
+  Health: 10000
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  Skills:
+  - skill{s=AntramentorMissileSpawn} ~onSpawn
+  - skill{s=AntramentorMissileSkill} ~onTimer:80
+  - skill{s=MobRemove} ~onTimer:100
+  - stun{d=4000} @self ~onTimer:4000
+  Options:
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    Invincible: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    HasTrades: false
+    Collidable: false
+  Disguise:
+    Type: villager
+    Invisible: true
+Grashaal:
+  Type: zombie
+  Display: "&8&lGrashaal - BOSS"
+  Health: 45000
+  Damage: 195
+  Modules:
+    ThreatTable: true
+  BossBar:
+    Enabled: true
+    Title: '&9==] &8&lGrashaal &8< &c<caster.hp> &4❤ &8> &9[=='
+    Color: WHITE
+    Range: 20
+    Style: SEGMENTED_10
+  Disguise:
+    Type: player
+    Skin: Acceleron
+  Skills:
+  - skill{s=GrashaalSpawn} ~onSpawn
+  - randomskill{skills=GrashaalSkill2,GrashaalSkill3} ~onDamaged 0.15
+  - skill{s=GrashaalSkill1} ~onDamaged =85%
+  - skill{s=GrashaalSkill1} ~onDamaged =60%
+  - skill{s=GrashaalSkill1} ~onDamaged =45%
+  - skill{s=GrashaalSkill1} ~onDamaged =30%
+  - skill{s=GrashaalSkill1} ~onDamaged =15%
+  - skill{s=GrashaalSkill1} ~onDamaged =5%
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.31
+    KnockbackResistance: 1
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - B4:4
+  - ELYTRA:3
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  Drops:
+  - Szczaw_Krolewski 1 0.05
+GrashaalProjectile:
+  Type: villager
+  Health: 10000
+  Damage: 0
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=GrashaalProjectile_Skill} ~onSpawn
+  Options:
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    Invincible: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    HasTrades: false
+  Disguise:
+    Type: villager
+    Invisible: true
+Kaal:
+  Type: zombie
+  Display: "&8&lKaal - BOSS"
+  Health: 45000
+  Damage: 195
+  Modules:
+    ThreatTable: true
+  BossBar:
+    Enabled: true
+    Title: '&9==] &8&lKaal &8< &c<caster.hp> &4❤ &8> &9[=='
+    Color: WHITE
+    Range: 20
+    Style: SEGMENTED_10
+  Disguise:
+    Type: player
+    Skin: TheOceanSpirit__
+  Skills:
+  - skill{s=KaalSpawn} ~onSpawn
+  - randomskill{skills=KaalSkill1,KaalSkill2,KaalSkill3} ~onDamaged 0.15
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=KaalSkill_AttackPotion} ~onTimer:50
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.34
+    KnockbackResistance: 1
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - B4:4
+  - ELYTRA:3
+  - KaalOstrze:0
+  - KaalOstrze:OFFHAND
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  Drops:
+  - Szczaw_Krolewski 1 0.05
+KaalSummon:
+  Type: zombie
+  Display: "&8Komandos Kamiennego Legionu"
+  Health: 5000
+  Damage: 145
+  Modules:
+    ThreatTable: true
+  Disguise:
+    Type: player
+    Skin: QuietGargoyle
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.3
+    KnockbackResistance: 1
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - B4:4
+  - ELYTRA:3
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+KaalSummon1:
+  Type: zombie
+  Display: "&8Zywa zbroja"
+  Health: 3500
+  Damage: 150
+  Modules:
+    ThreatTable: true
+  Disguise:
+    Type: player
+    Skin: DarkAssasine
+    Invisible: true
+  Skills:
+  - sound{s=entity.blaze.hurt;v=1;p=0.5} @self ~onDamaged 
+  - sound{s=entity.blaze.death;v=1;p=0.5} @self ~onDeath
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.29
+    KnockbackResistance: 1
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    Silent: true
+  Equipment:
+  - IRON_HELMET:4
+  - IRON_CHESTPLATE:3
+  - IRON_LEGGINGS:2
+  - IRON_BOOTS:1
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+KaalSummon2:
+  Type: zombie
+  Display: "&8Zywe Ostrze"
+  Health: 1300
+  Damage: 235
+  Modules:
+    ThreatTable: true
+  Disguise:
+    Type: player
+    Skin: DarkAssasine
+    Invisible: true
+  Skills:
+  - sound{s=entity.blaze.hurt;v=1;p=0.5} @self ~onDamaged 
+  - sound{s=entity.blaze.death;v=1;p=0.5} @self ~onDeath
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.35
+    KnockbackResistance: 0.5
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    Silent: true
+  Equipment:
+  - IRON_SWORD:0
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors

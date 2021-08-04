@@ -1,0 +1,15 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&6&lRhobar"
+  - "&7[&e&lWLADCA ASSASYNOW&7]"
+skinid: 839872548
+location:
+  world: "F_RPG"
+  x: -705.5
+  y: 41.0
+  z: 374
+  yaw: 0
+  pitch: 25
+lookat: true

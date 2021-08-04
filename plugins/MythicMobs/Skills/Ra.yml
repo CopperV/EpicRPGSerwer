@@ -1,0 +1,59 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+RaSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &7Poznaj gniew budowniczych!"} @PlayersInRadius{r=20}
+  - delay 5
+  - effect:lightning @PIR{r=5}
+  - damage{a=40} @PIR{r=5}
+RaSummon1:
+  Cooldown: 1
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=60}
+  - message{m="<mob.name><&co> &7Jak zamierzasz pokonac mnie, Quarhodrona!?"} @PlayersInRadius{r=20}
+  - delay 5
+  - summon{mob=Egipt1;amount=1;noise=3} @Self
+  - summon{mob=Egipt2;amount=1;noise=3} @Self
+  - summon{mob=Egipt3;amount=1;noise=3} @Self
+RaAttack1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=65}
+  - message{m="<mob.name><&co> &7Poznaj moja moc - przywodcy kasty wojownikow"} @PlayersInRadius{r=20}
+  - delay 5
+  - shootfireball{y=4;v=1;i=false;ft=30;ps=true;sml=false} @target
+ReAttack2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=105}
+  - message{m="<mob.name><&co> &7PALIC!"} @PlayersInRadius{r=20}
+  - delay 15
+  - shootfireball{y=25;v=1;i=false;ft=30;ps=true;sml=true} @PlayersInRadius{r=20}
+  - delay 15
+  - shootfireball{y=25;v=1;i=false;ft=30;ps=true;sml=true} @PlayersInRadius{r=20}
+  - delay 15
+  - shootfireball{y=25;v=1;i=false;ft=30;ps=true;sml=true} @PlayersInRadius{r=20}
+ReAttack3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=65}
+  - message{m="<mob.name><&co> &7ADANOSIE. DAJ MI MOC, BY POWSTRZYMAC TYCH SZKODNIKOW"} @PlayersInRadius{r=10}
+  - delay 5
+  - effect:lightning @PIR{r=5}
+  - damage{a=60} @PIR{r=5}
+RaSummon2:
+  Cooldown: 1
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=65}
+  - message{m="<mob.name><&co> &7Budowniczowie powstana przeciw Tobie!"} @PlayersInRadius{r=20}
+  - delay 5
+  - summon{mob=Egipt5;amount=1;noise=3} @Self
+  - summon{mob=Egipt5;amount=1;noise=3} @Self

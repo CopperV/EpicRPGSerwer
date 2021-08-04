@@ -1,0 +1,30 @@
+id: "4_quest_18"
+name: "&5Amulety orkow"
+zleceniodawca: "&8Xardas"
+lore:
+  - "&aCzesto szamani orkow korzystaja"
+  - "&aze specjalnych magicznych amuletow."
+  - "&aSygnatura tych artefaktow sprawia,"
+  - "&aze my, ludzie, nie mozemy z nich korzystac."
+  - "&aMozemy jednak neutralizowac dzialania tych amuletow,"
+  - "&aa takze tworzyc nowe artefakty skutecznie"
+  - "&akontrujace dzialanie orkowych amuletow."
+  - "&aDo tego jedank potrzeba czasu i materialu."
+  - "&aTakze nie zwlekaj i przynies mi ich troche."
+  - "&aSzukaj ich przy orkowych szamanach"
+prize:
+  - "xp: 7800"
+require:
+  - "level: 36"
+  - "quest: 4_quest_14"
+stopnie:
+  1:
+    talking: true 
+    message: "&8Xardas&7: &aDoskonale... A teraz zobaczymy, co uda nam sie z tego wyczarowac..."    
+    targets:
+      1:
+        id: "4_quest_18_1_1"                     
+        type: "przynies"       
+        targetName: "&bAmulet orkow"                      
+        message: "Przynies 20 amuletow orkow: %stan%"
+        ilosc: 20

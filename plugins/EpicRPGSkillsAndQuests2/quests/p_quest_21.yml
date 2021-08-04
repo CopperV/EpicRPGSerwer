@@ -1,0 +1,27 @@
+id: "p_quest_21"                                
+name: "&4Zakazana magia"
+zleceniodawca: "&1Kairo"
+lore:                                               
+  - "&aCzarni magowie posluguja sie glownie magia smierci."
+  - "&aNie tylko jest zabojcza dla tych,"
+  - "&aco stana na drodze takiego zaklecia,"
+  - "&aale rowniez dla otoczenia, srodowiska,"
+  - "&akonczac na samym magu rzucajacym takie zaklecia."
+  - "&aDodatkowo magowie Nizara wzmacniaja swoje czary"
+  - "&aza pomoca zakletych ksiag."
+  - "&aPotrzeba je zdobyc, przebadac i zneutralizowac."
+prize:                                    
+  - "xp: 27500"
+  - "money: 390"
+require:                                            
+  - "level: 39"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "p_quest_21_1_1"
+        type: "przynies"
+        targetName: "&5Ksiega czarnej magii"
+        message: "Przynies 26 ksiag czarnej magii: %stan%"
+        ilosc: 26

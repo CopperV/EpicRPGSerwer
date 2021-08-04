@@ -1,0 +1,23 @@
+name: "&8&lRangar"
+title: "&8&lRangar - dowodca"
+size: 9
+slots:
+  1:
+    item: "1_quest_10"
+  2:
+    item: "1_quest_3"
+  3:
+    item: "1_quest_4"
+  4:
+    item: "1_quest_5"
+  5:
+    item: "1_quest_6"
+  6:
+    item: "1_quest_7"
+  7:
+    item: "1_quest_8"
+  8:
+    item: "1_quest_9"
+  9:
+    item: "zlecenie_bandit"
+

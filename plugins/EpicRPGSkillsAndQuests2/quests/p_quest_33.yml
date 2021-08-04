@@ -1,0 +1,88 @@
+id: "p_quest_33"                                
+name: "&1&lWezwanie Saturasa"
+zleceniodawca: "&3&lRiordian"
+lore:                                               
+  - "&aDobrze, ze jestes."
+  - "&aOtrzymalem polecenia od &1Saturasa&a."
+  - "&aA wlasciwie to Ty."
+  - "&aMasz sie u niego jak najszybciej zjawic."
+  - "&aPewnie chodzi o budowniczych."
+prize:                                    
+  - "xp: 69000"
+  - "money: 690"
+require:                                            
+  - "level: 60"
+  - "quest: p_quest_32"
+stopnie:
+  1:
+    talking: false
+    targets:
+      1:
+        id: "p_quest_33_1_1"
+        type: "zagadaj"
+        targetName: "&1Saturas"
+        message: "Zamelduj sie u Saturasa: %stan%"
+        dialog:
+          - "&1Saturas&7: &aAch, nareszcie jestes."
+          - "&1Saturas&7: &aTroche Ci zajelo przybycie tutaj."
+          - "&r%player%&7: &3&lRiordian &apowiedzial mi, ze cos waznego sie stalo."
+          - "&1Saturas&7: &aKolejne problemy z budowniczymi."
+          - "&1Saturas&7: &aOtwarcie portalu do Nowego Swiata sprawilo, ze zaczeli hordami wylazic spod piasku."
+          - "&1Saturas&7: &aSa niesamowicie agresywni, nie mozna w ogole sie poruszac po pustyni."
+          - "&1Saturas&7: &aTrzeba sie ich pozbyc zanim zaleja wyspe."
+  2:
+    talking: false
+    targets:
+      1:
+        id: "p_quest_33_2_1"
+        type: "zabij"
+        targetName: "&6Wojownik budowniczych"
+        message: "Pokonaj 250 Wojownikow Budowniczych: %stan%"
+        ilosc: 250
+      2:
+        id: "p_quest_33_2_2"
+        type: "zabij"
+        targetName: "&6Architekt budowniczych"
+        message: "Pokonaj 250 Architektow Budowniczych: %stan%"
+        ilosc: 250
+      3:
+        id: "p_quest_33_2_3"
+        type: "zabij"
+        targetName: "&6Strzelec budowniczych"
+        message: "Pokonaj 250 Strzelcow Budowniczych: %stan%"
+        ilosc: 250
+      4:
+        id: "p_quest_33_2_4"
+        type: "zabij"
+        targetName: "&6&lKaplan budowniczych"
+        message: "Pokonaj 250 Kaplanow Budowniczych: %stan%"
+        ilosc: 250
+  3:
+    talking: false
+    targets:
+      1:
+        id: "p_quest_33_3_1"
+        type: "zagadaj"
+        targetName: "&1Saturas"
+        message: "Poinformuj Saturasa o dokonanym postepie: %stan%"
+        dialog:
+          - "&r%player%&7: &aTo by bylo chyba na tyle."
+          - "&r%player%&7: &aNadal mozna spotkac budowniczych, lecz jest ich zdecydowanie mniej niz bylo pare chwil temu."
+          - "&1Saturas&7: &aDobrze sie spisales Synu."
+          - "&1Saturas&7: &aUdaj sie do &3&lRiordiana &ai powiedz, ze wykonales swoje zadanie."
+          - "&1Saturas&7: &aNiech Cie Adanos blogoslawi."
+  4:
+    talking: false
+    targets:
+      1:
+        id: "p_quest_33_4_1"
+        type: "zagadaj"
+        targetName: "&3&lRiordian"
+        message: "Poinformuj Riordiana o wykonanym zadaniu: %stan%"
+        dialog:
+          - "&3&lRiordian&7: &1Saturas &ami juz o wszystkim powiedzial."
+          - "&3&lRiordian&7: &aPodobno zostawiles mu nie mala robote ze sprzataniem rozpadajacych sie zwlok budowniczych."
+          - "&3&lRiordian&7: &aJak wczesniej nie dalo sie przejsc pol metra bez bycia zaatakowanym przez nieumarlego..."
+          - "&3&lRiordian&7: &aTak teraz nie mozna przejsc pol metra nie natrafiajac sie na zwloki budowniczego."
+          - "&3&lRiordian&7: &aW skrocie - dobra robota."
+          - "&3&lRiordian&7: &aPrzyjmij te pare miedziakow w nagrode."

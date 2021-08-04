@@ -1,0 +1,47 @@
+id: "p_quest_1"                                
+name: "&3Zaginiony oddzial"                          
+zleceniodawca: "&7Frithjof"                       
+lore:                                               
+  - "&aPare dni temu wyslalismy niewielki oddzial"
+  - "&apod przewodnictwem &cTavina"
+  - "&ana polnocna czesc lasu."
+  - "&aNiestety, gdzies zagineli."
+  - "&aOdnajdz ich, dowiedz sie, co sie stalo."
+prize:                                    
+  - "xp: 210"
+require:                                            
+  - "level: 5"
+  - "quest: 1_quest_2"
+stopnie:
+  1:
+    talking: false
+    targets:
+      1:
+        id: "p_quest_1_1_1"
+        type: "znajdz"
+        targetName: "tavin_cave"
+        message: "Sprawdz, co sie stalo z oddzialem Tavina: %stan%"
+  2:
+    talking: false
+    targets:
+      1:
+        id: "p_quest_2_1_1"
+        type: "zagadaj"
+        targetName: "&cTavin"
+        message: "Pogadaj z &cTavinem: %stan%"
+        dialog:
+          - "&r%player%&7: &bKim jestes? Co ty tutaj robisz?"
+          - "&cTavin&7: &aNazywam sie &cTavin&a. Wyruszylem ze swoim oddzialem pare dni temu na zwiady."
+          - "&r%player%&7: &bTo super. Przysyla mnie &7Frithjof&a. Martwi sie. Co sie stalo z twoim oddzialem?"
+          - "&cTavin&7: &aWpadlismy w zasadzke goblinich wojownikow. Tylko ja przetrwalem, ale zostalem przygwozdzony w tej jaskini. Powiedz &7Frithjofowi&a, by sprowadzil tutaj jakies posilki. Samemu nigdy sie stad nie wydostane."
+  3:
+    talking: false
+    targets:
+      1:
+        id: "p_quest_3_1_1"
+        type: "zagadaj"
+        targetName: "&7Frithjof"
+        message: "&4Poinformuj &7Frithjofa &4o sprawie &cTavina: %stan%"
+        dialog:
+          - "&r%player%&7: &bOdnalazlem oddzial &cTavina&b, a raczej samego dowodce. Wpadli w zasadzke goblinow, a &cTavin &bwpadl w potrzask. Potrzebuje pomocy."
+          - "&7Frithjof&7: &aJasna cholera. Nie mam obecnie ludzi, by go wyciagnac z lasu. Musi poki co sobie poradzic. Nie mniej jednak, dziekuje Ci za pomoc."

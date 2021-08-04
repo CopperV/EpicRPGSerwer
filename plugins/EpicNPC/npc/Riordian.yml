@@ -1,0 +1,15 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&3&lRiordian"
+  - "&7[&e&lMAG - ODKRYWCA&7]"
+skinid: 324289433
+location:
+  world: "Map113"
+  x: 88.5
+  y: 65.0
+  z: 224.5
+  yaw: -69
+  pitch: 2.5
+lookat: true

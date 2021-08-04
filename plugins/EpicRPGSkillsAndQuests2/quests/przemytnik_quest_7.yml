@@ -1,0 +1,85 @@
+id: "przemytnik_quest_7"                                
+name: "&9Poszerzanie wplywow"                          
+zleceniodawca: "&2Alima"                       
+lore:                                               
+  - "&aNawiazalismy juz kontakty z gildia zlodziei,"
+  - "&aco bylo nie lada osiagnieciem."
+  - "&7&lSaro &anadal jest malo."
+  - "&aChce teraz przekonac farmerow do swoich celow."
+  - "&aChce poszerzac swoje wplywy najbardziej,"
+  - "&ajak tylko sie da."
+  - "&aMysle, ze nam pomozesz."
+  - "&aPotrzeba przekoac Cratosa z wolnej farmy kolo przeleczy,"
+  - "&aFarima z farmy kolo lasu centralnego"
+  - "&aoraz Uthara z farmy pod miastem."
+  - "&aPowodzenia ;)"
+prize:                                    
+  - "xp: 150"
+require:                                            
+  - "level: 23"
+  - "quest: zlodziej_quest_4"
+stopnie:
+  1:
+    talking: false
+    message: "&r%player%&7: &bNo coz... Wydaje sie, ze bede miec co do roboty"
+    targets:
+      1:
+        id: "przemytnik_quest_7_1_1"
+        type: "znajdz"
+        targetName: "farma_miasto"
+        message: "Udaj sie do farmy Uthara przy miescie: %stan%"
+      2:
+        id: "przemytnik_quest_7_1_2"
+        type: "znajdz"
+        targetName: "wolnaf"
+        message: "Udaj sie do wolnej farmy Cratos na polnocy kolo przeleczy: %stan%"
+      3:
+        id: "przemytnik_quest_7_1_3"
+        type: "znajdz"
+        targetName: "farma1"
+        message: "Udaj sie do farmy Farima kolo lasu centralnego: %stan%"
+      4:
+        id: "przemytnik_quest_7_1_4"
+        type: "zagadaj"
+        targetName: "&e&lUthar"
+        message: "Porozmawiaj o wspolpracy z farmerem Utharem: %stan%"
+        dialog:
+          - "&r%player%&7: &bWitaj &e&lUtharze&b."
+          - "&r%player%&7: &bDawno sie nie widzielismy."
+          - "&e&lUthar&7: &aCzego chcesz?"
+          - "&r%player%&7: &bPrzychodze od przemytnikow - maja dla Ciebie oferte."
+          - "&r%player%&7: &bChca sie podjac z Toba wspolpracy."
+          - "&r%player%&7: &bMysle, ze oboje na tym skorzystacie."
+          - "&e&lUthar&7: &aMi tez sie tak wydaje, lecz jest jedno ALE."
+          - "&e&lUthar&7: &aMusza udowodnic mi, ze moge w razie czego na nich polegac."
+      5:
+        id: "przemytnik_quest_7_1_5"
+        type: "zagadaj"
+        targetName: "&eCratos"
+        message: "Porozmawiaj o wspolpracy z farmerem Cratosem: %stan%"
+        dialog:
+          - "&r%player%&7: &bWiem, ze udalo Ci sie wywalczyc niezaleznosc dla swojej farmy..."
+          - "&r%player%&7: &bOraz to, ze jestes z tego bardzo dumny..."
+          - "&r%player%&7: &bAle powiedz mi szczerze..."
+          - "&r%player%&7: &bCzy to tak pozostanie na zawsze?"
+          - "&r%player%&7: &bCzy nie miewasz zadnych problemow?"
+          - "&eCratos&7: &aDo czego zmierzasz?"
+          - "&r%player%&7: &bPrzemytnicy chca nawiazac z Toba wspolprace..."
+          - "&eCratos: &aNie musisz konczyc. Zgodze sie na wspolprace, ale bedziesz musial wykonac dla mnie pewne zadanie."
+      6:
+        id: "przemytnik_quest_7_1_6"
+        type: "zagadaj"
+        targetName: "&aFarim"
+        message: "Porozmawiaj o wspolpracy z farmerem Farimem: %stan%"
+        dialog:
+          - "&aFarim&7: &aTy tez przyszedles grabic moja farme?"
+          - "&aFarim&7: &aProsze, odejdz, juz i tak nie mam prawie niczego."
+          - "&r%player%&7: &bSpokojnie, &aFarimie&b."
+          - "&r%player%&7: &bPrzychodze od przemytnikow, oferuja wspolprace z Toba."
+          - "&aFarim&7: &aNiebiosom niech beda dzieki, w koncu ktos ulituje sie nad naszym losem."
+          - "&aFarim&7: &aTych z miasta calkowicie nie obchodzi nasz los."
+          - "&aFarim&7: &aPozwalaja nas grabic i atakowac a potem jeszcze zadaja podatkow."
+          - "&aFarim&7: &aMam juz tego dosc, chce sie od tego wszystkiego uwolnic."
+          - "&aFarim&7: &aAle skad moge miec pewnosc, ze przemytnicy beda lepsza alternatywa?"
+          - "&r%player%&7: &bJest jakis sposob, by Ciebie przekonac?"
+          - "&aFarim&7: &aWydaje mi sie, ze tak..."

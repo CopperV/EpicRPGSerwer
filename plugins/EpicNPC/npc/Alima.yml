@@ -1,0 +1,15 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&2Alima"
+  - "&7[&7&oPRZEMYTNICZKA&7]"
+skinid: 666049251
+location:
+  world: "F_RPG"
+  x: 756.0
+  y: 35.0
+  z: 196.5
+  yaw: 5
+  pitch: 4.5
+lookat: true

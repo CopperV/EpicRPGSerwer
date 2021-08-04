@@ -1,0 +1,8 @@
+name: "&5Marson"
+title: "&5Marson - quester"
+size: 9
+slots:
+  1:
+    item: "p_quest_29"
+  2:
+    item: "p_quest_30"

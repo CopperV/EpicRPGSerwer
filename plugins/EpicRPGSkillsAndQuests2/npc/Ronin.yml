@@ -1,0 +1,36 @@
+name: "&2&lRonin"
+title: "&2&lRonin - dowodca"
+size: 18
+slots:
+  1:
+    item: "klasa_quest_strzelec"
+#  max: 150
+#  wymagania:
+#  - "klasa: &cMag"
+#  - "quest: quest1"
+  2:
+    item: "strzelec_quest_1"
+  3:
+    item: "strzelec_quest_7"
+  8:
+    item: "Mana1"
+    max: 110
+    wymagania:
+      - "klasa: &2Mysliwy"
+  9:
+    item: "Mana5"
+    max: 110
+    wymagania:
+      - "klasa: &2Mysliwy"
+  16:
+    item: "Krag1"
+    wymagania:
+      - "klasa: &2Mysliwy"
+  17:
+    item: "Krag2"
+    wymagania:
+      - "klasa: &2Mysliwy"
+  18:
+    item: "Krag3"
+    wymagania:
+      - "klasa: &2Mysliwy"

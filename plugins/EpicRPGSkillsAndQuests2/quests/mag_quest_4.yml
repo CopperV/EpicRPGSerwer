@@ -1,0 +1,32 @@
+id: "mag_quest_4"                                
+name: "&2Redukcja stawonogow"                          
+zleceniodawca: "&7&lCarl"                       
+lore:                                               
+  - "&aJak pewnie zauwazyles,"
+  - "&aten las az roi sie od pajakow."
+  - "&aMnoza sie w zastraszajacym tempie."
+  - "&aMusisz zredukowac ich ilosc,"
+  - "&apoki jeszcze da sie to latwo zrobic."
+prize:                                    
+  - "xp: 810"
+require:                                            
+  - "level: 15"
+  - "quest: mag_quest_3"
+  - "klasa: &5Mag"
+stopnie:
+  1:
+    talking: true
+    message: "&7&lCarl&7: &aDobrze sie spisales. Nastepne zadanie bedzie rownie ciekawe ;)"    
+    targets:
+      1:
+        id: "mag_quest_4_1_1"
+        type: "zabij"
+        targetName: "&2Pajak lesny"
+        message: "Zabij 30 pajakow lesnych: %stan%"
+        ilosc: 30
+      2:
+        id: "mag_quest_4_1_2"
+        type: "zabij"
+        targetName: "&cCzarna wdowa"
+        message: "Zabij 18 czarnych wdow: %stan%"
+        ilosc: 18

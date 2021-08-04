@@ -1,0 +1,34 @@
+id: "zlodziej_quest_16"                                
+name: "&e&l&oSkarby trzeciego swiata"                          
+zleceniodawca: "&8&lValeera"                       
+lore:                                               
+  - "&aJuz zawojowales na nowym swiecie?"
+  - "&aSpladrowales go?"
+  - "&aInni tez by chcieli skorzystac"
+  - "&ana otwarciu wrot do nieznanych krain."
+  - "&aSlyszalam juz, ze jest tam nie malo skarbow,"
+  - "&aktore sa juz niepotrzebne wlascicielom."
+  - "&aJak zapewne wiesz juz, mozemy wprowadzic"
+  - "&arozne zloto do obiegu."
+  - "&aDlatego przynies nam troche monet z nowego swiata."
+prize:                                    
+  - "xp: 75000"
+  - "money: 2500"
+require:                                            
+  - "level: 56"
+stopnie:
+  1:
+    talking: false
+    targets:
+      1:
+        id: "zlodziej_quest_16_1_1"
+        type: "przynies"
+        targetName: "&7&oSrebnik cieni"
+        message: "Przynies 29 srebnikow cieni: %stan%"
+        ilosc: 29
+      2:
+        id: "zlodziej_quest_16_1_2"
+        type: "przynies"
+        targetName: "&e&oMoneta cieni"
+        message: "Przynies 16 monet cieni: %stan%"
+        ilosc: 16

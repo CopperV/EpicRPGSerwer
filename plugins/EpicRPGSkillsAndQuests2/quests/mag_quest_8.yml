@@ -1,0 +1,58 @@
+id: "mag_quest_8"
+name: "&5&lPotega zywiolow"
+zleceniodawca: "&8Xardas"
+lore:
+  - "&aTa wyspa jest wyjatkowa pod wieloma wzgledami."
+  - "&aWyraznie moge wyczuc, ze bedzie miec ogromne znaczenie"
+  - "&adla historii swiata."
+  - "&aCos zaczyna sie na tej wyspie przebudzac, widac to,"
+  - "&aArcholos sie zmienia na naszych oczach."
+  - "&aGdzies na wschodzie od nas, w centrum wyspy"
+  - "&amozna znalezc wyjatkowe miejsce,"
+  - "&amiejsce silne w magie zywiolow."
+  - "&aJest to rownoznaczne z powstawaniem stworzen zywiolow."
+  - "&aJako mag musisz umiec je okielznac."
+prize:
+  - "xp: 14500"
+  - "money: 400"
+require:
+  - "level: 35"
+  - "klasa: &5Mag"
+  - "quest: mag_quest_7"
+stopnie:
+  1:
+    talking: false
+    message: "&r%player%&7: &bTo chyba to jest to miejsce silne w magie zywiolow, o ktorym mowil &8Xardas&b. Pora sie zajac jego mieszkancami."
+    targets:
+      1:
+        id: "mag_quest_8_1_1"
+        type: "znajdz"
+        targetName: "zywiolaki"
+        message: "Odnajdz miejsce silne w magie zywiolow (628;319): %stan%"
+  2:
+    talking: true
+    targets:
+      1:
+        id: "mag_quest_8_2_1"
+        type: "zabij"
+        targetName: "&3Zywiolak powietrza"
+        message: "Pokonaj 15 zywiolakow powietrza: %stan%"
+        ilosc: 15
+      2:
+        id: "mag_quest_8_2_2"
+        type: "zabij"
+        targetName: "&cZywiolak skaly"
+        message: "Pokonaj 15 zywiolakow skaly: %stan%"
+        ilosc: 15
+      3:
+        id: "mag_quest_8_2_3"
+        type: "zabij"
+        targetName: "&bZywiolak wody"
+        message: "Pokonaj 15 zywiolakow wody: %stan%"
+        ilosc: 15
+      4:
+        id: "mag_quest_8_2_4"
+        type: "zabij"
+        targetName: "&4Zywiolak ognia"
+        message: "Pokonaj 15 zywiolakow ognia: %stan%"
+        ilosc: 15

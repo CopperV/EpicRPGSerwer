@@ -1,0 +1,14 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&e&lUthar"
+  - "&7[&aFARMER&7]"
+location:
+  world: "F_RPG"
+  x: 216.5
+  y: 41.0
+  z: 124.5
+  yaw: -130
+  pitch: 6.5
+lookat: true

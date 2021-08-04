@@ -1,0 +1,15 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&c&lCanthar"
+  - "&7[&c&lARCYMAG&7]"
+skinid: 1761001599
+location:
+  world: "F_RPG"
+  x: 83.5
+  y: 45.0
+  z: -82.5
+  yaw: 0
+  pitch: 45
+lookat: true

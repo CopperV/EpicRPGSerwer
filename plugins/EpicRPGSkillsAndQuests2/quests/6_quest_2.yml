@@ -1,0 +1,41 @@
+id: "6_quest_2"                                
+name: "&cLokalne zagrozenie I"                          
+zleceniodawca: "&c&lMilten"                       
+lore:                                               
+  - "&aZacznijmy od czegos prostego."
+  - "&aW poblizu obozu kreca sie dosyc nieprzyjemne osobniki."
+  - "&aWyeliminuj je bysmy sie mogli."
+  - "&aw spokoju skupic na swojej pracy."
+prize:                                    
+  - "xp: 95000"
+require:                                            
+  - "level: 50"
+  - "quest: 6_quest_1"
+stopnie:
+  1:
+    talking: true                    
+    targets:
+      1:
+        id: "6_quest_2_1_1"                     
+        type: "zabij"       
+        targetName: "&2&oZombie"
+        message: "Zabij 16 Zombie: %stan%"
+        ilosc: 16
+      2:
+        id: "6_quest_2_1_2"                     
+        type: "zabij"       
+        targetName: "&7Szkielet"
+        message: "Zabij 14 Szkieletow: %stan%"
+        ilosc: 14
+      3:
+        id: "6_quest_2_1_3"                     
+        type: "zabij"       
+        targetName: "&7&oPajak"
+        message: "Zabij 10 Pajakow: %stan%"
+        ilosc: 10
+      4:
+        id: "6_quest_2_1_4"                     
+        type: "zabij"       
+        targetName: "&aCreeper"
+        message: "Zabij 5 Creeperow: %stan%"
+        ilosc: 5

@@ -1,0 +1,26 @@
+id: "mag_quest_5"                                
+name: "&2&l&oPajeczyca - krolowa"                          
+zleceniodawca: "&7&lCarl"                       
+lore:                                               
+  - "&aOtoz, moj drogi, w poblizu posterunku"
+  - "&aczai sie wyjatkowy okaz tych pajakow."
+  - "&aMam na mysli krolowa, ktora w przeciagu roku"
+  - "&asklada setki tysiecy jaj tych stawonogow."
+  - "&aZadanie wydaje mi sie proste - zapoluj na nia."
+prize:                                    
+  - "xp: 1275"
+require:                                            
+  - "level: 17"
+  - "quest: mag_quest_4"
+  - "klasa: &5Mag"
+stopnie:
+  1:
+    talking: true
+    message: "&7&lCarl&7: &aSwietna robota. Zaraz pojde i zbiore z niej pare jadowitych klow"    
+    targets:
+      1:
+        id: "mag_quest_5_1_1"
+        type: "zabij"
+        targetName: "&2&lMaexxna - Krolowa Pajeczakow - BOSS"
+        message: "Odnajdz w poblizu posterunku pajecza krolowa i ja pokonaj: %stan%"
+        ilosc: 1

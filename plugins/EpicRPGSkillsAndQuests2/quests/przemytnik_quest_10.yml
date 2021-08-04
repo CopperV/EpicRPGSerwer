@@ -1,0 +1,28 @@
+id: "przemytnik_quest_10"                                
+name: "&7Szkodniki na farmie"                          
+zleceniodawca: "&eCratos"                       
+lore:                                               
+  - "&aWidzisz ta pobliska wysepke?"
+  - "&aUrzadzilismy na niej nasze pola."
+  - "&aRoi sie tam od szkodnikow,"
+  - "&aaz nie daje rady ich wytepiac."
+  - "&aPozbadz sie ich a podejme sie wspolpracy"
+  - "&az przemytnikami."
+  - "&aNiestety, nie mamy zadnych mostow ani lodek."
+  - "&aNa wyspe dostajemy sie plynac wplaw."
+prize:                                    
+  - "xp: 2550"
+require:                                            
+  - "level: 24"
+  - "quest: przemytnik_quest_7"
+stopnie:
+  1:
+    talking: true
+    message: "&eCratos&7: &aWidzialem, jak sie ladnie goniliscie. Koniec koncow dales rade. Gratuluje."
+    targets:
+      1:
+        id: "przemytnik_quest_10_1_1"
+        type: "zabij"
+        targetName: "&7Szkodnik"
+        message: "Zabij 15 szkodnikow z wysepki kolo farmy Cratosa: %stan%"
+        ilosc: 15

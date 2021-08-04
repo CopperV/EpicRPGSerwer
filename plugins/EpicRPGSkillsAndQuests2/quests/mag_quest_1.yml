@@ -1,0 +1,35 @@
+id: "mag_quest_1"                                
+name: "&2&oLesni zabojcy"                          
+zleceniodawca: "&c&lCanthar"                       
+lore:                                               
+  - "&aMagu, mam dla Ciebie pierwsza misje."
+  - "&7&lMag Carl &aprzebywa obecnie na posterunku MineWood."
+  - "&aZajmuje sie tamtejszym lasem i jego mieszkancami,"
+  - "&aktorzy potrafia byc niezwykle smiertelni."
+  - "&aChodzi o pajaki - &7&lCarl &aprowadzi nad nimi badania"
+  - "&aoraz nad ich 'trofeami'."
+  - "&aUdaj sie do niego i mu pomoz."
+prize:                                    
+  - "xp: 85"
+require:                                            
+  - "level: 10"
+  - "klasa: &5Mag"
+stopnie:
+  1:
+    talking: false                    
+    targets:
+      1:
+        id: "mag_quest_1_1_1"
+        type: "znajdz"
+        targetName: "exp20"
+        message: "Udaj sie na wschod na posterunek Minewood (1293;-85): %stan%"
+      2:
+        id: "mag_quest_1_1_2"                     
+        type: "zagadaj"       
+        targetName: "&7&lCarl"                      
+        message: "Porozmawiaj z &7&lCarlem: %stan%"
+        dialog:
+          - "&r%player%&7: &bPrzysyla mnie do Ciebie &c&lArcymag Canthar&b."
+          - "&r%player%&7: &bMam Ci pomoc w Twoich badaniach"
+          - "&7&lCarl&7: &aFajnie, ze o mnie pamietal."
+          - "&7&lCarl&7: &aPrzyjdz, jak bedziesz gotow spotkac sie z tymi stawonogami."

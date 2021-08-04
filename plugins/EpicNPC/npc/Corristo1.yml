@@ -1,0 +1,19 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&b&lCorristo"
+  - "&7[&c&lDOWODCA&7]"
+skinid: 752914859
+location:
+  world: "F_RPG"
+  x: 70.0
+  y: 41.9375
+  z: -34.0
+  yaw: 77
+  pitch: -4.5
+eq:
+  MAINHAND:
+    item: DIAMOND_SWORD
+    display: "Magiczne ostrze bojowe"
+lookat: true

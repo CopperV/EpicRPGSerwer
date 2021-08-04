@@ -1,0 +1,30 @@
+id: "ee_quest_4"                                
+name: "&d&lKontrofensywa CandyLand"                          
+zleceniodawca: "&3&lDecard"                       
+lore:                                               
+  - "&aPora przejsc do kontrofensywy."
+  - "&aPoznales na tyle moj swiat,"
+  - "&aze jestes w stanie tego dokonac."
+  - "&aWypedz ich precz z tej doliny."
+prize:                                    
+  - "xp: 30000"
+  - "money: 900"
+require:                                            
+  - "level: 43"
+  - "quest: ee_quest_3"
+stopnie:
+  1:
+    talking: true                  
+    targets:
+      1:
+        id: "ee_quest_4_1_1"
+        type: "zabij"
+        targetName: "&4&lEnderwarlord"
+        message: "Zabij 75 enderwarlordow: %stan%"
+        ilosc: 75
+      2:
+        id: "ee_quest_4_1_2"
+        type: "zabij"
+        targetName: "&6&lBananowy potwor"
+        message: "Zabij 75 bananowych potworow: %stan%"
+        ilosc: 75

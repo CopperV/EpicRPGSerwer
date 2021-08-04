@@ -1,0 +1,36 @@
+id: "morze_quest_7"                                
+name: "&1&lPodwodna swiatynia"                          
+zleceniodawca: "&4Nars"                       
+lore:                                               
+  - "&aUdalo mi sie znalezc swiatynie Neptulona,"
+  - "&alecz nie udalo mi sie jej zglebic."
+  - "&aZnajduje sie na poludniowy wschod"
+  - "&aod obozu portowego."
+  - "&7[&b630&7;&b6&7;&b1185&7]"
+  - "&aPotrzeba jednak ja przebadac i..."
+  - "&aoczyscic ze straznikow swiatynnych."
+prize:                                    
+  - "xp: 44000"
+  - "money: 100"
+require:                                            
+  - "level: 48"
+  - "quest: morze_quest_5"
+stopnie:
+  1:
+    talking: false
+    message: "&r%player%&7: &bDobra, mamy swiatynie Neptulona oraz jego sale tronowa. Chyba wystarczajaco przebadalem swiatynie. Pora zajac sie straznikami."
+    targets:
+      1:
+        id: "morze_quest_7_1_1"
+        type: "znajdz"
+        targetName: "neptulon"
+        message: "Zbadaj swiatynie Neptulona (677;1237): %stan%"
+  2:
+    talking: true
+    targets:
+      1:
+        id: "morze_quest_7_2_1"
+        type: "zabij"
+        targetName: "&bStraznik Swiatynny"
+        message: "Pokonaj 15 Straznikow Swiatynnych: %stan%"
+        ilosc: 15

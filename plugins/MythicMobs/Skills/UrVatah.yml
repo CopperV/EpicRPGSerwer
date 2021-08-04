@@ -1,0 +1,110 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+
+UrVatahSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &9&oKrypta Pustki jest zamknieta dla obcych. Uruchamianie systemu obronnego!"} @PlayersInRadius{r=25}
+
+UrVatahSkill1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=80} @self
+  - message{m="<mob.name><&co> &9&oChaos jest moca dominujaca. Kazdy przed nia ulegnie"} @PlayersInRadius{r=25}
+  - summon{type=Ur-VatahSystem;amount=1} @self
+
+UrVatahSkill2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=120} @self
+  - message{m="<mob.name><&co> &9&oTo miejsce przepelnia Magia Pustki"} @PlayersInRadius{r=25}
+  - stun{d=20} @self
+  - sound{s=block.anvil.land;v=5;p=0.1} @self
+  - sound{s=block.anvil.land;v=5;p=0.3} @self
+  - sound{s=block.anvil.land;v=5;p=0.5} @self
+  - sound{s=block.anvil.land;v=5;p=0.7} @self
+  - sound{s=block.anvil.land;v=5;p=0.9} @self
+  - sound{s=block.anvil.land;v=5;p=1.1} @self
+  - sound{s=block.anvil.land;v=5;p=1.3} @self
+  - sound{s=block.anvil.land;v=5;p=1.5} @self
+  - sound{s=block.anvil.land;v=5;p=1.7} @self
+  - sound{s=block.anvil.land;v=5;p=1.9} @self
+  - projectile{onTick=UrVatahSkill2-Tick;onHit=UrVatahSkill2-End;v=20;i=1;hR=1.5;vR=1.5;mr=35;sB=false;sE=true} @PIR{r=25}
+  - stun{d=40} @self
+
+UrVatahSkill2-Tick:
+  Skills:
+  - effect:particleline{particle=largesmoke;amount=2;speed=0.1;hS=0.15;vS=0.15} @origin
+  - effect:itemspray{item=iron_nugget;amount=2;velocity=1;d=5;r=0.15} @origin
+
+UrVatahSkill2-End:
+  Skills:
+  - sound{s=block.anvil.land;v=5;p=0.1} @self
+  - sound{s=block.anvil.land;v=5;p=0.3} @self
+  - sound{s=block.anvil.land;v=5;p=0.5} @self
+  - sound{s=block.anvil.land;v=5;p=0.7} @self
+  - sound{s=block.anvil.land;v=5;p=0.9} @self
+  - sound{s=block.anvil.land;v=5;p=1.1} @self
+  - sound{s=block.anvil.land;v=5;p=1.3} @self
+  - sound{s=block.anvil.land;v=5;p=1.5} @self
+  - sound{s=block.anvil.land;v=5;p=1.7} @self
+  - sound{s=block.anvil.land;v=5;p=1.9} @self
+  - effect:particles{particle=largesmoke;amount=10;speed=0.2;hS=0.3;vS=0.3} @origin
+  - effect:itemspray{item=iron_nugget;amount=10;velocity=2;d=20;r=0.3} @origin
+  - damage{amount=150}
+  - stun{d=20}
+  - delay 20
+  - sound{s=block.anvil.land;v=5;p=0.1} @self
+  - sound{s=block.anvil.land;v=5;p=0.3} @self
+  - sound{s=block.anvil.land;v=5;p=0.5} @self
+  - sound{s=block.anvil.land;v=5;p=0.7} @self
+  - sound{s=block.anvil.land;v=5;p=0.9} @self
+  - sound{s=block.anvil.land;v=5;p=1.1} @self
+  - sound{s=block.anvil.land;v=5;p=1.3} @self
+  - sound{s=block.anvil.land;v=5;p=1.5} @self
+  - sound{s=block.anvil.land;v=5;p=1.7} @self
+  - sound{s=block.anvil.land;v=5;p=1.9} @self
+  - effect:particles{particle=largesmoke;amount=10;speed=0.2;hS=0.3;vS=0.3} @origin
+  - effect:itemspray{item=iron_nugget;amount=10;velocity=2;d=20;r=0.3} @origin
+  - pull{v=10}
+
+UrVatahSkill3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=60} @self
+  - message{m="<mob.name><&co> &9&oTo miejsce pozostanie dla Ciebie niedostepne"} @PlayersInRadius{r=25}
+  - summon{type=Ur-VatahSummon;amount=2;radius=3} @PIR{r=25}
+
+
+Ur-VatahSystem_Particles:
+  Skills:
+  - effect:particleline{particle=fireworksSpark;amount=2;vs=0.15;hs=0.15;s=0.05;fromOrigin=true} @Forward{f=0;y=10}
+  - effect:particleline{particle=largesmoke;amount=2;vs=0.15;hs=0.15;s=0.05;fromOrigin=true} @Forward{f=0;y=10}
+
+Ur-VatahSystem_Spawn:
+  Skills:
+  - sound{s=item.totem.use;v=2.5;p=0.7} @self
+  - delay 600
+  - remove @self
+  - sound{s=item.shield.break;v=2;p=0.05} @self
+
+Ur-VatahSystem_Projectile:
+  Skills:
+  - effect:sound{s=entity.endermen.hurt;v=4;p=0.1} @self
+  - projectile{onTick=Ur-VatahSystem-Tick;onHit=Ur-VatahSystem-End;v=10;i=1;hR=0.9;vR=0.9;mr=55;sB=false;sE=false;syo=10} @PIR{r=35}
+
+Ur-VatahSystem-Tick:
+  Skills:
+  - effect:particles{particle=largesmoke;amount=2;speed=0.1;hS=0.15;vS=0.15} @origin
+  - effect:particles{particle=fireworksSpark;amount=2;speed=0.1;hS=0.15;vS=0.15} @origin
+
+
+Ur-VatahSystem-End:
+  Skills:
+  - effect:sound{s=entity.endermen.hurt;v=4;p=1.5} @self
+  - damage{amount=170}
+  - effect:particles{particle=largesmoke;amount=10;speed=0.2;hS=0.4;vS=0.4} @origin
+  - effect:particles{particle=fireworksSpark;amount=10;speed=0.2;hS=0.4;vS=0.4} @origin

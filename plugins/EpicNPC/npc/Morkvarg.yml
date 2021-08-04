@@ -1,0 +1,15 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&eMorkvarg"
+  - "&7[&c&oASSASYN&7]"
+skinid: 390681715
+location:
+  world: "Mapa144"
+  x: 562.5
+  y: 79.0
+  z: 193.5
+  yaw: -60
+  pitch: 4.5
+lookat: true

@@ -1,0 +1,70 @@
+id: "fabula_quest_3"                                
+name: "&b&lWielka misja"                          
+zleceniodawca: "&e&lIgnatius"                       
+lore:                                               
+  - "&aZasluzyles na to, by moc sie spotkac"
+  - "&az &c&lAlexstrasza&a."
+  - "&aIdz do niej - z tego co mi wiadomo"
+  - "&ato czeka juz na Ciebie."
+  - "&aSpotkasz ja w sali tronowej,"
+  - "&ajest to pierwsze pomieszczenie po lewej stronie."
+prize:                                    
+  - "xp: 500"
+require:                                            
+  - "quest: fabula_quest_2"
+  - "level: 15"
+  - "brak przynaleznosci do: &aobywatel"
+stopnie:
+  1:
+    talking: false  
+    targets:
+      1:
+        id: "fabula_quest_3_1_1"
+        type: "zagadaj"
+        targetName: "&c&lAlexstrasza"
+        message: "Udaj sie do zamku, by porozmawiac z &c&lAlexstrasza: %stan%"
+        dialog:
+          - "&r%player%&7: &bWasza Wysokosc..."
+          - "&c&lAlexstrasza%&7: &aNie zwracaj sie tak do mnie!"
+          - "&c&lAlexstrasza%&7: &aPelnie tylko obowiazki Geddona, dopoki on tutaj nie wroci."
+          - "&c&lAlexstrasza%&7: &aTroche juz slyszalam o Twoich osiagnieciach oraz..."
+          - "&c&lAlexstrasza%&7: &ao rzezi, ktorej dokonales na pustyni..."
+          - "&r%player%&7: &e&lIgnatius &bkazal mi to zrobic, gdyz nie dop..."
+          - "&c&lAlexstrasza%&7: &4&oDOSC!"
+          - "&c&lAlexstrasza%&7: &aSama rozlicze sie z nim pozniej."
+          - "&c&lAlexstrasza%&7: &aTy natomiast mnie sluchaj!"
+          - "&c&lAlexstrasza%&7: &aMam dla Ciebie pewna misje zwiazana z budowniczymi, o ktorych Geddon nawet nie wspomnial."
+          - "&c&lAlexstrasza%&7: &aNie mamy pojecia czemu."
+          - "&c&lAlexstrasza%&7: &aTwoim zadaniem jest sie dowiedziec jak najwiecej o budowniczych."
+          - "&c&lAlexstrasza%&7: &1Kairo &apowie Ci wiecej."
+          - "&c&lAlexstrasza%&7: &aZnajdziesz go na pierwszym pietrze, niemalze nade mna."
+  2:
+    talking: false
+    targets:
+      1:
+        id: "fabula_quest_3_2_1"
+        type: "zagadaj"
+        targetName: "&1Kairo"
+        message: "Na pierwszym pietrze zamku odnajdz i porozmawiaj z &1Kairo: %stan%"
+        dialog:
+          - "&1Kairo&7: &aWiec to Ty jestes tym gowniarzem, co dokonal masakry na pustyni."
+          - "&1Kairo&7: &aNa miejscu &c&lAlexstraszy &aza taki gowniany wybryk kazal Ciebie porzadnie wychlostac."
+          - "&1Kairo&7: &aAle to nie ja tu sprawuje wladze."
+          - "&1Kairo&7: &1Saturasa &ajuz pewnie poznales - prowadzi ekspedycje na pustyni na poludniu."
+          - "&1Kairo&7: &aJego zadaniem jest sie dowiedziec jak najwiecej o budowniczych oraz, co najwazniejsze, dlaczego sie przebudzili."
+          - "&1Kairo&7: &aPomozesz mu w jego misji, bo zdaje mi sie, ze cos sobie nie radzi."
+  3:
+    talking: false
+    targets:
+      1:
+        id: "fabula_quest_3_3_1"
+        type: "zagadaj"
+        targetName: "&1Saturas"
+        message: "Porozmawiaj z &1Saturasem: %stan%"
+        dialog:
+          - "&r%player%&7: &bPrzysyla mnie &1Kairo&b, mam Ci..."
+          - "&1Saturas&7: &aZamilknij juz..."
+          - "&1Saturas&7: &aNie dosc, ze jestem odpowiedzialny za twoje szkolenie, to jeszcze masz mi pomagac w badaniach."
+          - "&1Saturas&7: &aTego juz stanowczo za wiele."
+          - "&1Saturas&7: &aNo nic, musze to jakos przebolec."
+          - "&1Saturas&7: &aIdz i sie przygotuj do swojego pierwszego zadania tutaj."

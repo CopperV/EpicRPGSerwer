@@ -1,0 +1,29 @@
+id: "przemytnik_quest_12"                                
+name: "&eZdelegalizowane zloto"                          
+zleceniodawca: "&7Cobryn"                       
+lore:                                               
+  - "&aDuza czesc assasynskiego zlota"
+  - "&azostala zdelegalizowana i w normalnych warunkach"
+  - "&ado niczego sie nie nadaje."
+  - "&aSa jednak sposoby na wprowadzenie ich znowu do obiegu."
+  - "&aZnam pewnego zlotnika, ktory ma u mnie pewien dlug."
+  - "&aMoglby go splacic dla przykladu przerabiajac"
+  - "&azdelegalizowane monety na calkiem inne."
+  - "&aCo ty na to?"
+prize:                                    
+  - "xp: 8000"
+  - "item: Zlota_Moneta 5"
+  - "money: 150"
+require:                                            
+  - "level: 31"
+  - "quest: przemytnik_quest_6"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "przemytnik_quest_12_1_1"
+        type: "przynies"
+        targetName: "&cNielegalne zloto"
+        message: "Przynies 15 sztuk nielegalnego zlota: %stan%"
+        ilosc: 15

@@ -1,0 +1,38 @@
+id: "3_quest_5"                                
+name: "&3Bagno w poblizu"                          
+zleceniodawca: "&a&lJasuo"                       
+lore:                                               
+  - "&aPodejrzewamy, ze wplyw na zachowanie gornikow"
+  - "&ama pobliskie bagno, znajdujace sie na poludniu."
+  - "&aMoi zwiadowcy doniesli mi, ze roi sie tam"
+  - "&aod zombie i husk-ow."
+  - "&aTy, jako wojownik, pojdziesz tam i zdobedziesz"
+  - "&apare rzeczy z nich do przebadania."
+prize:                                    
+  - "xp: 4200"
+require:                                            
+  - "level: 24"
+  - "quest: 3_quest_4"
+stopnie:
+  1:
+    talking: true
+    message: "&a&lJasuo&7: &aDobrze, tyle powinno starczyc do badan. Juz wysylam to wszystko do pracownikow Carla. Co do Ciebie - bede miec dla Ciebie jeszcze pare zadan. Ale to pozniej."
+    targets:
+      1:
+        id: "3_quest_5_1_1"
+        type: "zabij"
+        targetName: "&3Zombie"
+        message: "Zabij 20 Zombie z bagien: %stan%"
+        ilosc: 20
+      2:
+        id: "3_quest_5_1_2"
+        type: "przynies"
+        targetName: "&aGlowa umarlaka"
+        message: "Przynies 12 glow umarlaka: %stan%"
+        ilosc: 12
+      3:
+        id: "3_quest_5_1_3"
+        type: "przynies"
+        targetName: "&2Resztki"
+        message: "Przynies 6 resztek z zombie: %stan%"
+        ilosc: 6

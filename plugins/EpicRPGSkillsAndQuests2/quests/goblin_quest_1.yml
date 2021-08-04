@@ -1,0 +1,29 @@
+id: "goblin_quest_1"                                
+name: "&2Las pelny goblinow"                          
+zleceniodawca: "&8Udar"                       
+lore:                                               
+  - "&aPolnocna czesc lasu doslownie roi sie od goblinow."
+  - "&aStanowia nie mniejszy problem niz bandyci."
+  - "&aTrzeba oczyscic na poczatku okolice"
+  - "&aw poblizu sciezek"
+prize:                                    
+  - "xp: 300"
+require:                                            
+  - "level: 5"
+  - "quest: 1_quest_2"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "goblin_quest_1_1_1"
+        type: "zabij"
+        targetName: "&aGoblin"
+        message: "Zabij 17 goblinow: %stan%"
+        ilosc: 17
+      2:
+        id: "goblin_quest_1_1_2"
+        type: "zabij"
+        targetName: "&2Goblin Berserker"
+        message: "Zabij 8 goblinow berserkerow: %stan%"
+        ilosc: 8

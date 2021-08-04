@@ -1,0 +1,37 @@
+id: "p_quest_4"                                
+name: "&eNapadajacy rabusie"                          
+zleceniodawca: "&e&lUthar"                       
+lore:                                               
+  - "&aZ jednej strony gobliny,"
+  - "&az drugiej strony rabusie na nas napadaja."
+  - "&aO ile sytuacja z goblinami sie troche opanowala,"
+  - "&ao tyle rabusie nadal nas niepokoja."
+  - "&aTrzeba sie z nimi rozprawic."
+  - "&aMam nadzieje, ze mi pomozesz"
+prize:                                    
+  - "xp: 155"
+require:                                            
+  - "level: 5"
+  - "quest: prolog_quest_7"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "p_quest_4_1_1"
+        type: "zabij"
+        targetName: "&cRabus"
+        message: "Zabij 20 okolicznych rabusiow: %stan%"
+        ilosc: 20
+      2:
+        id: "p_quest_4_1_2"
+        type: "zabij"
+        targetName: "&cKieszonkowiec"
+        message: "Zabij 5 okolicznych kieszonkowcow: %stan%"
+        ilosc: 5
+      3:
+        id: "p_quest_4_1_3"
+        type: "przynies"
+        targetName: "&6Zloto"
+        message: "Przynies 13 sztabek zlota bandytow: %stan%"
+        ilosc: 13

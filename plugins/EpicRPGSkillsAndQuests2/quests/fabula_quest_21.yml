@@ -1,0 +1,73 @@
+id: "fabula_quest_21"
+name: "&8Zaginiony skryba"                          
+zleceniodawca: "&c&lAlexstrasza"
+lore:
+  - "&aNa dworze czesto musial przebywac skryba Geddona."
+  - "&aArchos byl dosyc specyficznym czlowiekiem."
+  - "&aOkazuje sie, ze z tego powodu nadworny skryba"
+  - "&amial duzo do roboty."
+  - "&aNie mieszkal jednak na zamku jak wszyscy pozostali,"
+  - "&alecz swoj dom ma gdzies w miescie."
+  - "&aOdkad tutaj przybylismy, nie spotkalismy go."
+  - "&aMoze Ty bedziesz miec wiecej szczescia."
+  - "&aPogadaj na miescie, moze ktos cos gdzies slyszal"
+  - "&aalbo widzial."
+  - "&aZnajdz skrybe i sprowadz go tutaj."
+  - "&aNa pewno musi znac odpowiedzi chociaz na czesc"
+  - "&anurtujacych nas pytan."
+prize:                                    
+  - "xp: 1800"
+require:                                            
+  - "quest: fabula_quest_20"
+  - "level: 40"
+stopnie:
+  1:
+    talking: false
+    targets:
+      1:
+        id: "fabula_quest_21_1_1"
+        type: "zagadaj"
+        targetName: "&0Ignaz"
+        message: "Spytaj sie o dom skryby &0Ignaza: %stan%"
+        dialog:
+          - "&r%player%&7: &bWitaj &0Ignazie&b."
+          - "&r%player%&7: &bMieszkasz tutaj juz dosc dlugo..."
+          - "&r%player%&7: &bNie wiesz przypadkiem, ktory dom nalezy do skryby Barona Geddona?"
+          - "&0Ignaz&7: &aTak, ale obawiam sie, ze to Ci sie na niewiele zda."
+          - "&r%player%&7: &bA to niby dlaczego?"
+          - "&0Ignaz&7: &aDom Galla znajduje sie niemalze przy gorze."
+          - "&0Ignaz&7: &aRozpoznasz go bez problemu - spalil sie."
+          - "&0Ignaz&7: &aA skryby Galla nigdzie nie odnaleziono..."
+  2:
+    talking: false
+    message: "&r%player%&7: &bTo chyba ten dom... Ogien ladnie sie nim zajal... Trzeba przeszukac ten dom. Moze straz nie przylozyla zbytnio sie do sprawdzenia tych zgliszczy..."
+    targets:
+      1:
+        id: "fabula_quest_21_2_1"
+        type: "znajdz"
+        targetName: "skryba1"
+        message: "Odnajdz spalony dom skryby Galla: %stan%"
+  3:
+    talking: false
+    message: "&r%player%&7: &bHmm... Jakies szczatki... Moze tego nieszczesnika Galla? Trzeba poinformowac o tym &c&lAlexstrasze&b."
+    targets:
+      1:
+        id: "fabula_quest_21_3_1"
+        type: "znajdz"
+        targetName: "skryba2"
+        message: "Przeszukaj zgliszcza: %stan%"
+  4:
+    talking: false
+    targets:
+      1:
+        id: "fabula_quest_21_4_1"
+        type: "zagadaj"
+        targetName: "&c&lAlexstrasza"
+        message: "Powiedz o znalezisku &c&lAlexstraszy: %stan%"
+        dialog:
+          - "&r%player%&7: &bPrzeszukalem dom skryby Galla."
+          - "&r%player%&7: &bNiestety nie mam zbyt dobrych wiesci."
+          - "&r%player%&7: &bDom zostal spalony, a w srodku znalazlem jakies szczatki."
+          - "&c&lAlexstrasza&7: &aPodejrzewam, ze to nie przypadek..."
+          - "&c&lAlexstrasza&7: &aMozliwe, ze znalazles szczatki tego skryby..."
+          - "&c&lAlexstrasza&7: &aCo wiecej, mozliwe, ze ten pozar domu nie byl przypadkiem - mozliwe, ze ktos chcial uciszyc tego czlowieka, gdyz wiedzial po prostu za duzo."

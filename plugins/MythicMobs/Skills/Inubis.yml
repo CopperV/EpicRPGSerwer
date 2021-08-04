@@ -1,0 +1,188 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+InubisSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &7Chaos jest moim zywiolem!"} @PlayersInRadius{r=70}
+  - threat{amount=50} @PlayersInRadius{r=70;limit=1;sort=RANDOM}
+  - delay 20
+  - summon{mob=SengaSummon;amount=4;radius=2;os=true} @self
+
+InubisSkill_1:
+  Conditions:
+  - offgcd
+  - hasaura InubisSzal false
+  Skills:
+  - gcd{ticks=100} @self
+  - message{m="<mob.name><&co> &7Moja Furia Was pochlonie"} @PlayersInRadius{r=40}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bInubis przygotowuje Szal Pustki!";d=100} @PIR{r=40}
+  - Aura{auraName=InubisSzal;duration=300} @self
+  - sound{s=entity.endermen.stare;v=2;p=1.5} @self
+  - randomskill{skills=InubisSkill_1_Loc1,InubisSkill_1_Loc2,InubisSkill_1_Loc3,InubisSkill_1_Loc4,InubisSkill_1_Loc5}
+
+InubisSkill_1_Loc1:
+  Skills:
+  - totem{ch=0;oT=InubisAreaPrepare_TotemTick;oE=InubisAreaPrepare_TotemTickEnd;hR=4;vR=4;md=100;yo=0;hp=true;i=0.2} @Location{c=-1862,85,1341}
+  - totem{ch=0;oT=InubisAreaPrepare_TotemTick;oE=InubisAreaPrepare_TotemTickEnd;hR=4;vR=4;md=100;yo=0;hp=true;i=0.2} @Location{c=-1843,83,1362}
+  - totem{ch=0;oT=InubisAreaPrepare_TotemTick;oE=InubisAreaPrepare_TotemTickEnd;hR=4;vR=4;md=100;yo=0;hp=true;i=0.2} @Location{c=-1866,87,1361}
+  - totem{ch=0;oT=InubisAreaPrepare_TotemTick;oE=InubisAreaPrepare_TotemTickEnd;hR=4;vR=4;md=100;yo=0;hp=true;i=0.2} @Location{c=-1875,83,1329}
+  - totem{ch=0;oT=InubisAreaPrepare_TotemTick;oE=InubisAreaPrepare_TotemTickEnd;hR=4;vR=4;md=100;yo=0;hp=true;i=0.2} @Location{c=-1842,86,1329}
+
+InubisSkill_1_Loc2:
+  Skills:
+  - totem{ch=0;oT=InubisAreaPrepare_TotemTick;oE=InubisAreaPrepare_TotemTickEnd;hR=4;vR=4;md=100;yo=0;hp=true;i=0.2} @Location{c=-1853,83,1327}
+  - totem{ch=0;oT=InubisAreaPrepare_TotemTick;oE=InubisAreaPrepare_TotemTickEnd;hR=4;vR=4;md=100;yo=0;hp=true;i=0.2} @Location{c=-1870,81,1359}
+  - totem{ch=0;oT=InubisAreaPrepare_TotemTick;oE=InubisAreaPrepare_TotemTickEnd;hR=4;vR=4;md=100;yo=0;hp=true;i=0.2} @Location{c=-1850,85,1361}
+  - totem{ch=0;oT=InubisAreaPrepare_TotemTick;oE=InubisAreaPrepare_TotemTickEnd;hR=4;vR=4;md=100;yo=0;hp=true;i=0.2} @Location{c=-1876,85,1327}
+  - totem{ch=0;oT=InubisAreaPrepare_TotemTick;oE=InubisAreaPrepare_TotemTickEnd;hR=4;vR=4;md=100;yo=0;hp=true;i=0.2} @Location{c=-1840,82,1337}
+
+InubisSkill_1_Loc3:
+  Skills:
+  - totem{ch=0;oT=InubisAreaPrepare_TotemTick;oE=InubisAreaPrepare_TotemTickEnd;hR=4;vR=4;md=100;yo=0;hp=true;i=0.2} @Location{c=-1858,81,1346}
+  - totem{ch=0;oT=InubisAreaPrepare_TotemTick;oE=InubisAreaPrepare_TotemTickEnd;hR=4;vR=4;md=100;yo=0;hp=true;i=0.2} @Location{c=-1843,84,1355}
+  - totem{ch=0;oT=InubisAreaPrepare_TotemTick;oE=InubisAreaPrepare_TotemTickEnd;hR=4;vR=4;md=100;yo=0;hp=true;i=0.2} @Location{c=-1878,88,1347}
+  - totem{ch=0;oT=InubisAreaPrepare_TotemTick;oE=InubisAreaPrepare_TotemTickEnd;hR=4;vR=4;md=100;yo=0;hp=true;i=0.2} @Location{c=-1847,82,1332}
+  - totem{ch=0;oT=InubisAreaPrepare_TotemTick;oE=InubisAreaPrepare_TotemTickEnd;hR=4;vR=4;md=100;yo=0;hp=true;i=0.2} @Location{c=-1850,82,1359}
+
+InubisSkill_1_Loc4:
+  Skills:
+  - totem{ch=0;oT=InubisAreaPrepare_TotemTick;oE=InubisAreaPrepare_TotemTickEnd;hR=4;vR=4;md=100;yo=0;hp=true;i=0.2} @Location{c=-1858,81,1327}
+  - totem{ch=0;oT=InubisAreaPrepare_TotemTick;oE=InubisAreaPrepare_TotemTickEnd;hR=4;vR=4;md=100;yo=0;hp=true;i=0.2} @Location{c=-1851,86,1366}
+  - totem{ch=0;oT=InubisAreaPrepare_TotemTick;oE=InubisAreaPrepare_TotemTickEnd;hR=4;vR=4;md=100;yo=0;hp=true;i=0.2} @Location{c=-1870,80,1340}
+  - totem{ch=0;oT=InubisAreaPrepare_TotemTick;oE=InubisAreaPrepare_TotemTickEnd;hR=4;vR=4;md=100;yo=0;hp=true;i=0.2} @Location{c=-1873,88,1354}
+  - totem{ch=0;oT=InubisAreaPrepare_TotemTick;oE=InubisAreaPrepare_TotemTickEnd;hR=4;vR=4;md=100;yo=0;hp=true;i=0.2} @Location{c=-1841,85,1327}
+
+InubisSkill_1_Loc5:
+  Skills:
+  - totem{ch=0;oT=InubisAreaPrepare_TotemTick;oE=InubisAreaPrepare_TotemTickEnd;hR=4;vR=4;md=100;yo=0;hp=true;i=0.2} @Location{c=-1845,80,1341}
+  - totem{ch=0;oT=InubisAreaPrepare_TotemTick;oE=InubisAreaPrepare_TotemTickEnd;hR=4;vR=4;md=100;yo=0;hp=true;i=0.2} @Location{c=-1866,85,1353}
+  - totem{ch=0;oT=InubisAreaPrepare_TotemTick;oE=InubisAreaPrepare_TotemTickEnd;hR=4;vR=4;md=100;yo=0;hp=true;i=0.2} @Location{c=-1873,86,1331}
+  - totem{ch=0;oT=InubisAreaPrepare_TotemTick;oE=InubisAreaPrepare_TotemTickEnd;hR=4;vR=4;md=100;yo=0;hp=true;i=0.2} @Location{c=-1839,87,1352}
+  - totem{ch=0;oT=InubisAreaPrepare_TotemTick;oE=InubisAreaPrepare_TotemTickEnd;hR=4;vR=4;md=100;yo=0;hp=true;i=0.2} @Location{c=-1867,87,1368}
+
+InubisAreaPrepare_TotemTick:
+  Skills:
+  - effect:particles{particle=fireworksSpark;amount=20;speed=0.1;hS=0.5;vS=0.5;vd=40} @origin
+
+InubisAreaPrepare_TotemTickEnd:
+  Skills:
+  - sound{s=entity.blaze.shoot;v=2;p=0.2} @origin
+  - totem{ch=0;oT=InubisArea_TotemTick;hR=4;vR=4;md=200;yo=0;hp=true;i=0.2} @origin
+
+InubisArea_TotemTick:
+  Skills:
+  - effect:particles{particle=largesmoke;amount=20;speed=0.1;hS=0.5;vS=0.5;vd=40} @origin
+  - effect:particleline{particle=largesmoke;amount=1;fromOrigin=true} @PlayersNearOrigin{r=10}
+  - damage{amount=160;pk=true} @PlayersNearOrigin{r=10}
+  
+
+InubisSkill_2:
+  Conditions:
+  - offgcd
+  - hasaura InubisSkill_2_Attack false
+  - hasaura InubisSkill_4 false
+  Skills:
+  - gcd{ticks=160} @self
+  - message{m="<mob.name><&co> &7Chaos jest moja domena"} @PlayersInRadius{r=30}
+  - stun{d=100} @self
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bInubis przygotowuje Moc Chaosu!";d=100} @PIR{r=30}
+  - Aura{auraName=InubisSkill_2_Attack;duration=300} @self
+  - delay 100
+  - sound{s=entity.enderdragon.growl;v=3;p=0.1} @self
+  - potion{type=SPEED;duration=200;level=1} @self
+  - orbital{onTick=PociskPrison-Tick;points=29;interval=1;duration=200;charges=1;r=1;hr=1;rx=0.78;ry=0;oy=1;hp=false} @self
+  - orbital{onTick=PociskPrison-Tick;points=23;interval=1;duration=200;charges=1;r=1;hr=1;rx=-0.78;ry=0;oy=1;hp=false} @self
+
+InubisSkill_2_AttackEffect:
+  Conditions:
+  - hasaura InubisSkill_2_Attack true
+  Skills:
+  - CancelEvent
+  - sound{s=entity.enderdragon.growl;v=3;p=1.5} @self
+  - damage{a=400} @trigger
+  - effect:particles{particle=largesmoke;amount=20;speed=0.2;hS=0.3;vS=0.3;y=1} @trigger
+
+InubisSkill_2_DefenseEffect:
+  Conditions:
+  - hasaura InubisSkill_2_Attack true
+  Skills:
+  - sound{s=entity.enderdragon.growl;v=3;p=1.5} @self
+  - damage{a=225} @trigger
+  - effect:particles{particle=largesmoke;amount=20;speed=0.2;hS=0.3;vS=0.3;y=1} @trigger
+
+InubisSkill_3:
+  Conditions:
+  - offgcd
+  - hasaura InubisSkill_3 false
+  Skills:
+  - gcd{ticks=160} @self
+  - Aura{auraName=InubisSkill_3;duration=300} @self
+  - message{m="<mob.name><&co> &7Nigdy nie opuscicie murow tej twierdzy!"} @PlayersInRadius{r=30}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bInubis przygotowuje Sfere Chaosu!";d=100} @PIR{r=30}
+  - sound{s=entity.endermen.stare;v=2;p=1.5} @self
+  - totem{ch=0;oT=InubisSkill_3_Prepare_TotemTick;oE=InubisSkill_3_Prepare_TotemTickEnd;hR=4;vR=4;md=100;yo=0;hp=true;i=0.2} @Location{c=-1858.5,95,1346.5}
+
+InubisSkill_3_Prepare_TotemTick:
+  Skills:
+  - effect:particlesphere{particle=fireworksSpark;amount=5;radius=1.5} @origin
+
+InubisSkill_3_Prepare_TotemTickEnd:
+  Skills:
+  - sound{s=entity.blaze.shoot;v=2;p=0.2} @origin
+  - totem{ch=0;oT=InubisSkill_3_TotemTick;hR=4;vR=4;md=200;yo=0;hp=true;i=0.05} @origin
+
+InubisSkill_3_TotemTick:
+  Skills:
+  - effect:particlesphere{particle=largesmoke;amount=5;radius=1.5} @origin
+  - skill{s=InubisSkill_3_Missile} 0.05
+
+InubisSkill_3_Missile:
+  Skills:
+  - sound{s=entity.blaze.shoot;v=2;p=0.2} @origin
+  - missile{ot=InubisMissile_Tick;oH=InubisMissile_Hit;v=9;i=1;hR=1.5;vR=1.5;in=10;md=200;mr=100;sB=false;fo=true} @PlayersInRadius{r=50;limit=1;sort=RANDOM}
+
+InubisMissile_Tick:
+  Skills:
+  - effect:particles{particle=reddust;color=#8B008B;amount=10;speed=0.1;hS=0.3;vS=0.3} @origin
+  - effect:particles{particle=smoke;amount=10;speed=0.1;hS=0.3;vS=0.3} @origin
+
+InubisMissile_Hit:
+  Skills:
+  - damage{a=240}
+  - effect:particles{particle=reddust;color=#8B008B;amount=25;speed=0.15;hS=0.2;vS=0.2;y=1} @origin
+  - effect:particles{particle=smoke;amount=25;speed=0.15;hS=0.2;vS=0.2;y=1} @origin
+  - effect:sound{s=entity.generic.explode;v=1;p=0.2} @origin
+
+InubisSkill_4:
+  Skills:
+  - gcd{ticks=100} @self
+  - Aura{auraName=InubisSkill_4_Prepare;duration=100} @self
+  - message{m="<mob.name><&co> &7Drzyjcie przed moja potega!"} @PlayersInRadius{r=30}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bInubis przygotowuje Szal Inubisa!";d=100} @PIR{r=30}
+  - stun{d=100} @self
+  - delay 100
+  - sound{s=entity.endermen.ambient;v=10;p=0.1} @self
+  - Aura{auraName=InubisSkill_4;duration=10} @self
+
+InubisSkill_4_Defense:
+  Conditions:
+  - hasaura InubisSkill_4_Prepare true
+  Skills:
+  - heal{amount=5000} @self
+
+InubisSkill_4_Tick:
+  Conditions:
+  - hasaura InubisSkill_4 true
+  Skills:
+  - Aura{auraName=InubisSkill_4;duration=10} @self
+  - potion{type=SPEED;duration=10;level=1} @self
+  - effect:particles{particle=largesmoke;amount=5;speed=0.1;hS=0.5;vS=0.5;y=1} @self
+
+InubisSkill_4_Attack:
+  Conditions:
+  - hasaura InubisSkill_4 true
+  Skills:
+  - CancelEvent
+  - sound{s=entity.enderdragon.growl;v=3;p=1.5} @self
+  - damage{a=1000} @trigger
+  - effect:particles{particle=largesmoke;amount=20;speed=0.2;hS=0.3;vS=0.3;y=1} @trigger

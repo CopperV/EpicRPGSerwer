@@ -1,0 +1,37 @@
+id: "vip_quest_11"                                
+name: "&6&lNowy swiat - nowe zarobki"                          
+zleceniodawca: "&6&lReturning"                       
+lore:                                               
+  - "&aWiele osob juz wpadlo na pomysl,"
+  - "&aze portal do Nowego Swiata"
+  - "&amoze pomoc sie wzbogacic wielu osobom."
+  - "&aMy jestesmy podobnego zdania."
+  - "&aWidzielismy juz pewne okazy"
+  - "&asrebnikow i monet z tamtego swiata."
+  - "&aDobrze bylo miec u siebie pare sztuk."
+  - "&aJestem pewien, ze znalezliby sie"
+  - "&akolekcjonerzy, ktorzy zaplaciliby"
+  - "&aniemala sumke za te okazy."
+prize:                                    
+  - "xp: 8000"
+  - "money: 20000"
+  - "item: Zlota_Moneta 64"
+require:                                            
+  - "level: 54"
+  - "ranga: magnat"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "vip_quest_11_1_1"
+        type: "przynies"
+        targetName: "&7&oSrebnik cieni"
+        message: "Przynies 18 srebnikow cieni: %stan%"
+        ilosc: 18
+      2:
+        id: "vip_quest_11_1_2"
+        type: "przynies"
+        targetName: "&e&oMoneta cieni"
+        message: "Przynies 18 monet cieni: %stan%"
+        ilosc: 18

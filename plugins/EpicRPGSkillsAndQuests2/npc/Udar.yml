@@ -1,0 +1,46 @@
+name: "&8Udar"
+title: "&8Udar - dowodca"
+size: 27
+slots:
+  1:
+    item: "goblin_quest_1"
+  2:
+    item: "goblin_quest_2"
+  3:
+    item: "goblin_quest_3"
+  4:
+    item: "goblin_quest_4"
+  5:
+    item: "goblin_quest_5"
+  10:
+    item: "zlecenie_goblin"
+  8:
+    item: "Zrecznosc1"
+    max: 65
+    wymagania:
+      - "quest: goblin_quest_2"
+  9:
+    item: "Zrecznosc5"
+    max: 65
+    wymagania:
+      - "quest: goblin_quest_2"
+  17:
+    item: "Zdolnosci1"
+    max: 30
+    wymagania:
+      - "quest: goblin_quest_2"
+  18:
+    item: "Zdolnosci5"
+    max: 30
+    wymagania:
+      - "quest: goblin_quest_2"
+  26:
+    item: "Mana1"
+    max: 60
+    wymagania:
+      - "quest: goblin_quest_2"
+  27:
+    item: "Mana5"
+    max: 60
+    wymagania:
+      - "quest: goblin_quest_2"

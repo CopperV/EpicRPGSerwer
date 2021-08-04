@@ -1,0 +1,16 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&e&oRamirez"
+  - "&7[&7&oRZEZIMIESZEK&7]"
+skinid: 641433816
+location:
+  world: "F_RPG"
+  x: 8.5
+  y: 40
+  z: -60.5
+  yaw: -180
+  pitch: 0
+lookat: true
+state: CROUCHED

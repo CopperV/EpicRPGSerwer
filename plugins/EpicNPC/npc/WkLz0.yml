@@ -1,0 +1,15 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&3WkLz0"
+  - "&7[&3&lSuperMod&7]"
+location:
+  world: "F_RPG"
+  x: -149
+  y: 46.5
+  z: 14
+  yaw: 125
+  pitch: 10
+lookat: true
+state: CROUCHED

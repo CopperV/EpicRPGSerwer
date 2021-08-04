@@ -1,0 +1,122 @@
+id: "prolog_quest_1"                                
+name: "&aTrening nowicjusza"                          
+zleceniodawca: "&6&lCorristo"                       
+lore:                                               
+  - "&aWktrotce dotrzemy na wyspie mlody..."
+  - "&aZanim jednak dobijemy do brzegu,"
+  - "&ato chcialbym, abys troche potrenowal."
+  - "&aMozesz pocwiczyc na kuklach treningowych,"
+  - "&atarczach strzeleckich czy tez manekinach."
+  - "&aNa statku po lewej stroni mozesz rowniez"
+  - "&azmierzyc sie z rekrutem."
+prize:                                    
+  - "xp: 400"
+require:                                            
+  - "level: 1"
+stopnie:                                 
+  1:
+    talking: false                           
+    message: "&r%player%&7: &aDobra, jestesmy na dziobie. Pora pobic te kukly"                     
+    targets:                                        
+      1:   
+        id: "prolog_quest_1_1_1"                     
+        type: "znajdz"       
+        targetName: "tut1_1"                      
+        message: "Udaj sie na dziob statku (-651 ; 1153): %stan%"
+  2:
+    talking: false                           
+    message: "&r%player%&7: &aTo teraz czas troche postrzelac. Tylko gdzie byly te manekiny?"                     
+    targets:                                        
+      1:
+        id: "prolog_quest_1_2_1"                     
+        type: "zabij"       
+        targetName: "&2Kukla treningowa"                      
+        message: "Uderz 5 razy kukle treningowa: %stan%"                    
+        ilosc: 5
+  3:
+    talking: false                           
+    message: "&r%player%&7: &aJestesmy na miejscu. Trzeba teraz strzelic w te tarcze - sa na zaglach!"                     
+    targets:                                        
+      1:   
+        id: "prolog_quest_1_3_1"                     
+        type: "znajdz"       
+        targetName: "tut_r1"                      
+        message: "Udaj sie na statek po prawej stroni przy uzyciu portalu na prawej burcie (-700 ; 1159): %stan%"
+  4:
+    talking: false
+    message: "&r%player%&7: &aTo pora potrenowac magie. Tylko gdzie sa te manekiny do cwiczen?"
+    targets:
+      1:
+        id: "prolog_quest_1_4_1"
+        type: "zabij"
+        targetName: "&aTarcza Strzelecka"
+        message: "Zestrzel 3 razy tarcze strzelecka znajdujace sie na zaglach: %stan%"
+        ilosc: 3
+  5:
+    talking: false                           
+    message: "&r%player%&7: &aManekiny powinny byc w sali treningowej - gdzies pod nami"                     
+    targets:                                        
+      1:   
+        id: "prolog_quest_1_5_1"                     
+        type: "znajdz"       
+        targetName: "tut_r2"                      
+        message: "Wroc na glowny statek przy uzyciu portalu (-755 ; 1186): %stan%"
+  6:
+    talking: false                           
+    message: "&r%player%&7: &aDobra, manekiny sa. Tylko jak sie do nich dostac?"                     
+    targets:                                        
+      1:   
+        id: "prolog_quest_1_6_1"                     
+        type: "znajdz"       
+        targetName: "tut1_2"                      
+        message: "Zejdz do sali treningowej (-688 ; 38 ; 1156): %stan%"
+  7:
+    talking: false
+    message: "&r%player%&7: &aGotowe. Zostali jeszcze do pokonania rekruci. Powinni byc na statku na lewo od nas. Powinienem skorzystac z portalu"
+    targets:
+      1:
+        id: "prolog_quest_1_7_1"
+        type: "zabij"
+        targetName: "&9&oManekin runiczny"
+        message: "Zaatakuj 4 manekiny runiczne przy uzyciu runy: %stan%"
+        ilosc: 4
+  8:
+    talking: false                           
+    message: "&r%player%&7: &aJestesmy na miejscu. Trzeba teraz tylko wybrac ofiare."                     
+    targets:                                        
+      1:   
+        id: "prolog_quest_1_8_1"                     
+        type: "znajdz"       
+        targetName: "tut_l1"                      
+        message: "Udaj sie na statek po lewej stroni przy uzyciu portalu na lewej burcie (-700 ; 1147): %stan%"
+  9:
+    talking: false
+    message: "&r%player%&7: &aChyba caly trening zaliczony. Moge wrocic do &6&lCorristo&a."
+    targets:
+      1:
+        id: "prolog_quest_1_9_1"
+        type: "zabij"
+        targetName: "&a&oRekrut"
+        message: "Pokonaj rekruta: %stan%"
+        ilosc: 1
+  10:
+    talking: false                                                
+    targets:                                        
+      1:   
+        id: "prolog_quest_1_10_1"                     
+        type: "znajdz"       
+        targetName: "tut_l2"                      
+        message: "Powroc do Corristo przy uzyciu portalu (-726 ; 1126): %stan%"
+  11:
+    talking: false
+    targets:
+      1:
+        id: "prolog_quest_1_11_1"
+        type: "zagadaj"
+        targetName: "&6&lCorristo"
+        message: "Porozmawiaj z &6&lCorristo&7: %stan%"
+        dialog:
+          - "&r%player%&7: &bChyba starczy na dzis tego treningu"
+          - "&6&lCorristo&7: &aDosyc szybko go skonczyles..."
+          - "&4..."
+          - "&6&lCorristo&7: &aNo dobra, przygotuj sie, bo bede mial zaraz dla Ciebie kolejne zadanie"

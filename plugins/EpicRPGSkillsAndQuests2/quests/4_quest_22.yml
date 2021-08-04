@@ -1,0 +1,30 @@
+id: "4_quest_22"
+name: "&0Magowie &ri &2Szamani"
+zleceniodawca: "&8Xardas"
+lore:
+  - "&aKolejne zadanie dla Ciebie bedzie dosyc proste."
+  - "&aNie bedziesz musial mi nic przynosic,"
+  - "&aniczego pozyskiwac, takze tym lepiej dla Ciebie."
+  - "&aMasz po prostu za zadanie oslabic wsparcie magiczne"
+  - "&anaszych przeciwnikow."
+prize:
+  - "xp: 8950"
+require:
+  - "level: 37"
+  - "quest: 4_quest_18"
+stopnie:
+  1:
+    talking: true   
+    targets:
+      1:
+        id: "4_quest_22_1_1"                     
+        type: "zabij"       
+        targetName: "&a&lOrkowy Szaman"                      
+        message: "Zabij 25 orkowych szamanow: %stan%"
+        ilosc: 25
+      2:
+        id: "4_quest_22_1_2"                     
+        type: "zabij"       
+        targetName: "&0&lCzarny Mag"                      
+        message: "Zabij 25 czarnych magow: %stan%"
+        ilosc: 25

@@ -1,0 +1,56 @@
+id: "fabula_quest_9"
+name: "&4&oNiekontrolowane poludnie"                          
+zleceniodawca: "&c&lAlexstrasza"
+lore:
+  - "&aTo nie moze byc zbiegiem okolicznosci,"
+  - "&aby w ciagu tak krotkich chwil utracic cale poludnie."
+  - "&aWlasciwie ta poludniowa czesc wyspy jako jedyna jest"
+  - "&acalkowicie poza naszymi wplywami."
+  - "&aPomozesz mi w jako takim odzyskaniu kontroli"
+  - "&anad tymi terenami."
+  - "&aSprawa ta zajmuja sie"
+  - "&a&lJasuo &aoraz &7&lCarl z posterunku Minewood"
+  - "&aoraz &e&lNers &az obozu portowego."
+  - "&aUdasz sie do nich i im pomozesz."
+prize:                                    
+  - "xp: 750"
+require:                                            
+  - "quest: fabula_quest_8"
+  - "level: 26"
+stopnie:
+  1:
+    talking: false
+    message: "&r%player%&7: &bNo no... Zapowiada sie, ze bede mial co robic na poludniu..."
+    targets:
+      1:
+        id: "fabula_quest_9_1_1"
+        type: "zagadaj"
+        targetName: "&a&lJasuo"
+        message: "Udaj sie na posterunek Minewood i porozmawiaj z &a&lJasuo: %stan%"
+        dialog:
+          - "&r%player%&7: &c&lAlexstrasza &bmnie przysyla - mam pomoc w Twojej pracy w odbiciu poludnia."
+          - "&a&lJasuo&7: &aTrzeba sie dokladnie zajac sprawa kopalni."
+          - "&a&lJasuo&7: &aNie dosc, ze trzeba sprobowac pomoc tym biednym kopaczom i poslom..."
+          - "&a&lJasuo&7: &aTo jeszcze trzeba zajac sie sprawa Gomeza, gdyz wydaje sie, ze nas po prostu zdradzil."
+          - "&a&lJasuo&7: &aTo wszystko bedzie trzeba ogarnac w niedlugim czasie."
+      2:
+        id: "fabula_quest_9_1_2"
+        type: "zagadaj"
+        targetName: "&7&lCarl"
+        message: "Udaj sie na posterunek Minewood i porozmawiaj z &7&lCarlem: %stan%"
+        dialog:
+          - "&r%player%&7: &bPrzychodze od &c&lAlexstraszy &b- mam pomoc w Twojej pracy dotyczacej odbicia poludniowej czesci wyspy."
+          - "&7&lCarl&7: &aJak dobrze wiesz, na poludnie od wykopalisk rozciaga sie bagno."
+          - "&7&lCarl&7: &aZ jakiegos powodu strasznie sie tam namnozylo zombie i huskow."
+          - "&7&lCarl&7: &aTrzeba bedzie zredukowac ich liczbe."
+      3:
+        id: "fabula_quest_9_1_3"
+        type: "zagadaj"
+        targetName: "&e&lNers"
+        message: "Udaj sie do obozu portowego i porozmawiaj z &e&lNersem: %stan%"
+        dialog:
+          - "&r%player%&7: &bPrzychodze Tobie z pomoca na rozkar &c&lAlexstraszy&b. Jakie masz udzial w odbiciu poludnia?"
+          - "&e&lNers&7: &aWlasciwie musze tylko odbic port."
+          - "&e&lNers&7: &aMozna powiedziec, ze tylko tyle i az tyle."
+          - "&e&lNers&7: &aW porcie roi sie od piratow a dodatkowo zacumowali tam swoj statek."
+          - "&e&lNers&7: &aZ tego powodu bedzie cholernie ciezko przejac ten port."

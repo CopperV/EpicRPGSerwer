@@ -1,0 +1,35 @@
+id: "1_quest_5"                                
+name: "&ePlaga bandytow"                          
+zleceniodawca: "&8&lRangar"                       
+lore:                                               
+  - "&aNie rozumiem, jak mozna bylo pozwolic"
+  - "&ana rozprzestrzenienie sie i namnozenie tego plugastwa."
+  - "&aTrzeba ogarnac ten syf, zeby mozna bylo bezpiecznie"
+  - "&aprzejechac przez ten las"
+prize:                                    
+  - "xp: 850"
+require:                                            
+  - "level: 7"
+  - "quest: 1_quest_4"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "1_quest_5_1_1"
+        type: "zabij"
+        targetName: "&cRabus"
+        message: "Zabij 13 Rabusiow: %stan%"
+        ilosc: 13
+      2:
+        id: "1_quest_5_1_2"
+        type: "zabij"
+        targetName: "&cKieszonkowiec"
+        message: "Zabij 11 Kieszonkowcow: %stan%"
+        ilosc: 11
+      3:
+        id: "1_quest_5_1_3"
+        type: "zabij"
+        targetName: "&4Bandyta"
+        message: "Zabij 6 Bandytow: %stan%"
+        ilosc: 6

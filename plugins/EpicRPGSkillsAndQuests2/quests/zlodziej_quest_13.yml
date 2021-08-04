@@ -1,0 +1,34 @@
+id: "zlodziej_quest_13"                                
+name: "&2&l&oTylko jedno w glowie mam"                          
+zleceniodawca: "&a&oCassia"                       
+lore:                                               
+  - "&aZ pewnoscia zdarzyles juz zerknac"
+  - "&ana to miasto portowe."
+  - "&aWszystko tam jest martwe..."
+  - "&aA martwi zlota nie potrzebuja."
+  - "&aJestem pewien, ze mozna znalezc"
+  - "&atroche skarbow tam."
+  - "&aPrzynies mi je - oni i tak"
+  - "&az tego pozytku juz nie beda miec."
+prize:                                    
+  - "xp: 49000"
+  - "money: 1500"
+require:                                            
+  - "level: 52"
+stopnie:
+  1:
+    talking: true
+    message: "&a&oCassia&7: &aDoskonala robota. Widze, ze dosyc ciekawe monety mieli. Jakby je przetopic, to mozna by je bylo wykorzystac na kontynencie."
+    targets:
+      1:
+        id: "zlodziej_quest_13_1_1"
+        type: "przynies"
+        targetName: "&7&oSrebnik cieni"
+        message: "Przynies 24 srebnikow cieni: %stan%"
+        ilosc: 24
+      2:
+        id: "zlodziej_quest_13_1_2"
+        type: "przynies"
+        targetName: "&e&oMoneta cieni"
+        message: "Przynies 16 monet cieni: %stan%"
+        ilosc: 16

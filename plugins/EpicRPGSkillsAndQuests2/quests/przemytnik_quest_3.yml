@@ -1,0 +1,43 @@
+id: "przemytnik_quest_3"                                
+name: "&eZlodzieje"                          
+zleceniodawca: "&7&lSaro"                       
+lore:                                               
+  - "&aSlyszalem jaki ostatnio zamet zasiales"
+  - "&awsrod bandytow zabijajac ich herszta."
+  - "&aZ bandytami za bardzo sie nie zadajemy,"
+  - "&arywalizujemy caly czas o pobliskie zasoby i tereny."
+  - "&aMozna wykorzystac zamet, jaki zasiales."
+  - "&aZabij troszke pobliskich rabusiow i kieszonkowcow,"
+  - "&aby odzyskac pobliskie tereny."
+  - "&aIch zlotem rowniez nie pogardzimy."
+prize:                                    
+  - "xp: 390"
+  - "money: 150"
+  - "item: Zlota_Moneta"
+require:                                            
+  - "level: 10"
+  - "quest: przemytnik_quest_1"
+  - "quest: 1_quest_8"
+stopnie:
+  1:
+    talking: true
+    message: "&7&lSaro&7: &aDzieki za pomoc. Dam Ci w nagrode specjalna monete. Moze sie Tobie przydac :)"
+    targets:
+      1:
+        id: "przemytnik_quest_3_1_1"
+        type: "zabij"
+        targetName: "&cRabus"
+        message: "Zabij 20 rabusiow: %stan%"
+        ilosc: 20
+      2:
+        id: "przemytnik_quest_3_1_2"
+        type: "zabij"
+        targetName: "&cKieszonkowiec"
+        message: "Zabij 15 kieszonkowcow: %stan%"
+        ilosc: 15
+      3:
+        id: "przemytnik_quest_3_1_3"
+        type: "przynies"
+        targetName: "&6Zloto"
+        message: "Przynies 20 sztuk bandyckiego zlota: %stan%"
+        ilosc: 20

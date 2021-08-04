@@ -1,0 +1,251 @@
+id: dungeon_1
+name: '&3&lSfera koniunkcji - Normalny'
+zleceniodawca: '&c&lAlexstrasza'
+lore:
+- '&aNasi zwiadowcy doniesli,'
+- '&aze cos dziwnego stalo sie w miejscu,'
+- '&agdzie przebywal Archos Geddonn.'
+- '&aMachina ruszyla, a same jej barwy'
+- '&azmienily sie.'
+- '&aWylonila sie rowniez jakas tajemnicza postac.'
+- '&aZabila juz naszych dwoch zwiadowcow.'
+- '&aPowstrzymaj ja zanim wyrzadzi wieksze szkody.'
+- '&aMysle, ze szybciej bedzie przechodzac tunelami Geddona.'
+defeat: true
+world: dungeon1
+maxResp: 10
+require:
+- party
+stopnie:
+  '1':
+    talking: false
+    resp:
+      x: -52.5
+      y: 65
+      z: -78.5
+    targets:
+      '1':
+        id: dungeon_1_1_1
+        type: znajdz
+        targetName: dungeon1_2
+        message: 'Zejdz do podziemii Barona Geddona: %stan%'
+  '2':
+    talking: false
+    resp:
+      x: -52.5
+      y: 65
+      z: -78.5
+    blocked:
+    - dungeon1_4
+    - dungeon1_5
+    targets:
+      '1':
+        id: dungeon_1_2_1
+        type: zabij
+        targetName: '&4Kolos Geddona'
+        message: 'Pokonaj 10 Kolosow Geddona: %stan%'
+        ilosc: 10
+      '2':
+        id: dungeon_1_2_2
+        type: zabij
+        targetName: '&cZniewolony Wojownik'
+        message: 'Pokonaj 17 Zniewolonych Wojownikow z podziemii: %stan%'
+        ilosc: 17
+      '3':
+        id: dungeon_1_2_3
+        type: zabij
+        targetName: '&cZniewolony Mag'
+        message: 'Pokonaj 13 Zniewolonych Magow z podziemii: %stan%'
+        ilosc: 13
+  '3':
+    talking: false
+    resp:
+      x: 139
+      y: 204
+      z: -240
+    blocked:
+    - dungeon1_4
+    - dungeon1_5
+    targets:
+      '1':
+        id: dungeon_1_3_1
+        type: znajdz
+        targetName: dungeon1_3
+        message: 'Dotrzyj do podziemnego wiezienia (X: 156; Z: -296): %stan%'
+  '4':
+    talking: false
+    resp:
+      x: 139
+      y: 204
+      z: -240
+    blocked:
+    - dungeon1_5
+    targets:
+      '1':
+        id: dungeon_1_4_1
+        type: znajdz
+        targetName: dungeon1_4
+        message: 'Zejdz na dol podziemnego wiezienia (X: 187; Z: -296): %stan%'
+  '5':
+    talking: false
+    resp:
+      x: 139
+      y: 204
+      z: -240
+    blocked:
+    - dungeon1_5
+    targets:
+      '1':
+        id: dungeon_1_5_1
+        type: znajdz
+        targetName: dungeon1_9
+        message: 'Znajdz wejscie do ukrytego pomieszczenia i do niego wejdz (X: 192; Z: -309): %stan%'
+  '6':
+    talking: false
+    resp:
+      x: 192
+      y: 183
+      z: -319
+    blocked:
+    - dungeon1_10
+    - dungeon1_11
+    start:
+    - mm m spawn Cronnos 1 dungeon1,192,183,-319
+    targets:
+      '1':
+        id: dungeon_1_6_1
+        type: zabij
+        targetName: '&3&lCronnos - Pierwszy Kolos'
+        message: 'Pokonaj Cronnosa - Pierwszego Kolosa: %stan%'
+        ilosc: 1
+  '7':
+    talking: false
+    resp:
+      x: 178.5
+      y: 194
+      z: -296.5
+    targets:
+      '1':
+        id: dungeon_1_7_1
+        type: znajdz
+        targetName: dungeon1_5
+        message: 'Dojdz do wejscia do nawy glownej (X: 139; Z: -345): %stan%'
+  '8':
+    talking: false
+    resp:
+      x: 178.5
+      y: 194
+      z: -296.5
+    blocked:
+    - dungeon1_6
+    - dungeon1_13
+    targets:
+      '1':
+        id: dungeon_1_8_1
+        type: znajdz
+        targetName: dungeon1_12
+        message: 'Dotrzyj do nawy glownej podziemii (X: 110; Z: -400): %stan%'
+  '9':
+    talking: false
+    resp:
+      x: 130.5
+      y: 214
+      z: -377.5
+    blocked:
+    - dungeon1_6
+    - dungeon1_5
+    - dungeon1_13
+    start:
+    - mm m spawn Rezan 1 dungeon1,100.5,214,-404.5
+    targets:
+      '1':
+        id: dungeon_1_9_1
+        type: zabij
+        targetName: '&5&lRezan - Nadworny Mag'
+        message: 'Pokonaj Rezana - Nadwornego Maga: %stan%'
+        ilosc: 1
+  '10':
+    talking: false
+    resp:
+      x: 130.5
+      y: 214
+      z: -377.5
+    blocked:
+    - dungeon1_13
+    targets:
+      '1':
+        id: dungeon_1_10_1
+        type: znajdz
+        targetName: dungeon1_6
+        message: 'Wejdz do wczesniej niedostepnego tunelu (X: 87; Z: -368): %stan%'
+  '11':
+    talking: false
+    resp:
+      x: 130.5
+      y: 214
+      z: -377.5
+    blocked:
+    - dungeon1_13
+    targets:
+      '1':
+        id: dungeon_1_11_1
+        type: znajdz
+        targetName: dungeon1_14
+        message: 'Zbadaj kompleks (X: 71; Z: -310): %stan%'
+  '12':
+    talking: false
+    resp:
+      x: 89.5
+      y: 199
+      z: -310.5
+    blocked:
+    - dungeon1_15
+    start:
+    - mm m spawn Archol 1 dungeon1,55,199,-310
+    targets:
+      '1':
+        id: dungeon_1_12_1
+        type: zabij
+        targetName: '&4&lArchol - Straz Geddona'
+        message: 'Pokonaj Archola - Straz Geddona: %stan%'
+        ilosc: 1
+  '13':
+    talking: false
+    resp:
+      x: 100.5
+      y: 214
+      z: -404.5
+    targets:
+      '1':
+        id: dungeon_1_13_1
+        type: znajdz
+        targetName: dungeon1_8
+        message: 'Opusc podziemia i udaj sie na spaczone ziemie (X: 106; Z: -437):
+          %stan%'
+  '14':
+    talking: false
+    resp:
+      x: -334
+      y: 44
+      z: 46
+    targets:
+      '1':
+        id: dungeon_1_14_1
+        type: znajdz
+        targetName: dungeon1_16
+        message: 'Udaj sie do machiny Geddona (X: -566; Z: 93): %stan%'
+  '15':
+    talking: true
+    resp:
+      x: -566.5
+      y: 40
+      z: 86.5
+    start:
+    - mm m spawn Entity303 1 dungeon1,-566.5,44,93.5
+    targets:
+      '1':
+        id: dungeon_1_15_1
+        type: zabij
+        targetName: '&7&lEntity303 - Legendary Boss'
+        message: 'Pokonaj tajemniczego przybysza - Entity303: %stan%'
+        ilosc: 1

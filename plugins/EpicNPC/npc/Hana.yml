@@ -1,0 +1,17 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&aHana"
+  - "&7[&e&oPIEKARKA&7]"
+skinid: 504105883
+location:
+  world: "F_RPG"
+  x: 3.5
+  y: 44
+  z: 45.5
+  yaw: 0
+  pitch: 0
+lookat: true
+commands:
+  - "cc open hana %player%"

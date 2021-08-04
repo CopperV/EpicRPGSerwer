@@ -1,0 +1,43 @@
+id: "paladyn_quest_1"                                
+name: "&c&oPrzywodca bandytow"                          
+zleceniodawca: "&4&lDargoth"                       
+lore:                                               
+  - "&aNo to skoro jestes juz jednym z nas,"
+  - "&ato pasowalo by Ci przydzielic jakies zadanie."
+  - "&aKazdy praktycznie gada o herszcie bandytow..."
+  - "&aHerszt to, herszt tamto, herszt sramto."
+  - "&aZupelnie nie zdaja sobie sprawy, ze usuniecie"
+  - "&ajednego herszta nic nie da."
+  - "&aPewnie zapytasz sie czemu."
+  - "&aOtoz oni sa TYLKO PIONKAMI."
+  - "&aPrawdziwa wladze nad bandytami sprawuje &4&lOrtega&a."
+  - "&aStworzyl trzy obozy hersztow pod przykrywka,"
+  - "&aby samemu moc swobodnie dzialac."
+  - "&aZeby jeszcze miec pewnosc, ze nic nie wyjdzie spod kontroli,"
+  - "&ato do kazdego z tych obozow wyslal po jednym swoim bandziorku."
+  - "&aSprawa zajmuje sie &a&lJasuo &az posterunku MineWood."
+  - "&aUdaj sie do niego - juz na Ciebie czeka."
+prize:                                    
+  - "xp: 85"
+require:                                            
+  - "level: 10"
+  - "klasa: &cWojownik"
+stopnie:
+  1:
+    talking: false                    
+    targets:
+      1:
+        id: "paladyn_quest_1_1_1"
+        type: "znajdz"
+        targetName: "exp20"
+        message: "Udaj sie na wschod na posterunek Minewood (1293;-85): %stan%"
+      2:
+        id: "paladyn_quest_1_1_2"                     
+        type: "zagadaj"       
+        targetName: "&a&lJasuo"                      
+        message: "Porozmawiaj z &a&lJasuo: %stan%"
+        dialog:
+          - "&a&lJasuo&7: &aTo Ciebie przysyla Ciebie &4&lDargoth&a, tak?"
+          - "&a&lJasuo&7: &aJestem obecnie na tropie Ortegi i jego obozu."
+          - "&a&lJasuo&7: &aJezeli mi pomozesz, to szybko sie z nim uwiniemy."
+          - "&a&lJasuo&7: &aPrzyjdz, jak bedziesz gotow wziac pierwsze zadanie."

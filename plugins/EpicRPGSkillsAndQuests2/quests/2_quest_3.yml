@@ -1,0 +1,38 @@
+id: "2_quest_3"                                
+name: "&eRozpoznanie terenu"                          
+zleceniodawca: "&1Saturas"                       
+lore:                                               
+  - "&aTo pora na kolejne zadanie dla ciebie."
+  - "&aMasz znalezc na pustyni 3 lokacje,"
+  - "&aktorych znajomosc bedzie dla ciebie przydatna."
+  - "&aNie powiem ci, gdzie masz ich szukac;"
+  - "&apo prostu masz je znalezc gdzies tu na pustyni."
+  - "&aMusisz odnalezc ruiny wiezy strazniczej budowniczych,"
+  - "&astara wioske budowniczych"
+  - "&aoraz ruiny miasta budowniczych."
+  - "&aIdz i nie kaz na siebie dlugo czekac"
+prize:                                    
+  - "xp: 640"
+require:                                            
+  - "level: 12"
+  - "quest: 2_quest_2"
+stopnie:
+  1:
+    talking: true
+    message: "&1Saturas&7: &aNo, troche to ci zajelo. Przynajmniej wrociles..."
+    targets:
+      1:
+        id: "2_quest_3_1_1"
+        type: "znajdz"
+        targetName: "wieza_ruiny"
+        message: "Odnajdz na pustyni ruiny wiezy strazniczej budowniczych (113;858): %stan%"
+      2:
+        id: "2_quest_3_1_2"
+        type: "znajdz"
+        targetName: "wioska_budowniczych"
+        message: "Odnajdz na pustyni stara wioske budowniczych (-200;674): %stan%"
+      3:
+        id: "2_quest_3_1_3"
+        type: "znajdz"
+        targetName: "ruiny_budowniczych"
+        message: "Odnajdz na pustyni ruiny miasta budowniczych (-257;309): %stan%"

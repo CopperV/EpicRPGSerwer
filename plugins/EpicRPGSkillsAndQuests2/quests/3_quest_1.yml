@@ -1,0 +1,39 @@
+id: "3_quest_1"                                
+name: "&2Utracona kopalnia"                          
+zleceniodawca: "&b&lCorristo"                       
+lore:                                               
+  - "&aSkoro przeszedles szkolenie u Saturasa,"
+  - "&ato oznacza, ze mozna Ciebie wyslac"
+  - "&ana powazniejsza misje."
+  - "&aGeddon wspomnial w swoim liscie, ze utracono"
+  - "&akontakt z kopalnia."
+  - "&aSprawe bada &a&lJasuo &az posterunku Minewood na wschodzie."
+  - "&aMasz za zadanie pomoc mu w odbiciu kopalni."
+  - "&aIdz i zamelduj sie u niego."
+prize:                                    
+  - "xp: 300"
+require:                                            
+  - "level: 20"
+  - "quest: 2_quest_12"
+stopnie:
+  1:
+    talking: false                    
+    targets:
+      1:
+        id: "3_quest_1_1_1"
+        type: "znajdz"
+        targetName: "exp20"
+        message: "Udaj sie na wschod na posterunek Minewood (1293;-85): %stan%"
+      2:
+        id: "3_quest_1_1_2"                     
+        type: "zagadaj"       
+        targetName: "&a&lJasuo"                      
+        message: "Zamelduj sie u &a&lJasuo: %stan%"
+        dialog:
+          - "&r%player%&7: &bNazywam sie &r%player%&b. Przychodze z rozkazu &6&lCorristo&b. Kopalnia czeka."
+          - "&a&lJasuo&7: &aSwietnie, liczylem na to, ze akurat Ciebie przysle."
+          - "&a&lJasuo&7: &aSlyszalem, ze przeszedles szkolenie u &1Saturasa&a, co jest nie lada wyzwaniem."
+          - "&a&lJasuo&7: &aMalo tego, ze go jeszcze POKONALES w uczciwej walce."
+          - "&a&lJasuo&7: &aKogos takiego mi wlasnie tutaj trzeba bylo."
+          - "&a&lJasuo&7: &aPewnie zmeczony jestes podroza tutaj."
+          - "&a&lJasuo&7: &aIdz i odpocznij. Przyjdz, kiedy bedziesz gotow."

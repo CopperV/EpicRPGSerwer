@@ -1,0 +1,24 @@
+name: "&8Karrypto"
+title: "&8Karrypto - dowodca"
+size: 9
+slots:
+  5:
+    item: "Krag1"
+    wymagania:
+      - "klasa: &5Mag"
+  6:
+    item: "Krag2"
+    wymagania:
+      - "klasa: &5Mag"
+  7:
+    item: "Krag3"
+    wymagania:
+      - "klasa: &5Mag"
+  8:
+    item: "Krag4"
+    wymagania:
+      - "klasa: &5Mag"
+  9:
+    item: "Krag5"
+    wymagania:
+      - "klasa: &5Mag"

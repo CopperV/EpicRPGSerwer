@@ -1,0 +1,33 @@
+id: "strzelec_quest_9"
+name: "&4Gwardia Nizara"
+zleceniodawca: "&6Nefarius"
+lore:
+  - "&aJezeli chcemy myslec kiedykolwiek o pokonaniu Nizara,"
+  - "&ato musimy pierw oslabic jego pozycje."
+  - "&aNizar otacza siebie elitarnymi assasynami"
+  - "&aoraz czarnymi magami,"
+  - "&aa w szczegolnosci lubuje sie otaczac tymi drugimi."
+  - "&aMusimy ich po prostu wybic."
+prize:
+  - "xp: 24000"
+  - "money: 1200"
+require:
+  - "level: 37"
+  - "klasa: &2Mysliwy"
+  - "quest: strzelec_quest_8"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "strzelec_quest_9_1_1"
+        type: "zabij"
+        targetName: "&0&lCzarny Mag"
+        message: "Zabij 35 czarnych magow: %stan%"
+        ilosc: 35
+      2:
+        id: "strzelec_quest_9_1_2"
+        type: "zabij"
+        targetName: "&4&lElitarny Assasyn"
+        message: "Zabij 25 elitarnych assasynow: %stan%"
+        ilosc: 25

@@ -1,0 +1,104 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+AssasynDamage:
+  Skills:
+  - CancelEvent
+  - damage{a=66} @trigger
+  - potion{type=BLINDNESS;duration=160;level=4} @trigger
+  - potion{type=WITHER;duration=100;level=1} @trigger
+AssasynAttack1:
+  Skills:
+  - gcd{ticks=60}
+  - shootskull{y=1;v=1} @target
+  Conditions:
+  - offgcd
+AssasynAttack2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=110}
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - sound{s=block.portal.ambient;v=5} @self
+  - effect:particlering{particle=witchMagic;radius=4;points=64;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=witchMagic;radius=4;points=64;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=witchMagic;radius=4;points=64;amount=1;hS=0;vS=0;y=0.3} @self
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=witchMagic;radius=4;points=64;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=witchMagic;radius=4;points=64;amount=1;hS=0;vS=0;y=0.3} @self
+  - effect:particlering{particle=witchMagic;radius=4;points=64;amount=1;hS=0;vS=0;y=0.6} @self
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=witchMagic;radius=4;points=64;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=witchMagic;radius=4;points=64;amount=1;hS=0;vS=0;y=0.3} @self
+  - effect:particlering{particle=witchMagic;radius=4;points=64;amount=1;hS=0;vS=0;y=0.6} @self
+  - effect:particlering{particle=witchMagic;radius=4;points=64;amount=1;hS=0;vS=0;y=0.9} @self
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=witchMagic;radius=4;points=64;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=witchMagic;radius=4;points=64;amount=1;hS=0;vS=0;y=0.3} @self
+  - effect:particlering{particle=witchMagic;radius=4;points=64;amount=1;hS=0;vS=0;y=0.6} @self
+  - effect:particlering{particle=witchMagic;radius=4;points=64;amount=1;hS=0;vS=0;y=0.9} @self
+  - effect:particlering{particle=witchMagic;radius=4;points=64;amount=1;hS=0;vS=0;y=1.3} @self
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=witchMagic;radius=4;points=64;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=witchMagic;radius=4;points=64;amount=1;hS=0;vS=0;y=0.3} @self
+  - effect:particlering{particle=witchMagic;radius=4;points=64;amount=1;hS=0;vS=0;y=0.6} @self
+  - effect:particlering{particle=witchMagic;radius=4;points=64;amount=1;hS=0;vS=0;y=0.9} @self
+  - effect:particlering{particle=witchMagic;radius=4;points=64;amount=1;hS=0;vS=0;y=1.3} @self
+  - effect:particlering{particle=witchMagic;radius=4;points=64;amount=1;hS=0;vS=0;y=1.6} @self
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=witchMagic;radius=4;points=64;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=witchMagic;radius=4;points=64;amount=1;hS=0;vS=0;y=0.3} @self
+  - effect:particlering{particle=witchMagic;radius=4;points=64;amount=1;hS=0;vS=0;y=0.6} @self
+  - effect:particlering{particle=witchMagic;radius=4;points=64;amount=1;hS=0;vS=0;y=0.9} @self
+  - effect:particlering{particle=witchMagic;radius=4;points=64;amount=1;hS=0;vS=0;y=1.3} @self
+  - effect:particlering{particle=witchMagic;radius=4;points=64;amount=1;hS=0;vS=0;y=1.6} @self
+  - effect:particlering{particle=witchMagic;radius=4;points=64;amount=1;hS=0;vS=0;y=2} @self
+  - effect:lightning @PIR{r=4}
+  - ignite{ticks=400} @PIR{r=4}
+  - potion{type=BLINDNESS;duration=400;level=4} @PIR{r=4}
+  - potion{type=CONFUSION;duration=200;level=4} @PIR{r=4}

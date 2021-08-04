@@ -1,0 +1,16 @@
+name: "&0Ignaz"
+title: "&0Ignaz - quester"
+size: 9
+slots:
+  1:
+    item: "p_quest_9"
+  2:
+    item: "p_quest_10"
+  3:
+    item: "p_quest_22"
+  4:
+    item: "p_quest_25"
+  9:
+    item: "Alchemia"
+    wymagania:
+    - "quest: p_quest_9"

@@ -1,0 +1,52 @@
+id: "1_quest_7"                                
+name: "&8Wytropic herszta"                          
+zleceniodawca: "&8&lRangar"                       
+lore:                                               
+  - "&aJEstesmy bliscy zadania masakrycznego ciosu bandytom."
+  - "&aKazde wieksze skupisko bandytow ma swojego Herszta."
+  - "&aI to bedzie twoje zadanie."
+  - "&aNalezy znalezc oboz Herszta"
+  - "&aoraz wybic jego obstawe"
+prize:                                    
+  - "xp: 1230"
+require:                                            
+  - "level: 9"
+  - "quest: 1_quest_6"
+stopnie:
+  1:
+    talking: false
+    message: "&r%player%&7: &aTo jest chyba to. Trzeba ukrocic obstawe tego herszta"
+    targets:
+      1:
+        id: "1_quest_7_1_1"
+        type: "znajdz"
+        targetName: "herszt1"
+        message: "odnajdz pobliski oboz herszta bandytow (909;110): %stan%"
+  2:
+    talking: true
+    message: "&8&lRangar&7: &aPrzygotuj sie solidnie. Wkrotce zapolujemy na herszta."
+    targets:
+      1:
+        id: "1_quest_7_2_1"
+        type: "zabij"
+        targetName: "&cRabus"
+        message: "Zabij 8 Rabusiow Herszta: %stan%"
+        ilosc: 8
+      2:
+        id: "1_quest_7_2_2"
+        type: "zabij"
+        targetName: "&cKieszonkowiec"
+        message: "Zabij 12 Kieszonkowcow Herszta: %stan%"
+        ilosc: 12
+      3:
+        id: "1_quest_7_2_3"
+        type: "zabij"
+        targetName: "&4Bandyta"
+        message: "Zabij 14 Bandytow Herszta: %stan%"
+        ilosc: 14
+      4:
+        id: "1_quest_7_2_4"
+        type: "zabij"
+        targetName: "&4Bandzior Ortegi"
+        message: "Zabij 1 Bandziora Ortegi: %stan%"
+        ilosc: 1

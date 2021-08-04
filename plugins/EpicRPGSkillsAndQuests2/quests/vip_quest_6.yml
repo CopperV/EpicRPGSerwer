@@ -1,0 +1,28 @@
+id: "vip_quest_6"                                
+name: "&6&lZloto to zloto"                          
+zleceniodawca: "&6&lGustav"                       
+lore:                                               
+  - "&aZloto assasynow zostalo okrutnie potraktowane"
+  - "&aprzez &6&lRhobara &aoraz &c&lAlexstrasze&a."
+  - "&aNa dzien dzisiejszy jest ono bezuzyteczne."
+  - "&aMamy jednakb srodki, podobnie jak przemytnicy"
+  - "&ai gildia zlodziei, do zrobienia z nich ponownego uzytku."
+  - "&aPrzynies nam troche na rozkrecenie biznesu, a gildia"
+  - "&aCiebie porzadnie wynagrodzi."
+prize:                                    
+  - "xp: 1300"
+  - "money: 4000"
+  - "item: Zlota_Moneta 28"
+require:                                            
+  - "level: 35"
+  - "ranga: magnat"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "vip_quest_6_1_1"
+        type: "przynies"
+        targetName: "&cNielegalne zloto"
+        message: "Przynies 28 sztuk nielegalnego zlota: %stan%"
+        ilosc: 28

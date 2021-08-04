@@ -1,0 +1,28 @@
+id: "fabula_quest_15"
+name: "&7&lUpadly nadzorca"                          
+zleceniodawca: "&a&lJasuo"
+lore:
+  - "&aJasnym jest, ze Gomez nas zdradzil."
+  - "&aNie wiem jednak, jakim cudem udalo mu sie"
+  - "&awplynac w taki sposob na zarazonych,"
+  - "&aby go nie atakowaly, a malo tego,"
+  - "&azeby sie jego sluchali."
+  - "&aNie interesuje mnie to jednak,"
+  - "&amusi zostac ukarany."
+  - "&aWiesz juz gdzie przebywa, takze nie zwlekaj"
+  - "&ai idz go pokonac"
+prize:                                    
+  - "xp: 23500"
+require:                                            
+  - "quest: fabula_quest_14"
+  - "level: 34"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "fabula_quest_15_1_1"
+        type: "zabij"
+        targetName: "&6&lGomez - Straznik Kopalni - BOSS"
+        message: "Pokonaj Gomeza - Straznika Kopalni: %stan%"
+        ilosc: 1

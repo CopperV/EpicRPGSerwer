@@ -1,0 +1,34 @@
+id: "4_quest_26"
+name: "&b&oOpanowana sytuacja"
+zleceniodawca: "&6&lRhobar"
+lore:
+  - "&aOrkowy general nie zyje, co daje nam"
+  - "&achwile odpoczynku."
+  - "&aWykonales kawal dobrej roboty."
+  - "&aPokazaliscie, Ty i Twoj lud, ze nie jest wam"
+  - "&aobojetny zaden los - nawet tak stereotypowych assasynow."
+  - "&aIdz do swojego przelozonego i opowiedz o swoim sukcesie."
+prize:
+  - "xp: 600"
+  - "money: 2500"
+  - "bc: &7[&b&lEpicRPG&7] &aGracz &7%player% &aukonczyl watek &cInwazja orkow&a. &6&lGRATULACJE!"
+  - "cmd: crazycrates give physical Zwykla 1 %player%"
+  - "cmd: crazycrates give physical Rzadka 1 %player%"
+require:
+  - "level: 40"
+  - "quest: 4_quest_25"
+stopnie:
+  1:
+    talking: false
+    targets:
+      1:
+        id: "4_quest_26_1_1"
+        type: "zagadaj"
+        targetName: "&b&lCorristo"
+        message: "Porozmawiaj z &b&lCorristo: %stan%"
+        dialog:
+          - "%player%&7: &aUdalo sie. Orkowa potega zostala zmiazdzona. Ich general nie zyje."
+          - "&6&lCorristo&7: &aSlyszalem o tym. Dokonales praktycznie czegos niemozliwego."
+          - "&6&lCorristo&7: &aTo daje nam szanse na utrzymanie samodzielnosci tej wyspy."
+          - "&6&lCorristo&7: Rzecz jasna, to jeszcze nie koniec twojej przygoda."
+          - "&6&lCorristo&7: Mam dla Ciebie kolejna misje."

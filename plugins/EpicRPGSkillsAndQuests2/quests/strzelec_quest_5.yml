@@ -1,0 +1,44 @@
+id: "strzelec_quest_5"
+name: "&c&lWielcy hersztowie"
+zleceniodawca: "&7&lSaro"
+lore:
+  - "&aTo pozostalo jeszcze jedno zadanie,"
+  - "&aktore bedziesz w stanie sam wykonac."
+  - "&aNa tej wyspie sa 3 obozy hersztow."
+  - "&aJeden z nich na wschod od centralnego lasu,"
+  - "&adrugi na polnoc, kolo farmy Cratosa,"
+  - "&atrzeci natomiast na poludniu, na plazy, kolo dzungli."
+  - "&aW kazdym z tych obozow znajduje sie herszt,"
+  - "&aktorego ty musisz pokonac."
+prize:
+  - "xp: 1275"
+require:
+  - "level: 17"
+  - "klasa: &2Mysliwy"
+  - "quest: strzelec_quest_4"
+stopnie:
+  1:
+    talking: true
+    message: "&7&lSaro&7: &aUdalo Ci sie mnie przekonac. Pzyjdz do mnie, jak bedziesz gotow na odprawe."
+    targets:
+      1:
+        id: "strzelec_quest_5_1_1"
+        type: "znajdz"
+        targetName: "herszt1"
+        message: "Znajdz oboz bandytow na wschod od centralnego lasu (910;106): %stan%"
+      2:
+        id: "strzelec_quest_5_1_2"
+        type: "znajdz"
+        targetName: "herszt2"
+        message: "Znajdz oboz bandytow na plazy kolo dzungli na poludniu (866;908): %stan%"
+      3:
+        id: "strzelec_quest_5_1_3v"
+        type: "znajdz"
+        targetName: "herszt3"
+        message: "Znajdz oboz bandytow na polnoc kolo farmy Cratosa (566;-599): %stan%"
+      4:
+        id: "strzelec_quest_5_1_4"
+        type: "zabij"
+        targetName: "&c&lHerszt Bandytow - BOSS"
+        message: "Pokonaj wszystkich trzech hersztow bandytow: %stan%"
+        ilosc: 3

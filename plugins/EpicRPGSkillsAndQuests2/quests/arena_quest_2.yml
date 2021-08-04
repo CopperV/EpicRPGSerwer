@@ -1,0 +1,28 @@
+id: "arena_quest_2"                                
+name: "&2Beda drzec przed Twoim skillem"                          
+zleceniodawca: "&eAlwin"                       
+lore:                                               
+  - "&aDawno Ciebie tutaj nie widzialem."
+  - "&aNie mialbys ochoty znowu u mnie powalczyc?"
+  - "&aZdobylem nowych zawodnikow."
+  - "&aJestem pewny, ze sprostaja Twoim oczekiwaniom."
+  - "&aTo na co czekasz?"
+  - "&aSpraw, by inni drzeli juz na wspomnienie"
+  - "&aTwojego imienia!"
+prize:                                    
+  - "xp: 2400"
+  - "money: 1200"
+require:                                            
+  - "level: 23"
+  - "quest: arena_quest_1"
+stopnie:
+  1:
+    talking: true
+    message: "&eAlwin&7: &aTwoje imie zaczyna byc znane wsrod innych wojownikow na Archolosie. Gratulacje"
+    targets:
+      1:
+        id: "arena_quest_2_1_1"
+        type: "player"
+        level: 20
+        message: "Pokonaj 14 graczy na poziomie przynajmniej 20: %stan%"
+        ilosc: 14

@@ -1,0 +1,117 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+
+MefistoSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &9&oPrzez cierpienie zostaniecie odkupieni!"} @PlayersInRadius{r=25}
+
+MefistoSkill1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=60} @self
+  - message{m="<mob.name><&co> &9&oW bolu stworzone! Do konca wierne!"} @PlayersInRadius{r=25}
+  - summon{type=MefistoSummon;amount=2;radius=4} @self
+
+MefistoSkill2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=100} @self
+  - message{m="<mob.name><&co> &9&oCierpienie tego miejsca Was pochlonie!"} @PlayersInRadius{r=25}
+  - delay 10
+  - summon{type=MefistoProjectile;amount=1;radius=0} @Location{c=-1973.5,60,1375.5,0,0}
+  - summon{type=MefistoProjectile;amount=1;radius=0} @Location{c=-1965.5,60,1375.5,0,0}
+  - summon{type=MefistoProjectile;amount=1;radius=0} @Location{c=-1961.5,60,1375.5,0,0}
+  - summon{type=MefistoProjectile;amount=1;radius=0} @Location{c=-1953.5,60,1375.5,0,0}
+
+MefistoSkill3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=200} @self
+  - message{m="<mob.name><&co> &9&oBedziecie blagac o litosc!"} @PlayersInRadius{r=25}
+  - delay 10
+  - randomskill{skills=MefistoLoc1,MefistoLoc2,MefistoLoc3,MefistoLoc4,MefistoLoc5} @PIR{r=20}
+
+MefistoLoc1:
+  Skills:
+  - teleportto{location=-1955.5,61,1383.5}
+  - stun{d=80}
+  - damage{a=140}
+  - skill{s=MefistoPrison}
+
+MefistoLoc2:
+  Skills:
+  - teleportto{location=-1960.5,61,1383.5}
+  - stun{d=80}
+  - damage{a=140}
+  - skill{s=MefistoPrison}
+
+MefistoLoc3:
+  Skills:
+  - teleportto{location=-1967.5,61,1383.5}
+  - stun{d=80}
+  - damage{a=140}
+  - skill{s=MefistoPrison}
+
+MefistoLoc4:
+  Skills:
+  - teleportto{location=-1972.5,61,1383.5}
+  - stun{d=80}
+  - damage{a=140}
+  - skill{s=MefistoPrison}
+
+MefistoLoc5:
+  Skills:
+  - teleportto{location=-1979.5,61,1383.5}
+  - stun{d=80}
+  - damage{a=140}
+  - skill{s=MefistoPrison}
+
+MefistoPrison:
+  Skills:
+  - orbital{onTick=PociskPrison-Tick;points=29;interval=1;duration=80;charges=1;r=1;hr=1;rx=0.78;ry=0;oy=1;hp=false}
+  - orbital{onTick=PociskPrison-Tick;points=23;interval=1;duration=80;charges=1;r=1;hr=1;rx=-0.78;ry=0;oy=1;hp=false}
+
+UtrapionaDusza_Skill1:
+  Skills:
+  - missile{ot=UtrapionaDusza_Skill1_Tick;oH=UtrapionaDusza_Skill1_Hit;v=6;i=1;hR=1.5;vR=1.5;in=4;md=100;mr=15;sB=false} @PlayersInRadius{r=50;limit=3;sort=RANDOM}
+  - effect:sound{s=entity.ghast.warn;v=2;p=1.5} @origin
+  
+
+UtrapionaDusza_Skill1_Tick:
+  Skills:
+  - effect:particles{particle=cloud;amount=5;speed=0.03;hS=0.15;vS=0.15} @origin
+  - effect:particles{particle=enchantmenttable;amount=5;speed=0.1;hS=0.3;vS=0.3} @origin
+
+UtrapionaDusza_Skill1_Hit:
+  Skills:
+  - damage{a=190}
+  - effect:particles{particle=cloud;amount=15;speed=0.15;hS=0.2;vS=0.2;y=1} @origin
+  - effect:particles{particle=enchantmenttable;amount=15;speed=0.15;hS=0.2;vS=0.2;y=1} @origin
+  - effect:sound{s=entity.ghast.hurt;v=2;p=2} @origin
+
+
+TormentMefisto_Skill1:
+  Skills:
+  - delay 10
+  - sound{s=entity.firework.large_blast;v=10} @self
+  - projectile{onTick=TormentMefisto-Tick;onHit=TormentMefisto-End;v=6;i=1;hR=1;vR=1;mr=40;sB=false;sE=false} @PIR{r=25}
+  - delay 70
+  - remove @self
+
+TormentMefisto-Tick:
+  Skills:
+  - effect:particles{particle=flame;amount=5;amount=5;speed=0.1;hS=0.3;vS=0.3} @origin
+  - effect:particles{particle=enchantmenttable;amount=5;speed=0.1;hS=0.3;vS=0.3} @origin
+TormentMefisto-End:
+  Skills:
+  - sound{s=entity.firework.large_blast_far;v=10} @origin
+  - damage{amount=195}
+  - potion{type=BLINDNESS;duration=100;level=2}
+  - potion{type=CONFUSION;duration=100;level=2}
+  - potion{type=WITHER;duration=100;level=2}
+  - effect:particles{particle=flame;amount=15;speed=0.15;hS=0.2;vS=0.2;y=1} @origin
+  - effect:particles{particle=enchantmenttable;amount=15;speed=0.15;hS=0.2;vS=0.2;y=1} @origin

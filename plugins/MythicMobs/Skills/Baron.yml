@@ -1,0 +1,179 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+BaronAttack3:
+  Skills:
+  - CancelEvent
+  - damage{a=121} @trigger
+BaronSummon1:
+  Skills:
+  - message{m="<mob.name><&co> &7Strawi was ogien!"} @PlayersInRadius{r=15}
+  - delay 5
+  - summon{mob=Lava7;amount=1;noise=3} @Self
+  - summon{mob=Lava6;amount=1;noise=3} @Self
+BaronSummon2:
+  Skills:
+  - message{m="<mob.name><&co> &7Strawi was ogien!"} @PlayersInRadius{r=15}
+  - delay 5
+  - summon{mob=Lava8;amount=1;noise=3} @Self
+BaronSummon3:
+  Skills:
+  - message{m="<mob.name><&co> &7Strawi was ogien!"} @PlayersInRadius{r=15}
+  - delay 5
+  - summon{mob=Lava10;amount=1;noise=3} @Self
+  - summon{mob=Lava10;amount=1;noise=3} @Self
+BaronSummon4:
+  Skills:
+  - message{m="<mob.name><&co> &7Strawi was ogien!"} @PlayersInRadius{r=15}
+  - delay 5
+  - summon{mob=Kolos;amount=1;noise=3} @Self
+BaronSummon5:
+  Skills:
+  - message{m="<mob.name><&co> &7Strawi was ogien!"} @PlayersInRadius{r=15}
+  - delay 5
+  - summon{mob=Niewola1;amount=1;noise=3} @Self
+  - summon{mob=Niewola1;amount=1;noise=3} @Self
+BaronSummon6:
+  Skills:
+  - message{m="<mob.name><&co> &7Strawi was ogien!"} @PlayersInRadius{r=15}
+  - delay 5
+  - summon{mob=Niewola1;amount=1;noise=3} @Self
+  - summon{mob=Niewola2;amount=1;noise=3} @Self
+BaronAttack1:
+  Skills:
+  - message{m="<mob.name><&co> &7Ragnaros zmieni cie w popiol!"} @PlayersInRadius{r=10}
+  - delay 15
+  - sound{s=block.fire.ambient;v=10} @self
+  - effect:particlering{particle=largeexplode;radius=6;points=64;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=5;points=50;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=4;points=36;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=3;points=24;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=2;points=16;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.1} @self
+  - damage{a=105} @PIR{r=6}
+  - sound{s=block.fire.extinguish;v=10} @PIR{r=6}
+  - ignite{ticks=300} @PIR{r=6}
+BaronAttack2:
+  Skills:
+  - message{m="<mob.name><&co> &7Plon!"} @PlayersInRadius{r=15}
+  - delay 10
+  - effect:particlesphere{particle=reddust;amount=300;radius=1.5;y=0.5} @self
+  - delay 10
+  - effect:particlesphere{particle=reddust;amount=300;radius=1.5;y=0.5} @self
+  - effect:particleline{particle=reddust;amount=10;fromOrigin=true} @PIR{r=10}
+  - delay 10
+  - effect:particlesphere{particle=reddust;amount=300;radius=1.5;y=0.5} @self
+  - damage{a=90} @PIR{r=10}
+  - ignite{ticks=600} @PIR{r=10}
+  - effect:flames @PIR{r=10}
+BaronTp:
+  Skills:
+  - message{m="<mob.name><&co> &7Sploniesz!"} @PlayersInRadius{r=18}
+  - teleport{spreadh=5;spreadv=2} @target
+  - effect:particles{particle=flame;amount=50;speed=0.05;hS=0.3;vS=0.1;y=0.05} @self
+  - effect:particlering{particle=reddust;radius=2;points=16;amount=12} @self
+  - sound{s=block.fire.extinguish} @PlayersInRadius{r=10}
+  - delay 10
+  - effect:particles{particle=flame;amount=50;speed=0.05;hS=0.3;vS=0.1;y=0.05} @self
+  - effect:particlering{particle=reddust;radius=2;points=16;amount=12} @self
+BaronSpawn:
+  Skills:
+  - leap{v=0} @target
+  - delay 1
+  - leap{v=0} @target
+  - sound{s=fire.fire;v=10} @self
+  - effect:particlering{particle=reddust;radius=14;points=256;amount=1;hS=0;vS=0;y=0.1} @self
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=reddust;radius=14;points=256;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=reddust;radius=14;points=256;amount=1;hS=0;vS=0;y=0.3} @self
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=reddust;radius=14;points=256;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=reddust;radius=14;points=256;amount=1;hS=0;vS=0;y=0.3} @self
+  - effect:particlering{particle=reddust;radius=14;points=256;amount=1;hS=0;vS=0;y=0.6} @self
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=reddust;radius=14;points=256;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=reddust;radius=14;points=256;amount=1;hS=0;vS=0;y=0.3} @self
+  - effect:particlering{particle=reddust;radius=14;points=256;amount=1;hS=0;vS=0;y=0.6} @self
+  - effect:particlering{particle=reddust;radius=14;points=256;amount=1;hS=0;vS=0;y=0.9} @self
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=reddust;radius=14;points=256;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=reddust;radius=14;points=256;amount=1;hS=0;vS=0;y=0.3} @self
+  - effect:particlering{particle=reddust;radius=14;points=256;amount=1;hS=0;vS=0;y=0.6} @self
+  - effect:particlering{particle=reddust;radius=14;points=256;amount=1;hS=0;vS=0;y=0.9} @self
+  - effect:particlering{particle=reddust;radius=14;points=256;amount=1;hS=0;vS=0;y=1.3} @self
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=reddust;radius=14;points=256;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=reddust;radius=14;points=256;amount=1;hS=0;vS=0;y=0.3} @self
+  - effect:particlering{particle=reddust;radius=14;points=256;amount=1;hS=0;vS=0;y=0.6} @self
+  - effect:particlering{particle=reddust;radius=14;points=256;amount=1;hS=0;vS=0;y=0.9} @self
+  - effect:particlering{particle=reddust;radius=14;points=256;amount=1;hS=0;vS=0;y=1.3} @self
+  - effect:particlering{particle=reddust;radius=14;points=256;amount=1;hS=0;vS=0;y=1.6} @self
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - delay 2
+  - leap{v=0} @target
+  - effect:particlering{particle=reddust;radius=14;points=256;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=reddust;radius=14;points=256;amount=1;hS=0;vS=0;y=0.3} @self
+  - effect:particlering{particle=reddust;radius=14;points=256;amount=1;hS=0;vS=0;y=0.6} @self
+  - effect:particlering{particle=reddust;radius=14;points=256;amount=1;hS=0;vS=0;y=0.9} @self
+  - effect:particlering{particle=reddust;radius=14;points=256;amount=1;hS=0;vS=0;y=1.3} @self
+  - effect:particlering{particle=reddust;radius=14;points=256;amount=1;hS=0;vS=0;y=1.6} @self
+  - effect:particlering{particle=reddust;radius=14;points=256;amount=1;hS=0;vS=0;y=2} @self
+  - delay 2
+  - message{m="<mob.name><&co> &7Sploniesz!"} @PlayersInRadius{r=18}
+  - delay 3
+  - effect:particlering{particle=largeexplode;radius=13;points=200;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=12;points=180;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=11;points=162;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=10;points=144;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=9;points=125;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=8;points=100;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=7;points=80;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=6;points=64;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=5;points=50;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=4;points=36;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=3;points=24;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=2;points=16;amount=1;hS=0;vS=0;y=0.1} @self
+  - effect:particlering{particle=largeexplode;radius=1;points=8;amount=1;hS=0;vS=0;y=0.1} @self
+  - damage{a=116} @PIR{r=13}
+  - sound{s=block.fire.extinguish;v=10} @PIR{r=13}
+  - ignite{ticks=400} @PIR{r=13}

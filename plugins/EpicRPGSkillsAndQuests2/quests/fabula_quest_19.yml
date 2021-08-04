@@ -1,0 +1,32 @@
+id: "fabula_quest_19"
+name: "&9Pochodzenie orkow"                          
+zleceniodawca: "&8Xardas"
+lore:
+  - "&aOrkowi wojownicy, ktorzy czyms sie wyroznili"
+  - "&amaja zwyczaj trzymac przy sobie otrzymane odznaki."
+  - "&aNatomiast szamani korzystaja z amuletow,"
+  - "&aktore wspomagaja ich w walce."
+  - "&aMozliwe, ze z nich uda nam sie odczytac chociaz"
+  - "&askad pochodza."
+prize:                                    
+  - "xp: 35000"
+require:                                            
+  - "quest: fabula_quest_18"
+  - "level: 37"
+stopnie:
+  1:
+    talking: true
+    message: "&8Xardas&7: &aNo dobra... Zobaczmy, co uda nam sie odczytac..."
+    targets:
+      1:
+        id: "fabula_quest_19_1_1"
+        type: "przynies"
+        targetName: "&8Orkowa odznaka"
+        message: "Przynies 27 orkowe odznaki: %stan%"
+        ilosc: 27
+      2:
+        id: "fabula_quest_19_1_2"
+        type: "przynies"
+        targetName: "&bAmulet orkow"
+        message: "Pokonaj 23 orkowe amulety: %stan%"
+        ilosc: 23

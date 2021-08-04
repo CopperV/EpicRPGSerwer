@@ -1,0 +1,16 @@
+name: "&6&lReturning"
+title: "&6&lReturning - quester"
+size: 9
+slots:
+  1:
+    item: "vip_quest_1"
+  2:
+    item: "vip_quest_2"
+  3:
+    item: "vip_quest_5"
+  4:
+    item: "vip_quest_8"
+  5:
+    item: "vip_quest_10"
+  6:
+    item: "vip_quest_11"

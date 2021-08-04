@@ -1,0 +1,34 @@
+id: "strzelec_quest_16"                                
+name: "&2&lWielki Lowca"                          
+zleceniodawca: "&a&oAlex"                       
+lore:
+  - "&aChyba Herobrine zorientowal sie,"
+  - "&aze brakuje mu paru jego lowcow."
+  - "&aOstatnio w lesie zauwazylismy jednego wiekszego,"
+  - "&az odznaka Herobrina oraz Mroczna Pieczecia."
+  - "&aZostal pewnie wyslany, by nas odnalezc"
+  - "&ai wyeliminowac."
+  - "&aNie mozemy na to pozwolic."
+  - "&aOdnajdz go i zabij zanim to on zrobi nam."
+  - "&aOstatnio widzielismy go w poblizu jednego"
+  - "&az waszych obozow."
+prize:                       
+  - "xp: 75000"
+  - "money: 2500"
+  - "cmd: crazycrates give physical Rzadka 2 %player%"
+  - "bc: &7[&b&lEpicRPG&7] &aGracz &7%player% &aukonczyl watek &2&oNocne lowy&a. &6&lGRATULACJE!"
+  - "item: Gem_Mysliwy"
+require:                                            
+  - "level: 55"
+  - "klasa: &2Mysliwy"
+  - "quest: strzelec_quest_15"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "strzelec_quest_16_1_1"
+        type: "zabij"
+        targetName: "&2&lLowca Herobrina - BOSS"
+        message: "Odnajdz i pokonaj Lowce Herobrina: %stan%"
+        ilosc: 1

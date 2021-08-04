@@ -1,0 +1,28 @@
+id: "vip_quest_12"                                
+name: "&6&lBizuteria z mroczna historia"                          
+zleceniodawca: "&6&lGustav"                       
+lore:                                               
+  - "&aWaluta Nowego Swiata to nie jedyny"
+  - "&asposob na wykorzystanie tej sytuacji."
+  - "&aTylko wyobraz sobie,"
+  - "&aposiadac pierscien szczegolnego wojownika,"
+  - "&aktorego moc zmiazdzyla wielu smialkow."
+  - "&aWyobraz sobie te kolekcje Morgulu."
+  - "&aJuz wiesz, czego chce i czego potrzebuje..."
+prize:                                    
+  - "xp: 10000"
+  - "money: 25000"
+  - "item: Zlota_Moneta 64"
+require:                                            
+  - "level: 58"
+  - "ranga: magnat"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "vip_quest_12_1_1"
+        type: "przynies"
+        targetName: "&8&lPierscien Morgulu"
+        message: "Przynies 14 pierscieni Morgulu: %stan%"
+        ilosc: 14

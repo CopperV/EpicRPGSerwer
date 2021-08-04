@@ -1,0 +1,36 @@
+Skora_Warga:
+  Id: 334
+  Display: '&cSkora warga'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Skora_Tserebusa:
+  Id: 334
+  Display: '&4Skora Tserebusa'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Kiel_Warga:
+  Id: 409
+  Display: '&cKiel warga'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Kiel_Tserebusa:
+  Id: 318
+  Display: '&c&lKiel Tserebusa'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Psia_Kosc:
+  Id: 352
+  Display: '&rPsia kosc'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Orkowa_Smycz:
+  Id: 421
+  Display: '&aOrkowa smycz'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'

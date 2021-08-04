@@ -1,0 +1,25 @@
+id: "ee_quest_1"                                
+name: "&5Armia endu"                          
+zleceniodawca: "&3&lDecard"                       
+lore:                                               
+  - "&aDawno tutaj nikogo nie widzialem."
+  - "&aA tym bardziej czlowieka."
+  - "&aSluchaj, nie chcialbys pomoc mi odzyskac"
+  - "&amoja doline z rak tych szubrawcow?"
+  - "&aMoge Ci zaoferowac troche zlotych monet."
+  - "&aMnie i tak to jest niepotrzebne."
+prize:                                    
+  - "xp: 12000"
+  - "money: 300"
+require:                                            
+  - "level: 36"
+stopnie:
+  1:
+    talking: true                  
+    targets:
+      1:
+        id: "ee_quest_1_1_1"
+        type: "zabij"
+        targetName: "&4&lEnderwarlord"
+        message: "Zabij 45 enderwarlordow: %stan%"
+        ilosc: 45

@@ -1,0 +1,10 @@
+name: "&e&lCassia"
+title: "&e&lCassia - quester"
+size: 9
+slots:
+  1:
+    item: "zlodziej_quest_19"
+  2:
+    item: "zlodziej_quest_20"
+  3:
+    item: "zlodziej_quest_21"

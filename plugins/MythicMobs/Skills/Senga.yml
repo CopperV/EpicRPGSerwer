@@ -1,0 +1,116 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+
+SengaSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &9&oStajesz przed jednym z lordow cieni. Przygotuj sie na smierc"} @PlayersInRadius{r=25}
+
+SengaSkill1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=260} @self
+  - message{m="<mob.name><&co> &9&oMrok jest moim sprzymierzencem. On mnie ochroni..."} @PlayersInRadius{r=25}
+  - stun{d=60} @self
+  - delay 60
+  - Aura{auraName=SengaShield;duration=200} @self
+  - sound{s=entity.blaze.shoot;v=10;p=0.01} @self
+  - orbital{onTick=SengaShield-Tick;onHit=SengaShield-Hit;points=43;interval=1;duration=200;charges=1;r=3;hr=1;rx=0.78;ry=0;oy=1} @self
+  - orbital{onTick=SengaShield-Tick;onHit=SengaShield-Hit;points=31;interval=1;duration=200;charges=1;r=3;hr=1;rx=-0.78;ry=0;oy=1} @self
+  - orbital{onTick=SengaShield-Tick;onHit=SengaShield-Hit;points=29;interval=1;duration=200;charges=1;r=3;hr=1;rx=0;ry=0;oy=1} @self
+  - orbital{onTick=SengaShield-Tick;onHit=SengaShield-Hit;points=37;interval=1;duration=200;charges=1;r=3;hr=1;rx=0;ry=0;rz=-1.57;oy=1} @self
+
+SengaShield-Tick:
+  Skills:
+  - effect:particles{p=largesmoke;amount=10;speed=0;hS=0.05;vS=0.05} @origin
+SengaShield-Hit:
+  Skills:
+  - damage{amount=200} @PlayersNearOrigin{r=2.5}
+  - sound{s=entity.enderdragon.hurt;v=1;p=0.2} @Origin
+
+SengaSkill1_Defense:
+  Conditions:
+  - hasaura SengaShield true
+  Skills:
+  - damage{amount=185} @trigger
+  - sound{s=entity.player.attack.strong;v=4;p=4} @TriggerLocation
+  - throw{velocity=5;velocityY=2} @trigger
+
+SengaSkill2:
+  Skills:
+  - message{m="<mob.name><&co> &9&oArmia Cienia jest na moje zawolanie!"} @PlayersInRadius{r=25}
+  - delay 20
+  - summon{type=SengaSummon;amount=2;radius=3} @self
+
+SengaSkill2_Particles:
+  Conditions:
+  - mobsInRadius{types=SengaSummon;amount=1to2;radius=40} true
+  Skills:
+  - stun{d=10} @self
+  - effect:particles{particle=largesmoke;amount=5;speed=0.1;hS=0.5;vS=0.5;y=1} @self
+  - heal{amount=50} @self
+
+SengaSkill2_Defense:
+  Conditions:
+  - mobsInRadius{types=SengaSummon;amount=1to2;radius=40} true
+  Skills:
+  - heal{amount=1500} @self
+
+SengaSummonSkill:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=120} @self
+  - stun{d=20} @self
+  - effect:particles{particle=largesmoke;amount=20;speed=0.2;hS=0.7;vS=0.7;y=1} @self
+  - delay 20
+  - sound{s=entity.enderdragon.growl;v=3;p=0.1} @self
+  - potion{type=SPEED;duration=160;level=1} @self
+  - Aura{auraName=SengaSummonSkill_Attack;duration=160} @self
+
+SengaSummonSkill_AttackEffect:
+  Conditions:
+  - hasaura SengaSummonSkill_Attack true
+  Skills:
+  - CancelEvent
+  - sound{s=entity.enderdragon.growl;v=3;p=1.5} @self
+  - damage{a=300} @trigger
+  - effect:particles{particle=largesmoke;amount=20;speed=0.2;hS=0.3;vS=0.3;y=1} @trigger
+
+SengaSummonSkill_AttackParticles:
+  Conditions:
+  - hasaura SengaSummonSkill_Attack true
+  Skills:
+  - effect:particles{particle=largesmoke;amount=5;speed=0.1;hS=0.5;vS=0.5;y=1} @self
+
+SengaSkill3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=100} @self
+  - message{m="<mob.name><&co> &9&oTen Mrok pochlonie Was wszystkich!"} @PlayersInRadius{r=25}
+  - delay 60
+  - projectile{onTick=SengaSkill3-Tick;onEnd=SengaSkill3-End;v=7;i=1;hR=0.9;vR=0.9;mr=10;sB=false;sE=false;hp=false} @Forward{f=0;y=10}
+  - sound{s=entity.blaze.shoot;v=3;p=1.9} @self
+  - delay 20
+  - projectile{onTick=SengaSkill3-Tick;onEnd=SengaSkill3-End;v=7;i=1;hR=0.9;vR=0.9;mr=10;sB=false;sE=false;hp=false} @Forward{f=0;y=10}
+  - sound{s=entity.blaze.shoot;v=3;p=1.9} @self
+  - delay 20
+  - projectile{onTick=SengaSkill3-Tick;onEnd=SengaSkill3-End;v=7;i=1;hR=0.9;vR=0.9;mr=10;sB=false;sE=false;hp=false} @Forward{f=0;y=10}
+  - sound{s=entity.blaze.shoot;v=3;p=1.9} @self
+
+SengaSkill3-Tick:
+  Skills:
+  - effect:particles{particle=largesmoke;amount=10;speed=0.2;hS=0.3;vS=0.3} @origin
+
+SengaSkill3-End:
+  Skills:
+  - missile{ot=SengaSkill3-Tick;oH=SengaMissile_Hit;v=6;i=1;hR=1.5;vR=1.5;in=3;md=200;mr=50;sB=false;fo=true} @PlayersInRadius{r=50;limit=3;sort=RANDOM}
+  - sound{s=entity.blaze.shoot;v=3;p=0.1} @self
+
+SengaMissile_Hit:
+  Skills:
+  - damage{a=190}
+  - effect:particles{particle=largesmoke;amount=25;speed=0.15;hS=0.6;vS=0.6;y=1} @origin
+  - effect:sound{s=entity.generic.explode;v=1;p=0.2} @origin

@@ -1,0 +1,107 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+GoblinSummon1:
+  Cooldown: 1
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=65}
+  - message{m="<mob.name><&co> &7To zloto nalezy do nas!"} @PlayersInRadius{r=20}
+  - delay 5
+  - summon{mob=Goblin1;amount=1;noise=3} @Self
+  - summon{mob=Goblin2;amount=1;noise=3} @Self
+  - summon{mob=Goblin3;amount=1;noise=3} @Self
+GoblinSummon2:
+  Cooldown: 2
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=70}
+  - message{m="<mob.name><&co> &7Niczego nie dostaniecie!"} @PlayersInRadius{r=20}
+  - delay 5
+  - summon{mob=Goblin2;amount=1;noise=3} @Self
+  - summon{mob=Goblin2;amount=1;noise=3} @Self
+  - delay 5
+  - summon{mob=Goblin6;amount=1;noise=5} @Self
+GoblinSummon3:
+  Cooldown: 3
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=70}
+  - message{m="<mob.name><&co> &7Oni nas okradaja!"} @PlayersInRadius{r=20}
+  - delay 5
+  - summon{mob=Goblin7;amount=1;noise=3} @Self
+  - summon{mob=Goblin8;amount=1;noise=3} @Self
+  - delay 5
+  - summon{mob=Goblin9;amount=1;noise=5} @Self
+GoblinSummon4:
+  Cooldown: 2
+  Skills:
+  - message{m="<mob.name><&co> &7Powstrzymam was. Niczego stad nie wyniesiecie!"} @PlayersInRadius{r=20}
+  - delay 5
+  - summon{mob=Goblin1;amount=1;noise=2} @Self
+  - summon{mob=Goblin2;amount=1;noise=2} @Self
+  - summon{mob=Goblin3;amount=1;noise=2} @Self
+  - delay 5
+  - summon{mob=Goblin4;amount=1;noise=4} @Self
+  - summon{mob=Goblin5;amount=1;noise=4} @Self
+  - summon{mob=Goblin6;amount=1;noise=4} @Self
+  - delay 5
+  - summon{mob=Goblin7;amount=1;noise=6} @Self
+  - summon{mob=Goblin8;amount=1;noise=6} @Self
+  - summon{mob=Goblin9;amount=1;noise=6} @Self
+GoblinPull:
+  Cooldown: 2
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=65}
+  - message{m="<mob.name><&co> &7Chodzcie tu!"} @PlayersInRadius{r=20}
+  - delay 5
+  - effect:flames @self
+  - sound{s=entity.ghast.shoot} @PIR{r=7}
+  - pull{v=8;to=true} @PIR{r=7}
+GoblinThrow:
+  Cooldown: 1
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=65}
+  - message{m="<mob.name><&co> &7PRECZ!"} @PlayersInRadius{r=7}
+  - delay 5
+  - effect:explosion @self
+  - throw{velocity=12;velocityY=15} @PlayersInRadius{r=7}
+GoblinSAttack1:
+  Conditions:
+  - targetwithin{d=30} true
+  Skills:
+  - sound{s=entity.ghast.shoot;v=10} @self
+  - projectile{onTick=GoblinS-Tick1;onHit=GoblinS-Hit1;v=9;i=1;hR=1;vR=1;mr=30;sB=true;sE=true;syo=0;tyo=0} @target
+GoblinS-Tick1:
+  Skills:
+  - effect:particlesphere{particle=flame;amount=20;radius=0.05;y=0.5;s=0.01} @origin
+GoblinS-Hit1:
+  Skills:
+  - sound{s=block.fire.extinguish;v=10} @origin
+  - damage{amount=26}
+GoblinSAttack2:
+  Conditions:
+  - targetwithin{d=30} true
+  Skills:
+  - sound{s=entity.enderdragon.flap;v=10} @self
+  - projectile{onTick=GoblinS-Tick2;onHit=GoblinS-Hit2;v=15;i=3;hR=2;vR=2;mr=40;sB=true;sE=true;syo=0;tyo=0} @target
+GoblinS-Tick2:
+  Skills:
+  - effect:particlesphere{particle=cloud;amount=20;radius=0.33;y=1;s=0.15} @origin
+  - effect:particlesphere{particle=cloud;amount=20;radius=0.00;y=1;s=0.00} @origin
+GoblinS-Hit2:
+  Skills:
+  - sound{s=entity.enderdragon.flap;v=10} @origin
+  - damage{amount=19} @PlayersNearOrigin{r=3}
+  - throw{velocity=16;velocityY=4} @PlayersNearOrigin{r=3}
+GoblinAttack3:
+  Skills:
+  - CancelEvent
+  - damage{a=20} @trigger

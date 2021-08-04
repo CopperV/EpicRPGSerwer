@@ -1,0 +1,31 @@
+id: "mag_quest_16"                                
+name: "&9&lCicha woda brzegi czaruje"                          
+zleceniodawca: "&r&lBialy Enderman"                       
+lore:                                               
+  - "&aZnamy juz polozenie Szepciuchy."
+  - "&aPora jej sie pozbyc."
+  - "&aRzecz jasna, zabicie jej nie oznacza,"
+  - "&aze ten las natychmiastowo stanie sie wspanialy."
+  - "&aDluga droga nas do tego czeka,"
+  - "&aale pozbycie sie wiedzm z pewnoscia ulatwi"
+  - "&ate droge."
+prize:                                    
+  - "xp: 75000"
+  - "money: 2500"
+  - "cmd: crazycrates give physical Rzadka 2 %player%"
+  - "bc: &7[&b&lEpicRPG&7] &aGracz &7%player% &aukonczyl watek &9&oMagia Nowego Swiata&a. &6&lGRATULACJE!"
+  - "item: Gem_Mag"
+require:                                            
+  - "level: 55"
+  - "klasa: &5Mag"
+  - "quest: mag_quest_15"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "mag_quest_16_1_1"
+        type: "zabij"
+        targetName: "&d&lSzepciucha - BOSS"
+        message: "Pokonaj Szepciuche: %stan%"
+        ilosc: 1

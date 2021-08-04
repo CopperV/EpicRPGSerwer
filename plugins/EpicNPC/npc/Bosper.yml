@@ -1,0 +1,17 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&6Bosper"
+  - "&7[&b&lZARZADCA&7]"
+skinid: 1542910194
+location:
+  world: "F_RPG"
+  x: 70
+  y: 41.9375
+  z: -29
+  yaw: 114
+  pitch: -6.5
+lookat: true
+commands:
+  - "cc open bosper %player%"

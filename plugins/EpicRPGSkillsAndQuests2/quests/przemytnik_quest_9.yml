@@ -1,0 +1,39 @@
+id: "przemytnik_quest_9"                                
+name: "&3Brak wsparcia"                          
+zleceniodawca: "&aFarim"                       
+lore:                                               
+  - "&aJak juz Ci mowilem,"
+  - "&azostalismy calkowicie porzuceni przez miasto,"
+  - "&alecz caly czas od nas wymagania placenia"
+  - "&aniby naleznej daniny."
+  - "&aPraktycznie z kazdej strony farmy czai sie"
+  - "&ajakies niebezpieczenstwo."
+  - "&aPotrzebuje bys mi pomogl z nimi"
+prize:                                    
+  - "xp: 3750"
+require:                                            
+  - "level: 24"
+  - "quest: przemytnik_quest_7"
+stopnie:
+  1:
+    talking: true
+    message: "&aFarim&7: &aMoze jednak ci przemytnicy sa rzeczywiscie o niebo lepsza opcja. Przyjmuje ich oferte. Mozesz powiedziec o tym swoim przelozonym."
+    targets:
+      1:
+        id: "przemytnik_quest_9_1_1"
+        type: "zabij"
+        targetName: "&2Dziki wilk"
+        message: "Zabij 30 pobliskich wilkow: %stan%"
+        ilosc: 30
+      2:
+        id: "przemytnik_quest_9_1_2"
+        type: "zabij"
+        targetName: "&aGoblin"
+        message: "Zabij 40 pobliskich goblinow: %stan%"
+        ilosc: 40
+      3:
+        id: "przemytnik_quest_9_1_3"
+        type: "zabij"
+        targetName: "&4Bandzior Ortegi"
+        message: "Zabij 15 bandziorow Ortegi: %stan%"
+        ilosc: 15

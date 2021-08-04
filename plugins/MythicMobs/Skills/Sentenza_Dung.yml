@@ -1,0 +1,60 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+Sentenza_DungSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &7A wiec ponownie sie spotykamy. Pokaze Wam tym razem pelnie mocy Lorda Pustki!"} @PlayersInRadius{r=20}
+  - threat{amount=100000} @NearestPlayer
+
+Sentenza_DungSkill_1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=160} @self
+  - message{m="<mob.name><&co> &7Wladam moca jaka Wasz swiat jeszcze nie widzial"} @PlayersInRadius{r=40}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bSentenza przygotowuje Atak Chaosu";d=100} @PIR{r=40}
+  - stun{d=100} @self
+  - delay 100
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{bulletType=MYTHICITEM;material=Magiczne_Ostrze_Bojowe;oT=Sentenza_DungSkill-Tick;onHit=Sentenza_DungSkill-Hit;v=7;i=1;hR=1.25;vR=1.25;mr=50;sB=false} @PIR{r=40}
+  - delay 10
+#  - lunge{velocity=7;velocityY=0.85} @NearestPlayer
+  - jump{velocity=0.3} @self
+  - leap{velocity=200} @NearestPlayer
+  - delay 5
+  - effect:sound{s=entity.generic.explode;v=6;p=0.3} @self
+  - effect:particlering{particle=dragonbreath;vd=20;radius=1;points=4;amount=2;y=0.1;hS=0.05;vS=0.05;speed=0.01} @self
+  - effect:particlering{particle=dragonbreath;vd=20;radius=2;points=8;amount=2;y=0.1;hS=0.05;vS=0.05;speed=0.01} @self
+  - effect:particlering{particle=dragonbreath;vd=20;radius=3;points=12;amount=2;y=0.1;hS=0.05;vS=0.05;speed=0.01} @self
+  - damage{amount=250} @PIR{r=3}
+  
+
+Sentenza_DungSkill-Tick:
+  Skills:
+  - effect:particles{particle=dragonbreath;amount=5;speed=0.05;hS=0.2;vS=0.2} @origin
+
+Sentenza_DungSkill-Hit:
+  Skills:
+  - sound{s=entity.firework.large_blast_far;v=4;p=0.2} @origin
+  - sound{s=entity.player.attack.sweep;v=10;p=2} @origin
+  - damage{amount=235}
+  - potion{type=SLOW;duration=160;level=3}
+  - effect:particles{particle=dragonbreath;amount=45;speed=0.15;hS=0.25;vS=0.25} @origin
+Sentenza_DungSkill_2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=160} @self
+  - message{m="<mob.name><&co> &fMe dzieci nakarmia sie Waszymi cialami!"} @PlayersInRadius{r=30}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bSentenza_Dung przygotowuje Pajeczy Roj!";d=100} @PIR{r=30}
+  - stun{d=300} @self
+  - delay 100
+  - summon{mob=Dwor_Mob_3;radius=2;amount=2;os=true} @Self
+
+Sentenza_DungSkill_3:
+  Skills:
+  - potion{type=BLINDNESS;duration=200;level=5} @trigger
+  - potion{type=CONFUSION;duration=200;level=5} @trigger
+  - potion{type=SLOW_DIGGING;duration=200;level=2} @trigger
+  - potion{type=POISON;duration=200;level=10} @trigger
+  

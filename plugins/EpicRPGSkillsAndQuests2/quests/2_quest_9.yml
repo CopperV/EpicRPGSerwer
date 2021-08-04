@@ -1,0 +1,37 @@
+id: "2_quest_9"                                
+name: "&c&oAtaki budowniczych"                          
+zleceniodawca: "&1Saturas"                       
+lore:                                               
+  - "&aCos sie ostatnio musialo zadziac..."
+  - "&aOd zachodu zaczeli napadac na nas budowniczowie."
+  - "&aCos ich rozwscieczylo a ja nie mam pojecia co."
+  - "&aDopoki tego nie rozwiklam, trzeba z nimi walczyc."
+  - "&aOdeprzyj ich ataki."
+prize:                                    
+  - "xp: 2465"
+require:                                            
+  - "level: 18"
+  - "quest: 2_quest_8"
+stopnie:
+  1:
+    talking: true
+    message: "&1Saturas&7: &aDobrze sie znow spisales. Jak tak dalej pojdzie, to bedziesz pierwszym od wielu miesiecy, ktory pomyslnie przejdzie moje szkolenie."
+    targets:
+      1:
+        id: "2_quest_9_1_1"
+        type: "zabij"
+        targetName: "&6Architekt budowniczych"
+        message: "Pokonaj 25 architektow budowniczych: %stan%"
+        ilosc: 25
+      2:
+        id: "2_quest_9_1_2"
+        type: "zabij"
+        targetName: "&6Wojownik budowniczych"
+        message: "Pokonaj 23 wojownikow budowniczych: %stan%"
+        ilosc: 23
+      3:
+        id: "2_quest_9_1_3"
+        type: "zabij"
+        targetName: "&6Strzelec budowniczych"
+        message: "Pokonaj 17 strzelcow budowniczych: %stan%"
+        ilosc: 17

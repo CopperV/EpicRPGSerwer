@@ -1,0 +1,15 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&6&lVark123"
+  - "&7[&6&lROOT&7]"
+skinid: 1596087912
+location:
+  world: "F_RPG"
+  x: -117.5
+  y: 42.0
+  z: -17.5
+  yaw: 35
+  pitch: 0
+lookat: true

@@ -1,0 +1,17 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&6&lMaciek"
+  - "&7[&aDZIALKOWIEC&7]"
+skinid: 1559892071
+location:
+  world: "plots"
+  x: -37.0
+  y: 65.0
+  z: -23.0
+  yaw: -140
+  pitch: 2
+lookat: true
+commands:
+  - "cc open maciek %player%"

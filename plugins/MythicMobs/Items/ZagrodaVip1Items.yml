@@ -1,0 +1,56 @@
+# For more information, check out the plugin manual or join us on Discord:
+# http://www.mythicmobs.net
+#  
+
+PieczoneMisioDrops:
+  Id: 350
+  Data-Value: 1
+  Data: 0
+  Amount: 1
+  Display: '&3Pieczony Losos'
+  Lore:
+  - '&6Jedyny w swoim rodzaju'
+  - '&6Pieczony Losos prosto z pyska'
+  - '&6cieplego Misia Polarnego <3'
+  Enchantments:
+  - DURABILITY:10
+  Hide:
+  - ENCHANTS
+
+
+MagicznaSwiniaDrops:
+  Id: 320
+  Data: 0
+  Amount: 1
+  Display: '&dSchabik Swiniaka'
+  Lore:
+  - '&6Soczysty pieczony schabik'
+  - '&6swiezo z Magicznego Swiniaka'
+  Enchantments:
+  - DURABILITY:10
+  Hide:
+  - ENCHANTS
+
+
+MagicznaSwiniaMinionDrops:
+  Id: 367
+  Display: '&aMieso z malego swiniaka'
+  Lore:
+  - '&6Nieswieze mieso mlodego'
+  - '&6CHUDEGO swiniaka'
+  Enchantments:
+  - DURABILITY:10
+  Hide:
+  - ENCHANTS
+  
+  
+LatajacaKrowaDrops:  
+  Id: 364
+  Data: 0
+  Display: '&3Szyneczka'
+  Lore:
+  - '&6Chuda pieczona szyneczka'
+  Enchantments:
+  - DURABILITY:10
+  Hide:
+  - ENCHANTS

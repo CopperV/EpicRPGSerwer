@@ -1,0 +1,15 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&4&lDargoth"
+  - "&7[&c&lDOWODCA WOJOWNIKOW&7]"
+skinid: 1750246019
+location:
+  world: "F_RPG"
+  x: -117.5
+  y: 48.0
+  z: -49.5
+  yaw: -180
+  pitch: 45
+lookat: true

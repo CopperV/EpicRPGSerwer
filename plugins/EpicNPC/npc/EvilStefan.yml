@@ -1,0 +1,17 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&5&lEvil Stefan"
+  - "&7[&6&lBIZNESMEN&7]"
+skinid: 1175797949
+location:
+  world: "vip1"
+  x: -253.5
+  y: 69.0
+  z: 957.5
+  yaw: 135
+  pitch: 4.5
+lookat: true
+commands:
+  - "cc open evilstefan %player%"

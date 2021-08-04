@@ -1,0 +1,24 @@
+name: "&2Thorin"
+title: "&2Thorin - dowodca"
+size: 18
+slots:
+  8:
+    item: "Zrecznosc1"
+    max: 220
+    wymagania:
+      - "klasa: &2Mysliwy"
+  9:
+    item: "Zrecznosc5"
+    max: 220
+    wymagania:
+      - "klasa: &2Mysliwy"
+  17:
+    item: "Zdolnosci1"
+    max: 200
+    wymagania:
+      - "klasa: &2Mysliwy"
+  18:
+    item: "Zdolnosci5"
+    max: 200
+    wymagania:
+      - "klasa: &2Mysliwy"

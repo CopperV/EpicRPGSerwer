@@ -1,0 +1,218 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+MidasSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &bTwoja podroz konczy sie tutaj!"} @PlayersInRadius{r=20}
+  - threat{amount=30} @NearestPlayer
+  - threat{amount=20} @PIR{r=5}
+MidasSkill_1:
+  Skills:
+  - message{m="<mob.name><&co> &bWas wszystkich pochlonie Pustka!"} @PlayersInRadius{r=40}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bMidas przygotowuje Cien Pustki!";d=100} @PIR{r=40}
+  - skill{s=MidasSkill_1_Cien1} @PlayersInRadius{r=40;limit=2;sort=RANDOM}
+
+MidasSkill_1_Cien1:
+  Skills:
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=1;points=4;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=2;points=8;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=3;points=12;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - delay 5
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=1;points=4;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=2;points=8;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=3;points=12;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - delay 5
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=1;points=4;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=2;points=8;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=3;points=12;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - delay 5
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=1;points=4;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=2;points=8;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=3;points=12;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - delay 5
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=1;points=4;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=2;points=8;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=3;points=12;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - delay 5
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=1;points=4;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=2;points=8;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=3;points=12;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - delay 5
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=1;points=4;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=2;points=8;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=3;points=12;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - delay 5
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=1;points=4;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=2;points=8;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=3;points=12;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - delay 5
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=1;points=4;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=2;points=8;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=3;points=12;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - delay 5
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=1;points=4;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=2;points=8;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=3;points=12;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - delay 5
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=1;points=4;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=2;points=8;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=3;points=12;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - delay 5
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=1;points=4;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=2;points=8;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=3;points=12;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - delay 5
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=1;points=4;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=2;points=8;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=3;points=12;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - delay 5
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=1;points=4;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=2;points=8;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=3;points=12;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - delay 5
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=1;points=4;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=2;points=8;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=3;points=12;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - delay 5
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=1;points=4;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=2;points=8;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=3;points=12;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - delay 5
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=1;points=4;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=2;points=8;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=3;points=12;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - delay 5
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=1;points=4;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=2;points=8;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=3;points=12;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - delay 5
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=1;points=4;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=2;points=8;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=3;points=12;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - delay 5
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=1;points=4;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=2;points=8;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=3;points=12;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - delay 5
+  - totem{ch=0;oT=MidasAreaPrepare_TotemTick;oE=MidasAreaPrepare_TotemTickEnd;hR=2;vR=2;md=60;yo=0;hp=true;i=0.1}
+  - summon{mob=MidasHurtMob;amount=1;radius=0}
+
+
+MidasAreaPrepare_TotemTick:
+  Skills:
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=1;points=4;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=2;points=8;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=3;points=12;amount=1;y=0.1}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=4;points=16;amount=1;y=0.1}
+
+MidasAreaPrepare_TotemTickEnd:
+  Skills:
+  - sound{s=entity.blaze.shoot;v=2;p=0.2} @origin
+  - totem{ch=0;oT=MidasArea_TotemTick;oH=MidasArea_TotemHit;hR=4;vR=4;md=24000;yo=0;hp=true;i=0.1} @origin
+
+MidasArea_TotemTick:
+  Skills:
+  - effect:particlering{particle=blockcrack_3_0;vd=20;radius=1;points=4;amount=1;y=0.1} @origin
+  - effect:particlering{particle=blockcrack_3_0;vd=20;radius=2;points=8;amount=1;y=0.1} @origin
+  - effect:particlering{particle=blockcrack_3_0;vd=20;radius=3;points=12;amount=1;y=0.1} @origin
+  - effect:particlering{particle=blockcrack_3_0;vd=20;radius=4;points=16;amount=1;y=0.1} @origin
+
+MidasArea_TotemHit:
+  Skills:
+  - damage{amount=150;pk=true}
+
+MidasHurtMob_Skill:
+  Skills:
+  - delay 1
+  - sound{s=entity.blaze.shoot;v=2;p=0.2} @origin
+  - damage{amount=200} @PIR{r=4}
+  - delay 1
+  - remove @self
+  
+
+MidasSkill_2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=300} @self
+  - message{m="<mob.name><&co> &bCzerpie swa sile prosto z Pustki!"} @PlayersInRadius{r=30}
+  - stun{d=100} @self
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bMidas przygotowuje Tarcze Pustki!";d=100} @PIR{r=30}
+  - delay 100
+  - Aura{auraName=MidasDefense;duration=200} @self
+  - sound{s=entity.blaze.shoot;v=10;p=0.01} @self
+  - equip{item=AIR:OFFHAND} @self
+  - potion{type=SLOW;duration=200;level=1} @self
+  - orbital{bulletType=MYTHICITEM;material=ArcholShield;onTick=MidasWir-Tick;onHit=MidasWir-Hit;points=23;interval=1;duration=200;charges=30;r=2;hr=1;rx=0;ry=0;oy=1} @self
+  - delay 200
+  - equip{item=ArcholShield:OFFHAND} @self
+
+MidasWir-Tick:
+  Skills:
+  - effect:particles{p=smoke;amount=5;speed=0.05;hS=0.1;vS=0.1} @origin
+MidasWir-Hit:
+  Skills:
+  - damage{amount=160} @PlayersNearOrigin{r=1.5}
+  - sound{s=entity.player.attack.strong;v=4;p=4} @Origin
+  - throw{velocity=5;velocityY=2} @PlayersNearOrigin{r=1.5}
+
+MidasSkill2_Defense:
+  Conditions:
+  - hasaura MidasDefense true
+  Skills:
+  - damage{amount=180} @trigger
+  - sound{s=entity.player.attack.strong;v=4;p=4} @TriggerLocation
+  - heal{amount=500} @self
+
+MidasSkill_3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=200} @self
+  - message{m="<mob.name><&co> &bNIGDY PRZEZE MNIE NIE PRZEJDZIECIE!"} @PlayersInRadius{r=30}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bMidas przygotowuje uderzenie tarcza!";d=100} @PIR{r=30}
+  - stun{d=120} @self
+  - delay 100
+  - sound{s=entity.generic.explode;v=10;p=0.01} @self
+  - effect:particlering{particle=blockcrack_155;radius=1;points=6;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - delay 2
+  - effect:particlering{particle=blockcrack_155;radius=2;points=10;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - delay 2
+  - effect:particlering{particle=blockcrack_155;radius=3;points=14;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - delay 2
+  - effect:particlering{particle=blockcrack_155;radius=4;points=18;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - delay 2
+  - effect:particlering{particle=blockcrack_155;radius=5;points=22;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - delay 2
+  - effect:particlering{particle=blockcrack_155;radius=6;points=26;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - delay 2
+  - effect:particlering{particle=blockcrack_155;radius=7;points=30;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - delay 2
+  - effect:particlering{particle=blockcrack_155;radius=8;points=34;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - delay 2
+  - effect:particlering{particle=blockcrack_155;radius=9;points=38;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - delay 2
+  - effect:particlering{particle=blockcrack_155;radius=10;points=42;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - damage{a=265} @PIR{r=10}
+  - potion{type=SLOW;duration=200;level=1} @PIR{r=10}
+  - sound{s=entity.generic.explode;v=10;p=0.01} @PIR{r=10}

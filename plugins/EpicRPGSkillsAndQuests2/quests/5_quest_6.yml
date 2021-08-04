@@ -1,0 +1,27 @@
+id: "5_quest_6"                                
+name: "&b&oSwiete zwoje"                          
+zleceniodawca: "&b&lTyrael"                       
+lore:                                               
+  - "&aWiekszosc naszego oddzialu upadla."
+  - "&aCzesc z nas miala przy sobie bardzo cenne"
+  - "&azwoje, ktorych wy nie potraficie odczytac."
+  - "&aSa bogate w tresc i historie, ale nie tylko."
+  - "&aPergaminy te moga posluzyc do stworzenia magicznych zwoi."
+  - "&aW rekach zlego moga posluzyc do wyrzadzenia"
+  - "&ajeszcze wiekszych szkod."
+  - "&aNalezy je natychmiastowo odzyskac."
+prize:                                    
+  - "xp: 59500"
+require:                                            
+  - "level: 46"
+  - "quest: 5_quest_5"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "5_quest_6_1_1"                     
+        type: "przynies"       
+        targetName: "&bKyrianski pergamin"                      
+        message: "Przynies 23 kyrianske pergaminy: %stan%"
+        ilosc: 23

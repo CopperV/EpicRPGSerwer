@@ -1,0 +1,109 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+JezdziecSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &9&oPustka Was pochlonie!"} @PlayersInRadius{r=25}
+
+
+JezdziecDeath:
+  Skills:
+  - message{m="<mob.name><&co> &9&oI tak nie ujdziecie stad zywi..."} @PlayersInRadius{r=25}
+
+
+JezdziecMountRemove:
+  Conditions:
+  - mobsInRadius{types=Jezdziec_Pustki;amount=1;radius=50} false
+  Skills:
+  - remove @self
+
+JezdziecMount:
+  Conditions:
+  - hasaura jezdziecHorseAttak false
+  Skills:
+  - remount
+#  - mount{type=Jezdziec_Pustki_Mount}
+
+JezdziecSkill1:
+  Conditions:
+  - hasaura jezdziecHorseAttak false
+  Skills:
+  - Aura{auraName=jezdziecHorseAttak;duration=60} @self
+  - stun{d=9} @self
+  - message{m="<mob.name><&co> &9&oMoc pustki jest niezwyciezona!"} @PlayersInRadius{r=25}
+  - dismount
+  - delay 10
+  - effect:particles{particle=reddust;color=#8B008B;amount=15;speed=0.05;hS=0.2;vS=0.2;y=0.2} @self
+  - effect:particles{particle=smoke;amount=15;speed=0.05;hS=0.2;vS=0.2;y=0.2} @self
+  - sound{s=entity.endermen.teleport;v=2;p=0.6} @self
+  - teleport{spreadh=6;spreadv=0} @target
+  - delay 5
+  - stun{d=24} @self
+  - effect:particles{particle=reddust;color=#8B008B;amount=15;speed=0.05;hS=0.2;vS=0.2;y=0.2} @self
+  - effect:particles{particle=smoke;amount=15;speed=0.05;hS=0.2;vS=0.2;y=0.2} @self
+  - sound{s=entity.blaze.shoot;v=2;p=0.2}
+  - projectile{onTick=JezdziecSkill1_Tick;onHit=JezdziecSkill1_Hit;v=9;i=1;hR=1;vR=1;mr=30;sB=false} @target
+  - delay 25
+  - effect:particles{particle=reddust;color=#8B008B;amount=15;speed=0.05;hS=0.2;vS=0.2;y=0.2} @self
+  - effect:particles{particle=smoke;amount=15;speed=0.05;hS=0.2;vS=0.2;y=0.2} @self
+  - sound{s=entity.endermen.teleport;v=2;p=0.6} @self
+  - teleport{spreadh=6;spreadv=0} @target
+  - delay 5
+  - stun{d=9} @self
+  - effect:particles{particle=reddust;color=#8B008B;amount=15;speed=0.05;hS=0.2;vS=0.2;y=0.2} @self
+  - effect:particles{particle=smoke;amount=15;speed=0.05;hS=0.2;vS=0.2;y=0.2} @self
+  - sound{s=entity.blaze.shoot;v=2;p=0.2}
+  - projectile{onTick=JezdziecSkill1_Tick;onHit=JezdziecSkill1_Hit;v=9;i=1;hR=1;vR=1;mr=30;sB=false} @target
+  - delay 10
+  - remount
+  
+  
+
+JezdziecSkill1_Tick:
+  Skills:
+  - effect:particles{particle=reddust;color=#8B008B;amount=10;speed=0.1;hS=0.3;vS=0.3} @origin
+  - effect:particles{particle=smoke;amount=10;speed=0.1;hS=0.3;vS=0.3} @origin
+
+
+JezdziecSkill1_Hit:
+  Skills:
+  - damage{amount=125}
+  - potion{type=SLOW;duration=100;level=2}
+  - sound{s=entity.blaze.shoot;v=2;p=0.2} @Origin
+
+
+JezdziecSkill2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=100}
+  - message{m="<mob.name><&co> &9&oMieszkancy tego miasta beda walczyc za swojego wladce do konca!"} @PlayersInRadius{r=25}
+  - delay 5
+  - rally{types=Exp50_5;radius=50;ot=false} @target
+  - summon{type=Exp50_5;amount=1to4;radius=6} @self
+
+
+JezdziecSkill3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=70}
+  - message{m="<mob.name><&co> &9&oPoznajcie moc pustki!!"} @PlayersInRadius{r=25}
+  - delay 10
+  - effect:particles{particle=reddust;color=#8B008B;amount=25;speed=0.15;hS=0.2;vS=0.2;y=1} @self
+  - effect:particles{particle=smoke;amount=25;speed=0.15;hS=0.2;vS=0.2;y=1} @self
+  - effect:particles{particle=lava;amount=25;speed=0.15;hS=0.2;vS=0.2;y=1} @self
+  - sound{s=entity.blaze.shoot;v=2;p=0.2}
+  - missile{ot=JezdziecSkill3_Tick;oH=JezdziecSkill3_Hit;v=6;i=1;hR=1.5;vR=1.5;in=2.5;md=200;mr=50;syo=10} @PlayersInRadius{r=80;limit=3;sort=RANDOM}
+
+JezdziecSkill3_Tick:
+  Skills:
+  - effect:particles{particle=reddust;color=#8B008B;amount=10;speed=0.1;hS=0.3;vS=0.3} @origin
+  - effect:particles{particle=smoke;amount=10;speed=0.1;hS=0.3;vS=0.3} @origin
+
+JezdziecSkill3_Hit:
+  Skills:
+  - damage{a=170}
+  - effect:particles{particle=reddust;color=#8B008B;amount=25;speed=0.15;hS=0.2;vS=0.2;y=1} @origin
+  - effect:particles{particle=smoke;amount=25;speed=0.15;hS=0.2;vS=0.2;y=1} @origin
+  - effect:sound{s=entity.generic.explode;v=1;p=0.2} @origin

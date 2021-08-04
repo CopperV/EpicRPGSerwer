@@ -1,0 +1,32 @@
+id: "4_quest_16"                                
+name: "&cHanba Nizara"                          
+zleceniodawca: "&6Nefarius"                       
+lore:                                               
+  - "&aNizar niesamowicie mocno zhanbil siebie oraz nas."
+  - "&aGeneralnie wszystkich assasynow zhanbil."
+  - "&aZaczal trudzic sie w niewolnictwie a nas postawil"
+  - "&aw swietle kupnych najemnikow i mordercow."
+  - "&aPozyskasz mi od jego assasynow troche niewolniczych lin"
+  - "&aoraz zlecen."
+prize:                                    
+  - "xp: 7100"
+  - "money: 450"
+require:                                            
+  - "level: 36"
+  - "quest: 4_quest_11"
+stopnie:
+  1:
+    talking: true  
+    targets:
+      1:
+        id: "4_quest_16_1_1"                     
+        type: "przynies"       
+        targetName: "&7Niewolnicza lina"                      
+        message: "Przynies 18 niewolniczych lin: %stan%"
+        ilosc: 18
+      2:
+        id: "4_quest_16_1_2"                     
+        type: "przynies"       
+        targetName: "&rZlecenie"                      
+        message: "Przynies 12 zlecen: %stan%"
+        ilosc: 12

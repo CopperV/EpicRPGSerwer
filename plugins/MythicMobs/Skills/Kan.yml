@@ -1,0 +1,77 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+KanSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &7Nie zapraszalem tu zadnej mory..."} @PlayersInRadius{r=20}
+  - delay 20
+  - summon{mob=Ork8;amount=1;noise=3} @Self
+  - summon{mob=Ork8;amount=1;noise=3} @Self
+  - summon{mob=Ork8;amount=1;noise=4} @Self
+  - summon{mob=Ork8;amount=1;noise=4} @Self
+  - summon{mob=Ork8;amount=1;noise=5} @Self
+  - summon{mob=Ork8;amount=1;noise=5} @Self
+  - summon{mob=Ork8;amount=1;noise=6} @Self
+  - summon{mob=Ork8;amount=1;noise=6} @Self
+  - summon{mob=Ork8;amount=1;noise=7} @Self
+  - summon{mob=Ork8;amount=1;noise=7} @Self
+  - delay 40
+  - message{m="<mob.name><&co> &7Wypatroszyc go!"} @PlayersInRadius{r=20}
+KanSummon1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=65}
+  - message{m="<mob.name><&co> &7Wszystkie morry to slabeusze"} @PlayersInRadius{r=20}
+  - delay 5
+  - summon{mob=Ork4;amount=1;noise=3} @Self
+  - summon{mob=Ork4;amount=1;noise=3} @Self
+  - summon{mob=Ork5;amount=1;noise=3} @Self
+  - summon{mob=Ork5;amount=1;noise=3} @Self
+KanSummon2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=95}
+  - message{m="<mob.name><&co> &7Niedlugo ostatnia Morra schyli przede mna czola"} @PlayersInRadius{r=20}
+  - delay 20
+  - message{m="<mob.name><&co> &7A ja, Kan, bede rzadzic tymi ziemiami"} @PlayersInRadius{r=20}
+  - delay 15
+  - summon{mob=Ork8;amount=1;noise=3} @Self
+  - summon{mob=Ork9;amount=1;noise=3} @Self
+KanSummon3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=75}
+  - message{m="<mob.name><&co> &7Te ziemie beda nalezec do orkow po wsze czasy!"} @PlayersInRadius{r=20}
+  - delay 15
+  - summon{mob=Ork7;amount=1;noise=3} @Self
+  - summon{mob=Ork7;amount=1;noise=3} @Self
+KanAttack1:
+  Conditions:
+  - mounted false
+  - offgcd
+  Skills:
+  - gcd{ticks=70}
+  - message{m="<mob.name><&co> &7Orak-Shakar!"} @PlayersInRadius{r=20}
+  - delay 5
+  - leap{velocity=150} @target
+  - delay 2
+  - leap{velocity=150} @target
+  - delay 2
+  - leap{velocity=150} @target
+  - delay 2
+  - leap{velocity=150} @target
+KanMount:
+  Conditions:
+  - mounted false
+  Skills:
+  - mounttarget @MobsInRadius{r=7;types=WargKana}
+  - skill{s=KanMount2}
+KanMount2:
+  Conditions:
+  - mounted true
+  Skills:
+  - message{m="<mob.name><&co> &7Do mnie, Tserebusie!"} @PlayersInRadius{r=20}
+  - sound{s=entity.endermen.teleport;v=10} @self

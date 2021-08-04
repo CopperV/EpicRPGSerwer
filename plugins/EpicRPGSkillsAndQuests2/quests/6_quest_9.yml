@@ -1,0 +1,62 @@
+id: "6_quest_9"                                
+name: "&cPorazka Nulla"                          
+zleceniodawca: "&3&lSteve"                       
+lore:                                               
+  - "&aHerobrine poniosl niesamowita porazke."
+  - "&aPokazalismy mu, ze jego moc nie jest"
+  - "&awszechmocna i mozemy mu stawic czola."
+  - "&aZ pewnoscia nam nie popusci ataku na twierdze."
+  - "&aJestem pewny, ze lada moment jeden z jego"
+  - "&apoplecznikow sie tutaj zjawi."
+  - "&aMusimy oczyscic okolice zanim to zrobi."
+prize:                                    
+  - "xp: 160000"
+require:                                            
+  - "level: 55"
+  - "quest: 6_quest_8"
+stopnie:
+  1:
+    talking: true                  
+    targets:
+      1:
+        id: "6_quest_9_1_1"                     
+        type: "zabij"       
+        targetName: "&2&oZombie"
+        message: "Zabij 15 Zombie: %stan%"
+        ilosc: 15
+      2:
+        id: "6_quest_9_1_2"                     
+        type: "zabij"       
+        targetName: "&7Szkielet"
+        message: "Zabij 15 Szkieletow: %stan%"
+        ilosc: 15
+      3:
+        id: "6_quest_9_1_3"                     
+        type: "zabij"       
+        targetName: "&aCreeper"
+        message: "Zabij 10 Creeperow: %stan%"
+        ilosc: 10
+      4:
+        id: "6_quest_9_1_4"                     
+        type: "zabij"       
+        targetName: "&7&oPajak"
+        message: "Zabij 15 Pajakow: %stan%"
+        ilosc: 15
+      5:
+        id: "6_quest_9_1_5"                     
+        type: "zabij"       
+        targetName: "&eJockey"
+        message: "Zabij 10 Jockeyow: %stan%"
+        ilosc: 10
+      6:
+        id: "6_quest_9_1_6"                     
+        type: "zabij"       
+        targetName: "&5Wiedzma"
+        message: "Zabij 5 Wiedzm: %stan%"
+        ilosc: 5
+      7:
+        id: "6_quest_9_1_7"                     
+        type: "zabij"       
+        targetName: "&9Tulacz"
+        message: "Zabij 5 Tulaczy: %stan%"
+        ilosc: 5

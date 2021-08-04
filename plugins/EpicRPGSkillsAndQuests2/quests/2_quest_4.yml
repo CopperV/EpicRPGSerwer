@@ -1,0 +1,30 @@
+id: "2_quest_4"                                
+name: "&ePustynna fauna"                          
+zleceniodawca: "&1Saturas"                       
+lore:                                               
+  - "&aZapoznales sie juz z tutejsza flora,"
+  - "&apora, zeby sie zapoznal z fauna."
+  - "&aWystepuja tutaj na pustyni glownie dwa gatunki zwierzat."
+  - "&aSa to szakale oraz rybiki piaskowe."
+  - "&aI wlasnie na nie teraz zapolujesz."
+prize:                                    
+  - "xp: 1445"
+require:                                            
+  - "level: 13"
+  - "quest: 2_quest_3"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "2_quest_4_1_1"
+        type: "zabij"
+        targetName: "&eRybik piaskowy"
+        message: "Zabij 15 rybikow piaskowych: %stan%"
+        ilosc: 15
+      2:
+        id: "2_quest_4_1_2"
+        type: "zabij"
+        targetName: "&e&lSzakal"
+        message: "Zabij 10 szakali: %stan%"
+        ilosc: 10

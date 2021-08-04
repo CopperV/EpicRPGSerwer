@@ -1,0 +1,31 @@
+id: "zlodziej_quest_18"                             
+name: "&8Drogocenne trofeum"                          
+zleceniodawca: "&7&lValeera"                       
+lore:                                               
+  - "&aI zostalam z niczym..."
+  - "&aNigdy sie nie spodziewalam,"
+  - "&aze do tego dojdzie."
+  - "&aPrzynajmniej &e&lCassia &adarowala mi zycie,"
+  - "&aa &7&lSaro &amnie przyjal do obozu."
+  - "&aTroche mi brakuje udogodniej starego zycia."
+  - "&aSlyszalam, ze czesc stworzen Nowego Swiata"
+  - "&ama dosyc ciekawe przedmioty dajace dostep"
+  - "&ado poteznych przedmiotow."
+  - "&aPrzynies mi taki jeden."
+  - "&aPomoze mi wstac po tej klesce."
+prize:                                    
+  - "xp: 81500"
+  - "money: 3000"
+require:                                            
+  - "level: 60"
+  - "quest: zlodziej_quest_17"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "zlodziej_quest_18_1_1"                     
+        type: "przynies"       
+        targetName: "&8&oMroczna pieczec"
+        message: "Przynies Valeerze Mroczna Pieczec: %stan%"
+        ilosc: 1

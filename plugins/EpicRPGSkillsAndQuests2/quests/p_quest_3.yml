@@ -1,0 +1,39 @@
+id: "p_quest_3"                                
+name: "&c&oZupa gulaszowa"                          
+zleceniodawca: "&eVenus"                       
+lore:                                               
+  - "&aNie mialbys ochoty jeszcze pomoc?"
+  - "&aTe glodomory narzekaja, ze malo miesa"
+  - "&ajest w moich potrawach."
+  - "&aChce teraz ugotowac zupe gulaszowa."
+  - "&aDo tego bede potrzebowac troche kur,"
+  - "&awolowiny i wieprzowiny"
+prize:                                    
+  - "xp: 100"
+  - "money: 15"
+require:                                            
+  - "level: 5"
+  - "quest: p_quest_2"
+stopnie:
+  1:
+    talking: true
+    message: "&eVenus&7: &aDziekuje Ci za Twoja bezinteresowna pomoc. Przyjmij to zloto w nagrode."
+    targets:
+      1:
+        id: "p_quest_3_1_1"
+        type: "przynies"
+        targetName: "&rSurowa kura"
+        message: "Przynies na gulasz 5 surowych kur: %stan%"
+        ilosc: 5
+      2:
+        id: "p_quest_3_1_2"
+        type: "przynies"
+        targetName: "&rSurowy schab"
+        message: "Przynies na gulasz 10 schabow: %stan%"
+        ilosc: 10
+      3:
+        id: "p_quest_3_1_3"
+        type: "przynies"
+        targetName: "&rSurowa wolowina"
+        message: "Przynies na gulasz 10 sztuk wolowiny: %stan%"
+        ilosc: 10

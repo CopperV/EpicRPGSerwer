@@ -1,0 +1,16 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&a&oCassia"
+  - "&7[&c&lBOJOWNICZKA&7]"
+skinid: 2041111795
+location:
+  world: "Map113"
+  x: 637.5
+  y: 65.0
+  z: 401.0
+  yaw: 120.0
+  pitch: 2
+lookat: true
+hidequest: "zlodziej_quest_17"

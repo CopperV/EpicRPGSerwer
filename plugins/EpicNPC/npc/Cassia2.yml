@@ -1,0 +1,16 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&e&lCassia"
+  - "&7[&7&lWIELKI ZLODZIEJ&7]"
+skinid: 1041022438
+location:
+  world: "F_RPG"
+  x: 8.5
+  y: 40
+  z: -64.5
+  yaw: 0
+  pitch: 0
+lookat: true
+showquest: "zlodziej_quest_17"

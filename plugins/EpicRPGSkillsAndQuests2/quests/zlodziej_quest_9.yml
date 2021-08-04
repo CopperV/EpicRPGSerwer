@@ -1,0 +1,33 @@
+id: "zlodziej_quest_9"                                
+name: "&cRubinowe ostrze"                          
+zleceniodawca: "&e&oRamirez"                       
+lore:                                               
+  - "&aTrzeba kontynuowac wypelnianie skarbca roznymi"
+  - "&arodzajami cennych przedmiotow."
+  - "&aW kolekcji brakuje nam pewne bardzo wyjatkowe ostrze."
+  - "&aChodzi mi o &cRubinowe ostrze&a."
+  - "&aNie dosc, ze klinga miecza jest wysadzana klejnotami,"
+  - "&ato do wykucia tej broni potrzeba czystej magicznej rudy,"
+  - "&aco sprawia, ze jego wartosc osiaga kwoty niewyobrazalne"
+  - "&adla wiekszosci osob."
+  - "&aNie obchodzi mnie, jak pozyskasz to ostrze:"
+  - "&aczy je wykujesz, czy zrabujesz."
+  - "&aMasz mi je po prostu przyniesc!"
+  - "&aRozumiemy sie?"
+prize:                                    
+  - "xp: 4500"
+  - "item: Zlota_Moneta 25"
+require:                                            
+  - "level: 27"
+  - "quest: zlodziej_quest_5"
+stopnie:
+  1:
+    talking: true
+    message: "&r%player%&7: &aWlasnym oczom nie moge uwierzyc. Myslalem, ze to bedzie dla Ciebie niewykonalne zadanie. Przyjmij te pare zlotych monet w nagrode."
+    targets:
+      1:
+        id: "zlodziej_quest_9_1_1"
+        type: "przynies"
+        targetName: "&cRubinowe ostrze"
+        message: "Przynies Ramirezowi Rubinowe Ostrze: %stan%"
+        ilosc: 1

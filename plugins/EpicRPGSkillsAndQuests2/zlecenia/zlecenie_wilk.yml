@@ -1,0 +1,61 @@
+id: "zlecenie_wilk"                                
+name: "&2&oKlopoty z wilkami"
+zleceniodawca: "&7Frithjof"                       
+lore:                                               
+  - "&aMimo iz zabiles alfe, to nadal mamy"
+  - "&aproblemy z wilkami."
+  - "&aZ checia wynajme kogos takiego jak Ty."
+  - "&aPomozesz z wilkami?"
+  - "&aDobrze place..."
+prize:                                    
+  - "xp: 510"
+  - "money: 150"
+require:                                            
+  - "level: 9"
+  - "quest: wilk_quest_5"
+etapy: 2
+stopnie:
+  1:
+    targets:
+      1:
+        id: "zlecenie_wilk_1_1"
+        type: "zabij"
+        targetName: "&c&lSamiec ALFA - BOSS"
+        message: "Upoluj samca alfe: %stan%"
+        ilosc: 1
+  2:
+    targets:
+      1:
+        id: "zlecenie_wilk_2_1"
+        type: "zabij"
+        targetName: "&2Dziki wilk"
+        message: "Zabij 30 dzikich wilkow: %stan%"
+        ilosc: 30
+  3:
+    targets:
+      1:
+        id: "zlecenie_wilk_3_1"
+        type: "przynies"
+        targetName: "&rSkora Wilka"
+        message: "Przynies 17 wilczych skor: %stan%"
+        ilosc: 17
+      2:
+        id: "zlecenie_wilk_3_2"
+        type: "przynies"
+        targetName: "&3Kly Wilka"
+        message: "Przynies 13 wilczych klow: %stan%"
+        ilosc: 13
+  4:
+    targets:
+      1:
+        id: "zlecenie_wilk_4_1"
+        type: "zabij"
+        targetName: "&2Dziki wilk"
+        message: "Zabij 20 dzikich wilkow: %stan%"
+        ilosc: 20
+      2:
+        id: "zlecenie_wilk_4_2"
+        type: "przynies"
+        targetName: "&rSkora Wilka"
+        message: "Przynies 9 wilczych skor: %stan%"
+        ilosc: 9

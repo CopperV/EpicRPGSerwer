@@ -1,0 +1,80 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+Pirat10Tornado:
+  Skills:
+  - effect:particletornado{p=cloud;cp=explode;mr=0.75;h=2;i=2;d=160;rs=0.1;sh=1;cs=0;ca=0;chs=0;cvs=0;cps=0;cyo=0;y=0;a=1} @self
+  - sound{s=entity.minecart.inside;v=2;p=10} @self
+Pirat10Attack:
+  Conditions:
+  - playerwithin{d=2}
+  Skills:
+  - throw{velocity=5;velocityY=20} @PlayersInRadius{r=2}
+  - sound{s=entity.ghast.shoot;v=10;p=10} @PlayersInRadius{r=2}
+Pirat10Death:
+  Skills:
+  - delay 600
+  - suicide 1
+DavySpawn:
+  Skills:
+  - message{m="<mob.name><&co> &7Trzeba bylo tu nie przychodzic..."} @PlayersInRadius{r=20}
+  - delay 15
+  - summon{mob=Pirat10;amount=1;noise=3} @NearestPlayer{r=20}
+  - summon{mob=Pirat10;amount=1;noise=3} @NearestPlayer{r=20}
+DavySummon1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=65}
+  - message{m="<mob.name><&co> &7Nie chcesz przypadkiem wstapic do mojej zalogi?"} @PlayersInRadius{r=20}
+  - delay 5
+  - summon{mob=Pirat9;amount=1;noise=3} @Self
+  - summon{mob=Pirat9;amount=1;noise=3} @Self
+DavyAttack1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=140}
+  - message{m="<mob.name><&co> &7Callypso..."} @PlayersInRadius{r=20}
+  - delay 20
+  - message{m="<mob.name><&co> &7Pozbadz sie z mojego statku tych niewiernych"} @PlayersInRadius{r=20}
+  - delay 60
+  - damage{a=100} @PIR{r=7}
+  - effect:lightning @PIR{r=7}
+DavyAttack2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=135}
+  - message{m="<mob.name><&co> &7<trigger.name>, czy lekasz sie smierci?"} @PlayersInRadius{r=20}
+  - delay 40
+  - pull{velocity=2;to=true} @trigger
+  - delay 1
+  - pull{velocity=2;to=true} @trigger
+  - delay 1
+  - pull{velocity=2;to=true} @trigger
+  - delay 1
+  - pull{velocity=2;to=true} @trigger
+  - delay 1
+  - pull{velocity=2;to=true} @trigger
+  - delay 1
+  - pull{velocity=2;to=true} @trigger
+  - delay 1
+  - pull{velocity=2;to=true} @trigger
+  - delay 1
+  - throw{velocity=3;velocityY=17} @trigger
+  - sound{s=entity.generic.explode;v=7} @self
+  - delay 30
+  - damage{a=115} @trigger
+  - effect:lightning @trigger
+DavyDeath:
+  Skills:
+  - message{m="<mob.name><&co> &7Och..."} @PlayersInRadius{r=20}
+  - delay 30
+  - message{m="<mob.name><&co> &7Callypso..."} @PlayersInRadius{r=20}
+  - sound{s=entity.enderdragon.growl;v=10} @PlayersInRadius{r=20}
+  - effect:particles{particle=snowshovel;amount=200;speed=1} @self
+  - delay 10
+  - effect:particles{particle=snowshovel;amount=200;speed=1} @self
+  - delay 10
+  - effect:particles{particle=snowshovel;amount=200;speed=1} @self

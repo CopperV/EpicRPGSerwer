@@ -1,0 +1,29 @@
+id: "pirat_quest_5"
+name: "&bZdziesiatkowani piraci"
+zleceniodawca: "&e&lNers"
+lore:
+  - "&aZasiales wystarczajaco duzo strachu"
+  - "&aw czarnych, pirackich sercach."
+  - "&aZdziesiatkowales ich ilu byles w stanie."
+  - "&6&lCorristo &abedzie z Ciebie dumny..."
+prize:
+  - "xp: 375"
+  - "bc: &7[&b&lEpicRPG&7] &aGracz &7%player% &aukonczyl watek &6Piraci z Karaibow&a. &6&lGRATULACJE!"
+  - "cmd: crazycrates give physical Zwykla 1 %player%"
+require:
+  - "level: 29"
+  - "quest: pirat_quest_4"
+stopnie:
+  1:
+    talking: false
+    targets:
+      1:
+        id: "pirat_quest_5_1_1"
+        type: "zagadaj"
+        targetName: "&b&lCorristo"
+        message: "Zdaj raport &6&lCorristo: %stan%"
+        dialog:
+          - "%player%&7: &aPiraci zdziesiatkowani, znowu zwyciestwo"
+          - "%player%&7: &aSytuacja z nimi powinna lekko sie uspokoic"
+          - "&6&lCorristo&7: &aI bardzo dobrze."
+          - "&6&lCorristo&7: &aPowinnismy ich trzymac na krotkiej smyczy najbardziej, jak tylko sie da"

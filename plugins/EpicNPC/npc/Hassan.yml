@@ -1,0 +1,15 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&eHassan"
+  - "&7[&e&oTROPICIEL&7]"
+skinid: 1742287966
+location:
+  world: "F_RPG"
+  x: -700.5
+  y: 33.0
+  z: 380.5
+  yaw: 138
+  pitch: 4.5
+lookat: true

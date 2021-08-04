@@ -1,0 +1,30 @@
+id: "3_quest_3"                                
+name: "&aBandyci - na dobry poczatek"                          
+zleceniodawca: "&a&lJasuo"                       
+lore:                                               
+  - "&aWydaje mi sie, ze pasowalo by sie Tobie rozgrzac."
+  - "&aZapewne juz duzo zabiles na tej wyspie bandytow,"
+  - "&aale wydae mi sie, ze na trening przed wyprawa na bagna"
+  - "&amoga byc."
+prize:                                    
+  - "xp: 3000"
+  - "money: 50"
+require:                                            
+  - "level: 21"
+  - "quest: 3_quest_2"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "3_quest_3_1_1"
+        type: "zabij"
+        targetName: "&4Bandyta"
+        message: "Zabij 35 bandytow: %stan%"
+        ilosc: 35
+      2:
+        id: "3_quest_3_1_2"
+        type: "zabij"
+        targetName: "&4Bandzior Ortegi"
+        message: "Zabij 15 bandziorow Ortegi: %stan%"
+        ilosc: 15

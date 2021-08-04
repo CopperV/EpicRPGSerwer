@@ -1,0 +1,512 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+KalimosEarthAttack:
+  Conditions:
+  - hasaura AirAttackAura false
+  - hasaura FireAttackAura false
+  - hasaura WaterAttackAura false
+  - playerwithin{d=2}
+  Skills:
+  - effect:particles{p=largesmoke;a=10;hs=0.2;vs=0.4;y=1;s=0.05} @self
+  - effect:particles{p=largesmoke;a=10;hs=0.2;vs=0.4;y=1;s=0.05} @PlayersInRadius{r=10}
+  - damage{amount=165} @PlayersInRadius{r=10}
+  - throw{velocity=20;velocityY=15} @PlayersInRadius{r=10}
+  - sound{s=entity.generic.explode;v=10} @self
+  - delay 60
+  - skill{s=KalimosTiming}
+  - skill{s=KalimosEarthAttack}
+KalimosAirAttack:
+  Conditions:
+  - hasaura FireAttackAura false
+  - hasaura WaterAttackAura false
+  Skills:
+  - Aura{auraName=AirAttackAura;duration=40} @self
+  - effect:particleline{particle=cloud;y=1;amount=1;fromOrigin=true} @PlayersInRadius{r=50;limit=1;sort=RANDOM}
+  - delay 2
+  - effect:particleline{particle=cloud;y=1;amount=1;fromOrigin=true} @PlayersInRadius{r=50;limit=1;sort=RANDOM}
+  - delay 2
+  - effect:particleline{particle=cloud;y=1;amount=1;fromOrigin=true} @PlayersInRadius{r=50;limit=1;sort=RANDOM}
+  - delay 2
+  - effect:particleline{particle=cloud;y=1;amount=1;fromOrigin=true} @PlayersInRadius{r=50;limit=1;sort=RANDOM}
+  - delay 2
+  - effect:particleline{particle=cloud;y=1;amount=1;fromOrigin=true} @PlayersInRadius{r=50;limit=1;sort=RANDOM}
+  - delay 2
+  - effect:particleline{particle=cloud;y=1;amount=1;fromOrigin=true} @PlayersInRadius{r=50;limit=1;sort=RANDOM}
+  - delay 2
+  - effect:particleline{particle=cloud;y=1;amount=1;fromOrigin=true} @PlayersInRadius{r=50;limit=1;sort=RANDOM}
+  - delay 2
+  - effect:particleline{particle=cloud;y=1;amount=1;fromOrigin=true} @PlayersInRadius{r=50;limit=1;sort=RANDOM}
+  - delay 2
+  - effect:particleline{particle=cloud;y=1;amount=1;fromOrigin=true} @PlayersInRadius{r=50;limit=1;sort=RANDOM}
+  - delay 2
+  - effect:particleline{particle=cloud;y=1;amount=1;fromOrigin=true} @PlayersInRadius{r=50;limit=1;sort=RANDOM}
+  - delay 2
+  - effect:particleline{particle=cloud;y=1;amount=1;fromOrigin=true} @PlayersInRadius{r=50;limit=1;sort=RANDOM}
+  - delay 2
+  - effect:particleline{particle=cloud;y=1;amount=1;fromOrigin=true} @PlayersInRadius{r=50;limit=1;sort=RANDOM}
+  - delay 2
+  - effect:particleline{particle=cloud;y=1;amount=1;fromOrigin=true} @PlayersInRadius{r=50;limit=1;sort=RANDOM}
+  - delay 2
+  - effect:particleline{particle=cloud;y=1;amount=1;fromOrigin=true} @PlayersInRadius{r=50;limit=1;sort=RANDOM}
+  - delay 2
+  - effect:particleline{particle=cloud;y=1;amount=1;fromOrigin=true} @PlayersInRadius{r=50;limit=1;sort=RANDOM}
+  - delay 2
+  - effect:particleline{particle=cloud;y=1;amount=1;fromOrigin=true} @PlayersInRadius{r=50;limit=1;sort=RANDOM}
+  - jump{velocity=2}
+  - delay 2
+  - effect:particleline{particle=cloud;y=1;amount=1;fromOrigin=true} @PlayersInRadius{r=50;limit=1;sort=RANDOM}
+  - delay 2
+  - effect:particleline{particle=cloud;y=1;amount=1;fromOrigin=true} @PlayersInRadius{r=50;limit=1;sort=RANDOM}
+  - delay 2
+  - effect:particleline{particle=cloud;y=1;amount=1;fromOrigin=true} @PlayersInRadius{r=50;limit=1;sort=RANDOM}
+  - delay 2
+  - effect:particleline{particle=cloud;y=1;amount=1;fromOrigin=true} @PlayersInRadius{r=50;limit=1;sort=RANDOM}
+  - delay 2
+  - effect:particleline{particle=cloud;y=1;amount=1;fromOrigin=true} @PlayersInRadius{r=50;limit=1;sort=RANDOM}
+  - delay 2
+  - effect:particleline{particle=cloud;y=1;amount=1;fromOrigin=true} @PlayersInRadius{r=50;limit=1;sort=RANDOM}
+  - delay 2
+  - effect:particleline{particle=cloud;y=1;amount=1;fromOrigin=true} @PlayersInRadius{r=50;limit=1;sort=RANDOM}
+  - delay 2
+  - effect:particleline{particle=cloud;y=1;amount=1;fromOrigin=true} @PlayersInRadius{r=50;limit=1;sort=RANDOM}
+  - delay 2
+  - effect:particleline{particle=cloud;y=1;amount=1;fromOrigin=true} @PlayersInRadius{r=50;limit=1;sort=RANDOM}
+  - delay 2
+  - effect:particleline{particle=cloud;y=1;amount=1;fromOrigin=true} @PlayersInRadius{r=50;limit=1;sort=RANDOM}
+  - leap{velocity=500} @PlayersInRadius{r=50;limit=1;sort=RANDOM}
+  - delay 10
+  - jump{velocity=-100}
+  - sound{s=entity.ghast.shoot;v=10;p=1} @self
+  - effect:particlesphere{particle=explode;amount=200;radius=5} @self
+  - damage{amount=85} @EntitiesInRadius{r=5}
+  - throw{velocity=20;velocityY=15} @PlayersInRadius{r=5}
+  - delay 40
+  - skill{s=KalimosEarthAttack}
+  - skill{s=KalimosTiming}
+KalimosTiming:
+  Conditions: 
+  - hasaura AirAttackAura false
+  - hasaura FireAttackAura false
+  - hasaura WaterAttackAura false
+  - playernotwithin{d=2}
+  Skills:
+  - effect:particles{p=smoke;a=5;hs=0.2;vs=0.4;y=1;s=0.05} @PlayersInRadius{r=10}
+  - pull{v=0.1} @PIR{r=10}
+  - pull{v=0.2} @PIR{r=9}
+  - pull{v=0.3} @PIR{r=8}
+  - pull{v=0.4} @PIR{r=7}
+  - pull{v=0.5} @PIR{r=6}
+  - pull{v=0.6} @PIR{r=5}
+  - pull{v=0.7} @PIR{r=4}
+  - pull{v=0.8} @PIR{r=3}
+  - pull{v=0.9} @PIR{r=2}
+  - pull{v=1} @PIR{r=1}
+  - effect:particlering{particle=blockcrack_3_0;radius=1;points=4;amount=1;y=0.1} @self
+  - effect:particlering{particle=blockcrack_3_0;radius=2;points=8;amount=1;y=0.1} @self
+  - effect:particlering{particle=blockcrack_3_0;radius=3;points=12;amount=1;y=0.1} @self
+  - effect:particlering{particle=blockcrack_3_0;radius=4;points=16;amount=1;y=0.1} @self
+  - effect:particlering{particle=blockcrack_3_0;radius=5;points=20;amount=1;y=0.1} @self
+  - effect:particlering{particle=blockcrack_3_0;radius=6;points=24;amount=1;y=0.1} @self
+  - effect:particlering{particle=blockcrack_3_0;radius=7;points=28;amount=1;y=0.1} @self
+  - effect:particlering{particle=blockcrack_3_0;radius=8;points=32;amount=1;y=0.1} @self
+  - effect:particlering{particle=blockcrack_3_0;radius=9;points=36;amount=1;y=0.1} @self
+  - effect:particlering{particle=blockcrack_3_0;radius=10;points=40;amount=1;y=0.1} @self
+  - delay 1
+  - skill{s=KalimosEarthAttack}
+  - skill{s=KalimosTiming}
+KalimosWaterAttack:
+  Conditions:
+  - hasaura AirAttackAura false
+  - hasaura FireAttackAura false
+  Skills:
+  - Aura{auraName=WaterAttackAura;duration=190} @self
+  - delay 200
+  - skill{s=KalimosEarthAttack}
+  - skill{s=KalimosTiming}
+WaterEffect:
+  Conditions:
+  - hasaura WaterAttackAura
+  Skills:
+  - effect:particlesphere{particle=dripWater;amount=30;radius=1;s=0.1} @self
+WaterDebuff:
+  Conditions:
+  - hasaura WaterAttackAura
+  Skills:
+  - throw{velocity=20;velocityY=5} @trigger
+  - effect:particlesphere{particle=dripWater;amount=30;radius=1;s=0.1} @trigger
+  - sound{s=entity.elder_guardian.death;v=10} @trigger
+  - potion{type=SLOW;duration=100;level=2} @trigger
+KalimosFireAttack:
+  Conditions:
+  - hasaura AirAttackAura false
+  - hasaura WaterAttackAura false
+  Skills:
+  - Aura{auraName=FireAttackAura;duration=90} @self
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 2
+  - skill{s=FireEffect}
+  - delay 10
+  - skill{s=KalimosEarthAttack}
+  - skill{s=KalimosTiming}
+FireEffect:
+  Skills:
+  - effect:particlering{particle=flame;radius=1;points=4;amount=1;y=0.1;s=0.05} @self
+  - effect:particlering{particle=flame;radius=2;points=8;amount=1;y=0.1;s=0.05} @self
+  - effect:particlering{particle=flame;radius=3;points=12;amount=1;y=0.1;s=0.05} @self
+  - effect:particlering{particle=flame;radius=4;points=16;amount=1;y=0.1;s=0.05} @self
+  - effect:particlering{particle=flame;radius=5;points=20;amount=1;y=0.1;s=0.05} @self
+  - effect:particlering{particle=flame;radius=6;points=24;amount=1;y=0.1;s=0.05} @self
+  - effect:particlering{particle=flame;radius=7;points=28;amount=1;y=0.1;s=0.05} @self
+  - effect:particlering{particle=flame;radius=8;points=32;amount=1;y=0.1;s=0.05} @self
+  - effect:particlering{particle=flame;radius=9;points=36;amount=1;y=0.1;s=0.05} @self
+  - effect:particlering{particle=flame;radius=10;points=40;amount=1;y=0.1;s=0.05} @self
+  - damage{amount=50} @PlayersInRadius{r=10}
+#  - ignite{ticks=400} @PlayersInRadius{r=10}
+  - sound{s=block.fire.extinguish;v=10} @PlayersInRadius{r=10}
+KalimosRemove:
+  Conditions:
+  - playerwithin{d=100} false
+#  Cooldown: 1
+  Skills:
+  - remove @self
+WaterAttack:
+  Skills:
+  - jump{velocity=1}
+  - sound{s=entity.ghast.shoot;v=10} @self
+  - delay 25
+  - sound{s=entity.elder_guardian.death;v=10} @self
+  - effect:particlering{particle=explode;radius=0;points=4;amount=1} @self
+  - delay 2
+  - effect:particlering{particle=explode;radius=1;points=6;amount=1} @self
+  - effect:particlering{particle=explode;radius=0;points=4;amount=1;y=1} @self
+  - delay 2
+  - effect:particlering{particle=explode;radius=2;points=8;amount=1} @self
+  - effect:particlering{particle=explode;radius=1;points=6;amount=1;y=1} @self
+  - delay 2
+  - effect:particlering{particle=explode;radius=3;points=12;amount=1} @self
+  - effect:particlering{particle=explode;radius=2;points=8;amount=1;y=1} @self
+  - delay 2
+  - effect:particlering{particle=explode;radius=4;points=16;amount=1} @self
+  - effect:particlering{particle=explode;radius=3;points=12;amount=1;y=1} @self
+  - delay 2
+  - effect:particlering{particle=explode;radius=5;points=24;amount=1} @self
+  - effect:particlering{particle=explode;radius=4;points=16;amount=1;y=1} @self
+  - delay 2
+  - effect:particlering{particle=explode;radius=6;points=32;amount=1} @self
+  - effect:particlering{particle=explode;radius=5;points=24;amount=1;y=1} @self
+  - delay 2
+  - effect:particlering{particle=explode;radius=7;points=40;amount=1} @self
+  - effect:particlering{particle=explode;radius=6;points=32;amount=1;y=1} @self
+  - delay 2
+  - effect:particlering{particle=explode;radius=8;points=52;amount=1} @self
+  - effect:particlering{particle=explode;radius=7;points=40;amount=1;y=1} @self
+  - delay 2
+  - effect:particlering{particle=explode;radius=9;points=64;amount=1} @self
+  - effect:particlering{particle=explode;radius=8;points=52;amount=1;y=1} @self
+  - delay 2
+  - effect:particlering{particle=explode;radius=10;points=80;amount=1} @self
+  - effect:particlering{particle=explode;radius=9;points=64;amount=1;y=1} @self
+  - damage{amount=76} @PlayersInRadius{r=9}
+  - throw{velocity=11;velocityY=15} @PlayersInRadius{r=9}
+FireAttack:
+  Skills:
+  - CancelEvent
+  - sound{s=block.fire.extinguish;v=10} @self
+  - ignite{ticks=400} @trigger
+StoneAttack:
+  Skills:
+  - prison{material=STONE;duration=100;breakable=true} @PlayersInRadius{r=6}
+  - sound{s=block.anvil.land;v=4} @self
+Stone2Attack:
+  Skills:
+  - CancelEvent
+  - damage{a=75} @trigger
+AirAttack:
+  Skills:
+  - throw{velocity=15;velocityY=9} @trigger
+  - sound{s=entity.ghast.shoot;v=10;p=1} @self
+GolemAttack:
+  Skills:
+  - throw{velocity=6;velocityY=11} @trigger
+  - sound{s=entity.irongolem.attack;v=10;p=1} @self
+KalimosAttack1:
+  Skills:
+  - message{m="<mob.name><&co> &7Poznaj potege zywiolow..."} @PlayersInRadius{r=15}
+  - sound{s=entity.enderdragon.growl;v=10} @self
+  - delay 10
+  - pull{velocity=4;to=true} @PIR{r=15}
+  - delay 1
+  - pull{velocity=4;to=true} @PIR{r=15}
+  - delay 1
+  - pull{velocity=4;to=true} @PIR{r=15}
+  - delay 1
+  - pull{velocity=4;to=true} @PIR{r=15}
+  - delay 1
+  - pull{velocity=4;to=true} @PIR{r=15}
+  - delay 1
+  - pull{velocity=4;to=true} @PIR{r=15}
+  - delay 1
+  - sound{s=entity.generic.explode;v=10} @self
+  - damage{amount=105} @PlayersInRadius{r=15}
+  - throw{velocity=3;velocityY=15} @PlayersInRadius{r=15}
+  - delay 15
+  - prison{material=ICE;duration=100;breakable=true} @PlayersInRadius{r=35}
+  - delay 100
+  - damage{a=88} @PIR{r=25}
+  - effect:lightning @PIR{r=25}
+KalimosAttack2:
+  Skills:
+  - message{m="<mob.name><&co> &7Precz!"} @PlayersInRadius{r=15}
+  - delay 5
+  - effect:flames @self
+  - throw{velocity=15;velocityY=3} @trigger
+  - sound{s=entity.ghast.shoot;v=10} @trigger
+  - delay 15
+  - effect:ender @trigger
+  - throw{velocity=1;velocityY=15} @trigger
+  - sound{s=entity.endermen.teleport;v=10} @trigger
+  - delay 20
+  - pull{velocity=7;to=true} @trigger
+  - pull{velocity=4;to=true} @PIR{r=15}
+  - delay 10
+  - sound{s=block.fire.extinguish;v=10} @self
+  - ignite{ticks=500} @PIR{r=4}
+KalimosAttack3:
+  Skills:
+  - message{m="<mob.name><&co> &7Nie masz szans ze mna!"} @PlayersInRadius{r=20}
+  - delay 100
+  - damage{a=94} @PIR{r=5}
+  - effect:lightning @PIR{r=5}
+  - delay 20
+  - damage{a=94} @PIR{r=5}
+  - effect:lightning @PIR{r=5}
+  - delay 20
+  - damage{a=94} @PIR{r=5}
+  - effect:lightning @PIR{r=5}
+KalimosSummon:
+  Skills:
+  - message{m="<mob.name><&co> &7Przybadzcie moi sludzy. Pokazcie moc zywiolow!"} @PlayersInRadius{r=30}
+  - delay 5
+  - summon{mob=Zywiolak5;amount=1;noise=3} @Self
+  - delay 5
+  - summon{mob=Zywiolak5;amount=1;noise=3} @Self
+KalimosDeath:
+  Skills:
+  - message{m="<mob.name><&co> &7Nie..."} @PlayersInRadius{r=30}
+  - delay 10
+  - message{m="<mob.name><&co> &7Nie..."} @PlayersInRadius{r=30}
+  - delay 20
+  - message{m="<mob.name><&co> &7NIE!"} @PlayersInRadius{r=30}
+  - delay 10
+  - effect:lightning @self
+  - delay 20
+  - sound{s=entity.generic.explode;v=10} @self
+  - effect:particlering{particle=reddust;radius=0;points=4;amount=1;hS=0.5;vS=0} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @self
+  - effect:particlering{particle=reddust;radius=1;points=6;amount=1;hS=0.5;vS=0} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @self
+  - effect:particlering{particle=reddust;radius=2;points=8;amount=1;hS=0.5;vS=0} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @self
+  - effect:particlering{particle=reddust;radius=3;points=12;amount=1;hS=0.5;vS=0} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @self
+  - effect:particlering{particle=reddust;radius=4;points=16;amount=1;hS=0.5;vS=0} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @self
+  - effect:particlering{particle=reddust;radius=5;points=24;amount=1;hS=0.5;vS=0} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @self
+  - effect:particlering{particle=reddust;radius=6;points=32;amount=1;hS=0.5;vS=0} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @self
+  - effect:particlering{particle=reddust;radius=7;points=40;amount=1;hS=0.5;vS=0} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @self
+  - effect:particlering{particle=reddust;radius=8;points=52;amount=1;hS=0.5;vS=0} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @self
+  - effect:particlering{particle=reddust;radius=9;points=64;amount=1;hS=0.5;vS=0} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @self
+  - effect:particlering{particle=reddust;radius=10;points=80;amount=1;hS=0.5;vS=0} @self
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @self
+  - effect:particlering{particle=reddust;radius=11;points=96;amount=1;hS=0.5;vS=0} @self
+  - delay 20
+  - sound{s=mob.enderdragon.end;v=10} @self
+  - message{m="&b&lMacie 30 sekund na zebranie dropu!"} @PlayersInRadius{r=100}
+  - message{m="&b&lPo tym czasie zostaniecie przeteleportowani na spawn!"} @PlayersInRadius{r=100}
+  - message{m="&6&lKalimos zostal pokonany!"} @PlayersOnServer
+  - message{m="&6&lProsze nie wchodzic do sanktuarium przez 30 sekund"} @PlayersOnServer
+  - delay 600
+  - command{c="mw move <target.name> F_RPG"} @PlayersInWorld
+KalimosSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &7Na polaczone zywioly..."} @PlayersInRadius{r=30}
+  - delay 10
+  - message{m="<mob.name><&co> &7Moc nalezy do mnie!"} @PlayersInRadius{r=30}
+  - delay 25
+  - sound{s=entity.generic.explode;v=10} @Self
+  - effect:particlering{particle=explode;radius=0;points=4;amount=1;hS=0.5;vS=0} @self
+  - damage{amount=154} @PlayersInRadius{r=0}
+  - throw{velocity=15;velocityY=30} @PlayersInRadius{r=0}
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @Self
+  - effect:particlering{particle=explode;radius=1;points=6;amount=1;hS=0.5;vS=0} @self
+  - damage{amount=149} @PlayersInRadius{r=1}
+  - throw{velocity=13;velocityY=27} @PlayersInRadius{r=1}
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @Self
+  - effect:particlering{particle=explode;radius=2;points=8;amount=1;hS=0.5;vS=0} @self
+  - damage{amount=143} @PlayersInRadius{r=2}
+  - throw{velocity=12;velocityY=25} @PlayersInRadius{r=2}
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @Self
+  - effect:particlering{particle=explode;radius=3;points=12;amount=1;hS=0.5;vS=0} @self
+  - damage{amount=138} @PlayersInRadius{r=3}
+  - throw{velocity=10;velocityY=22} @PlayersInRadius{r=3}
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @Self
+  - effect:particlering{particle=explode;radius=4;points=16;amount=1;hS=0.5;vS=0} @self
+  - damage{amount=132} @PlayersInRadius{r=4}
+  - throw{velocity=9;velocityY=20} @PlayersInRadius{r=4}
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @Self
+  - effect:particlering{particle=explode;radius=5;points=24;amount=1;hS=0.5;vS=0} @self
+  - damage{amount=127} @PlayersInRadius{r=5}
+  - throw{velocity=8;velocityY=18} @PlayersInRadius{r=5}
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @Self
+  - effect:particlering{particle=explode;radius=6;points=32;amount=1;hS=0.5;vS=0} @self
+  - damage{amount=121} @PlayersInRadius{r=6}
+  - throw{velocity=6;velocityY=15} @PlayersInRadius{r=6}
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @Self
+  - effect:particlering{particle=explode;radius=7;points=40;amount=1;hS=0.5;vS=0} @self
+  - damage{amount=116} @PlayersInRadius{r=7}
+  - throw{velocity=5;velocityY=13} @PlayersInRadius{r=7}
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @Self
+  - effect:particlering{particle=explode;radius=8;points=52;amount=1;hS=0.5;vS=0} @self
+  - damage{amount=110} @PlayersInRadius{r=8}
+  - throw{velocity=4;velocityY=11} @PlayersInRadius{r=8}
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @Self
+  - effect:particlering{particle=explode;radius=9;points=64;amount=1;hS=0.5;vS=0} @self
+  - damage{amount=105} @PlayersInRadius{r=9}
+  - throw{velocity=3;velocityY=10} @PlayersInRadius{r=9}
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @Self
+  - effect:particlering{particle=explode;radius=10;points=80;amount=1;hS=0.5;vS=0} @self
+  - damage{amount=99} @PlayersInRadius{r=10}
+  - throw{velocity=1;velocityY=8} @PlayersInRadius{r=10}
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @Self
+  - effect:particlering{particle=explode;radius=11;points=96;amount=1;hS=0.5;vS=0} @self
+  - damage{amount=94} @PlayersInRadius{r=11}
+  - throw{velocity=1;velocityY=5} @PlayersInRadius{r=11}
+  - delay 20
+  - sound{s=record.13;v=10} @Self
+  - delay 20
+  - skill{s=KalimosEarthAttack}
+  - skill{s=KalimosTiming}

@@ -1,0 +1,57 @@
+id: "6_quest_5"                                
+name: "&2&lWrog mojego wroga"                          
+zleceniodawca: "&c&lMilten"                       
+lore:                                               
+  - "&aOstatnio w lesie zauwazylismy zwloki"
+  - "&atych dziwnych stworzen."
+  - "&aTo, co nas zainteresowalo, to fakt,"
+  - "&aze obrazenia na nich nie pasowaly zarowno"
+  - "&ado naszego typu broni jak i Twojego."
+  - "&aTo moze oznaczec tylko jedno."
+  - "&aSa tutaj osoby, ktore walcza z tym czyms."
+  - "&aOdszukaj ich i przekonaj ich do zawarcia sojuszu."
+prize:                                    
+  - "xp: 7500"
+require:                                            
+  - "level: 52"
+  - "quest: 6_quest_4"
+stopnie:
+  1:
+    talking: false                   
+    targets:
+      1:
+        id: "6_quest_5_1_1"                     
+        type: "znajdz"       
+        targetName: "exp50_3"
+        message: "Odnajdz oboz buntownikow: %stan%"
+      2:
+        id: "6_quest_5_1_2"                     
+        type: "zagadaj"       
+        targetName: "&3&lSteve"
+        message: "Porozmawiaj z przywodca buntownikow (Steve): %stan%"
+        dialog:
+          - "&3&lSteve&7: &aSTOJ!"
+          - "&3&lSteve&7: &aKto Ty?"
+          - "&r%player%&7: &bSpokojie przyjacielu..."
+          - "&r%player%&7: &bNazywam sie %player%."
+          - "&r%player%&7: &bSzukam kogos, kto pomoze nam walczyc z tymi potworami."
+          - "&r%player%&7: &bZnalazlem Was w jaskini, wiec sadze, ze to Was szukalem."
+          - "&3&lSteve&7: &aMozliwe..."
+          - "&3&lSteve&7: &aSkad pochodzisz?"
+          - "&3&lSteve&7: &aTwoj ekwipunek nie wyglada na tutejszy."
+          - "&r%player%&7: &bPrzeteleportowalismy sie tutaj z wyspy Archolos."
+          - "&r%player%&7: &bKtos uruchomil sfere, z ktorej wyszedl Entity303."
+          - "&r%player%&7: &bJego przejscie zostawilo slad, ktore wskazywalo na to miejsce."
+          - "&3&lSteve&7: &aWspomniales Entity..."
+          - "&3&lSteve&7: &aJakim cudem pozwolil Wam tutaj przejsc!?"
+          - "&r%player%&7: &bTo proste - pokonalismy i zabilismy go."
+          - "&3&lSteve&7: &aA wiec zostalo ich dwoch..."
+          - "&r%player%&7: &bJakich dwoch?"
+          - "&3&lSteve&7: &aSluchaj, ta kraina rzadzi Herobrine."
+          - "&3&lSteve&7: &aParenascie lat temu wszystko to wygladalo normalnie."
+          - "&3&lSteve&7: &aNagle znikad on dostal zastrzyk mocy."
+          - "&3&lSteve&7: &aWykorzystal ja, by podporzadkowac sobie ten swiat."
+          - "&3&lSteve&7: &aCzesc swej mocy udzielil Nullowi i Entity303."
+          - "&3&lSteve&7: &aEntity zginal, wiec zostal Null i Herobrine."
+          - "&3&lSteve&7: &aDzieki Wam plomyk nadziei na powstrzymanie tego tyrana znow sie zatlil."
+          - "&3&lSteve&7: &aWiecej opowiem Wam pozniej."

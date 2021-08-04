@@ -1,0 +1,25 @@
+id: "ee_quest_2"                                
+name: "&e&lPrzeciwnik doskonaly"                          
+zleceniodawca: "&3&lDecard"                       
+lore:                                               
+  - "&aWarlordzi tutaj nie sa najwiekszym problemem."
+  - "&aSa inni tutaj, ktorzy sa na tyle bezczelni,"
+  - "&aze zywcem smieja sie z przeciwnikow."
+  - "&aNie lekcewaz ich, albowiem Twoje zycie"
+  - "&aszybko zostanie policzone."
+prize:                                    
+  - "xp: 18000"
+  - "money: 450"
+require:                                            
+  - "level: 39"
+  - "quest: ee_quest_1"
+stopnie:
+  1:
+    talking: true                  
+    targets:
+      1:
+        id: "ee_quest_2_1_1"
+        type: "zabij"
+        targetName: "&6&lBananowy potwor"
+        message: "Zabij 55 bananowych potworow: %stan%"
+        ilosc: 55

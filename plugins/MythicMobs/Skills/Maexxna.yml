@@ -1,0 +1,31 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+MaexxnaSummon1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=60}
+  - summon{mob=Spider1;amount=1;noise=3} @Self
+  - summon{mob=Spider2;amount=1;noise=3} @Self
+MaexxnaAttack2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=60}
+  - prison{material=WEB;duration=20;breakable=true} @Target
+MaexxnaAttack1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=80}
+  - sound{s=entity.spider.ambient} @self
+  - projectile{onTick=Maexxna-Tick;onHit=Maexxna-Hit;v=20;i=1;hR=1;vR=1;mr=20} @TargetLocation
+Maexxna-Tick:
+  Skills:
+  - effect:particles{particle=happyVillager;amount=200} @origin
+Maexxna-Hit:
+  Skills:
+  - damage{a=55}
+  - potion{type=POISON;duration=100;level=1}
+  - potion{type=CONFUSION;duration=300;level=4}

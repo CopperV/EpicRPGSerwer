@@ -1,0 +1,44 @@
+id: "zlodziej_quest_7"                                
+name: "&4&lBandycki postrach"                          
+zleceniodawca: "&e&oRamirez"                       
+lore:                                               
+  - "&aSzanuje &8&lValeere&a, ale czasem jej krotkowzrocznosc"
+  - "&aprzyprawia mnie o mdlosci."
+  - "&aHerszci Bandytow to w rzeczywiscie pionki."
+  - "&aBandyci na tej wyspie sa znacznie bardziej zorganizowana"
+  - "&agrupa niz to by sie moglo wydawac."
+  - "&aWszystko to zawdziecza sie jednemu - Ortedze."
+  - "&aTo on pociaga za sznurkami, samemu siedzac w bezpiecznym miejscu."
+  - "&aWydaje mi sie, ze jego oboz znajduje sie daleko na wschodzie..."
+  - "&aTamte rejony sa najmniej kontrolowane przez tutejsze wladze."
+  - "&aTo jest wrecz idealne miejsce na kryjowke."
+  - "&aZnajdz oboz Ortegi i wykoncz wodza bandytow."
+  - "&aTylko uwazaj - Ortega otacza siebie najgorszymi oprychami"
+  - "&ajakich swiat widzial."
+prize:                                    
+  - "xp: 7500"
+  - "money: 500"
+require:                                            
+  - "level: 25"
+  - "quest: zlodziej_quest_6"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "zlodziej_quest_7_1_1"
+        type: "znajdz"
+        targetName: "oboz_Ortegi"
+        message: "Odnajdz oboz Ortegi na wschodzie wyspy (1041;-595): %stan%"
+      2:
+        id: "zlodziej_quest_7_1_2"
+        type: "zabij"
+        targetName: "&4Bandzior Ortegi"
+        message: "Zabij 30 Bandziorow Ortegi: %stan%"
+        ilosc: 30
+      3:
+        id: "zlodziej_quest_7_1_3"
+        type: "zabij"
+        targetName: "&4&lORTEGA - BOSS"
+        message: "Pokonaj Ortege: %stan%"
+        ilosc: 1

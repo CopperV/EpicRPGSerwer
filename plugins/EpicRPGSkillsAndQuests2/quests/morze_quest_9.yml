@@ -1,0 +1,22 @@
+id: "morze_quest_9"                                
+name: "&1&l&oWladca Wod"                          
+zleceniodawca: "&4Nars"                       
+lore:                                               
+  - "&aNeptulon juz sporo napsul krwi..."
+  - "&aNie tylko nam."
+  - "&aPora polozyc kres jego rzadom."
+prize:                                    
+  - "xp: 65000"
+require:                                            
+  - "level: 49"
+  - "quest: morze_quest_7"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "morze_quest_9_1_1"
+        type: "zabij"
+        targetName: "&b&lNeptulon - Wladca Wod - BOSS"
+        message: "Pokonaj Neptulona - Wladce Wod: %stan%"
+        ilosc: 1

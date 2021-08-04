@@ -1,0 +1,63 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+
+OrianaSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &9&oStajac do walki ze mna postepujesz niemadrze"} @PlayersInRadius{r=25}
+
+OrianaSkill1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=60} @self
+  - message{m="<mob.name><&co> &9&oWszyscy ugna sie pod nasza potega!"} @PlayersInRadius{r=25}
+  - effect:particles{particle=heart;amount=20;speed=0.1;hS=0.5;vS=0.5;y=1} @self
+  - summon{type=OrianaBat;amount=6;radius=3} @self
+
+OrianaBat_Mount:
+  Conditions:
+  - mounted false
+  - playerwithin{d=2} true
+  Skills:
+  - mounttarget @NearestPlayer{r=2}
+
+OrianaBat_Damage:
+  Conditions:
+  - mounted true
+  Skills:
+  - damage{amount=100} @NearestPlayer{r=2}
+  - potion{type=POISON;duration=40;level=3} @NearestPlayer{r=2}
+
+OrianaBat_Dismount:
+  Conditions:
+  - mounted true
+  Skills:
+  - mounttarget @NearestPlayer{r=1}
+  - dismount
+
+OrianaSkill2:
+  Skills:
+  - heal{amount=350} @self
+  - effect:particles{particle=heart;amount=20;speed=0.1;hS=0.5;vS=0.5;y=1} @self
+  - effect:particles{particle=angryVillager;amount=20;speed=0.1;hS=0.5;vS=0.5;y=1} @trigger
+
+OrianaSkill3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=140} @self
+  - message{m="<mob.name><&co> &9&oPragne TEJ Krwi!"} @PlayersInRadius{r=25}
+  - stun{d=39} @self
+  - delay 40
+  - effect:particles{particle=largesmoke;amount=25;speed=0.1;hS=0.4;vS=0.4} @self
+  - sound{s=entity.ghast.shoot;v=10;p=0.6} @self
+  - jump{velocity=1}
+  - delay 10
+  - effect:particles{particle=largesmoke;amount=25;speed=0.1;hS=0.4;vS=0.4} @self
+  - leap{velocity=500} @PlayersInRadius{r=50;limit=1;sort=RANDOM}
+  - delay 10
+  - jump{velocity=-100}
+  - effect:particles{particle=largesmoke;amount=25;speed=0.1;hS=0.4;vS=0.4} @self
+  - sound{s=entity.generic.explode;v=6;p=0.2} @self
+  - damage{amount=190} @PIR{r=4}

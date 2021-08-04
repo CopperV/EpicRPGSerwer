@@ -1,0 +1,27 @@
+id: "4_quest_19"
+name: "&4&lOrkowa elita"
+zleceniodawca: "&4Reg"
+lore:
+  - "&aTroche juz tu z nami jestes i zapewne"
+  - "&adales rade juz sie przyzwyczaic do tutejszego klimatu."
+  - "&aOmawiajac z Toba orkowa hierarchie wspomnialem"
+  - "&ao orkowych elitach."
+  - "&aCoz, trzeba sie rowniez i nimi zajac."
+  - "&aMierzyles sie z paroma, wiesz czego sie po nich spodziewac."
+  - "&aTakze powodzenia..."
+prize:
+  - "xp: 8450"
+  - "money: 300"
+require:
+  - "level: 37"
+  - "quest: 4_quest_15"
+stopnie:
+  1:
+    talking: true   
+    targets:
+      1:
+        id: "4_quest_19_1_1"                     
+        type: "zabij"       
+        targetName: "&c&lElitarny Ork Wojownik"                      
+        message: "Zabij 25 elitarnych orkow: %stan%"
+        ilosc: 25

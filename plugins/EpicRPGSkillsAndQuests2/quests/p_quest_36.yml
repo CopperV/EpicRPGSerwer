@@ -1,0 +1,29 @@
+id: "p_quest_36"                                
+name: "&3&lStygia - Tajemnicza Moc"
+zleceniodawca: "&3&lRiordian"
+lore:                                               
+  - "&aZapewne zauwazyles juz, ze pojawila"
+  - "&asie tutaj nowa moc - stygia."
+  - "&aNie wiemy wiele na jej temat,"
+  - "&alecz wyglada na to, ze jest ona"
+  - "&apewnego rodzaju paliwem napedzajacym ten swiat."
+  - "&aOstatnio mierzyles sie z jednym z lordow Pustki."
+  - "&aPewien jestem, ze mial w sobie ogromne poklady Stygii."
+  - "&aMoze zostawil cos po sobie?"
+  - "&aMoze bede w stanie cos wydostac?"
+prize:                                    
+  - "xp: 200000"
+  - "money: 300"
+require:                                            
+  - "level: 60"
+  - "quest: 6_quest_13"
+stopnie:
+  1:
+    talking: false
+    targets:
+      1:
+        id: "p_quest_36_1_1"
+        type: "przynies"
+        targetName: "&cNiestabilna Stygia"
+        message: "Przynies Niestabilna Stygie Sentenzy: %stan%"
+        ilosc: 1

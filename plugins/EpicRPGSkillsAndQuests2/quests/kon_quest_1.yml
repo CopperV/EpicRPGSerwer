@@ -1,0 +1,41 @@
+id: "kon_quest_1"                                
+name: "&2Srodek transportu"                          
+zleceniodawca: "&b&lCorristo"                       
+lore:                                               
+  - "&aWyspa jest ogromna"
+  - "&ai dostawac sie wszedzie pieszo jest ciezko."
+  - "&aMam dla Ciebie oferte..."
+  - "&aMoze nie tyle co oferte, lecz propozycje"
+  - "&aSlyszalem, ze farmer &eCratos &ama na zbyciu"
+  - "&apare dobrych koni."
+  - "&aZarzadza on wolna farma na polnocy,"
+  - "&aw poblizu przeleczy na spaczone ziemie."
+  - "&aUdaj sie do niego, moze podaruje Ci konia."
+prize:                                    
+  - "xp: 50"
+require:                                            
+  - "level: 10"
+stopnie:
+  1:
+    talking: false                    
+    targets:
+      1:
+        id: "kon_quest_1_1_1"
+        type: "znajdz"
+        targetName: "wolnaf"
+        message: "Udaj sie na wolno farme na polnocy kolo przeleczy (377;-501): %stan%"
+      2:
+        id: "kon_quest_1_1_2"                     
+        type: "zagadaj"       
+        targetName: "&eCratos"                      
+        message: "Popros o konia zarzadce wolnej farmy - &eCratosa: %stan%"
+        dialog:
+          - "&r%player%&7: &bWitam,"
+          - "&r%player%&7: &bSlyszalem, ze masz na zbyciu pare koni."
+          - "&r%player%&7: &bNie moglbys czasem podarowac mi jednego z nich?"
+          - "&eCratos&7: &aOwszem, moglbym..."
+          - "&eCratos&7: &aAle co z tego bym mial?"
+          - "&eCratos&7: &aMozemy zawrzec taka umowe..."
+          - "&eCratos&7: &aTy troche dla mnie popracujesz, a ja dam Ci konia."
+          - "&eCratos&7: &aCo Ty na to?"
+          - "&eCratos&7: &aWydaje mi sie, ze jest to uczciwy uklad."

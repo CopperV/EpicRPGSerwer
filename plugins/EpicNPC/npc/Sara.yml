@@ -1,0 +1,15 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&6&lSara"
+  - "&7[&eZLECENIODAWCA&7]"
+skinid: 129248223
+location:
+  world: "F_RPG"
+  x: 32.25
+  y: 48.0
+  z: 64.5
+  yaw: 90
+  pitch: 15
+lookat: true

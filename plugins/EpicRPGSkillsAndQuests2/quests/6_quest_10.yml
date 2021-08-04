@@ -1,0 +1,38 @@
+id: "6_quest_10"                                
+name: "&cWalka rojalistow"                          
+zleceniodawca: "&3&lSteve"                       
+lore:                                               
+  - "&aWalczac o statek na Twierdze"
+  - "&aoczyscilismy miasto na tyle,"
+  - "&aby moc sie przedrzec do sterow."
+  - "&aJednak to miasto stanowi prawdziwa twierdze"
+  - "&ai moglibysmy to wykorzystac do walki"
+  - "&az Herobrinem."
+  - "&aZacznij oczyszczac to miasto."
+prize:                                    
+  - "xp: 175000"
+require:                                            
+  - "level: 56"
+  - "quest: 6_quest_9"
+stopnie:
+  1:
+    talking: true                  
+    targets:
+      1:
+        id: "6_quest_10_1_1"                     
+        type: "zabij"       
+        targetName: "&9Tulacz"
+        message: "Zabij 15 Tulaczy: %stan%"
+        ilosc: 15
+      2:
+        id: "6_quest_10_1_2"                     
+        type: "zabij"       
+        targetName: "&3&oJezdziec"
+        message: "Zabij 15 Jezdzcow: %stan%"
+        ilosc: 15
+      3:
+        id: "6_quest_10_1_3"                     
+        type: "zabij"       
+        targetName: "&a&oZombie - Osadnik"
+        message: "Zabij 30 Zombie - Osadnikow: %stan%"
+        ilosc: 30

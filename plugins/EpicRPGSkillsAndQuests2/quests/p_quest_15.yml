@@ -1,0 +1,38 @@
+id: "p_quest_15"                                
+name: "&4&oSkazani na smierc przez powieszenie"
+zleceniodawca: "&4&lDeath"
+lore:                                               
+  - "&aPoludnie wyspy wlasciwie zostalo przejete"
+  - "&aprzez tych plugawych piratow."
+  - "&aGrabia i morduja zupelnie bezkarnie."
+  - "&aWiekszosc z nich ma juz wyroki smierci"
+  - "&ai powinna juz dawno wisiec tutaj, kolo mnie!"
+  - "&aNiestety, tutejsze wladze sobie z tym nie radza."
+  - "&aSadze, ze jestes jedyna osoba, ktora bedzie"
+  - "&aw stanie mi pomoc"
+prize:                                    
+  - "xp: 4200"
+require:                                            
+  - "level: 28"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "p_quest_15_1_1"
+        type: "zabij"
+        targetName: "&eBukanier"
+        message: "Zabij 30 bukanierow: %stan%"
+        ilosc: 30
+      2:
+        id: "p_quest_15_1_2"
+        type: "zabij"
+        targetName: "&cSilny pirat"
+        message: "Zabij 15 silnych piratow: %stan%"
+        ilosc: 15
+      3:
+        id: "p_quest_15_1_3"
+        type: "zabij"
+        targetName: "&6Korsarz"
+        message: "Zabij 5 korsarzy: %stan%"
+        ilosc: 5

@@ -1,0 +1,54 @@
+name: "&b&lTyrael"
+title: "&b&lTyrael - quester"
+size: 27
+slots:
+  1:
+    item: "5_quest_2"
+  2:
+    item: "5_quest_3"
+  3:
+    item: "5_quest_4"
+  4:
+    item: "5_quest_5"
+  5:
+    item: "5_quest_6"
+  6:
+    item: "5_quest_7"
+  10:
+    item: "5_quest_8"
+  11:
+    item: "5_quest_9"
+  8:
+    item: "Inteligencja1"
+    wymagania:
+      - "quest: 5_quest_3"
+      - "klasa: &5Mag"
+    max: 220
+  9:
+    item: "Inteligencja5"
+    wymagania:
+      - "quest: 5_quest_3"
+      - "klasa: &5Mag"
+    max: 220
+  17:
+    item: "Zrecznosc1"
+    wymagania:
+      - "quest: 5_quest_3"
+      - "klasa: &2Mysliwy"
+    max: 220
+  18:
+    item: "Zrecznosc5"
+    wymagania:
+      - "quest: 5_quest_3"
+      - "klasa: &2Mysliwy"
+    max: 220
+  26:
+    item: "Walka1"
+    wymagania:
+      - "quest: 5_quest_3"
+    max: 60
+  27:
+    item: "Walka2"
+    wymagania:
+      - "quest: 5_quest_3"
+    max: 60

@@ -1,0 +1,123 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+
+OsairSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &9&oCien Masjafu bedzie Twoja zguba!"} @PlayersInRadius{r=25}
+
+OsairSkill1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=100} @self
+  - message{m="<mob.name><&co> &9&oTwoj opor jest daremny!"} @PlayersInRadius{r=25}
+  - delay 40
+  - summon{type=OsairSummon;amount=2;radius=2;os=true} @self
+
+OsairSkill_AttackEffect:
+  Conditions:
+  - mobsInRadius{types=OsairSummon;amount=1to100;radius=40} true
+  Skills:
+  - CancelEvent
+  - sound{s=entity.player.attack.crit;v=2;p=2} @self
+  - damage{a=250} @trigger
+  - effect:particles{particle=enchantmenttable;amount=30;speed=0.1;hS=0.3;vS=0.3;y=1} @trigger
+
+OsairSkill_AttackParticles:
+  Conditions:
+  - mobsInRadius{types=OsairSummon;amount=1to100;radius=40} true
+  Skills:
+  - effect:particles{particle=enchantmenttable;amount=10;speed=0.05;hS=0.3;vS=0.3;y=1} @self
+
+OsairSkill_AttackPotion:
+  Conditions:
+  - mobsInRadius{types=OsairSummon;amount=1to100;radius=40} true
+  Skills:
+  - potion{type=SPEED;duration=60;level=1} @self
+
+OsairSkill2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=100} @self
+  - message{m="<mob.name><&co> &9&oNie masz z nami szans!"} @PlayersInRadius{r=25}
+  - stun{d=260;f=false;ai=true} @self
+  - delay 60
+  - equip{item=AIR:0} @self
+  - equip{item=AIR:OFFHAND} @self
+  - sound{s=item.shield.block;v=2;p=0.1} @self
+  - Aura{auraName=OsairDefenseWir;duration=200} @self
+  - orbital{bulletType=MYTHICITEM;material=Katana;onTick=OsairWir-Tick;onHit=OsairWir-Hit;points=31;interval=1;duration=200;charges=30;r=2;hr=1;rx=0;ry=0;oy=1} @self
+  - orbital{bulletType=MYTHICITEM;material=Katana;onTick=OsairWir-Tick;onHit=OsairWir-Hit;points=31;interval=1;duration=200;charges=30;r=2;hr=1;rx=3.14;ry=0;oy=1} @self
+  - delay 200
+  - equip{item=Katana:0} @self
+  - equip{item=Katana:OFFHAND} @self
+
+OsairWir-Tick:
+  Skills:
+  - effect:particles{p=smoke;amount=10;speed=0.05;hS=0.1;vS=0.1} @origin
+OsairWir-Hit:
+  Skills:
+  - damage{amount=200} @PlayersNearOrigin{r=1.5}
+  - sound{s=entity.player.attack.strong;v=4;p=4} @Origin
+  - throw{velocity=5;velocityY=2} @PlayersNearOrigin{r=1.5}
+
+OsairSkill2_Defense:
+  Conditions:
+  - hasaura OsairDefenseWir true
+  Skills:
+  - damage{amount=210} @trigger
+  - sound{s=entity.player.attack.strong;v=4;p=4} @TriggerLocation
+
+OsairSkill3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=100} @self
+  - message{m="<mob.name><&co> &9&oChaosu nic nie powstrzyma!"} @PlayersInRadius{r=25}
+  - projectile{type=meteor;onTick=Osair_Effect_Tick;onHit=Osair_Effect_Hit;onEnd=Osair_Effect_End;v=40;i=1;hR=2;vR=1;syo=40;tyo=40;g=0.2;mr=50} @PIR{r=25}
+  - delay 20
+  - projectile{type=meteor;onTick=Osair_Effect_Tick;onHit=Osair_Effect_Hit;onEnd=Osair_Effect_End;v=40;i=1;hR=2;vR=1;syo=40;tyo=40;g=0.2;mr=50} @PIR{r=25}
+  - delay 20
+  - projectile{type=meteor;onTick=Osair_Effect_Tick;onHit=Osair_Effect_Hit;onEnd=Osair_Effect_End;v=40;i=1;hR=2;vR=1;syo=40;tyo=40;g=0.2;mr=50} @PIR{r=25}
+
+Osair_Effect_Tick:
+  Skills:
+  - sound{s=entity.endermen.teleport;v=5;p=1.75} @origin
+  - effect:particles{particle=reddust;color=#8B008B;amount=5;speed=0.05;hS=0.3;vS=0.1} @origin
+  - effect:particles{particle=smoke;amount=5;speed=0.05;hS=0.7;vS=0.1} @origin
+
+Osair_Effect_Hit:
+  Skills:
+  - sound{s=entity.endermen.hurt;v=10;p=0.7} @origin
+  - damage{amount=300}
+  - potion{type=BLINDNESS;duration=160;level=4}
+
+Osair_Effect_End:
+  Skills:
+  - sound{s=entity.endermen.hurt;v=10;p=0.7} @PlayersNearOrigin{r=20}
+  - effect:particlering{particle=reddust;color=#8B008B;radius=0;points=4;amount=5;speed=0.05;hS=0.3;vS=0.1} @origin
+  - effect:particlering{particle=smoke;radius=0;points=4;amount=5;speed=0.05;hS=0.7;vS=0.1} @origin
+  - delay 2
+  - sound{s=entity.endermen.hurt;v=10;p=0.7} @PlayersNearOrigin{r=20}
+  - effect:particlering{particle=reddust;color=#8B008B;radius=1;points=8;amount=5;speed=0.05;hS=0.3;vS=0.1} @origin
+  - effect:particlering{particle=smoke;radius=1;points=8;amount=5;speed=0.05;hS=0.7;vS=0.1} @origin
+  - delay 2
+  - sound{s=entity.endermen.hurt;v=10;p=0.7} @PlayersNearOrigin{r=20}
+  - effect:particlering{particle=reddust;color=#8B008B;radius=2;points=12;amount=5;speed=0.05;hS=0.3;vS=0.1} @origin
+  - effect:particlering{particle=smoke;radius=2;points=12;amount=5;speed=0.05;hS=0.7;vS=0.1} @origin
+  - delay 2
+  - sound{s=entity.endermen.hurt;v=10;p=0.7} @PlayersNearOrigin{r=20}
+  - effect:particlering{particle=reddust;color=#8B008B;radius=3;points=16;amount=5;speed=0.05;hS=0.3;vS=0.1} @origin
+  - effect:particlering{particle=smoke;radius=3;points=16;amount=5;speed=0.05;hS=0.7;vS=0.1} @origin
+  - delay 2
+  - sound{s=entity.endermen.hurt;v=10;p=0.7} @PlayersNearOrigin{r=20}
+  - effect:particlering{particle=reddust;color=#8B008B;radius=4;points=20;amount=5;speed=0.05;hS=0.3;vS=0.1} @origin
+  - effect:particlering{particle=smoke;radius=4;points=20;amount=5;speed=0.05;hS=0.7;vS=0.1} @origin
+  - delay 2
+  - sound{s=entity.endermen.hurt;v=10;p=0.7} @PlayersNearOrigin{r=20}
+  - effect:particlering{particle=reddust;color=#8B008B;radius=5;points=24;amount=5;speed=0.05;hS=0.3;vS=0.1} @origin
+  - effect:particlering{particle=smoke;radius=5;points=24;amount=5;speed=0.05;hS=0.7;vS=0.1} @origin
+  - damage{amount=220} @PlayersNearOrigin{r=5}
+  - potion{type=BLINDNESS;duration=160;level=4} @PlayersNearOrigin{r=4}

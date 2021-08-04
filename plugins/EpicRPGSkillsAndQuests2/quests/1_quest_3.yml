@@ -1,0 +1,41 @@
+id: "1_quest_3"                                
+name: "&3Oblezony oboz"                          
+zleceniodawca: "&8&lRangar"                       
+lore:                                               
+  - "&aZ rozmow z moimi towarzyszami latwo jest wywnioskowac,"
+  - "&aze ten oboz jest wlasciwie oblezony."
+  - "&aDlatego wlasnie zaczniesz od tego;"
+  - "&amusisz oczyscic okolice tego osrodka obrony."
+prize:                                    
+  - "xp: 720"
+require:                                            
+  - "level: 5"
+  - "quest: 1_quest_2"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "1_quest_3_1_1"
+        type: "zabij"
+        targetName: "&cRabus"
+        message: "Zabij 15 Rabusiow: %stan%"
+        ilosc: 15
+      2:
+        id: "1_quest_3_1_2"
+        type: "zabij"
+        targetName: "&cKieszonkowiec"
+        message: "Zabij 8 Kieszonkowcow: %stan%"
+        ilosc: 8
+      3:
+        id: "1_quest_3_1_3"
+        type: "zabij"
+        targetName: "&2Dziki wilk"
+        message: "Zabij 10 wilkow: %stan%"
+        ilosc: 10
+      4:
+        id: "1_quest_3_1_4"
+        type: "zabij"
+        targetName: "&aGoblin"
+        message: "Zabij 12 goblinow: %stan%"
+        ilosc: 12

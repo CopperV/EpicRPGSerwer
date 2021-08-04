@@ -1,0 +1,157 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+Krol_TulaczySpawn:
+  Skills:
+  - message{m="<mob.name><&co> &3Wasz atak na Dwor skonczy sie porazka!"} @PlayersInRadius{r=20}
+  - threat{amount=100000} @NearestPlayer
+Krol_TulaczySkill_1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=140} @self
+  - message{m="<mob.name><&co> &3Zawsze trafiam do celu!"} @PlayersInRadius{r=40}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bKrol Tulaczy przygotowuje Wielostrzal Pustki!";d=100} @PIR{r=40}
+  - summon{mob=Krol_Tulaczy_Arrow_Target;amount=10;radius=12;yr=5;os=true} @self
+  - stun{d=80} @self
+  - delay 80
+  - jump{velocity=1} @self
+  - delay 10
+  - setgravity{g=false} @self
+  - stun{d=10} @self
+  - delay 10
+  - setgravity{g=true} @self
+  - projectile{bulletType=ARROW;oT=Krol_TulaczySkill_1-Tick;onHit=Krol_TulaczySkill_1-Hit;v=10;hp=false;hnp=true;sB=false;i=1;hR=1;vR=1;mr=40} @MIR{r=20;t=Krol_Tulaczy_Arrow_Target}
+
+Krol_TulaczySkill_1-Tick:
+  Skills:
+  - sound{s=entity.endermen.teleport;v=5;p=1.75} @origin
+  - effect:particles{particle=reddust;color=#8B008B;amount=3;speed=0.05;hS=0.1;vS=0.1} @origin
+  - effect:particles{particle=smoke;amount=3;speed=0.05;hS=0.1;vS=0.1} @origin
+
+Krol_TulaczySkill_1-Hit:
+  Skills:
+  - sound{s=entity.generic.explode;v=3;p=1.4} @origin
+  - effect:particles{particle=reddust;color=#8B008B;amount=25;speed=0.15;hS=1.5;vS=1.5} @origin
+  - effect:particles{particle=smoke;amount=25;speed=0.15;hS=1.5;vS=1.5} @origin
+  - damage{amount=350} @PlayersNearOrigin{r=3}
+  - potion{type=BLINDNESS;duration=100;level=4} @PlayersNearOrigin{r=3}
+  - remove @MobsNearOrigin{r=2;t=Krol_Tulaczy_Arrow_Target;limit=1;sort=NEAREST}
+
+Krol_Tulaczy_Arrow_Target_Spawn:
+  Skills:
+  - delay 10
+  - stun{d=190} @self
+  - delay 200
+  - remove @self
+
+Krol_Tulaczy_Arrow_Target_Particle:
+  Skills:
+  - effect:particlering{particle=smoke;vd=20;radius=3;points=24;amount=2;y=0.1;hs=0.1;s=0.05} @self
+  - effect:particlering{particle=witchMagic;vd=20;radius=1;points=4;amount=2;y=0.1;hs=0.1;s=0.05} @self
+  - effect:particlering{particle=witchMagic;vd=20;radius=2;points=8;amount=2;y=0.1;hs=0.1;s=0.05} @self
+
+
+Krol_TulaczySkill_2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=140} @self
+  - message{m="<mob.name><&co> &3Wasz swiat bedzie wkrotce nasz!"} @PlayersInRadius{r=30}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bKrol Tulaczy przygotowuje Wielostrzal Chaosu!";d=100} @PIR{r=30}
+  - stun{d=100} @self
+  - delay 100
+  - projectile{bulletType=ARROW;oT=Krol_TulaczySkill_2-Tick;onHit=Krol_TulaczySkill_2-Hit;onEnd=Krol_TulaczySkill_2-End;v=7;hp=true;i=1;hR=1;vR=1;mr=40} @PIR{r=20}
+
+Krol_TulaczySkill_2-Tick:
+  Skills:
+  - sound{s=entity.endermen.teleport;v=5;p=1.75} @origin
+  - effect:particles{particle=reddust;color=#8B008B;amount=3;speed=0.05;hS=0.1;vS=0.1} @origin
+  - effect:particles{particle=smoke;amount=3;speed=0.05;hS=0.1;vS=0.1} @origin
+
+Krol_TulaczySkill_2-Hit:
+  Skills:
+  - sound{s=entity.generic.explode;v=3;p=1.4} @origin
+  - effect:particles{particle=reddust;color=#8B008B;amount=10;speed=0.1;hS=0.5;vS=0.5} @origin
+  - effect:particles{particle=smoke;amount=10;speed=0.1;hS=0.5;vS=0.5} @origin
+  - damage{amount=230;pk=true;element=VOID}
+  - potion{type=BLINDNESS;duration=200;level=5}
+  - potion{type=CONFUSION;duration=200;level=5}
+  - potion{type=HUNGER;duration=200;level=5}
+  - potion{type=POISON;duration=200;level=5}
+  - potion{type=SLOW;duration=200;level=5}
+  - potion{type=WEAKNESS;duration=200;level=5}
+  - potion{type=WITHER;duration=200;level=5}
+  - summon{mob=Krol_Tulaczy_Arrow_Check;amount=1;radius=0}
+
+Krol_TulaczySkill_2-End:
+  Conditions:
+  - mobsInRadius{types=Krol_Tulaczy_Arrow_Check;amount=1to100;radius=1} false
+  Skills:
+  - totem{ch=0;oT=Krol_Tulaczy-TotemTick;oE=Krol_Tulaczy-TotemEnd;hR=1;vR=1;md=100;yo=0} @origin
+
+Krol_Tulaczy-TotemTick:
+  Skills:
+  - sound{s=entity.endermen.teleport;v=5;p=1.75} @origin
+  - effect:particles{particle=reddust;color=#8B008B;amount=4;speed=0.1;hS=0.5;vS=0.5} @origin
+  - effect:particles{particle=smoke;amount=4;speed=0.1;hS=0.5;vS=0.5} @origin
+
+Krol_Tulaczy-TotemEnd:
+  Skills:
+  - sound{s=item.totem.use;v=3;p=0.8} @origin
+  - effect:particles{particle=reddust;color=#8B008B;amount=25;speed=0.15;hS=1.5;vS=1.5} @origin
+  - effect:particles{particle=smoke;amount=25;speed=0.15;hS=1.5;vS=1.5} @origin
+  - summon{mob=Dwor_Mob_5;amount=1;radius=1;os=true} @origin
+
+Krol_Tulaczy_Arrow_Check_Spawn:
+  Skill:
+  - delay 10
+  - stun{d=110} @self
+  - delay 120
+  - remove @self
+
+Dwor_Mob_5_Spawn:
+  Conditions:
+  - mobsInRadius{types=Krol_Tulaczy_Arrow_Check;amount=1to100;radius=1.5} true
+  Skills:
+  - remove @MIR{r=1;t=Krol_Tulaczy_Arrow_Check;limit=1;sort=NEAREST}
+  - remove @self
+
+Krol_TulaczySkill_3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=150} @self
+  - message{m="<mob.name><&co> &3Nigdy nie pudluje!"} @PlayersInRadius{r=30}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bKrol Tulaczy przygotowuje Strzale Naprowadzajaca!";d=100} @PIR{r=30}
+  - stun{d=100} @self
+  - delay 100
+  - missile{bulletType=ARROW;ot=Krol_TulaczySkill_3_Tick;oH=Krol_TulaczySkill_3_Hit;v=8;i=1;hR=1;vR=1;in=6;md=200;mr=200;sB=false;fo=true} @NearestPlayer{r=30}
+
+Krol_TulaczySkill_3_Tick:
+  Skills:
+  - sound{s=entity.endermen.teleport;v=5;p=1.75} @origin
+  - effect:particles{particle=reddust;color=#8B008B;amount=3;speed=0.05;hS=0.1;vS=0.1} @origin
+  - effect:particles{particle=smoke;amount=3;speed=0.05;hS=0.1;vS=0.1} @origin
+
+Krol_TulaczySkill_3_Hit:
+  Skills:
+  - summon{mob=Krol_Tulaczy_Arrow_Hit;amount=1;radius=0}
+  - effect:particles{particle=reddust;color=#8B008B;amount=25;speed=0.15;hS=1.5;vS=1.5} @origin
+  - effect:particles{particle=smoke;amount=25;speed=0.15;hS=1.5;vS=1.5} @origin
+  - effect:sound{s=entity.generic.explode;v=3;p=1.4} @origin
+  - effect:particles{particle=reddust;color=#8B008B;amount=3;speed=0.05;hS=0.5;vS=0.5;y=1;repeat=12;repeatInterval=5}
+  - effect:particles{particle=smoke;amount=3;speed=0.05;hS=0.5;vS=0.5;y=1;repeat=12;repeatInterval=5}
+  - delay 60
+  - sudoskill{s=Krol_TulaczySkill_3_Missile;cat=true}
+
+Krol_TulaczySkill_3_Missile:
+  Skills:
+  - missile{bulletType=ARROW;ot=Krol_TulaczySkill_3_Tick;oH=Krol_TulaczySkill_3_Hit;v=8;i=1;hR=1;vR=1;in=6;md=200;mr=200;sB=false;fo=false} @PIR{r=10}
+
+Krol_Tulaczy_Arrow_Hit_Spawn:
+  Skills:
+  - delay 1
+  - damage{a=200;pk=true} @NearestPlayer
+  - delay 1
+  - remove @self

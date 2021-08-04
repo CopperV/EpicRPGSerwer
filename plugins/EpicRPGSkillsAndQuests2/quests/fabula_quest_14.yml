@@ -1,0 +1,27 @@
+id: "fabula_quest_14"
+name: "&2Zaginieni poslowie"                          
+zleceniodawca: "&a&lJasuo"
+lore:
+  - "&aGeddon wyslal do kopalni wielu poslow,"
+  - "&alecz zaden nie wrocil..."
+  - "&aTeraz wiemy, co sie z nimi stalo..."
+  - "&aZostali zarazeni, ich umysly upadly."
+  - "&aWiekszosc z nich zamienila sie juz w klikaczy."
+  - "&aZapewne pamietasz, ze kolejnym stadium sa purchlaki."
+  - "&aRaczej nie chcemy, aby sie w nich przemienili."
+  - "&aTrzeba ich zabic - latwiej pokonac klikacza niz purchlaka."
+prize:                                    
+  - "xp: 11000"
+require:                                            
+  - "quest: fabula_quest_9"
+  - "level: 31"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "fabula_quest_14_1_1"
+        type: "zabij"
+        targetName: "&c&lKlikacz"
+        message: "Zabij 30 klikaczy: %stan%"
+        ilosc: 30

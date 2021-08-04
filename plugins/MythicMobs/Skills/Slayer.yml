@@ -1,0 +1,56 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+
+
+MeteorShield:
+  Skills:
+  - orbital{onTick=MeteorShield-Tick;onHit=MeteorShield-Hit;points=20;interval=1;duration=1000;charges=1;r=2;hr=2;rx=45;ry=45;oy=1}
+  - orbital{onTick=MeteorShield-Tick;onHit=MeteorShield-Hit;points=20;interval=1;duration=1000;charges=1;r=4;hr=4;rx=-45;ry=45;oy=1}
+  - delay 1200
+  - skill{s=MeteorShield} @self
+MeteorShield-Tick:
+  Skills:
+  - effect:particles{p=flame;amount=20;speed=0.02;hS=0.2;vS=0.2} @origin
+MeteorShield-Hit:
+  Skills:
+  - projectile{type=meteor;onTick=MeteorCast-Tick;onEnd=MeteorCast-End;v=40;i=1;hR=3;vR=1;syo=40;tyo=40;g=0.2;mr=50}
+
+
+MeteorCast-Tick:
+  Skills:
+  - sound{s=entity.generic.explode} @origin
+  - effect:particles{particle=reddust;amount=10} @origin
+  - effect:particlesphere{particle=largeexplode;amount=10;radius=1} @origin
+MeteorCast-End:
+  Skills:
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=0;points=4;amount=1} @origin
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=1;points=6;amount=1} @origin
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=2;points=8;amount=1} @origin
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=3;points=12;amount=1} @origin
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=4;points=16;amount=1} @origin
+  - delay 2
+  - sound{s=entity.generic.explode;v=10} @PIR{r=20}
+  - effect:particlering{particle=largeexplode;radius=5;points=20;amount=1} @origin
+  - damage{amount=105} @PlayersNearOrigin{r=5}
+  - ignite{ticks=400} @PlayersNearOrigin{r=5}
+  - throw{velocity=10;velocityY=3} @PlayersNearOrigin{r=5}
+
+WarlordAttack:
+  Skills:
+  - CancelEvent
+  - damage{a=85} @trigger
+
+SlayerAttack:
+  Skills:
+  - CancelEvent
+  - damage{a=95} @trigger

@@ -1,0 +1,17 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&cOrik"
+  - "&7[&r&oSTRZELEC&7]"
+skinid: 309426309
+location:
+  world: "F_RPG"
+  x: -27.5
+  y: 43.0625
+  z: 81.5
+  yaw: -99
+  pitch: 3
+lookat: true
+commands:
+  - "cc open orik %player%"

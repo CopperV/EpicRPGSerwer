@@ -1,0 +1,42 @@
+id: worldquest_1
+name: '&c&l&oZaplecze Geddona'
+zleceniodawca: '&c&lAlexstrasza'
+lore:
+- '&aJak dobrze widzieliscie,'
+- '&aArchos stworzyl swoja mala armie'
+- '&awlasciwie pod naszymi stopami.'
+- '&aMimo iz zostal obalony, to niebezpieczenstwo'
+- '&aze strony jego slug nadal pozostaje.'
+- '&aMusicie ta armie wyeliminowac,'
+- '&azanim zacznie sprawiac jakiekolwiek problemy!'
+prize:
+- 'bc: &7[&b&lEpicRPG&7] &aUkonczony zostal WorldQuest &c&l&oZaplecze Geddona&a. &6&lGRATULACJE
+  :)'
+require:
+- 'quest: fabula_quest_26'
+- 'level: 50'
+completed: true
+stopnie:
+  '1':
+    talking: true
+    message: '&c&lAlexstrasza&7: &aDoskonala robota. Niebezpieczenstwo powstrzymane.
+      Mozecie odejsc... Czekaj... Co to bylo?'
+    targets:
+      '1':
+        id: worldquest_1_1_1
+        type: zabij
+        targetName: '&4&lKolos Geddona'
+        message: 'Pokonaj 650 Kolosow Geddona: %stan%'
+        ilosc: 650
+      '2':
+        id: worldquest_1_1_2
+        type: zabij
+        targetName: '&c&lZniewolony Wojownik'
+        message: 'Pokonaj 1 350 Zniewolonych Wojownikow z podziemii: %stan%'
+        ilosc: 1350
+      '3':
+        id: worldquest_1_1_3
+        type: zabij
+        targetName: '&c&oZniewolony Mag'
+        message: 'Pokonaj 1 000 Zniewolonych Magow z podziemii: %stan%'
+        ilosc: 1000

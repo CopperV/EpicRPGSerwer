@@ -1,0 +1,25 @@
+id: "fabula_quest_13"
+name: "&8&lPiracki statek"                          
+zleceniodawca: "&e&lNers"
+lore:
+  - "&aJak juz pewnie zdazyles zauwazyc, w porcie"
+  - "&azacumowany jest piracki statek."
+  - "&aZnajduje sie tam kapitan tych psich synow."
+  - "&aDorwij go, poki jeszcze nie uciekl."
+  - "&aZaczyna chyba podejrzewac, ze robi sie goraco."
+prize:                                    
+  - "xp: 16000"
+  - "money: 500"
+require:                                            
+  - "quest: fabula_quest_12"
+  - "level: 32"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "fabula_quest_13_1_1"
+        type: "zabij"
+        targetName: "&6&lBarbossa - BOSS"
+        message: "Pokonaj Kapitana Barbosse: %stan%"
+        ilosc: 1

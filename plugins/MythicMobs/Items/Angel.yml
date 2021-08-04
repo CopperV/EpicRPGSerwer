@@ -1,0 +1,1204 @@
+Helm_Upadlego_Zr:
+  Id: 302
+  Display: '&c&oHelm spaczenia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &733'
+  - '&4- &8Sila: &7+1'
+  - '&4- &8Zrecznosc: &7+8'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Inteligencja: &7+3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c209'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: 0.09
+      Health: 9
+      KnockbackResistance: 0.02
+Helm_Upadlego_Wytrz:
+  Id: 302
+  Display: '&c&oHelm spaczenia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &750'
+  - '&4- &8Zrecznosc: &7+4'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Wytrzymalosc: &7+5'
+  - '&4- &8Mana: &7+5'
+  - '&4- &8Inteligencja: &7+5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c220'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: 0.01
+      Health: 14
+      KnockbackResistance: 0.05
+Zbroja_Upadlego_Str:
+  Id: 303
+  Display: '&4Zbroja spaczenia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &749'
+  - '&4- &8Sila: &7+13'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Inteligencja: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c226'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      MovementSpeed: -0.01
+      Health: 16
+      KnockbackResistance: 0.09
+Zbroja_Upadlego_Zr:
+  Id: 303
+  Display: '&4Zbroja spaczenia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &742'
+  - '&4- &8Zrecznosc: &7+9'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Zdolnosci mysliwskie: &7-4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c221'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      MovementSpeed: 0.05
+      Health: 13
+      KnockbackResistance: 0.01
+Zbroja_Upadlego_Zd:
+  Id: 303
+  Display: '&4Zbroja spaczenia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &744'
+  - '&4- &8Sila: &7+1'
+  - '&4- &8Zrecznosc: &7+2'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Zdolnosci mysliwskie: &7+7'
+  - '&4- &8Wytrzymalosc: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c223'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      MovementSpeed: 0.03
+      Health: 14
+Zbroja_Upadlego_Wytrz:
+  Id: 303
+  Display: '&4Zbroja spaczenia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &765'
+  - '&4- &8Zrecznosc: &7+2'
+  - '&4- &8Wytrzymalosc: &7+6'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Sila: &7-4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c237'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      MovementSpeed: -0.05
+      Health: 20
+      KnockbackResistance: 0.1
+Kolczuga_Upadlego_Str:
+  Id: 304
+  Display: '&c&lKolczuga spaczenia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &742'
+  - '&4- &8Sila: &7+6'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Wytrzymalosc: &7+3'
+  - '&4- &8Mana: &7-5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c218'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      MovementSpeed: -0.03
+      Health: 13
+      KnockbackResistance: 0.05
+Kolczuga_Upadlego_Wytrz:
+  Id: 304
+  Display: '&c&lKolczuga spaczenia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &757'
+  - '&4- &8Walka: &7+7'
+  - '&4- &8Wytrzymalosc: &7+9'
+  - '&4- &8Zdolnosci mysliwskie: &7-3'
+  - '&4- &8Zrecznosc: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c229'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      MovementSpeed: -0.04
+      Health: 14
+      KnockbackResistance: 0.07
+Kolczuga_Upadlego_Zd:
+  Id: 304
+  Display: '&c&lKolczuga spaczenia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &738'
+  - '&4- &8Zdolnosci mysliwskie: &7+10'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Zrecznosc: &7-2'
+  - '&4- &8Inteligencja: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c215'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      MovementSpeed: 0.03
+      Health: 10
+      KnockbackResistance: 0.01
+Buty_Upadlego_Zr:
+  Id: 305
+  Display: '&cButy spaczenia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &726'
+  - '&4- &8Sila: &7+1'
+  - '&4- &8Zrecznosc: &7+8'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Zdolnosci mysliwskie: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c205'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 5
+      MovementSpeed: 0.08
+      KnockbackResistance: 0.01
+Buty_Upadlego_Zd:
+  Id: 305
+  Display: '&cButy spaczenia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &729'
+  - '&4- &8Zrecznosc: &7+1'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Zdolnosci mysliwskie: &7+6'
+  - '&4- &8Wytrzymalosc: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c209'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 3
+      MovementSpeed: 0.06
+Buty_Upadlego_Wytrz:
+  Id: 305
+  Display: '&cButy spaczenia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &740'
+  - '&4- &8Zrecznosc: &7+4'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Wytrzymalosc: &7+5'
+  - '&4- &8Sila: &7-1'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c216'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 12
+      MovementSpeed: 0.01
+      KnockbackResistance: 0.01
+Ostrze_Upadlego_Zr:
+  Id: 293
+  Display: '&4&oOstrze spaczenia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &768'
+  - '&4- &8Zrecznosc: &7+8'
+  - '&4- &8Walka: &7+11'
+  - '&4- &8Inteligencja: &7-4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c218'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: -10
+    offhand:
+      Health: -20
+Ostrze_Upadlego_Str:
+  Id: 293
+  Display: '&4&oOstrze spaczenia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &772'
+  - '&4- &8Sila: &7+11'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Zdolnosci mysliwskie: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c226'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: -13
+    offhand:
+      Health: -17
+Przerdzewiala_Zbroja_Str:
+  Id: 307
+  Display: '&7Przerdzewiala zbroja'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &755'
+  - '&4- &8Sila: &7+15'
+  - '&4- &8Wytrzymalosc: &7+5'
+  - '&4- &8Zrecznosc: &7-6'
+  - '&4- &8Zdolnosci mysliwskie: &7-6'
+  - '&4- &8Walka: &7-6'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c228'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 20
+      MovementSpeed: -0.07
+      KnockbackResistance: 0.1
+Przerdzewiala_Zbroja_Wytrz:
+  Id: 307
+  Display: '&7Przerdzewiala zbroja'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &770'
+  - '&4- &8Wytrzymalosc: &7+10'
+  - '&4- &8Mana: &7+10'
+  - '&4- &8Inteligencja: &7+5'
+  - '&4- &8Zrecznosc: &7-5'
+  - '&4- &8Zdolnosci mysliwskie: &7-5'
+  - '&4- &8Sila: &7-5'
+  - '&4- &8Walka: &7-5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c231'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 24
+      MovementSpeed: -0.1
+      KnockbackResistance: 0.15
+Luk_Upadlego_Zd:
+  Id: 261
+  Display: '&c&oLuk spaczenia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &776'
+  - '&4- &8Zrecznosc: &7+3'
+  - '&4- &8Zdolnosci mysliwskie: &7+7'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Inteligencja: &7-6'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c212'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.06
+Przeklete_Anielskie_Ostrze_Str:
+  Id: 279
+  Display: '&4Spaczone ostrze kyriana'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &780'
+  - '&4- &8Sila: &7+9'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Wytrzymalosc: &7-4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c232'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: -8
+      MovementSpeed: 0.02
+      KnockbackResistance: 0.02
+    offhand:
+      Health: -10
+Przeklete_Anielskie_Ostrze_Zr:
+  Id: 279
+  Display: '&4Spaczone ostrze kyriana'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &775'
+  - '&4- &8Zrecznosc: &7+4'
+  - '&4- &8Walka: &7+15'
+  - '&4- &8Sila: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c227'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: -10
+      MovementSpeed: 0.07
+      KnockbackResistance: 0.01
+    offhand:
+      MovementSpeed: -0.1
+Przeklete_Anielskie_Ostrze_Mana:
+  Id: 279
+  Display: '&4Spaczone ostrze kyriana'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &740'
+  - '&4- &8Walka: &7+7'
+  - '&4- &8Mana: &7+10'
+  - '&4- &8Inteligencja: &7-3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c450'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: -13
+      MovementSpeed: 0.05
+      KnockbackResistance: 0.01
+    offhand:
+      Health: -7
+      MovementSpeed: -0.05
+Przekleta_Szata_Int:
+  Id: 311
+  Display: '&1Spaczona szata'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &742'
+  - '&4- &8Inteligencja: &7+20'
+  - '&4- &8Wytrzymalosc: &7+10'
+  - '&4- &8Mana: &7-10'
+  - '&4- &8Walka: &7-4'
+  - '&4- &8Zrecznosc: &7-4'
+  - '&4- &8Sila: &7-4'
+  - '&4- &8Zdolnosci mysliwskie: &7-4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c228'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 17
+      MovementSpeed: 0.02
+      KnockbackResistance: 0.01
+Przekleta_Szata_Mana:
+  Id: 311
+  Display: '&1Spaczona szata'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &740'
+  - '&4- &8Mana: &7+40'
+  - '&4- &8Wytrzymalosc: &7+10'
+  - '&4- &8Inteligencja: &7-10'
+  - '&4- &8Walka: &7-4'
+  - '&4- &8Zrecznosc: &7-4'
+  - '&4- &8Sila: &7-4'
+  - '&4- &8Zdolnosci mysliwskie: &7-4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c455'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 17
+      MovementSpeed: 0.02
+      KnockbackResistance: 0.01
+Anielskie_Ostrze_Str:
+  Id: 293
+  Display: '&bOstrze kyriana'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &789'
+  - '&4- &8Sila: &7+10'
+  - '&4- &8Walka: &7+7'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c240'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.02
+      KnockbackResistance: 0.02
+Anielskie_Ostrze_Zr:
+  Id: 293
+  Display: '&bOstrze kyriana'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &781'
+  - '&4- &8Zrecznosc: &7+6'
+  - '&4- &8Walka: &7+18'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c236'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.07
+      KnockbackResistance: 0.01
+Anielskie_Ostrze_Mana:
+  Id: 293
+  Display: '&bOstrze kyriana'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &743'
+  - '&4- &8Mana: &7+15'
+  - '&4- &8Inteligencja: &7+3'
+  - '&4- &8Walka: &7+9'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c476'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.03
+      KnockbackResistance: 0.01
+Anielskie_Plotno_Zr:
+  Id: 307
+  Display: '&1Kyrianskie plotno'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &750'
+  - '&4- &8Zrecznosc: &7+7'
+  - '&4- &8Walka: &7+11'
+  - '&4- &8Mana: &7+10'
+  - '&4- &8Inteligencja: &7+3'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c234'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 17
+      MovementSpeed: 0.09
+      KnockbackResistance: 0.02
+Anielskie_Plotno_Zd:
+  Id: 307
+  Display: '&1Kyrianskie plotno'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &753'
+  - '&4- &8Zdolnosci mysliwskie: &7+11'
+  - '&4- &8Wytrzymalosc: &7+4'
+  - '&4- &8Mana: &7+15'
+  - '&4- &8Inteligencja: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c235'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 15
+      MovementSpeed: 0.07
+Anielskie_Plotno_Wytrz:
+  Id: 307
+  Display: '&1Kyrianskie plotno'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &773'
+  - '&4- &8Wytrzymalosc: &7+13'
+  - '&4- &8Mana: &7+15'
+  - '&4- &8Inteligencja: &7+7'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c242'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 26
+      MovementSpeed: -0.05
+      KnockbackResistance: 0.15
+Kusza_Upadlego_Str:
+  Id: 261
+  Display: '&0Spaczona kusza'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &765'
+  - '&4- &8Sila: &7+4'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Zdolnosci mysliwskie: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c231'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.02
+      KnockbackResistance: 0.03
+      Health: -5
+    offhand:
+      Health: -100
+Anielska_Szata_Int:
+  Id: 311
+  Display: '&bSzata kyriana'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &747'
+  - '&4- &8Inteligencja: &7+23'
+  - '&4- &8Mana: &7+15'
+  - '&4- &8Wytrzymalosc: &7+5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c239'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 20
+      MovementSpeed: 0.04
+      KnockbackResistance: 0.02
+Anielska_Szata_Mana:
+  Id: 311
+  Display: '&bSzata kyriana'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &744'
+  - '&4- &8Inteligencja: &7+8'
+  - '&4- &8Mana: &7+55'
+  - '&4- &8Wytrzymalosc: &7+5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c475'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 20
+      MovementSpeed: 0.04
+      KnockbackResistance: 0.02
+Anielska_Szata_Zr:
+  Id: 311
+  Display: '&bSzata kyriana'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &755'
+  - '&4- &8Inteligencja: &7+5'
+  - '&4- &8Mana: &7+10'
+  - '&4- &8Wytrzymalosc: &7+5'
+  - '&4- &8Walka: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c241'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 14
+      MovementSpeed: 0.09
+Topor_Upadlego_Str:
+  Id: 279
+  Display: '&0Topor spaczenia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &796'
+  - '&4- &8Sila: &7+13'
+  - '&4- &8Walka: &7+8'
+  - '&4- &8Inteligencja: &7-3'
+  - '&4- &8Mana: &7-15'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c235'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: -20
+      MovementSpeed: -0.05
+      KnockbackResistance: 0.7
+Niebianski_Luk_Int:
+  Id: 261
+  Display: '&1Luk kyriana'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &755'
+  - '&4- &8Zdolnosci mysliwskie: &7+5'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Inteligencja: &7+5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c201'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.04
+    offhand:
+      MovementSpeed: 0.04
+Niebianski_Luk_Zd:
+  Id: 261
+  Display: '&1Luk kyriana'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &788'
+  - '&4- &8Zdolnosci mysliwskie: &7+10'
+  - '&4- &8Walka: &7+7'
+  - '&4- &8Zrecznosc: &7+5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c240'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.07
+Niebianska_Szata_Int:
+  Id: 311
+  Display: '&1Szata Archonta'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &755'
+  - '&4- &8Inteligencja: &7+29'
+  - '&4- &8Mana: &7+20'
+  - '&4- &8Sila: &7+5'
+  - '&4- &8Zrecznosc: &7+5'
+  - '&4- &8Walka: &7+5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c248'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 25
+      MovementSpeed: 0.04
+      KnockbackResistance: 0.05
+Niebianska_Szata_Mana:
+  Id: 311
+  Display: '&1Szata Archonta'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &750'
+  - '&4- &8Inteligencja: &7+10'
+  - '&4- &8Mana: &7+70'
+  - '&4- &8Sila: &7+5'
+  - '&4- &8Zrecznosc: &7+5'
+  - '&4- &8Walka: &7+5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c493'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 25
+      MovementSpeed: 0.04
+      KnockbackResistance: 0.05
+Niebianskie_Ostrze_Zr:
+  Id: 279
+  Display: '&1Ostrze Archonta'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &793'
+  - '&4- &8Zrecznosc: &7+11'
+  - '&4- &8Inteligencja: &7+3'
+  - '&4- &8Zdolnosci mysliwskie: &7+6'
+  - '&4- &8Walka: &7+20'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c242'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.01
+      KnockbackResistance: 0.06
+Niebianskie_Ostrze_Str:
+  Id: 279
+  Display: '&1Ostrze Archonta'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7103'
+  - '&4- &8Sila: &7+15'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Inteligencja: &7+5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c249'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.05
+      KnockbackResistance: 0.06
+Niebianskie_Ostrze_Mana:
+  Id: 279
+  Display: '&1Ostrze Archonta'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &760'
+  - '&4- &8Mana: &7+25'
+  - '&4- &8Inteligencja: &7+7'
+  - '&4- &8Walka: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c491'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.03
+      KnockbackResistance: 0.03
+    offhand:
+      MovementSpeed: -0.03
+Niebianskie_Ostrze_Int:
+  Id: 279
+  Display: '&1Ostrze Archonta'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &762'
+  - '&4- &8Inteligencja: &7+15'
+  - '&4- &8Mana: &7+15'
+  - '&4- &8Sila: &7+5'
+  - '&4- &8Walka: &7+12'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c246'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.03
+      KnockbackResistance: 0.03
+    offhand:
+      MovementSpeed: -0.03 
+Niebianska_Kusza_Str:
+  Id: 261
+  Display: '&1Kusza Archonta'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &775'
+  - '&4- &8Sila: &7+15'
+  - '&4- &8Walka: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c239'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.01
+      KnockbackResistance: 0.01
+Niebianska_Kusza_Int:
+  Id: 261
+  Display: '&1Kusza Archonta'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &745'
+  - '&4- &8Zdolnosci mysliwskie: &7+2'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Walka: &7+7'
+  - '&4- &8Inteligencja: &7+8'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c222'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.04
+    offhand:
+      MovementSpeed: 0.02
+Niebianska_Kusza_Mana:
+  Id: 261
+  Display: '&1Kusza Archonta'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &741'
+  - '&4- &8Mana: &7+10'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Inteligencja: &7+5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c441'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.04
+    offhand:
+      MovementSpeed: 0.02
+Smocza_Zguba_Str:
+  Id: 276
+  Display: '&4&lSmocza Zguba'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7255'
+  - '&4- &8Sila: &7+50'
+  - '&4- &8Walka: &7+50'
+  - '&4- &8Inteligencja: &7+30'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c225'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.15
+      KnockbackResistance: 0.15
+    offhand:
+      MovementSpeed: 0.15
+      KnockbackResistance: 0.15
+Smoczy_Luk_Zd:
+  Id: 261
+  Display: '&4&lSmoczy Luk'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7230'
+  - '&4- &8Zrecznosc: &7+20'
+  - '&4- &8Zdolnosci mysliwskie: &7+50'
+  - '&4- &8Walka: &7+40'
+  - '&4- &8Inteligencja: &7+25'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c230'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.3
+    offhand:
+      MovementSpeed: 0.2
+Smoczy_Ziew_Int:
+  Id: 369
+  Display: '&4&lSmoczy Ziew'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7180'
+  - '&4- &8Inteligencja: &7+50'
+  - '&4- &8Walka: &7+30'
+  - '&4- &8Mana: &7+30'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c205'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.25
+      KnockbackResistance: 0.1
+Upadla_Dusza:
+  Id: 370
+  Display: '&cSpaczona dusza'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Czastka_Upadlego:
+  Id: 397
+  Display: '&4&lCzastka spaczenia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Anielski_Pergamin:
+  Id: 339
+  Display: '&bKyrianski pergamin'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Szczatki:
+  Id: 367
+  Display: '&2&oSzczatki'
+  Lore:
+  - ''
+  - '&c&oPrzedmiot questowy'
+NefarianPaper:
+  Id: 339
+  Display: '&r&oZwoj teleportacji - sanktuarium'
+  Lore:
+  - ''
+  - '&aZwoj teleportacji do prywatnego sanktuarium'
+  - '&aLorda Victora Nefariusa'
+  - ''
+  - '&aJest to 2-etapowy EpicBoss'
+  - ''
+  - '&eVictor Nefarius to ludzka postac smoka'
+  - '&ez plugawego szczepu Nelthariona'
+  - '&eStanowia ogromne zagrozenie dla swiata ludzi'
+  - '&ei zwierzat'

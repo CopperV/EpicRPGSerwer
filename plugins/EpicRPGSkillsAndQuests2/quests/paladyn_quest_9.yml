@@ -1,0 +1,77 @@
+id: "paladyn_quest_9"
+name: "&7&lElitarny rynsztunek"
+zleceniodawca: "&4Reg"
+lore:
+  - "&aElitarny rynsztunek orkow znacznie rozni sie"
+  - "&aod tradycyjnego orkowego."
+  - "&aJest znacznie staranniej wykonany i wzbogacony"
+  - "&amagiczna ruda."
+  - "&aMimo iz my nie jestesmy w stanie skutecznie"
+  - "&awykorzystac orkowego arsenalu,"
+  - "&ato jednak mozna go przetopic i wykorzystac"
+  - "&ado innych celow."
+prize:
+  - "xp: 24000"
+  - "money: 1200"
+require:
+  - "level: 37"
+  - "klasa: &cWojownik"
+  - "quest: paladyn_quest_8"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "paladyn_quest_9_1_1"
+        type: "przynies"
+        targetName: "&4Orkowy miecz wojenny"
+        message: "Przynies 2 orkowe miecze wojennych: %stan%"
+        ilosc: 2
+      2:
+        id: "paladyn_quest_9_1_2"
+        type: "przynies"
+        targetName: "&4Drag Nimrod"
+        message: "Przynies 3 kusze Drag Nimrod: %stan%"
+        ilosc: 3
+      3:
+        id: "paladyn_quest_9_1_3"
+        type: "przynies"
+        targetName: "&cOrkowa zbroja"
+        message: "Przynies 2 orkowe zbroje: %stan%"
+        ilosc: 2
+      4:
+        id: "paladyn_quest_9_1_4"
+        type: "przynies"
+        targetName: "&cOrkowy helm"
+        message: "Przynies 3 orkowe helmy: %stan%"
+        ilosc: 3
+      5:
+        id: "paladyn_quest_9_1_5"
+        type: "przynies"
+        targetName: "&c&lOrkowy pancerz"
+        message: "Przynies 1 orkowy pancerze: %stan%"
+        ilosc: 1
+      6:
+        id: "paladyn_quest_9_1_6"
+        type: "przynies"
+        targetName: "&4Pancerz elitarnego wojownika"
+        message: "Przynies 2 pancerze elitarnych wojownikow: %stan%"
+        ilosc: 2
+      7:
+        id: "paladyn_quest_9_1_7"
+        type: "przynies"
+        targetName: "&cButy wojenne"
+        message: "Przynies 3 pary butow wojennych: %stan%"
+        ilosc: 3
+      8:
+        id: "paladyn_quest_9_1_8"
+        type: "przynies"
+        targetName: "&4&lUzbrojenie elitarnego orka"
+        message: "Przynies 1 uzbrojenie elitarnego orka: %stan%"
+        ilosc: 1
+      9:
+        id: "paladyn_quest_9_1_9"
+        type: "przynies"
+        targetName: "&4Orkowy pancerz wojenny"
+        message: "Przynies 1 orkowy pancerz wojenny: %stan%"
+        ilosc: 1
