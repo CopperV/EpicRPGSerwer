@@ -1,0 +1,88 @@
+LGoblin_1_Armor:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Prymitywny_Helm_Str 1 0.13
+  - Prymitywny_Helm_Wytrz 1 0.13
+  - Prymitywny_Helm_Zd 1 0.13
+LGoblin_1_Weapon_1:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Ciezka_Laga_Str 1 0.08
+  - Laga_Zr 1 0.13
+  - Laga_Str 1 0.13
+  - Laga_Wytrz 1 0.13
+Goblin_2_Armor:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Zbroja_Goblina_Zr 1 0.1
+  - Zbroja_Goblina_Wytrz 1 0.1
+  - Zbroja_Goblina_Zd 1 0.1
+  - Prymitywny_Helm_Str 1 0.15
+  - Prymitywny_Helm_Wytrz 1 0.15
+  - Prymitywny_Helm_Zd 1 0.15
+Goblin_2_Weapon_1:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Kusza_Goblina_Str 1 0.08
+  - Goblini_Luk_Zr 1 0.15
+  - Goblini_Luk_Zd 1 0.15
+Goblin_2_Weapon_2:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Drewniak_Str 1 0.14
+  - Drewniak_Wytrz 1 0.14
+Goblin_3_Armor:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Zbroja_Goblina_Zr 1 0.14
+  - Zbroja_Goblina_Wytrz 1 0.14
+  - Zbroja_Goblina_Zd 1 0.14
+  - Goblinie_Spodnie_Zd 1 0.17
+  - Goblinie_Spodnie_Zr 1 0.17
+  - Prymitywny_Helm_Str 1 0.19
+  - Prymitywny_Helm_Wytrz 1 0.19
+  - Prymitywny_Helm_Zd 1 0.19
+Goblin_3_Weapon_1:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Kusza_Straznicza_Str 1 0.03
+  - Kusza_Goblina_Str 1 0.11
+  - Goblini_Luk_Zr 1 0.18
+  - Goblini_Luk_Zd 1 0.18
+Goblin_3_Weapon_2:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Naostrzony_Topor_Str 1 0.03
+  - Zardzewialy_Topor_Str 1 0.12
+GoblinS_Weapon:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Khir_Shar_Int 1 0.02
+  - Khir_Shar_Mana 1 0.02
+  - Ur_Nath_Shakka_Int 1 0.07
+  - Ur_Nath_Shakka_Mana 1 0.07
+  - Nat_Shakar_Int 1 0.13
+  - Nat_Shakar_Mana 1 0.13
+GoblinS_Runes:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - UderzenieWiatru 1 0.05
+  - OgnistaStrzala 1 0.08
+Goblin_Boss_1:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Goblinia_Korona_Int 1 0.01
+  - Goblinia_Korona_Zr 1 0.01
+  - Goblinia_Korona_Zd 1 0.01
+  - Goblinia_Korona_Wytrz 1 0.01

@@ -12,6 +12,7 @@ InubisSkill_1:
   Conditions:
   - offgcd
   - hasaura InubisSzal false
+  - hasaura InubisSkill_4 false
   Skills:
   - gcd{ticks=100} @self
   - message{m="<mob.name><&co> &7Moja Furia Was pochlonie"} @PlayersInRadius{r=40}
@@ -72,8 +73,8 @@ InubisAreaPrepare_TotemTickEnd:
 InubisArea_TotemTick:
   Skills:
   - effect:particles{particle=largesmoke;amount=20;speed=0.1;hS=0.5;vS=0.5;vd=40} @origin
-  - effect:particleline{particle=largesmoke;amount=1;fromOrigin=true} @PlayersNearOrigin{r=10}
-  - damage{amount=160;pk=true} @PlayersNearOrigin{r=10}
+  - effect:particleline{particle=largesmoke;amount=1;fromOrigin=true} @PlayersNearOrigin{r=8}
+  - damage{amount=160;pk=true} @PlayersNearOrigin{r=8}
   
 
 InubisSkill_2:
@@ -114,6 +115,7 @@ InubisSkill_3:
   Conditions:
   - offgcd
   - hasaura InubisSkill_3 false
+  - hasaura InubisSkill_4 false
   Skills:
   - gcd{ticks=160} @self
   - Aura{auraName=InubisSkill_3;duration=300} @self
@@ -148,7 +150,7 @@ InubisMissile_Tick:
 
 InubisMissile_Hit:
   Skills:
-  - damage{a=240}
+  - damage{a=200}
   - effect:particles{particle=reddust;color=#8B008B;amount=25;speed=0.15;hS=0.2;vS=0.2;y=1} @origin
   - effect:particles{particle=smoke;amount=25;speed=0.15;hS=0.2;vS=0.2;y=1} @origin
   - effect:sound{s=entity.generic.explode;v=1;p=0.2} @origin

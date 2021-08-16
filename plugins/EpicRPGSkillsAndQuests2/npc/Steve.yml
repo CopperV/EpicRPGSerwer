@@ -58,6 +58,8 @@ slots:
     item: "worldquest_2"
   28:
     item: "dungeon_2"
+  29:
+    item: "dungeon_h2"
 #  8:
 #    item: "skill_arrows"
 #    wymagania:

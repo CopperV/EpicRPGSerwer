@@ -1,0 +1,415 @@
+id: dungeon_3
+name: '&5&lMroczny Dwor - Normalny'
+zleceniodawca: '&c&lMilten'
+lore:
+- '&aPowierzono mi ofensywe na Dwor Herobrine.'
+- '&aTo dobry wybor, zwazajac na to, ze mam'
+- '&ajuz doswiadczenie w tego typu wyprawach.'
+- '&aNa nasza niekorzysc gra to, ze nic o tym Dworze'
+- '&anie wiemy.'
+- '&aDlatego tez plan jest wzglednie prosty i prymitywny.'
+- '&aCzyli wdzieramy sie tam i wybijamy wszystko po drodze.'
+- '&aNie wiemy z czym bedziemy miec tam do czynienia,'
+- '&aa nie chcemy, aby Herobrine dostal mocne wsparcie'
+- '&apodczas walki z nim.'
+defeat: true
+world: dungeon3
+maxResp: 20
+require:
+- party
+stopnie:
+  '1':
+    talking: false
+    resp:
+      x: -4.5
+      y: 54
+      z: 107.5
+    blocked:
+    - dungeon3_2
+    - dungeon3_1
+    targets:
+      '1':
+        id: dungeon_3_1_1
+        type: zabij
+        targetName: '&2&lZombie'
+        message: 'Zabij Zombie: %stan%'
+        ilosc: 4
+      '2':
+        id: dungeon_3_1_2
+        type: zabij
+        targetName: '&7&oSzkielet'
+        message: 'Zabij Szkielety: %stan%'
+        ilosc: 4
+  '2':
+    talking: false
+    resp:
+      x: -4.5
+      y: 54
+      z: 107.5
+    blocked:
+    - dungeon3_2
+    targets:
+      '1':
+        id: dungeon_3_2_1
+        type: znajdz
+        targetName: dungeon3_1
+        message: 'Wejdz do Krypty na Cmentarzu (X: -78; Z: 17): %stan%'
+  '3':
+    talking: false
+    resp:
+      x: -4.5
+      y: 54
+      z: 107.5
+    blocked:
+    - dungeon3_2
+    - dungeon3_3
+    targets:
+      '1':
+        id: dungeon_3_3_1
+        type: zabij
+        targetName: '&9&oTulacz'
+        message: 'Wybij Tulaczy: %stan%'
+        ilosc: 5
+  '4':
+    talking: false
+    resp:
+      x: -4.5
+      y: 54
+      z: 107.5
+    blocked:
+    - dungeon3_2
+    targets:
+      '1':
+        id: dungeon_3_4_1
+        type: znajdz
+        targetName: dungeon3_3
+        message: 'Kontynuuj wedrowke wglab Krypty (X: -81; Z: 11): %stan%'
+  '5':
+    talking: false
+    resp:
+      x: -4.5
+      y: 54
+      z: 107.5
+    blocked:
+    - dungeon3_2
+    targets:
+      '1':
+        id: dungeon_3_5_1
+        type: znajdz
+        targetName: dungeon3_4
+        message: 'Odnajdz dalsze przejscie (X: -75; Z: 23): %stan%'
+  '6':
+    talking: false
+    resp:
+      x: -75.5
+      y: 27
+      z: 23.5
+    blocked:
+    - dungeon3_2
+    - dungeon3_5
+    targets:
+      '1':
+        id: dungeon_3_6_1
+        type: zabij
+        targetName: '&9&oTulacz'
+        message: 'Wybij Tulaczy w wiezieniu: %stan%'
+        ilosc: 5
+  '7':
+    talking: false
+    resp:
+      x: -75.5
+      y: 27
+      z: 23.5
+    blocked:
+    - dungeon3_2
+    targets:
+      '1':
+        id: dungeon_3_7_1
+        type: znajdz
+        targetName: dungeon3_6
+        message: 'Udaj sie do Krypty Tulaczy (X: -121; Z: 115): %stan%'
+  '8':
+    talking: false
+    resp:
+      x: -125.5
+      y: 27
+      z: 102.5
+    blocked:
+    - dungeon3_2
+    - dungeon3_7
+    - dungeon3_8
+    start:
+    - mm m spawn Krol_Tulaczy 1 dungeon3,-122,27,114.5
+    targets:
+      '1':
+        id: dungeon_3_8_1
+        type: zabij
+        targetName: '&9&lKrol Tulaczy'
+        message: 'Pokonaj Krola Tulaczy: %stan%'
+        ilosc: 1
+  '9':
+    talking: false
+    resp:
+      x: -125.5
+      y: 27
+      z: 102.5
+    blocked:
+    - dungeon3_2
+    targets:
+      '1':
+        id: dungeon_3_9_1
+        type: znajdz
+        targetName: dungeon3_10
+        message: 'Wejdz do portalu znajdujacego sie w krypcie (X: -105; Z: 121): %stan%'
+  '10':
+    talking: false
+    resp:
+      x: -4.5
+      y: 54
+      z: -107.5
+    targets:
+      '1':
+        id: dungeon_3_10_1
+        type: znajdz
+        targetName: dungeon3_2
+        message: 'Wejdz do Dworu Herobrine (X: 4; Z: 44): %stan%'
+  '11':
+    talking: false
+    resp:
+      x: 4
+      y: 58
+      z: 42.5
+    blocked:
+    - dungeon3_11
+    - dungeon3_12
+    - dungeon3_26
+    - dungeon3_17
+    targets:
+      '1':
+        id: dungeon_3_11_1
+        type: zabij
+        targetName: '&2&lZombie'
+        message: 'Zabij Zombie na Dworze: %stan%'
+        ilosc: 2
+      '2':
+        id: dungeon_3_11_2
+        type: zabij
+        targetName: '&7&oSzkielet'
+        message: 'Zabij Szkielety na Dworze: %stan%'
+        ilosc: 2
+      '3':
+        id: dungeon_3_11_3
+        type: zabij
+        targetName: '&5&oWiedzma'
+        message: 'Zabij Wiedzmy na Dworze: %stan%'
+        ilosc: 6
+  '12':
+    talking: false
+    resp:
+      x: 4
+      y: 58
+      z: 42.5
+    blocked:
+    - dungeon3_12
+    - dungeon3_26
+    - dungeon3_17
+    targets:
+      '1':
+        id: dungeon_3_12_1
+        type: znajdz
+        targetName: dungeon3_14
+        message: 'Udaj sie do pracowni alchemicznej (X: -37; Z: 57): %stan%'
+  '13':
+    talking: false
+    resp:
+      x: -37.5
+      y: 47
+      z: 53.5
+    blocked:
+    - dungeon3_11
+    - dungeon3_12
+    - dungeon3_26
+    - dungeon3_17
+    start:
+    - mm m spawn Przadka 1 dungeon3,-37.5,47,67.5
+    targets:
+      '1':
+        id: dungeon_3_13_1
+        type: zabij
+        targetName: '&3&lPrzadka'
+        message: 'Pokonaj Przadke: %stan%'
+        ilosc: 1
+  '14':
+    talking: false
+    resp:
+      x: 4
+      y: 58
+      z: 42.5
+    blocked:
+    - dungeon3_26
+    - dungeon3_17
+    targets:
+      '1':
+        id: dungeon_3_14_1
+        type: znajdz
+        targetName: dungeon3_15
+        message: 'Udaj sie do Sali Jadalnej (X: 62; Z: 83): %stan%'
+  '15':
+    talking: false
+    resp:
+      x: 62.5
+      y: 57
+      z: 74.5
+    blocked:
+    - dungeon3_12
+    - dungeon3_26
+    - dungeon3_17
+    start:
+    - mm m spawn Kuchta 1 dungeon3,62.5,55,91.5
+    targets:
+      '1':
+        id: dungeon_3_15_1
+        type: zabij
+        targetName: '&3&lKuchta'
+        message: 'Pokonaj Kuchte: %stan%'
+        ilosc: 1
+  '16':
+    talking: false
+    resp:
+      x: 4
+      y: 58
+      z: 42.5
+    blocked:
+    - dungeon3_26
+    - dungeon3_17
+    targets:
+      '1':
+        id: dungeon_3_16_1
+        type: znajdz
+        targetName: dungeon3_16
+        message: 'Udaj sie na drugie pietro Dworu (Y: 85): %stan%'
+  '17':
+    talking: false
+    resp:
+      x: 31
+      y: 85
+      z: 57.5
+    blocked:
+    - dungeon3_26
+    - dungeon3_17
+    targets:
+      '1':
+        id: dungeon_3_17_1
+        type: zabij
+        targetName: '&5&oWiedzma'
+        message: 'Pokonaj Wiedzmy: %stan%'
+        ilosc: 4
+      '2':
+        id: dungeon_3_17_2
+        type: zabij
+        targetName: '&7Pajak'
+        message: 'Pokonaj Pajaki: %stan%'
+        ilosc: 4
+  '18':
+    talking: false
+    resp:
+      x: 31
+      y: 85
+      z: 57.5
+    blocked:
+    - dungeon3_17
+    targets:
+      '1':
+        id: dungeon_3_18_1
+        type: znajdz
+        targetName: dungeon3_18
+        message: 'Udaj sie na strych (X: 63; Y: 98; Z: 47): %stan%'
+  '19':
+    talking: false
+    resp:
+      x: 56.5
+      y: 98
+      z: 61.5
+    blocked:
+    - dungeon3_26
+    - dungeon3_17
+    start:
+    - mm m spawn Areita 1 dungeon3,66.5,98,55.5
+    targets:
+      '1':
+        id: dungeon_3_19_1
+        type: zabij
+        targetName: '&7&lAreita - Krolowa Pajakow'
+        message: 'Pokonaj Krolowa Pajakow - Areite: %stan%'
+        ilosc: 1
+  '20':
+    talking: false
+    resp:
+      x: 31
+      y: 85
+      z: 57.5
+    targets:
+      '1':
+        id: dungeon_3_20_1
+        type: znajdz
+        targetName: dungeon3_20
+        message: 'Udaj sie do Wielkiego Archiwum Putki (X: -18; Z: 50): %stan%'
+  '21':
+    talking: false
+    resp:
+      x: -6.5
+      y: 91
+      z: 70.5
+    blocked:
+    - dungeon3_21
+    - dungeon3_17
+    start:
+    - mm m spawn Sentenza_Dung 1 dungeon3,-18.5,96,42.5
+    targets:
+      '1':
+        id: dungeon_3_21_1
+        type: zabij
+        targetName: '&8&lSentenza - Lord Pustki'
+        message: 'Pokonaj Lorda Pustki - Sentenze: %stan%'
+        ilosc: 1
+  '22':
+    talking: false
+    resp:
+      x: -6.5
+      y: 91
+      z: 70.5
+    targets:
+      '1':
+        id: dungeon_3_22_1
+        type: znajdz
+        targetName: dungeon3_23
+        message: 'Wejdz do Portalu Pustki (X: -3; Z: 76): %stan%'
+  '23':
+    talking: false
+    resp:
+      x: -6.5
+      y: 91
+      z: 70.5
+    targets:
+      '1':
+        id: dungeon_3_23_1
+        type: znajdz
+        targetName: dungeon3_24
+        message: 'Wejdz na platforme ze sfera (X: 8; Z: 170): %stan%'
+  '24':
+    talking: true
+    resp:
+      x: -4.5
+      y: 28
+      z: 184.5
+    blocked:
+    - dungeon3_25
+    start:
+    - mm m spawn Herobrine 1 dungeon3,-4.5,28,184.5
+    targets:
+      '1':
+        id: dungeon_3_24_1
+        type: zabij
+        targetName: '&9&lHerobrine - Legendary Boss'
+        message: 'Pokonaj Herobrine - Tyrana Nowego Swiata: %stan%'
+        ilosc: 1

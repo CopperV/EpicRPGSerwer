@@ -1,0 +1,157 @@
+Egipt_1_Armor:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Zdobiona_Zbroja_Str 1 0.04
+  - Zdobiona_Zbroja_Wytrz 1 0.04
+  - Zdobiona_Zbroja_Zr 1 0.04
+  - Kolczuga_Egipska_Wytrz 1 0.06
+  - Egipska_Szata_Zr 1 0.06
+  - Egipska_Szata_Zd 1 0.06
+  - Egipska_Szata_Str 1 0.06
+  - Ozdobne_Sandaly_Zr 1 0.08
+  - Ozdobne_Sandaly_Wytrz 1 0.08
+  - Ozdobne_Sandaly_Mana 1 0.08
+  - Egipska_husta_Zr 1 0.13
+  - Egipska_husta_Zd 1 0.13
+  - Egipska_husta_Int 1 0.13
+  - Egipska_husta_Mana 1 0.13
+  - Sandaly_Zr 1 0.13
+  - Sandaly_Str 1 0.13
+  - Sandaly_Wytrz 1 0.13
+  - Sandaly_Mana 1 0.13
+Egipt_1_Weapon:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Nieprzecietna_Wlocznia_Zr 1 0.02
+  - Nieprzecietna_Wlocznia_Str 1 0.02
+  - Starozytna_Bron_Str 1 0.02
+  - Egipska_Wlocznia_Str 1 0.08
+  - Egipska_Wlocznia_Wytrz 1 0.08
+  - Egipska_Wlocznia_Zr 1 0.08
+Egipt_2_Armor:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Zdobiona_Zbroja_Str 1 0.04
+  - Zdobiona_Zbroja_Wytrz 1 0.04
+  - Zdobiona_Zbroja_Zr 1 0.04
+  - Egipska_Szata_Zr 1 0.06
+  - Egipska_Szata_Zd 1 0.06
+  - Egipska_Szata_Str 1 0.06
+  - Ozdobne_Sandaly_Zr 1 0.08
+  - Ozdobne_Sandaly_Wytrz 1 0.08
+  - Ozdobne_Sandaly_Mana 1 0.08
+  - Zdobiona_husta_Zr 1 0.09
+  - Zdobiona_husta_Zd 1 0.09
+  - Zdobiona_husta_Int 1 0.09
+  - Sandaly_Zr 1 0.13
+  - Sandaly_Str 1 0.13
+  - Sandaly_Wytrz 1 0.13
+  - Sandaly_Mana 1 0.13
+  - Egipska_Spodnica_Zr 1 0.15
+  - Egipska_Spodnica_Wytrz 1 0.15
+Egipt_3_Armor:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Nogawice_Legionisty_Wytrz 1 0.02
+  - Zdobiona_Zbroja_Str 1 0.04
+  - Zdobiona_Zbroja_Wytrz 1 0.04
+  - Zdobiona_Zbroja_Zr 1 0.04
+  - Egipska_Szata_Zr 1 0.06
+  - Egipska_Szata_Zd 1 0.06
+  - Egipska_Szata_Str 1 0.06
+  - Ozdobne_Sandaly_Zr 1 0.08
+  - Ozdobne_Sandaly_Wytrz 1 0.08
+  - Ozdobne_Sandaly_Mana 1 0.08
+  - Egipskie_Uzbrojenie_Str 1 0.12
+  - Egipskie_Uzbrojenie_Wytrz 1 0.12
+  - Egipska_husta_Zr 1 0.13
+  - Egipska_husta_Zd 1 0.13
+  - Egipska_husta_Int 1 0.13
+  - Egipska_husta_Mana 1 0.13
+  - Sandaly_Zr 1 0.13
+  - Sandaly_Str 1 0.13
+  - Sandaly_Wytrz 1 0.13
+  - Sandaly_Mana 1 0.13
+Egipt_3_Weapon:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Dlugi_Luk_Zd 1 0.06
+  - Egipski_Luk_Zd 1 0.14
+Egipt_4_Armor:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Helm_Pradawnych_Int 1 0.02
+  - Helm_Pradawnych_Mana 1 0.02
+  - Zdobiona_Zbroja_Str 1 0.05
+  - Zdobiona_Zbroja_Wytrz 1 0.05
+  - Zdobiona_Zbroja_Zr 1 0.05
+  - Egipska_Szata_Zr 1 0.08
+  - Egipska_Szata_Zd 1 0.08
+  - Egipska_Szata_Str 1 0.08
+  - Ozdobne_Sandaly_Zr 1 0.10
+  - Ozdobne_Sandaly_Wytrz 1 0.10
+  - Ozdobne_Sandaly_Mana 1 0.10
+  - Toga_Kaplanska_Mana 1 0.12
+  - Toga_Kaplanska_Int 1 0.12
+  - Sandaly_Zr 1 0.15
+  - Sandaly_Str 1 0.15
+  - Sandaly_Wytrz 1 0.15
+  - Sandaly_Mana 1 0.15
+  - Kaplanska_Szata_Mana 1 0.16
+Egipt_4_Weapon:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Berlo_Kaplana_Int 1 0.05
+  - Kostur_Kaplana_Int 1 0.14
+Egipt_4_Runes:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - OgnistaStrzala 1 0.14
+  - MagicznyPocisk 1 0.14
+  - UderzenieWiatru 1 0.12
+  - PiachWOczy 1 0.06
+  - KulaOgnia 1 0.02
+Egipt_Boss_1:
+  MinItems: 0
+  MaxItems: 4
+  Drops:
+  - Ozdobne_Sandaly_Zr 1 0.33
+  - Ozdobne_Sandaly_Wytrz 1 0.33
+  - Ozdobne_Sandaly_Mana 1 0.33
+  - Egipska_Szata_Zr 1 0.3
+  - Egipska_Szata_Zd 1 0.3
+  - Egipska_Szata_Str 1 0.3
+  - Zdobiona_Zbroja_Str 1 0.24
+  - Zdobiona_Zbroja_Wytrz 1 0.24
+  - Zdobiona_Zbroja_Zr 1 0.24
+  - Nogawice_Legionisty_Wytrz 1 0.11
+Egipt_Boss_2:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Kostur_Ra_Int 1 0.02
+  - Kostur_Ra_Mana 1 0.02
+Egipt_Boss_3:
+  MinItems: 0
+  MaxItems: 4
+  Drops:
+  - OgnistaStrzala 1 0.65
+  - MagicznyPocisk 1 0.65
+  - UderzenieWiatru 1 0.56
+  - PiachWOczy 1 0.29
+  - KulaOgnia 1 0.11
+  - Leczenie 1 0.11
+Egipt_Boss_4:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Ostrze_Smierci_Zr 1 0.01
+  - Ostrze_Smierci_Str 1 0.01

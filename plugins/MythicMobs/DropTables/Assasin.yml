@@ -1,0 +1,129 @@
+Assasin_1_Armor:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Sandaly_Pustynne_Zr 1 0.13
+  - Sandaly_Pustynne_Wytrz 1 0.13
+  - Sandaly_Pustynne_Str 1 0.13
+  - Sandaly_Pustynne_Int 1 0.13
+  - Sandaly_Pustynne_Mana 1 0.13
+  - Zbroja_Assasyna_Zd 1 0.15
+  - Zbroja_Assasyna_Zr 1 0.15
+  - Zbroja_Assasyna_Wytrz 1 0.15
+  - Spodnica_Mordercy_Zr 1 0.15
+  - Spodnica_Mordercy_Zd 1 0.15
+  - Spodnica_Mordercy_Wytrz 1 0.15
+Assasin_1_Weapon_1:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Assasynska_Wlocznia_Zr 1 0.14
+  - Assasynska_Wlocznia_Str 1 0.14
+  - Assasynska_Wlocznia_Wytrz 1 0.14
+  - Assasynska_Wlocznia_Zd 1 0.14
+Assasin_2_Armor:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Pancerz_Assasyna_Wytrz 1 0.11
+  - Zbroja_Assasyna2_Wytrz 1 0.13
+  - Zbroja_Assasyna2_Str 1 0.13
+  - Sandaly_Pustynne_Zr 1 0.15
+  - Sandaly_Pustynne_Wytrz 1 0.15
+  - Sandaly_Pustynne_Str 1 0.15
+  - Sandaly_Pustynne_Int 1 0.15
+  - Sandaly_Pustynne_Mana 1 0.15
+  - Spodnica_Mordercy_Zr 1 0.16
+  - Spodnica_Mordercy_Zd 1 0.16
+  - Spodnica_Mordercy_Wytrz 1 0.16
+Assasin_2_Weapon_1:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Miecz_Assasyna_Zr 1 0.08
+  - Miecz_Assasyna_Str 1 0.08
+  - Zatrute_Ostrze_Zr 1 0.11
+Assasin_2_Weapon_2:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Kusza_Mordercy_Str 1 0.08
+  - Luk_Mordercy_Zd 1 0.11
+  - Luk_Assasyna_Zd 1 0.18
+Assasin_2_CMA:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Czarna_Toga_Mana 1 0.06
+  - Czarna_Toga_Int 1 0.06
+  - Kaptur_Czarnej_Magii_Mana 1 0.09
+  - Toga_Assasyna_Wytrz 1 0.14
+  - Toga_Assasyna_Str 1 0.14
+  - Buty_Czarnego_Maga_Int 1 0.16
+  - Buty_Czarnego_Maga_Mana 1 0.16
+Assasin_2_Runes:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - KulaOgnia 1 0.01
+  - TchnienieSmierci 1 0.05
+  - UderzenieCienia 1 0.05
+  - UderzenieBurzy 1 0.11
+  - Wyssanie 1 0.12
+  - UderzenieWiatru 1 0.15
+Assasin_3_Armor:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Buty_Legionisty_Zr 1 0.16
+  - Buty_Legionisty_Zd 1 0.16
+  - Buty_Legionisty_Wytrz 1 0.16
+  - Toga_Assasyna_Wytrz 1 0.2
+  - Toga_Assasyna_Str 1 0.2
+  - Zbroja_Assasyna_Zd 1 0.21
+  - Zbroja_Assasyna_Zr 1 0.21
+  - Zbroja_Assasyna_Wytrz 1 0.21
+Assasin_3_Weapon_1:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Egzekutor_Str 1 0.05
+  - Wzmocniona_Wlocznia_Assasyna_Zr 1 0.09
+  - Wzmocniona_Wlocznia_Assasyna_Str 1 0.09
+Assasin_3_Weapon_2:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Zabojca_Niewinnych_Zd 1 0.04
+  - Kusza_Mordercy_Str 1 0.11
+  - Luk_Mordercy_Zd 1 0.16
+  - Luk_Assasyna_Zd 1 0.24
+Assasin_Boss_1:
+  MinItems: 0
+  MaxItems: 7
+  Drops:
+  - Wzmocniona_Wlocznia_Assasyna_Zr 1 0.22
+  - Wzmocniona_Wlocznia_Assasyna_Str 1 0.22
+  - Egzekutor_Str 1 0.09
+  - Luk_Assasyna_Zd 1 0.41
+  - Luk_Mordercy_Zd 1 0.29
+  - Kusza_Mordercy_Str 1 0.25
+  - Zabojca_Niewinnych_Zd 1 0.1
+  - Buty_Pielgrzyma_Zr 1 0.06
+  - Buty_Pielgrzyma_Zd 1 0.06
+  - Buty_Pielgrzyma_Wytrz 1 0.06
+  - Buty_Pielgrzyma_Mana 1 0.06
+  - Buty_Pielgrzyma_Int 1 0.06
+  - Zdobione_Nogawice_Wytrz 1 0.23
+  - Zdobione_Nogawice_Zr 1 0.23
+  - Zdobione_Nogawice_Str 1 0.23
+  - Skradziona_Zbroja_Zr 1 0.3
+  - Skradziona_Zbroja_Wytrz 1 0.3
+Assasin_Boss_2:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - LukL_Zd 1 0.01
+  - BronL_Str 1 0.01
+  - BronL_Wytrz 1 0.01
+  - BronL_Zr 1 0.01

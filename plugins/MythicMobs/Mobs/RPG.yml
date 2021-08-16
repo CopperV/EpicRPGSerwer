@@ -7366,10 +7366,10 @@ Szczur:
   Skills:
   - skill{s=MobRemove} ~onTimer:100
 TestMob:
-  Type: Zombie
+  Type: sheep
   Display: "&7Mob testowy"
-  Health: 10000000
-  Damage: 200
+  Health: 100
+  Damage: 20
   BossBar:
     Enabled: true
     Title: '&7TestMob'
@@ -7381,8 +7381,7 @@ TestMob:
     MovementSpeed: 0.01
     Despawn: true
   Skills:
-  - skill{s=testSkillDmg;sync=true} ~onDamaged
-  - skill{s=testSkillDmg2;sync=true} ~onAttack
+  - skill{s=testSkillDmg} ~onDamaged
 #  - skill{s=ChainsTest} @Trigger ~onDamaged 0.5
 #################################################################################
 MrGold:

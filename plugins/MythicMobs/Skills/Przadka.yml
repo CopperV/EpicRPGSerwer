@@ -55,9 +55,9 @@ PrzadkaSkill_2:
 
 PrzadkaSkill_2_Prepare:
   Skills:
-  - effect:particlering{particle=smoke;vd=10;radius=3;points=24;amount=2;y=0.1;hs=0.1;s=0.05;repeat=20;repeatInterval=5}
-  - effect:particlering{particle=witchMagic;vd=10;radius=1;points=4;amount=2;y=0.1;hs=0.1;s=0.05;repeat=20;repeatInterval=5}
-  - effect:particlering{particle=witchMagic;vd=10;radius=2;points=8;amount=2;y=0.1;hs=0.1;s=0.05;repeat=20;repeatInterval=5}
+  - effect:particlering{particle=smoke;vd=6;radius=3;points=12;amount=1;y=0.1;hs=0.1;s=0.05;repeat=20;repeatInterval=5}
+  - effect:particlering{particle=witchMagic;vd=6;radius=1;points=4;amount=1;y=0.1;hs=0.1;s=0.05;repeat=20;repeatInterval=5}
+  - effect:particlering{particle=witchMagic;vd=6;radius=2;points=8;amount=1;y=0.1;hs=0.1;s=0.05;repeat=20;repeatInterval=5}
   - delay 100
   - summon{mob=Przadka_Summon1;amount=1;noise=0;os=true}
 

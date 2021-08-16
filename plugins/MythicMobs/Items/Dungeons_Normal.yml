@@ -1812,3 +1812,48 @@ Macka_Chaosu_StrWytrz:
       MovementSpeed: 0.10
       Health: 35
       KnockbackResistance: 0.4
+Zwierzchnik_Chaosu:
+  Id: 276
+  Display: '&8&lZwierzchnik Chaosu'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &4Unikat'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7150'
+  - '&4- &8Zrecznosc: &7+100'
+  - '&4- &8Zdolnosci mysliwskie: &7+100'
+  - '&4- &8Walka: &7+100'
+  - '&4- &8Sila: &7+100'
+  - '&4- &8Wytrzymalosc: &7+100'
+  - '&4- &8Inteligencja: &7+100'
+  - '&4- &8Mana: &7+100'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.1
+      KnockbackResistance: 0.25
+      Health: 100
+    offhand:
+      MovementSpeed: 0.1
+      KnockbackResistance: 0.25
+      Health: 100
+Pancerz_Tyrana:
+  Id: 312
+  Display: '&4&lPancerz Tyrana'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &4Unikat'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &750'
+  - ''
+  - '&8Wolnych slotow: &79'
+  Options:
+    Unbreakable: true
+  NBT:
+    Base:
+      FreeSlots: 9

@@ -983,3 +983,19 @@ SzalPustki:
   - '&4- &8Obszar: &710'
   - '&4- &8Czas trwania: &715 sekund'
   - '&4- &8Czas regeneracji: &7120 sekund'
+SzalPustki_H:
+  Id: 2264
+  Display: '&8&lSzal Pustki I'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Opis &6&l&m<=='
+  - ''
+  - '&4- &8Klasa: &5Mag'
+  - '&4- &8Krag: &75'
+  - '&4- &8Koszt many: &7220'
+  - '&4- &8Obrazenia na sekunde: &7250'
+  - '&4- &8Obszar: &712'
+  - '&4- &8Czas trwania: &720 sekund'
+  - '&4- &8Czas regeneracji: &7135 sekund'

@@ -1,0 +1,14 @@
+#name: "&b&lCorristo"
+#title: "&b&lCorristo - dowodca"
+
+display:
+  - "&aBTT_ONCE_TTB"
+  - "&7[&a&lKidMod&7]"
+location:
+  world: "F_RPG"
+  x: -109
+  y: 55.0
+  z: -1
+  yaw: -90
+  pitch: 15
+lookat: true

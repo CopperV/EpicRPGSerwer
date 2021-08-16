@@ -1,0 +1,476 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+
+HerobrineSphereCheck:
+  Conditions:
+  - mobsInRadius{types=Herobrine;amount=1;radius=80} false
+  Skills:
+  - remove @self
+
+HerobrineSpawn:
+  Skills:
+  - Aura{auraName=Herobrine_Spawn;duration=60} @self
+  - sound{s=entity.ghast.hurt;v=5} @self
+  - message{m="<mob.name><&co> &3&oPatrzcie, patrzcie. W koncu sie zjawili nasi rewolucjonisci..."} @PlayersInRadius{r=40}
+  - stun{d=20;stopai=true;facing=true} @self
+  - delay 20
+  - effect:particles{particle=cloud;amount=50;speed=0.1;hS=0.5;vS=1;y=1} @self
+  - teleportto{location=24.5,28,160.5} @self
+  - sound{s=entity.ghast.hurt;v=5} @self
+  - effect:particles{particle=cloud;amount=50;speed=0.1;hS=0.5;vS=1;y=1} @self
+  - message{m="<mob.name><&co> &3&oPewnie macie pare pytan do mnie..."} @PlayersInRadius{r=40}
+  - stun{d=20;stopai=true;facing=true} @self
+  - delay 20
+  - effect:particles{particle=cloud;amount=50;speed=0.1;hS=0.5;vS=1;y=1} @self
+  - teleportto{location=8.5,38,169.5} @self
+  - sound{s=entity.ghast.hurt;v=5} @self
+  - effect:particles{particle=cloud;amount=50;speed=0.1;hS=0.5;vS=1;y=1} @self
+  - projectile{onTick=HerobrineSpawn_Tick;onHit=HerobrineSpawn_Hit;v=10;i=1;hR=1.25;vR=1.25;mr=60;sB=false} @PlayersInRadius{r=30}
+  - message{m="<mob.name><&co> &3&oJak na przyklad co tu robi sfera identyczna do tej w Waszym swiecie..."} @PlayersInRadius{r=40}
+  - stun{d=20;stopai=true;facing=true} @self
+  - delay 20
+  - effect:particles{particle=cloud;amount=50;speed=0.1;hS=0.5;vS=1;y=1} @self
+  - teleportto{location=3.5,28,182.5} @self
+  - sound{s=entity.ghast.hurt;v=5} @self
+  - effect:particles{particle=cloud;amount=50;speed=0.1;hS=0.5;vS=1;y=1} @self
+  - projectile{onTick=HerobrineSpawn_Tick;onHit=HerobrineSpawn_Hit;v=12;i=1;hR=1.25;vR=1.25;mr=60;sB=false} @PlayersInRadius{r=30}
+  - message{m="<mob.name><&co> &3&oNiestety, nie pozyjecie dosc dlugo, by sie o tym dowiedziec!"} @PlayersInRadius{r=40}
+  - summon{type=HerobrineSphereAdd;amount=1;radius=0} @Location{c=8.5,46,170.5,0,0}
+  - threat{amount=100000} @NearestPlayer
+
+HerobrineSpawn_Protection:
+  Conditions:
+  - hasaura Herobrine_Spawn true
+  Skills:
+  - healpercent{m=1} @self
+
+HerobrineSpawn_Tick:
+  Skills:
+  - effect:particles{particle=cloud;amount=10;speed=0.05;hS=0.1;vS=0.1;vd=20} @origin
+
+HerobrineSpawn_Hit:
+  Skills:
+  - damage{amount=450}
+  - sound{s=entity.blaze.shoot;v=2;p=0.2} @Origin
+
+HerobrineDeath:
+  Skills:
+  - message{m="<mob.name><&co> &3&oTak nie mialo sie stac..."} @PlayersInRadius{r=20}
+  - sound{s=entity.ghast.hurt;v=5;p=1.5} @self
+  - effect:particles{particle=cloud;amount=100;speed=0.3;hS=2;vS=2;y=1} @self
+  - remove @MobsInRadius{r=80;t=HerobrineSphereAdd}
+  - command{c="mm m kill HerobrineSphereAdd"} @self
+
+HerobrineSkill_1:
+  Conditions:
+  - offgcd
+  - hasaura Herobrine_Spawn false
+  Skills:
+  - gcd{ticks=160} @self
+  - message{m="<mob.name><&co> &3&oZ ta moca nic nie moze sie rownac!"} @PlayersInRadius{r=40}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bHerobrine przygotowuje Wole Chaosu";d=100} @PIR{r=40}
+  - skill{s=HerobrineSkill_1_Prepare} @PIR{r=40;limit=1;sort=RANDOM}
+
+HerobrineSkill_1_Prepare:
+  Skills:
+  - effect:particlering{particle=dragonbreath;vd=20;radius=1;points=4;amount=2;y=0.1;hS=0.05;vS=0.05;speed=0.01;repeat=20;repeatInterval=5}
+  - effect:particlering{particle=dragonbreath;vd=20;radius=2;points=8;amount=2;y=0.1;hS=0.05;vS=0.05;speed=0.01;repeat=20;repeatInterval=5}
+  - effect:particlering{particle=dragonbreath;vd=20;radius=3;points=12;amount=2;y=0.1;hS=0.05;vS=0.05;speed=0.01;repeat=20;repeatInterval=5}
+  - effect:particlering{particle=dragonbreath;vd=20;radius=4;points=16;amount=2;y=0.1;hS=0.05;vS=0.05;speed=0.01;repeat=20;repeatInterval=5}
+  - delay 99
+  - summon{type=HerobrineCounter_Add2;amount=1;radius=0}
+
+HerobrineCounter_Add2_Spawn:
+  Skills:
+  - modifyscore{o=HeroCounter;e=HeroCount;a=set;v=0}
+  - summon{type=HerobrineCounter_Add;amount=1;radius=0} @PIR{r=4}
+  - delay 1
+#  - message{m="<mob.name><&co> &3&o<score.HeroCounter.HeroCount>"} @PlayersInRadius{r=20}
+  - damage{amount=800/<score.HeroCounter.HeroCount>} @PIR{r=4}
+  - modifyscore{o=HeroCounter;e=HeroCount;a=set;v=0}
+  - delay 1
+  - remove @self
+
+HerobrineCounter_Add_Spawn:
+  Skills:
+  - signal{s=HerobrineCounter_Add2} @MIR{r=30;t=HerobrineCounter_Add2}
+  - delay 5
+  - remove @self
+
+HerobrineCounter_Add2_Add:
+  Skills:
+  - modifyscore{o=HeroCounter;e=HeroCount;a=add;v=1}
+
+HerobrineSkill_2:
+  Conditions:
+  - offgcd
+  - hasaura Herobrine_Spawn false
+  Skills:
+  - gcd{ticks=160} @self
+  - message{m="<mob.name><&co> &3&oZ ta moca nic nie moze sie rownac!"} @PlayersInRadius{r=40}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bHerobrine przygotowuje Wole Chaosu";d=100} @PIR{r=40}
+  - skill{s=HerobrineSkill_2_Prepare} @PIR{r=40;limit=1;sort=RANDOM}
+
+HerobrineSkill_2_Prepare:
+  Skills:
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=1;points=4;amount=2;y=0.1;hS=0.05;vS=0.05;speed=0.01;repeat=20;repeatInterval=5}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=2;points=8;amount=2;y=0.1;hS=0.05;vS=0.05;speed=0.01;repeat=20;repeatInterval=5}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=3;points=12;amount=2;y=0.1;hS=0.05;vS=0.05;speed=0.01;repeat=20;repeatInterval=5}
+  - effect:particlering{particle=fireworksSpark;vd=20;radius=4;points=16;amount=2;y=0.1;hS=0.05;vS=0.05;speed=0.01;repeat=20;repeatInterval=5}
+  - delay 99
+  - summon{type=HerobrineCounter_Add3;amount=1;radius=0}
+
+HerobrineCounter_Add3_Spawn:
+  Skills:
+  - modifyscore{o=HeroCounter;e=HeroCount;a=set;v=0}
+  - summon{type=HerobrineCounter_Add4;amount=1;radius=0} @PIR{r=4}
+  - delay 1
+#  - message{m="<mob.name><&co> &3&o<score.HeroCounter.HeroCount>"} @PlayersInRadius{r=20}
+  - damage{amount=250*<score.HeroCounter.HeroCount>} @PIR{r=4}
+  - modifyscore{o=HeroCounter;e=HeroCount;a=set;v=0}
+  - delay 1
+  - remove @self
+
+HerobrineCounter_Add3_Add:
+  Skills:
+  - modifyscore{o=HeroCounter;e=HeroCount;a=add;v=1}
+
+HerobrineCounter_Add4_Spawn:
+  Skills:
+  - signal{s=HerobrineCounter_Add3} @MIR{r=30;t=HerobrineCounter_Add3}
+  - delay 5
+  - remove @self
+
+HerobrineSkill_3:
+  Conditions:
+  - hasaura Herobrine_Spawn false
+  - hasaura Herobrine_Tp false
+  Skills:
+  - Aura{auraName=Herobrine_Tp;duration=120} @self
+  - effect:particles{particle=cloud;amount=50;speed=0.1;hS=0.5;vS=1;y=1} @self
+  - sound{s=entity.ghast.hurt;v=5} @self
+  - randomskill{skills=Herobrine_Tp1,Herobrine_Tp2,Herobrine_Tp3,Herobrine_Tp4,Herobrine_Tp5,Herobrine_Tp6,Herobrine_Tp7,Herobrine_Tp8,Herobrine_Tp9,Herobrine_Tp10,Herobrine_Tp11,Herobrine_Tp12,Herobrine_Tp13,Herobrine_Tp14,Herobrine_Tp15,Herobrine_Tp16,Herobrine_Tp17,Herobrine_Tp18,Herobrine_Tp19,Herobrine_Tp20} @self
+  - effect:particles{particle=cloud;amount=50;speed=0.1;hS=0.5;vS=1;y=1} @self
+  - stun{d=40;stopai=true;facing=true} @self
+  - delay 20
+  - summon{type=HerobrineSummon;amount=1;radius=0} @self 0.15
+  - delay 20
+  - effect:particles{particle=cloud;amount=50;speed=0.1;hS=0.5;vS=1;y=1} @self
+  - sound{s=entity.ghast.hurt;v=5} @self
+  - randomskill{skills=Herobrine_Tp1,Herobrine_Tp2,Herobrine_Tp3,Herobrine_Tp4,Herobrine_Tp5,Herobrine_Tp6,Herobrine_Tp7,Herobrine_Tp8,Herobrine_Tp9,Herobrine_Tp10,Herobrine_Tp11,Herobrine_Tp12,Herobrine_Tp13,Herobrine_Tp14,Herobrine_Tp15,Herobrine_Tp16,Herobrine_Tp17,Herobrine_Tp18,Herobrine_Tp19,Herobrine_Tp20} @self
+  - effect:particles{particle=cloud;amount=50;speed=0.1;hS=0.5;vS=1;y=1} @self
+
+Herobrine_Tp1:
+  Skills:
+  - teleportto{location=-4.5,28,184.5} @self
+
+Herobrine_Tp2:
+  Skills:
+  - teleportto{location=24.5,28,160.5} @self
+
+Herobrine_Tp3:
+  Skills:
+  - teleportto{location=8.5,39,170.5} @self
+
+Herobrine_Tp4:
+  Skills:
+  - teleportto{location=-1.5,35,159.5} @self
+
+Herobrine_Tp5:
+  Skills:
+  - teleportto{location=14.5,35,184.5} @self
+
+Herobrine_Tp6:
+  Skills:
+  - teleportto{location=12.5,28,165.5} @self
+
+Herobrine_Tp7:
+  Skills:
+  - teleportto{location=7.5,27,172.5} @self
+
+Herobrine_Tp8:
+  Skills:
+  - teleportto{location=5.5,28,185.5} @self
+
+Herobrine_Tp9:
+  Skills:
+  - teleportto{location=14.5,27,158.5} @self
+
+Herobrine_Tp10:
+  Skills:
+  - teleportto{location=26.5,29,180.5} @self
+
+Herobrine_Tp11:
+  Skills:
+  - teleportto{location=25.5,29,176.5} @self
+
+Herobrine_Tp12:
+  Skills:
+  - teleportto{location=29.5,29,169.5} @self
+
+Herobrine_Tp13:
+  Skills:
+  - teleportto{location=-6.5,29,170.5} @self
+
+Herobrine_Tp14:
+  Skills:
+  - teleportto{location=10.5,27,179.5} @self
+
+Herobrine_Tp15:
+  Skills:
+  - teleportto{location=-9.5,27,178.5} @self
+
+Herobrine_Tp16:
+  Skills:
+  - teleportto{location=0.5,29,162.5} @self
+
+Herobrine_Tp17:
+  Skills:
+  - teleportto{location=14.5,27,158.5} @self
+
+Herobrine_Tp18:
+  Skills:
+  - teleportto{location=14.5,27,172.5} @self
+
+Herobrine_Tp19:
+  Skills:
+  - teleportto{location=-3.5,28,169.5} @self
+
+Herobrine_Tp20:
+  Skills:
+  - teleportto{location=24.5,28,170.5} @self
+
+HerobrineSummon_Spawn:
+  Skills:
+  - effect:particles{particle=smoke;amount=50;speed=0.1;hS=0.5;vS=1;y=1} @self
+  - sound{s=entity.evocation_illager.cast_spell;v=5;p=1.7} @self
+
+HerobrineSummon_Attack:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=100} @self
+  - sound{s=entity.evocation_illager.cast_spell;v=5;p=0.8} @self
+  - effect:particleline{particle=dragonbreath;vd=12;amount=5;fromOrigin=true} @PIR{r=50}
+  - damage{amount=180} @PIR{r=50}
+
+HerobrineSkill_4:
+  Conditions:
+  - offgcd
+  - hasaura Herobrine_Spawn false
+  Skills:
+  - gcd{ticks=160} @self
+  - message{m="<mob.name><&co> &3&oZostaniecie zapamietani, jako osoby, ktore wzniecily powstanie po nic..."} @PlayersInRadius{r=40}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bHerobrine przygotowuje Gorace Zrodla";d=100} @PIR{r=40}
+  - sound{s=entity.blaze.burn;v=5;p=0.2} @self
+  - skill{s=HerobrineSkill_4_Prepare} @PLIR{r=50}
+
+HerobrineSkill_4_Prepare:
+  Skills:
+  - effect:particlering{particle=lava;vd=12;radius=1;points=2;amount=1;y=0.1;hS=0.05;vS=0.05;speed=0.01;repeat=20;repeatInterval=5}
+  - effect:particlering{particle=lava;vd=12;radius=2;points=4;amount=1;y=0.1;hS=0.05;vS=0.05;speed=0.01;repeat=20;repeatInterval=5}
+  - effect:particlering{particle=lava;vd=12;radius=3;points=6;amount=1;y=0.1;hS=0.05;vS=0.05;speed=0.01;repeat=20;repeatInterval=5}
+  - effect:particlering{particle=lava;vd=12;radius=4;points=8;amount=1;y=0.1;hS=0.05;vS=0.05;speed=0.01;repeat=20;repeatInterval=5}
+  - effect:particlering{particle=lava;vd=12;radius=5;points=10;amount=1;y=0.1;hS=0.05;vS=0.05;speed=0.01;repeat=20;repeatInterval=5}
+  - delay 100
+  - sound{s=entity.blaze.death;v=5;p=0.1}
+  - summon{type=HerobrineCounter_Add5;amount=1;radius=0}
+  - effect:geyser{type=LAVA;height=5;speed=4}
+
+HerobrineCounter_Add5_Spawn:
+  Skills:
+  - effect:geyser{type=LAVA;height=3;speed=4} @Ring{radius=3;points=6;yoffset=0}
+  - damage{amount=300} @PIR{r=5}
+  - ignite{ticks=300} @PIR{r=5}
+  - delay 1
+  - remove @self
+
+HerobrineSkill_5:
+  Conditions:
+  - offgcd
+  - hasaura Herobrine_Spawn false
+  Skills:
+  - gcd{ticks=160} @self
+  - message{m="<mob.name><&co> &3&oNic nas nie powstrzyma!"} @PlayersInRadius{r=40}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bHerobrine przygotowuje Wybuchowy Lancuch";d=100} @PIR{r=40}
+  - stun{d=100} @self
+  - delay 100
+  - sound{s=entity.illusion_illager.cast_spell;v=10;p=0.1} @self
+  - chain{b=10;d=5;bounceRadius=8;onBounce=SphereSkill_3_Effect_Bounce} @NearestPlayer{r=8}
+
+SphereSkill_3_Effect_Bounce:
+  Skills:
+  - sound{s=entity.illusion_illager.cast_spell;v=3;p=0.1}
+  - sound{s=entity.tnt.primed;v=5}
+  - summon{type=HerobrineCounter_Add6;amount=1;radius=0}
+  - effect:particleline{particle=largesmoke;amount=10;fromOrigin=true;speed=0.05;hS=0.05;vS=0.05;ys=1;yt=1}
+  - potion{type=SLOW;duration=100;level=3}
+
+HerobrineCounter_Add6_Spawn:
+  Skills:
+  - delay 100
+  - effect:particles{particle=hugeexplosion;amount=1} @self
+  - sound{s=entity.generic.explode;v=10} @self
+  - damage{amount=450} @PIR{r=6}
+  - delay 1
+  - remove @self
+
+HerobrineSkill_6:
+  Conditions:
+  - offgcd
+  - hasaura Herobrine_Spawn false
+  Skills:
+  - gcd{ticks=160} @self
+  - message{m="<mob.name><&co> &3&oNic nas nie powstrzyma!"} @PlayersInRadius{r=40}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bHerobrine zmusza Sfere do Pociskow Chaosu";d=100} @PIR{r=40}
+  - delay 100
+  - signal{s=HEROBRINE_SPHERE_SIGNAL_1} @MIR{r=55;t=HerobrineSphereAdd}
+
+HerobrineSphereSkill_1:
+  Skills:
+  - sound{s=entity.cat.hiss;v=10;p=0.5} @self
+  - projectile{onTick=HerobrineSphereSkill_1_Tick;onHit=HerobrineSphereSkill_1_Hit;v=12;i=1;hR=1.25;vR=1.25;mr=60;sB=false} @PlayersInRadius{r=55}
+  - projectile{onTick=HerobrineSphereSkill_1_Missile_Prepare_Tick;onEnd=HerobrineSphereSkill_1_Missile_Prepare_End;v=2;i=1;hR=1.25;vR=1.25;mr=5;sB=false;hp=false} @Forward{f=0;y=5}
+
+HerobrineSphereSkill_1_Tick:
+  Skills:
+  - effect:particles{particle=cloud;amount=10;speed=0.05;hS=0.1;vS=0.1;vd=20} @origin
+
+HerobrineSphereSkill_1_Hit:
+  Skills:
+  - damage{amount=250}
+  - sound{s=entity.blaze.shoot;v=2;p=0.2} @Origin
+
+HerobrineSphereSkill_1_Missile_Prepare_Tick:
+  Skills:
+  - effect:particles{particle=dragonbreath;amount=3;speed=0.05;hS=0.1;vS=0.1;vd=20} @origin
+
+HerobrineSphereSkill_1_Missile_Prepare_End:
+  Skills:
+  - effect:particles{particle=dragonbreath;amount=3;speed=0.05;hS=0.1;vS=0.1;vd=20;repeat=12;repeatInterval=5} @origin
+  - delay 60
+  - sound{s=entity.cat.hiss;v=10;p=0.1} @origin
+  - missile{ot=HerobrineSphereSkill_1_Missile_Tick;oH=HerobrineSphereSkill_1_Missile_Hit;v=9;i=1;hR=1;vR=1;in=11;md=300;mr=200;sB=false;fo=true} @PIR{r=55}
+
+HerobrineSphereSkill_1_Missile_Tick:
+  Skills:
+  - effect:particles{particle=dragonbreath;amount=10;speed=0.05;hS=0.1;vS=0.1;vd=20} @origin
+
+HerobrineSphereSkill_1_Missile_Hit:
+  Skills:
+  - damage{amount=200}
+  - sound{s=entity.cat.hiss;v=10;p=1.4} @origin
+
+HerobrineSkill_7:
+  Conditions:
+  - offgcd
+  - hasaura Herobrine_Spawn false
+  Skills:
+  - gcd{ticks=160} @self
+  - message{m="<mob.name><&co> &3&oTa moc... Przepelnia mnie calego!"} @PlayersInRadius{r=40}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bHerobrine zmusza Sfere do Eksplozji Mocy";d=100} @PIR{r=40}
+  - delay 100
+  - signal{s=HEROBRINE_SPHERE_SIGNAL_2} @MIR{r=55;t=HerobrineSphereAdd}
+
+HerobrineSphereSkill_2:
+  Skills:
+  - projectile{onTick=HerobrineSphereSkill_2_Tick;onHit=HerobrineSphereSkill_2_Hit;v=9;i=1;hR=1.25;vR=1.25;mr=30;sB=false} @Ring{radius=5;points=3;yoffset=-20}
+  - delay 40
+  - projectile{onTick=HerobrineSphereSkill_2_Tick;onHit=HerobrineSphereSkill_2_Hit;v=12;i=1;hR=1.25;vR=1.25;mr=30;sB=false} @Ring{radius=10;points=6;yoffset=-20}
+  - delay 40
+  - projectile{onTick=HerobrineSphereSkill_2_Tick;onHit=HerobrineSphereSkill_2_Hit;v=15;i=1;hR=1.25;vR=1.25;mr=30;sB=false} @Ring{radius=15;points=9;yoffset=-20}
+
+HerobrineSphereSkill_2_Tick:
+  Skills:
+  - sound{s=entity.endermen.teleport;v=1;p=1.75} @origin
+  - effect:particles{particle=reddust;color=#8B008B;amount=5;speed=0.05;hS=0.3;vS=0.1} @origin
+  - effect:particles{particle=smoke;amount=5;speed=0.05;hS=0.7;vS=0.1} @origin
+
+HerobrineSphereSkill_2_Hit:
+  - damage{amount=190}
+  - sound{s=entity.blaze.shoot;v=2;p=0.7} @origin
+
+HerobrineSkill_8:
+  Conditions:
+  - offgcd
+  - hasaura Herobrine_Spawn false
+  Skills:
+  - gcd{ticks=160} @self
+  - message{m="<mob.name><&co> &3&oNic nie powstrzyma Chaosu przed wejsciem do Was!"} @PlayersInRadius{r=40}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bHerobrine zmusza Sfere do Erupcji Chaosu";d=100} @PIR{r=40}
+  - delay 100
+  - signal{s=HEROBRINE_SPHERE_SIGNAL_3} @MIR{r=55;t=HerobrineSphereAdd}
+
+HerobrineSphereSkill_3:
+  Skills:
+  - sound{s=entity.blaze.shoot;v=5;p=2;repeat=5;repeatInterval=20} @self
+  - projectile{oT=HerobrineSphereSkill_3-Tick;onHit=HerobrineSphereSkill_3-Hit;onEnd=HerobrineSphereSkill_3-End;v=17;i=1;hR=2;vR=2;mr=50;sB=false;g=2.1;vO=1.309;repeat=5;repeatInterval=20} @PIR{r=55}
+
+HerobrineSphereSkill_3-Tick:
+  Skills:
+  - sound{s=entity.endermen.teleport;v=1;p=1.75} @origin
+  - effect:particles{particle=reddust;color=#8B008B;amount=10;speed=0.05;hS=0.4;vS=0.4} @origin
+  - effect:particles{particle=smoke;amount=10;speed=0.05;hS=0.4;vS=0.4} @origin
+
+HerobrineSphereSkill_3-Hit:
+  Skills:
+  - sound{s=entity.endermen.hurt;v=10;p=0.7} @origin
+  - damage{amount=300}
+  - potion{type=BLINDNESS;duration=80;level=4}
+  - potion{type=SLOW;duration=80;level=2}
+
+HerobrineSkill_9:
+  Conditions:
+  - offgcd
+  - hasaura Herobrine_Spawn false
+  Skills:
+  - gcd{ticks=160} @self
+  - message{m="<mob.name><&co> &3&oTen swiat nalezy do mnie!"} @PlayersInRadius{r=40}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bHerobrine zmusza Sfere do Mostu Swiatow";d=100} @PIR{r=40}
+  - delay 100
+  - signal{s=HEROBRINE_SPHERE_SIGNAL_4} @MIR{r=55;t=HerobrineSphereAdd}
+
+HerobrineSphereSkill_4:
+  Skills:
+  - skill{s=HerobrineSphereSkill_4_Prepare} @PIR{r=55;limit=1;sort=RANDOM}
+
+HerobrineSphereSkill_4_Prepare:
+  Skills:
+  - effect:enderbeam{d=100;y=1}
+  - sound{s=entity.guardian.attack;v=10;p=2} @self
+  - delay 100
+  - damage{amount=140}
+  - summon{type=HerobrineSummon;amount=2;radius=3;os=true}
+
+HerobrineSkill_10:
+  Conditions:
+  - offgcd
+  - hasaura Herobrine_Spawn false
+  - hasaura Herobrine_Rings false
+  Skills:
+  - gcd{ticks=160} @self
+  - Aura{auraName=Herobrine_Rings;duration=260} @self
+  - message{m="<mob.name><&co> &3&oZabije Was!"} @PlayersInRadius{r=40}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bHerobrine zmusza Sfere do Ognistych Pierscieni";d=100} @PIR{r=40}
+  - delay 100
+  - signal{s=HEROBRINE_SPHERE_SIGNAL_5} @MIR{r=55;t=HerobrineSphereAdd}
+
+HerobrineSphereSkill_5:
+  Skills:
+  - orbital{onTick=HerobrineSphereSkill_5-Tick;onHit=HerobrineSphereSkill_5-Hit;points=23;interval=1;duration=200;r=3;hr=1;vr=10;rx=0;ry=1.5708} @Location{c=9.5,28,181.5}
+  - orbital{onTick=HerobrineSphereSkill_5-Tick;onHit=HerobrineSphereSkill_5-Hit;points=29;interval=1;duration=200;r=4;hr=1;vr=10;rx=-3.14;ry=2.708} @Location{c=2.5,27,164.5}
+  - orbital{onTick=HerobrineSphereSkill_5-Tick;onHit=HerobrineSphereSkill_5-Hit;points=33;interval=1;duration=200;r=2;hr=1;vr=10;rx=-3.14;ry=0} @Location{c=24.5,28,160.5}
+  - orbital{onTick=HerobrineSphereSkill_5-Tick;onHit=HerobrineSphereSkill_5-Hit;points=20;interval=1;duration=200;r=5;hr=1;vr=10;rx=0;ry=3.14} @Location{c=21.5,29,180.5}
+  - orbital{onTick=HerobrineSphereSkill_5-Tick;onHit=HerobrineSphereSkill_5-Hit;points=14;interval=1;duration=200;r=3;hr=1;vr=10;rx=0;ry=1} @Location{c=14.5,27,158.5}
+  - orbital{onTick=HerobrineSphereSkill_5-Tick;onHit=HerobrineSphereSkill_5-Hit;points=40;interval=1;duration=200;r=4;hr=1;vr=10;rx=-3.14;ry=-1} @Location{c=-5.5,28,177.5}
+
+HerobrineSphereSkill_5-Tick:
+  Skills:
+  - effect:particleline{particle=flame;amount=1;vd=10;fromOrigin=true;db=0.5} @self
+
+HerobrineSphereSkill_5-Hit:
+  Skills:
+  - damage{amount=185;pk=true}
+  - ignite{ticks=100}
+  - sound{s=entity.player.attack.strong;v=4;p=4} @Origin

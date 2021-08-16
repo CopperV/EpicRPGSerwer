@@ -1,0 +1,174 @@
+Orc_1_Weapon_1:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Krush_UrRok_Str 1 0.08
+  - Krush_Pach_Str 1 0.16
+Orc_1_Weapon_2:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Orkowa_Palka_Str 1 0.15
+  - Orkowa_Palka_Wytrz 1 0.15
+Orc_1_Weapon_3:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Drag_Morra_Str 1 0.12
+  - Drag_Mal_Str 1 0.15
+  - Drag_Mal_Wytrz 1 0.15
+Orc_2_Armor:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Orkowy_Pancerz_Str 1 0.07
+  - Orkowy_Pancerz_Wytrz 1 0.07
+  - Orkowa_Zbroja_Str 1 0.16
+  - Orkowa_Zbroja_Wytrz 1 0.16
+  - Orkowy_Helm_Str 1 0.18
+  - Orkowy_Helm_Wytrz 1 0.18
+Orc_2_Weapon_1:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Krush_BrokDar_Str 1 0.08
+  - Krush_Agash_Str 1 0.16
+Orc_2_Weapon_2:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Bash_Hatag_Str 1 0.09
+  - Bash_Vahur_Str 1 0.13
+Orc_2_Weapon_3:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Drag_Nimrod_Str 1 0.08
+  - Drag_Morra_Str 1 0.15
+  - Drag_Mal_Str 1 0.18
+  - Drag_Mal_Wytrz 1 0.18
+Orc_2_OSA:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Szamanska_Szata_Int 1 0.08
+  - Szamanska_Szata_Mana 1 0.08
+  - Orkowa_Toga_Mana 1 0.15
+  - Orkowa_Toga_Int 1 0.15
+  - Zaklete_Buty_Mana 1 0.17
+Orc_2_OSW:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - ShaBaNakk_Int 1 0.09
+  - Grachtnakk_Int 1 0.18
+Orc_2_Runes:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - MalaBlyskawica 1 0.14
+  - Pirokineza 1 0.12
+  - Haduoken 1 0.11
+  - Blyskawica 1 0.08
+  - KulaOgnia 1 0.01
+Orc_2_GOW:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Krush_BrokDar_Str 1 0.08
+  - Krush_UrRok_Str 1 0.12
+  - Krush_Agash_Str 1 0.16
+  - Krush_Pach_Str 1 0.19
+Orc_2_GSA:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Orkowa_Toga_Mana 1 0.17
+  - Orkowa_Toga_Int 1 0.17
+Orc_2_GRunes:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - KulaOgnia 1 0.01
+  - Pirokineza 1 0.12
+  - OgnistaStrzala 1 0.14
+Orc_3_Armor:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Orkowy_Pancerz_Wojenny_Wytrz 1 0.06
+  - Orkowy_Pancerz_Str 1 0.06
+  - Orkowy_Pancerz_Wytrz 1 0.06
+  - Uzbrojenie_Orka_Wytrz 1 0.07
+  - Orkowa_Zbroja_Str 1 0.1
+  - Orkowa_Zbroja_Wytrz 1 0.1
+  - Buty_Wojenne_Wytrz 1 0.11
+  - Buty_Wojenne_Str 1 0.11
+  - Orkowy_Helm_Str 1 0.12
+  - Orkowy_Helm_Wytrz 1 0.12
+  - Pancerz_Orka_Wytrz 1 0.14
+Orc_3_Weapon_1:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Ogromny_Orkowy_Miecz_Wojenny_Str 1 0.02
+  - Bash_Daggar_Str 1 0.04
+  - Orkowy_Miecz_Wojenny_Str 1 0.09
+Orc_3_Weapon_2:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Krash_Morra_Str 1 0.04
+  - Drag_Nimrod_Str 1 0.11
+  - Drag_Morra_Str 1 0.21
+  - Drag_Mal_Str 1 0.23
+  - Drag_Mal_Wytrz 1 0.23
+Orc_Boss_1:
+  MinItems: 0
+  MaxItems: 7
+  Drops:
+  - Orkowy_Miecz_Wojenny_Str 1 0.22
+  - Orkowy_Pancerz_Wojenny_Wytrz 1 0.2
+  - Ogromny_Orkowy_Miecz_Wojenny_Str 1 0.09
+  - Bash_Vahur_Str 1 0.32
+  - Bash_Hatag_Str 1 0.28
+  - Bash_Daggar_Str 1 0.07
+  - Krush_Agash_Str 1 0.38
+  - Krush_BrokDar_Str 1 0.25
+  - Krush_Pach_Str 1 0.42
+  - Krush_UrRok_Str 1 0.29
+  - Buty_Generala_Wytrz 1 0.1
+  - Pancerz_Generala_Wytrz 1 0.08
+  - Zbroja_Generala_Wytrz 1 0.06
+  - Orkowa_Zbroja_Str 1 0.37
+  - Orkowa_Zbroja_Wytrz 1 0.37
+  - Orkowy_Helm_Str 1 0.43
+  - Orkowy_Helm_Wytrz 1 0.43
+  - Orkowy_Pancerz_Str 1 0.25
+  - Orkowy_Pancerz_Wytrz 1 0.25
+  - Pancerz_Orka_Wytrz 1 0.31
+  - Buty_Wojenne_Str 1 0.38
+  - Buty_Wojenne_Wytrz 1 0.38
+  - Uzbrojenie_Orka_Wytrz 1 0.19
+Orc_Boss_2:
+  MinItems: 0
+  MaxItems: 3
+  Drops:
+  - Grachtnakk_Int 1 0.45
+  - Orkowa_Toga_Int 1 0.42
+  - Orkowa_Toga_Mana 1 0.42
+  - Zaklete_Buty_Mana 1 0.51
+  - ShaBaNakk_Int 1 0.33
+  - Szamanska_Szata_Int 1 0.3
+  - Szamanska_Szata_Mana 1 0.3
+Orc_Boss_3:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Ognisty_korzen 1 0.04
+  - Bagienne_Ziele 1 0.04
+  - Ognista_jagoda 1 0.04
+  - Ziele_pancerza 1 0.04
+  - Goblinska_jagoda 1 0.04
+  - Goblinie_ziele 1 0.04
+  - Dragrot 1 0.04

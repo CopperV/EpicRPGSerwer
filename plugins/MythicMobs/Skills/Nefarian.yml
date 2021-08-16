@@ -182,7 +182,7 @@ Nefarian2Spawn:
   - delay 40
 NefarianDeath:
   Skills:
-  - message{m="&b&lNie! NIE! Zniszcze cie!"} @PlayersOnServer
+  - message{m="&b&lNie! NIE! Zniszcze cie!"} @PlayersInWorld
   - message{m="&b&lMacie 30 sekund na zebranie dropu!"} @PlayersInRadius{r=100}
   - message{m="&b&lPo tym czasie zostaniecie przeteleportowani na spawn!"} @PlayersInRadius{r=100}
   - message{m="&6&lNefarian zostal pokonany!"} @PlayersOnServer
@@ -448,6 +448,6 @@ Nefarian2-End2:
   - ignite{ticks=600} @PlayersNearOrigin{r=2}
 NefarianRemove:
   Conditions:
-  - playerwithin{d=105} false
+  - playerwithin{d=125} false
   Skills:
   - remove @self

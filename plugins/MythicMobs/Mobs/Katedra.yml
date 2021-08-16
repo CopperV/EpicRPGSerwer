@@ -44,8 +44,6 @@ Azmodan:
   - 2 float
   - 3 opendoors
   - 3 closedoors
-  Drops:
-  - Szczaw_Krolewski 1 0.05
 AzmodanSummon:
   Type: zombie
   Health: 3250
@@ -159,8 +157,6 @@ Mefisto:
   - 2 float
   - 3 opendoors
   - 3 closedoors
-  Drops:
-  - Szczaw_Krolewski 1 0.05
 MefistoSummon:
   Type: zombie
   Display: "&8&oUtrapiona dusza - BOSS"
@@ -200,8 +196,6 @@ MefistoSummon:
   - 2 float
   - 3 opendoors
   - 3 closedoors
-  Drops:
-  - Szczaw_Krolewski 1 0.05
 MefistoProjectile:
   Type: villager
   Health: 10000
@@ -276,8 +270,6 @@ Eden:
   - 2 float
   - 3 opendoors
   - 3 closedoors
-  Drops:
-  - Szczaw_Krolewski 1 0.05
 EdenBook:
   Type: zombie
   Display: "&5Zakleta ksiazka"
@@ -388,8 +380,6 @@ Ender:
   - 2 float
   - 3 opendoors
   - 3 closedoors
-  Drops:
-  - Szczaw_Krolewski 1 0.05
 EnderSummon:
   Type: zombie
   Display: "&5Ender - BOSS"
@@ -495,8 +485,6 @@ Ur-Vatah:
   - 2 float
   - 3 opendoors
   - 3 closedoors
-  Drops:
-  - Szczaw_Krolewski 1 0.05
 Ur-VatahSummon:
   Type: zombie
   Display: "&b&oStraznik Sanktuarium"
@@ -613,8 +601,6 @@ Dakat:
   - 2 float
   - 3 opendoors
   - 3 closedoors
-  Drops:
-  - Szczaw_Krolewski 1 0.05
 DakatSummon:
   Type: skeleton
   Display: "&7Szkielet Wojownik"
@@ -695,8 +681,6 @@ Kadar:
   - 2 float
   - 3 opendoors
   - 3 closedoors
-  Drops:
-  - Szczaw_Krolewski 1 0.05
 KadarSummon:
   Type: zombie
   Display: "&c&lPlomyk Pustki"
@@ -786,8 +770,6 @@ Senga:
   - 2 float
   - 3 opendoors
   - 3 closedoors
-  Drops:
-  - Szczaw_Krolewski 1 0.05
 SengaSummon:
   Type: skeleton
   Display: "&8Pan Cienia"
@@ -875,8 +857,6 @@ Surtur:
   - 2 float
   - 3 opendoors
   - 3 closedoors
-  Drops:
-  - Szczaw_Krolewski 1 0.05
 SurturTornado:
   Type: Villager
   Health: 10000
@@ -993,8 +973,6 @@ Avabyul:
   - 2 float
   - 3 opendoors
   - 3 closedoors
-  Drops:
-  - Szczaw_Krolewski 1 0.05
 AvabyulPortal:
   Type: sheep
   Display: "&5Portal Beliara"
@@ -1139,8 +1117,6 @@ Golem_Pustki:
   - 2 float
   - 3 opendoors
   - 3 closedoors
-  Drops:
-  - Szczaw_Krolewski 1 0.05
 Golem_Pustki_Rock:
   Type: villager
   Health: 10000
@@ -1250,8 +1226,6 @@ Chel_Drak:
   - 2 float
   - 3 opendoors
   - 3 closedoors
-  Drops:
-  - Szczaw_Krolewski 1 0.05
 Chel_Drak_Herobrine:
   Type: villager
   Display: "&9&lHerobrine - Legendary Boss"
@@ -1420,8 +1394,6 @@ Tiamant:
   - 2 float
   - 3 opendoors
   - 3 closedoors
-  Drops:
-  - Szczaw_Krolewski 1 0.05
 TiamantSummon:
   Type: zombie
   Display: "&5Assasyn Pustki"
@@ -1511,8 +1483,6 @@ Osair:
   - 2 float
   - 3 opendoors
   - 3 closedoors
-  Drops:
-  - Szczaw_Krolewski 1 0.05
 OsairSummon:
   Type: zombie
   Display: "&5Cien Masjafu"
@@ -1597,8 +1567,6 @@ Nrozas:
   - 2 float
   - 3 opendoors
   - 3 closedoors
-  Drops:
-  - Szczaw_Krolewski 1 0.05
 NrozasDragon:
   Type: silverfish
   Health: 10000
@@ -1752,8 +1720,6 @@ Haniar:
   - 2 float
   - 3 opendoors
   - 3 closedoors
-  Drops:
-  - Szczaw_Krolewski 1 0.05
 HaniarSummon2:
   Type: villager
   Health: 10000
@@ -1867,8 +1833,6 @@ Oriana:
   - 2 float
   - 3 opendoors
   - 3 closedoors
-  Drops:
-  - Szczaw_Krolewski 1 0.05
 OrianaBat:
   Type: parrot
   Display: "&5Nietoperzy Wampir"
@@ -1951,8 +1915,6 @@ Antramentor:
   - 2 float
   - 3 opendoors
   - 3 closedoors
-  Drops:
-  - Szczaw_Krolewski 1 0.05
 Antramentor_Rock:
   Type: villager
   Health: 10000
@@ -2109,8 +2071,6 @@ Grashaal:
   - 2 float
   - 3 opendoors
   - 3 closedoors
-  Drops:
-  - Szczaw_Krolewski 1 0.05
 GrashaalProjectile:
   Type: villager
   Health: 10000
@@ -2188,8 +2148,6 @@ Kaal:
   - 2 float
   - 3 opendoors
   - 3 closedoors
-  Drops:
-  - Szczaw_Krolewski 1 0.05
 KaalSummon:
   Type: zombie
   Display: "&8Komandos Kamiennego Legionu"

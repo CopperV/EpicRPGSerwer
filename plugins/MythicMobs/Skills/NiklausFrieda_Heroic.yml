@@ -1,16 +1,16 @@
 # 
 # These example files show you some VERY basic meta skills.
 # You can copy and expand them however you'd like.
-NiklausSpawn:
+Niklaus_H_Spawn:
   Skills:
   - message{m="<mob.name><&co> &6Patrz Friedo. Mamy gosci."} @PlayersInRadius{r=30}
   - delay 30
   - message{m="<mob.name><&co> &6Trzeba sie nimi zajac."} @PlayersInRadius{r=30}
   - delay 30
   - threat{amount=100} @NearestPlayer
-  - signal{s=FriedaSpawn} @MobsInRadius{r=100;t=Frieda}
+  - signal{s=Frieda_H_Spawn} @MobsInRadius{r=100;t=Frieda_H}
 
-FriedaSpawn:
+Frieda_H_Spawn:
   Skills:
   - message{m="<mob.name><&co> &6Moi drodzy goscie."} @PlayersInRadius{r=30}
   - delay 30
@@ -18,29 +18,31 @@ FriedaSpawn:
   - delay 30
   - threat{amount=100} @NearestPlayer
 
-NiklausDeath:
+Niklaus_H_Death:
   Skills:
-  - signal{s=FriedaReact} @MobsInRadius{r=100;t=Frieda}
+  - signal{s=Frieda_H_React} @MobsInRadius{r=100;t=Frieda_H}
 
-FriedaReact:
+Frieda_H_React:
   Skills:
+  - setmaxhealth{amount=100000;mode=STATIC} @self
   - healpercent{m=1} @self
   - effect:particles{p=heart;amount=15;speed=0.15;hS=0.3;vS=0.3;y=1} @self
   - effect:particles{p=angryVillager;amount=15;speed=0.15;hS=0.3;vS=0.3;y=1} @self
   - message{m="<mob.name><&co> &6Nie... Kochanie... ZAPLACICIE ZA TO!"} @PlayersInRadius{r=30}
 
-FriedaDeath:
+Frieda_H_Death:
   Skills:
-  - signal{s=NiklausReact} @MobsInRadius{r=100;t=Niklaus}
+  - signal{s=Niklaus_H_React} @MobsInRadius{r=100;t=Niklaus_H}
 
-NiklausReact:
+Niklaus_H_React:
   Skills:
+  - setmaxhealth{amount=100000;mode=STATIC} @self
   - healpercent{m=1} @self
   - effect:particles{p=heart;amount=15;speed=0.15;hS=0.3;vS=0.3;y=1} @self
   - effect:particles{p=angryVillager;amount=15;speed=0.15;hS=0.3;vS=0.3;y=1} @self
   - message{m="<mob.name><&co> &6Najdrozsza... Co oni Ci zrobili?!"} @PlayersInRadius{r=30}
 
-NiklausSkill_1:
+Niklaus_H_Skill_1:
   Conditions:
   - offgcd
   Skills:
@@ -48,82 +50,83 @@ NiklausSkill_1:
   - message{m="<mob.name><&co> &6Moi drodzy przyjaciele! Obsluzcie naszych gosci!"} @PlayersInRadius{r=30}
   - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bNiklaus przygotowuje Lokajow Twierdzy!";d=100} @PIR{r=30}
   - delay 100
-  - randomskill{skills=NiklausSummonLoc1,NiklausSummonLoc2,NiklausSummonLoc3,NiklausSummonLoc4,NiklausSummonLoc5,NiklausSummonLoc6,NiklausSummonLoc7,NiklausSummonLoc8,NiklausSummonLoc9,NiklausSummonLoc10,NiklausSummonLoc11,NiklausSummonLoc12,NiklausSummonLoc13,NiklausSummonLoc14}
-  - randomskill{skills=NiklausSummonLoc1,NiklausSummonLoc2,NiklausSummonLoc3,NiklausSummonLoc4,NiklausSummonLoc5,NiklausSummonLoc6,NiklausSummonLoc7,NiklausSummonLoc8,NiklausSummonLoc9,NiklausSummonLoc10,NiklausSummonLoc11,NiklausSummonLoc12,NiklausSummonLoc13,NiklausSummonLoc14}
-  - randomskill{skills=NiklausSummonLoc1,NiklausSummonLoc2,NiklausSummonLoc3,NiklausSummonLoc4,NiklausSummonLoc5,NiklausSummonLoc6,NiklausSummonLoc7,NiklausSummonLoc8,NiklausSummonLoc9,NiklausSummonLoc10,NiklausSummonLoc11,NiklausSummonLoc12,NiklausSummonLoc13,NiklausSummonLoc14}
-  - randomskill{skills=NiklausSummonLoc1,NiklausSummonLoc2,NiklausSummonLoc3,NiklausSummonLoc4,NiklausSummonLoc5,NiklausSummonLoc6,NiklausSummonLoc7,NiklausSummonLoc8,NiklausSummonLoc9,NiklausSummonLoc10,NiklausSummonLoc11,NiklausSummonLoc12,NiklausSummonLoc13,NiklausSummonLoc14}
+  - randomskill{skills=Niklaus_H_SummonLoc1,Niklaus_H_SummonLoc2,Niklaus_H_SummonLoc3,Niklaus_H_SummonLoc4,Niklaus_H_SummonLoc5,Niklaus_H_SummonLoc6,Niklaus_H_SummonLoc7,Niklaus_H_SummonLoc8,Niklaus_H_SummonLoc9,Niklaus_H_SummonLoc10,Niklaus_H_SummonLoc11,Niklaus_H_SummonLoc12,Niklaus_H_SummonLoc13,Niklaus_H_SummonLoc14}
+  - randomskill{skills=Niklaus_H_SummonLoc1,Niklaus_H_SummonLoc2,Niklaus_H_SummonLoc3,Niklaus_H_SummonLoc4,Niklaus_H_SummonLoc5,Niklaus_H_SummonLoc6,Niklaus_H_SummonLoc7,Niklaus_H_SummonLoc8,Niklaus_H_SummonLoc9,Niklaus_H_SummonLoc10,Niklaus_H_SummonLoc11,Niklaus_H_SummonLoc12,Niklaus_H_SummonLoc13,Niklaus_H_SummonLoc14}
+  - randomskill{skills=Niklaus_H_SummonLoc1,Niklaus_H_SummonLoc2,Niklaus_H_SummonLoc3,Niklaus_H_SummonLoc4,Niklaus_H_SummonLoc5,Niklaus_H_SummonLoc6,Niklaus_H_SummonLoc7,Niklaus_H_SummonLoc8,Niklaus_H_SummonLoc9,Niklaus_H_SummonLoc10,Niklaus_H_SummonLoc11,Niklaus_H_SummonLoc12,Niklaus_H_SummonLoc13,Niklaus_H_SummonLoc14}
+  - randomskill{skills=Niklaus_H_SummonLoc1,Niklaus_H_SummonLoc2,Niklaus_H_SummonLoc3,Niklaus_H_SummonLoc4,Niklaus_H_SummonLoc5,Niklaus_H_SummonLoc6,Niklaus_H_SummonLoc7,Niklaus_H_SummonLoc8,Niklaus_H_SummonLoc9,Niklaus_H_SummonLoc10,Niklaus_H_SummonLoc11,Niklaus_H_SummonLoc12,Niklaus_H_SummonLoc13,Niklaus_H_SummonLoc14}
+  - randomskill{skills=Niklaus_H_SummonLoc1,Niklaus_H_SummonLoc2,Niklaus_H_SummonLoc3,Niklaus_H_SummonLoc4,Niklaus_H_SummonLoc5,Niklaus_H_SummonLoc6,Niklaus_H_SummonLoc7,Niklaus_H_SummonLoc8,Niklaus_H_SummonLoc9,Niklaus_H_SummonLoc10,Niklaus_H_SummonLoc11,Niklaus_H_SummonLoc12,Niklaus_H_SummonLoc13,Niklaus_H_SummonLoc14}
 
-NiklausSummonLoc1:
+Niklaus_H_SummonLoc1:
   Skills:
-  - summon{type=NiklausSummon;amount=1;radius=0} @Location{c=-1893.5,97,1305.5,0,0}
+  - summon{type=Niklaus_H_Summon;amount=1;radius=0} @Location{c=-1893.5,97,1305.5,0,0}
 
-NiklausSummonLoc2:
+Niklaus_H_SummonLoc2:
   Skills:
-  - summon{type=NiklausSummon;amount=1;radius=0} @Location{c=-1883.5,97,1305.5,0,0}
+  - summon{type=Niklaus_H_Summon;amount=1;radius=0} @Location{c=-1883.5,97,1305.5,0,0}
 
-NiklausSummonLoc3:
+Niklaus_H_SummonLoc3:
   Skills:
-  - summon{type=NiklausSummon;amount=1;radius=0} @Location{c=-1873.5,97,1305.5,0,0}
+  - summon{type=Niklaus_H_Summon;amount=1;radius=0} @Location{c=-1873.5,97,1305.5,0,0}
 
-NiklausSummonLoc4:
+Niklaus_H_SummonLoc4:
   Skills:
-  - summon{type=NiklausSummon;amount=1;radius=0} @Location{c=-1863.5,97,1305.5,0,0}
+  - summon{type=Niklaus_H_Summon;amount=1;radius=0} @Location{c=-1863.5,97,1305.5,0,0}
 
-NiklausSummonLoc5:
+Niklaus_H_SummonLoc5:
   Skills:
-  - summon{type=NiklausSummon;amount=1;radius=0} @Location{c=-1853.5,97,1305.5,0,0}
+  - summon{type=Niklaus_H_Summon;amount=1;radius=0} @Location{c=-1853.5,97,1305.5,0,0}
 
-NiklausSummonLoc6:
+Niklaus_H_SummonLoc6:
   Skills:
-  - summon{type=NiklausSummon;amount=1;radius=0} @Location{c=-1843.5,97,1305.5,0,0}
+  - summon{type=Niklaus_H_Summon;amount=1;radius=0} @Location{c=-1843.5,97,1305.5,0,0}
 
-NiklausSummonLoc7:
+Niklaus_H_SummonLoc7:
   Skills:
-  - summon{type=NiklausSummon;amount=1;radius=0} @Location{c=-1833.5,97,1305.5,0,0}
+  - summon{type=Niklaus_H_Summon;amount=1;radius=0} @Location{c=-1833.5,97,1305.5,0,0}
 
-NiklausSummonLoc8:
+Niklaus_H_SummonLoc8:
   Skills:
-  - summon{type=NiklausSummon;amount=1;radius=0} @Location{c=-1833.5,97,1313.5,0,0}
+  - summon{type=Niklaus_H_Summon;amount=1;radius=0} @Location{c=-1833.5,97,1313.5,0,0}
 
-NiklausSummonLoc9:
+Niklaus_H_SummonLoc9:
   Skills:
-  - summon{type=NiklausSummon;amount=1;radius=0} @Location{c=-1833.5,97,1313.5,0,0}
+  - summon{type=Niklaus_H_Summon;amount=1;radius=0} @Location{c=-1833.5,97,1313.5,0,0}
 
-NiklausSummonLoc10:
+Niklaus_H_SummonLoc10:
   Skills:
-  - summon{type=NiklausSummon;amount=1;radius=0} @Location{c=-1833.5,97,1313.5,0,0}
+  - summon{type=Niklaus_H_Summon;amount=1;radius=0} @Location{c=-1833.5,97,1313.5,0,0}
 
-NiklausSummonLoc11:
+Niklaus_H_SummonLoc11:
   Skills:
-  - summon{type=NiklausSummon;amount=1;radius=0} @Location{c=-1833.5,97,1313.5,0,0}
+  - summon{type=Niklaus_H_Summon;amount=1;radius=0} @Location{c=-1833.5,97,1313.5,0,0}
 
-NiklausSummonLoc12:
+Niklaus_H_SummonLoc12:
   Skills:
-  - summon{type=NiklausSummon;amount=1;radius=0} @Location{c=-1833.5,97,1313.5,0,0}
+  - summon{type=Niklaus_H_Summon;amount=1;radius=0} @Location{c=-1833.5,97,1313.5,0,0}
 
-NiklausSummonLoc13:
+Niklaus_H_SummonLoc13:
   Skills:
-  - summon{type=NiklausSummon;amount=1;radius=0} @Location{c=-1833.5,97,1313.5,0,0}
+  - summon{type=Niklaus_H_Summon;amount=1;radius=0} @Location{c=-1833.5,97,1313.5,0,0}
 
-NiklausSummonLoc14:
+Niklaus_H_SummonLoc14:
   Skills:
-  - summon{type=NiklausSummon;amount=1;radius=0} @Location{c=-1833.5,97,1313.5,0,0}
+  - summon{type=Niklaus_H_Summon;amount=1;radius=0} @Location{c=-1833.5,97,1313.5,0,0}
 
-NiklausSummon_Phase1:
+Niklaus_H_Summon_Phase1:
   Conditions:
-  - mobsInRadius{types=Niklaus;amount=1;radius=80} false
+  - mobsInRadius{types=Niklaus_H;amount=1;radius=80} false
   Skills:
   - potion{type=SPEED;duration=20;level=1} @self
 
-NiklausSummon_Phase2:
+Niklaus_H_Summon_Phase2:
   Conditions:
-  - mobsInRadius{types=Frieda;amount=1;radius=80} false
+  - mobsInRadius{types=Frieda_H;amount=1;radius=80} false
   Skills:
   - CancelEvent
   - sound{s=entity.enderdragon.growl;v=3;p=1.5} @self
-  - damage{a=200} @trigger
+  - damage{a=220} @trigger
 
-NiklausSkill_2:
+Niklaus_H_Skill_2:
   Conditions:
   - offgcd
   Skills:
@@ -132,51 +135,49 @@ NiklausSkill_2:
   - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bNiklaus przygotowuje Kule Disco!";d=100} @PIR{r=30}
   - delay 100
   - sound{s=entity.blaze.shoot;v=3;p=1.9} @self
-  - projectile{onTick=NiklausSkill2-Tick;onEnd=NiklausSkill2-End;v=7;i=1;hR=0.9;vR=0.9;mr=10;sB=false;sE=false;hp=false} @Forward{f=0;y=10}
+  - projectile{onTick=Niklaus_H_Skill2-Tick;onEnd=Niklaus_H_Skill2-End;v=7;i=1;hR=0.9;vR=0.9;mr=10;sB=false;sE=false;hp=false} @Forward{f=0;y=10}
 
-NiklausSkill2-Tick:
+Niklaus_H_Skill2-Tick:
   Skills:
   - effect:particles{particle=heart;amount=10;speed=0.05;hS=0.2;vS=0.2} @origin
 
-NiklausSkill2-End:
+Niklaus_H_Skill2-End:
   Skills:
-  - missile{ot=NiklausSkill2-Tick;oH=NiklausMissile_Hit;v=7;i=1;hR=0.75;vR=0.75;in=7;md=200;mr=90;sB=false;fo=true} @PlayersInRadius{r=60;limit=1;sort=RANDOM}
+  - missile{ot=Niklaus_H_Skill2-Tick;oH=Niklaus_H_Missile_Hit;v=8;i=1;hR=0.75;vR=0.75;in=7;md=200;mr=90;sB=false;fo=true} @PlayersInRadius{r=60;limit=1;sort=RANDOM}
   - sound{s=entity.blaze.shoot;v=3;p=0.1} @self
 
-NiklausMissile_Hit:
+Niklaus_H_Missile_Hit:
   Skills:
   - damage{a=170}
   - effect:particles{particle=largesmoke;amount=25;speed=0.15;hS=0.6;vS=0.6;y=1} @origin
   - effect:sound{s=entity.generic.explode;v=1;p=0.2} @origin
 
-NiklausWir-Tick:
+Niklaus_H_Wir-Tick:
   Skills:
   - effect:particles{p=smoke;amount=5;speed=0.05;hS=0.1;vS=0.1} @origin
-NiklausWir-Hit:
+Niklaus_H_Wir-Hit:
   Skills:
-  - damage{amount=160} @PlayersNearOrigin{r=1.5}
+  - damage{amount=175} @PlayersNearOrigin{r=1.5}
   - sound{s=entity.player.attack.strong;v=4;p=4} @Origin
   - throw{velocity=5;velocityY=2} @PlayersNearOrigin{r=1.5}
 
-NiklausSkill2_Defense:
+Niklaus_H_Skill2_Defense:
   Conditions:
-  - hasaura NiklausDefense true
+  - hasaura Niklaus_H_Defense true
   Skills:
-  - damage{amount=180} @trigger
+  - damage{amount=200} @trigger
   - sound{s=entity.player.attack.strong;v=4;p=4} @TriggerLocation
   - heal{amount=500} @self
 
-NiklausSkill_3:
+Niklaus_H_Skill_3:
   Conditions:
-  - mobsInRadius{types=Frieda;amount=1;radius=80} false
-  - offgcd
+  - mobsInRadius{types=Frieda_H;amount=1;radius=80} false
   Skills:
-  - gcd{ticks=160} @self
   - message{m="<mob.name><&co> &6Ta zabawa wkrotce sie skonczy!"} @PlayersInRadius{r=30}
   - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bNiklaus przygotowuje Upijna uczta!";d=100} @PIR{r=30}
-  - skill{s=NiklausSkill_3_Effect} @PlayersInRadius{r=50;limit=2;sort=RANDOM}
+  - skill{s=Niklaus_H_Skill_3_Effect} @PlayersInRadius{r=50;limit=2;sort=RANDOM}
 
-NiklausSkill_3_Effect:
+Niklaus_H_Skill_3_Effect:
   Skills:
   - effect:particlering{particle=heart;vd=20;radius=1;points=4;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=2;points=8;amount=1;y=0.1}
@@ -184,6 +185,7 @@ NiklausSkill_3_Effect:
   - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=6;points=24;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=7;points=28;amount=1;y=0.1}
   - delay 5
   - effect:particlering{particle=heart;vd=20;radius=1;points=4;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=2;points=8;amount=1;y=0.1}
@@ -191,6 +193,7 @@ NiklausSkill_3_Effect:
   - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=6;points=24;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=7;points=28;amount=1;y=0.1}
   - delay 5
   - effect:particlering{particle=heart;vd=20;radius=1;points=4;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=2;points=8;amount=1;y=0.1}
@@ -198,6 +201,7 @@ NiklausSkill_3_Effect:
   - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=6;points=24;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=7;points=28;amount=1;y=0.1}
   - delay 5
   - effect:particlering{particle=heart;vd=20;radius=1;points=4;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=2;points=8;amount=1;y=0.1}
@@ -205,6 +209,7 @@ NiklausSkill_3_Effect:
   - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=6;points=24;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=7;points=28;amount=1;y=0.1}
   - delay 5
   - effect:particlering{particle=heart;vd=20;radius=1;points=4;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=2;points=8;amount=1;y=0.1}
@@ -212,6 +217,7 @@ NiklausSkill_3_Effect:
   - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=6;points=24;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=7;points=28;amount=1;y=0.1}
   - delay 5
   - effect:particlering{particle=heart;vd=20;radius=1;points=4;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=2;points=8;amount=1;y=0.1}
@@ -219,6 +225,7 @@ NiklausSkill_3_Effect:
   - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=6;points=24;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=7;points=28;amount=1;y=0.1}
   - delay 5
   - effect:particlering{particle=heart;vd=20;radius=1;points=4;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=2;points=8;amount=1;y=0.1}
@@ -226,6 +233,7 @@ NiklausSkill_3_Effect:
   - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=6;points=24;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=7;points=28;amount=1;y=0.1}
   - delay 5
   - effect:particlering{particle=heart;vd=20;radius=1;points=4;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=2;points=8;amount=1;y=0.1}
@@ -233,6 +241,7 @@ NiklausSkill_3_Effect:
   - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=6;points=24;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=7;points=28;amount=1;y=0.1}
   - delay 5
   - effect:particlering{particle=heart;vd=20;radius=1;points=4;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=2;points=8;amount=1;y=0.1}
@@ -240,6 +249,7 @@ NiklausSkill_3_Effect:
   - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=6;points=24;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=7;points=28;amount=1;y=0.1}
   - delay 5
   - effect:particlering{particle=heart;vd=20;radius=1;points=4;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=2;points=8;amount=1;y=0.1}
@@ -247,6 +257,7 @@ NiklausSkill_3_Effect:
   - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=6;points=24;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=7;points=28;amount=1;y=0.1}
   - delay 5
   - effect:particlering{particle=heart;vd=20;radius=1;points=4;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=2;points=8;amount=1;y=0.1}
@@ -254,6 +265,7 @@ NiklausSkill_3_Effect:
   - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=6;points=24;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=7;points=28;amount=1;y=0.1}
   - delay 5
   - effect:particlering{particle=heart;vd=20;radius=1;points=4;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=2;points=8;amount=1;y=0.1}
@@ -261,6 +273,7 @@ NiklausSkill_3_Effect:
   - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=6;points=24;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=7;points=28;amount=1;y=0.1}
   - delay 5
   - effect:particlering{particle=heart;vd=20;radius=1;points=4;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=2;points=8;amount=1;y=0.1}
@@ -268,6 +281,7 @@ NiklausSkill_3_Effect:
   - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=6;points=24;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=7;points=28;amount=1;y=0.1}
   - delay 5
   - effect:particlering{particle=heart;vd=20;radius=1;points=4;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=2;points=8;amount=1;y=0.1}
@@ -275,6 +289,7 @@ NiklausSkill_3_Effect:
   - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=6;points=24;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=7;points=28;amount=1;y=0.1}
   - delay 5
   - effect:particlering{particle=heart;vd=20;radius=1;points=4;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=2;points=8;amount=1;y=0.1}
@@ -282,6 +297,7 @@ NiklausSkill_3_Effect:
   - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=6;points=24;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=7;points=28;amount=1;y=0.1}
   - delay 5
   - effect:particlering{particle=heart;vd=20;radius=1;points=4;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=2;points=8;amount=1;y=0.1}
@@ -289,6 +305,7 @@ NiklausSkill_3_Effect:
   - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=6;points=24;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=7;points=28;amount=1;y=0.1}
   - delay 5
   - effect:particlering{particle=heart;vd=20;radius=1;points=4;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=2;points=8;amount=1;y=0.1}
@@ -296,6 +313,7 @@ NiklausSkill_3_Effect:
   - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=6;points=24;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=7;points=28;amount=1;y=0.1}
   - delay 5
   - effect:particlering{particle=heart;vd=20;radius=1;points=4;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=2;points=8;amount=1;y=0.1}
@@ -303,6 +321,7 @@ NiklausSkill_3_Effect:
   - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=6;points=24;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=7;points=28;amount=1;y=0.1}
   - delay 5
   - effect:particlering{particle=heart;vd=20;radius=1;points=4;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=2;points=8;amount=1;y=0.1}
@@ -310,6 +329,7 @@ NiklausSkill_3_Effect:
   - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=6;points=24;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=7;points=28;amount=1;y=0.1}
   - delay 5
   - effect:particlering{particle=heart;vd=20;radius=1;points=4;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=2;points=8;amount=1;y=0.1}
@@ -317,30 +337,29 @@ NiklausSkill_3_Effect:
   - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=6;points=24;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=7;points=28;amount=1;y=0.1}
   - delay 5
-  - summon{mob=NiklausHurtMob;amount=1;radius=0}
+  - summon{mob=Niklaus_H_HurtMob;amount=1;radius=0}
 
-NiklausHurtMob_Skill:
+Niklaus_H_HurtMob_Skill:
   Skills:
   - delay 1
   - sound{s=entity.splash_potion.break;v=1;p=0.1} @self
-  - damage{amount=250} @PIR{r=6}
+  - damage{amount=265} @PIR{r=7}
   - effect:particles{p=heart;amount=15;speed=0.15;hS=0.55;vS=0.55;y=1} @self
   - effect:particles{p=angryVillager;amount=15;speed=0.15;hS=0.55;vS=0.55;y=1} @self
   - delay 1
   - remove @self
 
-NiklausSkill_4:
+Niklaus_H_Skill_4:
   Conditions:
-  - mobsInRadius{types=Frieda;amount=1;radius=80} false
-  - offgcd
+  - mobsInRadius{types=Frieda_H;amount=1;radius=80} false
   Skills:
-  - gcd{ticks=160} @self
   - message{m="<mob.name><&co> &6Zaplacicie za smierc Friedy!"} @PlayersInRadius{r=30}
   - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bNiklaus przygotowuje Krag Nienawisci!";d=100} @PIR{r=30}
-  - skill{s=NiklausSkill_4_Effect} @PlayersInRadius{r=50;limit=4;sort=RANDOM}
+  - skill{s=Niklaus_H_Skill_4_Effect} @PlayersInRadius{r=50}
 
-NiklausSkill_4_Effect:
+Niklaus_H_Skill_4_Effect:
   Skills:
   - effect:particlering{particle=angryVillager;vd=20;radius=7;points=28;amount=1;y=0.1}
   - delay 5
@@ -382,14 +401,14 @@ NiklausSkill_4_Effect:
   - delay 5
   - effect:particlering{particle=angryVillager;vd=20;radius=7;points=28;amount=1;y=0.1}
   - delay 5
-  - summon{mob=NiklausHurtMob2;amount=1;radius=0}
+  - summon{mob=Niklaus_H_HurtMob2;amount=1;radius=0}
 
-NiklausHurtMob_Skil2:
+Niklaus_H_HurtMob_Skil2:
   Skills:
   - delay 1
   - effect:particlering{particle=heart;vd=20;radius=7;points=28;amount=1;y=0.1}
   - sound{s=entity.blaze.shoot;v=2;p=0.2} @self
-  - damage{amount=225} @PIR{r=7}
+  - damage{amount=240} @PIR{r=7}
   - delay 5
   - effect:particlering{particle=heart;vd=20;radius=7;points=28;amount=1;y=0.1}
   - delay 5
@@ -399,16 +418,16 @@ NiklausHurtMob_Skil2:
   - remove @self
 
 #################################################################################################
-FriedaSkill_1:
+Frieda_H_Skill_1:
   Conditions:
   - offgcd
   Skills:
   - gcd{ticks=160} @self
   - message{m="<mob.name><&co> &6Cudownie sie bawimy, prawda?"} @PlayersInRadius{r=30}
   - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bFrieda przygotowuje Winny Solenizant!";d=100} @PIR{r=30}
-  - skill{s=FriedaSkill_1_Effect} @PlayersInRadius{r=40;limit=1;sort=RANDOM}
+  - skill{s=Frieda_H_Skill_1_Effect} @PlayersInRadius{r=40;limit=2;sort=RANDOM}
 
-FriedaSkill_1_Effect:
+Frieda_H_Skill_1_Effect:
   Skills:
   - effect:particlering{particle=heart;vd=20;radius=1;points=4;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=2;points=8;amount=1;y=0.1}
@@ -530,127 +549,127 @@ FriedaSkill_1_Effect:
   - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
   - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - delay 5
-  - summon{mob=FriedaHurtMob;amount=1;radius=0}
+  - summon{mob=Frieda_H_HurtMob;amount=1;radius=0}
 
-FriedaHurtMob_Skill:
+Frieda_H_HurtMob_Skill:
   Skills:
   - delay 1
-  - damage{amount=190} @PIR{r=5}
+  - damage{amount=200} @PIR{r=5}
   - sound{s=entity.splash_potion.break;v=1;p=0.5} @self
   - effect:particles{p=heart;amount=15;speed=0.15;hS=0.5;vS=0.5;y=1} @self
   - effect:particles{p=angryVillager;amount=15;speed=0.15;hS=0.5;vS=0.5;y=1} @self
   - delay 1
   - remove @self
 
-FriedaSkill_2:
+Frieda_H_Skill_2:
   Conditions:
   - offgcd
   Skills:
   - gcd{ticks=160} @self
   - message{m="<mob.name><&co> &6Cieszmy sie ta chwila"} @PlayersInRadius{r=30}
   - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bFrieda przygotowuje Krag Milosci!";d=100} @PIR{r=30}
-  - skill{s=FriedaSkill_2_Effect} @PlayersInRadius{r=50;limit=2;sort=RANDOM}
+  - skill{s=Frieda_H_Skill_2_Effect} @PlayersInRadius{r=50;limit=2;sort=RANDOM}
 
-FriedaSkill_2_Effect:
+Frieda_H_Skill_2_Effect:
   Skills:
-  - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - delay 5
-  - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - delay 5
-  - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - delay 5
-  - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - delay 5
-  - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - delay 5
-  - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - delay 5
-  - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - delay 5
-  - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - delay 5
-  - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - delay 5
-  - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - delay 5
-  - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - delay 5
-  - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - delay 5
-  - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - delay 5
-  - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - delay 5
-  - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - delay 5
-  - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - delay 5
-  - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - delay 5
-  - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - delay 5
-  - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - delay 5
-  - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - delay 5
-  - summon{mob=FriedaHurtMob2;amount=1;radius=0}
+  - summon{mob=Frieda_H_HurtMob2;amount=1;radius=0}
 
-FriedaHurtMob_Skil2:
+Frieda_H_HurtMob_Skil2:
   Skills:
   - delay 1
-  - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - sound{s=entity.blaze.shoot;v=2;p=0.2} @self
-  - damage{amount=150} @PIR{r=4}
+  - damage{amount=160} @PIR{r=5}
   - delay 5
-  - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - delay 5
-  - effect:particlering{particle=heart;vd=20;radius=4;points=16;amount=1;y=0.1}
+  - effect:particlering{particle=heart;vd=20;radius=5;points=20;amount=1;y=0.1}
   - effect:particles{p=heart;amount=30;speed=0.15;hS=0.7;vS=0.7;y=1} @self
   - sound{s=item.totem.use;v=2;p=2} @self
   - remove @self
 
-FriedaSkill_3:
+Frieda_H_Skill_3:
   Conditions:
-  - mobsInRadius{types=Niklaus;amount=1;radius=80} false
-  - offgcd
+  - mobsInRadius{types=Niklaus_H;amount=1;radius=80} false
   Skills:
-  - gcd{ticks=160} @self
   - message{m="<mob.name><&co> &6Ta smierc krwi wymaga!"} @PlayersInRadius{r=30}
   - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bFrieda przygotowuje Atak Lokajow Twierdzy!";d=100} @PIR{r=30}
   - delay 100
-  - randomskill{skills=NiklausSummonLoc1,NiklausSummonLoc2,NiklausSummonLoc3,NiklausSummonLoc4,NiklausSummonLoc5,NiklausSummonLoc6,NiklausSummonLoc7,NiklausSummonLoc8,NiklausSummonLoc9,NiklausSummonLoc10,NiklausSummonLoc11,NiklausSummonLoc12,NiklausSummonLoc13,NiklausSummonLoc14}
-  - randomskill{skills=NiklausSummonLoc1,NiklausSummonLoc2,NiklausSummonLoc3,NiklausSummonLoc4,NiklausSummonLoc5,NiklausSummonLoc6,NiklausSummonLoc7,NiklausSummonLoc8,NiklausSummonLoc9,NiklausSummonLoc10,NiklausSummonLoc11,NiklausSummonLoc12,NiklausSummonLoc13,NiklausSummonLoc14}
-  - randomskill{skills=NiklausSummonLoc1,NiklausSummonLoc2,NiklausSummonLoc3,NiklausSummonLoc4,NiklausSummonLoc5,NiklausSummonLoc6,NiklausSummonLoc7,NiklausSummonLoc8,NiklausSummonLoc9,NiklausSummonLoc10,NiklausSummonLoc11,NiklausSummonLoc12,NiklausSummonLoc13,NiklausSummonLoc14}
-  - randomskill{skills=NiklausSummonLoc1,NiklausSummonLoc2,NiklausSummonLoc3,NiklausSummonLoc4,NiklausSummonLoc5,NiklausSummonLoc6,NiklausSummonLoc7,NiklausSummonLoc8,NiklausSummonLoc9,NiklausSummonLoc10,NiklausSummonLoc11,NiklausSummonLoc12,NiklausSummonLoc13,NiklausSummonLoc14}
-  - randomskill{skills=NiklausSummonLoc1,NiklausSummonLoc2,NiklausSummonLoc3,NiklausSummonLoc4,NiklausSummonLoc5,NiklausSummonLoc6,NiklausSummonLoc7,NiklausSummonLoc8,NiklausSummonLoc9,NiklausSummonLoc10,NiklausSummonLoc11,NiklausSummonLoc12,NiklausSummonLoc13,NiklausSummonLoc14}
-  - randomskill{skills=NiklausSummonLoc1,NiklausSummonLoc2,NiklausSummonLoc3,NiklausSummonLoc4,NiklausSummonLoc5,NiklausSummonLoc6,NiklausSummonLoc7,NiklausSummonLoc8,NiklausSummonLoc9,NiklausSummonLoc10,NiklausSummonLoc11,NiklausSummonLoc12,NiklausSummonLoc13,NiklausSummonLoc14}
+  - randomskill{skills=Niklaus_H_SummonLoc1,Niklaus_H_SummonLoc2,Niklaus_H_SummonLoc3,Niklaus_H_SummonLoc4,Niklaus_H_SummonLoc5,Niklaus_H_SummonLoc6,Niklaus_H_SummonLoc7,Niklaus_H_SummonLoc8,Niklaus_H_SummonLoc9,Niklaus_H_SummonLoc10,Niklaus_H_SummonLoc11,Niklaus_H_SummonLoc12,Niklaus_H_SummonLoc13,Niklaus_H_SummonLoc14}
+  - randomskill{skills=Niklaus_H_SummonLoc1,Niklaus_H_SummonLoc2,Niklaus_H_SummonLoc3,Niklaus_H_SummonLoc4,Niklaus_H_SummonLoc5,Niklaus_H_SummonLoc6,Niklaus_H_SummonLoc7,Niklaus_H_SummonLoc8,Niklaus_H_SummonLoc9,Niklaus_H_SummonLoc10,Niklaus_H_SummonLoc11,Niklaus_H_SummonLoc12,Niklaus_H_SummonLoc13,Niklaus_H_SummonLoc14}
+  - randomskill{skills=Niklaus_H_SummonLoc1,Niklaus_H_SummonLoc2,Niklaus_H_SummonLoc3,Niklaus_H_SummonLoc4,Niklaus_H_SummonLoc5,Niklaus_H_SummonLoc6,Niklaus_H_SummonLoc7,Niklaus_H_SummonLoc8,Niklaus_H_SummonLoc9,Niklaus_H_SummonLoc10,Niklaus_H_SummonLoc11,Niklaus_H_SummonLoc12,Niklaus_H_SummonLoc13,Niklaus_H_SummonLoc14}
+  - randomskill{skills=Niklaus_H_SummonLoc1,Niklaus_H_SummonLoc2,Niklaus_H_SummonLoc3,Niklaus_H_SummonLoc4,Niklaus_H_SummonLoc5,Niklaus_H_SummonLoc6,Niklaus_H_SummonLoc7,Niklaus_H_SummonLoc8,Niklaus_H_SummonLoc9,Niklaus_H_SummonLoc10,Niklaus_H_SummonLoc11,Niklaus_H_SummonLoc12,Niklaus_H_SummonLoc13,Niklaus_H_SummonLoc14}
+  - randomskill{skills=Niklaus_H_SummonLoc1,Niklaus_H_SummonLoc2,Niklaus_H_SummonLoc3,Niklaus_H_SummonLoc4,Niklaus_H_SummonLoc5,Niklaus_H_SummonLoc6,Niklaus_H_SummonLoc7,Niklaus_H_SummonLoc8,Niklaus_H_SummonLoc9,Niklaus_H_SummonLoc10,Niklaus_H_SummonLoc11,Niklaus_H_SummonLoc12,Niklaus_H_SummonLoc13,Niklaus_H_SummonLoc14}
+  - randomskill{skills=Niklaus_H_SummonLoc1,Niklaus_H_SummonLoc2,Niklaus_H_SummonLoc3,Niklaus_H_SummonLoc4,Niklaus_H_SummonLoc5,Niklaus_H_SummonLoc6,Niklaus_H_SummonLoc7,Niklaus_H_SummonLoc8,Niklaus_H_SummonLoc9,Niklaus_H_SummonLoc10,Niklaus_H_SummonLoc11,Niklaus_H_SummonLoc12,Niklaus_H_SummonLoc13,Niklaus_H_SummonLoc14}
+  - randomskill{skills=Niklaus_H_SummonLoc1,Niklaus_H_SummonLoc2,Niklaus_H_SummonLoc3,Niklaus_H_SummonLoc4,Niklaus_H_SummonLoc5,Niklaus_H_SummonLoc6,Niklaus_H_SummonLoc7,Niklaus_H_SummonLoc8,Niklaus_H_SummonLoc9,Niklaus_H_SummonLoc10,Niklaus_H_SummonLoc11,Niklaus_H_SummonLoc12,Niklaus_H_SummonLoc13,Niklaus_H_SummonLoc14}
 
-FriedaSkill_4:
+Frieda_H_Skill_4:
   Conditions:
-  - mobsInRadius{types=Niklaus;amount=1;radius=80} false
-  - offgcd
+  - mobsInRadius{types=Niklaus_H;amount=1;radius=80} false
   Skills:
-  - gcd{ticks=200} @self
   - message{m="<mob.name><&co> &6Nigdy Wam tego nie wybacze!"} @PlayersInRadius{r=30}
   - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bFrieda przygotowuje Kule Zalu!";d=100} @PIR{r=30}
   - delay 100
   - sound{s=entity.blaze.shoot;v=3;p=1.9} @self
-  - projectile{onTick=FriedaSkill4-Tick;onEnd=FriedaSkill4-End;v=7;i=1;hR=0.9;vR=0.9;mr=10;sB=false;sE=false;hp=false} @Forward{f=0;y=10}
+  - projectile{onTick=Frieda_H_Skill4-Tick;onEnd=Frieda_H_Skill4-End;v=7;i=1;hR=0.9;vR=0.9;mr=10;sB=false;sE=false;hp=false} @Forward{f=0;y=10}
   - delay 40
   - sound{s=entity.blaze.shoot;v=3;p=1.9} @self
-  - projectile{onTick=FriedaSkill4-Tick;onEnd=FriedaSkill4-End;v=7;i=1;hR=0.9;vR=0.9;mr=10;sB=false;sE=false;hp=false} @Forward{f=0;y=10}
+  - projectile{onTick=Frieda_H_Skill4-Tick;onEnd=Frieda_H_Skill4-End;v=7;i=1;hR=0.9;vR=0.9;mr=10;sB=false;sE=false;hp=false} @Forward{f=0;y=10}
+  - delay 40
+  - sound{s=entity.blaze.shoot;v=3;p=1.9} @self
+  - projectile{onTick=Frieda_H_Skill4-Tick;onEnd=Frieda_H_Skill4-End;v=7;i=1;hR=0.9;vR=0.9;mr=10;sB=false;sE=false;hp=false} @Forward{f=0;y=10}
 
-FriedaSkill4-Tick:
+Frieda_H_Skill4-Tick:
   Skills:
   - effect:particles{particle=angryVillager;amount=10;speed=0.05;hS=0.2;vS=0.2} @origin
 
-FriedaSkill4-End:
+Frieda_H_Skill4-End:
   Skills:
-  - missile{ot=FriedaSkill4-Tick;oH=FriedaMissile_Hit;v=8;i=1;hR=0.75;vR=0.75;in=7;md=200;mr=90;sB=false;fo=true} @PlayersInRadius{r=60;limit=2;sort=RANDOM}
+  - missile{ot=Frieda_H_Skill4-Tick;oH=Frieda_H_Missile_Hit;v=9;i=1;hR=0.75;vR=0.75;in=7;md=200;mr=90;sB=false;fo=true} @PlayersInRadius{r=60;limit=2;sort=RANDOM}
   - sound{s=entity.blaze.shoot;v=3;p=0.1} @self
 
-FriedaMissile_Hit:
+Frieda_H_Missile_Hit:
   Skills:
-  - damage{a=190}
+  - damage{a=200}
   - effect:particles{particle=largesmoke;amount=25;speed=0.15;hS=0.6;vS=0.6;y=1} @origin
   - effect:sound{s=entity.generic.explode;v=1;p=0.2} @origin
