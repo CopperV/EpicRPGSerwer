@@ -6,9 +6,14 @@ Sentenza_DungSpawn:
   - message{m="<mob.name><&co> &7A wiec ponownie sie spotykamy. Pokaze Wam tym razem pelnie mocy Lorda Pustki!"} @PlayersInRadius{r=20}
   - threat{amount=100000} @NearestPlayer
 
+Sentenza_DungDeath:
+  Skills:
+  - command{c="mm m kill Sentenza_Dung_Ball"} @self
+
 Sentenza_DungSkill_1:
   Conditions:
   - offgcd
+  - hasaura Sentenza_Szal false
   Skills:
   - gcd{ticks=160} @self
   - message{m="<mob.name><&co> &7Wladam moca jaka Wasz swiat jeszcze nie widzial"} @PlayersInRadius{r=40}
@@ -16,12 +21,13 @@ Sentenza_DungSkill_1:
   - stun{d=100} @self
   - delay 100
   - effect:sound{s=item.totem.use;v=4;p=0.7} @self
-  - projectile{bulletType=MYTHICITEM;material=Magiczne_Ostrze_Bojowe;oT=Sentenza_DungSkill-Tick;onHit=Sentenza_DungSkill-Hit;v=7;i=1;hR=1.25;vR=1.25;mr=50;sB=false} @PIR{r=40}
+  - projectile{bulletType=MYTHICITEM;material=Magiczne_Ostrze_Bojowe;oT=Sentenza_DungSkill-Tick;onHit=Sentenza_DungSkill-Hit;v=9;i=1;hR=1.25;vR=1.25;mr=50;sB=false} @PIR{r=40}
   - delay 10
-#  - lunge{velocity=7;velocityY=0.85} @NearestPlayer
-  - jump{velocity=0.3} @self
-  - leap{velocity=200} @NearestPlayer
-  - delay 5
+#  - lunge{velocity=4;velocityY=0.5} @NearestPlayer{r=40}
+  - jump{velocity=0.85} @self
+  - delay 10
+  - leap{velocity=400} @NearestPlayer{r=40}
+  - delay 10
   - effect:sound{s=entity.generic.explode;v=6;p=0.3} @self
   - effect:particlering{particle=dragonbreath;vd=20;radius=1;points=4;amount=2;y=0.1;hS=0.05;vS=0.05;speed=0.01} @self
   - effect:particlering{particle=dragonbreath;vd=20;radius=2;points=8;amount=2;y=0.1;hS=0.05;vS=0.05;speed=0.01} @self
@@ -35,26 +41,134 @@ Sentenza_DungSkill-Tick:
 
 Sentenza_DungSkill-Hit:
   Skills:
-  - sound{s=entity.firework.large_blast_far;v=4;p=0.2} @origin
   - sound{s=entity.player.attack.sweep;v=10;p=2} @origin
   - damage{amount=235}
   - potion{type=SLOW;duration=160;level=3}
   - effect:particles{particle=dragonbreath;amount=45;speed=0.15;hS=0.25;vS=0.25} @origin
 Sentenza_DungSkill_2:
-  Conditions:
-  - offgcd
   Skills:
   - gcd{ticks=160} @self
-  - message{m="<mob.name><&co> &fMe dzieci nakarmia sie Waszymi cialami!"} @PlayersInRadius{r=30}
-  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bSentenza_Dung przygotowuje Pajeczy Roj!";d=100} @PIR{r=30}
-  - stun{d=300} @self
+  - message{m="<mob.name><&co> &7Wasze dusze beda nalezec do mnie!"} @PlayersInRadius{r=30}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bSentenza przygotowuje Smiertelny Pocisk!";d=100} @PIR{r=30}
+  - teleportto{location=-18.5,96,42.5} @self
+  - stun{d=120;stopai=true;facing=true} @self
+  - effect:particles{particle=dragonbreath;amount=10;speed=0.05;hS=0.35;vS=0.35;y=4;repeat=20;repeatInterval=5} @self
+  - effect:particles{particle=smoke;amount=10;speed=0.05;hS=0.35;vS=0.35;y=4;repeat=20;repeatInterval=5} @self
   - delay 100
-  - summon{mob=Dwor_Mob_3;radius=2;amount=2;os=true} @Self
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - projectile{oT=Sentenza_DungSkill_2-Tick;onHit=Sentenza_DungSkill_2-Hit;v=35;i=1;hR=1.5;vR=1.5;mr=50;sB=true;syo=4} @PIR{r=40}
+
+Sentenza_DungSkill_2-Tick:
+  Skills:
+  - effect:particles{particle=dragonbreath;amount=3;speed=0.05;hS=0.3;vS=0.3} @origin
+  - effect:particles{particle=smoke;amount=3;speed=0.05;hS=0.3;vS=0.3} @origin
+
+Sentenza_DungSkill_2-Hit:
+  Skills:
+  - sound{s=entity.player.attack.sweep;v=10;p=0.1} @origin
+  - damage{amount=850}
+  - effect:particles{particle=dragonbreath;amount=45;speed=0.15;hS=0.25;vS=0.25} @origin
+  - effect:particles{particle=smoke;amount=45;speed=0.15;hS=0.25;vS=0.25} @origin
 
 Sentenza_DungSkill_3:
   Skills:
-  - potion{type=BLINDNESS;duration=200;level=5} @trigger
-  - potion{type=CONFUSION;duration=200;level=5} @trigger
-  - potion{type=SLOW_DIGGING;duration=200;level=2} @trigger
-  - potion{type=POISON;duration=200;level=10} @trigger
+  - gcd{ticks=160} @self
+  - message{m="<mob.name><&co> &7Ta walka zaczyna mnie juz nudzic..."} @PlayersInRadius{r=30}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bSentenza przygotowuje Szal Sentenzy!";d=100} @PIR{r=30}
+  - teleportto{location=-18.5,96,42.5} @self
+  - stun{d=120;stopai=true;facing=true} @self
+  - effect:particles{particle=dragonbreath;amount=10;speed=0.05;hS=0.35;vS=0.35;y=4;repeat=20;repeatInterval=5} @self
+  - effect:particles{particle=smoke;amount=10;speed=0.05;hS=0.35;vS=0.35;y=4;repeat=20;repeatInterval=5} @self
+  - delay 100
+  - effect:sound{s=item.totem.use;v=4;p=0.7} @self
+  - summon{type=Sentenza_Dung_Ball;amount=1;radius=0} @Location{c=-18.5,100,42.5,0,0}
+  - Aura{auraName=Sentenza_Szal;duration=10} @self
+
+Sentenza_Szal_Tick:
+  Conditions:
+  - hasaura Sentenza_Szal true
+  Skills:
+  - Aura{auraName=Sentenza_Szal;duration=10} @self
+  - potion{type=SPEED;duration=10;level=1} @self
+  - effect:particles{particle=lava;amount=5;speed=0.1;hS=0.5;vS=0.5;y=1} @self
+
+Sentenza_Szal_Attack:
+  Conditions:
+  - hasaura Sentenza_Szal true
+  Skills:
+  - CancelEvent
+  - sound{s=entity.enderdragon.growl;v=3;p=1.5} @self
+  - damage{a=400} @trigger
+  - effect:particles{particle=smoke;amount=20;speed=0.2;hS=0.3;vS=0.3;y=1} @trigger
+  - skill{s=Sentenza_Szal_Attack2} @PIR{r=30;limit=1;sort=RANDOM}
+
+Sentenza_Szal_Attack2:
+  Skills:
+  - damage{a=250}
+  - effect:particles{particle=smoke;amount=20;speed=0.2;hS=0.3;vS=0.3;y=1}
+  - effect:particleline{particle=smoke;amount=1;fromOrigin=true}
+
+Sentenza_Dung_Ball_Check:
+  Conditions:
+  - offgcd
+  - targetinlineofsight true
+  Skills:
+#  - message{m="<mob.name><&co> &7Test123"} @PlayersInRadius{r=30}
+  - gcd{ticks=60} @self
+  - sound{s=entity.evocation_illager.prepare_wololo;v=10;p=0.1} @self
+  - effect:particles{particle=lava;amount=10;speed=0.05;hS=0.35;vS=0.35;y=1;repeat=12;repeatInterval=5} @self
+  - effect:particles{particle=largesmoke;amount=5;speed=0.05;hS=0.35;vS=0.35;y=1;repeat=12;repeatInterval=5} @self
+  - delay 60
+  - sound{s=entity.evocation_illager.cast_spell;v=10;p=0.5} @self
+  - projectile{oT=Sentenza_Dung_Ball_Skill-Tick;onHit=Sentenza_Dung_Ball_Skill-Hit;v=50;i=1;hR=2;vR=2;mr=50;sB=true;syo=1.5} @PIR{r=40}
+
+Sentenza_Dung_Ball_Skill-Tick:
+  Skills:
+  - effect:particles{particle=lava;amount=2;speed=0.05;hS=0.3;vS=0.3} @origin
+  - effect:particles{particle=largesmoke;amount=2;speed=0.05;hS=0.3;vS=0.3} @origin
+
+Sentenza_Dung_Ball_Skill-Hit:
+  Skills:
+  - sound{s=entity.evocation_illager.hurt;v=1;p=0.1} @origin
+  - damage{amount=1200}
+  - effect:particles{particle=lava;amount=40;speed=0.15;hS=0.25;vS=0.25} @origin
+  - effect:particles{particle=largesmoke;amount=20;speed=0.15;hS=0.25;vS=0.25} @origin
+
+Sentenza_Dung_Ball_Particles:
+  Conditions:
+  - offgcd
+  Skills:
+  - effect:particles{particle=dragonbreath;amount=10;speed=0.05;hS=0.35;vS=0.35;y=1} @self
+  - effect:particles{particle=smoke;amount=10;speed=0.05;hS=0.35;vS=0.35;y=1} @self
+
+Sentenza_DungSkill_4:
+  Conditions:
+  - offgcd
+  - hasaura Sentenza_Szal false
+  Skills:
+  - gcd{ticks=160} @self
+  - message{m="<mob.name><&co> &7Pustka Was pochlonie!"} @PlayersInRadius{r=30}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bSentenza przygotowuje Energie Pustki!";d=100} @PIR{r=30}
+  - stun{d=100;stopai=true;facing=false} @self
+  - sudoskill{s=Sentenza_DungSkill_4_Effect;cat=true} @PIR{r=20}
+  - potion{type=SLOW;duration=100;level=3} @PIR{r=20}
+  - effect:sound{s=entity.ghast.warn;v=10;p=0.1} @self
+  - effect:particlering{particle=dragonbreath;vd=20;radius=1;points=4;amount=2;vd=20;y=0.1;hS=0.05;vS=0.05;speed=0.01;repeat=20;repeatInterval=5} @self
+  - effect:particlering{particle=dragonbreath;vd=20;radius=2;points=8;amount=2;vd=20;y=0.1;hS=0.05;vS=0.05;speed=0.01;repeat=20;repeatInterval=5} @self
+  - effect:particlering{particle=dragonbreath;vd=20;radius=3;points=12;amount=2;vd=20;y=0.1;hS=0.05;vS=0.05;speed=0.01;repeat=20;repeatInterval=5} @self
+  - effect:particlering{particle=dragonbreath;vd=20;radius=4;points=16;amount=2;vd=20;y=0.1;hS=0.05;vS=0.05;speed=0.01;repeat=20;repeatInterval=5} @self
+  - effect:particlering{particle=dragonbreath;vd=20;radius=5;points=20;amount=2;vd=20;y=0.1;hS=0.05;vS=0.05;speed=0.01;repeat=20;repeatInterval=5} @self
+  - effect:particlering{particle=dragonbreath;vd=20;radius=6;points=24;amount=2;vd=20;y=0.1;hS=0.05;vS=0.05;speed=0.01;repeat=20;repeatInterval=5} @self
+  - effect:particlering{particle=dragonbreath;vd=20;radius=7;points=28;amount=2;vd=20;y=0.1;hS=0.05;vS=0.05;speed=0.01;repeat=20;repeatInterval=5} @self
+  - effect:particlering{particle=dragonbreath;vd=20;radius=8;points=32;amount=2;vd=20;y=0.1;hS=0.05;vS=0.05;speed=0.01;repeat=20;repeatInterval=5} @self
+  - effect:particlering{particle=dragonbreath;vd=20;radius=9;points=36;amount=2;vd=20;y=0.1;hS=0.05;vS=0.05;speed=0.01;repeat=20;repeatInterval=5} @self
+  - effect:particlering{particle=dragonbreath;vd=20;radius=10;points=40;amount=2;vd=20;y=0.1;hS=0.05;vS=0.05;speed=0.01;repeat=20;repeatInterval=5} @self
+  - delay 100
+  - effect:sound{s=entity.ghast.shoot;v=10;p=0.1} @self
+  - effect:particles{particle=dragonbreath;amount=200;speed=0.3;hS=7;vS=1.5;y=1} @self
+  - damage{amount=400} @PIR{r=10}
   
+  
+Sentenza_DungSkill_4_Effect:
+  Skills:
+  - teleport @trigger

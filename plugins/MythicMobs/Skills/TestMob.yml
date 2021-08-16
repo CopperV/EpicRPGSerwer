@@ -3,9 +3,4 @@
 # You can copy and expand them however you'd like.
 testSkillDmg:
   Skills:
-  - CancelEvent
-  - message{m="<mob.name><&co> &7Zaatakowales mnie"} @PlayersInRadius{r=20}
-testSkillDmg2:
-  Skills:
-  - CancelEvent
-  - message{m="<mob.name><&co> &7Zaatakowalem Ciebie"} @PlayersInRadius{r=20}
+  - effect:blockmask{m=dirt;r=5;d=100} @trigger

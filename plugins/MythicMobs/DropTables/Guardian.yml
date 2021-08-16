@@ -1,0 +1,40 @@
+Guardian_1_Armor:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Buty_Koralowe_Zr 1 0.03
+  - Buty_Koralowe_Zd 1 0.03
+  - Buty_Koralowe_Str 1 0.03
+  - Buty_Koralowe_Wytrz 1 0.03
+  - Helm_Nurka 1 0.03
+Guardian_1_Runes:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - MalaBlyskawica 1 0.13
+  - Gejzer 1 0.12
+  - Blyskawica 1 0.07
+  - WodnaPiesc 1 0.05
+Guardian_Boss_1:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+  - MalaBlyskawica 1 0.62
+  - Gejzer 1 0.53
+  - Blyskawica 1 0.35
+  - WodnaPiesc 1 0.26
+Guardian_Boss_2:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Buty_Koralowe_Zr 1 0.14
+  - Buty_Koralowe_Zd 1 0.14
+  - Buty_Koralowe_Str 1 0.14
+  - Buty_Koralowe_Wytrz 1 0.14
+  - Helm_Nurka 1 0.14
+Guardian_Boss_3:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Trojzab_Neptulona_Zr 1 0.01
+  - Trojzab_Neptulona_Str 1 0.01

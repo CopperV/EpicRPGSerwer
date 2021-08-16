@@ -1,0 +1,60 @@
+Elemental_1_Armor:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Zbroja_Powietrza_Zd 1 0.12
+  - Zbroja_Powietrza_Int 1 0.12
+  - Zbroja_Powietrza_Mana 1 0.12
+Elemental_1_Runes:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Wir 1 0.12
+  - UderzenieWiatru 1 0.13
+Elemental_2_Weapon:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Kostur_Skaly_Int 1 0.08
+  - Kostur_Skaly_Mana 1 0.08
+Elemental_2_Runes:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - MalaBlyskawica 1 0.13
+  - GromG1 1 0.05
+  - Blyskawica 1 0.07
+Elemental_3_Runes:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - LodowaStrzala 1 0.14
+  - LodowaLanca 1 0.12
+  - WodnaPiesc 1 0.06
+Elemental_4_Runes:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - OgnistaStrzala 1 0.14
+  - Pirokineza 1 0.12
+  - OgnistaSfera 1 0.06
+  - KulaOgnia 1 0.01
+  - BurzaOgnista 1 0.01
+Elemental_5_Armor:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Zbroja_Elementium_Int 1 0.08
+  - Zbroja_Elementium_Mana 1 0.08
+Elemental_Boss_1:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Zbroja_Kalimosa_Int 1 0.02
+  - Zbroja_Kalimosa_Mana 1 0.02
+Elemental_Boss_2:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Zbroja_Elementium_Int 1 0.34
+  - Zbroja_Elementium_Mana 1 0.34

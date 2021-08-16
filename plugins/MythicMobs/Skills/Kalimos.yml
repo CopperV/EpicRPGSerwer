@@ -437,7 +437,7 @@ KalimosDeath:
   - message{m="&b&lMacie 30 sekund na zebranie dropu!"} @PlayersInRadius{r=100}
   - message{m="&b&lPo tym czasie zostaniecie przeteleportowani na spawn!"} @PlayersInRadius{r=100}
   - message{m="&6&lKalimos zostal pokonany!"} @PlayersOnServer
-  - message{m="&6&lProsze nie wchodzic do sanktuarium przez 30 sekund"} @PlayersOnServer
+  - message{m="&6&lProsze nie wchodzic do zrodla zywiolow przez 30 sekund"} @PlayersOnServer
   - delay 600
   - command{c="mw move <target.name> F_RPG"} @PlayersInWorld
 KalimosSpawn:

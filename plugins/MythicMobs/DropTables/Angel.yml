@@ -1,0 +1,90 @@
+Angel_1_Runes:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - SwietaStrzala 1 0.05
+  - GromG1 1 0.05
+  - Blyskawica 1 0.05
+  - Trans 1 0.05
+  - Haduoken 1 0.1
+  - MalaBlyskawica 1 0.13
+Angel_1_Armor:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Zbroja_Upadlego_Zr 1 0.09
+  - Zbroja_Upadlego_Zd 1 0.09
+  - Zbroja_Upadlego_Wytrz 1 0.09
+  - Zbroja_Upadlego_Str 1 0.09
+  - Kolczuga_Upadlego_Str 1 0.12
+  - Kolczuga_Upadlego_Wytrz 1 0.12
+  - Kolczuga_Upadlego_Zd 1 0.12
+  - Buty_Upadlego_Zr 1 0.15
+  - Buty_Upadlego_Zd 1 0.15
+  - Buty_Upadlego_Wytrz 1 0.15
+  - Helm_Upadlego_Zr 1 0.16
+  - Helm_Upadlego_Wytrz 1 0.16
+Angel_1_Weapon_1:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Ostrze_Upadlego_Zr 1 0.15
+  - Ostrze_Upadlego_Str 1 0.15
+Angel_2_Armor:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Anielskie_Plotno_Zr 1 0.07
+  - Anielskie_Plotno_Wytrz 1 0.07
+  - Anielskie_Plotno_Zd 1 0.07
+  - Przerdzewiala_Zbroja_Str 1 0.14
+  - Przerdzewiala_Zbroja_Wytrz 1 0.14
+Angel_2_Weapon_1:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Anielskie_Ostrze_Mana 1 0.08
+  - Anielskie_Ostrze_Str 1 0.08
+  - Anielskie_Ostrze_Zr 1 0.08
+  - Ostrze_Upadlego_Zr 1 0.17
+  - Ostrze_Upadlego_Str 1 0.17
+Angel_2_Weapon_2:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Niebianski_Luk_Int 1 0.06
+  - Niebianski_Luk_Zd 1 0.06
+  - Kusza_Upadlego_Str 1 0.08
+  - Luk_Upadlego_Zd 1 0.18
+Angel_3_Armor:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Niebianska_Szata_Int 1 0.03
+  - Niebianska_Szata_Mana 1 0.03
+  - Anielska_Szata_Zr 1 0.06
+  - Anielska_Szata_Mana 1 0.06
+  - Anielska_Szata_Int 1 0.06
+  - Przekleta_Szata_Mana 1 0.16
+  - Przekleta_Szata_Int 1 0.16
+Angel_3_Weapon_1:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Niebianskie_Ostrze_Int 1 0.02
+  - Niebianskie_Ostrze_Mana 1 0.02
+  - Niebianskie_Ostrze_Zr 1 0.02
+  - Niebianskie_Ostrze_Str 1 0.02
+  - Topor_Upadlego_Str 1 0.1
+  - Przeklete_Anielskie_Ostrze_Str 1 0.17
+  - Przeklete_Anielskie_Ostrze_Zr 1 0.17
+  - Przeklete_Anielskie_Ostrze_Mana 1 0.17
+Angel_3_Weapon_2:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Niebianska_Kusza_Int 1 0.03
+  - Niebianska_Kusza_Mana 1 0.03
+  - Niebianska_Kusza_Str 1 0.03
+  - Niebianski_Luk_Int 1 0.08
+  - Niebianski_Luk_Zd 1 0.08

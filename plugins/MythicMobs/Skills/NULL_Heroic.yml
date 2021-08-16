@@ -1,7 +1,7 @@
-NullSpawn:
+Null_H_Spawn:
   Skills:
-  - Aura{auraName=NullSpawn;duration=100} @self
-  - Aura{auraName=NullSpawn_2;duration=300} @self
+  - Aura{auraName=Null_H_Spawn;duration=100} @self
+  - Aura{auraName=Null_H_Spawn_2;duration=300} @self
   - message{m="<mob.name><&co> &7<Slychac rozlegajacy sie smiech>"} @PlayersInRadius{r=30}
   - sound{s=entity.illusion_illager.ambient;v=10;p=0.01} @self
   - stun{d=100} @self
@@ -19,369 +19,368 @@ NullSpawn:
   - sound{s=entity.ghast.warn;v=10;p=0.01} @self
   - delay 60
   - sound{s=entity.cat.hiss;v=10;p=0.01} @self
-  - projectile{onTick=NullSpawn_Effect_Tick;onHit=NullSpawn_Effect_Hit;v=10;i=1;hR=1.5;vR=1;mr=60;sB=false} @PlayersInRadius{r=60}
+  - projectile{onTick=Null_H_Spawn_Effect_Tick;onHit=Null_H_Spawn_Effect_Hit;v=10;i=1;hR=1.5;vR=1;mr=60;sB=false} @PlayersInRadius{r=60}
 
-NullSpawn_Effect_Tick:
+Null_H_Spawn_Effect_Tick:
   Skills:
   - effect:particles{particle=blockcrack_80;amount=5;speed=0.05;hS=0.3;vS=0.1;vd=20} @origin
   - effect:particles{particle=blockcrack_22;amount=5;speed=0.05;hS=0.7;vS=0.1;vd=20} @origin
   - effect:particles{particle=smoke;amount=10;speed=0.05;hS=1;vS=0.1;vd=20} @origin
 
-NullSpawn_Effect_Hit:
+Null_H_Spawn_Effect_Hit:
   Skills:
-  - damage{amount=450}
+  - damage{amount=550}
   - sound{s=entity.blaze.shoot;v=2;p=0.2} @Origin
 
-NullSpawn_Effect:
+Null_H_Spawn_Effect:
   Conditions:
-  - hasaura NullSpawn true
+  - hasaura Null_H_Spawn true
   Skills:
   - healpercent{m=1} @self
   - throw{velocity=14;velocityY=6} @PlayersInRadius{r=9}
 
 
-NullSkill_1:
+Null_H_Skill_1:
   Conditions:
   - offgcd
-  - mobsInRadius{types=NULLSummon;amount=1to10;radius=100} false
-  - hasaura NullSpawn_2 false
+  - mobsInRadius{types=NULL_H_Summon;amount=1to10;radius=100} false
+  - hasaura Null_H_Spawn_2 false
   Skills:
   - gcd{ticks=40} @self
   - sound{s=entity.cat.hiss;v=10;p=0.01} @self
-  - projectile{onTick=NullSkill_1_Effect_Tick;onHit=NullSkill_1_Effect_Hit;v=7;i=1;hR=1.5;vR=1;mr=60;sB=false} @Trigger
+  - projectile{onTick=Null_H_Skill_1_Effect_Tick;onHit=Null_H_Skill_1_Effect_Hit;v=8;i=1;hR=1.5;vR=1;mr=60;sB=false} @Trigger
 
-NullSkill_1_Effect_Tick:
+Null_H_Skill_1_Effect_Tick:
   Skills:
   - effect:particles{particle=blockcrack_80;amount=5;speed=0.05;hS=0.3;vS=0.1;vd=20} @origin
   - effect:particles{particle=blockcrack_22;amount=5;speed=0.05;hS=0.7;vS=0.1;vd=20} @origin
   - effect:particles{particle=smoke;amount=10;speed=0.05;hS=1;vS=0.1;vd=20} @origin
 
-NullSkill_1_Effect_Hit:
+Null_H_Skill_1_Effect_Hit:
   Skills:
-  - damage{amount=200}
+  - damage{amount=215}
   - sound{s=entity.blaze.shoot;v=2;p=0.2} @Origin
 
 
-NullSkill_2_90:
+Null_H_Skill_2_90:
   Skills:
   - sendtitle{title="&4&lUWAGA!";subtitle="&bNull ucieka!";d=100} @PIR{r=60}
   - sound{s=entity.ghast.warn;v=10;p=0.01} @self
   - teleportto{location=-1858.5,139,1306.5} @self
   - effect:particles{p=largesmoke;amount=20;speed=0.05;hS=0.3;vS=0.3;y=1;vd=30} @self
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1861,120,1316}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1855,120,1298}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1861,120,1316}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1855,120,1298}
 
-NullSkill_2_80:
+Null_H_Skill_2_80:
   Skills:
   - sendtitle{title="&4&lUWAGA!";subtitle="&bNull ucieka!";d=100} @PIR{r=60}
   - sound{s=entity.ghast.warn;v=10;p=0.01} @self
   - teleportto{location=-1858.5,139,1306.5} @self
   - effect:particles{p=largesmoke;amount=20;speed=0.05;hS=0.3;vS=0.3;y=1;vd=30} @self
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1862,120,1309}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1852.5,122,1322}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1858.5,112,1333}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1862,120,1309}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1852.5,122,1322}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1858.5,112,1333}
 
-NullSkill_2_70:
+Null_H_Skill_2_70:
   Skills:
   - sendtitle{title="&4&lUWAGA!";subtitle="&bNull ucieka!";d=100} @PIR{r=60}
   - sound{s=entity.ghast.warn;v=10;p=0.01} @self
   - teleportto{location=-1858.5,139,1306.5} @self
   - effect:particles{p=largesmoke;amount=20;speed=0.05;hS=0.3;vS=0.3;y=1;vd=30} @self
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1865.5,122,1320.5}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1858.5,120.0625,1310.5}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1855,120,1317}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1852.5,118,1331.5}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1865.5,122,1320.5}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1858.5,120.0625,1310.5}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1855,120,1317}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1852.5,118,1331.5}
 
-NullSkill_2_60:
+Null_H_Skill_2_60:
   Skills:
   - sendtitle{title="&4&lUWAGA!";subtitle="&bNull ucieka!";d=100} @PIR{r=60}
   - sound{s=entity.ghast.warn;v=10;p=0.01} @self
   - teleportto{location=-1858.5,139,1306.5} @self
   - effect:particles{p=largesmoke;amount=20;speed=0.05;hS=0.3;vS=0.3;y=1;vd=30} @self
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1858.5,120,1295.5}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1867.5,122,1320.5}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1853.5,115,1328.5}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1864.5,120,1308.5}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1861,120,1316}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1858.5,120,1295.5}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1867.5,122,1320.5}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1853.5,115,1328.5}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1864.5,120,1308.5}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1861,120,1316}
 
-NullSkill_2_50:
+Null_H_Skill_2_50:
   Skills:
   - sendtitle{title="&4&lUWAGA!";subtitle="&bNull ucieka!";d=100} @PIR{r=60}
   - sound{s=entity.ghast.warn;v=10;p=0.01} @self
   - teleportto{location=-1858.5,139,1306.5} @self
   - effect:particles{p=largesmoke;amount=20;speed=0.05;hS=0.3;vS=0.3;y=1;vd=30} @self
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1858.5,123.0625,1298.5}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1850.5,122,1299.5}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1866.5,122,1299.5}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1867.5,124,1315.5}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1853.5,121,1312.5}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1858.5,116,1324.5}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1858.5,123.0625,1298.5}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1850.5,122,1299.5}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1866.5,122,1299.5}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1867.5,124,1315.5}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1853.5,121,1312.5}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1858.5,116,1324.5}
 
-NullSkill_2_40:
+Null_H_Skill_2_40:
   Skills:
   - sendtitle{title="&4&lUWAGA!";subtitle="&bNull ucieka!";d=100} @PIR{r=60}
   - sound{s=entity.ghast.warn;v=10;p=0.01} @self
   - teleportto{location=-1858.5,139,1306.5} @self
   - effect:particles{p=largesmoke;amount=20;speed=0.05;hS=0.3;vS=0.3;y=1;vd=30} @self
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1846,124,1312}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1850.5,123,1308.5}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1859.5,122,1299.5}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1861,120,1312}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1870.5,124,1322}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1864.5,114,1333}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1856,112,1335}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1846,124,1312}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1850.5,123,1308.5}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1859.5,122,1299.5}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1861,120,1312}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1870.5,124,1322}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1864.5,114,1333}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1856,112,1335}
 
-NullSkill_2_30:
+Null_H_Skill_2_30:
   Skills:
   - sendtitle{title="&4&lUWAGA!";subtitle="&bNull ucieka!";d=100} @PIR{r=60}
   - sound{s=entity.ghast.warn;v=10;p=0.01} @self
   - teleportto{location=-1858.5,139,1306.5} @self
   - effect:particles{p=largesmoke;amount=20;speed=0.05;hS=0.3;vS=0.3;y=1;vd=30} @self
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1862,120,1312}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1855,122,1312}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1846.5,124,1331.5}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1870.5,124,1305.5}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1854.5,120,1297.5}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1852,124,1293}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1865.5,118,1327.5}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1855.5,112,1333.5}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1862,120,1312}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1855,122,1312}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1846.5,124,1331.5}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1870.5,124,1305.5}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1854.5,120,1297.5}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1852,124,1293}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1865.5,118,1327.5}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1855.5,112,1333.5}
 
-NullSkill_2_20:
+Null_H_Skill_2_20:
   Skills:
   - sendtitle{title="&4&lUWAGA!";subtitle="&bNull ucieka!";d=100} @PIR{r=60}
   - sound{s=entity.ghast.warn;v=10;p=0.01} @self
   - teleportto{location=-1858.5,139,1306.5} @self
   - effect:particles{p=largesmoke;amount=20;speed=0.05;hS=0.3;vS=0.3;y=1;vd=30} @self
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1861,120,1316}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1855,120,1298}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1865.5,122,1320.5}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1858.5,120.0625,1310.5}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1855,120,1317}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1852.5,118,1331.5}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1861,120,1312}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1870.5,124,1322}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1864.5,114,1333}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1861,120,1316}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1855,120,1298}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1865.5,122,1320.5}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1858.5,120.0625,1310.5}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1855,120,1317}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1852.5,118,1331.5}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1861,120,1312}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1870.5,124,1322}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1864.5,114,1333}
 
-NullSkill_2_10:
+Null_H_Skill_2_10:
   Skills:
   - sendtitle{title="&4&lUWAGA!";subtitle="&bNull ucieka!";d=100} @PIR{r=60}
   - sound{s=entity.ghast.warn;v=10;p=0.01} @self
   - teleportto{location=-1858.5,139,1306.5} @self
   - effect:particles{p=largesmoke;amount=20;speed=0.05;hS=0.3;vS=0.3;y=1;vd=30} @self
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1861,120,1316}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1855,120,1298}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1854.5,120,1297.5}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1852,124,1293}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1865.5,118,1327.5}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1855.5,112,1333.5}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1865.5,122,1320.5}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1858.5,120.0625,1310.5}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1855,120,1317}
-  - summon{type=NULLSummon;amount=1;radius=0} @Location{c=-1852.5,118,1331.5}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1861,120,1316}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1855,120,1298}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1854.5,120,1297.5}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1852,124,1293}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1865.5,118,1327.5}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1855.5,112,1333.5}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1865.5,122,1320.5}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1858.5,120.0625,1310.5}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1855,120,1317}
+  - summon{type=NULL_H_Summon;amount=1;radius=0} @Location{c=-1852.5,118,1331.5}
 
-NullSkill_2_Heal:
+Null_H_Skill_2_Heal:
   Conditions:
-  - mobsInRadius{types=NULLSummon;amount=1to11;radius=80} true
+  - mobsInRadius{types=NULL_H_Summon;amount=1to11;radius=80} true
   Skills:
   - healpercent{m=0.2} @self
 
-
-NullSummonDeath:
+NULL_H_SummonDeath:
   Conditions:
-  - mobsInRadius{types=NULLSummon;amount=1to10;radius=100} false
+  - mobsInRadius{types=NULL_H_Summon;amount=1to10;radius=100} false
   Skills:
-  - signal{s=NullSummonDeath} @MobsInRadius{r=100;t=NULL_}
+  - signal{s=NULL_H_SummonDeath} @MobsInRadius{r=100;t=NULL_H}
   - remove @self
 
-NullSummonSkill_1:
+NULL_H_SummonSkill_1:
   Skills:
   - sound{s=entity.cat.hiss;v=10;p=0.01} @self
-  - projectile{onTick=NullSummonSkill_Effect_Tick;onHit=NullSummonSkill_Effect_Hit;v=6;i=1;hR=1;vR=1;mr=60;sB=false} @PlayersInRadius{r=100;limit=2;sort=RANDOM}
+  - projectile{onTick=NULL_H_SummonSkill_Effect_Tick;onHit=NULL_H_SummonSkill_Effect_Hit;v=6;i=1;hR=1;vR=1;mr=60;sB=false} @PlayersInRadius{r=100}
 
-NullSummonSkill_Effect_Tick:
+NULL_H_SummonSkill_Effect_Tick:
   Skills:
   - effect:particles{particle=blockcrack_80;amount=2;speed=0.02;hS=0.3;vS=0.1;vd=20} @origin
   - effect:particles{particle=blockcrack_22;amount=2;speed=0.02;hS=0.5;vS=0.1;vd=20} @origin
   - effect:particles{particle=smoke;amount=5;speed=0.02;hS=0.5;vS=0.1;vd=20} @origin
 
-NullSummonSkill_Effect_Hit:
+NULL_H_SummonSkill_Effect_Hit:
   Skills:
-  - damage{amount=130}
+  - damage{amount=150}
   - sound{s=entity.blaze.shoot;v=2;p=0.2} @Origin
 
-NullReturn:
+Null_H_Return:
   Skills:
   - delay 20
   - teleportto{location=-1858.5,120.0625,1310.5} @self
   - sound{s=entity.ghast.warn;v=10;p=0.01} @self
   - effect:particles{p=largesmoke;amount=20;speed=0.05;hS=0.3;vS=0.3;y=1;vd=30} @self
 
-NullSkill_3:
+Null_H_Skill_3:
   Conditions:
   - offgcd
-  - mobsInRadius{types=NULLSummon;amount=1to10;radius=100} false
-  - hasaura NullSpawn_2 false
+  - mobsInRadius{types=NULL_H_Summon;amount=1to10;radius=100} false
+  - hasaura Null_H_Spawn_2 false
   Skills:
   - gcd{ticks=100} @self
   - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bNull przygotowuje Portal Chaosu!";d=100} @PIR{r=30}
   - delay 100
-  - damage{amount=265} @PIR{r=10}
+  - damage{amount=290} @PIR{r=10}
   - potion{type=BLINDNESS;duration=400;level=4} @PIR{r=10}
   - effect:particles{p=largesmoke;amount=20;speed=0.05;hS=0.3;vS=0.3;y=1;vd=30} @self
   - sound{s=entity.ghast.warn;v=10;p=0.01} @self
-  - randomskill{skills=NullTpLoc1,NullTpLoc2,NullTpLoc3,NullTpLoc4,NullTpLoc5,NullTpLoc6,NullTpLoc7,NullTpLoc8,NullTpLoc9,NullTpLoc10,NullTpLoc11,NullTpLoc12,NullTpLoc13,NullTpLoc14,NullTpLoc15,NullTpLoc16,NullTpLoc17,NullTpLoc18,NullTpLoc19,NullTpLoc20}
+  - randomskill{skills=Null_H_TpLoc1,Null_H_TpLoc2,Null_H_TpLoc3,Null_H_TpLoc4,Null_H_TpLoc5,Null_H_TpLoc6,Null_H_TpLoc7,Null_H_TpLoc8,Null_H_TpLoc9,Null_H_TpLoc10,Null_H_TpLoc11,Null_H_TpLoc12,Null_H_TpLoc13,Null_H_TpLoc14,Null_H_TpLoc15,Null_H_TpLoc16,Null_H_TpLoc17,Null_H_TpLoc18,Null_H_TpLoc19,Null_H_TpLoc20}
 
-NullTpLoc1:
+Null_H_TpLoc1:
   Conditions:
-  - mobsInRadius{types=NULLSummon;amount=1to10;radius=100} false
+  - mobsInRadius{types=NULL_H_Summon;amount=1to10;radius=100} false
   Skills:
   - teleportto{location=-1858.5,123.0625,1298.5} @self
 
-NullTpLoc2:
+Null_H_TpLoc2:
   Conditions:
-  - mobsInRadius{types=NULLSummon;amount=1to10;radius=100} false
+  - mobsInRadius{types=NULL_H_Summon;amount=1to10;radius=100} false
   Skills:
   - teleportto{location=-1858.5,120.0625,1310.5} @self
 
-NullTpLoc3:
+Null_H_TpLoc3:
   Conditions:
-  - mobsInRadius{types=NULLSummon;amount=1to10;radius=100} false
+  - mobsInRadius{types=NULL_H_Summon;amount=1to10;radius=100} false
   Skills:
   - teleportto{location=-1867.5,118,1328.5} @self
 
-NullTpLoc4:
+Null_H_TpLoc4:
   Conditions:
-  - mobsInRadius{types=NULLSummon;amount=1to10;radius=100} false
+  - mobsInRadius{types=NULL_H_Summon;amount=1to10;radius=100} false
   Skills:
   - teleportto{location=-1849,115,1333} @self
 
-NullTpLoc5:
+Null_H_TpLoc5:
   Conditions:
-  - mobsInRadius{types=NULLSummon;amount=1to10;radius=100} false
+  - mobsInRadius{types=NULL_H_Summon;amount=1to10;radius=100} false
   Skills:
   - teleportto{location=-1867.5,122,1299.5} @self
 
-NullTpLoc6:
+Null_H_TpLoc6:
   Conditions:
-  - mobsInRadius{types=NULLSummon;amount=1to10;radius=100} false
+  - mobsInRadius{types=NULL_H_Summon;amount=1to10;radius=100} false
   Skills:
   - teleportto{location=-1871,124,1303} @self
 
-NullTpLoc7:
+Null_H_TpLoc7:
   Conditions:
-  - mobsInRadius{types=NULLSummon;amount=1to10;radius=100} false
+  - mobsInRadius{types=NULL_H_Summon;amount=1to10;radius=100} false
   Skills:
   - teleportto{location=-1862.5,120,1301.5} @self
 
-NullTpLoc8:
+Null_H_TpLoc8:
   Conditions:
-  - mobsInRadius{types=NULLSummon;amount=1to10;radius=100} false
+  - mobsInRadius{types=NULL_H_Summon;amount=1to10;radius=100} false
   Skills:
   - teleportto{location=-1846,124,1315.5} @self
 
-NullTpLoc9:
+Null_H_TpLoc9:
   Conditions:
-  - mobsInRadius{types=NULLSummon;amount=1to10;radius=100} false
+  - mobsInRadius{types=NULL_H_Summon;amount=1to10;radius=100} false
   Skills:
   - teleportto{location=-1865,124,1313} @self
 
-NullTpLoc10:
+Null_H_TpLoc10:
   Conditions:
-  - mobsInRadius{types=NULLSummon;amount=1to10;radius=100} false
+  - mobsInRadius{types=NULL_H_Summon;amount=1to10;radius=100} false
   Skills:
   - teleportto{location=-1858.5,112,1334.5} @self
 
-NullTpLoc11:
+Null_H_TpLoc11:
   Conditions:
-  - mobsInRadius{types=NULLSummon;amount=1to10;radius=100} false
+  - mobsInRadius{types=NULL_H_Summon;amount=1to10;radius=100} false
   Skills:
   - teleportto{location=-1851.5,124,1304.5} @self
 
-NullTpLoc12:
+Null_H_TpLoc12:
   Conditions:
-  - mobsInRadius{types=NULLSummon;amount=1to10;radius=100} false
+  - mobsInRadius{types=NULL_H_Summon;amount=1to10;radius=100} false
   Skills:
   - teleportto{location=-1865,125,1309.5} @self
 
-NullTpLoc13:
+Null_H_TpLoc13:
   Conditions:
-  - mobsInRadius{types=NULLSummon;amount=1to10;radius=100} false
+  - mobsInRadius{types=NULL_H_Summon;amount=1to10;radius=100} false
   Skills:
   - teleportto{location=-1852.5,122,1322.5} @self
 
-NullTpLoc14:
+Null_H_TpLoc14:
   Conditions:
-  - mobsInRadius{types=NULLSummon;amount=1to10;radius=100} false
+  - mobsInRadius{types=NULL_H_Summon;amount=1to10;radius=100} false
   Skills:
   - teleportto{location=-1870.5,124,1323.5} @self
 
-NullTpLoc15:
+Null_H_TpLoc15:
   Conditions:
-  - mobsInRadius{types=NULLSummon;amount=1to10;radius=100} false
+  - mobsInRadius{types=NULL_H_Summon;amount=1to10;radius=100} false
   Skills:
   - teleportto{location=-1853.5,117,1325.5} @self
 
-NullTpLoc16:
+Null_H_TpLoc16:
   Conditions:
-  - mobsInRadius{types=NULLSummon;amount=1to10;radius=100} false
+  - mobsInRadius{types=NULL_H_Summon;amount=1to10;radius=100} false
   Skills:
   - teleportto{location=-1867,115,1333} @self
 
-NullTpLoc17:
+Null_H_TpLoc17:
   Conditions:
-  - mobsInRadius{types=NULLSummon;amount=1to10;radius=100} false
+  - mobsInRadius{types=NULL_H_Summon;amount=1to10;radius=100} false
   Skills:
   - teleportto{location=-1850.5,121,1335.5} @self
 
-NullTpLoc18:
+Null_H_TpLoc18:
   Conditions:
-  - mobsInRadius{types=NULLSummon;amount=1to10;radius=100} false
+  - mobsInRadius{types=NULL_H_Summon;amount=1to10;radius=100} false
   Skills:
   - teleportto{location=-1861.5,116,1325.5} @self
 
-NullTpLoc19:
+Null_H_TpLoc19:
   Conditions:
-  - mobsInRadius{types=NULLSummon;amount=1to10;radius=100} false
+  - mobsInRadius{types=NULL_H_Summon;amount=1to10;radius=100} false
   Skills:
   - teleportto{location=-1854.5,120,1306.5} @self
 
-NullTpLoc20:
+Null_H_TpLoc20:
   Conditions:
-  - mobsInRadius{types=NULLSummon;amount=1to10;radius=100} false
+  - mobsInRadius{types=NULL_H_Summon;amount=1to10;radius=100} false
   Skills:
   - teleportto{location=-1856.5,125,1297.5} @self
 
-NullSkill_4:
+Null_H_Skill_4:
   Conditions:
   - offgcd
-  - mobsInRadius{types=NULLSummon;amount=1to10;radius=100} false
-  - hasaura NullSpawn_2 false
+  - mobsInRadius{types=NULL_H_Summon;amount=1to10;radius=100} false
+  - hasaura Null_H_Spawn_2 false
   Skills:
   - gcd{ticks=100} @self
   - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bNull przygotowuje Wiezienie Pustki!";d=100} @PIR{r=60}
   - delay 100
-  - chain{b=10;d=20;bounceRadius=15;onBounce=NullSkill_4_Effect_Bounce} @NearestPlayer{r=20}
+  - chain{b=10;d=10;bounceRadius=15;onBounce=Null_H_Skill_4_Effect_Bounce} @NearestPlayer{r=20}
   - sound{s=entity.illusion_illager.cast_spell;v=10;p=0.1}
 
-NullSkill_4_Effect_Bounce:
+Null_H_Skill_4_Effect_Bounce:
   Skills:
-  - damage{amount=185}
+  - damage{amount=200}
   - effect:particleline{particle=largesmoke;amount=10;fromOrigin=true;speed=0.05;hS=0.05;vS=0.05;ys=1;yt=1}
   - potion{type=BLINDNESS;duration=400;level=1}
   - potion{type=SLOW;duration=400;level=2}
   - sound{s=entity.illusion_illager.cast_spell;v=10;p=0.1}
 
-NullSkill_5:
+Null_H_Skill_5:
   Conditions:
   - offgcd
-  - mobsInRadius{types=NULLSummon;amount=1to10;radius=100} false
-  - hasaura NullSpawn_2 false
+  - mobsInRadius{types=NULL_H_Summon;amount=1to10;radius=100} false
+  - hasaura Null_H_Spawn_2 false
   Skills:
   - gcd{ticks=100} @self
   - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bNull przygotowuje Arsenal Nulla!";d=100} @PIR{r=60}
-  - skill{s=NullSkill_5_Effect} @PlayersInRadius{r=50;limit=1;sort=RANDOM}
+  - skill{s=Null_H_Skill_5_Effect} @PlayersInRadius{r=50;limit=1;sort=RANDOM}
 
-NullSkill_5_Effect:
+Null_H_Skill_5_Effect:
   Skills:
   - effect:particlesphere{particle=largesmoke;amount=10;radius=1;vd=30;hs=0.5;vs=0.5;s=0.2}
   - delay 5
@@ -423,67 +422,67 @@ NullSkill_5_Effect:
   - delay 5
   - effect:particlesphere{particle=largesmoke;amount=10;radius=1;vd=30;hs=0.5;vs=0.5;s=0.2}
   - delay 5
-  - summon{mob=NullHurtMob;amount=1;radius=0}
+  - summon{mob=Null_H_HurtMob;amount=1;radius=0}
 
-NullHurtMob_Skill:
+Null_H_HurtMob_Skill:
   Skills:
   - delay 1
   - effect:particles{p=largesmoke;amount=100;speed=0.4;hS=2;vS=2;y=1;vd=40}
   - sound{s=item.totem.use}
-  - damage{amount=420} @PIR{r=12}
+  - damage{amount=450} @PIR{r=15}
   - delay 1
   - remove @self
 
-NullSkill_6:
+Null_H_Skill_6:
   Conditions:
   - offgcd
-  - mobsInRadius{types=NULLSummon;amount=1to10;radius=100} false
-  - hasaura NullSpawn_2 false
+  - mobsInRadius{types=NULL_H_Summon;amount=1to10;radius=100} false
+  - hasaura Null_H_Spawn_2 false
   Skills:
   - gcd{ticks=200} @self
   - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bNull przygotowuje Reke Herobrine!";d=100} @PIR{r=60}
   - delay 100
   - sound{s=entity.ghast.hurt;v=10} @self
-  - totem{ch=0;oT=NullSkill_6_TotemTick;hR=4;vR=4;md=200;yo=0;hp=true;i=0.05} @Forward{f=0;y=6}
+  - totem{ch=0;oT=Null_H_Skill_6_TotemTick;hR=4;vR=4;md=200;yo=0;hp=true;i=0.05} @Forward{f=0;y=6}
 
-NullSkill_6_TotemTick:
+Null_H_Skill_6_TotemTick:
   Skills:
   - effect:particles{p=cloud;amount=10;speed=0.1;hS=0.3;vS=0.3;vd=40} @origin
-  - skill{s=NullSkill_6_Missile} 0.05
+  - skill{s=Null_H_Skill_6_Missile} 0.05
 
-NullSkill_6_Missile:
+Null_H_Skill_6_Missile:
   Skills:
   - sound{s=entity.ghast.hurt;v=10} @origin
-  - missile{ot=NullMissile_Tick;oH=NullMissile_Hit;v=8;i=1;hR=1.5;vR=1.5;in=15;md=200;mr=160;sB=false;fo=true} @PlayersInRadius{r=70;limit=1;sort=RANDOM}
+  - missile{ot=Null_H_Missile_Tick;oH=Null_H_Missile_Hit;v=8;i=1;hR=1.5;vR=1.5;in=15;md=200;mr=160;sB=false;fo=true} @PlayersInRadius{r=70;limit=2;sort=RANDOM}
 
-NullMissile_Tick:
+Null_H_Missile_Tick:
   Skills:
   - effect:particles{particle=cloud;amount=10;speed=0.1;hS=0.3;vS=0.3} @origin
 
-NullMissile_Hit:
+Null_H_Missile_Hit:
   Skills:
-  - damage{a=190}
+  - damage{a=200}
   - effect:particles{particle=cloud;amount=25;speed=0.15;hS=0.2;vS=0.2;y=1} @origin
   - sound{s=entity.ghast.warn;v=10;p=0.5} @origin
 
-NullSkill_7:
+Null_H_Skill_7:
   Conditions:
   - offgcd
-  - mobsInRadius{types=NULLSummon;amount=1to10;radius=100} false
-  - hasaura NullSpawn_2 false
+  - mobsInRadius{types=NULL_H_Summon;amount=1to10;radius=100} false
+  - hasaura Null_H_Spawn_2 false
   Skills:
   - gcd{ticks=100} @self
   - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bNull przygotowuje Ukryta Moc!";d=100} @PIR{r=60}
   - delay 100
-  - skill{s=NullSkill_7_Effect} @PIR{r=10}
+  - skill{s=Null_H_Skill_7_Effect} @PIR{r=10}
 
-NullSkill_7_Effect:
+Null_H_Skill_7_Effect:
   Skills:
   - sound{s=entity.cat.hiss;v=10;p=0.01} @self
   - pull{v=9}
   - delay 10
   - sound{s=entity.ghast.warn;v=10;p=0.01} @self
   - throw{velocity=20;velocityY=9}
-  - damage{a=185}
+  - damage{a=200}
   - potion{type=BLINDNESS;duration=400;level=1}
   - potion{type=SLOW;duration=400;level=2}

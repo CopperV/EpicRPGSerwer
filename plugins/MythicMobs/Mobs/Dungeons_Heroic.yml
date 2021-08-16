@@ -441,3 +441,776 @@ Cronnos_H_Skill1Damage_H:
   Disguise:
     Type: villager
     Invisible: true
+#################################################################################
+Twierdza_H_Mount:
+  Type: VILLAGER
+  Health: 5500
+  Faction: Herobrine
+  Disguise:
+    Type: SKELETON_HORSE
+  Options:
+    Despawn: false
+    FollowRange: 40
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    Saddled: true
+    Tamed: false
+    Baby: false
+    Age: 1
+    MovementSpeed: 0.39
+    HasTrades: false
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+Wojownik_Tw_H_1:
+  Type: Skeleton
+  Display: "&3Wojownik twierdzy"
+  Health: 11500
+  Damage: 185
+  Faction: Herobrine
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  - 2 randomlookaround
+  - 3 lookatplayers
+  - 3 opendoors
+  - 3 closedoors
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 40
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    KnockbackResistance: 1
+    MovementSpeed: 0.32
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - remove @Mount ~onDeath
+  Equipment:
+  - Exp50_7_Weapon:0
+  - Exp50_Armor1:4
+  - Exp50_Armor2:3
+  - Exp50_Armor3:2
+  - Exp50_Armor4:1
+  Mount: Twierdza_H_Mount
+  Drops:
+  - Exp50_7_Weapon_2
+  - Exp50_7_Armor
+  - Glowa_Jezdzca 1 0.09
+  - Pierscien_Morgulu 1 0.03
+Wojownik_Tw_H_2:
+  Type: Skeleton
+  Display: "&3Wojownik twierdzy"
+  Health: 13500
+  Damage: 1
+  Faction: Herobrine
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 40
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    KnockbackResistance: 1
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - remove @Mount ~onDeath
+  Equipment:
+  - Twierdza_Mob_Luk_1_H:0
+  - Exp50_Armor1:4
+  - Exp50_Armor2:3
+  - Exp50_Armor3:2
+  - Exp50_Armor4:1
+  Mount: Twierdza_H_Mount
+  Drops:
+  - Exp50_7_Weapon_1
+  - Exp50_7_Armor
+  - Glowa_Jezdzca 1 0.09
+  - Pierscien_Morgulu 1 0.03
+Midas_H:
+  Type: zombie
+  Display: "&c&lMidas - Straznik Bramy"
+  Health: 175000
+  Damage: 185
+  BossBar:
+    Enabled: true
+    Title: '&4==] &c&lMidas &8< &c<caster.hp> &4❤ &8> &4[=='
+    Color: RED
+    Range: 50
+    Style: SEGMENTED_10
+  Modules:
+    ThreatTable: true
+  Disguise:
+    Type: player
+    Skin: DarkGuardian29
+  Skills:
+  - skill{s=Midas_H_Spawn} ~onSpawn
+  - skill{s=Midas_H_Skill2_Defense} ~onDamaged
+  - skill{s=Midas_H_Skill_1} ~onDamaged =90%
+  - skill{s=Midas_H_Skill_1} ~onDamaged =80%
+  - skill{s=Midas_H_Skill_1} ~onDamaged =70%
+  - skill{s=Midas_H_Skill_1} ~onDamaged =60%
+  - skill{s=Midas_H_Skill_1} ~onDamaged =50%
+  - skill{s=Midas_H_Skill_1} ~onDamaged =40%
+  - skill{s=Midas_H_Skill_1} ~onDamaged =30%
+  - skill{s=Midas_H_Skill_1} ~onDamaged =20%
+  - skill{s=Midas_H_Skill_1} ~onDamaged =10%
+  - skill{s=Midas_H_Skill_1} ~onDamaged =5%
+  - skill{s=MobRemove} ~onTimer:100
+  - randomskill{skills=Midas_H_Skill_2,Midas_H_Skill_3} ~onTimer:50 0.15
+  - randomskill{skills=Midas_H_Skill_2,Midas_H_Skill_3} ~onDamaged 0.07
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 30
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.3
+    KnockbackResistance: 1
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Drops:
+  - Midas_H_Drop 1 0.07
+  - Mroczna_Pieczec 1 0.1
+  - Gem_Wytrzymalosc2 1 0.05
+  - Szczaw_Krolewski 1 0.15
+  Equipment:
+  - B4:4
+  - Magiczne_Ostrze_Bojowe:0
+  - ArcholShield:OFFHAND
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+Midas_H_HurtMob:
+  Type: villager
+  Health: 10000
+  Damage: 0
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  Skills:
+  - skill{s=Midas_H_HurtMob_Skill} ~onSpawn
+  Options:
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    Invincible: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    HasTrades: false
+  Disguise:
+    Type: villager
+    Invisible: true
+Vivian_H:
+  Type: zombie
+  Display: "&5&lVivian - Zamkowa Dama"
+  Health: 115000
+  Damage: 155
+  BossBar:
+    Enabled: true
+    Title: '&d==] &5&lVivian &8< &c<caster.hp> &4❤ &8> &d[=='
+    Color: PURPLE
+    Range: 50
+    Style: SEGMENTED_10
+  Modules:
+    ThreatTable: true
+  Disguise:
+    Type: enderman
+  Skills:
+  - skill{s=Vivian_H_Spawn} ~onSpawn
+  - skill{s=MobRemove} ~onTimer:100
+  - randomskill{skills=Vivian_H_Skill_1,Vivian_H_Skill_3,Vivian_H_Skill_2} ~onTimer:50 0.1
+  - randomskill{skills=Vivian_H_Skill_1,Vivian_H_Skill_3,Vivian_H_Skill_2} ~onDamaged 0.08
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 30
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.4
+    KnockbackResistance: 0.8
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Drops:
+  - Vivian_H_Drop 1 0.07
+  - Mroczna_Pieczec 1 0.1
+  - Gem_Zrecznosc2 1 0.05
+  - Szczaw_Krolewski 1 0.15
+  Equipment:
+  - B4:4
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+Vivian_H_Guard:
+  Type: Skeleton
+  Display: "&3Straz Vivian"
+  Health: 9500
+  Damage: 155
+  Faction: Herobrine
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomstroll
+  - 2 randomlookaround
+  - 3 lookatplayers
+  - 3 opendoors
+  - 3 closedoors
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 40
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    KnockbackResistance: 1
+    MovementSpeed: 0.34
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - Exp50_7_Weapon:0
+  - Exp50_Armor1:4
+  - Exp50_Armor2:3
+  - Exp50_Armor3:2
+  - Exp50_Armor4:1
+  Drops:
+  - Exp50_7_Weapon_2
+  - Exp50_7_Armor
+  - Glowa_Jezdzca 1 0.09
+  - Pierscien_Morgulu 1 0.03
+Vivian_H_Summon:
+  Type: zombie
+  Display: "&5&lSluga Damy"
+  Health: 8000
+  Damage: 150
+  Modules:
+    ThreatTable: true
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Disguise:
+    Type: enderman
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 30
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.38
+    KnockbackResistance: 0.7
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - B4:4
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+Inubis_H:
+  Type: zombie
+  Display: "&8&lInubis - Lord Pustki"
+  Health: 150000
+  Damage: 215
+  BossBar:
+    Enabled: true
+    Title: '&7==] &8&lInubis &8< &c<caster.hp> &4❤ &8> &7[=='
+    Color: RED
+    Range: 50
+    Style: SEGMENTED_10
+  Modules:
+    ThreatTable: true
+  Disguise:
+    Type: player
+    Skin: chaoslordXG
+  Skills:
+  - skill{s=Inubis_H_Spawn} ~onSpawn
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=Inubis_H_Skill_4_Tick} ~onTimer:5
+  - randomskill{skills=Inubis_H_Skill_1,Inubis_H_Skill_2,Inubis_H_Skill_3} ~onTimer:50 0.1
+  - randomskill{skills=Inubis_H_Skill_1,Inubis_H_Skill_2,Inubis_H_Skill_3} ~onDamaged 0.08
+  - skill{s=Inubis_H_Skill_2_DefenseEffect} ~onDamaged
+  - skill{s=Inubis_H_Skill_4_Defense} ~onDamaged
+  - skill{s=Inubis_H_Skill_2_AttackEffect;sync=true} ~onAttack
+  - skill{s=Inubis_H_Skill_4_Attack;sync=true} ~onAttack
+  - skill{s=Inubis_H_Skill_4} ~onDamaged =10%
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 30
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.3
+    KnockbackResistance: 1
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - B4:4
+  - Magiczne_Ostrze_Bojowe:0
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  Drops:
+  - Inubis_H_Drop 1 0.09
+  - Mroczna_Pieczec 1 0.25
+  - Gem_Sila2 1 0.05
+  - Szczaw_Krolewski 1 0.25
+Niklaus_H:
+  Type: zombie
+  Display: "&4&oHrabia Niklaus"
+  Health: 80000
+  Damage: 155
+  BossBar:
+    Enabled: true
+    Title: '&6==] &4&oNiklaus &8< &c<caster.hp> &4❤ &8> &6[=='
+    Color: RED
+    Range: 50
+    Style: SEGMENTED_10
+  Modules:
+    ThreatTable: true
+  Disguise:
+    Type: player
+    Skin: Scrollkeeper
+  Skills:
+  - skill{s=Niklaus_H_Spawn} ~onSpawn
+  - skill{s=Niklaus_H_Death} ~onDeath
+  - skill{s=Niklaus_H_React} ~onSignal:NiklausReact
+  - skill{s=MobRemove} ~onTimer:100
+  - randomskill{skills=Niklaus_H_Skill_1,Niklaus_H_Skill_2} ~onTimer:40 0.15
+  - randomskill{skills=Niklaus_H_Skill_1,Niklaus_H_Skill_2} ~onDamaged 0.09
+  - randomskill{skills=Niklaus_H_Skill_3,Niklaus_H_Skill_4} ~onTimer:50 0.11
+  - randomskill{skills=Niklaus_H_Skill_3,Niklaus_H_Skill_4} ~onDamaged 0.07
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 30
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.33
+    KnockbackResistance: 0.75
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - B4:4
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  Drops:
+  - FriedaNiklaus_H_Drop 1 0.05
+  - Mroczna_Pieczec 1 0.25
+  - Gem_Zdolnosci2 1 0.05
+  - Szczaw_Krolewski 1 0.15
+Niklaus_H_HurtMob:
+  Type: villager
+  Health: 10000
+  Damage: 0
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  Skills:
+  - skill{s=Niklaus_H_HurtMob_Skill} ~onSpawn
+  Options:
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    Invincible: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    HasTrades: false
+  Disguise:
+    Type: villager
+    Invisible: true
+Niklaus_H_HurtMob2:
+  Type: villager
+  Display: "&4&oHrabia Niklaus"
+  Health: 80000
+  Damage: 0
+  Disguise:
+    Type: player
+    Skin: Scrollkeeper
+  Skills:
+  - skill{s=Niklaus_H_HurtMob_Skil2} ~onSpawn
+  Options:
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    Invincible: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    HasTrades: false
+  Equipment:
+  - B4:4
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+Niklaus_H_Summon:
+  Type: zombie
+  Display: "&8Lokaj Twierdzy"
+  Health: 5000
+  Damage: 140
+  Modules:
+    ThreatTable: true
+  Disguise:
+    Type: zombie
+    Invisible: true
+  Skills:
+  - effect:particles{particle=largesmoke;amount=10;speed=0.03;hS=0.2;vS=0.4;y=1} ~onTimer:5 @self
+  - sound{s=entity.blaze.hurt;v=1;p=0.5} @self ~onDamaged 
+  - sound{s=entity.blaze.death;v=1;p=0.5} @self ~onDeath
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=Niklaus_H_Summon_Phase1} ~onTimer:15
+  - skill{s=Niklaus_H_Summon_Phase2;sync=true} ~onAttack
+  Options:
+    AlwaysShowName: true
+    FollowRange: 30
+    Despawn: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.31
+    KnockbackResistance: 1
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    Silent: true
+  Equipment:
+  - IRON_HELMET:4
+  - IRON_CHESTPLATE:3
+  - IRON_LEGGINGS:2
+  - IRON_BOOTS:1
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+Frieda_H:
+  Type: zombie
+  Display: "&4&oBaronowa Frieda"
+  Health: 80000
+  Damage: 155
+  BossBar:
+    Enabled: true
+    Title: '&6==] &4&oFrieda &8< &c<caster.hp> &4❤ &8> &6[=='
+    Color: RED
+    Range: 50
+    Style: SEGMENTED_10
+  Modules:
+    ThreatTable: true
+  Disguise:
+    Type: player
+    Skin: Fairiez
+  Skills:
+  - skill{s=Frieda_H_Spawn} ~onSignal:FriedaSpawn
+  - skill{s=Frieda_H_React} ~onSignal:FriedaReact
+  - skill{s=Frieda_H_Death} ~onDeath
+  - skill{s=MobRemove} ~onTimer:100
+  - randomskill{skills=Frieda_H_Skill_3,Frieda_H_Skill_4} ~onTimer:50 0.11
+  - randomskill{skills=Frieda_H_Skill_3,Frieda_H_Skill_4} ~onDamaged 0.07
+  - randomskill{skills=Frieda_H_Skill_1,Frieda_H_Skill_2} ~onTimer:40 0.15
+  - randomskill{skills=Frieda_H_Skill_1,Frieda_H_Skill_2} ~onDamaged 0.09
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 30
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.35
+    KnockbackResistance: 0.65
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - B4:4
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  Drops:
+  - FriedaNiklaus_H_Drop 1 0.05
+  - Mroczna_Pieczec 1 0.25
+  - Gem_Inteligencja2 1 0.05
+  - Szczaw_Krolewski 1 0.15
+Frieda_H_HurtMob:
+  Type: villager
+  Health: 10000
+  Damage: 0
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  Skills:
+  - skill{s=Frieda_H_HurtMob_Skill} ~onSpawn
+  Options:
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    Invincible: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    HasTrades: false
+  Disguise:
+    Type: villager
+    Invisible: true
+Frieda_H_HurtMob2:
+  Type: villager
+  Display: "&4&oBaronowa Frieda"
+  Health: 80000
+  Damage: 0
+  Disguise:
+    Type: player
+    Skin: Fairiez
+  Skills:
+  - skill{s=Frieda_H_HurtMob_Skil2} ~onSpawn
+  Options:
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    Invincible: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    HasTrades: false
+  Equipment:
+  - B4:4
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+NULL_H:
+  Type: Zombie
+  Display: "&8&lNULL - Legendary Boss"
+  Health: 600000
+  Damage: 400
+  BossBar:
+    Enabled: true
+    Title: '&0==] &8&lNULL &8< &c<caster.hp> &4❤ &8> &0[=='
+    Color: BLUE
+    Range: 80
+    Style: SEGMENTED_20
+    CreateFog: true
+    DarkenSky: true
+  Disguise:
+    Type: player
+    Skin: ___NULL__
+  Options:
+    AlwaysShowName: true
+    Despawn: true
+    FollowRange: 100
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.01
+    KnockbackResistance: 1
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    NoAI: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 lookatplayers
+  AITargetSelectors:
+  - 0 clear
+  Drops:
+  - Null_H_Drop 1 0.15
+  - Mroczna_Pieczec 1 0.35
+  - Gem_Mana2 1 0.05
+  - Szczaw_Krolewski 1 0.4
+  Skills:
+  - skill{s=Null_H_Spawn} ~onSpawn
+  - skill{s=Null_H_Spawn_Effect} ~onTimer:10
+  - skill{s=Null_H_Skill_1} ~onDamaged 0.25
+  - skill{s=Null_H_Skill_2_Heal} ~onDamaged
+  - skill{s=Null_H_Return} ~onSignal:NullSummonDeath
+  - skill{s=Null_H_Skill_2_90} ~onDamaged =90%
+  - skill{s=Null_H_Skill_2_80} ~onDamaged =80%
+  - skill{s=Null_H_Skill_2_70} ~onDamaged =70%
+  - skill{s=Null_H_Skill_2_60} ~onDamaged =60%
+  - skill{s=Null_H_Skill_2_50} ~onDamaged =50%
+  - skill{s=Null_H_Skill_2_40} ~onDamaged =40%
+  - skill{s=Null_H_Skill_2_30} ~onDamaged =30%
+  - skill{s=Null_H_Skill_2_20} ~onDamaged =20%
+  - skill{s=Null_H_Skill_2_10} ~onDamaged =10%
+  - randomskill{skills=Null_H_Skill_3,Null_H_Skill_4,Null_H_Skill_5,Null_H_Skill_6,Null_H_Skill_7} ~onTimer:30 0.18
+  - randomskill{skills=Null_H_Skill_3,Null_H_Skill_4,Null_H_Skill_5,Null_H_Skill_6,Null_H_Skill_7} ~onDamaged 0.2
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+NULL_H_Summon:
+  Type: Zombie
+  Display: "&8NULL - Legendary Boss"
+  Health: 7000
+  Damage: 400
+  Disguise:
+    Type: player
+    Skin: ___NULL__
+  Options:
+    AlwaysShowName: true
+    Despawn: true
+    FollowRange: 100
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.01
+    KnockbackResistance: 1
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    NoAI: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 lookatplayers
+  AITargetSelectors:
+  - 0 clear
+  Skills:
+  - skill{s=NULL_H_SummonDeath} ~onDeath
+  - skill{s=NULL_H_SummonSkill_1} ~onTimer:80
+  AIGoalSelectors:
+  Equipment:
+  - B4:4
+Null_H_HurtMob:
+  Type: villager
+  Health: 10000
+  Damage: 0
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  Skills:
+  - skill{s=Null_H_HurtMob_Skill} ~onSpawn
+  Options:
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    Invincible: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    HasTrades: false
+  Disguise:
+    Type: villager
+    Invisible: true

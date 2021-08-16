@@ -1,0 +1,105 @@
+Pirate_1_Armor:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Lachy_Pirata_Zr 1 0.15
+  - Lachy_Pirata_Zd 1 0.15
+  - Morskie_Buty_Zr 1 0.15
+  - Morskie_Buty_Str 1 0.15
+  - Morskie_Buty_Wytrz 1 0.15
+Pirate_1_Weapon_1:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Rapier_Zr 1 0.06
+  - Piracki_Kordelas_Zd 1 0.13
+  - Piracki_Kordelas_Zr 1 0.13
+  - Piracki_Kordelas_Wytrz 1 0.13
+Pirate_1_Weapon_2:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Piracka_Proca_Zd 1 0.14
+  - Piracka_Proca_Zr 1 0.14
+Pirate_2_Armor:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Wzmocnione_Pirackie_Ubranie_Zd 1 0.08
+  - Wzmocnione_Pirackie_Ubranie_Zr 1 0.08
+  - Wzmocnione_Pirackie_Ubranie_Wytrz 1 0.08
+  - Pirackie_Ubranie_Zr 1 0.16
+  - Pirackie_Ubranie_Zd 1 0.16
+  - Pirackie_Ubranie_Wytrz 1 0.16
+  - Piracka_Zbroja_Wytrz 1 0.16
+  - Buty_Z_Kolczuga_Wytrz 1 0.16
+  - Buty_Z_Kolczuga_Str 1 0.16
+Pirate_2_Weapon_1:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Rebiczerep_Str 1 0.07
+  - Tasak_Str 1 0.15
+Pirate_2_Weapon_2:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Dwureczny_Kordelas_Str 1 0.02
+  - Dwureczny_Kordelas_Wytrz 1 0.02
+  - Rapier_Zr 1 0.09
+  - Piracki_Kordelas_Zd 1 0.16
+  - Piracki_Kordelas_Zr 1 0.16
+  - Piracki_Kordelas_Wytrz 1 0.16
+Pirate_3_Armor:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Wysluzony_Piracki_Pancerz_Str 1 0.09
+  - Wysluzony_Piracki_Pancerz_Wytrz 1 0.09
+  - Ciezka_Piracka_Zbroja_Wytrz 1 0.1
+  - Piracki_Pancerz_Wytrz 1 0.17
+  - Piracki_Pancerz_Zd 1 0.17
+  - Buty_Z_Kolczuga_Str 1 0.18
+  - Buty_Z_Kolczuga_Wytrz 1 0.18
+  - Helm_Pirata_Wytrz 1 0.19
+  - Helm_Pirata_Str 1 0.19
+Pirate_3_Weapon_1:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Kusza_Abordazowa_Zd 1 0.03
+  - Kusza_Abordazowa_Str 1 0.03
+Pirate_4_Armor:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Przekleta_Piracka_Zbroja_Mana 1 0.07
+  - Przekleta_Piracka_Zbroja_Zr 1 0.07
+  - Przekleta_Piracka_Zbroja_Wytrz 1 0.07
+  - Przeklety_Piracki_Helm_Wytrz 1 0.09
+  - Przeklety_Piracki_Helm_Int 1 0.09
+  - Przeklety_Piracki_Helm_Str 1 0.09
+Pirate_4_Weapon:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Ostrze_Slugi_Mana 1 0.07
+  - Ostrze_Slugi_Zr 1 0.07
+  - Pirackie_Ostrze_Int 1 0.17
+  - Pirackie_Ostrze_Mana 1 0.17
+  - Pirackie_Ostrze_Zr 1 0.17
+Pirate_Boss_1:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+  - Ubranie_Kapitana_Zr 1 0.08
+  - Ubranie_Kapitana_Zd 1 0.08
+  - Ubranie_Kapitana_Wytrz 1 0.08
+Pirate_Boss_2:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - LukL_Zd 1 0.01
+  - BronL_Str 1 0.01
+  - BronL_Wytrz 1 0.01
+  - BronL_Zr 1 0.01

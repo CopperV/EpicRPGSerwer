@@ -1,0 +1,140 @@
+Cronnos_Drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Tytaniczny_Helm_Wytrz 1 0.02
+  - Tytaniczny_Helm_Str 1 0.02
+  - Uderzenie_Kolosa_Zd 1 0.02
+  - Uderzenie_Kolosa_Str 1 0.02
+Rezan_Drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Kostur_Spaczenia_Int 1 0.02
+  - Kostur_Spaczenia_Mana 1 0.02
+  - Szata_Rezana_Int 1 0.02
+  - Szata_Rezana_Zr 1 0.02
+Archol_Drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Wirujace_Ostrze_Str 1 0.02
+  - Wirujace_Ostrze_Zr 1 0.02
+  - Oddanie_Archola_Wytrz 1 0.02
+  - Oddanie_Archola_Str 1 0.02
+Entity_Drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+  - Wzrok_Pustki_Wytrz 1 0.03
+  - Wola_Entity_Zd 1 0.03
+  - Sferyczny_Szept_Zr 1 0.03
+  - Wzrok_Pustki_Zd 1 0.03
+  - Wola_Entity_Wytrz 1 0.03
+  - Sferyczny_Szept_Str 1 0.03
+  - Wzrok_Pustki_Mana 1 0.03
+  - Wola_Entity_Int 1 0.03
+  - Sferyczny_Szept_Mana 1 0.03
+##########################################
+Midas_Drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Duma_Midasa_Wytrz 1 0.02
+  - Reka_Pustki_Wytrz 1 0.02
+  - Duma_Midasa_Str 1 0.02
+  - Reka_Pustki_Mana 1 0.02
+Vivian_Drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Ostrze_Azzinotha_Zr 1 0.02
+  - Spatium_Calceamenta_Zr 1 0.02
+  - Ostrze_Azzinotha_Zd 1 0.02
+  - Spatium_Calceamenta_Str 1 0.02
+Inubis_Drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Wsparcie_Pustki_Zd 1 0.02
+  - SzalPustki 1 0.02
+  - Wsparcie_Pustki_Int 1 0.02
+Niklaus_Drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Szata_Arystokraty_Wytrz 1 0.02
+  - Szata_Arystokraty_Zd 1 0.02
+Frieda_Drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Szlacheckie_Ostrze_Str 1 0.02
+  - Szlacheckie_Ostrze_Int 1 0.02
+NULL_Drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+  - Furia_Pustki_Zd 1 0.03
+  - Ostatnia_Nadzieja_Wytrz 1 0.03
+  - Szczelina_Str 1 0.03
+  - Szczelina_Zr 1 0.03
+  - Ostatnia_Nadzieja_Walka 1 0.03
+  - Furia_Pustki_Zr 1 0.03
+  - Szczelina_Int 1 0.03
+  - Ostatnia_Nadzieja_Int 1 0.03
+  - Furia_Pustki_Mana 1 0.03
+##########################################
+Krol_Tulaczy_Drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Reka_Chaosu_Zd 1 0.02
+  - Korona_Tulaczy_Zr 1 0.02
+  - Korona_Tulaczy_Zd 1 0.02
+  - Reka_Chaosu_Int 1 0.02
+Przadka_Drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Rozga_Z_Krzywouchych_Moczarow_Int 1 0.02
+  - Zirael_Zr 1 0.02
+  - Zirael_Str 1 0.02
+  - Rozga_Z_Krzywouchych_Moczarow_Mana 1 0.02
+Kuchta_Drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Rozpruwacz_Zd 1 0.02
+  - Szata_Wiedzmy_Pustki_Walka 1 0.02
+  - Szata_Wiedzmy_Pustki_Mana 1 0.02
+  - Rozpruwacz_Wytrz 1 0.02
+Areita_Drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Zwiadowca_Pustki_Wytrz 1 0.02
+  - Wszechwiedza_Herobrine_Zd 1 0.02
+  - Zwiadowca_Pustki_Zr 1 0.02
+  - Wszechwiedza_Herobrine_Int 1 0.02
+Sentenza_Dung_Drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Pancerz_Pustki_Wytrz 1 0.02
+  - Szal_Sentenzy_Str 1 0.02
+  - Szal_Sentenzy_Zd 1 0.02
+  - Pancerz_Pustki_Int 1 0.02
+Herobrine_Drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+  - Pakt_Chaosu_Wytrz 1 0.03
+  - Macka_Chaosu_StrWytrz 1 0.03
+  - Macka_Chaosu_Zd 1 0.03
+  - Pakt_Chaosu_Walka 1 0.03
+  - Macka_Chaosu_Walka 1 0.03
+  - Dotyk_Chaosu_Zr 1 0.03
+  - Pakt_Chaosu_ZrZd 1 0.03
+  - Dotyk_Chaosu_Zd 1 0.03
+  - Dotyk_Chaosu_IntMana 1 0.03

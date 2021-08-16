@@ -28,5 +28,5 @@ stopnie:
         id: "fabula_quest_19_1_2"
         type: "przynies"
         targetName: "&bAmulet orkow"
-        message: "Pokonaj 23 orkowe amulety: %stan%"
+        message: "Przynies 23 orkowe amulety: %stan%"
         ilosc: 23

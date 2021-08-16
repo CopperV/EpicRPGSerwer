@@ -1,0 +1,58 @@
+Lava_1_Runes:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - OgnistaStrzala 1 0.13
+  - Pirokineza 1 0.12
+  - OgnistaStrzalaLcz 1 0.05
+  - OgnistaSfera 1 0.05
+  - KulaOgnia 1 0.01
+  - BurzaOgnista 1 0.01
+Lava_2_Weapon_1:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Kostur_Ognia2_Int 1 0.06
+  - Plomienny_Kostur_Int 1 0.15
+  - Plomienny_Kostur_Mana 1 0.15
+Lava_2_Weapon_2:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Odlamek_Furiata_Str 1 0.14
+  - Odlamek_Furiata_Wytrz 1 0.14
+  - Odlamek_Furiata_Zr 1 0.14
+  - Odlamek_Furiata_Zd 1 0.14
+  - Strzal_Furiata_Zr 1 0.16
+  - Strzal_Furiata_Zd 1 0.16
+Lava_Boss_1:
+  MinItems: 0
+  MaxItems: 3
+  Drops:
+  - Napiersnik_Barona_Wytrz 1 0.08
+  - Korona_Barona_Int 1 0.1
+  - Korona_Barona_Mana 1 0.1
+  - Korona_Barona_Wytrz 1 0.1
+Lava_Boss_2:
+  MinItems: 0
+  MaxItems: 5
+  Drops:
+  - Plomienny_Kostur_Int 1 0.33
+  - Plomienny_Kostur_Mana 1 0.33
+  - Kostur_Ognia2_Int 1 0.21
+  - OgnistaStrzala 1 0.59
+  - Pirokineza 1 0.5
+  - OgnistaStrzalaLcz 1 0.23
+  - OgnistaSfera 1 0.23
+  - KulaOgnia 1 0.05
+  - BurzaOgnista 1 0.05
+Lava_EpicBoss:
+  MinItems: 0
+  MaxItems: 4
+  Drops:
+  - OgnistaStrzala 1 0.65
+  - Pirokineza 1 0.56
+  - OgnistaStrzalaLcz 1 0.29
+  - OgnistaSfera 1 0.29
+  - KulaOgnia 1 0.11
+  - BurzaOgnista 1 0.11

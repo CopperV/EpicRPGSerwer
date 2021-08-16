@@ -1,0 +1,300 @@
+Exp50_1_Weapon:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Ciernista_Laga_Str 1 0.07
+  - Ciernista_Laga_Wytrz 1 0.07
+  - Laga_Cieni_Zr 1 0.12
+  - Laga_Cieni_Str 1 0.12
+  - Laga_Cieni_Int 1 0.12
+Exp50_1_Armor:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Stara_Koszula_Wytrz 1 0.09
+  - Stara_Koszula_Str 1 0.09
+  - Stara_Koszula_Zd 1 0.09
+  - Stare_Spodnie_Wytrz 1 0.11
+  - Stare_Spodnie_Zd 1 0.11
+  - Stare_Spodnie_Int 1 0.11
+  - Pierzaste_Buty_Wytrz 1 0.14
+  - Pierzaste_Buty_Str 1 0.14
+  - Pierzaste_Buty_Zr 1 0.14
+  - Pierzaste_Buty_Mana 1 0.14
+  - Ciernista_Czapka_Wytrz 1 0.15
+  - Ciernista_Czapka_Str 1 0.15
+  - Ciernista_Czapka_Zr 1 0.15
+  - Ciernista_Czapka_Zd 1 0.15
+  - Ciernista_Czapka_Int 1 0.15
+  - Ciernista_Czapka_Mana 1 0.15
+Exp50_2_Weapon:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Luk_Bolu_Zd 1 0.01
+  - Luk_Cieni_Zd 1 0.06
+  - Luk_Cieni_Zr 1 0.06
+  - Luk_Legionisty_Zd 1 0.12
+  - Luk_Legionisty_Zr 1 0.12
+  - Luk_Legionisty_Str 1 0.12
+Exp50_2_Armor:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Zbroja_Legionisty_Wytrz 1 0.01
+  - Zbroja_Legionisty_Str 1 0.01
+  - Zbroja_Legionisty_Zr 1 0.01
+  - Czaszka_Potwora_Wytrz 1 0.07
+  - Czaszka_Potwora_Zr 1 0.07
+  - Czaszka_Potwora_Zd 1 0.07
+Exp50_3_Armor:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Przepaska_Cierniowa_Wytrz 1 0.11
+  - Przepaska_Cierniowa_Int 1 0.11
+  - Przepaska_Cierniowa_Mana 1 0.11
+  - Przepaska_Cierniowa_ZrStr 1 0.11
+  - Przepaska_Cierniowa_ZrZd 1 0.11
+Exp50_4_Weapon:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Pajecze_Zadlo_Zr 1 0.03
+  - Pajecze_Zadlo_Zd 1 0.03
+  - Pajecze_Zadlo_Mana 1 0.03
+Exp50_5_Weapon:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Przeklety_Sztylet_Zr 1 0.08
+  - Przeklety_Sztylet_Str 1 0.08
+  - Przeklety_Sztylet_Int 1 0.08
+  - Przekleta_laska_Str 1 0.14
+  - Przekleta_laska_Zr 1 0.14
+  - Przekleta_laska_Zd 1 0.14
+  - Przekleta_laska_Wytrz 1 0.14
+  - Przekleta_laska_Int 1 0.14
+  - Przekleta_laska_Mana 1 0.14
+Exp50_5_Armor:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Stroj_Obywatela1_Wytrz 1 0.04
+  - Stroj_Obywatela1_Str 1 0.04
+  - Stroj_Obywatela1_Zr 1 0.04
+  - Stroj_Obywatela1_Zd 1 0.04
+  - Stroj_Obywatela1_Int 1 0.04
+  - Stroj_Obywatela1_Mana 1 0.04
+  - Stroj_Obywatela2_Wytrz 1 0.07
+  - Stroj_Obywatela2_Str 1 0.07
+  - Stroj_Obywatela2_Zr 1 0.07
+  - Stroj_Obywatela2_Zd 1 0.07
+  - Stroj_Obywatela2_Int 1 0.07
+  - Stroj_Obywatela2_Mana 1 0.07
+  - Stroj_Obywatela3_Wytrz 1 0.1
+  - Stroj_Obywatela3_Str 1 0.1
+  - Stroj_Obywatela3_Zr 1 0.1
+  - Stroj_Obywatela3_Zd 1 0.1
+  - Stroj_Obywatela3_Int 1 0.1
+  - Stroj_Obywatela3_Mana 1 0.1
+Exp50_6_Weapon:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Luk_Bolu_Zd 1 0.01
+  - Luk_Cieni_Zd 1 0.08
+  - Luk_Cieni_Zr 1 0.08
+  - Bat_JockeyA_Zr 1 0.1
+  - Luk_Legionisty_Zd 1 0.15
+  - Luk_Legionisty_Zr 1 0.15
+  - Luk_Legionisty_Str 1 0.15
+Exp50_6_Armor:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Zbroja_Legionisty_Wytrz 1 0.01
+  - Zbroja_Legionisty_Str 1 0.01
+  - Zbroja_Legionisty_Zr 1 0.01
+  - Czaszka_Potwora_Wytrz 1 0.07
+  - Czaszka_Potwora_Zr 1 0.07
+  - Czaszka_Potwora_Zd 1 0.07
+Exp50_7_Weapon_1:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Luk_Bolu_Zd 1 0.03
+  - Luk_Cieni_Zd 1 0.1
+  - Luk_Cieni_Zr 1 0.1
+  - Ciernisty_Luk_Zd 1 0.13
+  - Ciernisty_Luk_Zr 1 0.13
+Exp50_7_Weapon_2:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Ostrze_Morgulu_Str 1 0.03
+  - Ostrze_Morgulu_Int 1 0.03
+  - Postrach_Nieumarlych_Str 1 0.08
+  - Postrach_Nieumarlych_Zr 1 0.08
+  - Postrach_Nieumarlych_Zd 1 0.08
+  - Cierniowe_Ostrze_Str 1 0.13
+  - Cierniowe_Ostrze_Zr 1 0.13
+  - Cierniowe_Ostrze_Zd 1 0.13
+  - Cierniowe_Ostrze_Wytrz 1 0.13
+Exp50_7_Armor:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Zbroja_Cieni_Wytrz 1 0.02
+  - Zbroja_Cieni_Walka 1 0.02
+  - Zbroja_Cieni_Zd 1 0.02
+  - Nogawice_Cieni_Wytrz 1 0.04
+  - Nogawice_Cieni_Zr 1 0.04
+  - Nogawice_Cieni_Int 1 0.04
+  - Helm_Cieni_Wytrz 1 0.07
+  - Helm_Cieni_Str 1 0.07
+  - Helm_Cieni_Mana 1 0.07
+  - Buty_Cieni_Wytrz 1 0.1
+  - Buty_Cieni_Zr 1 0.1
+  - Buty_Cieni_Zd 1 0.1
+  - Buty_Cieni_Int 1 0.1
+Exp50_8_Armor:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Wiedzmia_Szata_Int 1 0.09
+  - Wiedzmia_Szata_Mana 1 0.09
+  - Czapka_Wiedzmy_Int 1 0.16
+  - Czapka_Wiedzmy_Mana 1 0.16
+Exp50_9_Weapon:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Nocny_Lowca_Zd 1 0.02
+  - Nocny_Lowca_Str 1 0.02
+  - Nocny_Lowca_Int 1 0.02
+  - Luk_Bolu_Zd 1 0.05
+  - Luk_Cieni_Zd 1 0.1
+  - Luk_Cieni_Zr 1 0.1
+  - Luk_Legionisty_Zd 1 0.19
+  - Luk_Legionisty_Zr 1 0.19
+  - Luk_Legionisty_Str 1 0.19
+Exp50_9_Armor:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Zbroja_Legionisty_Wytrz 1 0.03
+  - Zbroja_Legionisty_Str 1 0.03
+  - Zbroja_Legionisty_Zr 1 0.03
+  - Zbroja_Tulacza_Wytrz 1 0.06
+  - Zbroja_Tulacza_Zd 1 0.06
+  - Helm_Tulacza_Wytrz 1 0.09
+  - Helm_Tulacza_Zr 1 0.09
+  - Czaszka_Potwora_Wytrz 1 0.12
+  - Czaszka_Potwora_Zr 1 0.12
+  - Czaszka_Potwora_Zd 1 0.12
+Exp50_Lowca_1:
+  MinItems: 0
+  MaxItems: 6
+  Drops:
+  - Nocny_Lowca_Zd 1 0.05
+  - Nocny_Lowca_Str 1 0.05
+  - Nocny_Lowca_Int 1 0.05
+  - Zbroja_Legionisty_Wytrz 1 0.07
+  - Zbroja_Legionisty_Str 1 0.07
+  - Zbroja_Legionisty_Zr 1 0.07
+  - Luk_Bolu_Zd 1 0.1
+  - Zbroja_Tulacza_Wytrz 1 0.16
+  - Zbroja_Tulacza_Zd 1 0.16
+  - Helm_Tulacza_Wytrz 1 0.19
+  - Helm_Tulacza_Zr 1 0.19
+  - Luk_Cieni_Zd 1 0.22
+  - Luk_Cieni_Zr 1 0.22
+  - Czaszka_Potwora_Wytrz 1 0.24
+  - Czaszka_Potwora_Zr 1 0.24
+  - Czaszka_Potwora_Zd 1 0.24
+  - Luk_Legionisty_Zd 1 0.34
+  - Luk_Legionisty_Zr 1 0.34
+  - Luk_Legionisty_Str 1 0.34
+Exp50_Lowca_2:
+  MinItems: 0
+  MaxItems: 6
+  Drops:
+  - Cicha_Smierc_Zd 1 0.01
+  - Ingreyn_Zr 1 0.01
+  - Ingreyn_Zd 1 0.01
+  - Mroczny_Poslaniec_Zr 1 0.01
+  - Mroczny_Poslaniec_Zd 1 0.01
+  - Cicha_Smierc_Zr 1 0.01
+Exp50_Jezdziec_1:
+  MinItems: 0
+  MaxItems: 6
+  Drops:
+  - Zbroja_Cieni_Wytrz 1 0.05
+  - Zbroja_Cieni_Walka 1 0.05
+  - Zbroja_Cieni_Zd 1 0.05
+  - Ostrze_Morgulu_Str 1 0.07
+  - Ostrze_Morgulu_Int 1 0.07
+  - Luk_Bolu_Zd 1 0.07
+  - Nogawice_Cieni_Wytrz 1 0.09
+  - Nogawice_Cieni_Zr 1 0.09
+  - Nogawice_Cieni_Int 1 0.09
+  - Helm_Cieni_Wytrz 1 0.19
+  - Helm_Cieni_Str 1 0.19
+  - Helm_Cieni_Mana 1 0.19
+  - Postrach_Nieumarlych_Str 1 0.21
+  - Postrach_Nieumarlych_Zr 1 0.21
+  - Postrach_Nieumarlych_Zd 1 0.21
+  - Luk_Cieni_Zd 1 0.23
+  - Luk_Cieni_Zr 1 0.23
+  - Buty_Cieni_Wytrz 1 0.24
+  - Buty_Cieni_Zr 1 0.24
+  - Buty_Cieni_Zd 1 0.24
+  - Buty_Cieni_Int 1 0.24
+  - Ciernisty_Luk_Zd 1 0.26
+  - Ciernisty_Luk_Zr 1 0.26
+  - Cierniowe_Ostrze_Str 1 0.27
+  - Cierniowe_Ostrze_Zr 1 0.27
+  - Cierniowe_Ostrze_Zd 1 0.27
+  - Cierniowe_Ostrze_Wytrz 1 0.27
+Exp50_Jezdziec_2:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Serce_Pustki_Wytrz 1 0.01
+  - Aleor_Str 1 0.01
+  - Serce_Pustki_Str 1 0.01
+  - Okowy_Pustki_Wytrz 1 0.01
+  - Aleor_Wytrz 1 0.01
+  - Okowy_Pustki_Str 1 0.01
+Exp50_Szepciucha_1:
+  MinItems: 0
+  MaxItems: 6
+  Drops:
+  - KulaSmierci 1 0.05
+  - Mana250 1 0.07
+  - Zycie100 1 0.07
+  - Wiedzmia_Szata_Int 1 0.25
+  - Wiedzmia_Szata_Mana 1 0.25
+  - Zycie50 1 0.28
+  - Mana100 1 0.28
+  - Wiedzmi_Kostur_Int 1 0.3
+  - Czapka_Wiedzmy_Int 1 0.37
+  - Czapka_Wiedzmy_Mana 1 0.37
+  - NocWDzien 1 0.41
+  - StrzalaCiemnosci 1 0.5
+  - Menzurka 1
+Exp50_Szepciucha_2:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Czarne_Serce_Int 1 0.01
+  - Okowy_Ciemnosci_Mana 1 0.01
+  - Czarne_Serce_Mana 1 0.01
+  - Okowy_Ciemnosci_Int 1 0.01
+Exp50_Sentenza:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Przeznaczenie_Pustki_Wytrz 1 0.01
+  - Chwala_Sentenzy_Zr 1 0.01

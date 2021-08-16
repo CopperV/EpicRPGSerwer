@@ -1,0 +1,25 @@
+Zaraza_1_Armor:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Helm_Gornika_Wytrz 1 0.08
+  - Czapka_Gornika_Str 1 0.15
+  - Spodnie_Kopacza_Zr 1 0.12
+  - Spodnie_Kopacza_Wytrz 1 0.12
+  - Spodnie_Kopacza_Zd 1 0.12
+  - Stare_Buty_Zr 1 0.14
+  - Stare_Buty_Wytrz 1 0.14
+  - Stare_Buty_Str 1 0.14
+  - Czapka_Gornika_Wytrz 1 0.15
+Zaraza_1_Weapon:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Kilof_Kopacza_Str 1 0.08
+  - Przerdzewialy_Kilof_Str 1 0.16
+Zaraza_3_Weapon:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Proca_Gornicza_Zd 1 0.15
+  - Proca_Gornicza_Zr 1 0.15

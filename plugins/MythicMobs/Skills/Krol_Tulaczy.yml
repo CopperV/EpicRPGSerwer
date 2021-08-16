@@ -82,11 +82,10 @@ Krol_TulaczySkill_2-Hit:
   - potion{type=SLOW;duration=200;level=5}
   - potion{type=WEAKNESS;duration=200;level=5}
   - potion{type=WITHER;duration=200;level=5}
-  - summon{mob=Krol_Tulaczy_Arrow_Check;amount=1;radius=0}
 
 Krol_TulaczySkill_2-End:
   Conditions:
-  - mobsInRadius{types=Krol_Tulaczy_Arrow_Check;amount=1to100;radius=1} false
+  - playerwithin{d=1} false
   Skills:
   - totem{ch=0;oT=Krol_Tulaczy-TotemTick;oE=Krol_Tulaczy-TotemEnd;hR=1;vR=1;md=100;yo=0} @origin
 

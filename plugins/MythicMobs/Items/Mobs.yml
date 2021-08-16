@@ -384,6 +384,10 @@ Twierdza_Mob_Luk_1:
   Id: 261
   Lore:
   - '&4- &8Obrazenia: &795'
+Twierdza_Mob_Luk_1_H:
+  Id: 261
+  Lore:
+  - '&4- &8Obrazenia: &7105'
 Dwor_Mob_Luk_2:
   Id: 261
   Lore:

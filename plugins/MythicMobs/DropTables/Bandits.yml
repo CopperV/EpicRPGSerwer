@@ -1,0 +1,141 @@
+Bandit_1_Armor:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Skorzana_Tunika_Zr 1 0.11
+  - Skorzana_Tunika_Zd 1 0.11
+  - Skorzana_Tunika_Str 1 0.11
+Bandit_1_Weapon_1:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Bandycka_Laga_Str 1 0.13
+  - Bandycka_Laga_Wytrz 1 0.13
+Bandit_1_Weapon_2:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Luk_Kompozytowy_Zd 1 0.12
+  - Prosty_Luk_Zd 1 0.15
+Bandit_2_Armor:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Skorzana_Tunika_Zr 1 0.13
+  - Skorzana_Tunika_Zd 1 0.13
+  - Skorzana_Tunika_Str 1 0.13
+  - Skorzane_Spodnie_Zr 1 0.15
+  - Skorzane_Spodnie_Zd 1 0.15
+Bandit_3_Armor:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Zbroja_Bandyty_Str 1 0.07
+  - Zbroja_Bandyty_Wytrz 1 0.07
+  - Zlote_Nogawice_Zr 1 0.08
+  - Zlote_Nogawice_Zd 1 0.08
+  - Zlote_Nogawice_Wytrz 1 0.08
+  - Zlote_Nogawice_Mana 1 0.08
+  - Zlote_Nogawice_Int 1 0.08
+  - Szmaragdowe_Buty_Zr 1 0.11
+  - Szmaragdowe_Buty_Zd 1 0.11
+  - Szmaragdowe_Buty_Wytrz 1 0.11
+  - Szmaragdowe_Buty_Mana 1 0.11
+  - Szmaragdowe_Buty_Int 1 0.11
+  - Skorzana_Tunika_Zr 1 0.17
+  - Skorzana_Tunika_Zd 1 0.17
+  - Skorzana_Tunika_Str 1 0.17
+  - Skorzane_Spodnie_Zr 1 0.19
+  - Skorzane_Spodnie_Zd 1 0.19
+Bandit_3_Weapon_1:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Ciezki_Miecz_Str 1 0.02
+  - Palasz_Str 1 0.09
+  - Palasz_Zr 1 0.09
+  - Palasz_Wytrz 1 0.09
+  - Sztylet_Str 1 0.18
+  - Sztylet_Zr 1 0.18
+  - Bandycka_Laga_Str 1 0.19
+  - Bandycka_Laga_Wytrz 1 0.19
+Bandit_3_Weapon_2:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Kusza_Bandyty_Str 1 0.09
+  - Kusza_Bandyty_Wytrz 1 0.09
+  - Luk_Kompozytowy_Zd 1 0.18
+  - Bandycka_Laga_Str 1 0.19
+  - Bandycka_Laga_Wytrz 1 0.19
+  - Prosty_Luk_Zd 1 0.23
+Bandit_3_Weapon_3:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Stary_Topor_Str 1 0.14
+  - Stary_Topor_Wytrz 1 0.14
+  - Bandycka_Laga_Str 1 0.19
+  - Bandycka_Laga_Wytrz 1 0.19
+Bandit_Boss_1:
+  MinItems: 0
+  MaxItems: 5
+  Drops:
+  - Skorzana_Tunika_Zr 1 0.29
+  - Skorzana_Tunika_Zd 1 0.29
+  - Skorzana_Tunika_Str 1 0.29
+  - Skorzane_Spodnie_Zr 1 0.33
+  - Skorzane_Spodnie_Zd 1 0.33
+  - Sztylet_Str 1 0.29
+  - Sztylet_Zr 1 0.29
+  - Zbroja_Bandyty_Str 1 0.18
+  - Zbroja_Bandyty_Wytrz 1 0.18
+  - Bandycka_Laga_Str 1 0.4
+  - Bandycka_Laga_Wytrz 1 0.4
+  - Palasz_Str 1 0.2
+  - Palasz_Zr 1 0.2
+  - Palasz_Wytrz 1 0.2
+  - Stary_Topor_Str 1 0.28
+  - Stary_Topor_Wytrz 1 0.28
+  - Ciezki_Miecz_Str 1 0.1
+  - Zlote_Nogawice_Zr 1 0.18
+  - Zlote_Nogawice_Zd 1 0.18
+  - Zlote_Nogawice_Wytrz 1 0.18
+  - Zlote_Nogawice_Mana 1 0.18
+  - Zlote_Nogawice_Int 1 0.18
+  - Szmaragdowe_Buty_Zr 1 0.22
+  - Szmaragdowe_Buty_Zd 1 0.22
+  - Szmaragdowe_Buty_Wytrz 1 0.22
+  - Szmaragdowe_Buty_Mana 1 0.22
+  - Szmaragdowe_Buty_Int 1 0.22
+Bandit_Boss_2:
+  MinItems: 0
+  MaxItems: 8
+  Drops:
+  - Skorzana_Tunika_Zr 1 0.37
+  - Skorzana_Tunika_Zd 1 0.37
+  - Skorzana_Tunika_Str 1 0.37
+  - Skorzane_Spodnie_Zr 1 0.4
+  - Skorzane_Spodnie_Zd 1 0.4
+  - Sztylet_Str 1 0.39
+  - Sztylet_Zr 1 0.39
+  - Zbroja_Bandyty_Str 1 0.28
+  - Zbroja_Bandyty_Wytrz 1 0.28
+  - Bandycka_Laga_Str 1 0.47
+  - Bandycka_Laga_Wytrz 1 0.47
+  - Palasz_Str 1 0.32
+  - Palasz_Zr 1 0.32
+  - Palasz_Wytrz 1 0.32
+  - Stary_Topor_Str 1 0.38
+  - Stary_Topor_Wytrz 1 0.38
+  - Ciezki_Miecz_Str 1 0.15
+  - Zlote_Nogawice_Zr 1 0.28
+  - Zlote_Nogawice_Zd 1 0.28
+  - Zlote_Nogawice_Wytrz 1 0.28
+  - Zlote_Nogawice_Mana 1 0.28
+  - Zlote_Nogawice_Int 1 0.28
+  - Szmaragdowe_Buty_Zr 1 0.3
+  - Szmaragdowe_Buty_Zd 1 0.3
+  - Szmaragdowe_Buty_Wytrz 1 0.3
+  - Szmaragdowe_Buty_Mana 1 0.3
+  - Szmaragdowe_Buty_Int 1 0.3

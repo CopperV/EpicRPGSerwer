@@ -1,0 +1,19 @@
+id: "p_quest_38"                                
+name: "&aTEST POINTS - MOZE BYC ZBUGOWANE"
+zleceniodawca: "&cWulfgar"
+lore:                                               
+  - "&aTEST LORE"
+prize:                                    
+  - "xp: 100"
+require:                                            
+  - "level: 30"
+stopnie:
+  1:
+    talking: true
+    targets:
+      1:
+        id: "p_quest_38_1_1"
+        type: "points"
+        targetName: "test123"
+        message: "Wybij Wilki, Rabusi i Kieszonkowcow w okolicy: %stan%"
+        ilosc: 120

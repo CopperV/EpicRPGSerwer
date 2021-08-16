@@ -1,6 +1,6 @@
 name: "&c&lMilten"
 title: "&c&lMilten - quester"
-size: 9
+size: 18
 slots:
   1:
     item: "6_quest_2"
@@ -20,6 +20,8 @@ slots:
     max: 75
     wymagania:
       - "quest: 6_quest_2"
+  10:
+    item: "dungeon_3"
 #  8:
 #    item: "skill_arrows"
 #    wymagania:
