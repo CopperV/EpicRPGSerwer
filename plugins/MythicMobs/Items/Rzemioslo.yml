@@ -500,6 +500,129 @@ El_Maestro:
     offhand:
       KnockbackResistance: 0.25
       MovementSpeed: -0.2
+Dlugi_Topor:
+  Id: IRON_AXE
+  Display: '&7&oDlugi topor'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7120'
+  - '&4- &8Sila: &7+12'
+  - '&4- &8Walka: &7+2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c130'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.1
+      KnockbackResistance: 0.13
+      Health: 1
+Topor_Bojowy:
+  Id: IRON_AXE
+  Display: '&7&oTopor bojowy'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7144'
+  - '&4- &8Sila: &7+15'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Zrecznosc: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c160'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.14
+      KnockbackResistance: 0.16
+      Health: 3
+Ciezki_Topor_Bojowy:
+  Id: IRON_AXE
+  Display: '&7&lCiezki topor bojowy'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7175'
+  - '&4- &8Sila: &7+20'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Zrecznosc: &7-3'
+  - '&4- &8Zdolnosci mysliwskie: &7-2'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c190'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.18
+      KnockbackResistance: 0.17
+      Health: 5
+Egzekutor_Sedziego:
+  Id: DIAMOND_AXE
+  Display: '&e&lEgzekutor sedziego'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7220'
+  - '&4- &8Sila: &7+25'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Zrecznosc: &7-4'
+  - '&4- &8Zdolnosci mysliwskie: &7-4'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c270'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.2
+      KnockbackResistance: 0.2
+      Health: 7
+Topor_Wojenny:
+  Id: NETHERITE_AXE
+  Display: '&c&lTopor wojenny'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7250'
+  - '&4- &8Sila: &7+35'
+  - '&4- &8Walka: &7+8'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Zrecznosc: &7-5'
+  - '&4- &8Zdolnosci mysliwskie: &7-5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c315'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.25
+      KnockbackResistance: 0.25
+      Health: 10
 Krowia_Czapka:
   Id: 298
   Display: '&rKrowia czapka'

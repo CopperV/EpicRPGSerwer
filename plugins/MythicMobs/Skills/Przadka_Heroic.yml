@@ -1,0 +1,100 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+Przadka_HSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &dNasza siostra poswiecila swoje zycie w sluzbie Pustce..."} @PlayersInRadius{r=20}
+  - threat{amount=100000} @NearestPlayer
+  - delay 30
+  - message{m="<mob.name><&co> &dTeraz wy zaplacicie swoim za jej smierc!"} @PlayersInRadius{r=20}
+
+Przadka_HDeath:
+  Skills:
+  - command{c="mm m kill Przadka_HPortal"} @self
+  - command{c="mm m kill Przadka_H_Summon1"} @self
+  - command{c="mm m kill Przadka_H_Summon2"} @self
+
+Przadka_HSkill_1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=140} @self
+  - message{m="<mob.name><&co> &dPowstancie me siostry!"} @PlayersInRadius{r=40}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bPrzadka przygotowuje Wiedzmi Portal!";d=100} @PIR{r=40}
+  - skill{s=Przadka_HSkill_1_Prepare} @PIR{r=30;limit=1;sort=RANDOM}
+
+Przadka_HSkill_1_Prepare:
+  Skills:
+  - particles{particle=smoke;vd=20;amount=3;y=1;vs=0.1;hs=0.1;s=0.05;repeat=20;repeatInterval=5}
+  - particles{particle=witchMagic;vd=20;amount=3;y=1;vs=0.1;hs=0.1;s=0.05;repeat=20;repeatInterval=5}
+  - particles{particle=witchMagic;vd=20;amount=3;y=1;vs=0.1;hs=0.1;s=0.05;repeat=20;repeatInterval=5}
+  - delay 100
+  - summon{mob=Przadka_HPortal;amount=1;radius=0}
+
+Przadka_HPortal_Defense:
+  Conditions:
+  - hasPassenger{} true
+  Skills:
+#  - message{m="<trigger.name> <caster.name>"} @PlayersInRadius{r=40}
+  - sound{s=item.totem.use;v=1;p=1.2} @self
+  - damage{amount=250} @self
+  - particles{particle=smoke;vd=20;amount=15;y=1;vs=0.4;hs=0.4;s=0.15} @self
+  - particles{particle=witchMagic;vd=20;amount=15;y=1;vs=0.4;hs=0.4;s=0.15} @self
+  - particles{particle=witchMagic;vd=20;amount=15;y=1;vs=0.4;hs=0.4;s=0.15} @self
+  
+
+Przadka_HSkill_2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=200} @self
+  - message{m="<mob.name><&co> &dPoznajcie moja prawdziwa moc!"} @PlayersInRadius{r=30}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bPrzadka przygotowuje Prawdziwa Moc!";d=100} @PIR{r=30}
+  - delay 60
+  - skill{s=Przadka_HSkill_2_Prepare;repeat=20;repeatInterval=10} @PLIR{r=20}
+
+Przadka_HSkill_2_Prepare:
+  Skills:
+  - effect:particlering{particle=smoke;vd=6;radius=3;points=12;amount=1;y=0.1;hs=0.1;s=0.05;repeat=20;repeatInterval=5}
+  - effect:particlering{particle=witchMagic;vd=6;radius=1;points=4;amount=1;y=0.1;hs=0.1;s=0.05;repeat=20;repeatInterval=5}
+  - effect:particlering{particle=witchMagic;vd=6;radius=2;points=8;amount=1;y=0.1;hs=0.1;s=0.05;repeat=20;repeatInterval=5}
+  - delay 100
+  - summon{mob=Przadka_H_Summon1;amount=1;noise=0;os=true}
+
+Przadka_H_Summon1_Skill:
+  Skills:
+  - delay 1
+  - effect:particles{particle=witchMagic;amount=50;speed=0.25;hS=2;vS=2;y=1;vd=15} @self
+  - sound{s=entity.splash_potion.break;v=1;p=0.1} @self
+  - damage{amount=300} @PIR{r=3}
+  - delay 1
+  - remove @self
+
+Przadka_HSkill_3:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=150} @self
+  - message{m="<mob.name><&co> &dNigdy nas nie pokonacie!"} @PlayersInRadius{r=30}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bPrzadka przygotowuje Utrapiona Dusze!";d=100} @PIR{r=30}
+  - skill{s=Przadka_HSkill_3_Prepare} @PIR{r=20;limit=1;sort=RANDOM}
+  - delay 105
+  - rally{types=Przadka_H_Summon2;radius=20;ot=true} @self
+
+Przadka_HSkill_3_Prepare:
+  Skills:
+  - particles{particle=largesmoke;vd=20;amount=5;y=1;vs=0.1;hs=0.1;s=0.05;repeat=20;repeatInterval=5}
+  - delay 100
+  - effect:particles{particle=smoke;amount=75;speed=0.4;hS=2;vS=2;y=1;vd=15}
+  - sound{s=entity.evocation_illager.prepare_summon;v=1;p=0.2}
+  - summon{mob=Przadka_H_Summon2;amount=1;radius=0;os=true}
+
+Przadka_HSkill_3_Heal:
+  Conditions:
+  - mobsInRadius{types=Przadka_H_Summon2;amount=1to10;radius=2} true
+  Skills:
+  - heal{amount=40000} @self
+  - remove @MIR{r=2;t=Przadka_H_Summon2}
+  - sound{s=entity.evocation_fangs.attack;v=1;p=0.1} @self
+  - effect:particles{particle=smoke;amount=75;speed=0.4;hS=2;vS=2;y=1;vd=15} @self
+  

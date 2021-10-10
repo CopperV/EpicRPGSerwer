@@ -7,11 +7,11 @@ display:
 skinid: 595180235
 location:
   world: "F_RPG"
-  x: -28.5
-  y: 43
-  z: 39.5
-  yaw: -135
-  pitch: 2
+  x: -30
+  y: 41.9375
+  z: 26
+  yaw: -60
+  pitch: 0.5
 lookat: true
 commands:
   - "cc open geels %player%"

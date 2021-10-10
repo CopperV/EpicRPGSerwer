@@ -39,6 +39,70 @@ Test_Zr:
   Attributes:
     mainhand:
       KnockbackResistance: 50
+Test_Kilof:
+  Id: DIAMOND_PICKAXE
+  Display: '&c&oTestowy kilof'
+  Options:
+    Unbreakable: true
+  NBT:
+    Base:
+      mine_power: 1.5
+Test_Helmet:
+  Id: LEATHER_HELMET
+  Display: 'Czapka kopacza'
+  Options:
+    Unbreakable: true
+  NBT:
+    Base:
+      deZawrot: 0.1
+      deSlepota: 0.05
+      deZmeczenie: 0.1
+      deOpary: 0.15
+      deZmeczenieEffect: 0.1
+      deOparyEffect: 0.05
+      bonusTime: 60
+Test_Chestplate:
+  Id: LEATHER_CHESTPLATE
+  Display: 'Koszula kopacza'
+  Options:
+    Unbreakable: true
+  NBT:
+    Base:
+      deZawrot: 0.15
+      deSlepota: 0.01
+      deZmeczenie: 0.15
+      deOpary: 0.09
+      deZmeczenieEffect: 0.15
+      deOparyEffect: 0.03
+      bonusTime: 90
+Test_Leggings:
+  Id: LEATHER_LEGGINGS
+  Display: 'Spodnie kopacza'
+  Options:
+    Unbreakable: true
+  NBT:
+    Base:
+      deZawrot: 0.12
+      deSlepota: 0.1
+      deZmeczenie: 0.05
+      deOpary: 0.05
+      deZmeczenieEffect: 0.08
+      deOparyEffect: 0.1
+      bonusTime: 80
+Test_Boots:
+  Id: LEATHER_BOOTS
+  Display: 'Buty kopacza'
+  Options:
+    Unbreakable: true
+  NBT:
+    Base:
+      deZawrot: 0.05
+      deSlepota: 0.1
+      deZmeczenie: 0.04
+      deOpary: 0.07
+      deZmeczenieEffect: 0.15
+      deOparyEffect: 0.1
+      bonusTime: 40
 Event1:
   Id: 277
   Display: '&c&l✪ &4&l&kA&6&l LOPATA EVENTOWA &4&l&kA&c&l ✪'

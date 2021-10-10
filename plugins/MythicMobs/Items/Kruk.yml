@@ -1,0 +1,1038 @@
+######################## Nefarian ########################
+Bandycka_Szpada_Zr:
+  Id: IRON_SWORD
+  Display: '&7Bandycka szpada'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &789'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Zrecznosc: &7+6'
+  - '&4- &8Sila: &7-2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c261'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.04
+Bandycka_Szpada_Zd:
+  Id: IRON_SWORD
+  Display: '&7Bandycka szpada'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &766'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Zrecznosc: &7+2'
+  - '&4- &8Zdolnosci mysliwskie: &7+5'
+  - '&4- &8Wytrzymalosc: &7-3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c259'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.03
+      Health: 1
+    offhand:
+      Health: 1
+Dlugi_Miecz_Str:
+  Id: IRON_SWORD
+  Display: '&aDlugi miecz'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7107'
+  - '&4- &8Walka: &7+9'
+  - '&4- &8Sila: &7+5'
+  - '&4- &8Inteligencja: &7+1'
+  - '&4- &8Zrecznosc: &7-2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c276'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      KnockbackResistance: 0.01
+      MovementSpeed: 0.02
+      Health: 3
+Dlugi_Miecz_Zr:
+  Id: IRON_SWORD
+  Display: '&aDlugi miecz'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7100'
+  - '&4- &8Walka: &7+12'
+  - '&4- &8Zrecznosc: &7+6'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Zdolnosci mysliwskie: &7-3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c272'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.04
+      Health: 1
+Ostrze_Huno_Str:
+  Id: IRON_SWORD
+  Display: '&2&lOstrze Huno'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7121'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Sila: &7+8'
+  - '&4- &8Zrecznosc: &7+2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c296'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      KnockbackResistance: 0.03
+      MovementSpeed: -0.01
+      Health: 6
+Ostrze_Huno_Walka:
+  Id: IRON_SWORD
+  Display: '&2&lOstrze Huno'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7115'
+  - '&4- &8Walka: &7+7'
+  - '&4- &8Sila: &7+6'
+  - '&4- &8Zrecznosc: &7+8'
+  - '&4- &8Zdolnosci mysliwskie: &7+3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Walka: &c102'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      KnockbackResistance: 0.02
+      MovementSpeed: 0.01
+      Health: 4
+Zbroja_Bandyty_Zr:
+  Id: LEATHER_CHESTPLATE
+  Display: '&2Zbroja bandyty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &770'
+  - '&4- &8Walka: &7+7'
+  - '&4- &8Zrecznosc: &7+7'
+  - '&4- &8Mana: &7-8'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c281'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 4
+      MovementSpeed: 0.03
+      KnockbackResistance: 0.01
+Zbroja_Bandyty_Walka:
+  Id: LEATHER_CHESTPLATE
+  Display: '&2Zbroja bandyty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &773'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Zrecznosc: &7+10'
+  - '&4- &8Sila: &7-3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Walka: &c103'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 6
+      MovementSpeed: 0.01
+      KnockbackResistance: 0.03
+Spodnie_Bandyty_Wytrz:
+  Id: LEATHER_LEGGINGS
+  Display: '&2Spodnie bandyty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &763'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Wytrzymalosc: &7+6'
+  - '&4- &8Sila: &7+3'
+  - '&4- &8Inteligencja: &7-3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Wytrzymalosc: &c261'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      Health: 7
+      MovementSpeed: 0.02
+Spodnie_Bandyty_Zd:
+  Id: LEATHER_LEGGINGS
+  Display: '&2Spodnie bandyty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &753'
+  - '&4- &8Walka: &7+7'
+  - '&4- &8Wytrzymalosc: &7+1'
+  - '&4- &8Zdolnosci mysliwskie: &7+6'
+  - '&4- &8Mana: &7-9'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c254'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      Health: 4
+      MovementSpeed: 0.05
+      KnockbackResistance: 0.01
+Buty_Bandyty_Str:
+  Id: LEATHER_BOOTS
+  Display: '&2Buty bandyty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &756'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Sila: &7+6'
+  - '&4- &8Zdolnosci mysliwskie: &7-4'
+  - '&4- &8Zrecznosc: &7-1'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c264'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 5
+      MovementSpeed: 0.04
+      KnockbackResistance: 0.01
+Buty_Bandyty_Zr:
+  Id: LEATHER_BOOTS
+  Display: '&2Buty bandyty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &753'
+  - '&4- &8Walka: &7+8'
+  - '&4- &8Zrecznosc: &7+6'
+  - '&4- &8Mana: &7-5'
+  - '&4- &8Wytrzymalosc: &7-1'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c260'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 2
+      MovementSpeed: 0.07
+Prosty_Luk_Z_Khorinis_Zd:
+  Id: BOW
+  Display: '&a&oProsty luk z Khorinis'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &775'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Zrecznosc: &7+2'
+  - '&4- &8Zdolnosci mysliwskie: &7+7'
+  - '&4- &8Sila: &7-2'
+  - '&4- &8Wytrzymalosc: &7-1'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c255'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.04
+      Health: 2
+Prosty_Luk_Z_Khorinis_Walka:
+  Id: BOW
+  Display: '&a&oProsty luk z Khorinis'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &770'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Zrecznosc: &7+6'
+  - '&4- &8Zdolnosci mysliwskie: &7+6'
+  - '&4- &8Mana: &7-8'
+  - '&4- &8Wytrzymalosc: &7-2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Walka: &c97'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.03
+      Health: 4
+Dlugi_Luk_Z_Khorinis_Zd:
+  Id: BOW
+  Display: '&2&oDlugi luk z Khorinis'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &783'
+  - '&4- &8Walka: &7+7'
+  - '&4- &8Zrecznosc: &7+1'
+  - '&4- &8Zdolnosci mysliwskie: &7+8'
+  - '&4- &8Inteligencja: &7-3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c268'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.06
+      Health: 3
+      KnockbackResistance: 0.01
+Dlugi_Luk_Z_Khorinis_Zr:
+  Id: BOW
+  Display: '&2&oDlugi luk z Khorinis'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &779'
+  - '&4- &8Walka: &7+8'
+  - '&4- &8Zrecznosc: &7+7'
+  - '&4- &8Zdolnosci mysliwskie: &7+2'
+  - '&4- &8Mana: &7-7'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c265'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.07
+      Health: 2
+Ciezka_Zbroja_Bandyty_Wytrz:
+  Id: LEATHER_CHESTPLATE
+  Display: '&2&lCiezka zbroja bandyty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &784'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Wytrzymalosc: &7+10'
+  - '&4- &8Sila: &7+1'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Wytrzymalosc: &c299'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 14
+      MovementSpeed: -0.02
+      KnockbackResistance: 0.03
+Ciezka_Zbroja_Bandyty_Zr:
+  Id: LEATHER_CHESTPLATE
+  Display: '&2&lCiezka zbroja bandyty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &777'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Wytrzymalosc: &7+1'
+  - '&4- &8Zrecznosc: &7+7'
+  - '&4- &8Zdolnosci mysliwskie: &7+1'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c293'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 9
+      MovementSpeed: 0.03
+      KnockbackResistance: 0.01
+Ciezkie_Spodnie_Bandyty_Zd:
+  Id: LEATHER_LEGGINGS
+  Display: '&2&lCiezkie spodnie bandyty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &757'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Wytrzymalosc: &7+1'
+  - '&4- &8Zdolnosci mysliwskie: &7+6'
+  - '&4- &8Zrecznosc: &7-2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c265'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      Health: 4
+      MovementSpeed: 0.06
+Ciezkie_Spodnie_Bandyty_Walka:
+  Id: LEATHER_LEGGINGS
+  Display: '&2&lCiezkie spodnie bandyty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &760'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Zdolnosci mysliwskie: &7+4'
+  - '&4- &8Zrecznosc: &7+4'
+  - '&4- &8Sila: &7+4'
+  - '&4- &8Inteligencja: &7-6'
+  - '&4- &8Mana: &7-12'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Walka: &c101'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      Health: 6
+      MovementSpeed: 0.03
+      KnockbackResistance: 0.01
+Ciezkie_Buty_Bandyty_Str:
+  Id: LEATHER_BOOTS
+  Display: '&2&lCiezkie buty bandyty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &760'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Wytrzymalosc: &7+3'
+  - '&4- &8Sila: &7+9'
+  - '&4- &8Zrecznosc: &7-2'
+  - '&4- &8Mana: &7-3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c271'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 6
+      MovementSpeed: 0.02
+      KnockbackResistance: 0.02
+Ciezkie_Buty_Bandyty_Int:
+  Id: LEATHER_BOOTS
+  Display: '&2&lCiezkie buty bandyty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &749'
+  - '&4- &8Walka: &7+7'
+  - '&4- &8Wytrzymalosc: &7+1'
+  - '&4- &8Inteligencja: &7+8'
+  - '&4- &8Zrecznosc: &7-1'
+  - '&4- &8Sila: &7-3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Inteligencja: &c259'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 10
+      MovementSpeed: 0.05
+Ciezka_Kusza_Str:
+  Id: CROSSBOW
+  Display: '&2Ciezka kusza'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &779'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Sila: &7+8'
+  - '&4- &8Zdolnosci mysliwskie: &7+2'
+  - '&4- &8Zrecznosc: &7-3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c270'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 5
+      MovementSpeed: -0.06
+      KnockbackResistance: 0.06
+Ciezka_Kusza_Zd:
+  Id: CROSSBOW
+  Display: '&2Ciezka kusza'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &784'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Zdolnosci mysliwskie: &7+8'
+  - '&4- &8Inteligencja: &7-4'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c276'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 2
+      MovementSpeed: -0.03
+      KnockbackResistance: 0.02
+Kusza_Bojowa_Str:
+  Id: CROSSBOW
+  Display: '&2&lKusza Bojowa'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7120'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Sila: &7+14'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c300'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 8
+      MovementSpeed: -0.13
+      KnockbackResistance: 0.08
+Kusza_Bojowa_Wytrz:
+  Id: CROSSBOW
+  Display: '&2&lKusza Bojowa'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7107'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Wytrzymalosc: &7+11'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Wytrzymalosc: &c293'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 11
+      MovementSpeed: -0.15
+      KnockbackResistance: 0.1
+Topor_Obosieczny_Str:
+  Id: IRON_AXE
+  Display: '&eTopor obosieczny'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7114'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Sila: &7+9'
+  - '&4- &8Wytrzymalosc: &7+3'
+  - '&4- &8Inteligencja: &7-3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c281'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      KnockbackResistance: 0.04
+      MovementSpeed: -0.05
+      Health: 7
+    offhand:
+      MovementSpeed: -0.06
+      KnockbackResistance: 0.06
+Topor_Obosieczny_Walka:
+  Id: IRON_AXE
+  Display: '&eTopor obosieczny'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7109'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Sila: &7+6'
+  - '&4- &8Wytrzymalosc: &7+4'
+  - '&4- &8Zrecznosc: &7+2'
+  - '&4- &8Zdolnosci mysliwskie: &7-2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Walka: &c100'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      KnockbackResistance: 0.02
+      MovementSpeed: -0.03
+      Health: 4
+    offhand:
+      MovementSpeed: -0.03
+      KnockbackResistance: 0.03
+Topor_Pokladowy_Str:
+  Id: IRON_AXE
+  Display: '&e&lTopor pokladowy'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7140'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Sila: &7+17'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c312'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      KnockbackResistance: 0.08
+      MovementSpeed: -0.11
+      Health: 12
+    offhand:
+      MovementSpeed: -0.1
+      KnockbackResistance: 0.1
+Topor_Pokladowy_Wytrz:
+  Id: IRON_AXE
+  Display: '&e&lTopor pokladowy'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7128'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Sila: &7+4'
+  - '&4- &8Wytrzymalosc: &7+12'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Wytrzymalosc: &c297'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      KnockbackResistance: 0.11
+      MovementSpeed: -0.14
+      Health: 15
+    offhand:
+      MovementSpeed: -0.1
+      KnockbackResistance: 0.1
+Sztylet_Dextera_Zr:
+  Id: IRON_SWORD
+  Display: '&2&l&oSztylet Dextera'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7245'
+  - '&4- &8Walka: &7+20'
+  - '&4- &8Zrecznosc: &7+40'
+  - '&4- &8Sila: &7+15'
+  - '&4- &8Inteligencja: &7+5'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c300'
+  - ''
+  - '&8Wolnych slotow: &71'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      KnockbackResistance: 0.05
+      MovementSpeed: 0.1
+      Health: 10
+  NBT:
+    Base:
+      FreeSlots: 1
+Zbroja_Cienia_Zd:
+  Id: LEATHER_CHESTPLATE
+  Display: '&8&lZbroja Cienia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &775'
+  - '&4- &8Zdolnosci mysliwskie: &7+35'
+  - '&4- &8Zrecznosc: &7+15'
+  - '&4- &8Wytrzymalosc: &7+10'
+  - '&4- &8Walka: &7+10'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c300'
+  - ''
+  - '&8Wolnych slotow: &72'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      MovementSpeed: 0.1
+      KnockbackResistance: 0.1
+      Health: 10
+  NBT:
+    Base:
+      FreeSlots: 2
+Szpon_Beliara_Weak_Str:
+  Id: NETHERITE_SWORD
+  Display: '&5&lSzpon Beliara'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7120'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c240'
+  - ''
+  - '&ePozbawiony mocy Beliara'
+  - '&estal sie zwyklym kawalkiem'
+  - '&ezakletej stali'
+  Options:
+    Unbreakable: true
+  NBT:
+    Base:
+      SzponBeliara: true
+Szpon_Beliara_Str:
+  Id: NETHERITE_SWORD
+  Display: '&5&lSzpon Beliara'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7450'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Sila: &7+50'
+  - '&4- &8Wytrzymalosc: &7+15'
+  - '&4- &8Zrecznosc: &7+5'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c330'
+  - ''
+  - '&8Wolnych slotow: &74'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.05
+      KnockbackResistance: 0.1
+      Health: 20
+  NBT:
+    Base:
+      SzponBeliara: true
+      FreeSlots: 4
+Szpon_Beliara_Wytrz:
+  Id: NETHERITE_SWORD
+  Display: '&5&lSzpon Beliara'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7300'
+  - '&4- &8Wytrzymalosc: &7+40'
+  - '&4- &8Sila: &7+30'
+  - '&4- &8Walka: &7+5'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Wytrzymalosc: &c330'
+  - ''
+  - '&8Wolnych slotow: &74'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      KnockbackResistance: 0.2
+      Health: 35
+  NBT:
+    Base:
+      SzponBeliara: true
+      FreeSlots: 4
+Szpon_Beliara_Zr:
+  Id: NETHERITE_SWORD
+  Display: '&5&lSzpon Beliara'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7375'
+  - '&4- &8Walka: &7+30'
+  - '&4- &8Zrecznosc: &7+40'
+  - '&4- &8Zdolnosci mysliwskie: &7+10'
+  - '&4- &8Sila: &7+10'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c330'
+  - ''
+  - '&8Wolnych slotow: &74'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.15
+      KnockbackResistance: 0.05
+      Health: 10
+  NBT:
+    Base:
+      SzponBeliara: true
+      FreeSlots: 4
+Szpon_Beliara_Zd:
+  Id: BOW
+  Display: '&5&lSzpon Beliara'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7350'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Zdolnosci mysliwskie: &7+40'
+  - '&4- &8Zrecznosc: &7+15'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c330'
+  - ''
+  - '&8Wolnych slotow: &74'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.15
+      Health: 15
+  NBT:
+    Base:
+      SzponBeliara: true
+      FreeSlots: 4
+Starozytna_Zbroja_Wytrz:
+  Id: NETHERITE_CHESTPLATE
+  Display: '&7&lStarozytna zbroja'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &7170'
+  - '&4- &8Wytrzymalosc: &7+35'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Mana: &7+20'
+  - '&4- &8Sila: &7+10'
+  - '&4- &8Inteligencja: &7+10'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Wytrzymalosc: &c340'
+  - ''
+  - '&8Wolnych slotow: &73'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      MovementSpeed: -0.05
+      KnockbackResistance: 0.1
+      Health: 20
+  NBT:
+    Base:
+      FreeSlots: 3
+Kamien_Duszy:
+  Id: CONDUIT
+  Display: '&9&lKamien duszy'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&4- &8Obrazenia: &720'
+  - '&4- &8Inteligencja: &7+10'
+  - '&4- &8Mana: &7+20'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 10
+  NBT:
+    Base:
+      Klejnot: "kruk_1"
+List_Gonczy:
+  Id: PAPER
+  Display: '&e&oList gonczy'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+  - ''
+  - '&aHmm...'
+  - '&aZdaje sie, ze widnieje na nim'
+  - '&amoja podobizna...'
+Zloto_Z_Khorinis:
+  Id: GOLD_INGOT
+  Display: '&6Zloto z Khorinis'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Brylka_Zlota:
+  Id: GOLD_NUGGET
+  Display: '&e&lBrylka zlota'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Pakt_Z_Beliarem:
+  Id: PAPER
+  Display: '&5&oPakt z Beliarem'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+  - ''
+  - '&aTo moze mi pomoc przywrocic'
+  - '&amoc Szpona Beliara'
+  NBT:
+    Base:
+      SzponUpgrade: true

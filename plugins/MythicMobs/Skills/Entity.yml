@@ -274,7 +274,7 @@ SphereSkill_3_Effect_Bounce:
   Skills:
   - damage{amount=70}
   - effect:particleline{particle=smoke;amount=20;fromOrigin=true;speed=0.1;hS=0.25;vS=0.05;ys=1;yt=1}
-  - effect:particleline{particle=blockcrack_22;amount=10;fromOrigin=true;speed=0.1;hS=0.05;vS=0.05;ys=1;yt=1}
+  - effect:particleline{particle=block_crack;m=LAPIS_BLOCK;amount=10;fromOrigin=true;speed=0.1;hS=0.05;vS=0.05;ys=1;yt=1}
   - potion{type=BLINDNESS;duration=200;level=1}
   - summon{mob=Entity303Summon;amount=1;noise=3}
   - sound{s=entity.endermen.hurt;v=1;p=1.25}
@@ -294,8 +294,8 @@ SphereSkill_2_Effect:
 
 SphereSkill_2_Effect_Tick:
   Skills:
-  - effect:particles{particle=blockcrack_80;amount=5;speed=0.05;hS=0.3;vS=0.1} @origin
-  - effect:particles{particle=blockcrack_22;amount=5;speed=0.05;hS=0.7;vS=0.1} @origin
+  - effect:particles{particle=block_crack;m=SNOW_BLOCK;amount=5;speed=0.05;hS=0.3;vS=0.1} @origin
+  - effect:particles{particle=block_crack;m=LAPIS_BLOCK;amount=5;speed=0.05;hS=0.7;vS=0.1} @origin
   - effect:particles{particle=smoke;amount=10;speed=0.05;hS=1;vS=0.1} @origin
 
 SphereSkill_2_Effect_Hit:
@@ -308,8 +308,8 @@ SphereSkill_1_Effect_1:
   Conditions:
   - playernotwithin{d=55} true
   Skills:
-  - effect:particleline{particle=blockcrack_80;amount=5;fromOrigin=true;speed=0.1;hS=0.05;vS=0.05;ys=1;yt=1} @PIR{r=150}
-  - effect:particleline{particle=blockcrack_22;amount=5;fromOrigin=true;speed=0.1;hS=0.1;vS=0.05;ys=1;yt=1} @PIR{r=150}
+  - effect:particleline{particle=block_crack;m=SNOW_BLOCK;amount=5;fromOrigin=true;speed=0.1;hS=0.05;vS=0.05;ys=1;yt=1} @PIR{r=150}
+  - effect:particleline{particle=block_crack;m=LAPIS_BLOCK;amount=5;fromOrigin=true;speed=0.1;hS=0.1;vS=0.05;ys=1;yt=1} @PIR{r=150}
   - effect:particleline{particle=smoke;amount=5;fromOrigin=true;speed=0.1;hS=0.2;vS=0.05;ys=1;yt=1} @PIR{r=150}
   - sound{s=entity.blaze.hurt;v=10;p=1.5} @self
   - delay 10
@@ -329,45 +329,45 @@ SphereSkill_1_Effect_2:
 EntitySkill_5_Effect:
   Skills:
   - sound{s=entity.generic.explode;v=10;p=0.01} @self
-  - effect:particlering{particle=blockcrack_87;radius=1;points=6;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=block_crack;m=NETHERRACK;radius=1;points=6;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
   - delay 2
-  - effect:particlering{particle=blockcrack_87;radius=2;points=10;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=block_crack;m=NETHERRACK;radius=2;points=10;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
   - delay 2
-  - effect:particlering{particle=blockcrack_87;radius=3;points=14;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=block_crack;m=NETHERRACK;radius=3;points=14;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
   - delay 2
-  - effect:particlering{particle=blockcrack_87;radius=4;points=18;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=block_crack;m=NETHERRACK;radius=4;points=18;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
   - delay 2
-  - effect:particlering{particle=blockcrack_87;radius=5;points=22;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=block_crack;m=NETHERRACK;radius=5;points=22;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
   - delay 2
-  - effect:particlering{particle=blockcrack_87;radius=6;points=26;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=block_crack;m=NETHERRACK;radius=6;points=26;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
   - delay 2
-  - effect:particlering{particle=blockcrack_87;radius=7;points=30;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=block_crack;m=NETHERRACK;radius=7;points=30;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
   - delay 2
-  - effect:particlering{particle=blockcrack_87;radius=8;points=34;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=block_crack;m=NETHERRACK;radius=8;points=34;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
   - delay 2
-  - effect:particlering{particle=blockcrack_87;radius=9;points=38;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=block_crack;m=NETHERRACK;radius=9;points=38;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
   - delay 2
-  - effect:particlering{particle=blockcrack_87;radius=10;points=42;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=block_crack;m=NETHERRACK;radius=10;points=42;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
   - delay 2
-  - effect:particlering{particle=blockcrack_87;radius=11;points=46;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=block_crack;m=NETHERRACK;radius=11;points=46;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
   - delay 2
-  - effect:particlering{particle=blockcrack_87;radius=12;points=50;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=block_crack;m=NETHERRACK;radius=12;points=50;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
   - delay 2
-  - effect:particlering{particle=blockcrack_87;radius=13;points=54;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=block_crack;m=NETHERRACK;radius=13;points=54;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
   - delay 2
-  - effect:particlering{particle=blockcrack_87;radius=14;points=58;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=block_crack;m=NETHERRACK;radius=14;points=58;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
   - delay 2
-  - effect:particlering{particle=blockcrack_87;radius=15;points=62;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=block_crack;m=NETHERRACK;radius=15;points=62;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
   - delay 2
-  - effect:particlering{particle=blockcrack_87;radius=16;points=66;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=block_crack;m=NETHERRACK;radius=16;points=66;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
   - delay 2
-  - effect:particlering{particle=blockcrack_87;radius=17;points=70;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=block_crack;m=NETHERRACK;radius=17;points=70;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
   - delay 2
-  - effect:particlering{particle=blockcrack_87;radius=18;points=74;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=block_crack;m=NETHERRACK;radius=18;points=74;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
   - delay 2
-  - effect:particlering{particle=blockcrack_87;radius=19;points=78;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=block_crack;m=NETHERRACK;radius=19;points=78;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
   - delay 2
-  - effect:particlering{particle=blockcrack_87;radius=20;points=82;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
+  - effect:particlering{particle=block_crack;m=NETHERRACK;radius=20;points=82;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05}
   - damage{a=240} @PIR{r=20}
   - potion{type=BLINDNESS;duration=150;level=3} @PIR{r=20}
   - sound{s=entity.generic.explode;v=10;p=0.01} @PIR{r=20}
@@ -380,7 +380,7 @@ EntitySkill_4_Effect_Bounce:
   Skills:
   - damage{amount=115}
   - effect:particleline{particle=smoke;amount=20;fromOrigin=true;speed=0.1;hS=0.25;vS=0.05;ys=1;yt=1}
-  - effect:particleline{particle=blockcrack_80;amount=10;fromOrigin=true;speed=0.1;hS=0.05;vS=0.05;ys=1;yt=1}
+  - effect:particleline{particle=block_crack;m=SNOW_BLOCK;amount=10;fromOrigin=true;speed=0.1;hS=0.05;vS=0.05;ys=1;yt=1}
   - stun{d=200}
   - potion{type=CONFUSION;duration=200;level=1}
   - orbital{onTick=EntityPrison-Tick;points=29;interval=1;duration=200;charges=1;r=1;hr=1;rx=0.78;ry=0;oy=1;hp=false}
@@ -388,7 +388,7 @@ EntitySkill_4_Effect_Bounce:
 
 EntityPrison-Tick:
   Skills:
-  - effect:particles{p=blockcrack_80;amount=10;speed=0;hS=0.05;vS=0.05} @origin
+  - effect:particles{p=block_crack;m=SNOW_BLOCK;amount=10;speed=0;hS=0.05;vS=0.05} @origin
 
 EntitySkill_3_Effect_1:
   Conditions:
@@ -433,7 +433,7 @@ EntitySkill_1_Effect:
 
 EntitySkill_1_Effect_Tick:
   Skills:
-  - effect:particles{particle=blockcrack_80;amount=10;speed=0.1;hS=0.5;vS=0.1} @origin
+  - effect:particles{particle=block_crack;m=SNOW_BLOCK;amount=10;speed=0.1;hS=0.5;vS=0.1} @origin
   - effect:particles{particle=largesmoke;amount=15;speed=0.05;hS=1;vS=0.1} @origin
 
 EntitySkill_1_Effect_Hit:

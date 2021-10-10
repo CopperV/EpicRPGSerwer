@@ -7,11 +7,11 @@ display:
 skinid: 1063509852
 location:
   world: "F_RPG"
-  x: -30.5
-  y: 43.5
-  z: 46.3
-  yaw: -180
-  pitch: 30
+  x: -27.5
+  y: 42.9375
+  z: 33.5
+  yaw: 180
+  pitch: 2
 lookat: true
 commands:
   - "cc open titles %player%"

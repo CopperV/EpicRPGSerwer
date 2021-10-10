@@ -419,6 +419,8 @@ Lowca_Herobrine:
   - Torba_Tulacza 1 0.2
   - Strzala 8-32
   - Szczaw_Krolewski 1 0.05
+  - Goblinska_jagoda 1 0.02
+  - Goblinie_ziele 1 0.02
 Jezdziec_Pustki:
   Type: skeleton
   Display: "&8&lJezdziec Pustki - BOSS"
@@ -469,6 +471,8 @@ Jezdziec_Pustki:
   - Exp50_Jezdziec_2
   - Szczaw_Krolewski 1 0.05
   - Pierscien_Morgulu 1 0.15
+  - Dragrot 1 0.02
+  - Ziele_pancerza 1 0.02
 Jezdziec_Pustki_Mount:
   Type: VILLAGER
   Health: 10000
@@ -532,6 +536,8 @@ Szepciucha:
   - Exp50_Szepciucha_1
   - Exp50_Szepciucha_2
   - Szczaw_Krolewski 1 0.05
+  - Bagienne_Ziele 1 0.02
+  - Ognista_jagoda 1 0.02
 Szepciucha_Summon1:
   Type: villager
   Health: 10000
@@ -628,6 +634,7 @@ Sentenza:
   - Mroczna_Pieczec 1 0.15
   - Exp50_Sentenza
   - Niestabilna_Stygia 1
+  - Ognisty_korzen 1 0.02
   Equipment:
   - B4:4
   - SentenzaOstrze:0
@@ -649,6 +656,7 @@ SentenzaSummon1:
   - 0 clear
   Skills:
   - skill{s=SentenzaSummon1_Skill} ~onSpawn
+  - skill{s=MobRemove} ~onTimer:100
   Options:
     FollowRange: 0
     MovementSpeed: 0

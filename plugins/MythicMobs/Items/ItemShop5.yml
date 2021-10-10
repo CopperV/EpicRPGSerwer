@@ -1,0 +1,659 @@
+Noc_Kruka_Str:
+  Id: NETHERITE_SHOVEL
+  Display: '&9&oNoc Kruka'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7120'
+  - '&4- &8Sila: &7+10'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Wytrzymalosc: &7+3'
+  - '&4- &8Zrecznosc: &7-1'
+  - '&4- &8Zdolnosci mysliwskie: &7-3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c285'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.07
+      KnockbackResistance: 0.07
+      Health: 7
+Noc_Kruka_Zr:
+  Id: NETHERITE_SHOVEL
+  Display: '&9&oNoc Kruka'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7109'
+  - '&4- &8Sila: &7+3'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Zrecznosc: &7+6'
+  - '&4- &8Wytrzymalosc: &7+3'
+  - '&4- &8Zdolnosci mysliwskie: &7-6'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c281'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.04
+      KnockbackResistance: 0.04
+      Health: 5
+Mlot_Kowalski_Str:
+  Id: STONE_AXE
+  Display: '&7Mlot kowalski'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &722'
+  - '&4- &8Sila: &7+4'
+  - '&4- &8Wytrzymalosc: &7+1'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c40'
+  - ''
+  - '&8Wolnych slotow: &71'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.01
+  NBT:
+    Base:
+      FreeSlots: 1
+Mlot_Kowalski_Wytrz:
+  Id: STONE_AXE
+  Display: '&7Mlot kowalski'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &719'
+  - '&4- &8Wytrzymalosc: &7+3'
+  - '&4- &8Walka: &7+1'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Wytrzymalosc: &c36'
+  - ''
+  - '&8Wolnych slotow: &71'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.03
+  NBT:
+    Base:
+      FreeSlots: 1
+Mlot_Burzy_Str:
+  Id: DIAMOND_AXE
+  Display: '&bMlot Burzy'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7114'
+  - '&4- &8Sila: &7+12'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Zrecznosc: &7-4'
+  - '&4- &8Zdolnosci mysliwskie: &7-5'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c235'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.12
+      KnockbackResistance: 0.1
+      Health: 6
+Mlot_Burzy_Wytrz:
+  Id: DIAMOND_AXE
+  Display: '&bMlot Burzy'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7106'
+  - '&4- &8Sila: &7+3'
+  - '&4- &8Wytrzymalosc: &7+10'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Zrecznosc: &7-5'
+  - '&4- &8Zdolnosci mysliwskie: &7-5'
+  - '&4- &8Inteligencja: &7-1'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Wytrzymalosc: &c228'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.14
+      KnockbackResistance: 0.12
+      Health: 8
+Mlot_Wojenny_Str:
+  Id: NETHERITE_AXE
+  Display: '&4&oMlot Wojenny'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7125'
+  - '&4- &8Sila: &7+18'
+  - '&4- &8Wytrzymalosc: &7+4'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Zrecznosc: &7-8'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c251'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.15
+      KnockbackResistance: 0.14
+      Health: 10
+Nocny_Straznik_Zd:
+  Id: BOW
+  Display: '&3&oNocny Straznik'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &784'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Zrecznosc: &7+3'
+  - '&4- &8Zdolnosci mysliwskie: &7+6'
+  - '&4- &8Wytrzymalosc: &7-1'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c268'
+  Options:
+    Unbreakable: true
+    mainhand:
+      MovementSpeed: 0.06
+      Health: 3
+Nocny_Straznik_Zr:
+  Id: BOW
+  Display: '&3&oNocny Straznik'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &779'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Zrecznosc: &7+5'
+  - '&4- &8Zdolnosci mysliwskie: &7+1'
+  - '&4- &8Inteligencja: &7-2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c262'
+  Options:
+    Unbreakable: true
+    mainhand:
+      MovementSpeed: 0.07
+      Health: 2
+Sztylet_Kaplana_Beliara_Zr:
+  Id: IRON_SWORD
+  Display: '&5Sztylet Kaplana Beliara'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &797'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Zrecznosc: &7+7'
+  - '&4- &8Zdolnosci mysliwskie: &7+2'
+  - '&4- &8Sila: &7-2'
+  - '&4- &8Wytrzymalosc: &7-1'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c313'
+  Options:
+    Unbreakable: true
+    mainhand:
+      MovementSpeed: 0.08
+Sztylet_Kaplana_Beliara_Int:
+  Id: IRON_SWORD
+  Display: '&5Sztylet Kaplana Beliara'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &783'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Inteligencja: &7+8'
+  - '&4- &8Mana: &7+3'
+  - '&4- &8Wytrzymalosc: &7-4'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Inteligencja: &c308'
+  Options:
+    Unbreakable: true
+    mainhand:
+      MovementSpeed: 0.03
+      Health: 4
+Betty_Zr:
+  Id: IRON_SWORD
+  Display: '&7&lBetty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7104'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Zrecznosc: &7+10'
+  - '&4- &8Zdolnosci mysliwskie: &7+10'
+  - '&4- &8Wytrzymalosc: &7-15'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c276'
+  Options:
+    Unbreakable: true
+    mainhand:
+      MovementSpeed: 0.1
+      Health: 5
+Betty_Zd:
+  Id: IRON_SWORD
+  Display: '&7&lBetty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &797'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Zrecznosc: &7+10'
+  - '&4- &8Zdolnosci mysliwskie: &7+10'
+  - '&4- &8Inteligencja: &7-15'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c272'
+  Options:
+    Unbreakable: true
+    mainhand:
+      MovementSpeed: 0.1
+      Health: 5
+Krzyz_Przeznaczenia_Str:
+  Id: DIAMOND_SWORD
+  Display: '&b&oKrzyz przeznaczenia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7155'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Sila: &7+11'
+  - '&4- &8Zrecznosc: &7+3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c344'
+  - ''
+  - '&8Wolnych slotow: &72'
+  Options:
+    Unbreakable: true
+    mainhand:
+      MovementSpeed: 0.02
+      Health: 4
+      KnockbackResistance: 0.04
+  NBT:
+    Base:
+      FreeSlots: 2
+Krzyz_Przeznaczenia_Mana:
+  Id: DIAMOND_SWORD
+  Display: '&b&oKrzyz przeznaczenia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &794'
+  - '&4- &8Walka: &7+7'
+  - '&4- &8Inteligencja: &7+4'
+  - '&4- &8Mana: &7+15'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Mana: &c672'
+  - ''
+  - '&8Wolnych slotow: &72'
+  Options:
+    Unbreakable: true
+    mainhand:
+      MovementSpeed: 0.03
+      Health: 6
+      KnockbackResistance: 0.01
+  NBT:
+    Base:
+      FreeSlots: 2
+Rozjemca_ZrZd:
+  Id: STONE_HOE
+  Display: '&eRozjemca'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &797'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Zrecznosc: &7+5'
+  - '&4- &8Zdolnosci mysliwskie: &7+5'
+  - '&4- &8Wytrzymalosc: &7-3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c157'
+  - '&4- &8Zdolnosci mysliwskie: &c157'
+  Options:
+    Unbreakable: true
+    mainhand:
+      MovementSpeed: 0.05
+      Health: 4
+Rozjemca_Wytrz:
+  Id: STONE_HOE
+  Display: '&eRozjemca'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &790'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Wytrzymalosc: &7+8'
+  - '&4- &8Zrecznosc: &7-2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Wytrzymalosc: &c309'
+  Options:
+    Unbreakable: true
+    mainhand:
+      MovementSpeed: -0.01
+      Health: 7
+      KnockbackResistance: 0.02
+Rozdzieracz_StrWytrz:
+  Id: NETHERITE_AXE
+  Display: '&c&oRozdzieracz'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7133'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Sila: &7+6'
+  - '&4- &8Wytrzymalosc: &7+6'
+  - '&4- &8Mana: &7-7'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c159'
+  - '&4- &8Wytrzymalosc: &c159'
+  Options:
+    Unbreakable: true
+    mainhand:
+      MovementSpeed: -0.06
+      Health: 6
+      KnockbackResistance: 0.07
+Przekleta_Dusza_IntMana:
+  Id: DIAMOND_SWORD
+  Display: '&5&oPrzekleta dusza'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &790'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Inteligencja: &7+7'
+  - '&4- &8Mana: &7+15'
+  - '&4- &8Wytrzymalosc: &7-2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Inteligencja: &c155'
+  - '&4- &8Mana: &c310'
+  Options:
+    Unbreakable: true
+    mainhand:
+      MovementSpeed: 0.02
+      Health: 5
+Kusza_Bojowa_Str:
+  Id: CROSSBOW
+  Display: '&7Kusza bojowa'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7127'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Sila: &7+9'
+  - '&4- &8Wytrzymalosc: &7+1'
+  - '&4- &8Zrecznosc: &7-1'
+  - '&4- &8Zdolnosci mysliwskie: &7-1'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c312'
+  Options:
+    Unbreakable: true
+    mainhand:
+      MovementSpeed: -0.03
+      KnockbackResistance: 0.04
+Kusza_Bojowa_Wytrz:
+  Id: CROSSBOW
+  Display: '&7Kusza bojowa'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7120'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Wytrzymalosc: &7+9'
+  - '&4- &8Zrecznosc: &7-4'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Wytrzymalosc: &c306'
+  Options:
+    Unbreakable: true
+    mainhand:
+      MovementSpeed: -0.05
+      KnockbackResistance: 0.06
+      Health: 2
+Ciezka_Kusza_StrWytrz:
+  Id: CROSSBOW
+  Display: '&7&lCiezka kusza'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7125'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Sila: &7+6'
+  - '&4- &8Wytrzymalosc: &7+6'
+  - '&4- &8Zdolnosci mysliwskie: &7-3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c156'
+  - '&4- &8Wytrzymalosc: &c156'
+  Options:
+    Unbreakable: true
+    mainhand:
+      MovementSpeed: -0.07
+      KnockbackResistance: 0.08
+      Health: 8
+Kusza_Rycerza_Str:
+  Id: CROSSBOW
+  Display: '&3&oKusza rycerza'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7130'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Sila: &7+7'
+  - '&4- &8Wytrzymalosc: &7+3'
+  - '&4- &8Zrecznosc: &7-2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c324'
+  - ''
+  - '&8Wolnych slotow: &71'
+  Options:
+    Unbreakable: true
+    mainhand:
+      MovementSpeed: 0.01
+      KnockbackResistance: 0.02
+      Health: 3
+  NBT:
+    Base:
+      FreeSlots: 1
+Kusza_Rycerza_Wytrz:
+  Id: CROSSBOW
+  Display: '&3&oKusza rycerza'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7121'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Wytrzymalosc: &7+6'
+  - '&4- &8Inteligencja: &7-3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Wytrzymalosc: &c319'
+  - ''
+  - '&8Wolnych slotow: &71'
+  Options:
+    Unbreakable: true
+    mainhand:
+      KnockbackResistance: 0.03
+      Health: 5
+  NBT:
+    Base:
+      FreeSlots: 1
+Kusza_Paladyna_Str:
+  Id: CROSSBOW
+  Display: '&b&lKusza paladyna'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7144'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Sila: &7+10'
+  - '&4- &8Wytrzymalosc: &7+1'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c342'
+  - ''
+  - '&8Wolnych slotow: &72'
+  Options:
+    Unbreakable: true
+    mainhand:
+      MovementSpeed: 0.03
+      KnockbackResistance: 0.03
+      Health: 5
+  NBT:
+    Base:
+      FreeSlots: 2
+Kusza_Paladyna_Wytrz:
+  Id: CROSSBOW
+  Display: '&b&lKusza paladyna'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7133'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Sila: &7+3'
+  - '&4- &8Wytrzymalosc: &7+11'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Wytrzymalosc: &c333'
+  - ''
+  - '&8Wolnych slotow: &72'
+  Options:
+    Unbreakable: true
+    mainhand:
+      MovementSpeed: 0.01
+      KnockbackResistance: 0.06
+      Health: 10
+  NBT:
+    Base:
+      FreeSlots: 2

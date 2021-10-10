@@ -50,8 +50,6 @@ NiklausSkill_1:
   - delay 100
   - randomskill{skills=NiklausSummonLoc1,NiklausSummonLoc2,NiklausSummonLoc3,NiklausSummonLoc4,NiklausSummonLoc5,NiklausSummonLoc6,NiklausSummonLoc7,NiklausSummonLoc8,NiklausSummonLoc9,NiklausSummonLoc10,NiklausSummonLoc11,NiklausSummonLoc12,NiklausSummonLoc13,NiklausSummonLoc14}
   - randomskill{skills=NiklausSummonLoc1,NiklausSummonLoc2,NiklausSummonLoc3,NiklausSummonLoc4,NiklausSummonLoc5,NiklausSummonLoc6,NiklausSummonLoc7,NiklausSummonLoc8,NiklausSummonLoc9,NiklausSummonLoc10,NiklausSummonLoc11,NiklausSummonLoc12,NiklausSummonLoc13,NiklausSummonLoc14}
-  - randomskill{skills=NiklausSummonLoc1,NiklausSummonLoc2,NiklausSummonLoc3,NiklausSummonLoc4,NiklausSummonLoc5,NiklausSummonLoc6,NiklausSummonLoc7,NiklausSummonLoc8,NiklausSummonLoc9,NiklausSummonLoc10,NiklausSummonLoc11,NiklausSummonLoc12,NiklausSummonLoc13,NiklausSummonLoc14}
-  - randomskill{skills=NiklausSummonLoc1,NiklausSummonLoc2,NiklausSummonLoc3,NiklausSummonLoc4,NiklausSummonLoc5,NiklausSummonLoc6,NiklausSummonLoc7,NiklausSummonLoc8,NiklausSummonLoc9,NiklausSummonLoc10,NiklausSummonLoc11,NiklausSummonLoc12,NiklausSummonLoc13,NiklausSummonLoc14}
 
 NiklausSummonLoc1:
   Skills:
@@ -618,9 +616,6 @@ FriedaSkill_3:
   - message{m="<mob.name><&co> &6Ta smierc krwi wymaga!"} @PlayersInRadius{r=30}
   - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bFrieda przygotowuje Atak Lokajow Twierdzy!";d=100} @PIR{r=30}
   - delay 100
-  - randomskill{skills=NiklausSummonLoc1,NiklausSummonLoc2,NiklausSummonLoc3,NiklausSummonLoc4,NiklausSummonLoc5,NiklausSummonLoc6,NiklausSummonLoc7,NiklausSummonLoc8,NiklausSummonLoc9,NiklausSummonLoc10,NiklausSummonLoc11,NiklausSummonLoc12,NiklausSummonLoc13,NiklausSummonLoc14}
-  - randomskill{skills=NiklausSummonLoc1,NiklausSummonLoc2,NiklausSummonLoc3,NiklausSummonLoc4,NiklausSummonLoc5,NiklausSummonLoc6,NiklausSummonLoc7,NiklausSummonLoc8,NiklausSummonLoc9,NiklausSummonLoc10,NiklausSummonLoc11,NiklausSummonLoc12,NiklausSummonLoc13,NiklausSummonLoc14}
-  - randomskill{skills=NiklausSummonLoc1,NiklausSummonLoc2,NiklausSummonLoc3,NiklausSummonLoc4,NiklausSummonLoc5,NiklausSummonLoc6,NiklausSummonLoc7,NiklausSummonLoc8,NiklausSummonLoc9,NiklausSummonLoc10,NiklausSummonLoc11,NiklausSummonLoc12,NiklausSummonLoc13,NiklausSummonLoc14}
   - randomskill{skills=NiklausSummonLoc1,NiklausSummonLoc2,NiklausSummonLoc3,NiklausSummonLoc4,NiklausSummonLoc5,NiklausSummonLoc6,NiklausSummonLoc7,NiklausSummonLoc8,NiklausSummonLoc9,NiklausSummonLoc10,NiklausSummonLoc11,NiklausSummonLoc12,NiklausSummonLoc13,NiklausSummonLoc14}
   - randomskill{skills=NiklausSummonLoc1,NiklausSummonLoc2,NiklausSummonLoc3,NiklausSummonLoc4,NiklausSummonLoc5,NiklausSummonLoc6,NiklausSummonLoc7,NiklausSummonLoc8,NiklausSummonLoc9,NiklausSummonLoc10,NiklausSummonLoc11,NiklausSummonLoc12,NiklausSummonLoc13,NiklausSummonLoc14}
   - randomskill{skills=NiklausSummonLoc1,NiklausSummonLoc2,NiklausSummonLoc3,NiklausSummonLoc4,NiklausSummonLoc5,NiklausSummonLoc6,NiklausSummonLoc7,NiklausSummonLoc8,NiklausSummonLoc9,NiklausSummonLoc10,NiklausSummonLoc11,NiklausSummonLoc12,NiklausSummonLoc13,NiklausSummonLoc14}

@@ -778,7 +778,7 @@ Szata_Arystokraty_Wytrz:
     Unbreakable: true
     Color: 255,0,0
   Attributes:
-    chest:
+    legs:
       MovementSpeed: 0.15
       KnockbackResistance: 0.05
       Health: 50
@@ -804,7 +804,7 @@ Szata_Arystokraty_Zd:
     Unbreakable: true
     Color: 255,0,0
   Attributes:
-    chest:
+    legs:
       MovementSpeed: 0.2
       Health: 30
 Szlacheckie_Ostrze_Str:
@@ -1355,7 +1355,7 @@ Szata_Wiedzmy_Pustki_Walka:
     Unbreakable: true
     Color: 165,42,42
   Attributes:
-    chest:
+    legs:
       MovementSpeed: 0.12
       Health: 20
 Szata_Wiedzmy_Pustki_Mana:
@@ -1381,7 +1381,7 @@ Szata_Wiedzmy_Pustki_Mana:
     Unbreakable: true
     Color: 165,42,42
   Attributes:
-    chest:
+    legs:
       MovementSpeed: 0.15
       Health: 25
 Zwiadowca_Pustki_Wytrz:
@@ -1425,7 +1425,7 @@ Zwiadowca_Pustki_Zr:
   - '&4- &8Mana: &7+10' 
   - '&4- &8Inteligencja: &7+10'
   - '&4- &8Zrecznosc: &7+50'
-  - '&4- &8Zdolnosci: &7+10'
+  - '&4- &8Zdolnosci mysliwskie: &7+10'
   - ''
   - '&6&l&m==>&c Wymagania &6&l&m<=='
   - ''
@@ -1730,7 +1730,7 @@ Dotyk_Chaosu_IntMana:
       MovementSpeed: 0.12
       Health: -10
 Macka_Chaosu_Zd:
-  Id: 261
+  Id: crossbow
   Display: '&8&lMacka Chaosu'
   Lore:
   - ''
@@ -1750,14 +1750,14 @@ Macka_Chaosu_Zd:
   Options:
     Unbreakable: true
   Enchantments:
-  - ARROW_KNOCKBACK:3
+  - MULTISHOT:1
   Attributes:
     mainhand:
       MovementSpeed: 0.2
       Health: 40
       KnockbackResistance: 0.2
 Macka_Chaosu_Walka:
-  Id: 261
+  Id: crossbow
   Display: '&8&lMacka Chaosu'
   Lore:
   - ''
@@ -1777,14 +1777,14 @@ Macka_Chaosu_Walka:
   Options:
     Unbreakable: true
   Enchantments:
-  - ARROW_KNOCKBACK:2
+  - MULTISHOT:1
   Attributes:
     mainhand:
       MovementSpeed: 0.15
       Health: 30
       KnockbackResistance: 0.15
 Macka_Chaosu_StrWytrz:
-  Id: 261
+  Id: crossbow
   Display: '&8&lMacka Chaosu'
   Lore:
   - ''
@@ -1806,7 +1806,7 @@ Macka_Chaosu_StrWytrz:
   Options:
     Unbreakable: true
   Enchantments:
-  - ARROW_KNOCKBACK:2
+  - MULTISHOT:1
   Attributes:
     mainhand:
       MovementSpeed: 0.10

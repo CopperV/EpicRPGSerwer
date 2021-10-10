@@ -102,16 +102,16 @@ KalimosTiming:
   - pull{v=0.8} @PIR{r=3}
   - pull{v=0.9} @PIR{r=2}
   - pull{v=1} @PIR{r=1}
-  - effect:particlering{particle=blockcrack_3_0;radius=1;points=4;amount=1;y=0.1} @self
-  - effect:particlering{particle=blockcrack_3_0;radius=2;points=8;amount=1;y=0.1} @self
-  - effect:particlering{particle=blockcrack_3_0;radius=3;points=12;amount=1;y=0.1} @self
-  - effect:particlering{particle=blockcrack_3_0;radius=4;points=16;amount=1;y=0.1} @self
-  - effect:particlering{particle=blockcrack_3_0;radius=5;points=20;amount=1;y=0.1} @self
-  - effect:particlering{particle=blockcrack_3_0;radius=6;points=24;amount=1;y=0.1} @self
-  - effect:particlering{particle=blockcrack_3_0;radius=7;points=28;amount=1;y=0.1} @self
-  - effect:particlering{particle=blockcrack_3_0;radius=8;points=32;amount=1;y=0.1} @self
-  - effect:particlering{particle=blockcrack_3_0;radius=9;points=36;amount=1;y=0.1} @self
-  - effect:particlering{particle=blockcrack_3_0;radius=10;points=40;amount=1;y=0.1} @self
+  - effect:particlering{particle=block_crack;m=DIRT;radius=1;points=4;amount=1;y=0.1} @self
+  - effect:particlering{particle=block_crack;m=DIRT;radius=2;points=8;amount=1;y=0.1} @self
+  - effect:particlering{particle=block_crack;m=DIRT;radius=3;points=12;amount=1;y=0.1} @self
+  - effect:particlering{particle=block_crack;m=DIRT;radius=4;points=16;amount=1;y=0.1} @self
+  - effect:particlering{particle=block_crack;m=DIRT;radius=5;points=20;amount=1;y=0.1} @self
+  - effect:particlering{particle=block_crack;m=DIRT;radius=6;points=24;amount=1;y=0.1} @self
+  - effect:particlering{particle=block_crack;m=DIRT;radius=7;points=28;amount=1;y=0.1} @self
+  - effect:particlering{particle=block_crack;m=DIRT;radius=8;points=32;amount=1;y=0.1} @self
+  - effect:particlering{particle=block_crack;m=DIRT;radius=9;points=36;amount=1;y=0.1} @self
+  - effect:particlering{particle=block_crack;m=DIRT;radius=10;points=40;amount=1;y=0.1} @self
   - delay 1
   - skill{s=KalimosEarthAttack}
   - skill{s=KalimosTiming}

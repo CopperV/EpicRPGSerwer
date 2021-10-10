@@ -153,11 +153,11 @@ Midas_H_AreaPrepare_TotemTickEnd:
 
 Midas_H_Area_TotemTick:
   Skills:
-  - effect:particlering{particle=blockcrack_3_0;vd=20;radius=1;points=4;amount=1;y=0.1} @origin
-  - effect:particlering{particle=blockcrack_3_0;vd=20;radius=2;points=8;amount=1;y=0.1} @origin
-  - effect:particlering{particle=blockcrack_3_0;vd=20;radius=3;points=12;amount=1;y=0.1} @origin
-  - effect:particlering{particle=blockcrack_3_0;vd=20;radius=4;points=16;amount=1;y=0.1} @origin
-  - effect:particlering{particle=blockcrack_3_0;vd=20;radius=5;points=20;amount=1;y=0.1} @origin
+  - effect:particlering{particle=block_crack;m=DIRT;vd=20;radius=1;points=4;amount=1;y=0.1} @origin
+  - effect:particlering{particle=block_crack;m=DIRT;vd=20;radius=2;points=8;amount=1;y=0.1} @origin
+  - effect:particlering{particle=block_crack;m=DIRT;vd=20;radius=3;points=12;amount=1;y=0.1} @origin
+  - effect:particlering{particle=block_crack;m=DIRT;vd=20;radius=4;points=16;amount=1;y=0.1} @origin
+  - effect:particlering{particle=block_crack;m=DIRT;vd=20;radius=5;points=20;amount=1;y=0.1} @origin
 
 Midas_H_Area_TotemHit:
   Skills:
@@ -217,29 +217,29 @@ Midas_H_Skill_3:
   - stun{d=120} @self
   - delay 100
   - sound{s=entity.generic.explode;v=10;p=0.01} @self
-  - effect:particlering{particle=blockcrack_155;radius=1;points=6;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - effect:particlering{particle=block_crack;m=QUARTZ_BLOCK;radius=1;points=6;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
   - delay 2
-  - effect:particlering{particle=blockcrack_155;radius=2;points=10;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - effect:particlering{particle=block_crack;m=QUARTZ_BLOCK;radius=2;points=10;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
   - delay 2
-  - effect:particlering{particle=blockcrack_155;radius=3;points=14;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - effect:particlering{particle=block_crack;m=QUARTZ_BLOCK;radius=3;points=14;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
   - delay 2
-  - effect:particlering{particle=blockcrack_155;radius=4;points=18;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - effect:particlering{particle=block_crack;m=QUARTZ_BLOCK;radius=4;points=18;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
   - delay 2
-  - effect:particlering{particle=blockcrack_155;radius=5;points=22;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - effect:particlering{particle=block_crack;m=QUARTZ_BLOCK;radius=5;points=22;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
   - delay 2
-  - effect:particlering{particle=blockcrack_155;radius=6;points=26;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - effect:particlering{particle=block_crack;m=QUARTZ_BLOCK;radius=6;points=26;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
   - delay 2
-  - effect:particlering{particle=blockcrack_155;radius=7;points=30;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - effect:particlering{particle=block_crack;m=QUARTZ_BLOCK;radius=7;points=30;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
   - delay 2
-  - effect:particlering{particle=blockcrack_155;radius=8;points=34;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - effect:particlering{particle=block_crack;m=QUARTZ_BLOCK;radius=8;points=34;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
   - delay 2
-  - effect:particlering{particle=blockcrack_155;radius=9;points=38;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - effect:particlering{particle=block_crack;m=QUARTZ_BLOCK;radius=9;points=38;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
   - delay 2
-  - effect:particlering{particle=blockcrack_155;radius=10;points=42;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - effect:particlering{particle=block_crack;m=QUARTZ_BLOCK;radius=10;points=42;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
   - delay 2
-  - effect:particlering{particle=blockcrack_155;radius=11;points=46;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - effect:particlering{particle=block_crack;m=QUARTZ_BLOCK;radius=11;points=46;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
   - delay 2
-  - effect:particlering{particle=blockcrack_155;radius=12;points=50;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - effect:particlering{particle=block_crack;m=QUARTZ_BLOCK;radius=12;points=50;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
   - damage{a=300} @PIR{r=12}
   - potion{type=SLOW;duration=200;level=2} @PIR{r=12}
   - sound{s=entity.generic.explode;v=10;p=0.01} @PIR{r=12}

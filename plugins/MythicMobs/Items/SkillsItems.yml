@@ -68,14 +68,14 @@ Wulkaniczny_Plomien:
   - FIRE_ASPECT:3
 Rekojesc_Miecza:
   Id: 265
-  Display: '&rRekojesc miecza'
+  Display: '&fRekojesc miecza'
   Options:
     Unbreakable: true
   Enchantments:
   - DURABILITY:1
 Trzon_Topora:
   Id: 265
-  Display: '&rTrzon topora'
+  Display: '&fTrzon topora'
   Options:
     Unbreakable: true
   Enchantments:
@@ -229,12 +229,12 @@ Grot:
     Unbreakable: true
 Cieciwa:
   Id: 287
-  Display: "&rCieciwa"
+  Display: "&fCieciwa"
   Options:
     Unbreakable: true
 Wzmocniona_Cieciwa:
   Id: 287
-  Display: "&r&lWzmocniona cieciwa"
+  Display: "&f&lWzmocniona cieciwa"
   Options:
     Unbreakable: true
 Wyprawiona_Skora:

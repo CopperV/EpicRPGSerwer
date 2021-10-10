@@ -16,8 +16,8 @@ Krol_TulaczySkill_1:
   - stun{d=80} @self
   - delay 80
   - jump{velocity=1} @self
-  - delay 10
   - setgravity{g=false} @self
+  - delay 10
   - stun{d=10} @self
   - delay 10
   - setgravity{g=true} @self
@@ -85,7 +85,7 @@ Krol_TulaczySkill_2-Hit:
 
 Krol_TulaczySkill_2-End:
   Conditions:
-  - playerwithin{d=1} false
+  - playerwithin{d=2} false
   Skills:
   - totem{ch=0;oT=Krol_Tulaczy-TotemTick;oE=Krol_Tulaczy-TotemEnd;hR=1;vR=1;md=100;yo=0} @origin
 

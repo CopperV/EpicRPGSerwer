@@ -103,4 +103,4 @@ SpherusAttack5:
   - effect:particlebox{particle=snowballpoof;amount=150;radius=2.5;y=1.5} @PIR{r=15}
   - throw{velocity=3;velocityY=15} @PlayersInRadius{r=15}
   - delay 15
-  - prison{material=ICE;duration=100;breakable=true} @PlayersInRadius{r=35}
+  - prison{material=ICE;duration=100;b=true} @PlayersInRadius{r=35}

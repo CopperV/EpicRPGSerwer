@@ -118,4 +118,3 @@ KuchtaArea_TotemTick:
 KuchtaArea_TotemHit:
   Skills:
   - damage{amount=165;pk=true}
-  

@@ -1,0 +1,51 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+Areita_HSpawn:
+  Skills:
+  - message{m="<mob.name><&co> &fProsze, prosze. Zaszliscie juz bardzo daleko... Pokazcie, na co Was stac!"} @PlayersInRadius{r=20}
+  - threat{amount=100000} @NearestPlayer
+
+Areita_HSkill_1:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=160} @self
+  - message{m="<mob.name><&co> &fTworze najlepsze sieci jakie widzial ten swiat."} @PlayersInRadius{r=40}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bAreita przygotowuje Pajecza Siec";d=100} @PIR{r=40}
+  - stun{d=100} @self
+  - delay 100
+  - sound{s=entity.player.attack.sweep;v=10;p=0.1} @self
+  - missile{oT=Areita_HSkill-Tick;onHit=Areita_HSkill-Hit;v=9;i=1;hR=0.75;vR=0.75;in=5;mr=150;sB=false;sE=true} @PIR{r=40;limit=2;sort=FURTHEST}
+#  - projectile{oT=Areita_HSkill-Tick;onHit=Areita_HSkill-Hit;v=9;i=1;hR=0.75;vR=0.75;mr=60;sB=false;sE=false} @PIR{r=40;limit=1;sort=FURTHEST}
+
+Areita_HSkill-Tick:
+  Skills:
+  - effect:particles{particle=enchantmenttable;amount=5;speed=0.05;hS=0.2;vS=0.2} @origin
+  - itemspray{i=WEB;a=2;d=10;v=0.5} @origin
+
+Areita_HSkill-Hit:
+  Skills:
+  - sound{s=entity.player.attack.sweep;v=10;p=2} @origin
+  - damage{amount=235}
+  - prison{material=WEB;duration=400;breakable=true}
+  - effect:particles{particle=enchantmenttable;amount=30;speed=0.1;hS=0.1;vS=0.1} @origin
+
+Areita_HSkill_2:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=160} @self
+  - message{m="<mob.name><&co> &fMe dzieci nakarmia sie Waszymi cialami!"} @PlayersInRadius{r=30}
+  - sendtitle{title="&4&lStrzezcie sie!";subtitle="&bAreita przygotowuje Pajeczy Roj!";d=100} @PIR{r=30}
+  - stun{d=300} @self
+  - delay 100
+  - summon{mob=Dwor_Mob_H_3;radius=3;amount=2;os=true} @Self
+
+Areita_HSkill_3:
+  Skills:
+  - potion{type=BLINDNESS;duration=300;level=5} @trigger
+  - potion{type=CONFUSION;duration=300;level=5} @trigger
+  - potion{type=SLOW_DIGGING;duration=300;level=2} @trigger
+  - potion{type=POISON;duration=300;level=10} @trigger
+  

@@ -1,0 +1,107 @@
+OlimpStwor:
+  Type: WITHER_SKELETON
+  Display: "&a&lStwor Olimpu"
+  Health: 5895
+  Damage: 99
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  Options:
+    AlwaysShowName: true
+    FollowRange: 45
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.2
+    KnockbackResistance: 0.6
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Drops:
+  - Grzyb_Olimpu 1 0.05
+  - Fragment_Berla_Wladcy 1 0.007
+  - Berlo_Stwora_Olimpu_Int 1 0.02
+  - Luk_Stwora_Olimpu_Zd 1 0.01
+  Equipment:
+  - CzaszkaSummonWladcyOlimp:4
+WyslannikZeusa:
+  Type: ZOMBIE
+  Display: "&eWyslannik Zeusa"
+  Health: 6000
+  Damage: 110
+  Disguise:
+     Type: enderman
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  - 1 attacker
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    FollowRange: 45
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+    MovementSpeed: 0.3
+    KnockbackResistance: 0.6
+    Silent: true
+  Drops:
+   - Skarb_Olimpu 1 0.08
+   - Fragment_Pioruna 1 0.009
+   - Helm_Wyslanika_Olimpu_Zr 1 0.01
+   - Kusza_Wyslannika_Str 1 0.01
+TequatlBOSS:
+  Mobtype: ZOMBIE
+  Display: '&9&l✪  Tequatl  ✪ - BOSS'
+  Health: 50000
+  Damage: 150
+  AIGoalSelectors:
+   - 0 clear
+   - 1 meleeattack
+  AITargetSelectors:
+   - 0 clear
+   - 1 players
+  Options:
+    FollowRange: 20
+    AlwaysShowName: true
+    MovementSpeed: 0.25
+    KnockbackResistance: 0.9
+    Despawn: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    ShowHealth: true
+  BossBar:
+    Enabled: true
+    Title: '&9&lTequatl - BOSS'
+    Range: 20
+    Color: WHITE
+    Style: SEGMENTED_12
+  Disguise:
+     Type: Player
+     Player: vmpsoft
+     Skin: vmpsoft
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - jump{velocity=3} ~onDamaged 0.1
+  - skill{s=SummonOlimp} @target ~onDamaged 0.1
+  - skill{s=TeleporatacjaSkill} ~onDamaged 0.1
+  - skill{s=OslepienieSkill} ~onDamaged 0.1
+  - skill{s=WladcaOlimpuDeath} ~onDeath
+#  - message{m="&b<mob.name> &b&l zostal Pokonany przez &e&l<trigger.name>&r" &c&lGratulacje!} 
+  Drops:
+   - PrzepustkaOlimp 1 0.001
+   - Lege_Wladca_Olimp
+   - Fragment_Pioruna 1 0.012
+   - Fragment_Berla_Wladcy 1 0.011
+  Equipment:
+  - CzaszkaBossOlimp:4

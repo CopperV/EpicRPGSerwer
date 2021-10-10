@@ -7,9 +7,9 @@ display:
 skinid: 309426309
 location:
   world: "F_RPG"
-  x: -27.5
-  y: 43.0625
-  z: 81.5
+  x: -36.5
+  y: 42
+  z: 26.5
   yaw: -99
   pitch: 3
 lookat: true

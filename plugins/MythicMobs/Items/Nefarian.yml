@@ -1,0 +1,1362 @@
+######################## Nefarian ########################
+Kiel_Furiata_Zr:
+  Id: NETHERITE_HOE
+  Display: '&cKiel Furiata'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &784'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Zrecznosc: &7+6'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c254'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 2
+      KnockbackResistance: 0.05
+    offhand:
+      Health: 3
+Kiel_Furiata_StrWytrz:
+  Id: NETHERITE_HOE
+  Display: '&cKiel Furiata'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &787'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Sila: &7+5'
+  - '&4- &8Wytrzymalosc: &7+4'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c128'
+  - '&4- &8Wytrzymalosc: &c128'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 3
+      KnockbackResistance: 0.08
+Rozgrzana_Zbroja_Zd:
+  Id: GOLDEN_CHESTPLATE
+  Display: '&c&oRozgrzana zbroja'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &753'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Zdolnosci mysliwskie: &7+6'
+  - '&4- &8Zrecznosc: &7+3'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c256'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 4
+      KnockbackResistance: 0.02
+      MovementSpeed: 0.03
+Rozgrzana_Zbroja_IntMana:
+  Id: GOLDEN_CHESTPLATE
+  Display: '&c&oRozgrzana zbroja'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &748'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Wytrzymalosc: &7+3'
+  - '&4- &8Inteligencja: &7+5'
+  - '&4- &8Mana: &7+11'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Inteligencja: &c126'
+  - '&4- &8Mana: &c252'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 6
+      KnockbackResistance: 0.01
+      MovementSpeed: 0.01
+Wlocznia_Drakonida_Str:
+  Id: NETHERITE_SHOVEL
+  Display: '&c&lWlocznia Drakonida'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &798'
+  - '&4- &8Walka: &7+15'
+  - '&4- &8Sila: &7+6'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c275'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 4
+      MovementSpeed: 0.04
+Wlocznia_Drakonida_ZrZd:
+  Id: NETHERITE_SHOVEL
+  Display: '&c&lWlocznia Drakonida'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &793'
+  - '&4- &8Walka: &7+20'
+  - '&4- &8Zrecznosc: &7+5'
+  - '&4- &8Zdolnosci mysliwskie: &7+5'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c137'
+  - '&4- &8Zdolnosci mysliwskie: &c137'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 2
+      MovementSpeed: 0.07
+Smoczy_Pancerz_Zr:
+  Id: NETHERITE_LEGGINGS
+  Display: '&4&lSmoczy pancerz'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &769'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Mana: &7+6'
+  - '&4- &8Wytrzymalosc: &7+6'
+  - '&4- &8Zrecznosc: &7+12'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c293'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      Health: 9
+      MovementSpeed: 0.01
+      KnockbackResistance: 0.03
+Smoczy_Pancerz_StrWytrz:
+  Id: NETHERITE_LEGGINGS
+  Display: '&4&lSmoczy pancerz'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &773'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Mana: &7+10'
+  - '&4- &8Wytrzymalosc: &7+9'
+  - '&4- &8Sila: &7+8'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c146'
+  - '&4- &8Wytrzymalosc: &c146'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      Health: 11
+      MovementSpeed: -0.01
+      KnockbackResistance: 0.06
+Drakanski_Kostur_IntMana:
+  Id: NETHERITE_HOE
+  Display: '&4&lDrakanski kostur'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &773'
+  - '&4- &8Mana: &7+7'
+  - '&4- &8Inteligencja: &7+13'
+  - '&4- &8Walka: &7+3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Inteligencja: &c136'
+  - '&4- &8Mana: &c272'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 4
+      MovementSpeed: 0.05
+Drakanski_Kostur_ZrZd:
+  Id: NETHERITE_HOE
+  Display: '&4&lDrakanski kostur'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &770'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Zdolnosci mysliwskie: &7+7'
+  - '&4- &8Zrecznosc: &7+8'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c135'
+  - '&4- &8Zdolnosci mysliwskie: &c135'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 3
+      MovementSpeed: 0.08
+Szata_Z_Czarnogory_Int:
+  Id: LEATHER_CHESTPLATE
+  Display: '&8Szata z Czarnogory'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &756'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Wytrzymalosc: &7+1'
+  - '&4- &8Inteligencja: &7+9'
+  - '&4- &8Mana: &7+4'
+  - '&4- &8Zrecznosc: &7-1'
+  - '&4- &8Sila: &7-2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Inteligencja: &c263'
+  Options:
+    Unbreakable: true
+    Color: 0,0,0
+  Attributes:
+    chest:
+      Health: 9
+      MovementSpeed: 0.03
+Szata_Z_Czarnogory_Mana:
+  Id: LEATHER_CHESTPLATE
+  Display: '&8Szata z Czarnogory'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &754'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Wytrzymalosc: &7+3'
+  - '&4- &8Inteligencja: &7+3'
+  - '&4- &8Mana: &7+14'
+  - '&4- &8Zdolnosci mysliwskie: &7-4'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Mana: &c522'
+  Options:
+    Unbreakable: true
+    Color: 0,0,0
+  Attributes:
+    chest:
+      Health: 10
+      MovementSpeed: 0.02
+Szata_Z_Czarnogory_Walka:
+  Id: LEATHER_CHESTPLATE
+  Display: '&8Szata z Czarnogory'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &760'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Wytrzymalosc: &7+5'
+  - '&4- &8Mana: &7+5'
+  - '&4- &8Zrecznosc: &7+5'
+  - '&4- &8Zdolnosci mysliwskie: &7+5'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Walka: &c102'
+  Options:
+    Unbreakable: true
+    Color: 0,0,0
+  Attributes:
+    chest:
+      Health: 5
+      MovementSpeed: 0.06
+Zabojczy_Ziew_Wytrz:
+  Id: CROSSBOW
+  Display: '&4Zabojczy ziew'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &770'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Sila: &7+6'
+  - '&4- &8Wytrzymalosc: &7+9'
+  - '&4- &8Inteligencja: &7-3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Wytrzymalosc: &c258'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.03
+      KnockbackResistance: 0.05
+Zabojczy_Ziew_ZrZd:
+  Id: CROSSBOW
+  Display: '&4Zabojczy ziew'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &775'
+  - '&4- &8Walka: &7+7'
+  - '&4- &8Zrecznosc: &7+7'
+  - '&4- &8Zdolnosci mysliwskie: &7+8'
+  - '&4- &8Mana: &7-6'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c131'
+  - '&4- &8Zdolnosci mysliwskie: &c131'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.01
+      KnockbackResistance: 0.01
+Czaszka_Czarnoskrzydlego_Str:
+  Id: NETHERITE_HELMET
+  Display: '&8&oCzaszka Czarnoskrzydlego'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &750'
+  - '&4- &8Mana: &7+8'
+  - '&4- &8Wytrzymalosc: &7+3'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Sila: &7+4'
+  - '&4- &8Zrecznosc: &7-4'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c257'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 6
+      MovementSpeed: -0.03
+      KnockbackResistance: 0.06
+Czaszka_Czarnoskrzydlego_IntMana:
+  Id: NETHERITE_HELMET
+  Display: '&8&oCzaszka Czarnoskrzydlego'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &743'
+  - '&4- &8Mana: &7+12'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Inteligencja: &7+6'
+  - '&4- &8Zdolnosci mysliwskie: &7-4'
+  - '&4- &8Zrecznosc: &7-3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Mana: &c254'
+  - '&4- &8Inteligencja: &c127'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 10
+      KnockbackResistance: 0.03
+Plonacy_Helm_Wytrz:
+  Id: GOLDEN_HELMET
+  Display: '&c&lPlonacy helm'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &781'
+  - '&4- &8Mana: &7+6'
+  - '&4- &8Wytrzymalosc: &7+8'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Inteligencja: &7+3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Wytrzymalosc: &c293'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: -1
+      MovementSpeed: 0.02
+      KnockbackResistance: 0.05
+  Enchantments:
+  - PROTECTION_FIRE:5
+  - SOUL_SPEED:1
+Plonacy_Helm_Walka:
+  Id: GOLDEN_HELMET
+  Display: '&c&lPlonacy helm'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &776'
+  - '&4- &8Wytrzymalosc: &7+3'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Inteligencja: &7+5'
+  - '&4- &8Zrecznosc: &7+8'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Walka: &c107'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: -3
+      MovementSpeed: 0.04
+      KnockbackResistance: 0.04
+  Enchantments:
+  - PROTECTION_FIRE:5
+  - SOUL_SPEED:1
+Plonacy_Helm_Mana:
+  Id: GOLDEN_HELMET
+  Display: '&c&lPlonacy helm'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &772'
+  - '&4- &8Mana: &7+29'
+  - '&4- &8Wytrzymalosc: &7+1'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Inteligencja: &7+4'
+  - '&4- &8Zrecznosc: &7+1'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Mana: &c573'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 3
+      MovementSpeed: 0.05
+      KnockbackResistance: 0.02
+  Enchantments:
+  - PROTECTION_FIRE:5
+  - SOUL_SPEED:1
+Palacy_Zar_Zd:
+  Id: BOW
+  Display: '&4&oPalacy zar'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &781'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Zrecznosc: &7+3'
+  - '&4- &8Zdolnosci mysliwskie: &7+5'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c264'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.06
+      KnockbackResistance: 0.02
+      Health: 5
+    offhand:
+      Health: 8
+Palacy_Zar_StrWytrz:
+  Id: BOW
+  Display: '&4&oPalacy zar'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &773'
+  - '&4- &8Zdolnosci mysliwskie: &7+2'
+  - '&4- &8Sila: &7+5'
+  - '&4- &8Wytrzymalosc: &7+5'
+  - '&4- &8Mana: &7-4'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c131'
+  - '&4- &8Wytrzymalosc: &c131'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.03
+      KnockbackResistance: 0.04
+      Health: 8
+    offhand:
+      Health: 10
+Topor_Czarnorytych_Str:
+  Id: NETHERITE_AXE
+  Display: '&7&lTopor Czarnorytych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7110'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Sila: &7+7'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Mana: &7-4'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c276'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 9
+      KnockbackResistance: 0.05
+      MovementSpeed: -0.06
+    offhand:
+      MovementSpeed: -0.06
+      KnockbackResistance: 0.06
+Topor_Czarnorytych_Wytrz:
+  Id: NETHERITE_AXE
+  Display: '&7&lTopor Czarnorytych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &799'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Wytrzymalosc: &7+9'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Wytrzymalosc: &c273'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 11
+      KnockbackResistance: 0.07
+      MovementSpeed: -0.07
+    offhand:
+      MovementSpeed: -0.07
+      KnockbackResistance: 0.07
+Topor_Czarnorytych_Zd:
+  Id: NETHERITE_AXE
+  Display: '&7&lTopor Czarnorytych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7101'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Wytrzymalosc: &7+1'
+  - '&4- &8Zdolnosci mysliwskie: &7+6'
+  - '&4- &8Inteligencja: &7+2'
+  - '&4- &8Sila: &7-3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c270'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 9
+      KnockbackResistance: 0.05
+      MovementSpeed: -0.06
+    offhand:
+      MovementSpeed: -0.06
+      KnockbackResistance: 0.06
+Helm_Czarnorytych_Str:
+  Id: NETHERITE_HELMET
+  Display: '&8Helm Czarnorytych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &768'
+  - '&4- &8Mana: &7+5'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Sila: &7+5'
+  - '&4- &8Inteligencja: &7-2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c276'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 12
+      MovementSpeed: -0.06
+      KnockbackResistance: 0.04
+Helm_Czarnorytych_IntMana:
+  Id: NETHERITE_HELMET
+  Display: '&8Helm Czarnorytych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &757'
+  - '&4- &8Mana: &7+13'
+  - '&4- &8Inteligencja: &7+6'
+  - '&4- &8Wytrzymalosc: &7+1'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Zrecznosc: &7-1'
+  - '&4- &8Zdolnosci mysliwskie: &7-3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Mana: &c270'
+  - '&4- &8Inteligencja: &c135'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 16
+      MovementSpeed: -0.03
+      KnockbackResistance: 0.02
+Zbroja_Czarnorytych_Wytrz:
+  Id: NETHERITE_CHESTPLATE
+  Display: '&8Zbroja Czarnorytych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &783'
+  - '&4- &8Wytrzymalosc: &7+11'
+  - '&4- &8Mana: &7+4'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Zdolnosci mysliwskie: &7-5'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Wytrzymalosc: &c291'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 16
+      MovementSpeed: -0.1
+      KnockbackResistance: 0.08
+Zbroja_Czarnorytych_ZrZd:
+  Id: NETHERITE_CHESTPLATE
+  Display: '&8Zbroja Czarnorytych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &776'
+  - '&4- &8Wytrzymalosc: &7+3'
+  - '&4- &8Mana: &7+3'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Zrecznosc: &7+6'
+  - '&4- &8Zdolnosci mysliwskie: &7+5'
+  - '&4- &8Inteligencja: &7-4'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c142'
+  - '&4- &8Zdolnosci mysliwskie: &c142'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 10
+      MovementSpeed: -0.06
+      KnockbackResistance: 0.05
+Pancerz_Czarnorytych_Zd:
+  Id: NETHERITE_LEGGINGS
+  Display: '&8Pancerz Czarnorytych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &771'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Mana: &7+6'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Zdolnosci mysliwskie: &7+6'
+  - '&4- &8Zrecznosc: &7-2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c281'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      Health: 8
+      MovementSpeed: -0.02
+      KnockbackResistance: 0.03
+Pancerz_Czarnorytych_StrWytrz:
+  Id: NETHERITE_LEGGINGS
+  Display: '&8Pancerz Czarnorytych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &777'
+  - '&4- &8Wytrzymalosc: &7+7'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Sila: &7+6'
+  - '&4- &8Inteligencja: &7-2'
+  - '&4- &8Mana: &7-5'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c143'
+  - '&4- &8Wytrzymalosc: &c143'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      Health: 14
+      MovementSpeed: -0.07
+      KnockbackResistance: 0.06
+Buty_Czarnorytych_Wytrz:
+  Id: NETHERITE_BOOTS
+  Display: '&8Buty Czarnorytych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &772'
+  - '&4- &8Wytrzymalosc: &7+9'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Mana: &7+4'
+  - '&4- &8Zrecznosc: &7-4'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Wytrzymalosc: &c278'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 12
+      MovementSpeed: -0.05
+      KnockbackResistance: 0.04
+Buty_Czarnorytych_StrZr:
+  Id: NETHERITE_BOOTS
+  Display: '&8Buty Czarnorytych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &764'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Walka: &7+7'
+  - '&4- &8Sila: &7+6'
+  - '&4- &8Zrecznosc: &7+6'
+  - '&4- &8Zdolnosci mysliwskie: &7-5'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c136'
+  - '&4- &8Zrecznosc: &c136'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 7
+      MovementSpeed: -0.01
+      KnockbackResistance: 0.02
+Obronca_Czarnogory_Str:
+  Id: NETHERITE_AXE
+  Display: '&8&lObronca Czarnogory'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7134'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Sila: &7+14'
+  - '&4- &8Wytrzymalosc: &7+3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c301'
+  - ''
+  - '&8Wolnych slotow: &71'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 14
+      KnockbackResistance: 0.09
+      MovementSpeed: -0.1
+    offhand:
+      MovementSpeed: -0.1
+      KnockbackResistance: 0.1
+  NBT:
+    Base:
+      FreeSlots: 1
+Obronca_Czarnogory_IntMana:
+  Id: NETHERITE_AXE
+  Display: '&8&lObronca Czarnogory'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7111'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Mana: &7+30'
+  - '&4- &8Wytrzymalosc: &7+1'
+  - '&4- &8Inteligencja: &7+15'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Mana: &c292'
+  - '&4- &8Inteligencja: &c146'
+  - ''
+  - '&8Wolnych slotow: &71'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 19
+      KnockbackResistance: 0.04
+      MovementSpeed: -0.08
+    offhand:
+      MovementSpeed: -0.-8
+      KnockbackResistance: 0.08
+  NBT:
+    Base:
+      FreeSlots: 1
+Helm_Wojownika_Czarnogory_Zd:
+  Id: NETHERITE_HELMET
+  Display: '&8&lHelm Wojownika Czarnogory'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &771'
+  - '&4- &8Wytrzymalosc: &7+3'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Zdolnosci mysliwskie: &7+11'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c289'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 15
+      MovementSpeed: -0.07
+      KnockbackResistance: 0.04
+Helm_Wojownika_Czarnogory_StrWytrz:
+  Id: NETHERITE_HELMET
+  Display: '&8&lHelm Wojownika Czarnogory'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &779'
+  - '&4- &8Wytrzymalosc: &7+8'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Sila: &7+7'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c146'
+  - '&4- &8Wytrzymalosc: &c146'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 20
+      MovementSpeed: -0.11
+      KnockbackResistance: 0.07
+Zbroja_Wojownika_Czarnogory_Wytrz:
+  Id: NETHERITE_CHESTPLATE
+  Display: '&8&lZbroja Wojownika Czarnogory'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &785'
+  - '&4- &8Wytrzymalosc: &7+10'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Mana: &7+6'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Wytrzymalosc: &c301'
+  - ''
+  - '&8Wolnych slotow: &71'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 23
+      MovementSpeed: -0.15
+      KnockbackResistance: 0.11
+  NBT:
+    Base:
+      FreeSlots: 1
+Zbroja_Wojownika_Czarnogory_Walka:
+  Id: NETHERITE_CHESTPLATE
+  Display: '&8&lZbroja Wojownika Czarnogory'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &781'
+  - '&4- &8Wytrzymalosc: &7+4'
+  - '&4- &8Walka: &7+8'
+  - '&4- &8Mana: &7+8'
+  - '&4- &8Zrecznosc: &7+8'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Walka: &c111'
+  - ''
+  - '&8Wolnych slotow: &71'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 20
+      MovementSpeed: -0.11
+      KnockbackResistance: 0.09
+  NBT:
+    Base:
+      FreeSlots: 1
+Pancerz_Wojownika_Czarnogory_Str:
+  Id: NETHERITE_LEGGINGS
+  Display: '&8&lPancerz Wojownika Czarnogory'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &779'
+  - '&4- &8Wytrzymalosc: &7+4'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Mana: &7+4'
+  - '&4- &8Sila: &7+9'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c295'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      Health: 19
+      MovementSpeed: -0.11
+      KnockbackResistance: 0.09
+Pancerz_Wojownika_Czarnogory_ZrZd:
+  Id: NETHERITE_LEGGINGS
+  Display: '&8&lPancerz Wojownika Czarnogory'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &775'
+  - '&4- &8Wytrzymalosc: &7+1'
+  - '&4- &8Walka: &7+7'
+  - '&4- &8Zrecznosc: &7+7'
+  - '&4- &8Zdolnosci mysliwskie: &7+8'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c147'
+  - '&4- &8Zdolnosci mysliwskie: &c147'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      Health: 14
+      MovementSpeed: -0.06
+      KnockbackResistance: 0.04
+Buty_Wojownika_Czarnogory_Wytrz:
+  Id: NETHERITE_BOOTS
+  Display: '&8&lButy Wojownika Czarnogory'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &776'
+  - '&4- &8Wytrzymalosc: &7+9'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Mana: &7+6'
+  - '&4- &8Sila: &7+2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Wytrzymalosc: &c294'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 18
+      MovementSpeed: -0.08
+      KnockbackResistance: 0.06
+Buty_Wojownika_Czarnogory_IntMana:
+  Id: NETHERITE_BOOTS
+  Display: '&8&lButy Wojownika Czarnogory'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &769'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Mana: &7+19'
+  - '&4- &8Inteligencja: &7+10'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Inteligencja: &c144'
+  - '&4- &8Mana: &c288'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 23
+      MovementSpeed: -0.04
+      KnockbackResistance: 0.02
+Kusza_Czarnorytych_Str:
+  Id: CROSSBOW
+  Display: '&7&lKusza Czarnorytych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &775'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Sila: &7+9'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Zrecznosc: &7-4'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c266'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 4
+      MovementSpeed: -0.04
+      KnockbackResistance: 0.04
+Kusza_Czarnorytych_Walka:
+  Id: CROSSBOW
+  Display: '&7&lKusza Czarnorytych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &771'
+  - '&4- &8Walka: &7+8'
+  - '&4- &8Sila: &7+2'
+  - '&4- &8Zrecznosc: &7+7'
+  - '&4- &8Wytrzymalosc: &7-5'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Walka: &c102'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 2
+      MovementSpeed: -0.02
+      KnockbackResistance: 0.02
+Wybawiciel_Czarnogory_Str:
+  Id: CROSSBOW
+  Display: '&8&lWybawiciel Czarnogory'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7117'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Sila: &7+12'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c297'
+  - ''
+  - '&8Wolnych slotow: &71'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 10
+      MovementSpeed: -0.11
+      KnockbackResistance: 0.1
+  NBT:
+    Base:
+      FreeSlots: 1
+Wybawiciel_Czarnogory_Zr:
+  Id: CROSSBOW
+  Display: '&8&lWybawiciel Czarnogory'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7109'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Zrecznosc: &7+10'
+  - '&4- &8Zdolnosci mysliwskie: &7+3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c295'
+  - ''
+  - '&8Wolnych slotow: &71'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 7
+      MovementSpeed: -0.07
+      KnockbackResistance: 0.07
+  NBT:
+    Base:
+      FreeSlots: 1
+Ironfoe_Str:
+  Id: NETHERITE_PICKAXE
+  Display: '&6&lIRONFOE'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7450'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Sila: &7+55'
+  - '&4- &8Wytrzymalosc: &7+20'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c285'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      KnockbackResistance: 0.4
+      MovementSpeed: -0.25
+      Health: 30
+Korona_Czarongory_Zd:
+  Id: GOLDEN_HELMET
+  Display: '&e&l&oKorona Czarnogory'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &770'
+  - '&4- &8Wytrzymalosc: &7+5'
+  - '&4- &8Zdolnosci mysliwskie: &7+25'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Mana: &7+20'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c285'
+  - ''
+  - '&8Wolnych slotow: &73'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: 0.05
+      KnockbackResistance: 0.05
+      Health: 15
+  NBT:
+    Base:
+      FreeSlots: 3
+Czarne_Ostrze_Zr:
+  Id: NETHERITE_SWORD
+  Display: '&8&l&oCzarne Ostrze'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7200'
+  - '&4- &8Walka: &7+20'
+  - '&4- &8Zrecznosc: &7+35'
+  - '&4- &8Inteligencja: &7+5'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c285'
+  - ''
+  - '&8Wolnych slotow: &72'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.15
+      Health: 15
+  NBT:
+    Base:
+      FreeSlots: 2
+Jajo_Czarnoskrzydlego:
+  Id: DRAGON_EGG
+  Display: '&8&lJajo Czarnoskrzydlego'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&4- &8Inteligencja: &7+10'
+  - '&4- &8Mana: &7+20'
+  - '&4- &8Walka: &7+5'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 5
+      MovementSpeed: 0.03
+      KnockbackResistance: 0.03
+  NBT:
+    Base:
+      Klejnot: "drakkasit_1"
+Ciemna_Stal:
+  Id: NETHERITE_INGOT
+  Display: '&7&oCiemna stal'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Smocze_Jajo:
+  Id: DRAGON_EGG
+  Display: '&cSmocze jajo'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'

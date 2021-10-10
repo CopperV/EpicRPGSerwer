@@ -1,0 +1,53 @@
+SummonOlimp:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=60} @self
+  - message{m="<mob.name><&co> &a&lPowstan Moja Armio! Broncie naszego Domu!!"} @PlayersInRadius{r=35}
+  - delay 20
+  - summon{mob=OlimpStwor;amount=2;noise=1} @Self
+TeleporatacjaSkill:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=60} @self
+  - message{m="<mob.name>&6<&co> &cOdejdz plugawa istoto"} @PIR{r=40}
+  - potion{type=SLOW;lvl=7;duration=35} @Self
+  - delay 18
+  - projectile{onTick=ParticleOlimp;onEnd=DzwiekOlimp;v=6.5;i=1;hR=1.1;vR=1.1;MaxRange=20} @Ring{p=15;r=20}
+  - sound{s=entity.vex.death;p=0.5;v=2.5} @Self
+ParticleOlimp:
+  Skills:
+  - effect:particles{p=HappyVillager;amount=3;hS=0.15;vS=0.15;color=#FFD700} @origin
+DzwiekOlimp:
+  Skills:
+  - sound{s=entity.skeleton.hurt;p=0.75;v=1} @origin
+  - throw{velocity=14;velocityY=14} @PlayersNearOrigin{r=1.6}
+OslepienieSkill:
+  Conditions:
+  - offgcd
+  Skills:
+  - gcd{ticks=60} @self
+  - message{m="<mob.name><&co> &3&lJa tu jestem Wladca!"} @PlayersInRadius{r=35}
+  - projectile{onTick=SpadajacyItem;onHit=Slepota;v=12.5;i=2;hR=1.1;vR=1.1;MaxRange=25;g=0.05} @target
+  - sound{s=block.glass.hit;p=1.2;v=2.5} @Self
+  - delay 2
+  - sound{s=block.glass.hit;p=1.65;v=2.5} @Self
+  - delay 5
+  - sound{s=block.glass.hit;p=0.35;v=2.5} @Self
+SpadajacyItem:
+  Skills:
+  - effect:itemspray{item=iron_ingot;amount=1;velocity=0;d=10} @origin
+  - effect:itemspray{item=gold_ingot;amount=1;velocity=0;d=10} @origin
+Slepota:
+  Skills:
+  - damage{a=120;pi=true;ia=true} @PlayersNearOrigin{r=1.25}
+  - potion{type=BLINDNESS;lvl=5;duration=100} @PlayersNearOrigin{r=1.25}
+  - potion{type=WITHER;lvl=7;duration=100} @PlayersNearOrigin{r=1.25}
+  - sound{s=entity.vex.death;p=0.5;v=2.5} @target
+WladcaOlimpuDeath:
+  Skills:
+  - message{m="&b<mob.name> &b zostal pokonany &c&lGratulacje!"}  @PlayersOnServer
+  - message{m="&e❦ Perkel ❦ &cdowiedzial sie o upadku &9&l✪  Tequatla ✪"}  @PlayersOnServer
+  - message{m="&e❦ Perkel ❦  &cprzebudzil sie w swojej twierdzy &b&lParnas"} @PlayersOnServer
+  - message{m="&cTeraz bedzie tylko gorzej..."} @PlayersOnServer

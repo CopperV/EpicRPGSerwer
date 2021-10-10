@@ -1,0 +1,983 @@
+######################## RAGNAROS ########################
+Ogien_Sulfurona_IntMana:
+  Id: BLAZE_ROD
+  Display: '&4Ogien Sulfurona'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &763'
+  - '&4- &8Mana: &7+15'
+  - '&4- &8Inteligencja: &7+8'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Zdolnosci mysliwskie: &7-4'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Inteligencja: &c130'
+  - '&4- &8Mana: &c260'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 4
+      MovementSpeed: 0.02
+Ogien_Sulfurona_Str:
+  Id: BLAZE_ROD
+  Display: '&4Ogien Sulfurona'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &790'
+  - '&4- &8Mana: &7+5'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Sila: &7+7'
+  - '&4- &8Zrecznosc: &7-3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c264'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 3
+      MovementSpeed: 0.01
+    offhand:
+      Health: 1
+Iskierka_ZrZd:
+  Id: GOLDEN_BOOTS
+  Display: '&c&oIskierka'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &746'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Zrecznosc: &7+5'
+  - '&4- &8Zdolnosci mysliwskie: &7+6'
+  - '&4- &8Mana: &7-7'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c126'
+  - '&4- &8Zdolnosci mysliwskie: &c126'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      MovementSpeed: 0.04
+Iskierka_Int:
+  Id: GOLDEN_BOOTS
+  Display: '&c&oIskierka'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &740'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Inteligencja: &7+6'
+  - '&4- &8Zrecznosc: &7+1'
+  - '&4- &8Sila: &7-3'
+  - '&4- &8Wytrzymalosc: &7-1'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Inteligencja: &c246'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      MovementSpeed: 0.01
+      Health: 1
+Iskierka_Mana:
+  Id: GOLDEN_BOOTS
+  Display: '&c&oIskierka'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &738'
+  - '&4- &8Inteligencja: &7+3'
+  - '&4- &8Mana: &7+8'
+  - '&4- &8Wytrzymalosc: &7-2'
+  - '&4- &8Zrecznosc: &7-1'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Mana: &c490'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 3
+Prorocza_Opaska_Zr:
+  Id: LEATHER_HELMET
+  Display: '&e&lProrocza Opaska'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &746'
+  - '&4- &8Mana: &7+15'
+  - '&4- &8Zrecznosc: &7+8'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Zdolnosci mysliwskie: &7+6'
+  - '&4- &8Wytrzymalosc: &7-6'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c261'
+  - ''
+  - '&8Wolnych slotow: &71'
+  Options:
+    Unbreakable: true
+    Color: 255,0,0
+  Attributes:
+    head:
+      Health: 9
+      MovementSpeed: 0.07
+  NBT:
+    Base:
+      FreeSlots: 1
+Prorocza_Opaska_StrWytrz:
+  Id: LEATHER_HELMET
+  Display: '&e&lProrocza Opaska'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &752'
+  - '&4- &8Mana: &7+5'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Sila: &7+5'
+  - '&4- &8Wytrzymalosc: &7+5'
+  - '&4- &8Inteligencja: &7-4'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c131'
+  - '&4- &8Wytrzymalosc: &c131'
+  - ''
+  - '&8Wolnych slotow: &71'
+  Options:
+    Unbreakable: true
+    Color: 255,0,0
+  Attributes:
+    head:
+      Health: 11
+      MovementSpeed: 0.04
+      KnockbackResistance: 0.01
+  NBT:
+    Base:
+      FreeSlots: 1
+Prorocza_Opaska_Walka:
+  Id: LEATHER_HELMET
+  Display: '&e&lProrocza Opaska'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &752'
+  - '&4- &8Walka: &7+7'
+  - '&4- &8Sila: &7+6'
+  - '&4- &8Zrecznosc: &7+6'
+  - '&4- &8Wytrzymalosc: &7-2'
+  - '&4- &8Inteligencja: &7-2'
+  - '&4- &8Mana: &7-4'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Walka: &c89'
+  - ''
+  - '&8Wolnych slotow: &71'
+  Options:
+    Unbreakable: true
+    Color: 255,0,0
+  Attributes:
+    head:
+      Health: 5
+      MovementSpeed: 0.07
+  NBT:
+    Base:
+      FreeSlots: 1
+Szata_Przeznaczenia_Walka:
+  Id: LEATHER_LEGGINGS
+  Display: '&4Szata przeznaczenia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &756'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Sila: &7+4'
+  - '&4- &8Zrecznosc: &7+8'
+  - '&4- &8Mana: &7-8'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Walka: &c93'
+  Options:
+    Unbreakable: true
+    Color: 255,0,0
+  Attributes:
+    legs:
+      Health: 6
+      MovementSpeed: 0.06
+      KnockbackResistance: 0.01
+Szata_Przeznaczenia_Int:
+  Id: LEATHER_LEGGINGS
+  Display: '&4Szata przeznaczenia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &750'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Mana: &7+5'
+  - '&4- &8Inteligencja: &7+6'
+  - '&4- &8Zrecznosc: &7-2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Inteligencja: &c264'
+  Options:
+    Unbreakable: true
+    Color: 255,0,0
+  Attributes:
+    legs:
+      Health: 3
+      MovementSpeed: 0.07
+Szata_Przeznaczenia_Mana:
+  Id: LEATHER_LEGGINGS
+  Display: '&4Szata przeznaczenia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &748'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Mana: &7+13'
+  - '&4- &8Inteligencja: &7+2'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Zdolnosci mysliwskie: &7-3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Mana: &c521'
+  Options:
+    Unbreakable: true
+    Color: 255,0,0
+  Attributes:
+    legs:
+      Health: 4
+      MovementSpeed: 0.08
+Ognista_Furia_Zd:
+  Id: BOW
+  Display: '&c&oOgnista Furia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &777'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Zrecznosc: &7+6'
+  - '&4- &8Zdolnosci mysliwskie: &7+10'
+  - '&4- &8Sila: &7-2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c261'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.04
+      KnockbackResistance: 0.03
+      Health: 3
+Ognista_Furia_ZrStr:
+  Id: BOW
+  Display: '&c&oOgnista Furia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &772'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Zrecznosc: &7+7'
+  - '&4- &8Sila: &7+7'
+  - '&4- &8Zdolnosci mysliwskie: &7-2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c130'
+  - '&4- &8Sila: &c130'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.03
+      KnockbackResistance: 0.04
+      Health: 4
+Palacy_Chod_Wytrz:
+  Id: GOLDEN_BOOTS
+  Display: '&4Palacy Chod'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &754'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Wytrzymalosc: &7+5'
+  - '&4- &8Zrecznosc: &7+2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Wytrzymalosc: &c263'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      MovementSpeed: 0.03
+      KnockbackResistance: 0.02
+Palacy_Chod_Walka:
+  Id: GOLDEN_BOOTS
+  Display: '&4Palacy Chod'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &750'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Wytrzymalosc: &7+3'
+  - '&4- &8Zrecznosc: &7+4'
+  - '&4- &8Zdolnosci mysliwskie: &7+1'
+  - '&4- &8Mana: &7-6'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Walka: &c95'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      MovementSpeed: 0.04
+      KnockbackResistance: 0.01
+      Health: 1
+Kostur_Plomiennego_Legionu_Int:
+  Id: BLAZE_ROD
+  Display: '&4&lKostur Plomiennego Legionu'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &770'
+  - '&4- &8Mana: &7+3'
+  - '&4- &8Inteligencja: &7+11'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Sila: &7-2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Inteligencja: &c269'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 6
+      MovementSpeed: 0.03
+    offhand:
+      MovementSpeed: 0.03
+Kostur_Plomiennego_Legionu_Mana:
+  Id: BLAZE_ROD
+  Display: '&4&lKostur Plomiennego Legionu'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &770'
+  - '&4- &8Mana: &7+15'
+  - '&4- &8Inteligencja: &7+4'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Zrecznosc: &7-2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Mana: &c531'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 8
+      MovementSpeed: 0.01
+    offhand:
+      MovementSpeed: 0.02
+Zar_Oddania_Wytrz:
+  Id: GOLDEN_HELMET
+  Display: '&cZar oddania'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &755'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Sila: &7+3'
+  - '&4- &8Wytrzymalosc: &7+7'
+  - '&4- &8Zrecznosc: &7-2'
+  - '&4- &8Inteligencja: &7-1'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Wytrzymalosc: &c270'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 6
+      MovementSpeed: 0.02
+      KnockbackResistance: 0.04
+Zar_Oddania_IntMana:
+  Id: GOLDEN_HELMET
+  Display: '&cZar oddania'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &747'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Wytrzymalosc: &7+1'
+  - '&4- &8Mana: &7+9'
+  - '&4- &8Inteligencja: &7+5'
+  - '&4- &8Sila: &7-2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Inteligencja: &c132'
+  - '&4- &8Mana: &c264'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 9
+      MovementSpeed: 0.03
+      KnockbackResistance: 0.01
+Plomien_Piekielny_Str:
+  Id: GOLDEN_AXE
+  Display: '&c&lPlomien Piekielny'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7118'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Sila: &7+8'
+  - '&4- &8Wytrzymalosc: &7+3'
+  - '&4- &8Zrecznosc: &7-3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c278'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 6
+      KnockbackResistance: 0.03
+      MovementSpeed: -0.04
+    offhand:
+      MovementSpeed: -0.05
+      KnockbackResistance: 0.05
+Plomien_Piekielny_ZrZd:
+  Id: GOLDEN_AXE
+  Display: '&c&lPlomien Piekielny'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7105'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Zrecznosc: &7+4'
+  - '&4- &8Zdolnosci mysliwskie: &7+3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c137'
+  - '&4- &8Zdolnosci mysliwskie: &c137'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 4
+      KnockbackResistance: 0.02
+      MovementSpeed: -0.02
+    offhand:
+      MovementSpeed: -0.03
+      KnockbackResistance: 0.03
+Plomienny_Bastion_Wytrz:
+  Id: CHAINMAIL_LEGGINGS
+  Display: '&c&lPlomienny bastion'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &766'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Wytrzymalosc: &7+9'
+  - '&4- &8Sila: &7+3'
+  - '&4- &8Mana: &7+6'
+  - '&4- &8Inteligencja: &7-3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Wytrzymalosc: &c282'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      Health: 8
+      MovementSpeed: -0.03
+      KnockbackResistance: 0.04
+Plomienny_Bastion_IntMana:
+  Id: CHAINMAIL_LEGGINGS
+  Display: '&c&lPlomienny bastion'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &750'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Inteligencja: &7+6'
+  - '&4- &8Mana: &7+13'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Inteligencja: &7-3'
+  - '&4- &8Sila: &7-1'
+  - '&4- &8Zrecznosc: &7-1'
+  - '&4- &8Zdolnosci mysliwskie: &7-1'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Mana: &c276'
+  - '&4- &8Inteligencja: &c138'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      Health: 10
+      MovementSpeed: -0.02
+      KnockbackResistance: 0.02
+Magmowy_Wedrowiec_Int:
+  Id: NETHERITE_BOOTS
+  Display: '&4&l&oMagmowy wedrowiec'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &768'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Inteligencja: &7+11'
+  - '&4- &8Mana: &7+3'
+  - '&4- &8Wytrzymalosc: &7+4'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Inteligencja: &c291'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 12
+      MovementSpeed: 0.01
+      KnockbackResistance: 0.03
+  Enchantments:
+  - PROTECTION_FIRE:5
+  - SOUL_SPEED:3
+Magmowy_Wedrowiec_Mana:
+  Id: NETHERITE_BOOTS
+  Display: '&4&l&oMagmowy wedrowiec'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &766'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Inteligencja: &7+2'
+  - '&4- &8Mana: &7+23'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Zrecznosc: &7+1'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Mana: &c580'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 12
+      MovementSpeed: 0.02
+      KnockbackResistance: 0.01
+  Enchantments:
+  - PROTECTION_FIRE:5
+  - SOUL_SPEED:3
+Magmowy_Wedrowiec_StrWytrz:
+  Id: NETHERITE_BOOTS
+  Display: '&4&l&oMagmowy wedrowiec'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &776'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Mana: &7+4'
+  - '&4- &8Wytrzymalosc: &7+8'
+  - '&4- &8Sila: &7+9'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c149'
+  - '&4- &8Wytrzymalosc: &c149'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 9
+      MovementSpeed: -0.01
+      KnockbackResistance: 0.05
+  Enchantments:
+  - PROTECTION_FIRE:5
+  - SOUL_SPEED:3
+Magmowy_Pocisk_Zd:
+  Id: BOW
+  Display: '&4Magmowy Pocisk'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &772'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Zrecznosc: &7+3'
+  - '&4- &8Zdolnosci mysliwskie: &7+7'
+  - '&4- &8Inteligencja: &7-3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c250'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.03
+      KnockbackResistance: 0.04
+      Health: 4
+Magmowy_Pocisk_IntMana:
+  Id: BOW
+  Display: '&4Magmowy Pocisk'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &765'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Zdolnosci mysliwskie: &7+2'
+  - '&4- &8Inteligencja: &7+4'
+  - '&4- &8Mana: &7+9'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Mana: &c246'
+  - '&4- &8Inteligencja: &c123'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.02
+      KnockbackResistance: 0.02
+      Health: 6
+Duma_Ragnarosa_Wytrz:
+  Id: NETHERITE_CHESTPLATE
+  Display: '&6&lDuma Ragnarosa'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &785'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Mana: &7+8'
+  - '&4- &8Wytrzymalosc: &7+12'
+  - '&4- &8Sila: &7+1'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Wytrzymalosc: &c300'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 10
+      MovementSpeed: -0.06
+      KnockbackResistance: 0.07
+Duma_Ragnarosa_Str:
+  Id: NETHERITE_CHESTPLATE
+  Display: '&6&lDuma Ragnarosa'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &780'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Mana: &7+10'
+  - '&4- &8Wytrzymalosc: &7+3'
+  - '&4- &8Sila: &7+9'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c298'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 8
+      MovementSpeed: -0.07
+      KnockbackResistance: 0.06
+Duma_Ragnarosa_Mana:
+  Id: NETHERITE_CHESTPLATE
+  Display: '&6&lDuma Ragnarosa'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &774'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Mana: &7+44'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Inteligencja: &7+2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Mana: &c590'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 12
+      MovementSpeed: -0.03
+      KnockbackResistance: 0.02
+Ostrze_Plomiennego_Legionu_StrWytrz:
+  Id: GOLDEN_SWORD
+  Display: '&4&oOstrze Plomiennego Legionu'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &799'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Sila: &7+6'
+  - '&4- &8Wytrzymalosc: &7+5'
+  - '&4- &8Inteligencja: &7-1'
+  - '&4- &8Mana: &7-3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c136'
+  - '&4- &8Wytrzymalosc: &c136'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 5
+      KnockbackResistance: 0.02
+      MovementSpeed: -0.03
+Ostrze_Plomiennego_Legionu_ZrZd:
+  Id: GOLDEN_SWORD
+  Display: '&4&oOstrze Plomiennego Legionu'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &794'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Zrecznosc: &7+7'
+  - '&4- &8Zdolnosci mysliwskie: &7+6'
+  - '&4- &8Sila: &7-2'
+  - '&4- &8Wytrzymalosc: &7-2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c135'
+  - '&4- &8Zdolnosci mysliwskie: &c135'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 3
+Pocisk_Barona_Str:
+  Id: CROSSBOW
+  Display: '&e&lPocisk Barona'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7200'
+  - '&4- &8Walka: &7+15'
+  - '&4- &8Sila: &7+25'
+  - '&4- &8Wytrzymalosc: &7+10'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c285'
+  - ''
+  - '&8Wolnych slotow: &72'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      KnockbackResistance: 0.05
+      MovementSpeed: -0.05
+      Health: 10
+  NBT:
+    Base:
+      FreeSlots: 2
+  Enchantments:
+  - QUICK_CHARGE:1
+  - PIERCING:1
+Dusza_Archosa:
+  Id: REDSTONE
+  Display: '&c&lDusza Archosa'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Sila: &7+10'
+  - '&4- &8Wytrzymalosc: &7+10'
+  Options:
+    Unbreakable: true
+  NBT:
+    Base:
+      Klejnot: "archos_1"
+Kamienny_Straznik_Wytrz:
+  Id: NETHERITE_LEGGINGS
+  Display: '&8&lKamienny Straznik'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &7125'
+  - '&4- &8Wytrzymalosc: &7+25'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Mana: &7+15'
+  - '&4- &8Inteligencja: &7+5'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Wytrzymalosc: &c285'
+  - ''
+  - '&8Wolnych slotow: &72'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      MovementSpeed: -0.1
+      KnockbackResistance: 0.2
+      Health: 25
+  NBT:
+    Base:
+      FreeSlots: 2
+Magmowe_Serce:
+  Id: REDSTONE
+  Display: '&c&lMagmowe Serce'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&4- &8Wytrzymalosc: &7+20'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      Health: 15
+  NBT:
+    Base:
+      Klejnot: "garr_1"
+Odznaka_Legionisty:
+  Id: NAME_TAG
+  Display: '&eOdznaka legionisty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Ognista_Dusza:
+  Id: BLAZE_POWDER
+  Display: '&cOgnista dusza'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'

@@ -12,7 +12,7 @@ Skora_Szakala:
   - '&r&lTyp przedmiotu: &3Trofeum'
 Trup:
   Id: 367
-  Display: '&rTrup'
+  Display: '&fTrup'
   Lore:
   - ''
   - '&r&lTyp przedmiotu: &3Trofeum'
@@ -24,7 +24,7 @@ Czaszka:
   - '&r&lTyp przedmiotu: &3Trofeum'
 Kosc:
   Id: 352
-  Display: '&rKosc'
+  Display: '&fKosc'
   Lore:
   - ''
   - '&r&lTyp przedmiotu: &3Trofeum'
@@ -41,13 +41,13 @@ Starozytny_Luk_Zd:
   - ''
   - '&r&lTyp przedmiotu: &5Epicki'
   - ''
-  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - '&6&l》&c Atrybuty &6&l《'
   - ''
   - '&4- &8Obrazenia: &742'
   - '&4- &8Zdolnosci mysliwskie: &7+10'
   - '&4- &8Walka: &7+5'
   - ''
-  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - '&6&l》&c Wymagania &6&l《'
   - ''
   - '&4- &8Zdolnosci mysliwskie: &c88'
   Options:
