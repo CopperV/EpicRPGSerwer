@@ -19,7 +19,7 @@ KadarSkill1:
 
 KadarSkill1_Effect_Tick:
   Skills:
-  - effect:particles{particle=blockcrack_1;amount=50;speed=0.05;hS=2.5;vS=0.1;radius=4} @origin
+  - effect:particles{particle=block_crack;m=STONE;amount=50;speed=0.05;hS=2.5;vS=0.1;radius=4} @origin
 
 KadarSkill1_Effect_Hit:
   Skills:

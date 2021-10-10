@@ -136,8 +136,8 @@ Cronnos_H:
   - skill{s=Cronnos_H_Attack} ~onAttack 1
   - randomskill{skills=Cronnos_H_Skill_2,Cronnos_H_Skill_1,Cronnos_H_Skill_3} ~onTimer:30 0.13
   - randomskill{skills=Cronnos_H_Skill_2,Cronnos_H_Skill_1,Cronnos_H_Skill_3} ~onDamaged 0.09
-  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75} @self ~onTimer:10
-  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5} @self ~onTimer:10
+  - effect:particles{particle=block_crack;m=DIRT;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75} @self ~onTimer:10
+  - effect:particles{particle=block_crack;m=DIRT;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5} @self ~onTimer:10
   Options:
     AlwaysShowName: true
     Despawn: true
@@ -839,7 +839,7 @@ Niklaus_H:
   Skills:
   - skill{s=Niklaus_H_Spawn} ~onSpawn
   - skill{s=Niklaus_H_Death} ~onDeath
-  - skill{s=Niklaus_H_React} ~onSignal:NiklausReact
+  - skill{s=Niklaus_H_React} ~onSignal:Niklaus_H_React
   - skill{s=MobRemove} ~onTimer:100
   - randomskill{skills=Niklaus_H_Skill_1,Niklaus_H_Skill_2} ~onTimer:40 0.15
   - randomskill{skills=Niklaus_H_Skill_1,Niklaus_H_Skill_2} ~onDamaged 0.09
@@ -995,8 +995,8 @@ Frieda_H:
     Type: player
     Skin: Fairiez
   Skills:
-  - skill{s=Frieda_H_Spawn} ~onSignal:FriedaSpawn
-  - skill{s=Frieda_H_React} ~onSignal:FriedaReact
+  - skill{s=Frieda_H_Spawn} ~onSignal:Frieda_H_Spawn
+  - skill{s=Frieda_H_React} ~onSignal:Frieda_H_React
   - skill{s=Frieda_H_Death} ~onDeath
   - skill{s=MobRemove} ~onTimer:100
   - randomskill{skills=Frieda_H_Skill_3,Frieda_H_Skill_4} ~onTimer:50 0.11
@@ -1137,7 +1137,7 @@ NULL_H:
   - skill{s=Null_H_Spawn_Effect} ~onTimer:10
   - skill{s=Null_H_Skill_1} ~onDamaged 0.25
   - skill{s=Null_H_Skill_2_Heal} ~onDamaged
-  - skill{s=Null_H_Return} ~onSignal:NullSummonDeath
+  - skill{s=Null_H_Return} ~onSignal:NULL_H_SummonDeath
   - skill{s=Null_H_Skill_2_90} ~onDamaged =90%
   - skill{s=Null_H_Skill_2_80} ~onDamaged =80%
   - skill{s=Null_H_Skill_2_70} ~onDamaged =70%
@@ -1214,3 +1214,803 @@ Null_H_HurtMob:
   Disguise:
     Type: villager
     Invisible: true
+#################################################################################
+Dwor_Mob_H_1:
+  Type: Zombie
+  Display: "&2&lZombie"
+  Health: 20000
+  Damage: 200
+  Faction: Herobrine
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 50
+    KnockbackResistance: 1
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Drops:
+  - Exp50_1_Weapon
+  - Exp50_1_Armor
+  - Korzen 1 0.05
+  - NocWDzien 1 0.1
+  - Zgnile_Mieso 1 0.13
+  - Mozg_Zombie 1 0.05
+  - Konczyna 1 0.07
+Dwor_Mob_H_2:
+  Type: Skeleton
+  Display: "&7&oSzkielet"
+  Health: 10000
+  Damage: 1
+  Faction: Herobrine
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 30
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - Dwor_Mob_H_Luk_2:0
+  Drops:
+  - Exp50_2_Weapon
+  - Exp50_2_Armor
+  - Zacma 1 0.04
+  - NocWDzien 1 0.1
+  - Stara_Kosc 1 0.11
+  - Strzala_Cieni 1 0.04
+  - Strzala 3-10 0.89
+Dwor_Mob_H_3:
+  Type: Spider
+  Display: "&7Pajak"
+  Health: 7000
+  Damage: 155
+  Faction: Herobrine
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 35
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Drops:
+  - Exp50_4_Weapon
+  - NocWDzien 1 0.1
+  - Pajecza_Nic 1 0.11
+  - Jajo_Pajaka 1 0.04
+Dwor_Mob_H_4:
+  Type: WITCH
+  Display: "&5&oWiedzma"
+  Health: 8000
+  Damage: 1
+  Faction: Herobrine
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 20
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    KnockbackResistance: 0.4
+  AITargetSelectors:
+  - 0 clear
+  - 1 attacker
+  - 2 players
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=Exp50_Wiedzma_Teleport} ~onTimer:40 0.11
+  - skill{s=Exp50_Summon} ~onTimer:30 0.17
+  - skill{s=Exp50_Summon} ~onDamaged 0.17
+  Drops:
+  - Exp50_7_Armor
+  - Wiedzmi_Kostur_Int 1 0.12
+  - StrzalaCiemnosci 1 0.12
+  - NocWDzien 1 0.11
+  - Menzurka 1 0.5
+  - Zycie50 1 0.1
+  - Zycie100 1 0.02
+  - Mana100 1 0.1
+  - Mana250 1 0.02
+Dwor_Mob_H_5:
+  Type: STRAY
+  Display: "&9&oTulacz"
+  Health: 12000
+  Damage: 1
+  Faction: Herobrine
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 40
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    KnockbackResistance: 0.75
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=Dwor_Mob_5_Spawn} ~onSpawn
+  Equipment:
+  - Dwor_Mob_H_Luk_5:0
+  Drops:
+  - Exp50_9_Weapon
+  - Exp50_9_Armor
+  - Zacma 1 0.06
+  - NocWDzien 1 0.12
+  - Stara_Kosc 1 0.14
+  - Strzala_Cieni 1 0.06
+  - Czaszka_Tulacza 1 0.09
+  - Torba_Tulacza 1 0.03
+  - Strzala 4-12 0.9
+Krol_Tulaczy_H:
+  Type: STRAY
+  Display: "&9&lKrol Tulaczy"
+  Health: 120000
+  Damage: 1
+  BossBar:
+    Enabled: true
+    Title: '&3==] &9&lKrol Tulaczy &8< &c<caster.hp> &4❤ &8> &3[=='
+    Color: BLUE
+    Range: 50
+    Style: SEGMENTED_10
+  Modules:
+    ThreatTable: true
+  Skills:
+  - skill{s=Krol_Tulaczy_HSpawn} ~onSpawn
+  - skill{s=MobRemove} ~onTimer:100
+  - randomskill{skills=Krol_Tulaczy_HSkill_1,Krol_Tulaczy_HSkill_2,Krol_Tulaczy_HSkill_3} ~onTimer:40 0.17
+  - randomskill{skills=Krol_Tulaczy_HSkill_1,Krol_Tulaczy_HSkill_2,Krol_Tulaczy_HSkill_3} ~onDamaged 0.1
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 30
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.37
+    KnockbackResistance: 0.7
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Equipment:
+  - Krol_Tulaczy_H_Boss:0
+  Drops:
+  - Krol_Tulaczy_H_Drop 1 0.08
+  - Mroczna_Pieczec 1 0.1
+  - Gem_Zdolnosci2 1 0.05
+  - Szczaw_Krolewski 1 0.15
+Krol_Tulaczy_H_Arrow_Target:
+  Type: villager
+  Health: 10000
+  Damage: 0
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=Krol_Tulaczy_H_Arrow_Target_Spawn} ~onSpawn
+  - skill{s=Krol_Tulaczy_H_Arrow_Target_Particle} ~onTimer:5
+  Options:
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    Invincible: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    HasTrades: false
+  Disguise:
+    Type: villager
+    Invisible: true
+Krol_Tulaczy_H_Arrow_Check:
+  Type: villager
+  Health: 10000
+  Damage: 0
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=Krol_Tulaczy_H_Arrow_Check_Spawn} ~onSpawn
+  Options:
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    Invincible: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    HasTrades: false
+  Disguise:
+    Type: villager
+    Invisible: true
+Krol_Tulaczy_H_Arrow_Hit:
+  Type: villager
+  Health: 10000
+  Damage: 0
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=Krol_Tulaczy_H_Arrow_Hit_Spawn} ~onSpawn
+  Options:
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    Invincible: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    HasTrades: false
+  Disguise:
+    Type: villager
+    Invisible: true
+Kuchta_H:
+  Type: Witch
+  Display: "&3&lKuchta"
+  Health: 100000
+  Damage: 1
+  BossBar:
+    Enabled: true
+    Title: '&5==] &3&lKuchta &8< &c<caster.hp> &4❤ &8> &5[=='
+    Color: BLUE
+    Range: 50
+    Style: SEGMENTED_10
+  Modules:
+    ThreatTable: true
+  Skills:
+  - skill{s=Kuchta_HSpawn} ~onSpawn
+  - skill{s=MobRemove} ~onTimer:100
+  - randomskill{skills=Kuchta_HSkill_1,Kuchta_HSkill_2} ~onTimer:40 0.15
+  - randomskill{skills=Kuchta_HSkill_1,Kuchta_HSkill_2} ~onDamaged 0.09
+  - skill{s=Kuchta_HSkill_3} ~onDamaged =90%
+  - skill{s=Kuchta_HSkill_3} ~onDamaged =80%
+  - skill{s=Kuchta_HSkill_3} ~onDamaged =70%
+  - skill{s=Kuchta_HSkill_3} ~onDamaged =60%
+  - skill{s=Kuchta_HSkill_3} ~onDamaged =50%
+  - skill{s=Kuchta_HSkill_3} ~onDamaged =40%
+  - skill{s=Kuchta_HSkill_3} ~onDamaged =30%
+  - skill{s=Kuchta_HSkill_3} ~onDamaged =20%
+  - skill{s=Kuchta_HSkill_3} ~onDamaged =10%
+  - skill{s=Kuchta_HSkill_3} ~onDamaged =5%
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 30
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.33
+    KnockbackResistance: 1
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Drops:
+  - Kuchta_H_Drop 1 0.08
+  - Mroczna_Pieczec 1 0.1
+  - Gem_Mana2 1 0.05
+  - Szczaw_Krolewski 1 0.15
+Przadka_H:
+  Type: Witch
+  Display: "&3&lPrzadka"
+  Health: 100000
+  Damage: 1
+  Faction: Przadka_Boss
+  BossBar:
+    Enabled: true
+    Title: '&5==] &3&lPrzadka &8< &c<caster.hp> &4❤ &8> &5[=='
+    Color: BLUE
+    Range: 50
+    Style: SEGMENTED_10
+  Modules:
+    ThreatTable: true
+  Skills:
+  - skill{s=Przadka_HSpawn} ~onSpawn
+  - skill{s=Przadka_HDeath} ~onDeath
+  - skill{s=Przadka_HSkill_3_Heal} ~onTimer:5
+  - skill{s=MobRemove} ~onTimer:100
+  - randomskill{skills=Przadka_HSkill_1,Przadka_HSkill_2,Przadka_HSkill_3} ~onTimer:40 0.15
+  - randomskill{skills=Przadka_HSkill_1,Przadka_HSkill_2,Przadka_HSkill_3} ~onDamaged 0.09
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 30
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.33
+    KnockbackResistance: 1
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Drops:
+  - Przadka_H_Drop 1 0.08
+  - Mroczna_Pieczec 1 0.1
+  - Gem_Inteligencja2 1 0.05
+  - Szczaw_Krolewski 1 0.15
+Przadka_HPortal:
+  Type: sheep
+  Display: "&5Wiedzmi portal"
+  Health: 7500
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  Skills:
+  - mounttarget @NearestPlayer{r=30} ~onSpawn
+  - effect:particles{particle=largesmoke;amount=20;speed=0.1;hS=0.2;vS=0.2;y=1} @self ~onTimer:5
+  - sound{s=entity.splash_potion.break;v=1;p=2} @self ~onDamaged
+  - sound{s=entity.splash_potion.break;v=1;p=0.1} @self ~onDeath
+  - summon{type=Dwor_Mob_H_4;amount=1} @self ~onTimer:100
+  - skill{s=MobRemove} ~onTimer:100
+  - sudoskill{s=Przadka_HPortal_Defense;cat=true} ~onDamaged @Trigger
+  Options:
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    HasTrades: false
+    Collidable: false
+  Disguise:
+    Type: villager
+    Invisible: true
+Przadka_H_Summon1:
+  Type: villager
+  Health: 10000
+  Damage: 0
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  Skills:
+  - skill{s=Przadka_H_Summon1_Skill} ~onSpawn
+  Options:
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    Invincible: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    HasTrades: false
+  Disguise:
+    Type: villager
+    Invisible: true
+Przadka_H_Summon2:
+  Display: "&f&l&oUtrapiona Dusza"
+  Type: villager
+  Health: 7500
+  Damage: 0
+  BossBar:
+    Enabled: true
+    Title: '&7==] &f&l&oUtrapiona Dusza &8< &c<caster.hp> &4❤ &8> &7[=='
+    Color: WHITE
+    Range: 50
+    Style: SOLID
+  Skills:
+  - effect:particles{particle=witchMagic;amount=10;speed=0.03;hS=0.2;vS=0.4;y=1} ~onTimer:5 @self
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    FollowRange: 30
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventSunburn: true
+    KnockbackResistance: 0.5
+    MovementSpeed: 0.29
+    HasTrades: false
+  Disguise:
+    Type: player
+    Skin: EmperiumVoid
+    Invisible: true
+    Glowing: true
+    Sneaking: true
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 movetowardstarget
+  AITargetSelectors:
+  - 0 clear
+  - 1 SpecificFaction Przadka_Boss
+Areita_H:
+  Type: spider
+  Display: "&7&lAreita - Krolowa Pajakow"
+  Health: 135000
+  Damage: 190
+  BossBar:
+    Enabled: true
+    Title: '&8==] &7&lAREITA &8< &c<caster.hp> &4❤ &8> &8[=='
+    Color: WHITE
+    Range: 50
+    Style: SEGMENTED_10
+  Modules:
+    ThreatTable: true
+  Skills:
+  - skill{s=Areita_HSpawn} ~onSpawn
+  - skill{s=Areita_HSkill_3} ~onAttack
+  - skill{s=MobRemove} ~onTimer:100
+  - randomskill{skills=Areita_HSkill_1,Areita_HSkill_2} ~onTimer:35 0.15
+  - randomskill{skills=Areita_HSkill_1,Areita_HSkill_2} ~onDamaged 0.11
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 30
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.3
+    KnockbackResistance: 1
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Drops:
+  - Areita_H_Drop 1 0.08
+  - Mroczna_Pieczec 1 0.1
+  - Gem_Zrecznosc2 1 0.05
+  - Szczaw_Krolewski 1 0.15
+Sentenza_Dung_H:
+  Type: zombie
+  Display: "&8&lSentenza - Lord Pustki"
+  Health: 325000
+  Damage: 265
+  BossBar:
+    Enabled: true
+    Title: '&c==] &8&lSentenza &8< &c<caster.hp> &4❤ &8> &c[=='
+    Color: RED
+    Range: 50
+    Style: SEGMENTED_10
+  Modules:
+    ThreatTable: true
+  Disguise:
+    Type: player
+    Skin: _LordChaos
+  Skills:
+  - skill{s=Sentenza_Dung_HSpawn} ~onSpawn
+  - skill{s=Sentenza_Dung_HDeath} ~onDeath
+  - skill{s=Sentenza_Szal_H_Tick} ~onTimer:5
+  - skill{s=Sentenza_Szal_H_Attack;sync=true} ~onAttack
+  - skill{s=MobRemove} ~onTimer:100
+  - randomskill{skills=Sentenza_Dung_HSkill_1,Sentenza_Dung_HSkill_4} ~onTimer:35 0.15
+  - randomskill{skills=Sentenza_Dung_HSkill_1,Sentenza_Dung_HSkill_4} ~onDamaged 0.1
+  - skill{s=Sentenza_Dung_HSkill_3} ~onDamaged =10%
+  - skill{s=Sentenza_Dung_HSkill_2} ~onDamaged =20%
+  - skill{s=Sentenza_Dung_HSkill_2} ~onDamaged =30%
+  - skill{s=Sentenza_Dung_HSkill_2} ~onDamaged =40%
+  - skill{s=Sentenza_Dung_HSkill_2} ~onDamaged =50%
+  - skill{s=Sentenza_Dung_HSkill_2} ~onDamaged =60%
+  - skill{s=Sentenza_Dung_HSkill_2} ~onDamaged =70%
+  - skill{s=Sentenza_Dung_HSkill_2} ~onDamaged =80%
+  - skill{s=Sentenza_Dung_HSkill_2} ~onDamaged =90%
+  Options:
+    AlwaysShowName: true
+    Despawn: false
+    FollowRange: 30
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.32
+    KnockbackResistance: 1
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Drops:
+  - Sentenza_H_Drop 1 0.1
+  - Mroczna_Pieczec 1 0.15
+  - Gem_Wytrzymalosc2 1 0.05
+  - Szczaw_Krolewski 1 0.2
+  Equipment:
+  - B4:4
+  - Magiczne_Ostrze_Bojowe:0
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+Sentenza_Dung_H_Ball:
+  Type: zombie
+  Health: 10000
+  AIGoalSelectors:
+  - 0 clear
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=Sentenza_Dung_H_Ball_Check} @PIR{r=30} ~onTimer:5
+  - skill{s=Sentenza_Dung_H_Ball_Particles} ~onTimer:5
+#  - effect:particles{particle=dragonbreath;amount=10;speed=0.05;hS=0.35;vS=0.35;y=1} @self ~onTimer:5
+#  - effect:particles{particle=smoke;amount=10;speed=0.05;hS=0.35;vS=0.35;y=1} @self ~onTimer:5
+  Options:
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    Collidable: false
+    Invincible: true
+    NoGravity: true
+  Disguise:
+    Type: villager
+    Invisible: true
+Herobrine_H:
+  Type: Zombie
+  Display: "&9&lHerobrine - Legendary Boss"
+  Health: 750000
+  Damage: 180
+  BossBar:
+    Enabled: true
+    Title: '&9==] &3&lHEROBRINE &8< &c<caster.hp> &4❤ &8> &9[=='
+    Color: BLUE
+    Range: 50
+    Style: SEGMENTED_20
+    CreateFog: true
+    DarkenSky: true
+  Disguise:
+    Type: player
+    Skin: Conner_Herobrine
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    Despawn: true
+    FollowRange: 100
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.33
+    KnockbackResistance: 1
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Skills:
+  - skill{s=Herobrine_HSpawn} ~onSpawn
+  - skill{s=Herobrine_HDeath} ~onDeath
+  - skill{s=Herobrine_HDeath} ~onDespawn
+  - skill{s=Herobrine_HSpawn_Protection} ~onDamaged
+  - skill{s=MobRemove} ~onTimer:100
+  - skill{s=Herobrine_HSkill_3} ~onDamaged 0.06
+  - randomskill{skills=Herobrine_HSkill_1,Herobrine_HSkill_2,Herobrine_HSkill_4,Herobrine_HSkill_5,Herobrine_HSkill_6,Herobrine_HSkill_7,Herobrine_HSkill_8,Herobrine_HSkill_9,Herobrine_HSkill_10} ~onTimer:35 0.1
+  - randomskill{skills=Herobrine_HSkill_1,Herobrine_HSkill_2,Herobrine_HSkill_4,Herobrine_HSkill_5,Herobrine_HSkill_6,Herobrine_HSkill_7,Herobrine_HSkill_8,Herobrine_HSkill_9,Herobrine_HSkill_10} ~onDamaged 0.11
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  Equipment:
+  - B4:4
+  Drops:
+  - Herobrine_H_Drop 1 0.15
+  - Mroczna_Pieczec 1 0.35
+  - Gem_Sila2 1 0.05
+  - Szczaw_Krolewski 1 0.4
+Herobrine_HSphere_HAdd:
+  Type: villager
+  Health: 10000
+  Damage: 0
+  AIGoalSelectors:
+  - 0 clear
+  AITargetSelectors:
+  - 0 clear
+  Skills:
+#  - skill{s=Sphere_HSkill_1} ~onTimer:20
+  - skill{s=Herobrine_HSphere_HCheck} ~onTimer:20
+  - skill{s=Herobrine_HSphere_HSkill_1} ~onSignal:Herobrine_H_Sphere_H_SIGNAL_1
+  - skill{s=Herobrine_HSphere_HSkill_2} ~onSignal:Herobrine_H_Sphere_H_SIGNAL_2
+  - skill{s=Herobrine_HSphere_HSkill_3} ~onSignal:Herobrine_H_Sphere_H_SIGNAL_3
+  - skill{s=Herobrine_HSphere_HSkill_4} ~onSignal:Herobrine_H_Sphere_H_SIGNAL_4
+  - skill{s=Herobrine_HSphere_HSkill_5} ~onSignal:Herobrine_H_Sphere_H_SIGNAL_5
+  Options:
+    Despawn: false
+    FollowRange: 0
+    MovementSpeed: 0
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    Silent: true
+    Invincible: true
+    PreventSunburn: true
+    KnockbackResistance: 1
+    HasTrades: false
+  Disguise:
+    Type: villager
+    Invisible: false
+Herobrine_HSummon:
+  Type: zombie
+  Health: 8000
+  Damage: 170
+  Display: "&5&lSluga pustki"
+  Disguise:
+    Type: chaos1
+  Modules:
+    ThreatTable: true
+  Options:
+    AlwaysShowName: true
+    Despawn: true
+    FollowRange: 100
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRenaming: true
+    PreventRandomEquipment: true
+    ShowHealth: true
+    MovementSpeed: 0.35
+    KnockbackResistance: 0.99
+    PreventSunburn: true
+    PreventJockeyMounts: true
+  Skills:
+  - skill{s=Herobrine_HSummon_Spawn} ~onSpawn
+  - skill{s=Herobrine_HSummon_Attack} ~onDamaged 0.07
+  - skill{s=MobRemove} ~onTimer:100
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 randomlookaround
+  - 2 randomstroll
+  - 2 float
+  - 3 opendoors
+  - 3 closedoors
+  Equipment:
+  - B4:4
+Herobrine_HCounter_Add:
+  Type: Armor_Stand
+  Health: 10
+  Damage: 0
+  Options:
+    Interactable: false
+    Despawn: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - skill{s=Herobrine_HCounter_Add_Spawn} ~onSpawn
+Herobrine_HCounter_Add2:
+  Type: Armor_Stand
+  Health: 10
+  Damage: 0
+  Options:
+    Interactable: false
+    Despawn: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - skill{s=Herobrine_HCounter_Add2_Spawn} ~onSpawn
+  - skill{s=Herobrine_HCounter_Add2_Add} ~onSignal:Herobrine_HCounter_Add2
+Herobrine_HCounter_Add3:
+  Type: Armor_Stand
+  Health: 10
+  Damage: 0
+  Options:
+    Interactable: false
+    Despawn: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - skill{s=Herobrine_HCounter_Add3_Spawn} ~onSpawn
+  - skill{s=Herobrine_HCounter_Add3_Add} ~onSignal:Herobrine_HCounter_Add3
+Herobrine_HCounter_Add4:
+  Type: Armor_Stand
+  Health: 10
+  Damage: 0
+  Options:
+    Interactable: false
+    Despawn: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - skill{s=Herobrine_HCounter_Add4_Spawn} ~onSpawn
+Herobrine_HCounter_Add5:
+  Type: Armor_Stand
+  Health: 10
+  Damage: 0
+  Options:
+    Interactable: false
+    Despawn: true
+    Invisible: true
+    Invincible: true
+  Skills:
+  - skill{s=Herobrine_HCounter_Add5_Spawn} ~onSpawn
+Herobrine_HCounter_Add6:
+  Type: Armor_Stand
+  Health: 10
+  Damage: 0
+  Options:
+    Interactable: false
+    Despawn: true
+    Invincible: true
+  Disguise:
+    Type: primed_tnt
+  Skills:
+  - skill{s=Herobrine_HCounter_Add6_Spawn} ~onSpawn

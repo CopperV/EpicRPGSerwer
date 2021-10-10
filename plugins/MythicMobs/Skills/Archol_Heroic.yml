@@ -65,7 +65,7 @@ Archol_H_Skill_2_Effect:
 
 Archol_H_Skill_2_Effect_Tick:
   Skills:
-  - effect:particles{particle=blockcrack_1;amount=50;speed=0.05;hS=3;vS=0.1;radius=4;vd=20} @origin
+  - effect:particles{particle=block_crack;m=STONE;amount=50;speed=0.05;hS=3;vS=0.1;radius=4;vd=20} @origin
 
 Archol_H_Skill_2_Effect_Hit:
   Skills:
@@ -137,7 +137,7 @@ Archol_H_Skill_1_Wir3:
 
 Archol_H_Wir-Tick:
   Skills:
-  - effect:particles{p=blockcrack_155;amount=10;speed=0.05;hS=0.1;vS=0.1} @origin
+  - effect:particles{p=blockcrack;m=QUARTZ_BLOCK;amount=10;speed=0.05;hS=0.1;vS=0.1} @origin
 Archol_H_Wir-Hit:
   Skills:
   - damage{amount=205} @PlayersNearOrigin{r=1.5}

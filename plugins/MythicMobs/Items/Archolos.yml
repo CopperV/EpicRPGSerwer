@@ -1,0 +1,528 @@
+Lepki_Kiel_ZrZd:
+  Id: IRON_HOE
+  Display: '&a&oLepki kiel'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &734'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Zrecznosc: &7+4'
+  - '&4- &8Zdolnosci mysliwskie: &7+5'
+  - '&4- &8Wytrzymalosc: &7-1'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c37'
+  - '&4- &8Zdolnosci mysliwskie: &c37'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.02
+      Health: 4
+      KnockbackResistance: 0.06
+Lepki_Kiel_StrWytrz:
+  Id: IRON_HOE
+  Display: '&a&oLepki kiel'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &736'
+  - '&4- &8Sila: &7+5'
+  - '&4- &8Wytrzymalosc: &7+5'
+  - '&4- &8Mana: &7-3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c37'
+  - '&4- &8Wytrzymalosc: &c37'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.05
+      Health: 6
+      KnockbackResistance: 0.09
+Lepki_Kiel_IntMana:
+  Id: IRON_HOE
+  Display: '&a&oLepki kiel'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &730'
+  - '&4- &8Inteligencja: &7+6'
+  - '&4- &8Mana: &7+11'
+  - '&4- &8Zrecznosc: &7-2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Inteligencja: &c35'
+  - '&4- &8Mana: &c70'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.03
+      Health: 7
+      KnockbackResistance: 0.05
+Helm_Z_Plytek_Pelzaczy_StrWytrz:
+  Id: LEATHER_HELMET
+  Display: '&2&oHelm z plytek pelzaczy'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &731'
+  - '&4- &8Wytrzymalosc: &7+4'
+  - '&4- &8Sila: &7+4'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Zrecznosc: &7-1'
+  - '&4- &8Mana: &7-2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Wytrzymalosc: &c35'
+  - '&4- &8Sila: &c35'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: -0.03
+      Health: 4
+      KnockbackResistance: 0.03
+Zbroja_Z_Plytek_Pelzaczy_StrWytrz:
+  Id: LEATHER_CHESTPLATE
+  Display: '&2&oZbroja z plytek pelzaczy'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &736'
+  - '&4- &8Wytrzymalosc: &7+5'
+  - '&4- &8Sila: &7+5'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Mana: &7+1'
+  - '&4- &8Inteligencja: &7-3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Wytrzymalosc: &c40'
+  - '&4- &8Sila: &c40'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      MovementSpeed: -0.07
+      Health: 8
+      KnockbackResistance: 0.05
+Nogawice_Z_Plytek_Pelzaczy_StrWytrz:
+  Id: LEATHER_LEGGINGS
+  Display: '&2&oPancerz z plytek pelzaczy'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &733'
+  - '&4- &8Wytrzymalosc: &7+4'
+  - '&4- &8Sila: &7+4'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Zdolnosci mysliwskie: &7-2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Wytrzymalosc: &c38'
+  - '&4- &8Sila: &c38'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      MovementSpeed: -0.05
+      Health: 6
+      KnockbackResistance: 0.04
+Buty_Z_Plytek_Pelzaczy_StrWytrz:
+  Id: LEATHER_BOOTS
+  Display: '&2&oButy z plytek pelzaczy'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &728'
+  - '&4- &8Wytrzymalosc: &7+3'
+  - '&4- &8Sila: &7+3'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Inteligencja: &7-2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Wytrzymalosc: &c33'
+  - '&4- &8Sila: &c33'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      MovementSpeed: -0.01
+      Health: 2
+      KnockbackResistance: 0.01
+Helm_Z_Plytek_Pelzaczy_ZrZd:
+  Id: LEATHER_HELMET
+  Display: '&2&oHelm z plytek pelzaczy'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &725'
+  - '&4- &8Zrecznosc: &7+5'
+  - '&4- &8Zdolnosci mysliwskie: &7+5'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Inteligencja: &7-3'
+  - '&4- &8Mana: &7-4'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c35'
+  - '&4- &8Zdolnosci mysliwskie: &c35'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: -0.01
+      Health: 2
+      KnockbackResistance: 0.01
+Zbroja_Z_Plytek_Pelzaczy_ZrZd:
+  Id: LEATHER_CHESTPLATE
+  Display: '&2&oZbroja z plytek pelzaczy'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &732'
+  - '&4- &8Zrecznosc: &7+5'
+  - '&4- &8Zdolnosci mysliwskie: &7+5'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Wytrzymalosc: &7-2'
+  - '&4- &8Inteligencja: &7-2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c40'
+  - '&4- &8Zdolnosci mysliwskie: &c40'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      MovementSpeed: -0.04
+      Health: 5
+      KnockbackResistance: 0.03
+Nogawice_Z_Plytek_Pelzaczy_ZrZd:
+  Id: LEATHER_LEGGINGS
+  Display: '&2&oPancerz z plytek pelzaczy'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &728'
+  - '&4- &8Zrecznosc: &7+4'
+  - '&4- &8Zdolnosci mysliwskie: &7+4'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Mana: &7-7'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c38'
+  - '&4- &8Zdolnosci mysliwskie: &c38'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      MovementSpeed: -0.02
+      Health: 3
+      KnockbackResistance: 0.02
+Buty_Z_Plytek_Pelzaczy_ZrZd:
+  Id: LEATHER_BOOTS
+  Display: '&2&oButy z plytek pelzaczy'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &721'
+  - '&4- &8Zrecznosc: &7+2'
+  - '&4- &8Zdolnosci mysliwskie: &7+2'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Mana: &7+3'
+  - '&4- &8Inteligencja: &7-3'
+  - '&4- &8Wytrzymalosc: &7-1'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c33'
+  - '&4- &8Zdolnosci mysliwskie: &c33'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      MovementSpeed: 0.01
+Helm_Z_Plytek_Pelzaczy_IntMana:
+  Id: LEATHER_HELMET
+  Display: '&2&oHelm z plytek pelzaczy'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &719'
+  - '&4- &8Inteligencja: &7+4'
+  - '&4- &8Mana: &7+9'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Zdolnosci mysliwskie: &7-1'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Inteligencja: &c35'
+  - '&4- &8Mana: &c70'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: -0.02
+      Health: 4
+Zbroja_Z_Plytek_Pelzaczy_IntMana:
+  Id: LEATHER_CHESTPLATE
+  Display: '&2&oZbroja z plytek pelzaczy'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &726'
+  - '&4- &8Inteligencja: &7+5'
+  - '&4- &8Zdolnosci mysliwskie: &7+10'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Zrecznosc: &7-1'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Inteligencja: &c40'
+  - '&4- &8Mana: &c80'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      MovementSpeed: -0.06
+      Health: 9
+      KnockbackResistance: 0.01
+Nogawice_Z_Plytek_Pelzaczy_IntMana:
+  Id: LEATHER_LEGGINGS
+  Display: '&2&oPancerz z plytek pelzaczy'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &721'
+  - '&4- &8Inteligencja: &7+5'
+  - '&4- &8Mana: &7+11'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Sila: &7-1'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Inteligencja: &c38'
+  - '&4- &8Mana: &c76'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      MovementSpeed: -0.04
+      Health: 6
+Buty_Z_Plytek_Pelzaczy_IntMana:
+  Id: LEATHER_BOOTS
+  Display: '&2&oButy z plytek pelzaczy'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &715'
+  - '&4- &8Inteligencja: &7+3'
+  - '&4- &8Mana: &7+5'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Wytrzymalosc: &7-1'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Inteligencja: &c33'
+  - '&4- &8Mana: &c66'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 2
+Wladca_Roju_ZrZd:
+  Id: CHAINMAIL_LEGGINGS
+  Display: '&2&l&oWladca Roju'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &746'
+  - '&4- &8Zdolnosci mysliwskie: &7+15'
+  - '&4- &8Zrecznosc: &7+10'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Wytrzymalosc: &7+10'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c43'
+  - '&4- &8Zdolnosci mysliwskie: &c43'
+  - ''
+  - '&8Wolnych slotow: &71'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      Health: 15
+      MovementSpeed: 0.1
+      KnockbackResistance: 0.05
+  NBT:
+    Base:
+      FreeSlots: 1
+Zuwaczki_Pelzacza:
+  Id: FLINT
+  Display: '&2Zuwaczki pelzacza'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Plytka_Z_Pancerza_Pelzacza:
+  Id: NETHERITE_SCRAP
+  Display: '&2&oPlytka z pancerza pelzacza'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Jajo_Pelzacza:
+  Id: TURTLE_EGG
+  Display: '&a&lJajo pelzacza'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Kamienny_Mlot_Str:
+  Id: STONE_AXE
+  Display: "&7Kamienny mlot"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7158'
+  - '&4- &8Sila: &7+8'
+  - '&4- &8Wytrzymalosc: &7+3'
+  - '&4- &8Zrecznosc: &7-3'
+  - '&4- &8Zdolnosci mysliwskie: &7-3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c342'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 10
+      MovementSpeed: -0.1
+      KnockbackResistance: 0.1
+    offhand:
+      MovementSpeed: -0.15
+      KnockbackResistance: 0.2
+Kamienny_Mlot_Wytrz:
+  Id: STONE_AXE
+  Display: "&7Kamienny mlot"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7140'
+  - '&4- &8Sila: &7+5'
+  - '&4- &8Wytrzymalosc: &7+15'
+  - '&4- &8Walka: &7-3'
+  - '&4- &8Inteligencja: &7-3'
+  - '&4- &8Zdolnosci mysliwskie: &7-4'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Wytrzymalosc: &c332'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 16
+      MovementSpeed: -0.12
+      KnockbackResistance: 0.13
+    offhand:
+      MovementSpeed: -0.18
+      KnockbackResistance: 0.27
+Topor_Starozytnego_Straznika_Str:
+  Id: IRON_AXE
+  Display: "&2&lTopor starozytnego straznika"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7165'
+  - '&4- &8Sila: &7+10'
+  - '&4- &8Wytrzymalosc: &7+5'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Inteligencja: &7-5'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c351'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 13
+      MovementSpeed: -0.12
+      KnockbackResistance: 0.2
+    offhand:
+      MovementSpeed: -0.12
+      KnockbackResistance: 0.2
+Ornament:
+  Id: NAUTILUS_SHELL
+  Display: '&eOrnament'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'

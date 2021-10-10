@@ -1,0 +1,1079 @@
+######################## Yogg'Saron ########################
+Ar_Urat_Int:
+  Id: DIAMOND_HOE
+  Display: "&5&oAr'Urat"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &781'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Inteligencja: &7+6'
+  - '&4- &8Mana: &7+5'
+  - '&4- &8Zrecznosc: &7-1'
+  - '&4- &8Wytrzymalosc: &7-1'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Inteligencja: &c307'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 3
+      MovementSpeed: 0.03
+Ar_Urat_IntMana:
+  Id: DIAMOND_HOE
+  Display: "&5&oAr'Urat"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &777'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Inteligencja: &7+4'
+  - '&4- &8Mana: &7+8'
+  - '&4- &8Zdolnosci mysliwskie: &7-3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Inteligencja: &c156'
+  - '&4- &8Mana: &c302'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 4
+      MovementSpeed: 0.02
+Kaptur_Kultysty_Zd:
+  Id: LEATHER_HELMET
+  Display: '&dKaptur kultysty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &772'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Mana: &7+3'
+  - '&4- &8Zdolnosci mysliwskie: &7+5'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Inteligencja: &7-3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c305'
+  Options:
+    Unbreakable: true
+    Color: 0,0,0
+  Attributes:
+    head:
+      Health: 1
+      MovementSpeed: 0.03
+      KnockbackResistance: 0.01
+Kaptur_Kultysty_Mana:
+  Id: LEATHER_HELMET
+  Display: '&dKaptur kultysty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &766'
+  - '&4- &8Mana: &7+11'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Inteligencja: &7+3'
+  - '&4- &8Zrecznosc: &7-2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Mana: &c597'
+  Options:
+    Unbreakable: true
+    Color: 0,0,0
+  Attributes:
+    head:
+      Health: 4
+      MovementSpeed: 0.01
+Szata_Kultysty_Walka:
+  Id: LEATHER_CHESTPLATE
+  Display: '&dSzata kultysty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &783'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Zrecznosc: &7+5'
+  - '&4- &8Zdolnosci mysliwskie: &7+2'
+  - '&4- &8Mana: &7-10'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Walka: &c119'
+  Options:
+    Unbreakable: true
+    Color: 0,0,0
+  Attributes:
+    chest:
+      Health: 9
+      MovementSpeed: 0.01
+      KnockbackResistance: 0.02
+Szata_Kultysty_ZrZd:
+  Id: LEATHER_CHESTPLATE
+  Display: '&dSzata kultysty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &777'
+  - '&4- &8Wytrzymalosc: &7+1'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Zrecznosc: &7+4'
+  - '&4- &8Zdolnosci mysliwskie: &7+4'
+  - '&4- &8Inteligencja: &7-4'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c157'
+  - '&4- &8Zdolnosci mysliwskie: &c157'
+  Options:
+    Unbreakable: true
+    Color: 0,0,0
+  Attributes:
+    chest:
+      Health: 6
+      MovementSpeed: 0.05
+      KnockbackResistance: 0.01
+Opaska_Kultysty_Wytrz:
+  Id: LEATHER_LEGGINGS
+  Display: '&dOpaska kultysty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &783'
+  - '&4- &8Wytrzymalosc: &7+7'
+  - '&4- &8Walka: &7+1'
+  - '&4- &8Mana: &7+5'
+  - '&4- &8Zrecznosc: &7-4'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Wytrzymalosc: &c310'
+  Options:
+    Unbreakable: true
+    Color: 0,0,0
+  Attributes:
+    legs:
+      Health: 10
+      MovementSpeed: -0.02
+      KnockbackResistance: 0.03
+Opaska_Kultysty_Int:
+  Id: LEATHER_LEGGINGS
+  Display: '&dOpaska kultysty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &773'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Mana: &7+6'
+  - '&4- &8Inteligencja: &7+5'
+  - '&4- &8Sila: &7-2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Inteligencja: &c305'
+  Options:
+    Unbreakable: true
+    Color: 0,0,0
+  Attributes:
+    legs:
+      Health: 13
+      MovementSpeed: 0.01
+Buty_Kultysty_Str:
+  Id: LEATHER_BOOTS
+  Display: '&dButy kultysty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &767'
+  - '&4- &8Wytrzymalosc: &7+3'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Sila: &7+7'
+  - '&4- &8Zrecznosc: &7+2'
+  - '&4- &8Mana: &7-8'
+  - '&4- &8Zdolnosci mysliwskie: &7-1'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c304'
+  Options:
+    Unbreakable: true
+    Color: 0,0,0
+  Attributes:
+    feet:
+      Health: 2
+      MovementSpeed: 0.03
+      KnockbackResistance: 0.01
+Buty_Kultysty_IntMana:
+  Id: LEATHER_BOOTS
+  Display: '&dButy kultysty'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &760'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Mana: &7+7'
+  - '&4- &8Inteligencja: &7+4'
+  - '&4- &8Zrecznosc: &7-2'
+  - '&4- &8Sila: &7-2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Mana: &c300'
+  - '&4- &8Inteligencja: &c150'
+  Options:
+    Unbreakable: true
+    Color: 0,0,0
+  Attributes:
+    feet:
+      Health: 6
+      MovementSpeed: 0.05
+Ar_Krih_Int:
+  Id: DIAMOND_HOE
+  Display: "&5&lAr'Krih"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &788'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Inteligencja: &7+7'
+  - '&4- &8Mana: &7+7'
+  - '&4- &8Wytrzymalosc: &7-3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Inteligencja: &c319'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 5
+      MovementSpeed: 0.05
+    offhand:
+      Health: 3
+Ar_Krih_Mana:
+  Id: DIAMOND_HOE
+  Display: "&5&lAr'Krih"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &782'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Inteligencja: &7+3'
+  - '&4- &8Mana: &7+13'
+  - '&4- &8Wytrzymalosc: &7-2'
+  - '&4- &8Zdolnosci mysliwskie: &7-2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Mana: &c628'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 6
+      MovementSpeed: 0.04
+    offhand:
+      MovementSpeed: 0.03
+Ostrze_Kultu_Str:
+  Id: DIAMOND_SWORD
+  Display: "&d&lOstrze kultu"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7130'
+  - '&4- &8Walka: &7+2'
+  - '&4- &8Sila: &7+5'
+  - '&4- &8Zrecznosc: &7+1'
+  - '&4- &8Inteligencja: &7-4'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c311'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 4
+      MovementSpeed: -0.01
+Ostrze_Kultu_Walka:
+  Id: DIAMOND_SWORD
+  Display: "&d&lOstrze kultu"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7120'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Zrecznosc: &7+7'
+  - '&4- &8Zdolnosci mysliwskie: &7+3'
+  - '&4- &8Mana: &7-6'
+  - '&4- &8Wytrzymalosc: &7-1'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Walka: &c108'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 2
+      MovementSpeed: 0.02
+Ar_Dashar_Int:
+  Id: DIAMOND_HOE
+  Display: "&5&l&oAr'Dashar"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &795'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Inteligencja: &7+9'
+  - '&4- &8Mana: &7+10'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Inteligencja: &c331'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 6
+      MovementSpeed: 0.04
+      KnockbackResistance: 0.02
+Ar_Dashar_IntMana:
+  Id: DIAMOND_HOE
+  Display: "&5&l&oAr'Dashar"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &789'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Inteligencja: &7+6'
+  - '&4- &8Mana: &7+13'
+  - '&4- &8Zrecznosc: &7+1'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Mana: &c326'
+  - '&4- &8Inteligencja: &c163'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 6
+      MovementSpeed: 0.05
+      KnockbackResistance: 0.01
+Gorliwosc_Fanatyka_StrZr:
+  Id: DIAMOND_SWORD
+  Display: "&d&l&oGorliwosc fanatyka"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7144'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Sila: &7+4'
+  - '&4- &8Zrecznosc: &7+4'
+  - '&4- &8Mana: &7+8'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c166'
+  - '&4- &8Zrecznosc: &c166'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 7
+      MovementSpeed: -0.03
+      KnockbackResistance: 0.02
+Gorliwosc_Fanatyka_Wytrz:
+  Id: DIAMOND_SWORD
+  Display: "&d&l&oGorliwosc fanatyka"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7132'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Sila: &7+5'
+  - '&4- &8Wytrzymalosc: &7+9'
+  - '&4- &8Zdolnosci mysliwskie: &7+1'
+  - '&4- &8Mana: &7+8'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Wytrzymalosc: &c327'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 11
+      MovementSpeed: -0.05
+      KnockbackResistance: 0.04
+Amul_Suh_Zr:
+  Id: IRON_SWORD
+  Display: "&7Amul Suh"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &794'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Zrecznosc: &7+5'
+  - '&4- &8Zdolnosci mysliwskie: &7+5'
+  - '&4- &8Mana: &7-8'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c308'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 5
+      MovementSpeed: 0.04
+    offhand:
+      Health: 5
+      MovementSpeed: 0.04
+Amul_Suh_StrWytrz:
+  Id: IRON_SWORD
+  Display: "&7Amul Suh"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &790'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Sila: &7+6'
+  - '&4- &8Wytrzymalosc: &7+6'
+  - '&4- &8Mana: &7-4'
+  - '&4- &8Inteligencja: &7-4'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c153'
+  - '&4- &8Wytrzymalosc: &c153'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 8
+      MovementSpeed: 0.01
+    offhand:
+      Health: 8
+      MovementSpeed: 0.01
+Amul_Rough_Zd:
+  Id: IRON_SWORD
+  Display: "&7Amul Rough"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7105'
+  - '&4- &8Walka: &7+7'
+  - '&4- &8Zdolnosci mysliwskie: &7+7'
+  - '&4- &8Zrecznosc: &7+2'
+  - '&4- &8Wytrzymalosc: &7-5'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c316'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 6
+      MovementSpeed: 0.07
+    offhand:
+      Health: 6
+      MovementSpeed: 0.07
+Amul_Rough_Walka:
+  Id: IRON_SWORD
+  Display: "&7Amul Rough"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7108'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Zrecznosc: &7+6'
+  - '&4- &8Sila: &7+6'
+  - '&4- &8Inteligencja: &7-6'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Walka: &c110'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 7
+      MovementSpeed: 0.06
+    offhand:
+      Health: 7
+      MovementSpeed: 0.06
+Doug_Katur_Zr:
+  Id: DIAMOND_SWORD
+  Display: "&5Doug Katur"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7122'
+  - '&4- &8Walka: &7+8'
+  - '&4- &8Zrecznosc: &7+6'
+  - '&4- &8Zdolnosci mysliwskie: &7+2'
+  - '&4- &8Wytrzymalosc: &7-3'
+  - '&4- &8Sila: &7-2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c310'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 2
+      MovementSpeed: 0.04
+Doug_Katur_ZrZd:
+  Id: DIAMOND_SWORD
+  Display: "&5Doug Katur"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7118'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Zrecznosc: &7+5'
+  - '&4- &8Zdolnosci mysliwskie: &7+5'
+  - '&4- &8Wytrzymalosc: &7-2'
+  - '&4- &8Mana: &7-8'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c152'
+  - '&4- &8Zrecznosc: &c152'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 1
+      MovementSpeed: 0.05
+Wizja_Przedwiecznych_Wytrz:
+  Id: DIAMOND_HELMET
+  Display: '&b&l&oWizja Przedwiecznych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &788'
+  - '&4- &8Wytrzymalosc: &7+10'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Sila: &7+3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Wytrzymalosc: &c328'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 22
+      MovementSpeed: -0.08
+      KnockbackResistance: 0.08
+Wizja_Przedwiecznych_Mana:
+  Id: DIAMOND_HELMET
+  Display: '&b&l&oWizja Przedwiecznych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &774'
+  - '&4- &8Wytrzymalosc: &7+3'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Mana: &7+18'
+  - '&4- &8Inteligencja1: &7+4'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Mana: &c640'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 28
+      MovementSpeed: -0.03
+      KnockbackResistance: 0.03
+Helm_Czarnego_Imperium_Str:
+  Id: NETHERITE_HELMET
+  Display: '&5&lHelm Czarnego Imperium'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &781'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Sila: &7+6'
+  - '&4- &8Mana: &7+5'
+  - '&4- &8Zrecznosc: &7-3'
+  - '&4- &8Inteligencja: &7-1'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c317'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 6
+      MovementSpeed: -0.04
+      KnockbackResistance: 0.05
+Helm_Czarnego_Imperium_Walka:
+  Id: NETHERITE_HELMET
+  Display: '&5&lHelm Czarnego Imperium'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &779'
+  - '&4- &8Wytrzymalosc: &7+3'
+  - '&4- &8Walka: &7+4'
+  - '&4- &8Zrecznosc: &7+7'
+  - '&4- &8Inteligencja: &7-3'
+  - '&4- &8Mana: &7-7'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Walka: &c107'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 4
+      MovementSpeed: -0.02
+      KnockbackResistance: 0.03
+Zbroja_Czarnego_Imperium_Wytrz:
+  Id: NETHERITE_CHESTPLATE
+  Display: '&5&lZbroja Czarnego Imperium'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &792'
+  - '&4- &8Wytrzymalosc: &7+12'
+  - '&4- &8Mana: &7+5'
+  - '&4- &8Sila: &7+5'
+  - '&4- &8Zrecznosc: &7+2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Wytrzymalosc: &c338'
+  - ''
+  - '&8Wolnych slotow: &71'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 25
+      MovementSpeed: -0.12
+      KnockbackResistance: 0.13
+  NBT:
+    Base:
+      FreeSlots: 1
+Zbroja_Czarnego_Imperium_ZrZd:
+  Id: NETHERITE_CHESTPLATE
+  Display: '&5&lZbroja Czarnego Imperium'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &782'
+  - '&4- &8Wytrzymalosc: &7+4'
+  - '&4- &8Zdolnosci mysliwskie: &7+8'
+  - '&4- &8Zrecznosc: &7+8'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c166'
+  - '&4- &8Zdolnosci mysliwskie: &c166'
+  - ''
+  - '&8Wolnych slotow: &71'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      Health: 15
+      MovementSpeed: -0.05
+      KnockbackResistance: 0.08
+  NBT:
+    Base:
+      FreeSlots: 1
+Pancerz_Czarnego_Imperium_StrWytrz:
+  Id: NETHERITE_LEGGINGS
+  Display: '&5&lPancerz Czarnego Imperium'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &782'
+  - '&4- &8Walka: &7+3'
+  - '&4- &8Wytrzymalosc: &7+6'
+  - '&4- &8Sila: &7+6'
+  - '&4- &8Mana: &7+5'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c165'
+  - '&4- &8Wytrzymalosc: &c165'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      Health: 18
+      MovementSpeed: -0.09
+      KnockbackResistance: 0.1
+Pancerz_Czarnego_Imperium_Int:
+  Id: NETHERITE_LEGGINGS
+  Display: '&5&lPancerz Czarnego Imperium'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &770'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Mana: &7+8'
+  - '&4- &8Inteligencja: &7+14'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Inteligencja: &c325'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      Health: 23
+      MovementSpeed: -0.03
+      KnockbackResistance: 0.02
+Buty_Czarnego_Imperium_Zr:
+  Id: NETHERITE_BOOTS
+  Display: '&5&lButy Czarnego Imperium'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &767'
+  - '&4- &8Wytrzymalosc: &7+1'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Zrecznosc: &7+8'
+  - '&4- &8Sila: &7-2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c332'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 7
+      MovementSpeed: -0.01
+      KnockbackResistance: 0.01
+Buty_Czarnego_Imperium_Zd:
+  Id: NETHERITE_BOOTS
+  Display: '&5&lButy Czarnego Imperium'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &765'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Zdolnosci mysliwskie: &7+7'
+  - '&4- &8Mana: &7+4'
+  - '&4- &8Inteligencja: &7-2'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c330'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      Health: 5
+Smiertelnik_Str:
+  Id: DIAMOND_SWORD
+  Display: "&5&lSMIERTELNIK"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7150'
+  - '&4- &8Walka: &7+6'
+  - '&4- &8Sila: &7+12'
+  - '&4- &8Wytrzymalosc: &7+2'
+  - '&4- &8Mana: &7+5'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c340'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 6
+      MovementSpeed: -0.05
+      KnockbackResistance: 0.04
+Smiertelnik_Zr:
+  Id: DIAMOND_SWORD
+  Display: "&5&lSMIERTELNIK"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7141'
+  - '&4- &8Walka: &7+11'
+  - '&4- &8Zrecznosc: &7+10'
+  - '&4- &8Zdolnosci mysliwskie: &7+3'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c337'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      Health: 4
+      MovementSpeed: 0.02
+      KnockbackResistance: 0.02
+Wzrok_Yogg-Sarona:
+  Id: ENDER_EYE
+  Display: '&5&lWzrok Yogg-Sarona'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&4- &8Mana: &7+40'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      Health: 10
+  NBT:
+    Base:
+      Klejnot: "yogg-saron_1"
+Krwawy_Luk_Zd:
+  Id: BOW
+  Display: '&4&lKrwawy luk'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7300'
+  - '&4- &8Walka: &7+15'
+  - '&4- &8Zdolnosci mysliwskie: &7+30'
+  - '&4- &8Zrecznosc: &7+10'
+  - '&4- &8Wytrzymalosc: &7+5'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c325'
+  - ''
+  - '&8Wolnych slotow: &72'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.05
+      Health: 10
+  NBT:
+    Base:
+      FreeSlots: 2
+Krwawy_Szpon_Int:
+  Id: NETHERITE_SWORD
+  Display: '&4&lKrwawy szpon'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &7220'
+  - '&4- &8Walka: &7+15'
+  - '&4- &8Inteligencja: &7+35'
+  - '&4- &8Mana: &7+20'
+  - '&4- &8Zrecznosc: &7+5'
+  - '&4- &8Wytrzymalosc: &7+5'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Inteligencja: &c325'
+  - ''
+  - '&8Wolnych slotow: &73'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.05
+      Health: 15
+    offhand:
+      Health: 15
+  NBT:
+    Base:
+      FreeSlots: 3
+Skrystalizowana_Macka:
+  Id: PRISMARINE_CRYSTALS
+  Display: '&9&lSkrystalizowana macka'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&4- &8Zrecznosc: &7+15'
+  - '&4- &8Zdolnosci mysliwskie: &7+10'
+  - '&4- &8Walka: &7+5'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      KnockbackResistance: 0.1
+      Health: 5
+    offhand:
+      KnockbackResistance: 0.1
+  NBT:
+    Base:
+      Klejnot: "macka_1"
+Czarna_Ziemia_Int:
+  Id: NETHERITE_BOOTS
+  Display: '&8&lCzarna ziemia'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &760'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Inteligencja: &7+35'
+  - '&4- &8Mana: &7+25'
+  - '&4- &8Sila: &7+5'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Inteligencja: &c325'
+  - ''
+  - '&8Wolnych slotow: &73'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      MovementSpeed: 0.05
+      Health: 20
+  NBT:
+    Base:
+      FreeSlots: 3
+Zew_Kultu:
+  Id: HEART_OF_THE_SEA
+  Display: '&dZew kultu'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Oko_Przedwiecznych:
+  Id: ENDER_EYE
+  Display: '&5Oko przedwiecznych'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'

@@ -1,0 +1,938 @@
+######################## RAGNAROS ########################
+Ragnaros_Mob1:
+  Type: Zombie
+  Display: "&c&oPiromant Ragnarosa"
+  Health: 2150
+  Damage: 130
+  Faction: Ragnaros
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 45
+    KnockbackResistance: 0.55
+    MovementSpeed: 0.34
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  Disguise:
+    Type: ragnaros1
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+Ragnaros_Mob2:
+  Type: Zombie
+  Display: "&4&lProrok Zaglady"
+  Health: 1150
+  Damage: 450
+  Faction: Ragnaros
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 60
+    KnockbackResistance: 0.15
+    MovementSpeed: 0.41
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  Disguise:
+    Type: ragnaros2
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - message{m="<mob.name><&co> &c&oNADCHODZI KRES!"} @PlayersInRadius{r=40} ~onSpawn
+  Equipment:
+  - B4:4
+Ragnaros_Mob3:
+  Type: Blaze
+  Display: "&c&lPlomien Ragnarosa"
+  Health: 2600
+  Damage: 136
+  Faction: Ragnaros
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 25
+    KnockbackResistance: 1
+    MovementSpeed: 0.3
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+Ragnaros_Mob4:
+  Type: Zombie
+  Display: '&4&lFanatyczny Zarzyciel'
+  Health: 3000
+  Damage: 110
+  Faction: Lava
+  Disguise:
+    Type: player
+    Skin: fire
+  Skills:
+  - skill{s=ZarzycielSpawn} ~onSpawn 1
+  - skill{s=ZarzycielAttack1;sync=true} ~onAttack 1
+  - skill{s=ZarzycielAttack2} ~onTimer:40 0.08
+  - skill{s=MobRemove} ~onTimer:100
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 40
+    KnockbackResistance: 0.9
+    MovementSpeed: 0.33
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  Equipment:
+  - B4:4
+Ragnaros_Mob5:
+  Type: Zombie
+  Display: "&cOgnista Zjawa"
+  Health: 2200
+  Damage: 125
+  Faction: Ragnaros
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 60
+    KnockbackResistance: 0.6
+    MovementSpeed: 0.32
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  Disguise:
+    Type: WITHER_SKELETON
+    Invisible: true
+    Glowing: true
+    ShowName: true
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - effect:particles{particle=flame;amount=5;speed=0.03;hS=0.2;vS=0.6;y=1.2} ~onTimer:5 @self
+  - effect:particles{particle=lava;amount=5;speed=0.03;hS=0.2;vS=0.6;y=1.2} ~onTimer:5 @self
+Ragnaros_Mob6:
+  Type: Zombie
+  Display: "&4&oMagmowy Furiat"
+  Health: 2400
+  Damage: 150
+  Faction: Ragnaros
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 40
+    KnockbackResistance: 0.75
+    MovementSpeed: 0.35
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  Disguise:
+    Type: STRIDER
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+Ragnaros_Mob7:
+  Type: Zombie
+  Display: "&c&lSluga Ragnarosa"
+  Health: 3200
+  Damage: 135
+  Faction: Ragnaros
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 55
+    KnockbackResistance: 0.65
+    MovementSpeed: 0.32
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  Disguise:
+    Type: ragnaros7
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+Spaczony_Baron:
+  Type: Blaze
+  Display: "&5&lSpaczona Dusza Geddona - BOSS"
+  Health: 38000
+  Damage: 175
+  Faction: Ragnaros
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 65
+    KnockbackResistance: 1
+    MovementSpeed: 0.3
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  BossBar:
+    Enabled: true
+    Title: '&d==] &5&lSpaczony Geddon &8< &c<caster.hp> &4❤ &8> &d[=='
+    Color: PURPLE
+    Range: 60
+    Style: SEGMENTED_12
+  Disguise:
+    Type: baron
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+Garr:
+  Type: RAVAGER
+  Display: "&4&lGarr - Przyboczny Ragnarosa - BOSS"
+  Health: 50000
+  Damage: 160
+  Faction: Ragnaros
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 65
+    KnockbackResistance: 1
+    MovementSpeed: 0.28
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  BossBar:
+    Enabled: true
+    Title: '&c==] &4&lGarr &8< &c<caster.hp> &4❤ &8> &c[=='
+    Color: RED
+    Range: 60
+    Style: SEGMENTED_12
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+######################## NEFARIAN ########################
+Nefarian_Mob1:
+  Type: Zombie
+  Display: "&cOgnisty Furiat"
+  Health: 2350
+  Damage: 135
+  Faction: Nefarian
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 35
+    KnockbackResistance: 0.8
+    MovementSpeed: 0.36
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  Disguise:
+    Type: HOGLIN
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+Nefarian_Mob2:
+  Type: Zombie
+  Display: "&c&lDrakonid"
+  Health: 2650
+  Damage: 137
+  Faction: Nefarian
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 35
+    KnockbackResistance: 0.95
+    MovementSpeed: 0.32
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  Disguise:
+    Type: nefarian2
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+Nefarian_Mob3:
+  Type: Zombie
+  Display: "&4&lDrakanin Czarownik"
+  Health: 2300
+  Damage: 120
+  Faction: Nefarian
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 35
+    KnockbackResistance: 0.4
+    MovementSpeed: 0.35
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  Disguise:
+    Type: nefarian3
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+Nefarian_Mob4:
+  Type: Husk
+  Display: "&c&l&oDziecie Czarnoskrzydlego"
+  Health: 4000
+  Damage: 150
+  Faction: Nefarian
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 25
+    KnockbackResistance: 1
+    MovementSpeed: 0.25
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  Disguise:
+    Type: nefarian4
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+Nefarian_Mob5:
+  Type: Blaze
+  Display: "&4Smoczy Ziew"
+  Health: 1675
+  Damage: 350
+  Faction: Nefarian
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 60
+    KnockbackResistance: 1
+    MovementSpeed: 0.01
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+    Silent: true
+  Disguise:
+    Type: Zombie
+    Invisible: true
+    ShowName: true
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - effect:particles{particle=flame;amount=8;speed=0.03;hS=0.3;vS=0.4;y=0.8} ~onTimer:5 @self
+  - effect:particles{particle=lava;amount=2;speed=0.03;hS=0.3;vS=0.4;y=0.8} ~onTimer:5 @self
+  - sound{s=entity.blaze.hurt} @self ~onDamaged 
+  - sound{s=entity.blaze.death} @self ~onDeath
+Nefarian_Mob6:
+  Type: Zombie
+  Display: "&cKrasnolud Czarnorytych"
+  Health: 2700
+  Damage: 130
+  Faction: Nefarian
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 45
+    KnockbackResistance: 0.8
+    MovementSpeed: 0.33
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  Disguise:
+    Type: nefarian6
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  - message{m="<mob.name><&co> &e&oDo bitki i do wypitki!"} @PlayersInRadius{r=40} ~onSpawn
+  Equipment:
+  - B4:4
+  - Nefarian6Weapon:0
+  - Nefarian6Weapon:OFFHAND
+Nefarian_Mob7:
+  Type: Zombie
+  Display: "&4Wojownik Czarnorytych"
+  Health: 3150
+  Damage: 143
+  Faction: Nefarian
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 50
+    KnockbackResistance: 0.9
+    MovementSpeed: 0.32
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  Disguise:
+    Type: nefarian7
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+  - Nefarian6Weapon:0
+  - Nefarian7Shield:OFFHAND
+Nefarian_Mob8:
+  Type: Pillager
+  Display: "&4Wojownik Czarnorytych"
+  Health: 3400
+  Damage: 1
+  Faction: Nefarian
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 50
+    KnockbackResistance: 0.9
+    MovementSpeed: 0.32
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  Disguise:
+    Type: nefarian7
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+  - Nefarian8Weapon:0
+Imperator_Thaurissan:
+  Type: Zombie
+  Display: "&c&lImperator Thaurissan - BOSS"
+  Health: 34000
+  Damage: 160
+  Faction: Ragnaros
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 50
+    KnockbackResistance: 0.85
+    MovementSpeed: 0.33
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  BossBar:
+    Enabled: true
+    Title: '&6==] &c&lThaurissan &8< &c<caster.hp> &4❤ &8> &6[=='
+    Color: RED
+    Range: 60
+    Style: SEGMENTED_12
+  Disguise:
+    Type: thaurissan
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+  - ThaurissanArmor1:3
+  - ThaurissanArmor2:2
+  - ThaurissanArmor3:1
+  - ThaurissanWeapon:0
+Moira:
+  Type: Zombie
+  Display: "&c&oMoira"
+  Health: 150
+  Damage: 150
+  Faction: Ragnaros
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 50
+    KnockbackResistance: 0
+    MovementSpeed: 0.25
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  BossBar:
+    Enabled: true
+    Title: '&4==] &c&oMoira &8< &c<caster.hp> &4❤ &8> &4[=='
+    Color: RED
+    Range: 60
+    Style: SEGMENTED_12
+  Disguise:
+    Type: moira
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+General_Drakkisat:
+  Type: Zombie
+  Display: "&4&lGeneral Drakkisat - BOSS"
+  Health: 40000
+  Damage: 170
+  Faction: Ragnaros
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 50
+    KnockbackResistance: 0.85
+    MovementSpeed: 0.33
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  BossBar:
+    Enabled: true
+    Title: '&c==] &4&lDrakkisat &8< &c<caster.hp> &4❤ &8> &c[=='
+    Color: RED
+    Range: 60
+    Style: SEGMENTED_12
+  Disguise:
+    Type: drakkisat
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+######################## NEFARIAN ########################
+OldGods_Mob1:
+  Type: zombie
+  Display: "&dCzarownik Kultu"
+  Health: 3150
+  Damage: 141
+  Faction: Nefarian
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 50
+    KnockbackResistance: 0.8
+    MovementSpeed: 0.3
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  Disguise:
+    Type: oldgod1
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+OldGods_Mob2:
+  Type: zombie
+  Display: "&a&lAkolita kultu"
+  Health: 2800
+  Damage: 132
+  Faction: Nefarian
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 30
+    KnockbackResistance: 0.75
+    MovementSpeed: 0.31
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  Disguise:
+    Type: oldgod2
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+OldGods_Mob3:
+  Type: zombie
+  Display: "&5Kultysta Pustki"
+  Health: 3500
+  Damage: 150
+  Faction: Nefarian
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 55
+    KnockbackResistance: 0.95
+    MovementSpeed: 0.29
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  Disguise:
+    Type: oldgod3
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+OldGods_Mob4:
+  Type: zombie
+  Display: "&2&lSluga Yogg-Sarona"
+  Health: 5000
+  Damage: 140
+  Faction: Nefarian
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 55
+    KnockbackResistance: 0.9
+    MovementSpeed: 0.33
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  Disguise:
+    Type: oldgod4
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+OldGods_Mob5:
+  Type: zombie
+  Display: "&5Beztwarzowy"
+  Health: 3200
+  Damage: 150
+  Faction: Nefarian
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 40
+    KnockbackResistance: 1
+    MovementSpeed: 0.32
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  Disguise:
+    Type: DROWNED
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+OldGods_Mob6:
+  Type: zombie
+  Display: "&5&oPrzedwieczny Wartownik"
+  Health: 6500
+  Damage: 120
+  Faction: Nefarian
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 35
+    KnockbackResistance: 1
+    MovementSpeed: 0.29
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  Disguise:
+    Type: DROWNED
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+OldGods_Mob7:
+  Type: zombie
+  Display: "&5&lHerold Zaglady"
+  Health: 3800
+  Damage: 170
+  Faction: Nefarian
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 60
+    KnockbackResistance: 1
+    MovementSpeed: 0.33
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  Disguise:
+    Type: DROWNED
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+Herold_Volazj:
+  Type: Zombie
+  Display: "&5&lHerold Volazj - BOSS"
+  Health: 47750
+  Damage: 200
+  Faction: Ragnaros
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 65
+    KnockbackResistance: 1
+    MovementSpeed: 0.3
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  BossBar:
+    Enabled: true
+    Title: '&e==] &5&lHerold Volazj &8< &c<caster.hp> &4❤ &8> &e[=='
+    Color: PURPLE
+    Range: 60
+    Style: SEGMENTED_12
+  Disguise:
+    Type: DROWNED
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+Ghunn:
+  Type: Zombie
+  Display: "&c&lG-hunn - Krwawy Bow - BOSS"
+  Health: 75000
+  Damage: 500
+  Faction: Ragnaros
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 30
+    KnockbackResistance: 1
+    MovementSpeed: 0.001
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  BossBar:
+    Enabled: true
+    Title: '&5==] &c&lG-hunn &8< &c<caster.hp> &4❤ &8> &5[=='
+    Color: RED
+    Range: 60
+    Style: SEGMENTED_20
+  Disguise:
+    Type: GHAST
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+General_Vezax:
+  Type: Zombie
+  Display: "&d&lGeneral Vezax - EPIC BOSS"
+  Health: 160000
+  Damage: 220
+  Faction: Ragnaros
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 65
+    KnockbackResistance: 1
+    MovementSpeed: 0.28
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  BossBar:
+    Enabled: true
+    Title: '&5==] &d&lGeneral Vezax &8< &c<caster.hp> &4❤ &8> &5[=='
+    Color: PURPLE
+    Range: 60
+    Style: SEGMENTED_20
+  Disguise:
+    Type: DROWNED
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4

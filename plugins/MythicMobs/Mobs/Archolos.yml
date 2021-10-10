@@ -1,0 +1,367 @@
+######################## PELZACZE ########################
+Pelzacz1:
+  Type: Zombie
+  Display: "&2Pelzacz"
+  Health: 350
+  Damage: 46
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 25
+    KnockbackResistance: 0.7
+    MovementSpeed: 0.32
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  Disguise:
+    Type: CAVE_SPIDER
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+Pelzacz2:
+  Type: Zombie
+  Display: "&cPelzacz Wojownik"
+  Health: 465
+  Damage: 58
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 35
+    KnockbackResistance: 1
+    MovementSpeed: 0.34
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  Disguise:
+    Type: SPIDER
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+Pelzacz3:
+  Type: Zombie
+  Display: "&e&lKrolowa Pelzaczy - BOSS"
+  Health: 6675
+  Damage: 80
+  BossBar:
+    Enabled: true
+    Title: '&2==] &e&lKrolowa Pelzaczy &8< &c<caster.hp> &4❤ &8> &2[=='
+    Color: YELLOW
+    Range: 50
+    Style: SEGMENTED_6
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 20
+    KnockbackResistance: 1
+    MovementSpeed: 0.001
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  Disguise:
+    Type: GHAST
+    ModifyBoundingBox: true
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+######################## KRUK ########################
+StoneGuard1:
+  Type: Zombie
+  Display: "&eKamienny straznik"
+  Health: 3750
+  Damage: 137
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 30
+    KnockbackResistance: 1
+    MovementSpeed: 0.32
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  Disguise:
+    Type: stoneguard1
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+StoneGuard2:
+  Type: Zombie
+  Display: "&e&lStarozytny kamienny straznik"
+  Health: 5800
+  Damage: 158
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 30
+    KnockbackResistance: 1
+    MovementSpeed: 0.32
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  Disguise:
+    Type: stoneguard2
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+Khorinis1:
+  Type: Zombie
+  Display: "&2Oprych z Khorinis"
+  Health: 2250
+  Damage: 114
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 30
+    KnockbackResistance: 0.45
+    MovementSpeed: 0.33
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  Disguise:
+    Type: khorinis1
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+  - Khorinis1Weapon:0
+Khorinis2:
+  Type: Skeleton
+  Display: "&2Oprych z Khorinis"
+  Health: 2500
+  Damage: 1
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 30
+    KnockbackResistance: 0.45
+    MovementSpeed: 0.33
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  Disguise:
+    Type: khorinis1
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+  - Khorinis2Weapon:0
+Khorinis3:
+  Type: Zombie
+  Display: "&2&lBandyta Kruka"
+  Health: 3200
+  Damage: 146
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 35
+    KnockbackResistance: 0.65
+    MovementSpeed: 0.32
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  Disguise:
+    Type: khorinis2
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+  - Khorinis3Weapon:0
+Khorinis4:
+  Type: PILLAGER
+  Display: "&2&lBandyta Kruka"
+  Health: 3650
+  Damage: 1
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 35
+    KnockbackResistance: 0.65
+    MovementSpeed: 0.32
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  Disguise:
+    Type: khorinis2
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+  - Khorinis4Weapon:0
+Khorinis5:
+  Type: Zombie
+  Display: "&2&lBandyta Kruka"
+  Health: 3000
+  Damage: 169
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 35
+    KnockbackResistance: 0.8
+    MovementSpeed: 0.28
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  Disguise:
+    Type: khorinis2
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+  - Khorinis5Weapon:0
+Dexter:
+  Type: Zombie
+  Display: "&c&lDexter - BOSS"
+  Health: 29000
+  Damage: 140
+  BossBar:
+    Enabled: true
+    Title: '&2==] &c&lDexter &8< &c<caster.hp> &4❤ &8> &2[=='
+    Color: GREEN
+    Range: 50
+    Style: SEGMENTED_12
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 45
+    KnockbackResistance: 0.95
+    MovementSpeed: 0.34
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  Disguise:
+    Type: dexter
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+  - DexterWeapon:0
+Raven:
+  Type: Zombie
+  Display: "&8&lKruk - EPIC BOSS"
+  Health: 144000
+  Damage: 225
+  BossBar:
+    Enabled: true
+    Title: '&c==] &8&lKRUK &8< &c<caster.hp> &4❤ &8> &c[=='
+    Color: PURPLE
+    Range: 50
+    Style: SEGMENTED_20
+  Options:
+    AlwaysShowName: true
+    Collidable: false
+    Despawn: false
+    FollowRange: 50
+    KnockbackResistance: 1
+    MovementSpeed: 0.31
+    PreventItemPickup: true
+    PreventLeashing: true
+    PreventMobKillDrops: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventRenaming: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    ReinforcementsChance: false
+  Disguise:
+    Type: raven
+  Skills:
+  - skill{s=MobRemove} ~onTimer:100
+  Equipment:
+  - B4:4
+  - RavenArmor1:3
+  - RavenArmor2:2
+  - RavenArmor3:1
+  - RavenWeapon:0

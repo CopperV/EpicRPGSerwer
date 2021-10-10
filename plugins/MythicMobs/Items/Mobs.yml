@@ -285,7 +285,7 @@ Luk_Bandit2:
   Lore:
   - '&4- &8Obrazenia: &711'
 Luk_Bandit5:
-  Id: 261
+  Id: crossbow
   Lore:
   - '&4- &8Obrazenia: &715'
 Luk_LGoblin2:
@@ -301,7 +301,7 @@ Luk_Goblin6:
   Lore:
   - '&4- &8Obrazenia: &713'
 Luk_Goblin7:
-  Id: 261
+  Id: crossbow
   Lore:
   - '&4- &8Obrazenia: &715'
 Luk_Egipt3:
@@ -313,15 +313,15 @@ Luk_Zaraza3:
   Lore:
   - '&4- &8Obrazenia: &731'
 Luk_Ork3:
-  Id: 261
+  Id: CROSSBOW
   Lore:
   - '&4- &8Obrazenia: &739'
 Luk_Ork6:
-  Id: 261
+  Id: CROSSBOW
   Lore:
   - '&4- &8Obrazenia: &744'
 Luk_Ork9:
-  Id: 261
+  Id: CROSSBOW
   Lore:
   - '&4- &8Obrazenia: &749'
 Luk_Assasyn2:
@@ -380,6 +380,10 @@ Krol_Tulaczy_Boss:
   Id: 261
   Lore:
   - '&4- &8Obrazenia: &7135'
+Krol_Tulaczy_H_Boss:
+  Id: 261
+  Lore:
+  - '&4- &8Obrazenia: &7145'
 Twierdza_Mob_Luk_1:
   Id: 261
   Lore:
@@ -392,10 +396,18 @@ Dwor_Mob_Luk_2:
   Id: 261
   Lore:
   - '&4- &8Obrazenia: &785'
+Dwor_Mob_H_Luk_2:
+  Id: 261
+  Lore:
+  - '&4- &8Obrazenia: &795'
 Dwor_Mob_Luk_5:
   Id: 261
   Lore:
   - '&4- &8Obrazenia: &793'
+Dwor_Mob_H_Luk_5:
+  Id: 261
+  Lore:
+  - '&4- &8Obrazenia: &7105'
 Luk_Pirat2:
   Id: 1
   Lore:
@@ -405,7 +417,7 @@ Luk_Pirat6:
   Lore:
   - '&4- &8Obrazenia: &733'
 Luk_Pirat8:
-  Id: 261
+  Id: crossbow
   Lore:
   - '&4- &8Obrazenia: &736'
 Elytra:
@@ -445,6 +457,101 @@ KaalOstrze:
 SentenzaOstrze:
   Id: 276
   Display: '&1Magiczne ostrze bojowe'
+RavenArmor1:
+  Id: Netherite_Chestplate
+  Display: "pancerz kruka"
+  Options:
+    Unbreakable: true
+RavenArmor2:
+  Id: Netherite_Leggings
+  Display: "pancerz kruka"
+  Options:
+    Unbreakable: true
+RavenArmor3:
+  Id: Netherite_Boots
+  Display: "pancerz kruka"
+  Options:
+    Unbreakable: true
+RavenWeapon:
+  Id: Netherite_Sword
+  Display: "szpon beliara"
+  Options:
+    Unbreakable: true
+DexterWeapon:
+  Id: Iron_Sword
+  Display: "sztylet dextera"
+  Options:
+    Unbreakable: true
+Khorinis1Weapon:
+  Id: Stone_Sword
+  Display: "maczuga"
+  Options:
+    Unbreakable: true
+Khorinis2Weapon:
+  Id: Bow
+  Display: "Luczek"
+  Lore:
+  - '&4- &8Obrazenia: &771'
+  Options:
+    Unbreakable: true
+Khorinis3Weapon:
+  Id: Iron_Sword
+  Display: "dlugi miecz"
+  Options:
+    Unbreakable: true
+Khorinis4Weapon:
+  Id: CrossBow
+  Display: "kuszka"
+  Lore:
+  - '&4- &8Obrazenia: &790'
+  Options:
+    Unbreakable: true
+Khorinis5Weapon:
+  Id: Iron_Axe
+  Display: "topor pokladowy"
+  Options:
+    Unbreakable: true
+Nefarian6Weapon:
+  Id: Netherite_Axe
+  Display: "toporek"
+  Options:
+    Unbreakable: true
+Nefarian7Shield:
+  Id: Shield
+  Display: "tarcza"
+  Options:
+    Unbreakable: true
+    Color: BLACK
+  BannerLayers:
+  - RED GRADIENT
+  - RED RHOMBUS_MIDDLE
+Nefarian8Weapon:
+  Id: CrossBow
+  Display: "kuszka"
+  Options:
+    Unbreakable: true
+  Lore:
+  - '&4- &8Obrazenia: &787'
+ThaurissanArmor1:
+  Id: Netherite_Chestplate
+  Display: "zbroja imperatora"
+  Options:
+    Unbreakable: true
+ThaurissanArmor2:
+  Id: Netherite_Leggings
+  Display: "zbroja imperatora"
+  Options:
+    Unbreakable: true
+ThaurissanArmor3:
+  Id: Netherite_Boots
+  Display: "zbroja imperatora"
+  Options:
+    Unbreakable: true
+ThaurissanWeapon:
+  Id: Netherite_Pickaxe
+  Display: "ironfoe"
+  Options:
+    Unbreakable: true
 BookHeadMob:
   Id: 397
   Data: 3

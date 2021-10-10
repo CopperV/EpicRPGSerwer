@@ -23,8 +23,8 @@ NullSpawn:
 
 NullSpawn_Effect_Tick:
   Skills:
-  - effect:particles{particle=blockcrack_80;amount=5;speed=0.05;hS=0.3;vS=0.1;vd=20} @origin
-  - effect:particles{particle=blockcrack_22;amount=5;speed=0.05;hS=0.7;vS=0.1;vd=20} @origin
+  - effect:particles{particle=block_crack;m=SNOW_BLOCK;amount=5;speed=0.05;hS=0.3;vS=0.1;vd=20} @origin
+  - effect:particles{particle=block_crack;m=LAPIS_BLOCK;amount=5;speed=0.05;hS=0.7;vS=0.1;vd=20} @origin
   - effect:particles{particle=smoke;amount=10;speed=0.05;hS=1;vS=0.1;vd=20} @origin
 
 NullSpawn_Effect_Hit:
@@ -52,8 +52,8 @@ NullSkill_1:
 
 NullSkill_1_Effect_Tick:
   Skills:
-  - effect:particles{particle=blockcrack_80;amount=5;speed=0.05;hS=0.3;vS=0.1;vd=20} @origin
-  - effect:particles{particle=blockcrack_22;amount=5;speed=0.05;hS=0.7;vS=0.1;vd=20} @origin
+  - effect:particles{particle=block_crack;m=SNOW_BLOCK;amount=5;speed=0.05;hS=0.3;vS=0.1;vd=20} @origin
+  - effect:particles{particle=block_crack;m=LAPIS_BLOCK;amount=5;speed=0.05;hS=0.7;vS=0.1;vd=20} @origin
   - effect:particles{particle=smoke;amount=10;speed=0.05;hS=1;vS=0.1;vd=20} @origin
 
 NullSkill_1_Effect_Hit:
@@ -200,8 +200,8 @@ NullSummonSkill_1:
 
 NullSummonSkill_Effect_Tick:
   Skills:
-  - effect:particles{particle=blockcrack_80;amount=2;speed=0.02;hS=0.3;vS=0.1;vd=20} @origin
-  - effect:particles{particle=blockcrack_22;amount=2;speed=0.02;hS=0.5;vS=0.1;vd=20} @origin
+  - effect:particles{particle=block_crack;m=SNOW_BLOCK;amount=2;speed=0.02;hS=0.3;vS=0.1;vd=20} @origin
+  - effect:particles{particle=block_crack;m=LAPIS_BLOCK;amount=2;speed=0.02;hS=0.5;vS=0.1;vd=20} @origin
   - effect:particles{particle=smoke;amount=5;speed=0.02;hS=0.5;vS=0.1;vd=20} @origin
 
 NullSummonSkill_Effect_Hit:

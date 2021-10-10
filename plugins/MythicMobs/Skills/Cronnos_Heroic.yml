@@ -95,7 +95,7 @@ Cronnos_H_InvDamage:
   Skills:
   - delay 2
   - damage{amount=180} @PlayersNearOrigin{r=6}
-  - effect:particles{particle=blockcrack_3_0;amount=100;hS=4.5;vS=0.7;speed=0.15;yOffset=0.75} @self
+  - effect:particles{particle=block_crack;m=DIRT;amount=100;hS=4.5;vS=0.7;speed=0.15;yOffset=0.75} @self
   - effect:particles{particle=largesmoke;amount=100;hS=4.5;vS=0.7;speed=0.15;yOffset=0.75} @self
   - potion{type=SLOW;duration=200;level=3} @PlayersNearOrigin{r=6}
   - sound{s=entity.enderdragon.growl;v=1} @self
@@ -103,35 +103,35 @@ Cronnos_H_InvDamage:
   - remove @self
 Cronnos_H_EffectSkill_1_PB:
   Skills:
-  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
-  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
+  - effect:particles{particle=block_crack;m=DIRT;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
+  - effect:particles{particle=block_crack;m=DIRT;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
   - delay 10
-  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
-  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
+  - effect:particles{particle=block_crack;m=DIRT;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
+  - effect:particles{particle=block_crack;m=DIRT;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
   - delay 10
-  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
-  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
+  - effect:particles{particle=block_crack;m=DIRT;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
+  - effect:particles{particle=block_crack;m=DIRT;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
   - delay 10
-  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
-  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
+  - effect:particles{particle=block_crack;m=DIRT;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
+  - effect:particles{particle=block_crack;m=DIRT;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
   - delay 10
-  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
-  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
+  - effect:particles{particle=block_crack;m=DIRT;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
+  - effect:particles{particle=block_crack;m=DIRT;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
   - delay 10
-  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
-  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
+  - effect:particles{particle=block_crack;m=DIRT;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
+  - effect:particles{particle=block_crack;m=DIRT;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
   - delay 10
-  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
-  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
+  - effect:particles{particle=block_crack;m=DIRT;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
+  - effect:particles{particle=block_crack;m=DIRT;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
   - delay 10
-  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
-  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
+  - effect:particles{particle=block_crack;m=DIRT;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
+  - effect:particles{particle=block_crack;m=DIRT;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
   - delay 10
-  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
-  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
+  - effect:particles{particle=block_crack;m=DIRT;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
+  - effect:particles{particle=block_crack;m=DIRT;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
   - delay 10
-  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
-  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
+  - effect:particles{particle=block_crack;m=DIRT;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
+  - effect:particles{particle=block_crack;m=DIRT;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
   - delay 10
-  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
-  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}
+  - effect:particles{particle=block_crack;m=DIRT;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75}
+  - effect:particles{particle=block_crack;m=DIRT;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5}

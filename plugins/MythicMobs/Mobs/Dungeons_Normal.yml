@@ -136,8 +136,8 @@ Cronnos:
   - skill{s=CronnosAttack} ~onAttack 1
   - randomskill{skills=CronnosSkill_2,CronnosSkill_1,CronnosSkill_3} ~onTimer:40 0.15
   - randomskill{skills=CronnosSkill_2,CronnosSkill_1,CronnosSkill_3} ~onDamaged 0.07
-  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75} @self ~onTimer:10
-  - effect:particles{particle=blockcrack_3_0;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5} @self ~onTimer:10
+  - effect:particles{particle=block_crack;m=DIRT;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=0.75} @self ~onTimer:10
+  - effect:particles{particle=block_crack;m=DIRT;amount=20;hS=0.7;vS=0.7;speed=0.1;yOffset=1.5} @self ~onTimer:10
   Options:
     AlwaysShowName: true
     Despawn: true
@@ -1658,6 +1658,7 @@ Przadka_Summon2:
     Style: SOLID
   Skills:
   - effect:particles{particle=witchMagic;amount=10;speed=0.03;hS=0.2;vS=0.4;y=1} ~onTimer:5 @self
+  - skill{s=MobRemove} ~onTimer:100
   Options:
     FollowRange: 30
     PreventRandomEquipment: true

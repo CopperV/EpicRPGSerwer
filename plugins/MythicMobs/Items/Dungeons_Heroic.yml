@@ -801,7 +801,7 @@ Szata_Arystokraty_H_Wytrz:
     Unbreakable: true
     Color: 255,0,0
   Attributes:
-    chest:
+    legs:
       MovementSpeed: 0.15
       KnockbackResistance: 0.1
       Health: 55
@@ -827,7 +827,7 @@ Szata_Arystokraty_H_Zd:
     Unbreakable: true
     Color: 255,0,0
   Attributes:
-    chest:
+    legs:
       MovementSpeed: 0.25
       Health: 30
 Szlacheckie_Ostrze_H_Str:
@@ -1411,7 +1411,7 @@ Szata_Wiedzmy_Pustki_H_Walka:
     Unbreakable: true
     Color: 165,42,42
   Attributes:
-    chest:
+    legs:
       MovementSpeed: 0.15
       Health: 20
 Szata_Wiedzmy_Pustki_H_Mana:
@@ -1437,7 +1437,7 @@ Szata_Wiedzmy_Pustki_H_Mana:
     Unbreakable: true
     Color: 165,42,42
   Attributes:
-    chest:
+    legs:
       MovementSpeed: 0.15
       Health: 25
 Zwiadowca_Pustki_H_Wytrz:
@@ -1481,7 +1481,7 @@ Zwiadowca_Pustki_H_Zr:
   - '&4- &8Mana: &7+10' 
   - '&4- &8Inteligencja: &7+10'
   - '&4- &8Zrecznosc: &7+55'
-  - '&4- &8Zdolnosci: &7+10'
+  - '&4- &8Zdolnosci mysliwskie: &7+10'
   - ''
   - '&6&l&m==>&c Wymagania &6&l&m<=='
   - ''
@@ -1788,7 +1788,7 @@ Dotyk_Chaosu_H_IntMana:
       MovementSpeed: 0.15
       Health: -10
 Macka_Chaosu_H_Zd:
-  Id: 261
+  Id: crossbow
   Display: '&8&lMacka Chaosu I'
   Lore:
   - ''
@@ -1808,14 +1808,14 @@ Macka_Chaosu_H_Zd:
   Options:
     Unbreakable: true
   Enchantments:
-  - ARROW_KNOCKBACK:4
+  - MULTISHOT:2
   Attributes:
     mainhand:
       MovementSpeed: 0.2
       Health: 45
       KnockbackResistance: 0.2
 Macka_Chaosu_H_Walka:
-  Id: 261
+  Id: crossbow
   Display: '&8&lMacka Chaosu I'
   Lore:
   - ''
@@ -1835,14 +1835,14 @@ Macka_Chaosu_H_Walka:
   Options:
     Unbreakable: true
   Enchantments:
-  - ARROW_KNOCKBACK:3
+  - MULTISHOT:2
   Attributes:
     mainhand:
       MovementSpeed: 0.15
       Health: 30
       KnockbackResistance: 0.15
 Macka_Chaosu_H_StrWytrz:
-  Id: 261
+  Id: crossbow
   Display: '&8&lMacka Chaosu I'
   Lore:
   - ''
@@ -1864,7 +1864,7 @@ Macka_Chaosu_H_StrWytrz:
   Options:
     Unbreakable: true
   Enchantments:
-  - ARROW_KNOCKBACK:3
+  - MULTISHOT:2
   Attributes:
     mainhand:
       MovementSpeed: 0.10
@@ -1914,7 +1914,7 @@ Pancerz_Tyrana_H:
     Unbreakable: true
   NBT:
     Base:
-      FreeSlots: 9
+      FreeSlots: 10
 Krol_Tulaczy_H_Drop:
   Id: 397
   Data: 3

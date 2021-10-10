@@ -94,19 +94,19 @@ Golem_PustkiSkill3:
   - stun{d=60} @self
   - delay 60
   - sound{s=entity.generic.explode;v=10;p=0.01} @self
-  - effect:particlering{particle=blockcrack_87;radius=1;points=6;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - effect:particlering{particle=block_crack;m=NETHERRACK;radius=1;points=6;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
   - delay 2
-  - effect:particlering{particle=blockcrack_87;radius=2;points=10;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - effect:particlering{particle=block_crack;m=NETHERRACK;radius=2;points=10;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
   - delay 2
-  - effect:particlering{particle=blockcrack_87;radius=3;points=14;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - effect:particlering{particle=block_crack;m=NETHERRACK;radius=3;points=14;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
   - delay 2
-  - effect:particlering{particle=blockcrack_87;radius=4;points=18;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - effect:particlering{particle=block_crack;m=NETHERRACK;radius=4;points=18;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
   - delay 2
-  - effect:particlering{particle=blockcrack_87;radius=5;points=22;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - effect:particlering{particle=block_crack;m=NETHERRACK;radius=5;points=22;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
   - delay 2
-  - effect:particlering{particle=blockcrack_87;radius=6;points=26;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - effect:particlering{particle=block_crack;m=NETHERRACK;radius=6;points=26;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
   - delay 2
-  - effect:particlering{particle=blockcrack_87;radius=7;points=30;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
+  - effect:particlering{particle=block_crack;m=NETHERRACK;radius=7;points=30;amount=1;hS=0.05;vS=0.05;y=0.1;s=0.05} @self
   - damage{a=190} @PIR{r=7}
   - potion{type=WITHER;duration=200;level=3} @PIR{r=7}
   - sound{s=entity.generic.explode;v=10;p=0.01} @PIR{r=7}

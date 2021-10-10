@@ -1,0 +1,1986 @@
+Tytaniczny_Helm_M_Wytrz:
+  Id: 306
+  Display: '&7&lTytaniczny Helm II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &785'
+  - '&4- &8Sila: &7+20'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Wytrzymalosc: &7+45'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c220'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: -0.2
+      KnockbackResistance: 0.5
+      Health: 35
+Tytaniczny_Helm_M_Str:
+  Id: 306
+  Display: '&7&lTytaniczny Helm II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &770'
+  - '&4- &8Sila: &7+55'
+  - '&4- &8Walka: &7+25'
+  - '&4- &8Wytrzymalosc: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c210'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: -0.25
+      KnockbackResistance: 0.4
+      Health: 40
+Uderzenie_Kolosa_M_Zd:
+  Id: 261
+  Display: '&c&oUderzenie Kolosa II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7400'
+  - '&4- &8Zdolnosci mysliwskie: &7+30'
+  - '&4- &8Walka: &7+15'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c230'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.2
+      Health: 35
+      KnockbackResistance: 0.25
+    offhand:
+      MovementSpeed: -0.4
+Uderzenie_Kolosa_M_Str:
+  Id: 261
+  Display: '&c&oUderzenie Kolosa II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7330'
+  - '&4- &8Zdolnosci mysliwskie: &7+5'
+  - '&4- &8Sila: &7+35'
+  - '&4- &8Walka: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c215'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.25
+      Health: 20
+      KnockbackResistance: 0.4
+Kostur_Spaczenia_M_Int:
+  Id: 369
+  Display: '&c&lKostur Spaczenia II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7155'
+  - '&4- &8Inteligencja: &7+100'
+  - '&4- &8Walka: &7+50'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c220'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.25
+      Health: -15
+      KnockbackResistance: 0.05
+Kostur_Spaczenia_M_Mana:
+  Id: 369
+  Display: '&c&lKostur Spaczenia II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7145'
+  - '&4- &8Inteligencja: &7+25'
+  - '&4- &8Walka: &7+50'
+  - '&4- &8Mana: &7+130'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c410'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.2
+      KnockbackResistance: 0.1
+      Health: -15
+Szata_Rezana_M_Int:
+  Id: 300
+  Display: '&5&oSzata Rezana II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &770'
+  - '&4- &8Inteligencja: &7+50'
+  - '&4- &8Mana: &7+50'
+  - '&4- &8Walka: &7+20'
+  - '&4- &8Wytrzymalosc: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c240'
+  Options:
+    Unbreakable: true
+    Color: 0,0,0
+  Attributes:
+    legs:
+      MovementSpeed: 0.15
+      Health: 80
+Szata_Rezana_M_Zr:
+  Id: 300
+  Display: '&5&oSzata Rezana II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &785'
+  - '&4- &8Walka: &7+40'
+  - '&4- &8Wytrzymalosc: &7+15'
+  - '&4- &8Zrecznosc: &7+60'
+  - '&4- &8Zdolnosci mysliwskie: &7+20'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c255'
+  Options:
+    Unbreakable: true
+    Color: 0,0,0
+  Attributes:
+    legs:
+      MovementSpeed: 0.2
+      Health: 40
+      KnockbackResistance: 0.1
+Wirujace_Ostrze_M_Str:
+  Id: 267
+  Display: '&8&oWirujace Ostrze II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7240'
+  - '&4- &8Sila: &7+45'
+  - '&4- &8Wytrzymalosc: &7+30'
+  - '&4- &8Walka: &7+50'
+  - '&4- &8Zrecznosc: &7+45'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c260'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.15
+      KnockbackResistance: 0.15
+      Health: 30
+    offhand:
+      MovementSpeed: 0.15
+      KnockbackResistance: 0.15
+      Health: 30
+Wirujace_Ostrze_M_Zr:
+  Id: 267
+  Display: '&8&oWirujace Ostrze II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7220'
+  - '&4- &8Sila: &7+25'
+  - '&4- &8Wytrzymalosc: &7+40'
+  - '&4- &8Walka: &7+80'
+  - '&4- &8Zrecznosc: &7+55'
+  - '&4- &8Zdolnosci mysliwskie: &7+20'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c260'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.2
+      KnockbackResistance: 0.15
+      Health: 25
+    offhand:
+      MovementSpeed: 0.2
+      KnockbackResistance: 0.15
+      Health: 25
+Oddanie_Archola_M_Wytrz:
+  Id: 307
+  Display: '&9&lOddanie Archola II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &7155'
+  - '&4- &8Wytrzymalosc: &7+40'
+  - '&4- &8Sila: &7+15'
+  - '&4- &8Mana: &7+20'
+  - '&4- &8Walka: &7+5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c260'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      MovementSpeed: -0.2
+      KnockbackResistance: 0.45
+      Health: 40
+Oddanie_Archola_M_Str:
+  Id: 307
+  Display: '&9&lOddanie Archola II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &7115'
+  - '&4- &8Wytrzymalosc: &7+15'
+  - '&4- &8Sila: &7+45'
+  - '&4- &8Walka: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c220'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      MovementSpeed: -0.2
+      KnockbackResistance: 0.3
+      Health: 45
+Wzrok_Pustki_M_Wytrz:
+  Id: 302
+  Display: '&8&lWzrok pustki II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &7100'
+  - '&4- &8Wytrzymalosc: &7+35'
+  - '&4- &8Mana: &7+60'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c255'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: -0.25
+      KnockbackResistance: 0.55
+      Health: 20
+Wzrok_Pustki_M_Zd:
+  Id: 302
+  Display: '&8&lWzrok pustki II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &780'
+  - '&4- &8Wytrzymalosc: &7+20'
+  - '&4- &8Zdolnosci mysliwskie: &7+40'
+  - '&4- &8Walka: &7+20'
+  - '&4- &8Mana: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c250'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      KnockbackResistance: 0.3
+      Health: 15
+Wzrok_Pustki_M_Mana:
+  Id: 302
+  Display: '&8&lWzrok pustki II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &765'
+  - '&4- &8Wytrzymalosc: &7+5'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Mana: &7+130'
+  - '&4- &8Inteligencja: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c485'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: -0.15
+      KnockbackResistance: 0.15
+      Health: 40
+Wola_Entity_M_Zd:
+  Id: 261
+  Display: '&r&l&oWola Entity II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7250'
+  - '&4- &8Zdolnosci mysliwskie: &7+80'
+  - '&4- &8Walka: &7+30'
+  - '&4- &8Zrecznosc: &7+20'
+  - '&4- &8Inteligencja: &7+15'
+  - '&4- &8Sila: &7+15'
+  - '&4- &8Wytrzymalosc: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c260'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.2
+      Health: 15
+      KnockbackResistance: 0.4
+Wola_Entity_M_Int:
+  Id: 261
+  Display: '&r&l&oWola Entity II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7210'
+  - '&4- &8Walka: &7+20'
+  - '&4- &8Zrecznosc: &7+15'
+  - '&4- &8Mana: &7+40'
+  - '&4- &8Inteligencja: &7+80'
+  - '&4- &8Wytrzymalosc: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c240'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.05
+      Health: 60
+Wola_Entity_M_Wytrz:
+  Id: 261
+  Display: '&r&l&oWola Entity II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7205'
+  - '&4- &8Zdolnosci mysliwskie: &7+5'
+  - '&4- &8Walka: &7+15'
+  - '&4- &8Wytrzymalosc: &7+80'
+  - '&4- &8Sila: &7+20'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c235'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.15
+      Health: 55
+      KnockbackResistance: 0.55
+Sferyczny_Szept_M_Str:
+  Id: 272
+  Display: '&3&lSferyczny Szept II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7240'
+  - '&4- &8Sila: &7+70'
+  - '&4- &8Walka: &7+70'
+  - '&4- &8Zrecznosc: &7+20'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c260'
+  Options:
+    Unbreakable: true
+Sferyczny_Szept_M_Zr:
+  Id: 272
+  Display: '&3&lSferyczny Szept II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7160'
+  - '&4- &8Walka: &7+100'
+  - '&4- &8Zrecznosc: &7+100'
+  - '&4- &8Sila: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c260'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.2
+Sferyczny_Szept_M_Mana:
+  Id: 272
+  Display: '&3&lSferyczny Szept II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7140'
+  - '&4- &8Walka: &7+50'
+  - '&4- &8Mana: &7+100'
+  - '&4- &8Inteligencja: &7+50'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c500'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.15
+      Health: 30
+Cronnos_M_Drop:
+  Id: 397
+  Data: 3
+  Display: '&4Zarejaca skala'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGJjYjFkZGZjOGRhODUyZDNmMjU4ZmNiODg1ZjJjYjVlNGIyNmE3ZWJjZmJkMGIzM2VjMTM3N2EyMzVmM2E0NSJ9fX0=
+Rezan_M_Drop:
+  Id: 397
+  Data: 3
+  Display: '&8Smiertelna kula'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDQyNWUxNzJiMGEwYzMzMWFlODBlMzg4MTg5ZGU1NDRhMGQ1MjM4Yjc0M2JiYjNkNWM0MjViY2Y2Yjc2MmJhYSJ9fX0=
+Archol_M_Drop:
+  Id: 397
+  Data: 3
+  Display: '&7Spopielone szczatki'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDJlY2Q2OTFiYWY1ZTg5NjYxOThlOWY0Zjc5NGM5OTM0NGMzZjQzYWRkMTMwZDNiOTljY2ViM2YwNGI3Nzk3ZSJ9fX0=
+Entity_M_Drop:
+  Id: 397
+  Data: 3
+  Display: '&8Kostka Chaosu'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2MyYzU5ZmNkOTI2MjVlYzRkNTc4MTU5YTVmZDViZDQyNDdlMzgyZDQ5NDcyODRjZjUwZjk5OWM4NDExNmMwIn19fQ==
+####################################################################
+Duma_Midasa_M_Wytrz:
+  Id: 307
+  Display: '&8&lDuma Midasa II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &7180'
+  - '&4- &8Wytrzymalosc: &7+30'
+  - '&4- &8Walka: &7+35'
+  - '&4- &8Sila: &7+15'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c300'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      MovementSpeed: -0.15
+      KnockbackResistance: 0.6
+      Health: 50
+Duma_Midasa_M_Str:
+  Id: 307
+  Display: '&8&lDuma Midasa II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &7130'
+  - '&4- &8Wytrzymalosc: &7+15'
+  - '&4- &8Walka: &7+20'
+  - '&4- &8Sila: &7+80'
+  - '&4- &8Mana: &7+40'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c295'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      MovementSpeed: -0.15
+      KnockbackResistance: 0.4
+      Health: 50
+Reka_Pustki_M_Wytrz:
+  Id: 267
+  Display: '&9&lReka Pustki II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7240'
+  - '&4- &8Sila: &7+30'
+  - '&4- &8Walka: &7+40'
+  - '&4- &8Wytrzymalosc: &7+50'
+  - '&4- &8Inteligencja: &7+30'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c310'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.15
+      KnockbackResistance: 0.4
+      Health: 35
+Reka_Pustki_M_Mana:
+  Id: 267
+  Display: '&9&lReka Pustki II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7210'
+  - '&4- &8Walka: &7+25'
+  - '&4- &8Inteligencja: &7+55'
+  - '&4- &8Mana: &7+110'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c615'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.15
+      KnockbackResistance: 0.2
+      Health: 30
+Ostrze_Azzinotha_M_Zr:
+  Id: 276
+  Display: '&2&l&oOstrze Azzinotha II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7220'
+  - '&4- &8Walka: &7+90'
+  - '&4- &8Zrecznosc: &7+100'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c320'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.3
+      Health: 15
+    offhand:
+      MovementSpeed: 0.35
+      Health: 25
+Ostrze_Azzinotha_M_Zd:
+  Id: 276
+  Display: '&2&l&oOstrze Azzinotha II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7200'
+  - '&4- &8Walka: &7+70'
+  - '&4- &8Zrecznosc: &7+20'
+  - '&4- &8Zdolnosci mysliwskie: &7+90'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c320'
+  Options:
+    Unbreakable: true
+    Color: 255,255,255
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.3
+      Health: 15
+    offhand:
+      MovementSpeed: 0.35
+      Health: 25
+Spatium_Calceamenta_M_Str:
+  Id: 301
+  Display: '&r&lSpatium calceamenta II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &775'
+  - '&4- &8Walka: &7+30'
+  - '&4- &8Mana: &7+50'
+  - '&4- &8Sila: &7+55'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c295'
+  Options:
+    Unbreakable: true
+    Color: 255,255,255
+  Attributes:
+    feet:
+      MovementSpeed: 0.2
+      Health: 25
+      KnockbackResistance: 0.05
+Spatium_Calceamenta_M_Zr:
+  Id: 301
+  Display: '&r&lSpatium calceamenta II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &770'
+  - '&4- &8Walka: &7+45'
+  - '&4- &8Mana: &7+20'
+  - '&4- &8Zrecznosc: &7+60'
+  - '&4- &8Zdolnosci mysliwskie: &7+20'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c300'
+  Options:
+    Unbreakable: true
+    Color: 255,255,255
+  Attributes:
+    feet:
+      MovementSpeed: 0.3
+      Health: 20
+Wsparcie_Pustki_M_Int:
+  Id: 306
+  Display: '&8&lWsparcie Pustki II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &785'
+  - '&4- &8Walka: &7+20'
+  - '&4- &8Mana: &7+10'
+  - '&4- &8Inteligencja: &7+70'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c330'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: -0.2
+      KnockbackResistance: 0.3
+      Health: 55
+Wsparcie_Pustki_M_Zd:
+  Id: 306
+  Display: '&8&lWsparcie Pustki II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &795'
+  - '&4- &8Walka: &7+35'
+  - '&4- &8Mana: &7+20'
+  - '&4- &8Zdolnosci mysliwskie: &7+65'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c320'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: -0.05
+      KnockbackResistance: 0.2
+      Health: 30
+Szata_Arystokraty_M_Wytrz:
+  Id: 300
+  Display: '&e&lSzata Arystokraty II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &7115'
+  - '&4- &8Wytrzymalosc: &7+40'
+  - '&4- &8Walka: &7+25'
+  - '&4- &8Sila: &7+10'
+  - '&4- &8Zrecznosc: &7+20'
+  - '&4- &8Mana: &7+15'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c295'
+  Options:
+    Unbreakable: true
+    Color: 255,0,0
+  Attributes:
+    legs:
+      MovementSpeed: 0.15
+      KnockbackResistance: 0.15
+      Health: 60
+Szata_Arystokraty_M_Zd:
+  Id: 300
+  Display: '&e&lSzata Arystokraty II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &790'
+  - '&4- &8Wytrzymalosc: &7+10'
+  - '&4- &8Walka: &7+30'
+  - '&4- &8Zrecznosc: &7+20'
+  - '&4- &8Zdolnosci mysliwskie: &7+60'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c290'
+  Options:
+    Unbreakable: true
+    Color: 255,0,0
+  Attributes:
+    legs:
+      MovementSpeed: 0.25
+      Health: 35
+      KnockbackResistance: 0.05
+Szlacheckie_Ostrze_M_Str:
+  Id: 283
+  Display: '&6&lSzlacheckie Ostrze II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7300'
+  - '&4- &8Sila: &7+75'
+  - '&4- &8Walka: &7+60'
+  - '&4- &8Inteligencja: &7+25'
+  - '&4- &8Zrecznosc: &7+20'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c310'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.2
+      KnockbackResistance: 0.25
+    offhand:
+      MovementSpeed: 0.2
+      KnockbackResistance: 0.25
+Szlacheckie_Ostrze_M_Int:
+  Id: 283
+  Display: '&6&lSzlacheckie Ostrze II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7220'
+  - '&4- &8Sila: &7+10'
+  - '&4- &8Walka: &7+45'
+  - '&4- &8Inteligencja: &7+90'
+  - '&4- &8Mana: &7+25'
+  - '&4- &8Zrecznosc: &7+5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c305'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.2
+      Health: 20
+      KnockbackResistance: 0.1
+    offhand:
+      MovementSpeed: 0.2
+      Health: 20
+      KnockbackResistance: 0.1
+Furia_Pustki_M_Zd:
+  Id: 261
+  Display: '&8&lFuria Pustki II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7250'
+  - '&4- &8Zdolnosci mysliwskie: &7+100'
+  - '&4- &8Walka: &7+100'
+  - '&4- &8Zrecznosc: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c325'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.2
+      Health: 30
+    offhand:
+      KnockbackResistance: 0.2
+Furia_Pustki_M_Zr:
+  Id: 261
+  Display: '&8&lFuria Pustki II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7200'
+  - '&4- &8Zrecznosc: &7+110'
+  - '&4- &8Walka: &7+100'
+  - '&4- &8Zdolnosci mysliwskie: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c315'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.1
+      Health: 25
+    offhand:
+      KnockbackResistance: 0.15
+Furia_Pustki_M_Mana:
+  Id: 261
+  Display: '&8&lFuria Pustki II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7170'
+  - '&4- &8Inteligencja: &7+80'
+  - '&4- &8Mana: &7+100'
+  - '&4- &8Walka: &7+100'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c610'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.1
+      Health: 50
+Ostatnia_Nadzieja_M_Wytrz:
+  Id: 311
+  Display: '&2&lOstatnia Nadzieja II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &7225'
+  - '&4- &8Wytrzymalosc: &7+60'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Sila: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c335'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      MovementSpeed: -0.3
+      KnockbackResistance: 1
+      Health: 50
+Ostatnia_Nadzieja_M_Walka:
+  Id: 311
+  Display: '&2&lOstatnia Nadzieja II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &7155'
+  - '&4- &8Wytrzymalosc: &7+20'
+  - '&4- &8Zrecznosc: &7+75'
+  - '&4- &8Sila: &7+10'
+  - '&4- &8Mana: &7+5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Walka: &c130'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      MovementSpeed: -0.25
+      KnockbackResistance: 1
+      Health: 35
+Ostatnia_Nadzieja_M_Int:
+  Id: 311
+  Display: '&2&lOstatnia Nadzieja II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &7115'
+  - '&4- &8Inteligencja: &7+100'
+  - '&4- &8Mana: &7+100'
+  - '&4- &8Walka: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c335'
+  Options:
+    Unbreakable: true
+  Attributes:
+    chest:
+      MovementSpeed: -0.25
+      KnockbackResistance: 1
+      Health: 50
+Szczelina_M_Str:
+  Id: 293
+  Display: '&4&lSzczelina II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7315'
+  - '&4- &8Sila: &7+60'
+  - '&4- &8Walka: &7+45'
+  - '&4- &8Zrecznosc: &7+10'
+  - '&4- &8Inteligencja: &7+10'
+  - '&4- &8Wytrzymalosc: &7+5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c320'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.1
+      KnockbackResistance: 0.05
+      Health: 25
+Szczelina_M_Zr:
+  Id: 293
+  Display: '&4&lSzczelina II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7270'
+  - '&4- &8Sila: &7+10'
+  - '&4- &8Walka: &7+70'
+  - '&4- &8Zrecznosc: &7+75'
+  - '&4- &8Inteligencja: &7+20'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c320'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.2
+      Health: 10
+Szczelina_M_Int:
+  Id: 293
+  Display: '&4&lSzczelina II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7210'
+  - '&4- &8Walka: &7+45'
+  - '&4- &8Inteligencja: &7+70'
+  - '&4- &8Mana: &7+50'
+  - '&4- &8Sila: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c305'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.05
+      Health: 40
+Korona_Pustki_H:
+  Id: 302
+  Display: '&8&lKorona Pustki II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &4Unikat'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &760'
+  - ''
+  - '&8Wolnych slotow: &71'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: 0.1
+      KnockbackResistance: 0.2
+      Health: 450
+  NBT:
+    Base:
+      FreeSlots: 1
+Midas_M_Drop:
+  Id: 397
+  Data: 3
+  Display: '&9&lOko straznika'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzNhOGU0MDJkYWQxYjdkYWQ5YWFlNmY0MDE1OTMyMTgzNDI5Y2U4N2JiYmVjZWQzMTE5MDI2ZjgyOTYzMzZjMiJ9fX0=
+Vivian_M_Drop:
+  Id: 397
+  Data: 3
+  Display: '&b&lCeramiczna waza'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGY0YmJhZTRjOGIwZTk3NzU2NWJkODM2NDc2M2E3NmI1NGM1ZjBiOWUxZWJjZjMyMDc2NmM1ZTFjYjBlYiJ9fX0=
+Inubis_M_Drop:
+  Id: 397
+  Data: 3
+  Display: '&7&oWiezienie duszy'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmNjYmMyYmI0N2RmNjQ1MmU5ZDgyNjNiMTM1ZTBkMjY3OTgzMzQzOTk1ZTBjNGZjY2NjMTJhZGU3MzM5ODVhMiJ9fX0=
+FriedaNiklaus_M_Drop:
+  Id: 397
+  Data: 3
+  Display: '&c&oWino arystokratow'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWMxYjE3Y2M2YzljNzYwZDc4NjE5MjUzYmE0ZjZjY2ZmNDE1MjRhZWMxMDViMWQyNjQxYTc0ZjM1Njk2NzgzMSJ9fX0=
+Null_M_Drop:
+  Id: 397
+  Data: 3
+  Display: '&8&oAbominacja pustki'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWY4ZDYwZWU5YTI0YmE4YjBkMDVlMjVlOGY3NWFiYTU5MGQ1MjU1ZjA0NGU3ZjVhNDhjNTMwYjc5MzIyNGEyYyJ9fX0=
+####################################################################
+Reka_Chaosu_M_Zd:
+  Id: 261
+  Display: '&8&lReka Chaosu II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7440'
+  - '&4- &8Zdolnosci mysliwskie: &7+40'
+  - '&4- &8Zrecznosc: &7+5'
+  - '&4- &8Walka: &7+20'
+  - '&4- &8Inteligencja: &7+5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c325'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.18
+      KnockbackResistance: 0.17
+      Health: 5
+Reka_Chaosu_M_Int:
+  Id: 261
+  Display: '&8&lReka Chaosu II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7330'
+  - '&4- &8Zdolnosci mysliwskie: &7+10'
+  - '&4- &8Inteligencja: &7+30'
+  - '&4- &8Walka: &7+15'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c315'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.15
+      KnockbackResistance: 0.15
+      Health: 15
+Korona_Tulaczy_M_Zd:
+  Id: 306
+  Display: '&9&oKorona Tulaczy II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &780'
+  - '&4- &8Walka: &7+30'
+  - '&4- &8Mana: &7+75'
+  - '&4- &8Zdolnosci mysliwskie: &7+65'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c320'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: 0.1
+      Health: 10
+      KnockbackResistance: 0.05
+Korona_Tulaczy_M_Zr:
+  Id: 306
+  Display: '&9&oKorona Tulaczy II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &785'
+  - '&4- &8Walka: &7+40'
+  - '&4- &8Mana: &7+60'
+  - '&4- &8Zrecznosc: &7+45'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c320'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: 0.05
+      Health: 10
+Rozga_Z_Krzywouchych_Moczarow_M_Int:
+  Id: 280
+  Display: '&2&oRozga z Krzywouchych Moczarow II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7260'
+  - '&4- &8Walka: &7+25'
+  - '&4- &8Inteligencja: &7+85'
+  - '&4- &8Mana: &7+40'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c320'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.05
+      Health: 35
+    offhand:
+      MovementSpeed: -0.05
+      Health: 35
+Rozga_Z_Krzywouchych_Moczarow_M_Mana:
+  Id: 280
+  Display: '&2&oRozga z Krzywouchych Moczarow II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7250'
+  - '&4- &8Walka: &7+20'
+  - '&4- &8Inteligencja: &7+40'
+  - '&4- &8Mana: &7+100'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c620'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.05
+      Health: 30
+    offhand:
+      MovementSpeed: -0.05
+      Health: 30
+Zirael_M_Zr:
+  Id: 267
+  Display: '&f&lZirael II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7250'
+  - '&4- &8Walka: &7+60'
+  - '&4- &8Zrecznosc: &7+60'
+  - '&4- &8Zdolnosci mysliwskie: &7+10'
+  - '&4- &8Sila: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c330'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.3
+      Health: 25
+Zirael_M_Str:
+  Id: 267
+  Display: '&f&lZirael II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7300'
+  - '&4- &8Walka: &7+45'
+  - '&4- &8Zrecznosc: &7+25'
+  - '&4- &8Sila: &7+55'
+  - '&4- &8Inteligencja: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c330'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.2
+      Health: 40
+      KnockbackResistance: 0.05
+Rozpruwacz_M_Zd:
+  Id: 267
+  Display: '&4Rozpruwacz II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7350'
+  - '&4- &8Walka: &7+20'
+  - '&4- &8Wytrzymalosc: &7+10'
+  - '&4- &8Zdolnosci mysliwskie: &7+50'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c330'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.2
+      Health: -20
+      KnockbackResistance: 0.1
+Rozpruwacz_M_Wytrz:
+  Id: 267
+  Display: '&4Rozpruwacz II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7300'
+  - '&4- &8Walka: &7+15'
+  - '&4- &8Wytrzymalosc: &7+75'
+  - '&4- &8Sila: &7+30'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c320'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: -0.25
+      Health: -10
+      KnockbackResistance: 0.3
+Szata_Wiedzmy_Pustki_M_Walka:
+  Id: 300
+  Display: '&5&l&oSzata Wiedzmy Pustki II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &7100'
+  - '&4- &8Wytrzymalosc: &7+15'
+  - '&4- &8Walka: &7+20'
+  - '&4- &8Sila: &7+10'
+  - '&4- &8Zrecznosc: &7+15'
+  - '&4- &8Zdolnosci mysliwskie: &7+20'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Walka: &c120'
+  Options:
+    Unbreakable: true
+    Color: 165,42,42
+  Attributes:
+    legs:
+      MovementSpeed: 0.15
+      Health: 25
+      KnockbackResistance: 0.05
+Szata_Wiedzmy_Pustki_M_Mana:
+  Id: 300
+  Display: '&5&l&oSzata Wiedzmy Pustki II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &775'
+  - '&4- &8Wytrzymalosc: &7+10'
+  - '&4- &8Walka: &7+20'
+  - '&4- &8Inteligencja: &7+20'
+  - '&4- &8Zrecznosc: &7+5'
+  - '&4- &8Mana: &7+80'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Mana: &c635'
+  Options:
+    Unbreakable: true
+    Color: 165,42,42
+  Attributes:
+    legs:
+      MovementSpeed: 0.15
+      Health: 35
+Zwiadowca_Pustki_M_Wytrz:
+  Id: 313
+  Display: '&8&lZwiadowca Pustki II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &7115'
+  - '&4- &8Wytrzymalosc: &7+50'
+  - '&4- &8Walka: &7+30'
+  - '&4- &8Mana: &7+40'
+  - '&4- &8Inteligencja: &7+20'
+  - '&4- &8Sila: &7+15'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c310'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      MovementSpeed: 0.05
+      KnockbackResistance: 0.25
+      Health: -40
+Zwiadowca_Pustki_M_Zr:
+  Id: 313
+  Display: '&8&lZwiadowca Pustki II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &780'
+  - '&4- &8Wytrzymalosc: &7+20'
+  - '&4- &8Walka: &7+30'
+  - '&4- &8Mana: &7+15' 
+  - '&4- &8Inteligencja: &7+10'
+  - '&4- &8Zrecznosc: &7+70'
+  - '&4- &8Zdolnosci mysliwskie: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c310'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      MovementSpeed: 0.15
+      KnockbackResistance: 0.15
+      Health: -50
+Wszechwiedza_Herobrine_M_Zd:
+  Id: 310
+  Display: "&3&lWszechwiedza Herobrine'a II"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &790'
+  - '&4- &8Walka: &7+15'
+  - '&4- &8Zdolnosci mysliwskie: &7+80'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c325'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: 0.15
+      Health: -25
+      KnockbackResistance: 0.1
+Wszechwiedza_Herobrine_M_Int:
+  Id: 310
+  Display: "&3&lWszechwiedza Herobrine'a II"
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &775'
+  - '&4- &8Walka: &7+25'
+  - '&4- &8Inteligencja: &7+60'
+  - '&4- &8Mana: &7+20'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c320'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: 0.1
+      Health: -30
+      KnockbackResistance: 0.1
+Szal_Sentenzy_M_Str:
+  Id: 283
+  Display: '&4&lSzal Sentenzy II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7450'
+  - '&4- &8Sila: &7+110'
+  - '&4- &8Walka: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c340'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.05
+      Health: -20
+    offhand:
+      MovementSpeed: 0.1
+      Health: -100
+Szal_Sentenzy_M_Zd:
+  Id: 283
+  Display: '&4&lSzal Sentenzy II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7340'
+  - '&4- &8Zdolnosci mysliwskie: &7+115'
+  - '&4- &8Walka: &7+15'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c335'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.2
+      Health: -10
+    offhand:
+      MovementSpeed: 0.15
+      Health: -50
+Pancerz_Pustki_M_Wytrz:
+  Id: 308
+  Display: '&8&lPancerz Pustki II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &7140'
+  - '&4- &8Wytrzymalosc: &7+40'
+  - '&4- &8Walka: &7+20'
+  - '&4- &8Sila: &7+20'
+  - '&4- &8Mana: &7+10'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c330'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      MovementSpeed: -0.1
+      KnockbackResistance: 0.3
+      Health: 35
+Pancerz_Pustki_M_Int:
+  Id: 308
+  Display: '&8&lPancerz Pustki II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &7100'
+  - '&4- &8Wytrzymalosc: &7+10'
+  - '&4- &8Walka: &7+20'
+  - '&4- &8Inteligencja: &7+40'
+  - '&4- &8Mana: &7+50'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c310'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      MovementSpeed: -0.05
+      KnockbackResistance: 0.15
+      Health: 50
+Pakt_Chaosu_M_Wytrz:
+  Id: 310
+  Display: '&8&lPakt Chaosu II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &7120'
+  - '&4- &8Wytrzymalosc: &7+35'
+  - '&4- &8Walka: &7+20'
+  - '&4- &8Sila: &7+20'
+  - '&4- &8Mana: &7+15'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Wytrzymalosc: &c325'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: 0.05
+      KnockbackResistance: 0.35
+      Health: -15
+Pakt_Chaosu_M_Walka:
+  Id: 310
+  Display: '&8&lPakt Chaosu II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &7100'
+  - '&4- &8Wytrzymalosc: &7+15'
+  - '&4- &8Walka: &7+20'
+  - '&4- &8Sila: &7+20'
+  - '&4- &8Zrecznosc: &7+60'
+  - '&4- &8Inteligencja: &7+25'
+  - '&4- &8Mana: &7+5'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Walka: &c115'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: 0.1
+      KnockbackResistance: 0.3
+      Health: -30
+Pakt_Chaosu_M_ZrZd:
+  Id: 310
+  Display: '&8&lPakt Chaosu II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &790'
+  - '&4- &8Wytrzymalosc: &7+5'
+  - '&4- &8Walka: &7+40'
+  - '&4- &8Zrecznosc: &7+45'
+  - '&4- &8Zdolnosci mysliwskie: &7+45'
+  - '&4- &8Mana: &7+30'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c163'
+  - '&4- &8Zrecznosc: &c163'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: 0.2
+      KnockbackResistance: 0.1
+      Health: -30
+Dotyk_Chaosu_M_Zr:
+  Id: 313
+  Display: '&8&lDotyk Chaosu II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &780'
+  - '&4- &8Walka: &7+30'
+  - '&4- &8Mana: &7+20' 
+  - '&4- &8Zrecznosc: &7+60'
+  - '&4- &8Zdolnosci mysliwskie: &7+20'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zrecznosc: &c320'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      MovementSpeed: 0.2
+      Health: -30
+Dotyk_Chaosu_M_Zd:
+  Id: 313
+  Display: '&8&lDotyk Chaosu II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &780'
+  - '&4- &8Walka: &7+15'
+  - '&4- &8Mana: &7+20' 
+  - '&4- &8Zrecznosc: &7+10'
+  - '&4- &8Zdolnosci mysliwskie: &7+75'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c320'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      MovementSpeed: 0.25
+      Health: -35
+Dotyk_Chaosu_M_IntMana:
+  Id: 313
+  Display: '&8&lDotyk Chaosu II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &765'
+  - '&4- &8Walka: &7+20'
+  - '&4- &8Mana: &7+100' 
+  - '&4- &8Inteligencja: &7+55' 
+  - '&4- &8Wytrzymalosc: &7+20'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Inteligencja: &c160'
+  - '&4- &8Mana: &c320'
+  Options:
+    Unbreakable: true
+  Attributes:
+    feet:
+      MovementSpeed: 0.2
+      Health: -10
+Macka_Chaosu_M_Zd:
+  Id: crossbow
+  Display: '&8&lMacka Chaosu II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7260'
+  - '&4- &8Zrecznosc: &7+20'
+  - '&4- &8Zdolnosci mysliwskie: &7+80'
+  - '&4- &8Walka: &7+45'
+  - '&4- &8Inteligencja: &7+25'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c310'
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - MULTISHOT:2
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.25
+      Health: 50
+      KnockbackResistance: 0.25
+Macka_Chaosu_M_Walka:
+  Id: crossbow
+  Display: '&8&lMacka Chaosu II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7240'
+  - '&4- &8Zrecznosc: &7+60'
+  - '&4- &8Zdolnosci mysliwskie: &7+30'
+  - '&4- &8Walka: &7+30'
+  - '&4- &8Inteligencja: &7+20'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Walka: &c130'
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - MULTISHOT:2
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.15
+      Health: 30
+      KnockbackResistance: 0.15
+Macka_Chaosu_M_StrWytrz:
+  Id: crossbow
+  Display: '&8&lMacka Chaosu II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7220'
+  - '&4- &8Zrecznosc: &7+10'
+  - '&4- &8Zdolnosci mysliwskie: &7+15'
+  - '&4- &8Walka: &7+30'
+  - '&4- &8Sila: &7+70'
+  - '&4- &8Wytrzymalosc: &7+50'
+  - ''
+  - '&6&l&m==>&c Wymagania &6&l&m<=='
+  - ''
+  - '&4- &8Sila: &c155'
+  - '&4- &8Wytrzymalosc: &c155'
+  Options:
+    Unbreakable: true
+  Enchantments:
+  - MULTISHOT:2
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.05
+      Health: 40
+      KnockbackResistance: 0.45
+Zwierzchnik_Chaosu_H:
+  Id: 276
+  Display: '&8&lZwierzchnik Chaosu II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &4Unikat'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Obrazenia: &7170'
+  - '&4- &8Zrecznosc: &7+150'
+  - '&4- &8Zdolnosci mysliwskie: &7+150'
+  - '&4- &8Walka: &7+150'
+  - '&4- &8Sila: &7+150'
+  - '&4- &8Wytrzymalosc: &7+150'
+  - '&4- &8Inteligencja: &7+150'
+  - '&4- &8Mana: &7+150'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.15
+      KnockbackResistance: 0.3
+      Health: 120
+    offhand:
+      MovementSpeed: 0.15
+      KnockbackResistance: 0.3
+      Health: 120
+Pancerz_Tyrana_H:
+  Id: 312
+  Display: '&4&lPancerz Tyrana II'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &4Unikat'
+  - ''
+  - '&6&l&m==>&c Atrybuty &6&l&m<=='
+  - ''
+  - '&4- &8Ochrona: &775'
+  - ''
+  - '&8Wolnych slotow: &711'
+  Options:
+    Unbreakable: true
+  NBT:
+    Base:
+      FreeSlots: 11
+Krol_Tulaczy_M_Drop:
+  Id: 397
+  Data: 3
+  Display: '&3&lOko strzelca'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTdmZjIwYTRlYjQ0YWVlYWUwOTVhZTRmMzBhNGI0ZTk3NWQ1MGEzMTY1YzVlNGE0YTMyMmUzN2Q1Y2NiNTg2YyJ9fX0=
+Przadka_M_Drop:
+  Id: 397
+  Data: 3
+  Display: '&2&oGhule i Alghule'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWQ4OGE4NjQ0NWQ0MTE0YjE1MTcxYmI5ZWY4Mzc0NjA2MGNhZmZmMmNiMmFhNzUxMTU5NzQwY2ZmNDhkZjg5ZSJ9fX0=
+Kuchta_M_Drop:
+  Id: 397
+  Data: 3
+  Display: '&a&lZatrute jablko'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzRjMDVkZDVkN2E5Mjg4OWQ4ZDIyZDRkZjBmMWExZmUyYmVlM2VkZGYxOTJmNzhmYzQ0ZTAyZTE0ZGJmNjI5In19fQ==
+Areita_M_Drop:
+  Id: 397
+  Data: 3
+  Display: '&5Krysztalowa kula'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWVhNzRiNGMyOTEyODFhYjhlYjM0MGZjMTg3YTUxODVhZGZiZWFkZjBmZWIxYTQ0YzMyZmZkNTJmOTZjZTk5In19fQ==
+Sentenza_M_Drop:
+  Id: 397
+  Data: 3
+  Display: '&8&lPieczec Lordow'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjJkMjc5MzZiZTkwNzA5MDQ2ZDliNGVlYzRlMmE2N2Q2ZWQ1ODNlNGNmOTRmNTNjMDU2OTQzMTM1NzQyMyJ9fX0=
+Herobrine_M_Drop:
+  Id: 397
+  Data: 3
+  Display: '&9&oRozdzieracz Swiatow'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTM0OTMwMTI1NzY3YzJlMzRhYzkzOWVjOTRhMmFhNGU3OWMzODFlZTMzNjc2MDY5NWM2Yzg3NGNmMTIifX19

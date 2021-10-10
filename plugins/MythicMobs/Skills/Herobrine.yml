@@ -171,7 +171,7 @@ Herobrine_Tp2:
 
 Herobrine_Tp3:
   Skills:
-  - teleportto{location=8.5,39,170.5} @self
+  - teleportto{location=18.5,27,164.5} @self
 
 Herobrine_Tp4:
   Skills:
@@ -297,9 +297,9 @@ HerobrineSkill_5:
   - stun{d=100} @self
   - delay 100
   - sound{s=entity.illusion_illager.cast_spell;v=10;p=0.1} @self
-  - chain{b=10;d=5;bounceRadius=8;onBounce=SphereSkill_3_Effect_Bounce} @NearestPlayer{r=8}
+  - chain{b=10;d=5;bounceRadius=8;onBounce=HerobrineSkill_5_Effect_Bounce} @NearestPlayer{r=8}
 
-SphereSkill_3_Effect_Bounce:
+HerobrineSkill_5_Effect_Bounce:
   Skills:
   - sound{s=entity.illusion_illager.cast_spell;v=3;p=0.1}
   - sound{s=entity.tnt.primed;v=5}

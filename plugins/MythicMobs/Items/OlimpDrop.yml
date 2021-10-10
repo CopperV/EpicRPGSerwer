@@ -1,0 +1,201 @@
+Fragment_Berla_Wladcy:
+  Id: 369
+  Data: 0
+  Display: '&6Fragment Berla Wladcy'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Fragment_Pioruna:
+  Id: 409
+  Data: 0
+  Display: '&cFragment Pioruna'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Skarb_Olimpu:
+  Id: 266
+  Data: 0
+  Display: '&eSkarb Olimpu'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Grzyb_Olimpu:
+  Id: 40
+  Data: 0
+  Display: '&aGrzyb Stwora Olimpu'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &3Trofeum'
+Luk_Stwora_Olimpu_Zd:
+  Id: 261
+  Display: '&1Luk Stwora Olimpu'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &5Epicki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &755'
+  - '&4- &8Sila: &7+15'
+  - '&4- &8Walka: &7+10'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zdolnosci mysliwskie: &c239'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.01
+      KnockbackResistance: 0.01
+Berlo_Stwora_Olimpu_Int:
+  Id: 369
+  Display: '&e&lBerlo Stwora'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Rzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &790'
+  - '&4- &8Inteligencja: &7+10'
+  - '&4- &8Walka: &7+5'
+  - '&4- &8Mana: &7-100'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Inteligencja: &c205'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.01
+      KnockbackResistance: 0.05
+Kusza_Wyslannika_Str:
+  Id: crossbow
+  Display: '&0Kusza Wyslannika'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &bRzadki'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Obrazenia: &750'
+  - '&4- &8Sila: &7+10'
+  - '&4- &8Walka: &7-15'
+  - '&4- &8Zdolnosci mysliwskie: &7-8'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c190'
+  Options:
+    Unbreakable: true
+  Attributes:
+    mainhand:
+      MovementSpeed: 0.06
+      KnockbackResistance: 0.10
+      Health: -50
+    offhand:
+      Health: -99
+Helm_Wyslanika_Olimpu_Zr:
+  Id: 302
+  Display: '&c&oHelm Wyslannika'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &rZwykly'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &730'
+  - '&4- &8Sila: &7-5'
+  - '&4- &8Zrecznosc: &7+12'
+  - '&4- &8Walka: &7+9'
+  - '&4- &8Wytrzymalosc: &7-10'
+  - '&4- &8Inteligencja: &7+5'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c240'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: 0.10
+      Health: 7
+      KnockbackResistance: 0.09
+Helm_Olimpu_Str:
+  Id: 306
+  Display: '&3&lHelm Wladcy Olimpu'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &750'
+  - '&4- &8Sila: &7+55'
+  - '&4- &8Walka: &7+10'
+  - '&4- &8Wytrzymalosc: &7+5'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Sila: &c290'
+  Options:
+    Unbreakable: true
+  Attributes:
+    head:
+      MovementSpeed: -0.29
+      KnockbackResistance: 0.35
+      Health: 35
+Szata_Olimpu_Zr:
+  Id: 309
+  Display: '&3Szata Wladcy Olimpu'
+  Lore:
+  - ''
+  - '&r&lTyp przedmiotu: &6Legendarny'
+  - ''
+  - '&6&l》&c Atrybuty &6&l《'
+  - ''
+  - '&4- &8Ochrona: &768'
+  - '&4- &8Walka: &7+30'
+  - '&4- &8Wytrzymalosc: &7+7'
+  - '&4- &8Zrecznosc: &7+40'
+  - '&4- &8Zdolnosci mysliwskie: &7+5'
+  - ''
+  - '&6&l》&c Wymagania &6&l《'
+  - ''
+  - '&4- &8Zrecznosc: &c260'
+  Options:
+    Unbreakable: true
+  Attributes:
+    legs:
+      MovementSpeed: 0.15
+      Health: 35
+      KnockbackResistance: 0.06
+PrzepustkaOlimp:
+  Id: 339
+  Display: '&e&lPrzepustka - &b&lParnas'
+  Lore:
+  - ''
+  - '&cZwoj pozwalajacy przeniesc sie na'
+  - '&cdungeon &b&lParnas&c.'
+  - '&cBossy na tym dungeonie wymagaja'
+  - '&codwagi, sprytu, wytrwalosci oraz'
+  - '&cnajlepszego sprzetu, aby moc sie z nimi rownac!'
+  - ''
+  - '&cUszykuj najpotrzebniejsze itemy,'
+  - '&ca nastepnie kliknij PPM na przepustke, stajac na teleporcie.'
+  - '&cPrzeniesie cie on na pierwszy etap dunegona.'
+  - ''
+CzaszkaBossOlimp:
+  Id: 397
+  Data: 3
+  Display: '&cCzaszkaBossOlimp'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzI0YzU3Yzk1NTAxY2I2ZjllYjBkMjE5ZWFlZDRjMTBmZjYwNTk3NGI0OWIzNDRkOTM3NjJkYzA1MjEzYWYwMCJ9fX0=
+CzaszkaSummonWladcyOlimp:
+  Id: 397
+  Data: 3
+  Display: '&cCzaszkaSummonWladcyOlimp'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGY3ZDNkYTZhOWM2ZjRjYTFmNDgwNjJmNmY0ZDljM2YzZTJjZjEzM2U4Yzg1MjhiODc0ZGQ4Nzk2MjZhOTY3NiJ9fX0=

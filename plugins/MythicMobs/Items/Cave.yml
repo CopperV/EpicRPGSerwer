@@ -1,0 +1,59 @@
+Topaz:
+  Id: PLAYER_HEAD
+  Display: '&b&lTopaz'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWE2MTIzMTZmOGQ2OWNhMTgxODQ0NjJiZDY0ZTFkZGI4ZGY5OWYwZGY2ZjljOWMwMmI0YzFhNDFjMTMyYWQ5NyJ9fX0=
+  NBT:
+    Base:
+      Cave: "topaz"
+Bursztyn:
+  Id: PLAYER_HEAD
+  Display: '&e&lBursztyn'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWM3ZjdiNzJmYzNlNzMzODI4ZmNjY2MwY2E4Mjc4YWNhMjYzM2FhMzNhMjMxYzkzYTY4MmQxNGFjNTRhYTBjNCJ9fX0=
+  NBT:
+    Base:
+      Cave: "bursztyn"
+Jadeit:
+  Id: PLAYER_HEAD
+  Display: '&2&lJadeit'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGIxZWFjNDI5MDAwZWIyYzQxOGJlNDZlYTA2YWNkZWZlZDRiNzA1M2EwMGUzZTdmMTEyNzI4MzAwNjhmMjEifX19
+  NBT:
+    Base:
+      Cave: "jadeit"
+Opal:
+  Id: PLAYER_HEAD
+  Display: '&a&lOpal'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDlhZTg4YTdkMDNmNDc0NTU4YTA1NjkyZTVmNWMzYWRlMzEyZGRmMTA3MjE2NmFkMDQyNjMzNGVmNTE3NGI4NyJ9fX0=
+  NBT:
+    Base:
+      Cave: "opal"
+Szafir:
+  Id: PLAYER_HEAD
+  Display: '&9&lSzafir'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWJhMzM4MzM0ZWM0YzA0YTMwNGEwODNhMGEwNTY5NWQ1MDM4ZWVmNmE1ZmFkZjBmZGQ2YjZlMWQ5YzM0MDIzNSJ9fX0=
+  NBT:
+    Base:
+      Cave: "szafir"
+Ametyst:
+  Id: PLAYER_HEAD
+  Display: '&5&lAmetyst'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjE0MThlOTA5NjFlZWNkZTg3ZmFmOTQ3YTVhMDFjZmJmNWU5Njg0Y2M5ODJhMjUzNGMxMjBiYTJhYzRmYTA2YyJ9fX0=
+  NBT:
+    Base:
+      Cave: "ametyst"
+Odlamek_Czarnej_Rudy:
+  Id: NETHERITE_SCRAP
+  Display: '&8&lKawalek czarnej rudy'
+Spaczona_Ruda:
+  Id: PLAYER_HEAD
+  Display: '&c&lSpaczona ruda'
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTM1NTRmNWQzODcwMjJhZDc2MGMyYjA2Y2U5MTNjMDY2YTFjMGM0MzI0NzA1N2ViOGU0ZjhmNjM2OWJlMmFhNiJ9fX0=
+  NBT:
+    Base:
+      Cave: "crimson"

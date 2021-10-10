@@ -1,0 +1,6 @@
+Lege_Wladca_Olimp:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+  - Szata_Olimpu_Zr 1 0.07
+  - Helm_Olimpu_Str 1 0.09

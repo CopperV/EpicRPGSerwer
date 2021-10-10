@@ -43,7 +43,7 @@ Ziolo_many:
 Zebate_ziele:
   Id: 175
   Data: 3
-  Display: "&r&lZebate ziele"
+  Display: "&f&lZebate ziele"
 Rdest_polny:
   Id: 37
   Display: "&aRdest polny"
